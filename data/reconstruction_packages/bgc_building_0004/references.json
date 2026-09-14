@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-14",
+  "records": [
+    {
+      "reference_id": "ref:official:one-maridien",
+      "source_id": "source:official-alveo-maridien",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0004",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://www.alveoland.com.ph/properties/condos/taguig/hss-maridien/",
+      "title": "High Street South – Maridien",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:web:kmc-one-maridien",
+      "source_id": "source:kmc-one-maridien",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0004",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://kmcmaggroup.com/building/high-street-south-block-the-maridien/",
+      "title": "High Street South Block The Maridien",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

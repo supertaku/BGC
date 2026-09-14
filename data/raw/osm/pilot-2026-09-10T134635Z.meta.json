@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "source_id": "source:osm",
+  "source_title": "OpenStreetMap via Overpass API",
+  "source_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "retrieved_at": "2026-09-10T13:46:35.844894+00:00",
+  "boundary_path": "data/geographic/pilot-boundary.geojson",
+  "boundary_sha256": "c045c81b841d3516230cacb6a1d04190c75cbd5a0aed1bf7dd1669380dcffb27",
+  "bbox_south_west_north_east": [
+    14.54865,
+    121.0475,
+    14.5524,
+    121.05205
+  ],
+  "query": "[out:json][timeout:120];\n(\n  nwr[\"building\"](14.5486500,121.0475000,14.5524000,121.0520500);\n  nwr[\"building:part\"](14.5486500,121.0475000,14.5524000,121.0520500);\n  nwr[\"highway\"](14.5486500,121.0475000,14.5524000,121.0520500);\n  nwr[\"leisure\"](14.5486500,121.0475000,14.5524000,121.0520500);\n  nwr[\"amenity\"](14.5486500,121.0475000,14.5524000,121.0520500);\n  nwr[\"natural\"](14.5486500,121.0475000,14.5524000,121.0520500);\n  nwr[\"barrier\"](14.5486500,121.0475000,14.5524000,121.0520500);\n  nwr[\"landuse\"](14.5486500,121.0475000,14.5524000,121.0520500);\n);\nout meta geom;",
+  "query_sha256": "4a1a835c6b130399490a7673ff10e180e5f31d3c95504e787f02716604b6ab75",
+  "sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "element_count": 883,
+  "raw_path": "data/raw/osm/pilot-2026-09-10T134635Z.json"
+}

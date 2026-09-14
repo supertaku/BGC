@@ -1,0 +1,92 @@
+{
+  "type": "FeatureCollection",
+  "name": "pilot-boundary-local",
+  "schema_version": 2,
+  "dataset_id": "pilot-boundary-local",
+  "source_id": "source:osm",
+  "source_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "source_retrieved_at": "2026-09-10T13:46:35.844894+00:00",
+  "source_crs": "EPSG:4326",
+  "projected_crs": "EPSG:32651",
+  "local_frame": {
+    "origin_wgs84": {
+      "longitude": 121.050972,
+      "latitude": 14.550806
+    },
+    "origin_projected": {
+      "easting": 289998.297,
+      "northing": 1609541.742
+    },
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres",
+    "transform_library": "pyproj"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "scope:pilot-high-street-central-v1",
+      "properties": {
+        "name": "Bonifacio High Street central core pilot",
+        "status": "estimated information",
+        "boundary_role": "m1_m5_lite_pilot",
+        "version": 1,
+        "crs": "EPSG:4326",
+        "bbox_west_south_east_north": [
+          121.0475,
+          14.54865,
+          121.05205,
+          14.5524
+        ],
+        "centroid_wgs84": [
+          121.049775,
+          14.550525
+        ],
+        "approximate_width_m": 493.8,
+        "approximate_length_m": 418.8,
+        "approximate_area_ha": 20.35,
+        "description": "Engineering pilot centered on Bonifacio High Street, spanning approximately 5th–9th Avenues and 28th–32nd Streets. The polygon is a reproducible project scope, not a legal parcel boundary.",
+        "evidence": "Pilot selection is inferred from current OSM coverage metrics and published High Street planning context; the rectangle itself is an estimated engineering boundary.",
+        "sources": [
+          "source:osm",
+          "source:uli-bgc-case-study"
+        ],
+        "geometry_status": "ESTIMATED",
+        "source_ids": [
+          "source:osm",
+          "source:uli-bgc-case-study"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -372.714,
+              179.589
+            ],
+            [
+              -376.268,
+              -235.373
+            ],
+            [
+              114.152,
+              -239.568
+            ],
+            [
+              117.698,
+              175.393
+            ],
+            [
+              -372.714,
+              179.589
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

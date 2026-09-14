@@ -1,0 +1,156 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-14",
+  "records": [
+    {
+      "reference_id": "ref:official:w-global",
+      "source_id": "source:official-w-group-w-global",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0007",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.95
+        }
+      ],
+      "source_page_url": "https://wgroup.com.ph/projects/w-global-center-3/",
+      "title": "W Global Center",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true,
+      "directional_evidence": {
+        "viewpoint_side": "CORNER_30TH_9TH",
+        "facades_visible": [
+          "30TH_STREET",
+          "9TH_AVENUE"
+        ],
+        "target_visibility": "HIGH",
+        "occlusion": "LOW_TO_MODERATE",
+        "perspective_quality": "GOOD_OBLIQUE",
+        "camera_match_feasibility": "PARTIAL"
+      }
+    },
+    {
+      "reference_id": "ref:web:officepro-w-global",
+      "source_id": "source:officepro-w-global",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0007",
+          "relationship": "MULTI_VIEW_EXTERIOR",
+          "confidence": 0.95
+        }
+      ],
+      "source_page_url": "https://www.officepro.ph/buildings/w-global-center",
+      "title": "W Global Center gallery",
+      "reference_role": "MULTI_VIEW_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true,
+      "directional_evidence": {
+        "viewpoint_side": "CORNER_30TH_9TH",
+        "facades_visible": [
+          "30TH_STREET",
+          "9TH_AVENUE"
+        ],
+        "target_visibility": "HIGH",
+        "occlusion": "LOW_TO_MODERATE",
+        "perspective_quality": "GOOD_OBLIQUE",
+        "camera_match_feasibility": "PARTIAL"
+      }
+    },
+    {
+      "reference_id": "ref:web:colliers-w-global",
+      "source_id": "source:colliers-w-global",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0007",
+          "relationship": "EXTERIOR_AND_BUILDING_FACTS",
+          "confidence": 0.95
+        }
+      ],
+      "source_page_url": "https://www.colliers.com/en-ph/properties/office-space-for-lease-in-bonifacio-global-city-taguig/phl-w-global-center/phl22000360",
+      "title": "W Global Center listing",
+      "reference_role": "EXTERIOR_AND_BUILDING_FACTS",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true,
+      "directional_evidence": {
+        "viewpoint_side": "CORNER_30TH_9TH",
+        "facades_visible": [
+          "30TH_STREET",
+          "9TH_AVENUE"
+        ],
+        "target_visibility": "HIGH",
+        "occlusion": "LOW_TO_MODERATE",
+        "perspective_quality": "GOOD_OBLIQUE",
+        "camera_match_feasibility": "PARTIAL"
+      }
+    },
+    {
+      "reference_id": "ref:web:savills-w-global",
+      "source_id": "source:savills-w-global",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0007",
+          "relationship": "BUILDING_FACTS_AND_EXTERIOR",
+          "confidence": 0.95
+        }
+      ],
+      "source_page_url": "https://savillsph.com/building/w-global-center/",
+      "title": "W Global Center building details",
+      "reference_role": "BUILDING_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true,
+      "directional_evidence": {
+        "viewpoint_side": "CORNER_30TH_9TH",
+        "facades_visible": [
+          "30TH_STREET",
+          "9TH_AVENUE"
+        ],
+        "target_visibility": "HIGH",
+        "occlusion": "LOW_TO_MODERATE",
+        "perspective_quality": "GOOD_OBLIQUE",
+        "camera_match_feasibility": "PARTIAL"
+      }
+    },
+    {
+      "reference_id": "ref:web:kmc-w-global-brochure",
+      "source_id": "source:kmc-w-global-brochure",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0007",
+          "relationship": "FLOOR_ORGANIZATION_AND_HISTORIC_EXTERIOR",
+          "confidence": 0.95
+        }
+      ],
+      "source_page_url": "https://www.slideshare.net/slideshow/w-global-center/40801947",
+      "title": "W Global Center 2014 brochure",
+      "reference_role": "FLOOR_ORGANIZATION_AND_HISTORIC_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true,
+      "directional_evidence": {
+        "viewpoint_side": "CORNER_30TH_9TH",
+        "facades_visible": [
+          "30TH_STREET",
+          "9TH_AVENUE"
+        ],
+        "target_visibility": "HIGH",
+        "occlusion": "LOW_TO_MODERATE",
+        "perspective_quality": "GOOD_OBLIQUE",
+        "camera_match_feasibility": "PARTIAL"
+      }
+    }
+  ]
+}

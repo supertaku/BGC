@@ -1,0 +1,155 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_building_0007",
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "footprint": {
+      "rating": "GOOD",
+      "reference_ids": [],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "height": {
+      "rating": "GOOD",
+      "reference_ids": [],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "floor_organization": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.5,
+      "blocking": false
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "30th_street_side": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "9th_avenue_side": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "opposite_side_a": {
+      "rating": "WEAK",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.3,
+      "blocking": false
+    },
+    "opposite_side_b": {
+      "rating": "WEAK",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.3,
+      "blocking": false
+    },
+    "primary_entrance": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.5,
+      "blocking": false
+    },
+    "entrance": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.5,
+      "blocking": false
+    },
+    "parking_bands": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "ground_retail": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.5,
+      "blocking": false
+    },
+    "glazing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "opaque_panels": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "structural_frame": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.5,
+      "blocking": false
+    },
+    "roof": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "materials": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.85,
+      "blocking": false
+    },
+    "street_context": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "confidence": 0.5,
+      "blocking": false
+    }
+  },
+  "reconstruction_gate": "RECONSTRUCTION_READY_WITH_GAPS"
+}

@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_005_007",
+  "input_sha256": "0eb0439613dae1bbd7f948b5b2b24a79bbfddf5564dcb81aca620bb8ee603908",
+  "output_sha256": "a0713770904fe2695f2d0a21e02208d06aa05a6ebdfd5c5c75ae53c98b9a80af",
+  "building_count": 9,
+  "render_volume_count": 12,
+  "mesh_count": 9,
+  "triangle_count": 5016,
+  "material_count": 7,
+  "bytes": 240396,
+  "entities": [
+    {
+      "entity_id": "osm:way:1071370328",
+      "source_feature_id": "osm:way:1071370328",
+      "name": null,
+      "height_m": 76.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "hotel",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:145147831",
+      "source_feature_id": "osm:way:145147831",
+      "name": "W Global Center",
+      "height_m": 30.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "commercial",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:203893622",
+      "source_feature_id": "osm:way:203893622",
+      "name": "NAC Tower",
+      "height_m": 27.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:203893622",
+      "source_feature_id": "osm:way:582087451",
+      "name": null,
+      "height_m": 131.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:242294490",
+      "source_feature_id": "osm:way:242294490",
+      "name": "JY Campos Center",
+      "height_m": 45.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27442546",
+      "source_feature_id": "osm:way:27442546",
+      "name": "B:3",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:363498126",
+      "source_feature_id": "osm:way:363498126",
+      "name": "Orè Central",
+      "height_m": 41.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:363498126",
+      "source_feature_id": "osm:way:538697012",
+      "name": null,
+      "height_m": 133.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:363498126",
+      "source_feature_id": "osm:way:538697013",
+      "name": null,
+      "height_m": 90.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:428836645",
+      "source_feature_id": "osm:way:428836645",
+      "name": "BGC Corporate Center",
+      "height_m": 87.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:469658015",
+      "source_feature_id": "osm:way:469658015",
+      "name": "One World Place",
+      "height_m": 122.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:69685415",
+      "source_feature_id": "osm:way:69685415",
+      "name": "Eco Tower",
+      "height_m": 118.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

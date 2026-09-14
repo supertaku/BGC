@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "representative_tile": "tile_004_007",
+  "building_entities": 11,
+  "render_volumes": 13,
+  "per_building": {
+    "meshes": 17,
+    "triangles": 5620,
+    "materials": 7,
+    "glb_bytes": 273916,
+    "entity_selection": "direct mesh-to-entity metadata"
+  },
+  "merged_by_material": {
+    "meshes": 8,
+    "triangles": 5620,
+    "materials": 7,
+    "glb_bytes": 266556,
+    "entity_selection": "tile manifest sidecar maps canonical entities and source volumes"
+  },
+  "decision": "MERGED_BY_TILE_MATERIAL_WITH_ENTITY_SIDECAR",
+  "reason": "The representative tile reduced mesh/draw-call potential by 52.9% and bytes by 2.7% with unchanged triangles. Entity identity remains in the manifest."
+}

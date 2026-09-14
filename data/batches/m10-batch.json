@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "strategy": "Wave A framework gate before Wave B",
+  "targets": [
+    {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien",
+      "selection_reason": "Evidence-rich tower-and-podium case with an explicit mapped tower part.",
+      "archetype": "PODIUM_TOWER",
+      "complexity": "HIGH",
+      "evidence_state": "READY_WITH_GAPS",
+      "wave": "A"
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre",
+      "selection_reason": "Confirmed mid-rise office with a distinctive evidence-backed facade screen.",
+      "archetype": "OFFICE_BLOCK",
+      "complexity": "MEDIUM",
+      "evidence_state": "READY_WITH_GAPS",
+      "wave": "A"
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "name": "Verve Residences Tower 2",
+      "selection_reason": "Second tall residential form tests repeated tower throughput without changing schema.",
+      "archetype": "PODIUM_TOWER",
+      "complexity": "HIGH",
+      "evidence_state": "READY_WITH_GAPS",
+      "wave": "B"
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo",
+      "selection_reason": "Current four-storey street-facing flagship supplies a low-rise retail contrast.",
+      "archetype": "LOW_RISE_RETAIL",
+      "complexity": "LOW",
+      "evidence_state": "READY_WITH_GAPS",
+      "wave": "B"
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "name": "C1",
+      "selection_reason": "Ten-edge mapped footprint retires the untested arbitrary-edge massing risk.",
+      "archetype": "IRREGULAR_FOOTPRINT",
+      "complexity": "MEDIUM",
+      "evidence_state": "READY_WITH_GAPS",
+      "wave": "B"
+    }
+  ]
+}

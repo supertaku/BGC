@@ -1,0 +1,70 @@
+{
+  "entity_id": "bgc_building_0015",
+  "entity_type": "BUILDING",
+  "canonical_name": "JY Campos Centre",
+  "normalized_name": "jy campos centre",
+  "aliases": [
+    "JY Campos Center",
+    "J.Y. Campos Center"
+  ],
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.99,
+  "decision_method": "EXACT_OFFICIAL_MATCH",
+  "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+  "decision_timestamp": "2026-09-11",
+  "supporting_evidence": [
+    "Company and government sources match the named building at 9th Avenue and 30th Street."
+  ],
+  "centroid": {
+    "longitude": 121.0513029,
+    "latitude": 14.5513585,
+    "local_x_m": 36.183,
+    "local_y_m": 60.828
+  },
+  "footprint_reference": "data/processed/pilot-buildings.geojson",
+  "geographic_feature_ids": [
+    "osm:way:242294490"
+  ],
+  "osm_ids": [
+    "osm:way:242294490"
+  ],
+  "building_part_ids": [],
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "official_url": "https://www.delmontephil.com/contact",
+  "official_address": null,
+  "parent_entity_id": null,
+  "child_entity_ids": [],
+  "source_ids": [
+    "source:csya-jy-campos",
+    "source:government-jy-campos-proclamation",
+    "source:official-del-monte-jy-campos",
+    "source:osm",
+    "source:savills-jy-campos"
+  ],
+  "height": {
+    "value_m": 45.9,
+    "status": "VERIFIED_GEOGRAPHIC",
+    "method": "osm_height",
+    "confidence": 0.75,
+    "source_ids": [
+      "source:osm"
+    ],
+    "levels": 12.0
+  },
+  "tags": {
+    "addr:city": "Taguig",
+    "addr:district": "Bonifacio Global City",
+    "addr:street": "30th Street",
+    "addr:street:corner": "9th Avenue",
+    "alt_name": "J.Y. Campos Center",
+    "building": "office",
+    "building:levels": "12",
+    "height": "45.9",
+    "name": "JY Campos Center"
+  },
+  "reconstruction_package_version": 1,
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

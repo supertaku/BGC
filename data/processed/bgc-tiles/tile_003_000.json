@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_003_000",
+  "tile_size_m": 250.0,
+  "bounds": [
+    -500.0,
+    -1750.0,
+    -250.0,
+    -1500.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -441.199,
+          -1524.061
+        ],
+        [
+          -460.39043307107806,
+          -1500.0
+        ],
+        [
+          -313.02908169884944,
+          -1500.0
+        ],
+        [
+          -441.199,
+          -1524.061
+        ]
+      ]
+    ]
+  },
+  "buildings": [],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:358969462",
+      "properties": {
+        "id": "osm:way:358969462",
+        "source_ids": [
+          "osm:way:358969462",
+          "source:osm"
+        ],
+        "name": "Lawton Avenue",
+        "class": "secondary",
+        "width_m": 6.0,
+        "width_status": "VERIFIED_GEOGRAPHIC",
+        "width_method": "osm_width",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 227.64,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -439.433,
+              -1523.73
+            ],
+            [
+              -434.155,
+              -1504.656
+            ],
+            [
+              -430.082,
+              -1478.474
+            ],
+            [
+              -426.234,
+              -1434.352
+            ],
+            [
+              -423.969,
+              -1400.275
+            ],
+            [
+              -423.623,
+              -1378.699
+            ],
+            [
+              -423.494,
+              -1358.57
+            ],
+            [
+              -423.644,
+              -1318.231
+            ],
+            [
+              -424.598,
+              -1297.385
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "3",
+          "name": "Lawton Avenue",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "width": "6",
+          "wikidata": "Q17075566"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -431.191,
+              -1505.117
+            ],
+            [
+              -431.264,
+              -1505.456
+            ],
+            [
+              -436.542,
+              -1524.53
+            ],
+            [
+              -442.324,
+              -1522.93
+            ],
+            [
+              -437.093,
+              -1504.023
+            ],
+            [
+              -436.4671137398688,
+              -1500.0
+            ],
+            [
+              -430.3949744480941,
+              -1500.0
+            ],
+            [
+              -431.191,
+              -1505.117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565146111",
+      "properties": {
+        "id": "osm:way:565146111",
+        "source_ids": [
+          "osm:way:565146111",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 235.7,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -295.026,
+              -1282.359
+            ],
+            [
+              -322.626,
+              -1316.805
+            ],
+            [
+              -332.217,
+              -1339.133
+            ],
+            [
+              -338.741,
+              -1358.333
+            ],
+            [
+              -342.662,
+              -1376.824
+            ],
+            [
+              -345.45,
+              -1399.077
+            ],
+            [
+              -346.022,
+              -1431.962
+            ],
+            [
+              -345.158,
+              -1465.733
+            ],
+            [
+              -347.415,
+              -1476.337
+            ],
+            [
+              -352.259,
+              -1485.57
+            ],
+            [
+              -354.988,
+              -1489.508
+            ],
+            [
+              -364.441,
+              -1498.314
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -362.738,
+              -1500.143
+            ],
+            [
+              -362.8711514074884,
+              -1500.0
+            ],
+            [
+              -362.58445973878474,
+              -1500.0
+            ],
+            [
+              -362.738,
+              -1500.143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:862768309",
+      "properties": {
+        "id": "osm:way:862768309",
+        "source_ids": [
+          "osm:way:862768309",
+          "source:osm"
+        ],
+        "name": "Lawton Avenue",
+        "class": "secondary",
+        "width_m": 9.0,
+        "width_status": "VERIFIED_GEOGRAPHIC",
+        "width_method": "osm_width",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 141.79,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -436.952,
+              -1371.701
+            ],
+            [
+              -439.701,
+              -1431.016
+            ],
+            [
+              -442.992,
+              -1477.965
+            ],
+            [
+              -447.826,
+              -1502.348
+            ],
+            [
+              -450.405,
+              -1512.519
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "3",
+          "name": "Lawton Avenue",
+          "operator": "Department of Public Works and Highways",
+          "sidewalk": "right",
+          "surface": "concrete",
+          "width": "9",
+          "wikidata": "Q17075566"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -443.411,
+              -1503.223
+            ],
+            [
+              -443.464,
+              -1503.454
+            ],
+            [
+              -446.044,
+              -1513.625
+            ],
+            [
+              -454.767,
+              -1511.412
+            ],
+            [
+              -452.217,
+              -1501.356
+            ],
+            [
+              -451.9481515757879,
+              -1500.0
+            ],
+            [
+              -442.7721631464545,
+              -1500.0
+            ],
+            [
+              -443.411,
+              -1503.223
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "type": "Feature",
+      "id": "osm:way:740592675",
+      "properties": {
+        "id": "osm:way:740592675",
+        "source_ids": [
+          "osm:way:740592675",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 399.55,
+        "centerline_local": {
+          "type": "MultiLineString",
+          "coordinates": [
+            [
+              [
+                -447.42,
+                -1370.616
+              ],
+              [
+                -443.466,
+                -1382.148
+              ],
+              [
+                -450.236,
+                -1480.493
+              ],
+              [
+                -456.051,
+                -1505.441
+              ]
+            ],
+            [
+              [
+                -524.019,
+                -1420.23
+              ],
+              [
+                -520.173,
+                -1374.453
+              ],
+              [
+                -519.281,
+                -1236.251
+              ],
+              [
+                -473.29,
+                -1218.12
+              ],
+              [
+                -446.63,
+                -1205.301
+              ]
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -455.174,
+              -1505.645
+            ],
+            [
+              -456.928,
+              -1505.237
+            ],
+            [
+              -455.7072683093496,
+              -1500.0
+            ],
+            [
+              -453.8584624819625,
+              -1500.0
+            ],
+            [
+              -455.174,
+              -1505.645
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "open_spaces": [],
+  "input_sha256": "72e135c7c1d82ba6772a59bd37a4bf764b29ac6982f8526fd49fbd44a5da8747"
+}

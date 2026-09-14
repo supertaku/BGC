@@ -1,0 +1,1837 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_003_001",
+  "tile_size_m": 250.0,
+  "bounds": [
+    -500.0,
+    -1500.0,
+    -250.0,
+    -1250.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -500.0,
+          -1450.340040457268
+        ],
+        [
+          -500.0,
+          -1250.0
+        ],
+        [
+          -250.0,
+          -1250.0
+        ],
+        [
+          -250.0,
+          -1488.1677170832495
+        ],
+        [
+          -313.02908169884944,
+          -1500.0
+        ],
+        [
+          -460.39043307107806,
+          -1500.0
+        ],
+        [
+          -500.0,
+          -1450.340040457268
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1069805464",
+      "properties": {
+        "id": "osm:way:1069805464",
+        "source_ids": [
+          "osm:way:1069805464",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 95.5,
+        "min_height_m": 0.0,
+        "levels": 25.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1475.2,
+        "tags": {
+          "building:levels": "25",
+          "building:part": "yes",
+          "height": "95.5"
+        },
+        "canonical_entity_id": "osm:way:1069805464",
+        "render_role": "orphan_part"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -516.255,
+              -1420.401
+            ],
+            [
+              -491.192,
+              -1422.995
+            ],
+            [
+              -489.372,
+              -1405.525
+            ],
+            [
+              -479.205,
+              -1406.575
+            ],
+            [
+              -476.175,
+              -1377.563
+            ],
+            [
+              -511.394,
+              -1373.93
+            ],
+            [
+              -516.255,
+              -1420.401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565146106",
+      "properties": {
+        "id": "osm:way:565146106",
+        "source_ids": [
+          "osm:way:565146106",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 477.02,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:565146106",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -315.672,
+              -1496.816
+            ],
+            [
+              -331.133,
+              -1483.338
+            ],
+            [
+              -349.66,
+              -1504.339
+            ],
+            [
+              -336.338,
+              -1515.951
+            ],
+            [
+              -330.297,
+              -1509.097
+            ],
+            [
+              -333.603,
+              -1506.213
+            ],
+            [
+              -327.061,
+              -1498.81
+            ],
+            [
+              -321.615,
+              -1503.549
+            ],
+            [
+              -315.672,
+              -1496.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565146107",
+      "properties": {
+        "id": "osm:way:565146107",
+        "source_ids": [
+          "osm:way:565146107",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 482.76,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:565146107",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -301.926,
+              -1408.424
+            ],
+            [
+              -322.499,
+              -1409.056
+            ],
+            [
+              -321.647,
+              -1436.697
+            ],
+            [
+              -302.626,
+              -1436.118
+            ],
+            [
+              -302.898,
+              -1427.506
+            ],
+            [
+              -308.601,
+              -1427.678
+            ],
+            [
+              -308.903,
+              -1417.616
+            ],
+            [
+              -301.647,
+              -1417.402
+            ],
+            [
+              -301.926,
+              -1408.424
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1200311142",
+      "properties": {
+        "id": "osm:way:1200311142",
+        "source_ids": [
+          "osm:way:1200311142",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 23.49,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -401.113,
+              -1297.885
+            ],
+            [
+              -424.598,
+              -1297.385
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -401.06,
+              -1295.385
+            ],
+            [
+              -401.166,
+              -1300.384
+            ],
+            [
+              -424.651,
+              -1299.885
+            ],
+            [
+              -424.545,
+              -1294.886
+            ],
+            [
+              -401.06,
+              -1295.385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:15090053",
+      "properties": {
+        "id": "osm:way:15090053",
+        "source_ids": [
+          "osm:way:15090053",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 669.43,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -201.04,
+              -854.006
+            ],
+            [
+              -239.152,
+              -871.176
+            ],
+            [
+              -258.181,
+              -882.887
+            ],
+            [
+              -274.483,
+              -894.611
+            ],
+            [
+              -296.479,
+              -912.915
+            ],
+            [
+              -317.66,
+              -938.02
+            ],
+            [
+              -341.27,
+              -968.517
+            ],
+            [
+              -362.223,
+              -1014.794
+            ],
+            [
+              -373.849,
+              -1055.796
+            ],
+            [
+              -376.91,
+              -1088.493
+            ],
+            [
+              -376.52,
+              -1121.032
+            ],
+            [
+              -367.022,
+              -1167.548
+            ],
+            [
+              -347.984,
+              -1212.763
+            ],
+            [
+              -326.461,
+              -1249.676
+            ],
+            [
+              -295.026,
+              -1282.359
+            ],
+            [
+              -283.382,
+              -1290.924
+            ],
+            [
+              -270.001,
+              -1296.86
+            ],
+            [
+              -258.006,
+              -1299.685
+            ],
+            [
+              -244.28,
+              -1300.533
+            ],
+            [
+              -200.434,
+              -1294.921
+            ],
+            [
+              -158.36,
+              -1289.736
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -258.16,
+              -1302.18
+            ],
+            [
+              -258.371,
+              -1302.158
+            ],
+            [
+              -258.579,
+              -1302.118
+            ],
+            [
+              -270.574,
+              -1299.293
+            ],
+            [
+              -270.798,
+              -1299.229
+            ],
+            [
+              -271.015,
+              -1299.145
+            ],
+            [
+              -284.396,
+              -1293.21
+            ],
+            [
+              -284.637,
+              -1293.087
+            ],
+            [
+              -284.863,
+              -1292.938
+            ],
+            [
+              -296.508,
+              -1284.373
+            ],
+            [
+              -296.674,
+              -1284.239
+            ],
+            [
+              -296.828,
+              -1284.092
+            ],
+            [
+              -328.262,
+              -1251.409
+            ],
+            [
+              -328.455,
+              -1251.183
+            ],
+            [
+              -328.62,
+              -1250.936
+            ],
+            [
+              -329.16576756786037,
+              -1250.0
+            ],
+            [
+              -322.6813058830812,
+              -1250.0
+            ],
+            [
+              -293.373,
+              -1280.472
+            ],
+            [
+              -282.12,
+              -1288.749
+            ],
+            [
+              -269.201,
+              -1294.48
+            ],
+            [
+              -257.64,
+              -1297.203
+            ],
+            [
+              -250.0,
+              -1297.6748180448863
+            ],
+            [
+              -250.0,
+              -1302.68412938948
+            ],
+            [
+              -258.16,
+              -1302.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:358969462",
+      "properties": {
+        "id": "osm:way:358969462",
+        "source_ids": [
+          "osm:way:358969462",
+          "source:osm"
+        ],
+        "name": "Lawton Avenue",
+        "class": "secondary",
+        "width_m": 6.0,
+        "width_status": "VERIFIED_GEOGRAPHIC",
+        "width_method": "osm_width",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 227.64,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -439.433,
+              -1523.73
+            ],
+            [
+              -434.155,
+              -1504.656
+            ],
+            [
+              -430.082,
+              -1478.474
+            ],
+            [
+              -426.234,
+              -1434.352
+            ],
+            [
+              -423.969,
+              -1400.275
+            ],
+            [
+              -423.623,
+              -1378.699
+            ],
+            [
+              -423.494,
+              -1358.57
+            ],
+            [
+              -423.644,
+              -1318.231
+            ],
+            [
+              -424.598,
+              -1297.385
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "3",
+          "name": "Lawton Avenue",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "width": "6",
+          "wikidata": "Q17075566"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -433.062,
+              -1478.113
+            ],
+            [
+              -429.225,
+              -1434.122
+            ],
+            [
+              -426.968,
+              -1400.152
+            ],
+            [
+              -426.623,
+              -1378.665
+            ],
+            [
+              -426.494,
+              -1358.566
+            ],
+            [
+              -426.644,
+              -1318.306
+            ],
+            [
+              -427.595,
+              -1297.522
+            ],
+            [
+              -421.601,
+              -1297.248
+            ],
+            [
+              -420.647,
+              -1318.094
+            ],
+            [
+              -420.644,
+              -1318.22
+            ],
+            [
+              -420.494,
+              -1358.559
+            ],
+            [
+              -420.494,
+              -1358.589
+            ],
+            [
+              -420.623,
+              -1378.718
+            ],
+            [
+              -420.623,
+              -1378.747
+            ],
+            [
+              -420.97,
+              -1400.324
+            ],
+            [
+              -420.976,
+              -1400.474
+            ],
+            [
+              -423.24,
+              -1434.551
+            ],
+            [
+              -423.245,
+              -1434.613
+            ],
+            [
+              -427.094,
+              -1478.735
+            ],
+            [
+              -427.118,
+              -1478.935
+            ],
+            [
+              -430.3949744480941,
+              -1500.0
+            ],
+            [
+              -436.4671137398688,
+              -1500.0
+            ],
+            [
+              -433.062,
+              -1478.113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565146108",
+      "properties": {
+        "id": "osm:way:565146108",
+        "source_ids": [
+          "osm:way:565146108",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 12.35,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -354.988,
+              -1489.508
+            ],
+            [
+              -345.864,
+              -1497.831
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -356.672,
+              -1491.355
+            ],
+            [
+              -353.303,
+              -1487.661
+            ],
+            [
+              -344.179,
+              -1495.984
+            ],
+            [
+              -347.549,
+              -1499.678
+            ],
+            [
+              -356.672,
+              -1491.355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565146109",
+      "properties": {
+        "id": "osm:way:565146109",
+        "source_ids": [
+          "osm:way:565146109",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 20.7,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -346.022,
+              -1431.962
+            ],
+            [
+              -325.325,
+              -1431.973
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -346.024,
+              -1434.462
+            ],
+            [
+              -346.021,
+              -1429.462
+            ],
+            [
+              -325.324,
+              -1429.473
+            ],
+            [
+              -325.327,
+              -1434.473
+            ],
+            [
+              -346.024,
+              -1434.462
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565146110",
+      "properties": {
+        "id": "osm:way:565146110",
+        "source_ids": [
+          "osm:way:565146110",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 81.4,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -322.626,
+              -1316.805
+            ],
+            [
+              -343.517,
+              -1308.006
+            ],
+            [
+              -364.862,
+              -1301.792
+            ],
+            [
+              -379.879,
+              -1299.361
+            ],
+            [
+              -401.113,
+              -1297.885
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -380.166,
+              -1301.848
+            ],
+            [
+              -401.286,
+              -1300.379
+            ],
+            [
+              -400.94,
+              -1295.391
+            ],
+            [
+              -379.705,
+              -1296.867
+            ],
+            [
+              -379.479,
+              -1296.894
+            ],
+            [
+              -364.463,
+              -1299.324
+            ],
+            [
+              -364.163,
+              -1299.391
+            ],
+            [
+              -342.819,
+              -1305.605
+            ],
+            [
+              -342.547,
+              -1305.702
+            ],
+            [
+              -321.656,
+              -1314.501
+            ],
+            [
+              -323.596,
+              -1319.109
+            ],
+            [
+              -344.355,
+              -1310.366
+            ],
+            [
+              -365.413,
+              -1304.235
+            ],
+            [
+              -380.166,
+              -1301.848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565146111",
+      "properties": {
+        "id": "osm:way:565146111",
+        "source_ids": [
+          "osm:way:565146111",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 235.7,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -295.026,
+              -1282.359
+            ],
+            [
+              -322.626,
+              -1316.805
+            ],
+            [
+              -332.217,
+              -1339.133
+            ],
+            [
+              -338.741,
+              -1358.333
+            ],
+            [
+              -342.662,
+              -1376.824
+            ],
+            [
+              -345.45,
+              -1399.077
+            ],
+            [
+              -346.022,
+              -1431.962
+            ],
+            [
+              -345.158,
+              -1465.733
+            ],
+            [
+              -347.415,
+              -1476.337
+            ],
+            [
+              -352.259,
+              -1485.57
+            ],
+            [
+              -354.988,
+              -1489.508
+            ],
+            [
+              -364.441,
+              -1498.314
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -366.145,
+              -1496.484
+            ],
+            [
+              -356.889,
+              -1487.863
+            ],
+            [
+              -354.401,
+              -1484.272
+            ],
+            [
+              -349.789,
+              -1475.481
+            ],
+            [
+              -347.665,
+              -1465.501
+            ],
+            [
+              -348.522,
+              -1432.026
+            ],
+            [
+              -348.522,
+              -1431.918
+            ],
+            [
+              -347.95,
+              -1399.034
+            ],
+            [
+              -347.931,
+              -1398.766
+            ],
+            [
+              -345.142,
+              -1376.513
+            ],
+            [
+              -345.107,
+              -1376.306
+            ],
+            [
+              -341.187,
+              -1357.814
+            ],
+            [
+              -341.108,
+              -1357.528
+            ],
+            [
+              -334.584,
+              -1338.328
+            ],
+            [
+              -334.514,
+              -1338.146
+            ],
+            [
+              -324.923,
+              -1315.818
+            ],
+            [
+              -324.825,
+              -1315.616
+            ],
+            [
+              -324.71,
+              -1315.423
+            ],
+            [
+              -324.577,
+              -1315.242
+            ],
+            [
+              -296.977,
+              -1280.796
+            ],
+            [
+              -293.075,
+              -1283.922
+            ],
+            [
+              -320.463,
+              -1318.104
+            ],
+            [
+              -329.881,
+              -1340.03
+            ],
+            [
+              -336.326,
+              -1358.996
+            ],
+            [
+              -340.194,
+              -1377.24
+            ],
+            [
+              -342.953,
+              -1399.255
+            ],
+            [
+              -343.522,
+              -1431.952
+            ],
+            [
+              -342.659,
+              -1465.669
+            ],
+            [
+              -342.668,
+              -1465.963
+            ],
+            [
+              -342.713,
+              -1466.253
+            ],
+            [
+              -344.97,
+              -1476.858
+            ],
+            [
+              -345.028,
+              -1477.078
+            ],
+            [
+              -345.105,
+              -1477.293
+            ],
+            [
+              -345.202,
+              -1477.499
+            ],
+            [
+              -350.045,
+              -1486.731
+            ],
+            [
+              -350.204,
+              -1486.993
+            ],
+            [
+              -352.933,
+              -1490.932
+            ],
+            [
+              -353.097,
+              -1491.144
+            ],
+            [
+              -353.284,
+              -1491.338
+            ],
+            [
+              -362.58445973878474,
+              -1500.0
+            ],
+            [
+              -362.8711514074884,
+              -1500.0
+            ],
+            [
+              -366.145,
+              -1496.484
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:742161135",
+      "properties": {
+        "id": "osm:way:742161135",
+        "source_ids": [
+          "osm:way:742161135",
+          "source:osm"
+        ],
+        "name": "Lawton Avenue",
+        "class": "secondary",
+        "width_m": 6.0,
+        "width_status": "VERIFIED_GEOGRAPHIC",
+        "width_method": "osm_width",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 108.38,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -424.598,
+              -1297.385
+            ],
+            [
+              -426.765,
+              -1208.06
+            ],
+            [
+              -427.357,
+              -1189.043
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "2",
+          "name": "Lawton Avenue",
+          "sidewalk": "right",
+          "surface": "asphalt",
+          "width": "6",
+          "wikidata": "Q17075566"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -421.599,
+              -1297.312
+            ],
+            [
+              -427.597,
+              -1297.458
+            ],
+            [
+              -428.7484469685943,
+              -1250.0
+            ],
+            [
+              -422.7467761432969,
+              -1250.0
+            ],
+            [
+              -421.599,
+              -1297.312
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:835208027",
+      "properties": {
+        "id": "osm:way:835208027",
+        "source_ids": [
+          "osm:way:835208027",
+          "source:osm"
+        ],
+        "name": "Lawton Avenue",
+        "class": "secondary",
+        "width_m": 9.0,
+        "width_status": "VERIFIED_GEOGRAPHIC",
+        "width_method": "osm_width",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 137.93,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -440.018,
+              -1197.268
+            ],
+            [
+              -437.029,
+              -1296.36
+            ],
+            [
+              -436.994,
+              -1335.148
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "3",
+          "name": "Lawton Avenue",
+          "operator": "Department of Public Works and Highways",
+          "sidewalk": "right",
+          "surface": "concrete",
+          "width": "9",
+          "wikidata": "Q17075566"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -432.531,
+              -1296.225
+            ],
+            [
+              -432.529,
+              -1296.356
+            ],
+            [
+              -432.494,
+              -1335.144
+            ],
+            [
+              -441.494,
+              -1335.152
+            ],
+            [
+              -441.529,
+              -1296.43
+            ],
+            [
+              -442.92949087622566,
+              -1250.0
+            ],
+            [
+              -433.9253116567265,
+              -1250.0
+            ],
+            [
+              -432.531,
+              -1296.225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:862768309",
+      "properties": {
+        "id": "osm:way:862768309",
+        "source_ids": [
+          "osm:way:862768309",
+          "source:osm"
+        ],
+        "name": "Lawton Avenue",
+        "class": "secondary",
+        "width_m": 9.0,
+        "width_status": "VERIFIED_GEOGRAPHIC",
+        "width_method": "osm_width",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 141.79,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -436.952,
+              -1371.701
+            ],
+            [
+              -439.701,
+              -1431.016
+            ],
+            [
+              -442.992,
+              -1477.965
+            ],
+            [
+              -447.826,
+              -1502.348
+            ],
+            [
+              -450.405,
+              -1512.519
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "3",
+          "name": "Lawton Avenue",
+          "operator": "Department of Public Works and Highways",
+          "sidewalk": "right",
+          "surface": "concrete",
+          "width": "9",
+          "wikidata": "Q17075566"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -447.461,
+              -1477.368
+            ],
+            [
+              -444.194,
+              -1430.755
+            ],
+            [
+              -441.447,
+              -1371.493
+            ],
+            [
+              -432.456,
+              -1371.91
+            ],
+            [
+              -435.206,
+              -1431.225
+            ],
+            [
+              -435.212,
+              -1431.331
+            ],
+            [
+              -438.503,
+              -1478.28
+            ],
+            [
+              -438.578,
+              -1478.84
+            ],
+            [
+              -442.7721631464545,
+              -1500.0
+            ],
+            [
+              -451.9481515757879,
+              -1500.0
+            ],
+            [
+              -447.461,
+              -1477.368
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:862768310",
+      "properties": {
+        "id": "osm:way:862768310",
+        "source_ids": [
+          "osm:way:862768310",
+          "source:osm"
+        ],
+        "name": "Lawton Avenue",
+        "class": "secondary",
+        "width_m": 9.0,
+        "width_status": "VERIFIED_GEOGRAPHIC",
+        "width_method": "osm_width",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 36.55,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -436.994,
+              -1335.148
+            ],
+            [
+              -436.952,
+              -1371.701
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "3",
+          "name": "Lawton Avenue",
+          "operator": "Department of Public Works and Highways",
+          "sidewalk": "right",
+          "surface": "concrete",
+          "width": "9",
+          "wikidata": "Q17075566"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -441.494,
+              -1335.154
+            ],
+            [
+              -432.494,
+              -1335.143
+            ],
+            [
+              -432.452,
+              -1371.696
+            ],
+            [
+              -441.452,
+              -1371.707
+            ],
+            [
+              -441.494,
+              -1335.154
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "type": "Feature",
+      "id": "osm:way:740592675",
+      "properties": {
+        "id": "osm:way:740592675",
+        "source_ids": [
+          "osm:way:740592675",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 399.55,
+        "centerline_local": {
+          "type": "MultiLineString",
+          "coordinates": [
+            [
+              [
+                -447.42,
+                -1370.616
+              ],
+              [
+                -443.466,
+                -1382.148
+              ],
+              [
+                -450.236,
+                -1480.493
+              ],
+              [
+                -456.051,
+                -1505.441
+              ]
+            ],
+            [
+              [
+                -524.019,
+                -1420.23
+              ],
+              [
+                -520.173,
+                -1374.453
+              ],
+              [
+                -519.281,
+                -1236.251
+              ],
+              [
+                -473.29,
+                -1218.12
+              ],
+              [
+                -446.63,
+                -1205.301
+              ]
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -451.129,
+              -1480.359
+            ],
+            [
+              -444.376,
+              -1382.267
+            ],
+            [
+              -448.271,
+              -1370.908
+            ],
+            [
+              -446.569,
+              -1370.324
+            ],
+            [
+              -442.614,
+              -1381.856
+            ],
+            [
+              -442.589,
+              -1381.942
+            ],
+            [
+              -442.573,
+              -1382.03
+            ],
+            [
+              -442.566,
+              -1382.12
+            ],
+            [
+              -442.568,
+              -1382.21
+            ],
+            [
+              -449.339,
+              -1480.555
+            ],
+            [
+              -449.346,
+              -1480.626
+            ],
+            [
+              -449.36,
+              -1480.697
+            ],
+            [
+              -453.8584624819625,
+              -1500.0
+            ],
+            [
+              -455.7072683093496,
+              -1500.0
+            ],
+            [
+              -451.129,
+              -1480.359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:926448150",
+      "properties": {
+        "id": "osm:way:926448150",
+        "source_ids": [
+          "osm:way:926448150",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 35.48,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -447.116,
+              -1335.139
+            ],
+            [
+              -447.42,
+              -1370.616
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -448.016,
+              -1335.132
+            ],
+            [
+              -446.216,
+              -1335.147
+            ],
+            [
+              -446.52,
+              -1370.623
+            ],
+            [
+              -448.32,
+              -1370.608
+            ],
+            [
+              -448.016,
+              -1335.132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:926448151",
+      "properties": {
+        "id": "osm:way:926448151",
+        "source_ids": [
+          "osm:way:926448151",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 345.18,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -438.221,
+              -991.081
+            ],
+            [
+              -438.178,
+              -1012.562
+            ],
+            [
+              -445.688,
+              -1067.509
+            ],
+            [
+              -447.264,
+              -1119.475
+            ],
+            [
+              -447.691,
+              -1150.468
+            ],
+            [
+              -446.611,
+              -1199.325
+            ],
+            [
+              -446.63,
+              -1205.301
+            ],
+            [
+              -443.545,
+              -1323.384
+            ],
+            [
+              -447.116,
+              -1335.139
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -442.645,
+              -1323.361
+            ],
+            [
+              -442.648,
+              -1323.457
+            ],
+            [
+              -442.661,
+              -1323.552
+            ],
+            [
+              -442.684,
+              -1323.646
+            ],
+            [
+              -446.255,
+              -1335.401
+            ],
+            [
+              -447.978,
+              -1334.878
+            ],
+            [
+              -444.448,
+              -1323.262
+            ],
+            [
+              -446.36251003069407,
+              -1250.0
+            ],
+            [
+              -444.5618016278341,
+              -1250.0
+            ],
+            [
+              -442.645,
+              -1323.361
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "open_spaces": [],
+  "input_sha256": "beb75ba405ac2ff8c87db8b7192538479ccc910687d773e661ce6452d270646b"
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:0011:identity",
+      "entity_id": "bgc_building_0011",
+      "property": "identity",
+      "value": "C1 at Bonifacio High Street Central C1, BGC, Taguig, Philippines",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:officepro-bhs-central",
+        "source:official-ayala-bonifacio-high-street",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:official:bgc-c1-directory"
+      ],
+      "method": "canonical_geographic_and_named_source_reconciliation"
+    },
+    {
+      "observation_id": "obs:0011:footprint",
+      "entity_id": "bgc_building_0011",
+      "property": "footprint",
+      "value": {
+        "area_m2": 3196.04,
+        "perimeter_m": 279.62,
+        "axis_aligned_bounds_m": {
+          "min_x": -349.177,
+          "min_y": -0.029,
+          "max_x": -259.589,
+          "max_y": 68.649
+        },
+        "vertex_count": 10
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "deterministic_local_metre_polygon_measurement",
+      "notes": "Community mapped, not cadastral."
+    },
+    {
+      "observation_id": "obs:0011:height",
+      "entity_id": "bgc_building_0011",
+      "property": "height_m",
+      "value": 10.1,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retained without upgrading to surveyed precision."
+    },
+    {
+      "observation_id": "obs:0011:massing",
+      "entity_id": "bgc_building_0011",
+      "property": "overall_massing",
+      "value": "Angular mixed retail/office block; irregular mapped footprint is primary while facade detail stays conservative.",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.72,
+      "source_ids": [
+        "source:official-ayala-bonifacio-high-street",
+        "source:officepro-bhs-central"
+      ],
+      "reference_ids": [
+        "ref:official:bgc-c1-directory",
+        "ref:web:officepro-bhs-central"
+      ],
+      "method": "bounded exterior evidence review"
+    },
+    {
+      "observation_id": "obs:0011:materials",
+      "entity_id": "bgc_building_0011",
+      "property": "material_families",
+      "value": [
+        "warm_neutral_cladding",
+        "architectural_dark_glass",
+        "generic_storefront_glass",
+        "neutral_roof"
+      ],
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:official-ayala-bonifacio-high-street",
+        "source:officepro-bhs-central"
+      ],
+      "reference_ids": [
+        "ref:official:bgc-c1-directory",
+        "ref:web:officepro-bhs-central"
+      ],
+      "method": "visual family classification; exact colour unknown"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0011",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 3196.04,
+    "perimeter_m": 279.62,
+    "axis_aligned_bounds_m": {
+      "min_x": -349.177,
+      "min_y": -0.029,
+      "max_x": -259.589,
+      "max_y": 68.649
+    },
+    "maximum_height_m": 10.1,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "components": [
+    {
+      "name": "M10_0011_Envelope",
+      "component_id": "0011:massing:envelope",
+      "source_feature_id": "osm:way:178125951",
+      "base_z_m": 0,
+      "height_m": 10.1,
+      "material_family": "warm_neutral_cladding",
+      "classification": "verified geographic polygon and retained height evidence",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:0011:footprint",
+        "obs:0011:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Angular mixed retail/office block; irregular mapped footprint is primary while facade detail stays conservative."
+}

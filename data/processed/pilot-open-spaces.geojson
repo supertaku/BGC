@@ -1,0 +1,1089 @@
+{
+  "type": "FeatureCollection",
+  "name": "pilot-open-spaces",
+  "schema_version": 2,
+  "dataset_id": "pilot-open-spaces",
+  "source_id": "source:osm",
+  "source_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "source_retrieved_at": "2026-09-10T13:46:35.844894+00:00",
+  "source_crs": "EPSG:4326",
+  "projected_crs": "EPSG:32651",
+  "local_frame": {
+    "origin_wgs84": {
+      "longitude": 121.050972,
+      "latitude": 14.550806
+    },
+    "origin_projected": {
+      "easting": 289998.297,
+      "northing": 1609541.742
+    },
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres",
+    "transform_library": "pyproj"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:relation:13512336",
+      "properties": {
+        "id": "osm:relation:13512336",
+        "source_ids": [
+          "osm:relation:13512336",
+          "source:osm"
+        ],
+        "name": "The Bikeyard",
+        "category": "park",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 82.87,
+        "tags": {
+          "addr:street": "28th Street",
+          "leisure": "park",
+          "name": "The Bikeyard",
+          "operator": "Allianz",
+          "type": "multipolygon"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              96.039,
+              -171.952
+            ],
+            [
+              102.196,
+              -153.978
+            ],
+            [
+              98.113,
+              -152.504
+            ],
+            [
+              91.9,
+              -170.611
+            ],
+            [
+              96.039,
+              -171.952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:110262539",
+      "properties": {
+        "id": "osm:way:110262539",
+        "source_ids": [
+          "osm:way:110262539",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "park",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 2956.98,
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -50.106,
+              14.538
+            ],
+            [
+              -62.314,
+              -21.445
+            ],
+            [
+              21.179,
+              -45.675
+            ],
+            [
+              31.004,
+              -17.307
+            ],
+            [
+              -50.106,
+              14.538
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:145147836",
+      "properties": {
+        "id": "osm:way:145147836",
+        "source_ids": [
+          "osm:way:145147836",
+          "source:osm"
+        ],
+        "name": "Terra 28th",
+        "category": "park",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 7979.57,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "28th Street",
+          "addr:street:corner": "7th Avenue",
+          "leisure": "park",
+          "name": "Terra 28th"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.514,
+              -176.03
+            ],
+            [
+              -17.617,
+              -161.829
+            ],
+            [
+              -183.315,
+              -106.408
+            ],
+            [
+              -197.524,
+              -149.434
+            ],
+            [
+              -111.261,
+              -178.779
+            ],
+            [
+              -32.758,
+              -205.479
+            ],
+            [
+              -23.254,
+              -178.159
+            ],
+            [
+              -22.514,
+              -176.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:174398019",
+      "properties": {
+        "id": "osm:way:174398019",
+        "source_ids": [
+          "osm:way:174398019",
+          "source:osm"
+        ],
+        "name": "Track 30th",
+        "category": "park",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 7264.57,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "30th Street",
+          "leisure": "park",
+          "name": "Track 30th",
+          "wikidata": "Q110314879"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.99,
+              155.809
+            ],
+            [
+              69.214,
+              98.542
+            ],
+            [
+              84.662,
+              142.775
+            ],
+            [
+              -13.267,
+              176.513
+            ],
+            [
+              -87.867,
+              177.151
+            ],
+            [
+              -94.99,
+              155.809
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:183499092",
+      "properties": {
+        "id": "osm:way:183499092",
+        "source_ids": [
+          "osm:way:183499092",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "playground",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 1527.06,
+        "tags": {
+          "leisure": "playground"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -32.758,
+              -205.479
+            ],
+            [
+              -23.254,
+              -178.159
+            ],
+            [
+              -108.621,
+              -171.309
+            ],
+            [
+              -111.261,
+              -178.779
+            ],
+            [
+              -32.758,
+              -205.479
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:203893623",
+      "properties": {
+        "id": "osm:way:203893623",
+        "source_ids": [
+          "osm:way:203893623",
+          "source:osm"
+        ],
+        "name": "BHS Central",
+        "category": "park",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 9997.28,
+        "tags": {
+          "leisure": "park",
+          "name": "BHS Central"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -176.339,
+              -0.395
+            ],
+            [
+              -174.0,
+              -0.393
+            ],
+            [
+              -153.619,
+              61.117
+            ],
+            [
+              -159.126,
+              64.96
+            ],
+            [
+              -185.321,
+              81.12
+            ],
+            [
+              -189.033,
+              82.015
+            ],
+            [
+              -231.793,
+              88.401
+            ],
+            [
+              -237.481,
+              86.247
+            ],
+            [
+              -238.348,
+              84.44
+            ],
+            [
+              -240.034,
+              78.833
+            ],
+            [
+              -276.413,
+              90.233
+            ],
+            [
+              -276.901,
+              88.643
+            ],
+            [
+              -284.309,
+              90.798
+            ],
+            [
+              -283.744,
+              92.575
+            ],
+            [
+              -321.859,
+              102.706
+            ],
+            [
+              -332.854,
+              68.649
+            ],
+            [
+              -309.759,
+              54.253
+            ],
+            [
+              -259.589,
+              43.443
+            ],
+            [
+              -263.198,
+              31.08
+            ],
+            [
+              -249.681,
+              23.45
+            ],
+            [
+              -212.537,
+              4.441
+            ],
+            [
+              -210.61,
+              4.181
+            ],
+            [
+              -176.339,
+              -0.395
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:222122974",
+      "properties": {
+        "id": "osm:way:222122974",
+        "source_ids": [
+          "osm:way:222122974",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "playground",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 328.96,
+        "tags": {
+          "leisure": "playground"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.153,
+              -158.398
+            ],
+            [
+              -60.791,
+              -153.337
+            ],
+            [
+              -72.058,
+              -170.106
+            ],
+            [
+              -46.422,
+              -172.24
+            ],
+            [
+              -46.153,
+              -158.398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:24957243",
+      "properties": {
+        "id": "osm:way:24957243",
+        "source_ids": [
+          "osm:way:24957243",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "park",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 2281.85,
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.679,
+              -24.426
+            ],
+            [
+              44.699,
+              -53.213
+            ],
+            [
+              115.519,
+              -79.585
+            ],
+            [
+              115.834,
+              -42.694
+            ],
+            [
+              54.679,
+              -24.426
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:324237841",
+      "properties": {
+        "id": "osm:way:324237841",
+        "source_ids": [
+          "osm:way:324237841",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 81.07,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -308.761,
+              57.498
+            ],
+            [
+              -291.814,
+              54.033
+            ],
+            [
+              -295.229,
+              64.299
+            ],
+            [
+              -308.761,
+              57.498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:324237843",
+      "properties": {
+        "id": "osm:way:324237843",
+        "source_ids": [
+          "osm:way:324237843",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 144.88,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -254.852,
+              51.537
+            ],
+            [
+              -255.139,
+              73.418
+            ],
+            [
+              -268.437,
+              77.604
+            ],
+            [
+              -254.852,
+              51.537
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:324237846",
+      "properties": {
+        "id": "osm:way:324237846",
+        "source_ids": [
+          "osm:way:324237846",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 269.88,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -259.47,
+              46.01
+            ],
+            [
+              -261.75,
+              52.891
+            ],
+            [
+              -291.385,
+              66.313
+            ],
+            [
+              -287.216,
+              52.179
+            ],
+            [
+              -259.47,
+              46.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:324237847",
+      "properties": {
+        "id": "osm:way:324237847",
+        "source_ids": [
+          "osm:way:324237847",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 314.59,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -300.881,
+              80.206
+            ],
+            [
+              -306.132,
+              87.665
+            ],
+            [
+              -324.11,
+              90.32
+            ],
+            [
+              -312.033,
+              63.148
+            ],
+            [
+              -300.881,
+              80.206
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:324237849",
+      "properties": {
+        "id": "osm:way:324237849",
+        "source_ids": [
+          "osm:way:324237849",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 290.76,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -266.497,
+              64.983
+            ],
+            [
+              -274.495,
+              78.862
+            ],
+            [
+              -292.453,
+              83.841
+            ],
+            [
+              -305.025,
+              64.571
+            ],
+            [
+              -282.273,
+              74.292
+            ],
+            [
+              -266.497,
+              64.983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:414544939",
+      "properties": {
+        "id": "osm:way:414544939",
+        "source_ids": [
+          "osm:way:414544939",
+          "source:osm"
+        ],
+        "name": "Greenspine",
+        "category": "park",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 465.99,
+        "tags": {
+          "leisure": "park",
+          "name": "Greenspine"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -352.858,
+              109.18
+            ],
+            [
+              -352.736,
+              110.839
+            ],
+            [
+              -373.243,
+              117.765
+            ],
+            [
+              -373.49,
+              88.962
+            ],
+            [
+              -361.187,
+              85.669
+            ],
+            [
+              -357.415,
+              96.924
+            ],
+            [
+              -355.535,
+              102.475
+            ],
+            [
+              -354.615,
+              105.355
+            ],
+            [
+              -352.858,
+              109.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:469845518",
+      "properties": {
+        "id": "osm:way:469845518",
+        "source_ids": [
+          "osm:way:469845518",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "pitch",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 705.91,
+        "tags": {
+          "leisure": "pitch"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -363.034,
+              136.856
+            ],
+            [
+              -349.184,
+              178.159
+            ],
+            [
+              -352.99,
+              179.42
+            ],
+            [
+              -372.714,
+              179.589
+            ],
+            [
+              -373.051,
+              140.176
+            ],
+            [
+              -363.034,
+              136.856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:846184140",
+      "properties": {
+        "id": "osm:way:846184140",
+        "source_ids": [
+          "osm:way:846184140",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 13.35,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -373.329,
+              107.721
+            ],
+            [
+              -360.426,
+              105.25
+            ],
+            [
+              -373.312,
+              109.787
+            ],
+            [
+              -373.329,
+              107.721
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:846184155",
+      "properties": {
+        "id": "osm:way:846184155",
+        "source_ids": [
+          "osm:way:846184155",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "grass",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 172.5,
+        "tags": {
+          "landuse": "grass"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -201.101,
+              56.001
+            ],
+            [
+              -201.308,
+              67.114
+            ],
+            [
+              -217.397,
+              47.498
+            ],
+            [
+              -215.075,
+              39.222
+            ],
+            [
+              -201.084,
+              55.481
+            ],
+            [
+              -201.101,
+              56.001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:846184156",
+      "properties": {
+        "id": "osm:way:846184156",
+        "source_ids": [
+          "osm:way:846184156",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "grass",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 76.72,
+        "tags": {
+          "landuse": "grass"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -221.501,
+              45.342
+            ],
+            [
+              -240.67,
+              41.068
+            ],
+            [
+              -219.863,
+              37.703
+            ],
+            [
+              -221.501,
+              45.342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:846184161",
+      "properties": {
+        "id": "osm:way:846184161",
+        "source_ids": [
+          "osm:way:846184161",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 102.27,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -177.504,
+              28.476
+            ],
+            [
+              -186.458,
+              69.222
+            ],
+            [
+              -185.443,
+              41.757
+            ],
+            [
+              -177.504,
+              28.476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:846184166",
+      "properties": {
+        "id": "osm:way:846184166",
+        "source_ids": [
+          "osm:way:846184166",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 211.72,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -191.101,
+              46.919
+            ],
+            [
+              -193.544,
+              72.536
+            ],
+            [
+              -197.099,
+              70.309
+            ],
+            [
+              -196.854,
+              52.302
+            ],
+            [
+              -209.921,
+              25.478
+            ],
+            [
+              -191.101,
+              46.919
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:846184167",
+      "properties": {
+        "id": "osm:way:846184167",
+        "source_ids": [
+          "osm:way:846184167",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "garden",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 225.3,
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -175.67,
+              4.756
+            ],
+            [
+              -177.146,
+              16.234
+            ],
+            [
+              -207.419,
+              11.856
+            ],
+            [
+              -206.347,
+              8.571
+            ],
+            [
+              -175.67,
+              4.756
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,7011 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_006_008",
+  "tile_size_m": 250.0,
+  "bounds": [
+    250.0,
+    250.0,
+    500.0,
+    500.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          250.0,
+          250.0
+        ],
+        [
+          250.0,
+          500.0
+        ],
+        [
+          500.0,
+          500.0
+        ],
+        [
+          500.0,
+          250.0
+        ],
+        [
+          250.0,
+          250.0
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1278358005",
+      "properties": {
+        "id": "osm:way:1278358005",
+        "source_ids": [
+          "osm:way:1278358005",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 3.2,
+        "min_height_m": 0.0,
+        "levels": 1.0,
+        "height_status": "ESTIMATED",
+        "height_method": "building_levels_x_3.2m",
+        "height_confidence": 0.55,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 12.17,
+        "tags": {
+          "building": "guardhouse",
+          "building:levels": "1"
+        },
+        "canonical_entity_id": "osm:way:1278358005",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              490.703,
+              334.165
+            ],
+            [
+              487.444,
+              332.467
+            ],
+            [
+              488.982,
+              329.543
+            ],
+            [
+              492.252,
+              331.242
+            ],
+            [
+              490.703,
+              334.165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:264879067",
+      "properties": {
+        "id": "osm:way:264879067",
+        "source_ids": [
+          "osm:way:264879067",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 521.87,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264879067",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              488.671,
+              475.058
+            ],
+            [
+              470.626,
+              473.652
+            ],
+            [
+              472.903,
+              444.904
+            ],
+            [
+              490.948,
+              446.322
+            ],
+            [
+              488.671,
+              475.058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:280298495",
+      "properties": {
+        "id": "osm:way:280298495",
+        "source_ids": [
+          "osm:way:280298495",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 6.4,
+        "min_height_m": 0.0,
+        "levels": 2.0,
+        "height_status": "ESTIMATED",
+        "height_method": "building_levels_x_3.2m",
+        "height_confidence": 0.55,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 5861.14,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "Rizal Drive",
+          "addr:street:corner": "11th Avenue",
+          "building": "yes",
+          "building:levels": "2"
+        },
+        "canonical_entity_id": "osm:way:280298495",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              422.912,
+              320.092
+            ],
+            [
+              397.55,
+              355.489
+            ],
+            [
+              368.52,
+              264.372
+            ],
+            [
+              405.212,
+              252.959
+            ],
+            [
+              409.386,
+              264.665
+            ],
+            [
+              436.438,
+              255.382
+            ],
+            [
+              429.302,
+              232.712
+            ],
+            [
+              479.189,
+              215.189
+            ],
+            [
+              468.224,
+              242.628
+            ],
+            [
+              449.553,
+              277.812
+            ],
+            [
+              422.912,
+              320.092
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:340064070",
+      "properties": {
+        "id": "osm:way:340064070",
+        "source_ids": [
+          "osm:way:340064070",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 749.5,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:340064070",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              506.46,
+              306.144
+            ],
+            [
+              469.318,
+              317.782
+            ],
+            [
+              463.491,
+              299.428
+            ],
+            [
+              500.633,
+              287.79
+            ],
+            [
+              506.46,
+              306.144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:428836646",
+      "properties": {
+        "id": "osm:way:428836646",
+        "source_ids": [
+          "osm:way:428836646",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "2 Citi Plaza",
+        "feature_kind": "building_outline",
+        "height_m": 64.0,
+        "min_height_m": 0.0,
+        "levels": 20.0,
+        "height_status": "ESTIMATED",
+        "height_method": "building_levels_x_3.2m",
+        "height_confidence": 0.55,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 3303.93,
+        "tags": {
+          "addr:street": "34th Street",
+          "building": "commercial",
+          "building:levels": "20",
+          "layer": "1",
+          "name": "2 Citi Plaza"
+        },
+        "canonical_entity_id": "osm:way:428836646",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              230.459,
+              364.817
+            ],
+            [
+              301.897,
+              340.281
+            ],
+            [
+              316.273,
+              381.591
+            ],
+            [
+              244.824,
+              406.127
+            ],
+            [
+              230.459,
+              364.817
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:444366845",
+      "properties": {
+        "id": "osm:way:444366845",
+        "source_ids": [
+          "osm:way:444366845",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 95.25,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:444366845",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              485.006,
+              486.433
+            ],
+            [
+              473.151,
+              486.534
+            ],
+            [
+              473.082,
+              478.5
+            ],
+            [
+              484.938,
+              478.399
+            ],
+            [
+              485.006,
+              486.433
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:444366846",
+      "properties": {
+        "id": "osm:way:444366846",
+        "source_ids": [
+          "osm:way:444366846",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 85.22,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:444366846",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              500.632,
+              488.524
+            ],
+            [
+              492.4,
+              488.815
+            ],
+            [
+              492.02,
+              478.483
+            ],
+            [
+              500.253,
+              478.18
+            ],
+            [
+              500.632,
+              488.524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:533345984",
+      "properties": {
+        "id": "osm:way:533345984",
+        "source_ids": [
+          "osm:way:533345984",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 96.0,
+        "min_height_m": 0.0,
+        "levels": 30.0,
+        "height_status": "ESTIMATED",
+        "height_method": "building_levels_x_3.2m",
+        "height_confidence": 0.55,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1429.55,
+        "tags": {
+          "building": "yes",
+          "building:levels": "30"
+        },
+        "canonical_entity_id": "osm:way:533345984",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              282.275,
+              471.11
+            ],
+            [
+              267.665,
+              427.567
+            ],
+            [
+              322.611,
+              409.347
+            ],
+            [
+              327.782,
+              424.209
+            ],
+            [
+              288.545,
+              437.802
+            ],
+            [
+              298.387,
+              465.771
+            ],
+            [
+              282.275,
+              471.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:533345985",
+      "properties": {
+        "id": "osm:way:533345985",
+        "source_ids": [
+          "osm:way:533345985",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 96.0,
+        "min_height_m": 0.0,
+        "levels": 30.0,
+        "height_status": "ESTIMATED",
+        "height_method": "building_levels_x_3.2m",
+        "height_confidence": 0.55,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1361.3,
+        "tags": {
+          "building": "yes",
+          "building:levels": "30"
+        },
+        "canonical_entity_id": "osm:way:533345985",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              383.576,
+              389.128
+            ],
+            [
+              397.517,
+              431.239
+            ],
+            [
+              343.3,
+              448.965
+            ],
+            [
+              338.21,
+              433.604
+            ],
+            [
+              377.68,
+              420.696
+            ],
+            [
+              368.909,
+              393.204
+            ],
+            [
+              383.576,
+              389.128
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1212504575",
+      "properties": {
+        "id": "osm:way:1212504575",
+        "source_ids": [
+          "osm:way:1212504575",
+          "source:osm"
+        ],
+        "name": "34th Street",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 21.71,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              271.625,
+              415.504
+            ],
+            [
+              250.998,
+              422.287
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "34th Street",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              252.998,
+              428.366
+            ],
+            [
+              273.624,
+              421.583
+            ],
+            [
+              269.626,
+              409.424
+            ],
+            [
+              250.0,
+              415.8778303194842
+            ],
+            [
+              250.0,
+              419.25055063765944
+            ],
+            [
+              252.998,
+              428.366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1278358006",
+      "properties": {
+        "id": "osm:way:1278358006",
+        "source_ids": [
+          "osm:way:1278358006",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 12.02,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              487.926,
+              335.893
+            ],
+            [
+              498.686,
+              341.246
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service",
+          "lanes": "2",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              489.351,
+              333.028
+            ],
+            [
+              486.5,
+              338.758
+            ],
+            [
+              497.26,
+              344.111
+            ],
+            [
+              500.0,
+              338.6040901438091
+            ],
+            [
+              500.0,
+              338.3257785315985
+            ],
+            [
+              489.351,
+              333.028
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1287260468",
+      "properties": {
+        "id": "osm:way:1287260468",
+        "source_ids": [
+          "osm:way:1287260468",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 47.59,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              311.416,
+              344.195
+            ],
+            [
+              303.065,
+              350.828
+            ],
+            [
+              310.915,
+              375.13
+            ],
+            [
+              322.272,
+              375.973
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              301.149,
+              349.223
+            ],
+            [
+              300.997,
+              349.424
+            ],
+            [
+              300.865,
+              349.64
+            ],
+            [
+              300.757,
+              349.868
+            ],
+            [
+              300.672,
+              350.105
+            ],
+            [
+              300.611,
+              350.35
+            ],
+            [
+              300.575,
+              350.6
+            ],
+            [
+              300.565,
+              350.852
+            ],
+            [
+              300.58,
+              351.104
+            ],
+            [
+              300.62,
+              351.353
+            ],
+            [
+              300.686,
+              351.597
+            ],
+            [
+              308.536,
+              375.898
+            ],
+            [
+              308.623,
+              376.129
+            ],
+            [
+              308.732,
+              376.35
+            ],
+            [
+              308.863,
+              376.559
+            ],
+            [
+              309.014,
+              376.754
+            ],
+            [
+              309.183,
+              376.933
+            ],
+            [
+              309.369,
+              377.095
+            ],
+            [
+              309.571,
+              377.238
+            ],
+            [
+              309.785,
+              377.36
+            ],
+            [
+              310.01,
+              377.46
+            ],
+            [
+              310.244,
+              377.538
+            ],
+            [
+              310.485,
+              377.593
+            ],
+            [
+              310.729,
+              377.623
+            ],
+            [
+              322.087,
+              378.467
+            ],
+            [
+              322.457,
+              373.48
+            ],
+            [
+              312.777,
+              372.761
+            ],
+            [
+              305.976,
+              351.709
+            ],
+            [
+              312.971,
+              346.152
+            ],
+            [
+              309.861,
+              342.237
+            ],
+            [
+              301.51,
+              348.871
+            ],
+            [
+              301.32,
+              349.038
+            ],
+            [
+              301.149,
+              349.223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1426784455",
+      "properties": {
+        "id": "osm:way:1426784455",
+        "source_ids": [
+          "osm:way:1426784455",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 11.54,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              456.65,
+              267.006
+            ],
+            [
+              459.919,
+              268.616
+            ],
+            [
+              467.21,
+              271.652
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              466.249,
+              273.96
+            ],
+            [
+              468.171,
+              269.345
+            ],
+            [
+              460.953,
+              266.339
+            ],
+            [
+              457.755,
+              264.763
+            ],
+            [
+              455.546,
+              269.249
+            ],
+            [
+              458.815,
+              270.859
+            ],
+            [
+              458.958,
+              270.924
+            ],
+            [
+              466.249,
+              273.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1427046342",
+      "properties": {
+        "id": "osm:way:1427046342",
+        "source_ids": [
+          "osm:way:1427046342",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 36.85,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              462.398,
+              373.416
+            ],
+            [
+              466.999,
+              378.257
+            ],
+            [
+              470.26,
+              380.243
+            ],
+            [
+              473.308,
+              381.213
+            ],
+            [
+              477.134,
+              381.114
+            ],
+            [
+              482.399,
+              379.133
+            ],
+            [
+              487.072,
+              376.005
+            ],
+            [
+              490.024,
+              374.685
+            ],
+            [
+              494.866,
+              374.932
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              465.516,
+              380.27
+            ],
+            [
+              465.698,
+              380.392
+            ],
+            [
+              468.96,
+              382.379
+            ],
+            [
+              469.224,
+              382.518
+            ],
+            [
+              469.502,
+              382.626
+            ],
+            [
+              472.55,
+              383.596
+            ],
+            [
+              472.819,
+              383.665
+            ],
+            [
+              473.095,
+              383.704
+            ],
+            [
+              473.373,
+              383.713
+            ],
+            [
+              477.199,
+              383.614
+            ],
+            [
+              477.476,
+              383.591
+            ],
+            [
+              477.749,
+              383.538
+            ],
+            [
+              478.014,
+              383.454
+            ],
+            [
+              483.279,
+              381.473
+            ],
+            [
+              483.542,
+              381.356
+            ],
+            [
+              483.789,
+              381.21
+            ],
+            [
+              488.286,
+              378.201
+            ],
+            [
+              490.497,
+              377.213
+            ],
+            [
+              494.739,
+              377.429
+            ],
+            [
+              494.993,
+              372.435
+            ],
+            [
+              490.152,
+              372.189
+            ],
+            [
+              489.916,
+              372.188
+            ],
+            [
+              489.681,
+              372.209
+            ],
+            [
+              489.45,
+              372.252
+            ],
+            [
+              489.224,
+              372.317
+            ],
+            [
+              489.004,
+              372.403
+            ],
+            [
+              486.051,
+              373.723
+            ],
+            [
+              485.862,
+              373.818
+            ],
+            [
+              485.681,
+              373.928
+            ],
+            [
+              481.248,
+              376.895
+            ],
+            [
+              476.648,
+              378.626
+            ],
+            [
+              473.665,
+              378.703
+            ],
+            [
+              471.304,
+              377.952
+            ],
+            [
+              468.582,
+              376.295
+            ],
+            [
+              464.21,
+              371.694
+            ],
+            [
+              460.586,
+              375.138
+            ],
+            [
+              465.187,
+              379.979
+            ],
+            [
+              465.345,
+              380.132
+            ],
+            [
+              465.516,
+              380.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1554501834",
+      "properties": {
+        "id": "osm:way:1554501834",
+        "source_ids": [
+          "osm:way:1554501834",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 22.78,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              342.948,
+              229.709
+            ],
+            [
+              348.053,
+              244.417
+            ],
+            [
+              350.418,
+              251.225
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344.372,
+              253.325
+            ],
+            [
+              353.94483333333335,
+              250.0
+            ],
+            [
+              343.217113085622,
+              250.0
+            ],
+            [
+              344.372,
+              253.325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:174398008",
+      "properties": {
+        "id": "osm:way:174398008",
+        "source_ids": [
+          "osm:way:174398008",
+          "source:osm"
+        ],
+        "name": "Lane C",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 101.98,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              316.883,
+              577.971
+            ],
+            [
+              313.885,
+              568.966
+            ],
+            [
+              308.541,
+              552.866
+            ],
+            [
+              286.926,
+              488.135
+            ],
+            [
+              286.315,
+              483.47
+            ],
+            [
+              286.736,
+              480.932
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Lane C",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              290.059,
+              487.414
+            ],
+            [
+              289.55,
+              483.525
+            ],
+            [
+              289.893,
+              481.455
+            ],
+            [
+              283.579,
+              480.409
+            ],
+            [
+              283.158,
+              482.947
+            ],
+            [
+              283.122,
+              483.259
+            ],
+            [
+              283.117,
+              483.573
+            ],
+            [
+              283.142,
+              483.886
+            ],
+            [
+              283.754,
+              488.551
+            ],
+            [
+              283.808,
+              488.853
+            ],
+            [
+              283.891,
+              489.148
+            ],
+            [
+              287.51464825657746,
+              500.0
+            ],
+            [
+              294.26169036903696,
+              500.0
+            ],
+            [
+              290.059,
+              487.414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:174398010",
+      "properties": {
+        "id": "osm:way:174398010",
+        "source_ids": [
+          "osm:way:174398010",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 126.87,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              498.686,
+              341.246
+            ],
+            [
+              540.582,
+              362.502
+            ],
+            [
+              572.978,
+              378.283
+            ],
+            [
+              587.256,
+              385.487
+            ],
+            [
+              591.532,
+              387.642
+            ],
+            [
+              613.212,
+              395.546
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service",
+          "lanes": "2",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              497.238,
+              344.1
+            ],
+            [
+              500.0,
+              345.50123902043157
+            ],
+            [
+              500.0,
+              338.6570669889503
+            ],
+            [
+              497.238,
+              344.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:174398016",
+      "properties": {
+        "id": "osm:way:174398016",
+        "source_ids": [
+          "osm:way:174398016",
+          "source:osm"
+        ],
+        "name": "Rizal Drive",
+        "class": "residential",
+        "width_m": 9.6,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 93.75,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              508.44,
+              181.995
+            ],
+            [
+              502.623,
+              195.025
+            ],
+            [
+              477.566,
+              251.124
+            ],
+            [
+              469.512,
+              267.262
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "3",
+          "name": "Rizal Drive",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              465.217,
+              265.118
+            ],
+            [
+              473.807,
+              269.405
+            ],
+            [
+              481.861,
+              253.268
+            ],
+            [
+              481.949,
+              253.082
+            ],
+            [
+              483.32559626731313,
+              250.0
+            ],
+            [
+              472.762337737613,
+              250.0
+            ],
+            [
+              465.217,
+              265.118
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:182331870",
+      "properties": {
+        "id": "osm:way:182331870",
+        "source_ids": [
+          "osm:way:182331870",
+          "source:osm"
+        ],
+        "name": "Lane T",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 135.88,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              286.736,
+              480.932
+            ],
+            [
+              288.571,
+              478.736
+            ],
+            [
+              291.779,
+              476.994
+            ],
+            [
+              405.383,
+              438.52
+            ],
+            [
+              414.448,
+              435.93
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Lane T",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              406.337,
+              441.575
+            ],
+            [
+              415.327,
+              439.007
+            ],
+            [
+              413.569,
+              432.853
+            ],
+            [
+              404.504,
+              435.443
+            ],
+            [
+              404.357,
+              435.489
+            ],
+            [
+              290.752,
+              473.963
+            ],
+            [
+              290.497,
+              474.062
+            ],
+            [
+              290.251,
+              474.182
+            ],
+            [
+              287.043,
+              475.925
+            ],
+            [
+              286.785,
+              476.081
+            ],
+            [
+              286.543,
+              476.261
+            ],
+            [
+              286.319,
+              476.462
+            ],
+            [
+              286.115,
+              476.684
+            ],
+            [
+              284.28,
+              478.88
+            ],
+            [
+              289.191,
+              482.984
+            ],
+            [
+              290.635,
+              481.257
+            ],
+            [
+              293.065,
+              479.937
+            ],
+            [
+              406.337,
+              441.575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:184852733",
+      "properties": {
+        "id": "osm:way:184852733",
+        "source_ids": [
+          "osm:way:184852733",
+          "source:osm"
+        ],
+        "name": "Lane R",
+        "class": "unclassified",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 137.26,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              287.177,
+              272.625
+            ],
+            [
+              282.232,
+              274.183
+            ],
+            [
+              223.913,
+              293.826
+            ],
+            [
+              216.522,
+              295.494
+            ],
+            [
+              210.341,
+              297.483
+            ],
+            [
+              165.57,
+              311.92
+            ],
+            [
+              156.716,
+              315.15
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "unclassified",
+          "lanes": "2",
+          "name": "Lane R",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              283.224,
+              277.226
+            ],
+            [
+              288.139,
+              275.677
+            ],
+            [
+              286.215,
+              269.573
+            ],
+            [
+              281.27,
+              271.131
+            ],
+            [
+              281.211,
+              271.151
+            ],
+            [
+              250.0,
+              281.6632412874164
+            ],
+            [
+              250.0,
+              288.41637213930346
+            ],
+            [
+              283.224,
+              277.226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:184852741",
+      "properties": {
+        "id": "osm:way:184852741",
+        "source_ids": [
+          "osm:way:184852741",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 31.18,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              393.483,
+              375.332
+            ],
+            [
+              396.224,
+              383.232
+            ],
+            [
+              403.705,
+              404.792
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              409.751,
+              402.694
+            ],
+            [
+              402.27,
+              381.135
+            ],
+            [
+              399.53,
+              373.235
+            ],
+            [
+              387.437,
+              377.43
+            ],
+            [
+              390.177,
+              385.33
+            ],
+            [
+              397.659,
+              406.89
+            ],
+            [
+              409.751,
+              402.694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:23370756",
+      "properties": {
+        "id": "osm:way:23370756",
+        "source_ids": [
+          "osm:way:23370756",
+          "source:osm"
+        ],
+        "name": "Rizal Drive",
+        "class": "residential",
+        "width_m": 9.6,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 25.27,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              417.934,
+              353.079
+            ],
+            [
+              408.275,
+              366.829
+            ],
+            [
+              401.952,
+              372.46
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "3",
+          "name": "Rizal Drive",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              405.145,
+              376.044
+            ],
+            [
+              411.467,
+              370.413
+            ],
+            [
+              411.859,
+              370.022
+            ],
+            [
+              412.202,
+              369.588
+            ],
+            [
+              421.861,
+              355.838
+            ],
+            [
+              414.006,
+              350.32
+            ],
+            [
+              404.667,
+              363.614
+            ],
+            [
+              398.76,
+              368.876
+            ],
+            [
+              405.145,
+              376.044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:32836352",
+      "properties": {
+        "id": "osm:way:32836352",
+        "source_ids": [
+          "osm:way:32836352",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 154.43,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              537.718,
+              194.837
+            ],
+            [
+              533.596,
+              199.365
+            ],
+            [
+              530.957,
+              202.121
+            ],
+            [
+              528.431,
+              223.235
+            ],
+            [
+              524.708,
+              254.319
+            ],
+            [
+              522.226,
+              277.978
+            ],
+            [
+              521.157,
+              289.076
+            ],
+            [
+              515.537,
+              306.265
+            ],
+            [
+              507.423,
+              320.466
+            ],
+            [
+              498.686,
+              341.246
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              496.381,
+              340.277
+            ],
+            [
+              500.0,
+              341.798723150358
+            ],
+            [
+              500.0,
+              331.67001808401045
+            ],
+            [
+              496.381,
+              340.277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538697023",
+      "properties": {
+        "id": "osm:way:538697023",
+        "source_ids": [
+          "osm:way:538697023",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 19.72,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              282.582,
+              306.317
+            ],
+            [
+              287.245,
+              320.929
+            ],
+            [
+              287.223,
+              322.224
+            ],
+            [
+              286.585,
+              323.237
+            ],
+            [
+              284.878,
+              324.059
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              285.964,
+              326.311
+            ],
+            [
+              287.67,
+              325.489
+            ],
+            [
+              287.875,
+              325.378
+            ],
+            [
+              288.069,
+              325.249
+            ],
+            [
+              288.25,
+              325.102
+            ],
+            [
+              288.416,
+              324.939
+            ],
+            [
+              288.567,
+              324.761
+            ],
+            [
+              288.7,
+              324.57
+            ],
+            [
+              289.338,
+              323.557
+            ],
+            [
+              289.451,
+              323.359
+            ],
+            [
+              289.545,
+              323.152
+            ],
+            [
+              289.619,
+              322.938
+            ],
+            [
+              289.674,
+              322.717
+            ],
+            [
+              289.709,
+              322.492
+            ],
+            [
+              289.723,
+              322.265
+            ],
+            [
+              289.744,
+              320.97
+            ],
+            [
+              289.734,
+              320.7
+            ],
+            [
+              289.695,
+              320.431
+            ],
+            [
+              289.626,
+              320.169
+            ],
+            [
+              284.964,
+              305.557
+            ],
+            [
+              280.2,
+              307.077
+            ],
+            [
+              284.738,
+              321.298
+            ],
+            [
+              284.737,
+              321.352
+            ],
+            [
+              283.793,
+              321.807
+            ],
+            [
+              285.964,
+              326.311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:693152320",
+      "properties": {
+        "id": "osm:way:693152320",
+        "source_ids": [
+          "osm:way:693152320",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 79.19,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              572.978,
+              378.283
+            ],
+            [
+              564.019,
+              381.956
+            ],
+            [
+              494.866,
+              374.932
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              495.119,
+              372.445
+            ],
+            [
+              494.614,
+              377.419
+            ],
+            [
+              500.0,
+              377.96606612872904
+            ],
+            [
+              500.0,
+              372.9407137645737
+            ],
+            [
+              495.119,
+              372.445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:744944960",
+      "properties": {
+        "id": "osm:way:744944960",
+        "source_ids": [
+          "osm:way:744944960",
+          "source:osm"
+        ],
+        "name": "34th Street",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 55.47,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              250.998,
+              422.287
+            ],
+            [
+              207.713,
+              436.534
+            ],
+            [
+              198.319,
+              439.668
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "34th Street",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              252.999,
+              428.366
+            ],
+            [
+              250.0,
+              419.2543455772114
+            ],
+            [
+              250.0,
+              429.35312231928265
+            ],
+            [
+              252.999,
+              428.366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:744949908",
+      "properties": {
+        "id": "osm:way:744949908",
+        "source_ids": [
+          "osm:way:744949908",
+          "source:osm"
+        ],
+        "name": "34th Street",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 60.87,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              329.443,
+              396.474
+            ],
+            [
+              323.585,
+              398.405
+            ],
+            [
+              271.625,
+              415.504
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "34th Street",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              273.626,
+              421.583
+            ],
+            [
+              325.585,
+              404.484
+            ],
+            [
+              331.446,
+              402.552
+            ],
+            [
+              327.439,
+              390.395
+            ],
+            [
+              321.582,
+              392.326
+            ],
+            [
+              269.625,
+              409.424
+            ],
+            [
+              273.626,
+              421.583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:745062638",
+      "properties": {
+        "id": "osm:way:745062638",
+        "source_ids": [
+          "osm:way:745062638",
+          "source:osm"
+        ],
+        "name": "34th Street",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 43.81,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              393.483,
+              375.332
+            ],
+            [
+              385.53,
+              378.023
+            ],
+            [
+              351.886,
+              389.067
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "34th Street",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              353.882,
+              395.147
+            ],
+            [
+              387.526,
+              384.104
+            ],
+            [
+              387.581,
+              384.085
+            ],
+            [
+              395.534,
+              381.395
+            ],
+            [
+              391.432,
+              369.27
+            ],
+            [
+              383.506,
+              371.951
+            ],
+            [
+              349.89,
+              382.986
+            ],
+            [
+              353.882,
+              395.147
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217017",
+      "properties": {
+        "id": "osm:way:747217017",
+        "source_ids": [
+          "osm:way:747217017",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 52.79,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              376.177,
+              325.46
+            ],
+            [
+              390.146,
+              365.722
+            ],
+            [
+              393.483,
+              375.332
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              399.529,
+              373.233
+            ],
+            [
+              396.192,
+              363.623
+            ],
+            [
+              382.224,
+              323.362
+            ],
+            [
+              370.131,
+              327.557
+            ],
+            [
+              384.099,
+              367.82
+            ],
+            [
+              387.437,
+              377.432
+            ],
+            [
+              399.529,
+              373.233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747341860",
+      "properties": {
+        "id": "osm:way:747341860",
+        "source_ids": [
+          "osm:way:747341860",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 41.4,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              284.878,
+              324.059
+            ],
+            [
+              253.479,
+              334.11
+            ],
+            [
+              247.881,
+              336.183
+            ],
+            [
+              246.976,
+              336.213
+            ],
+            [
+              246.239,
+              335.754
+            ],
+            [
+              245.889,
+              335.16
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              254.294,
+              336.474
+            ],
+            [
+              285.641,
+              326.44
+            ],
+            [
+              284.116,
+              321.678
+            ],
+            [
+              252.717,
+              331.729
+            ],
+            [
+              252.611,
+              331.766
+            ],
+            [
+              250.0,
+              332.73274051360676
+            ],
+            [
+              250.0,
+              338.0638254283138
+            ],
+            [
+              254.294,
+              336.474
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747341861",
+      "properties": {
+        "id": "osm:way:747341861",
+        "source_ids": [
+          "osm:way:747341861",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 56.75,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              238.251,
+              302.944
+            ],
+            [
+              273.571,
+              291.222
+            ],
+            [
+              275.628,
+              290.95
+            ],
+            [
+              277.325,
+              291.599
+            ],
+            [
+              278.269,
+              293.528
+            ],
+            [
+              282.582,
+              306.317
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              274.134,
+              293.669
+            ],
+            [
+              275.327,
+              293.511
+            ],
+            [
+              275.512,
+              293.583
+            ],
+            [
+              275.952,
+              294.481
+            ],
+            [
+              280.213,
+              307.116
+            ],
+            [
+              284.951,
+              305.518
+            ],
+            [
+              280.638,
+              292.729
+            ],
+            [
+              280.515,
+              292.429
+            ],
+            [
+              279.571,
+              290.501
+            ],
+            [
+              279.458,
+              290.295
+            ],
+            [
+              279.327,
+              290.101
+            ],
+            [
+              279.178,
+              289.92
+            ],
+            [
+              279.012,
+              289.754
+            ],
+            [
+              278.832,
+              289.604
+            ],
+            [
+              278.638,
+              289.472
+            ],
+            [
+              278.433,
+              289.358
+            ],
+            [
+              278.219,
+              289.264
+            ],
+            [
+              276.521,
+              288.615
+            ],
+            [
+              276.285,
+              288.538
+            ],
+            [
+              276.042,
+              288.485
+            ],
+            [
+              275.795,
+              288.456
+            ],
+            [
+              275.547,
+              288.451
+            ],
+            [
+              275.3,
+              288.471
+            ],
+            [
+              273.243,
+              288.744
+            ],
+            [
+              273.011,
+              288.786
+            ],
+            [
+              272.784,
+              288.849
+            ],
+            [
+              250.0,
+              296.4105528878822
+            ],
+            [
+              250.0,
+              301.67905362587265
+            ],
+            [
+              274.134,
+              293.669
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447015",
+      "properties": {
+        "id": "osm:way:747447015",
+        "source_ids": [
+          "osm:way:747447015",
+          "source:osm"
+        ],
+        "name": "Rizal Drive",
+        "class": "residential",
+        "width_m": 9.6,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 8.94,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              401.952,
+              372.46
+            ],
+            [
+              393.483,
+              375.332
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "3",
+          "name": "Rizal Drive",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              403.494,
+              377.006
+            ],
+            [
+              400.411,
+              367.914
+            ],
+            [
+              391.941,
+              370.787
+            ],
+            [
+              395.025,
+              379.878
+            ],
+            [
+              403.494,
+              377.006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447020",
+      "properties": {
+        "id": "osm:way:747447020",
+        "source_ids": [
+          "osm:way:747447020",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 34.84,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              430.746,
+              482.735
+            ],
+            [
+              435.969,
+              498.526
+            ],
+            [
+              441.678,
+              515.819
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              442.046,
+              496.52
+            ],
+            [
+              436.823,
+              480.725
+            ],
+            [
+              424.67,
+              484.744
+            ],
+            [
+              429.7153978467384,
+              500.0
+            ],
+            [
+              443.1949312977099,
+              500.0
+            ],
+            [
+              442.046,
+              496.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747853026",
+      "properties": {
+        "id": "osm:way:747853026",
+        "source_ids": [
+          "osm:way:747853026",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 21.96,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              423.552,
+              461.991
+            ],
+            [
+              429.243,
+              478.388
+            ],
+            [
+              430.746,
+              482.735
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              436.795,
+              480.644
+            ],
+            [
+              435.292,
+              476.296
+            ],
+            [
+              435.289,
+              476.289
+            ],
+            [
+              429.598,
+              459.893
+            ],
+            [
+              417.506,
+              464.09
+            ],
+            [
+              423.196,
+              480.482
+            ],
+            [
+              424.698,
+              484.826
+            ],
+            [
+              436.795,
+              480.644
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747853027",
+      "properties": {
+        "id": "osm:way:747853027",
+        "source_ids": [
+          "osm:way:747853027",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 32.94,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              403.705,
+              404.792
+            ],
+            [
+              412.612,
+              430.468
+            ],
+            [
+              414.448,
+              435.93
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              420.514,
+              433.891
+            ],
+            [
+              418.678,
+              428.429
+            ],
+            [
+              418.658,
+              428.37
+            ],
+            [
+              409.752,
+              402.695
+            ],
+            [
+              397.659,
+              406.89
+            ],
+            [
+              406.555,
+              432.536
+            ],
+            [
+              408.381,
+              437.969
+            ],
+            [
+              420.514,
+              433.891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747853028",
+      "properties": {
+        "id": "osm:way:747853028",
+        "source_ids": [
+          "osm:way:747853028",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 27.61,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              414.448,
+              435.93
+            ],
+            [
+              416.911,
+              442.837
+            ],
+            [
+              423.552,
+              461.991
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              429.599,
+              459.895
+            ],
+            [
+              422.957,
+              440.74
+            ],
+            [
+              422.939,
+              440.687
+            ],
+            [
+              420.476,
+              433.781
+            ],
+            [
+              408.42,
+              438.08
+            ],
+            [
+              410.873,
+              444.96
+            ],
+            [
+              417.505,
+              464.088
+            ],
+            [
+              429.599,
+              459.895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747853030",
+      "properties": {
+        "id": "osm:way:747853030",
+        "source_ids": [
+          "osm:way:747853030",
+          "source:osm"
+        ],
+        "name": "34th Street",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 23.63,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              351.886,
+              389.067
+            ],
+            [
+              336.289,
+              394.191
+            ],
+            [
+              329.443,
+              396.474
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "34th Street",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              327.418,
+              390.402
+            ],
+            [
+              331.467,
+              402.545
+            ],
+            [
+              338.3,
+              400.267
+            ],
+            [
+              353.883,
+              395.147
+            ],
+            [
+              349.888,
+              382.986
+            ],
+            [
+              334.292,
+              388.111
+            ],
+            [
+              334.265,
+              388.119
+            ],
+            [
+              327.418,
+              390.402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747936760",
+      "properties": {
+        "id": "osm:way:747936760",
+        "source_ids": [
+          "osm:way:747936760",
+          "source:osm"
+        ],
+        "name": "Lane R",
+        "class": "unclassified",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 66.76,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              350.418,
+              251.225
+            ],
+            [
+              342.077,
+              254.029
+            ],
+            [
+              293.421,
+              270.414
+            ],
+            [
+              287.177,
+              272.625
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "unclassified",
+          "lanes": "2",
+          "name": "Lane R",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              341.057,
+              250.996
+            ],
+            [
+              292.4,
+              267.381
+            ],
+            [
+              292.352,
+              267.397
+            ],
+            [
+              286.109,
+              269.608
+            ],
+            [
+              288.245,
+              275.641
+            ],
+            [
+              294.466,
+              273.438
+            ],
+            [
+              343.098,
+              257.062
+            ],
+            [
+              351.438,
+              254.258
+            ],
+            [
+              350.00603165182986,
+              250.0
+            ],
+            [
+              344.01978031383743,
+              250.0
+            ],
+            [
+              341.057,
+              250.996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747939433",
+      "properties": {
+        "id": "osm:way:747939433",
+        "source_ids": [
+          "osm:way:747939433",
+          "source:osm"
+        ],
+        "name": "11th Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 78.58,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              350.418,
+              251.225
+            ],
+            [
+              352.783,
+              258.055
+            ],
+            [
+              376.177,
+              325.46
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Avenue",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344.37,
+              253.319
+            ],
+            [
+              346.735,
+              260.149
+            ],
+            [
+              370.131,
+              327.558
+            ],
+            [
+              382.224,
+              323.361
+            ],
+            [
+              358.83,
+              255.958
+            ],
+            [
+              356.7672126537786,
+              250.0
+            ],
+            [
+              353.9538204822153,
+              250.0
+            ],
+            [
+              344.37,
+              253.319
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:748795306",
+      "properties": {
+        "id": "osm:way:748795306",
+        "source_ids": [
+          "osm:way:748795306",
+          "source:osm"
+        ],
+        "name": "Rizal Drive",
+        "class": "residential",
+        "width_m": 9.6,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 48.42,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              444.362,
+              312.505
+            ],
+            [
+              417.934,
+              353.079
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "3",
+          "name": "Rizal Drive",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              448.384,
+              315.125
+            ],
+            [
+              440.34,
+              309.886
+            ],
+            [
+              413.912,
+              350.459
+            ],
+            [
+              421.956,
+              355.699
+            ],
+            [
+              448.384,
+              315.125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:749508471",
+      "properties": {
+        "id": "osm:way:749508471",
+        "source_ids": [
+          "osm:way:749508471",
+          "source:osm"
+        ],
+        "name": "11th Drive",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 74.13,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              373.753,
+              530.132
+            ],
+            [
+              421.912,
+              489.583
+            ],
+            [
+              430.746,
+              482.735
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "11th Drive",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              425.935,
+              494.562
+            ],
+            [
+              434.667,
+              487.793
+            ],
+            [
+              426.825,
+              477.677
+            ],
+            [
+              417.991,
+              484.525
+            ],
+            [
+              417.79,
+              484.687
+            ],
+            [
+              399.60314540432563,
+              500.0
+            ],
+            [
+              419.47648470320763,
+              500.0
+            ],
+            [
+              425.935,
+              494.562
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:749519991",
+      "properties": {
+        "id": "osm:way:749519991",
+        "source_ids": [
+          "osm:way:749519991",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 49.5,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              444.362,
+              312.505
+            ],
+            [
+              450.097,
+              316.286
+            ],
+            [
+              453.89,
+              318.655
+            ],
+            [
+              462.282,
+              323.131
+            ],
+            [
+              487.926,
+              335.893
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service",
+          "lanes": "2",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              452.194,
+              321.369
+            ],
+            [
+              452.383,
+              321.478
+            ],
+            [
+              460.775,
+              325.955
+            ],
+            [
+              460.856,
+              325.996
+            ],
+            [
+              486.5,
+              338.758
+            ],
+            [
+              489.352,
+              333.029
+            ],
+            [
+              463.748,
+              320.287
+            ],
+            [
+              455.492,
+              315.883
+            ],
+            [
+              451.825,
+              313.592
+            ],
+            [
+              446.124,
+              309.834
+            ],
+            [
+              442.601,
+              315.177
+            ],
+            [
+              448.336,
+              318.957
+            ],
+            [
+              448.402,
+              319.0
+            ],
+            [
+              452.194,
+              321.369
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:749520368",
+      "properties": {
+        "id": "osm:way:749520368",
+        "source_ids": [
+          "osm:way:749520368",
+          "source:osm"
+        ],
+        "name": "Rizal Drive",
+        "class": "residential",
+        "width_m": 9.6,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 51.77,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              469.512,
+              267.262
+            ],
+            [
+              467.21,
+              271.652
+            ],
+            [
+              459.743,
+              285.87
+            ],
+            [
+              444.362,
+              312.505
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "3",
+          "name": "Rizal Drive",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              440.206,
+              310.105
+            ],
+            [
+              448.519,
+              314.906
+            ],
+            [
+              463.9,
+              288.27
+            ],
+            [
+              463.993,
+              288.102
+            ],
+            [
+              471.46,
+              273.884
+            ],
+            [
+              473.763,
+              269.49
+            ],
+            [
+              465.26,
+              265.033
+            ],
+            [
+              462.96,
+              269.422
+            ],
+            [
+              455.538,
+              283.553
+            ],
+            [
+              440.206,
+              310.105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:749642034",
+      "properties": {
+        "id": "osm:way:749642034",
+        "source_ids": [
+          "osm:way:749642034",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 43.2,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              494.866,
+              374.932
+            ],
+            [
+              490.609,
+              417.917
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              497.354,
+              375.178
+            ],
+            [
+              492.379,
+              374.685
+            ],
+            [
+              488.121,
+              417.671
+            ],
+            [
+              493.097,
+              418.163
+            ],
+            [
+              497.354,
+              375.178
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:749642035",
+      "properties": {
+        "id": "osm:way:749642035",
+        "source_ids": [
+          "osm:way:749642035",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 33.9,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              494.866,
+              374.932
+            ],
+            [
+              498.686,
+              341.246
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              496.202,
+              340.965
+            ],
+            [
+              492.382,
+              374.65
+            ],
+            [
+              497.35,
+              375.214
+            ],
+            [
+              500.0,
+              351.8454397905761
+            ],
+            [
+              500.0,
+              341.39540942028987
+            ],
+            [
+              496.202,
+              340.965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:903738931",
+      "properties": {
+        "id": "osm:way:903738931",
+        "source_ids": [
+          "osm:way:903738931",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 44.17,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              282.582,
+              306.317
+            ],
+            [
+              240.453,
+              319.603
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              283.334,
+              308.701
+            ],
+            [
+              281.83,
+              303.933
+            ],
+            [
+              250.0,
+              313.97030328277435
+            ],
+            [
+              250.0,
+              319.2131178257774
+            ],
+            [
+              283.334,
+              308.701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:96487801",
+      "properties": {
+        "id": "osm:way:96487801",
+        "source_ids": [
+          "osm:way:96487801",
+          "source:osm"
+        ],
+        "name": "Lane D",
+        "class": "unclassified",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 130.87,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              287.177,
+              272.625
+            ],
+            [
+              289.194,
+              279.126
+            ],
+            [
+              304.97,
+              325.304
+            ],
+            [
+              306.784,
+              330.634
+            ],
+            [
+              309.326,
+              338.06
+            ],
+            [
+              311.416,
+              344.195
+            ],
+            [
+              322.272,
+              375.973
+            ],
+            [
+              326.307,
+              387.791
+            ],
+            [
+              329.443,
+              396.474
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "unclassified",
+          "lanes": "2",
+          "name": "Lane D",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              301.941,
+              326.337
+            ],
+            [
+              303.754,
+              331.664
+            ],
+            [
+              303.756,
+              331.67
+            ],
+            [
+              306.298,
+              339.094
+            ],
+            [
+              308.387,
+              345.226
+            ],
+            [
+              319.244,
+              377.008
+            ],
+            [
+              323.279,
+              388.825
+            ],
+            [
+              323.297,
+              388.878
+            ],
+            [
+              326.433,
+              397.56
+            ],
+            [
+              332.452,
+              395.387
+            ],
+            [
+              329.327,
+              386.731
+            ],
+            [
+              325.3,
+              374.939
+            ],
+            [
+              314.444,
+              343.162
+            ],
+            [
+              312.355,
+              337.028
+            ],
+            [
+              312.354,
+              337.023
+            ],
+            [
+              309.812,
+              329.6
+            ],
+            [
+              308.0,
+              324.273
+            ],
+            [
+              307.998,
+              324.27
+            ],
+            [
+              292.237,
+              278.134
+            ],
+            [
+              290.233,
+              271.676
+            ],
+            [
+              284.121,
+              273.573
+            ],
+            [
+              286.138,
+              280.074
+            ],
+            [
+              286.166,
+              280.16
+            ],
+            [
+              301.941,
+              326.337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:96487803",
+      "properties": {
+        "id": "osm:way:96487803",
+        "source_ids": [
+          "osm:way:96487803",
+          "source:osm"
+        ],
+        "name": "Lane S",
+        "class": "unclassified",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 137.44,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              306.784,
+              330.634
+            ],
+            [
+              298.062,
+              332.966
+            ],
+            [
+              257.61,
+              347.0
+            ],
+            [
+              244.767,
+              351.459
+            ],
+            [
+              236.985,
+              354.005
+            ],
+            [
+              232.848,
+              355.6
+            ],
+            [
+              186.034,
+              371.847
+            ],
+            [
+              176.748,
+              375.07
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "unclassified",
+          "lanes": "2",
+          "name": "Lane S",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              258.659,
+              350.023
+            ],
+            [
+              299.001,
+              336.027
+            ],
+            [
+              307.61,
+              333.725
+            ],
+            [
+              305.957,
+              327.542
+            ],
+            [
+              297.235,
+              329.874
+            ],
+            [
+              297.013,
+              329.942
+            ],
+            [
+              256.561,
+              343.977
+            ],
+            [
+              250.0,
+              346.255125
+            ],
+            [
+              250.0,
+              353.0293443899401
+            ],
+            [
+              258.659,
+              350.023
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1278363956",
+      "properties": {
+        "id": "osm:way:1278363956",
+        "source_ids": [
+          "osm:way:1278363956",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 246.26,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              511.645,
+              145.78
+            ],
+            [
+              508.105,
+              162.919
+            ],
+            [
+              482.158,
+              218.295
+            ],
+            [
+              464.057,
+              262.085
+            ],
+            [
+              459.919,
+              268.616
+            ],
+            [
+              435.138,
+              307.726
+            ],
+            [
+              398.648,
+              362.949
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              463.255,
+              261.669
+            ],
+            [
+              459.159,
+              268.134
+            ],
+            [
+              434.382,
+              307.237
+            ],
+            [
+              397.897,
+              362.453
+            ],
+            [
+              399.399,
+              363.445
+            ],
+            [
+              435.889,
+              308.222
+            ],
+            [
+              435.898,
+              308.208
+            ],
+            [
+              460.68,
+              269.098
+            ],
+            [
+              464.817,
+              262.566
+            ],
+            [
+              464.856,
+              262.499
+            ],
+            [
+              464.888,
+              262.429
+            ],
+            [
+              470.0258841241918,
+              250.0
+            ],
+            [
+              468.0785354438777,
+              250.0
+            ],
+            [
+              463.255,
+              261.669
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1278363957",
+      "properties": {
+        "id": "osm:way:1278363957",
+        "source_ids": [
+          "osm:way:1278363957",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 78.73,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              404.649,
+              380.25
+            ],
+            [
+              412.529,
+              372.724
+            ],
+            [
+              416.315,
+              367.988
+            ],
+            [
+              423.874,
+              357.001
+            ],
+            [
+              450.097,
+              316.286
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              417.018,
+              368.55
+            ],
+            [
+              417.056,
+              368.499
+            ],
+            [
+              424.616,
+              357.512
+            ],
+            [
+              424.631,
+              357.489
+            ],
+            [
+              450.853,
+              316.773
+            ],
+            [
+              449.34,
+              315.798
+            ],
+            [
+              423.125,
+              356.503
+            ],
+            [
+              415.592,
+              367.452
+            ],
+            [
+              411.863,
+              372.115
+            ],
+            [
+              404.027,
+              379.599
+            ],
+            [
+              405.27,
+              380.901
+            ],
+            [
+              413.15,
+              373.375
+            ],
+            [
+              413.232,
+              373.286
+            ],
+            [
+              417.018,
+              368.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:695921364",
+      "properties": {
+        "id": "osm:way:695921364",
+        "source_ids": [
+          "osm:way:695921364",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 191.98,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              450.097,
+              316.286
+            ],
+            [
+              455.391,
+              306.402
+            ],
+            [
+              462.733,
+              292.717
+            ],
+            [
+              474.345,
+              271.503
+            ],
+            [
+              479.03,
+              262.201
+            ],
+            [
+              485.139,
+              250.584
+            ],
+            [
+              492.19,
+              236.813
+            ],
+            [
+              500.196,
+              218.85
+            ],
+            [
+              512.359,
+              192.74
+            ],
+            [
+              534.763,
+              144.078
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              484.34,
+              250.169
+            ],
+            [
+              478.233,
+              261.782
+            ],
+            [
+              478.226,
+              261.796
+            ],
+            [
+              473.548,
+              271.084
+            ],
+            [
+              461.944,
+              292.285
+            ],
+            [
+              461.94,
+              292.291
+            ],
+            [
+              454.598,
+              305.977
+            ],
+            [
+              449.303,
+              315.861
+            ],
+            [
+              450.89,
+              316.711
+            ],
+            [
+              456.184,
+              306.828
+            ],
+            [
+              463.525,
+              293.146
+            ],
+            [
+              475.134,
+              271.935
+            ],
+            [
+              475.148,
+              271.908
+            ],
+            [
+              479.83,
+              262.612
+            ],
+            [
+              485.936,
+              251.003
+            ],
+            [
+              485.94,
+              250.994
+            ],
+            [
+              486.44894590080605,
+              250.0
+            ],
+            [
+              484.4265348854129,
+              250.0
+            ],
+            [
+              484.34,
+              250.169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:744926184",
+      "properties": {
+        "id": "osm:way:744926184",
+        "source_ids": [
+          "osm:way:744926184",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 59.26,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              382.311,
+              368.412
+            ],
+            [
+              326.307,
+              387.791
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              382.605,
+              369.262
+            ],
+            [
+              382.017,
+              367.561
+            ],
+            [
+              326.013,
+              386.941
+            ],
+            [
+              326.602,
+              388.642
+            ],
+            [
+              382.605,
+              369.262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:745729673",
+      "properties": {
+        "id": "osm:way:745729673",
+        "source_ids": [
+          "osm:way:745729673",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 21.2,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              419.594,
+              481.878
+            ],
+            [
+              421.912,
+              489.583
+            ],
+            [
+              426.147,
+              502.041
+            ]
+          ]
+        },
+        "tags": {
+          "crossing": "marked",
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              422.769,
+              489.308
+            ],
+            [
+              420.455,
+              481.619
+            ],
+            [
+              418.732,
+              482.138
+            ],
+            [
+              421.05,
+              489.842
+            ],
+            [
+              421.06,
+              489.873
+            ],
+            [
+              424.5028710765032,
+              500.0
+            ],
+            [
+              426.4037472474484,
+              500.0
+            ],
+            [
+              422.769,
+              489.308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:745729674",
+      "properties": {
+        "id": "osm:way:745729674",
+        "source_ids": [
+          "osm:way:745729674",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 20.71,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              442.781,
+              495.978
+            ],
+            [
+              439.74,
+              486.963
+            ],
+            [
+              436.081,
+              476.381
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              436.932,
+              476.087
+            ],
+            [
+              435.231,
+              476.676
+            ],
+            [
+              438.888,
+              487.254
+            ],
+            [
+              441.928,
+              496.266
+            ],
+            [
+              443.634,
+              495.691
+            ],
+            [
+              440.592,
+              486.675
+            ],
+            [
+              440.59,
+              486.669
+            ],
+            [
+              436.932,
+              476.087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:745729675",
+      "properties": {
+        "id": "osm:way:745729675",
+        "source_ids": [
+          "osm:way:745729675",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 17.7,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              426.147,
+              502.041
+            ],
+            [
+              435.969,
+              498.526
+            ],
+            [
+              442.781,
+              495.978
+            ]
+          ]
+        },
+        "tags": {
+          "crossing": "marked",
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              436.272,
+              499.374
+            ],
+            [
+              436.284,
+              499.369
+            ],
+            [
+              443.096,
+              496.821
+            ],
+            [
+              442.465,
+              495.135
+            ],
+            [
+              435.659,
+              497.681
+            ],
+            [
+              429.1780817198177,
+              500.0
+            ],
+            [
+              434.52226408651114,
+              500.0
+            ],
+            [
+              436.272,
+              499.374
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:745729676",
+      "properties": {
+        "id": "osm:way:745729676",
+        "source_ids": [
+          "osm:way:745729676",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 17.39,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              436.081,
+              476.381
+            ],
+            [
+              429.243,
+              478.388
+            ],
+            [
+              419.594,
+              481.878
+            ]
+          ]
+        },
+        "tags": {
+          "crossing": "marked",
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              419.287,
+              481.032
+            ],
+            [
+              419.9,
+              482.725
+            ],
+            [
+              429.523,
+              479.243
+            ],
+            [
+              436.335,
+              477.245
+            ],
+            [
+              435.828,
+              475.518
+            ],
+            [
+              428.99,
+              477.524
+            ],
+            [
+              428.937,
+              477.541
+            ],
+            [
+              419.287,
+              481.032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217013",
+      "properties": {
+        "id": "osm:way:747217013",
+        "source_ids": [
+          "osm:way:747217013",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 17.6,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              344.42,
+              260.716
+            ],
+            [
+              352.783,
+              258.055
+            ],
+            [
+              361.2,
+              255.393
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              360.929,
+              254.535
+            ],
+            [
+              352.512,
+              257.196
+            ],
+            [
+              352.51,
+              257.197
+            ],
+            [
+              344.147,
+              259.858
+            ],
+            [
+              344.692,
+              261.573
+            ],
+            [
+              353.055,
+              258.912
+            ],
+            [
+              361.472,
+              256.251
+            ],
+            [
+              360.929,
+              254.535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217014",
+      "properties": {
+        "id": "osm:way:747217014",
+        "source_ids": [
+          "osm:way:747217014",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 14.23,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              339.573,
+              247.333
+            ],
+            [
+              342.077,
+              254.029
+            ],
+            [
+              344.42,
+              260.716
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              341.231,
+              254.336
+            ],
+            [
+              343.57,
+              261.013
+            ],
+            [
+              345.269,
+              260.418
+            ],
+            [
+              342.927,
+              253.732
+            ],
+            [
+              342.92,
+              253.714
+            ],
+            [
+              341.53113261648747,
+              250.0
+            ],
+            [
+              339.6092957978167,
+              250.0
+            ],
+            [
+              341.231,
+              254.336
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217016",
+      "properties": {
+        "id": "osm:way:747217016",
+        "source_ids": [
+          "osm:way:747217016",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 14.62,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              361.2,
+              255.393
+            ],
+            [
+              356.49,
+              241.556
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              360.348,
+              255.683
+            ],
+            [
+              362.052,
+              255.103
+            ],
+            [
+              360.3149811375298,
+              250.0
+            ],
+            [
+              358.41355394955553,
+              250.0
+            ],
+            [
+              360.348,
+              255.683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217032",
+      "properties": {
+        "id": "osm:way:747217032",
+        "source_ids": [
+          "osm:way:747217032",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 17.02,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              408.558,
+              445.498
+            ],
+            [
+              416.911,
+              442.837
+            ],
+            [
+              424.724,
+              440.169
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              425.015,
+              441.021
+            ],
+            [
+              424.433,
+              439.318
+            ],
+            [
+              416.629,
+              441.982
+            ],
+            [
+              408.285,
+              444.64
+            ],
+            [
+              408.831,
+              446.355
+            ],
+            [
+              417.184,
+              443.694
+            ],
+            [
+              417.201,
+              443.688
+            ],
+            [
+              425.015,
+              441.021
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217033",
+      "properties": {
+        "id": "osm:way:747217033",
+        "source_ids": [
+          "osm:way:747217033",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 12.94,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              404.272,
+              433.361
+            ],
+            [
+              405.383,
+              438.52
+            ],
+            [
+              408.558,
+              445.498
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              404.564,
+              438.892
+            ],
+            [
+              407.739,
+              445.87
+            ],
+            [
+              409.377,
+              445.125
+            ],
+            [
+              406.243,
+              438.235
+            ],
+            [
+              405.152,
+              433.172
+            ],
+            [
+              403.392,
+              433.551
+            ],
+            [
+              404.504,
+              438.709
+            ],
+            [
+              404.529,
+              438.802
+            ],
+            [
+              404.564,
+              438.892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217034",
+      "properties": {
+        "id": "osm:way:747217034",
+        "source_ids": [
+          "osm:way:747217034",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 17.08,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              420.425,
+              427.801
+            ],
+            [
+              412.612,
+              430.468
+            ],
+            [
+              404.272,
+              433.361
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              403.977,
+              432.511
+            ],
+            [
+              404.567,
+              434.211
+            ],
+            [
+              412.905,
+              431.319
+            ],
+            [
+              420.716,
+              428.652
+            ],
+            [
+              420.135,
+              426.949
+            ],
+            [
+              412.321,
+              429.616
+            ],
+            [
+              412.317,
+              429.618
+            ],
+            [
+              403.977,
+              432.511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217035",
+      "properties": {
+        "id": "osm:way:747217035",
+        "source_ids": [
+          "osm:way:747217035",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 18.31,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              398.648,
+              362.949
+            ],
+            [
+              401.952,
+              372.46
+            ],
+            [
+              402.781,
+              374.843
+            ],
+            [
+              404.649,
+              380.25
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              403.798,
+              380.544
+            ],
+            [
+              405.5,
+              379.956
+            ],
+            [
+              403.632,
+              374.55
+            ],
+            [
+              403.631,
+              374.548
+            ],
+            [
+              402.802,
+              372.165
+            ],
+            [
+              399.498,
+              362.654
+            ],
+            [
+              397.798,
+              363.244
+            ],
+            [
+              401.102,
+              372.756
+            ],
+            [
+              401.931,
+              375.138
+            ],
+            [
+              403.798,
+              380.544
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217036",
+      "properties": {
+        "id": "osm:way:747217036",
+        "source_ids": [
+          "osm:way:747217036",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 17.23,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              382.311,
+              368.412
+            ],
+            [
+              390.146,
+              365.722
+            ],
+            [
+              398.648,
+              362.949
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              398.369,
+              362.093
+            ],
+            [
+              389.867,
+              364.866
+            ],
+            [
+              389.854,
+              364.871
+            ],
+            [
+              382.019,
+              367.56
+            ],
+            [
+              382.603,
+              369.263
+            ],
+            [
+              390.431,
+              366.575
+            ],
+            [
+              398.927,
+              363.805
+            ],
+            [
+              398.369,
+              362.093
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217037",
+      "properties": {
+        "id": "osm:way:747217037",
+        "source_ids": [
+          "osm:way:747217037",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 18.52,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              388.27,
+              385.945
+            ],
+            [
+              385.53,
+              378.023
+            ],
+            [
+              382.311,
+              368.412
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              381.457,
+              368.697
+            ],
+            [
+              384.676,
+              378.309
+            ],
+            [
+              384.679,
+              378.317
+            ],
+            [
+              387.42,
+              386.239
+            ],
+            [
+              389.121,
+              385.651
+            ],
+            [
+              386.382,
+              377.733
+            ],
+            [
+              383.164,
+              368.126
+            ],
+            [
+              381.457,
+              368.697
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747217038",
+      "properties": {
+        "id": "osm:way:747217038",
+        "source_ids": [
+          "osm:way:747217038",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 17.34,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              404.649,
+              380.25
+            ],
+            [
+              396.224,
+              383.232
+            ],
+            [
+              388.27,
+              385.945
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              388.561,
+              386.797
+            ],
+            [
+              396.514,
+              384.084
+            ],
+            [
+              396.524,
+              384.081
+            ],
+            [
+              404.949,
+              381.098
+            ],
+            [
+              404.349,
+              379.402
+            ],
+            [
+              395.928,
+              382.382
+            ],
+            [
+              387.98,
+              385.093
+            ],
+            [
+              388.561,
+              386.797
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447009",
+      "properties": {
+        "id": "osm:way:747447009",
+        "source_ids": [
+          "osm:way:747447009",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 113.89,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              398.648,
+              362.949
+            ],
+            [
+              361.2,
+              255.393
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              397.798,
+              363.245
+            ],
+            [
+              399.498,
+              362.653
+            ],
+            [
+              362.05,
+              255.097
+            ],
+            [
+              360.35,
+              255.689
+            ],
+            [
+              397.798,
+              363.245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447016",
+      "properties": {
+        "id": "osm:way:747447016",
+        "source_ids": [
+          "osm:way:747447016",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 51.05,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              436.081,
+              476.381
+            ],
+            [
+              424.724,
+              440.169
+            ],
+            [
+              420.425,
+              427.801
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              421.276,
+              427.505
+            ],
+            [
+              419.575,
+              428.096
+            ],
+            [
+              423.869,
+              440.452
+            ],
+            [
+              435.223,
+              476.651
+            ],
+            [
+              436.94,
+              476.112
+            ],
+            [
+              425.583,
+              439.9
+            ],
+            [
+              425.574,
+              439.874
+            ],
+            [
+              421.276,
+              427.505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447022",
+      "properties": {
+        "id": "osm:way:747447022",
+        "source_ids": [
+          "osm:way:747447022",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 114.17,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              382.311,
+              368.412
+            ],
+            [
+              344.42,
+              260.716
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              381.462,
+              368.71
+            ],
+            [
+              383.16,
+              368.113
+            ],
+            [
+              345.269,
+              260.417
+            ],
+            [
+              343.571,
+              261.014
+            ],
+            [
+              381.462,
+              368.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447023",
+      "properties": {
+        "id": "osm:way:747447023",
+        "source_ids": [
+          "osm:way:747447023",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 50.04,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              404.272,
+              433.361
+            ],
+            [
+              388.27,
+              385.945
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              403.419,
+              433.649
+            ],
+            [
+              405.125,
+              433.073
+            ],
+            [
+              389.123,
+              385.657
+            ],
+            [
+              387.418,
+              386.233
+            ],
+            [
+              403.419,
+              433.649
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447024",
+      "properties": {
+        "id": "osm:way:747447024",
+        "source_ids": [
+          "osm:way:747447024",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 38.02,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              419.594,
+              481.878
+            ],
+            [
+              408.558,
+              445.498
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              418.732,
+              482.14
+            ],
+            [
+              420.455,
+              481.617
+            ],
+            [
+              409.419,
+              445.236
+            ],
+            [
+              407.697,
+              445.759
+            ],
+            [
+              418.732,
+              482.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747447027",
+      "properties": {
+        "id": "osm:way:747447027",
+        "source_ids": [
+          "osm:way:747447027",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 146.72,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              488.767,
+              635.3
+            ],
+            [
+              457.92,
+              540.812
+            ],
+            [
+              442.781,
+              495.978
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              443.633,
+              495.69
+            ],
+            [
+              441.928,
+              496.266
+            ],
+            [
+              443.18888092795004,
+              500.0
+            ],
+            [
+              445.08834839630634,
+              500.0
+            ],
+            [
+              443.633,
+              495.69
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747936757",
+      "properties": {
+        "id": "osm:way:747936757",
+        "source_ids": [
+          "osm:way:747936757",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 128.03,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              326.307,
+              387.791
+            ],
+            [
+              204.619,
+              427.585
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              326.587,
+              388.647
+            ],
+            [
+              326.027,
+              386.936
+            ],
+            [
+              250.0,
+              411.7980935342844
+            ],
+            [
+              250.0,
+              413.6920170352291
+            ],
+            [
+              326.587,
+              388.647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:747936759",
+      "properties": {
+        "id": "osm:way:747936759",
+        "source_ids": [
+          "osm:way:747936759",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 187.19,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              388.27,
+              385.945
+            ],
+            [
+              368.43,
+              392.743
+            ],
+            [
+              261.248,
+              429.669
+            ],
+            [
+              210.985,
+              446.001
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              261.526,
+              430.525
+            ],
+            [
+              261.541,
+              430.52
+            ],
+            [
+              368.723,
+              393.595
+            ],
+            [
+              388.562,
+              386.797
+            ],
+            [
+              387.979,
+              385.094
+            ],
+            [
+              368.139,
+              391.892
+            ],
+            [
+              368.137,
+              391.892
+            ],
+            [
+              260.962,
+              428.815
+            ],
+            [
+              250.0,
+              432.3770228832952
+            ],
+            [
+              250.0,
+              434.27015313451244
+            ],
+            [
+              261.526,
+              430.525
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:749508472",
+      "properties": {
+        "id": "osm:way:749508472",
+        "source_ids": [
+          "osm:way:749508472",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 50.1,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              420.425,
+              427.801
+            ],
+            [
+              404.649,
+              380.25
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              419.571,
+              428.084
+            ],
+            [
+              421.28,
+              427.517
+            ],
+            [
+              405.503,
+              379.967
+            ],
+            [
+              403.795,
+              380.533
+            ],
+            [
+              419.571,
+              428.084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:776520307",
+      "properties": {
+        "id": "osm:way:776520307",
+        "source_ids": [
+          "osm:way:776520307",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 101.12,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              309.771,
+              571.879
+            ],
+            [
+              303.702,
+              554.246
+            ],
+            [
+              295.401,
+              530.082
+            ],
+            [
+              292.638,
+              522.06
+            ],
+            [
+              288.946,
+              511.324
+            ],
+            [
+              276.887,
+              476.258
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              277.738,
+              475.965
+            ],
+            [
+              276.036,
+              476.55
+            ],
+            [
+              284.10009302192947,
+              500.0
+            ],
+            [
+              286.0035011977414,
+              500.0
+            ],
+            [
+              277.738,
+              475.965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:776523350",
+      "properties": {
+        "id": "osm:way:776523350",
+        "source_ids": [
+          "osm:way:776523350",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 134.41,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              404.272,
+              433.361
+            ],
+            [
+              276.887,
+              476.258
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              404.559,
+              434.214
+            ],
+            [
+              403.985,
+              432.508
+            ],
+            [
+              276.6,
+              475.405
+            ],
+            [
+              277.174,
+              477.111
+            ],
+            [
+              404.559,
+              434.214
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:776523351",
+      "properties": {
+        "id": "osm:way:776523351",
+        "source_ids": [
+          "osm:way:776523351",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "path",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 49.14,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              276.887,
+              476.258
+            ],
+            [
+              261.248,
+              429.669
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "path"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              276.034,
+              476.544
+            ],
+            [
+              277.74,
+              475.971
+            ],
+            [
+              262.101,
+              429.382
+            ],
+            [
+              260.394,
+              429.955
+            ],
+            [
+              276.034,
+              476.544
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:780484188",
+      "properties": {
+        "id": "osm:way:780484188",
+        "source_ids": [
+          "osm:way:780484188",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 210.02,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              317.253,
+              565.75
+            ],
+            [
+              290.983,
+              486.009
+            ],
+            [
+              291.798,
+              484.286
+            ],
+            [
+              292.592,
+              482.62
+            ],
+            [
+              404.444,
+              444.67
+            ],
+            [
+              408.558,
+              445.498
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              291.95,
+              486.069
+            ],
+            [
+              292.611,
+              484.672
+            ],
+            [
+              293.241,
+              483.35
+            ],
+            [
+              404.504,
+              445.6
+            ],
+            [
+              408.38,
+              446.38
+            ],
+            [
+              408.736,
+              444.615
+            ],
+            [
+              404.622,
+              443.787
+            ],
+            [
+              404.528,
+              443.773
+            ],
+            [
+              404.434,
+              443.77
+            ],
+            [
+              404.339,
+              443.776
+            ],
+            [
+              404.246,
+              443.792
+            ],
+            [
+              404.155,
+              443.817
+            ],
+            [
+              292.303,
+              481.767
+            ],
+            [
+              292.219,
+              481.8
+            ],
+            [
+              292.14,
+              481.842
+            ],
+            [
+              292.064,
+              481.891
+            ],
+            [
+              291.994,
+              481.947
+            ],
+            [
+              291.93,
+              482.01
+            ],
+            [
+              291.873,
+              482.079
+            ],
+            [
+              291.822,
+              482.153
+            ],
+            [
+              291.78,
+              482.232
+            ],
+            [
+              290.985,
+              483.899
+            ],
+            [
+              290.984,
+              483.901
+            ],
+            [
+              290.169,
+              485.624
+            ],
+            [
+              290.136,
+              485.702
+            ],
+            [
+              290.111,
+              485.784
+            ],
+            [
+              290.094,
+              485.868
+            ],
+            [
+              290.084,
+              485.953
+            ],
+            [
+              290.083,
+              486.038
+            ],
+            [
+              290.09,
+              486.124
+            ],
+            [
+              290.105,
+              486.208
+            ],
+            [
+              290.128,
+              486.29
+            ],
+            [
+              294.64458724386145,
+              500.0
+            ],
+            [
+              296.5395100503778,
+              500.0
+            ],
+            [
+              291.95,
+              486.069
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:780484189",
+      "properties": {
+        "id": "osm:way:780484189",
+        "source_ids": [
+          "osm:way:780484189",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 132.32,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              317.253,
+              565.75
+            ],
+            [
+              419.594,
+              481.878
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              420.164,
+              482.574
+            ],
+            [
+              419.023,
+              481.182
+            ],
+            [
+              396.06118988458604,
+              500.0
+            ],
+            [
+              398.9007146842808,
+              500.0
+            ],
+            [
+              420.164,
+              482.574
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "open_spaces": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1384359853",
+      "properties": {
+        "id": "osm:way:1384359853",
+        "source_ids": [
+          "osm:way:1384359853",
+          "source:osm"
+        ],
+        "name": "Don Jones Field",
+        "category": "pitch",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 4064.81,
+        "tags": {
+          "leisure": "pitch",
+          "name": "Don Jones Field"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              483.032,
+              491.286
+            ],
+            [
+              480.84529412259843,
+              500.0
+            ],
+            [
+              500.0,
+              500.0
+            ],
+            [
+              500.0,
+              495.4918678387842
+            ],
+            [
+              483.032,
+              491.286
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "input_sha256": "b9d735164297c9f78e03feddd50c61caf1f0c4cfa0a87676fd6a8a861790a940"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_001_008",
+  "input_sha256": "a65d2ab110cafaf29fe9672ad41635eeb0c2b13994fff861f39d8a99ccddd3a9",
+  "output_sha256": "b92af6ac91a499a3c62868743bd9e6ca99434aac93f69d64c48ed09691ec8e23",
+  "building_count": 3,
+  "render_volume_count": 6,
+  "mesh_count": 6,
+  "triangle_count": 5392,
+  "material_count": 6,
+  "bytes": 242012,
+  "entities": [
+    {
+      "entity_id": "osm:way:32487438",
+      "source_feature_id": "osm:way:115880078",
+      "name": "Spanish Bay",
+      "height_m": 76.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32487438",
+      "source_feature_id": "osm:way:115880079",
+      "name": "Cypress Point Tower",
+      "height_m": 76.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32487438",
+      "source_feature_id": "osm:way:32487438",
+      "name": "Bonifacio Ridge Condominium",
+      "height_m": 3.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:32487654",
+      "source_feature_id": "osm:way:223939216",
+      "name": null,
+      "height_m": 80.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32487654",
+      "source_feature_id": "osm:way:32487654",
+      "name": "Kensington Place",
+      "height_m": 10.7,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:32487669",
+      "source_feature_id": "osm:way:32487669",
+      "name": "Penhurst Parkplace",
+      "height_m": 87.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

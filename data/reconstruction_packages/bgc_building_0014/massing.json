@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "coordinate_frame": {
+    "origin_wgs84": {
+      "longitude": 121.050972,
+      "latitude": 14.550806
+    },
+    "origin_projected": {
+      "easting": 289998.297,
+      "northing": 1609541.742
+    },
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres",
+    "transform_library": "pyproj"
+  },
+  "target_local_frame": {
+    "centroid_local_m": {
+      "x": -268.556,
+      "y": 124.986
+    },
+    "north_side": "30th Street",
+    "west_side": "5th Avenue",
+    "south_side": "Bonifacio High Street / BHS Central",
+    "east_side": "adjacent-building/service side",
+    "footprint_rotation_deg_from_east": -17.595
+  },
+  "known_dimensions": {
+    "area_m2": 6118.37,
+    "perimeter_m": 327.63,
+    "oriented_bounding_box_m": {
+      "major": 87.079,
+      "minor": 80.681
+    },
+    "local_axis_rotation_deg_from_east": -17.595,
+    "major_axis_bearing_deg_clockwise_from_north": 107.595,
+    "axis_aligned_bounds_m": {
+      "min_x": -321.859,
+      "min_y": 78.833,
+      "max_x": -214.465,
+      "max_y": 170.739
+    }
+  },
+  "height_audit": {
+    "source_feature": "osm:way:470203066",
+    "original_value": "25.9",
+    "unit": "m",
+    "source_timestamp": "2026-04-09T05:32:36Z",
+    "source_version": 5,
+    "strength": "EXPLICIT_COMMUNITY_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "components": [
+    {
+      "component_id": "csq:massing:envelope-outline",
+      "geometry_basis": "osm:way:205968610",
+      "footprint_metrics": {
+        "area_m2": 6118.37,
+        "perimeter_m": 327.63,
+        "oriented_bounding_box_m": {
+          "major": 87.079,
+          "minor": 80.681
+        },
+        "local_axis_rotation_deg_from_east": -17.595,
+        "major_axis_bearing_deg_clockwise_from_north": 107.595,
+        "axis_aligned_bounds_m": {
+          "min_x": -321.859,
+          "min_y": 78.833,
+          "max_x": -214.465,
+          "max_y": 170.739
+        }
+      },
+      "height_m": 25.9,
+      "min_height_m": 5.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "relationship_to_parent": "ROOT_OUTLINE_HORIZONTAL_CONTROL",
+      "evidence": [
+        "source:osm",
+        "ref:commons:173664147"
+      ],
+      "confidence": 0.8,
+      "modeling_class": "REFERENCE_ONLY",
+      "modeling_action": "DO_NOT_EXTRUDE_AS_A_UNIFORM_SOLID; build contained parts instead",
+      "notes": "The OSM outline carries height=25.9 and min_height=5.2. Treat it as horizontal perimeter control; the contained parts define solids."
+    },
+    {
+      "component_id": "csq:massing:main-volume",
+      "geometry_basis": "osm:way:470203066",
+      "footprint_metrics": {
+        "area_m2": 4307.51,
+        "perimeter_m": 295.81,
+        "oriented_bounding_box_m": {
+          "major": 81.658,
+          "minor": 69.332
+        },
+        "local_axis_rotation_deg_from_east": -17.279,
+        "major_axis_bearing_deg_clockwise_from_north": 107.279,
+        "axis_aligned_bounds_m": {
+          "min_x": -314.988,
+          "min_y": 84.44,
+          "max_x": -225.155,
+          "max_y": 159.291
+        }
+      },
+      "height_m": 25.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "relationship_to_parent": "CONTAINED_MAIN_VOLUME",
+      "evidence": [
+        "source:osm",
+        "ref:commons:133250280",
+        "ref:commons:173664147"
+      ],
+      "confidence": 0.88,
+      "modeling_class": "PARAMETRIC",
+      "notes": "Dominant low-rise retail/cinema mass."
+    },
+    {
+      "component_id": "csq:massing:northwest-column",
+      "geometry_basis": "osm:way:470203065",
+      "footprint_metrics": {
+        "area_m2": 27.84,
+        "perimeter_m": 21.66,
+        "oriented_bounding_box_m": {
+          "major": 6.651,
+          "minor": 4.193
+        },
+        "local_axis_rotation_deg_from_east": 71.349,
+        "major_axis_bearing_deg_clockwise_from_north": 18.651,
+        "axis_aligned_bounds_m": {
+          "min_x": -295.753,
+          "min_y": 161.654,
+          "max_x": -289.653,
+          "max_y": 169.273
+        }
+      },
+      "height_m": 5.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "relationship_to_parent": "SMALL_COLUMN_PART",
+      "evidence": [
+        "source:osm"
+      ],
+      "confidence": 0.75,
+      "modeling_class": "PARAMETRIC",
+      "notes": "Retain source shape; visual expression is partly occluded."
+    },
+    {
+      "component_id": "csq:massing:northeast-column",
+      "geometry_basis": "osm:way:470203067",
+      "footprint_metrics": {
+        "area_m2": 6.92,
+        "perimeter_m": 10.77,
+        "oriented_bounding_box_m": {
+          "major": 3.455,
+          "minor": 2.259
+        },
+        "local_axis_rotation_deg_from_east": 71.254,
+        "major_axis_bearing_deg_clockwise_from_north": 18.746,
+        "axis_aligned_bounds_m": {
+          "min_x": -217.634,
+          "min_y": 150.024,
+          "max_x": -214.465,
+          "max_y": 153.399
+        }
+      },
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "relationship_to_parent": "SMALL_COLUMN_PART",
+      "evidence": [
+        "source:osm"
+      ],
+      "confidence": 0.55,
+      "modeling_class": "PARAMETRIC",
+      "notes": "Height derives from one mapped level times 3.2 m; keep visibly approximate."
+    },
+    {
+      "component_id": "csq:massing:roof-plane",
+      "geometry_basis": "main_volume_top",
+      "height_m": 25.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "relationship_to_parent": "TOP_SURFACE",
+      "evidence": [
+        "ref:commons:173664145",
+        "ref:commons:173664147"
+      ],
+      "confidence": 0.75,
+      "modeling_class": "PROCEDURAL",
+      "notes": "Broad light flat roof and parapet only; equipment is UNKNOWN and omitted for MVP."
+    }
+  ],
+  "massing_summary": "One dominant broad low-rise volume. Use the mapped irregular outline only as horizontal perimeter control; construct solids from the contained parts, preserve the 25.9 m maximum height, and express only photo-supported recesses/setbacks."
+}

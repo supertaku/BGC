@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-10T18:38:45.080323+00:00",
+  "conflicts": [
+    {
+      "conflict_id": "conflict:bgc_building_0007:floor_count",
+      "entity_id": "bgc_building_0007",
+      "property": "floor_count",
+      "values": [
+        {
+          "value": 8.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        {
+          "value": 7,
+          "status": "VERIFIED_AUTHORITATIVE",
+          "source_ids": [
+            "source:official-w-group-w-global"
+          ]
+        }
+      ],
+      "recommended_resolution": "Retain both. Prefer the authoritative owner statement for storey count, but do not reinterpret or overwrite the separate OSM height measurement."
+    }
+  ]
+}

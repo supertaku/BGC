@@ -1,0 +1,6895 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_006_001",
+  "tile_size_m": 250.0,
+  "bounds": [
+    250.0,
+    -1500.0,
+    500.0,
+    -1250.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          250.0,
+          -1394.3040386206258
+        ],
+        [
+          250.0,
+          -1250.0
+        ],
+        [
+          500.0,
+          -1250.0
+        ],
+        [
+          500.0,
+          -1347.372199389314
+        ],
+        [
+          250.0,
+          -1394.3040386206258
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:relation:16357483",
+      "properties": {
+        "id": "osm:relation:16357483",
+        "source_ids": [
+          "osm:relation:16357483",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "McKinley Hill Clubhouse",
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 567.68,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "amenity": "events_venue",
+          "building": "yes",
+          "layer": "1",
+          "name": "McKinley Hill Clubhouse",
+          "type": "multipolygon"
+        },
+        "render_role": "outline_residual",
+        "canonical_entity_id": "osm:relation:16357483"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              371.542,
+              -1329.662
+            ],
+            [
+              372.167,
+              -1328.461
+            ],
+            [
+              346.055,
+              -1314.992
+            ],
+            [
+              353.441,
+              -1300.857
+            ],
+            [
+              380.755,
+              -1314.945
+            ],
+            [
+              376.196,
+              -1323.67
+            ],
+            [
+              378.386,
+              -1324.796
+            ],
+            [
+              374.955,
+              -1331.428
+            ],
+            [
+              371.542,
+              -1329.662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:relation:16357485",
+      "properties": {
+        "id": "osm:relation:16357485",
+        "source_ids": [
+          "osm:relation:16357485",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 57.19,
+        "tags": {
+          "building:part": "roof",
+          "layer": "1",
+          "type": "multipolygon"
+        },
+        "canonical_entity_id": "osm:relation:16357483",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:relation:16357483"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              382.829,
+              -1327.091
+            ],
+            [
+              378.386,
+              -1324.796
+            ],
+            [
+              374.955,
+              -1331.428
+            ],
+            [
+              379.258,
+              -1333.701
+            ],
+            [
+              381.695,
+              -1334.961
+            ],
+            [
+              385.179,
+              -1328.306
+            ],
+            [
+              382.829,
+              -1327.091
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:relation:16357484",
+      "properties": {
+        "id": "osm:relation:16357484",
+        "source_ids": [
+          "osm:relation:16357484",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 510.49,
+        "tags": {
+          "building": "yes",
+          "type": "multipolygon"
+        },
+        "canonical_entity_id": "osm:relation:16357484",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              374.955,
+              -1331.428
+            ],
+            [
+              378.386,
+              -1324.796
+            ],
+            [
+              376.196,
+              -1323.67
+            ],
+            [
+              380.755,
+              -1314.945
+            ],
+            [
+              353.441,
+              -1300.857
+            ],
+            [
+              346.055,
+              -1314.992
+            ],
+            [
+              372.167,
+              -1328.461
+            ],
+            [
+              371.542,
+              -1329.662
+            ],
+            [
+              374.955,
+              -1331.428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1209647634",
+      "properties": {
+        "id": "osm:way:1209647634",
+        "source_ids": [
+          "osm:way:1209647634",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 18.42,
+        "tags": {
+          "building": "guardhouse"
+        },
+        "canonical_entity_id": "osm:way:1209647634",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              344.661,
+              -1257.246
+            ],
+            [
+              342.573,
+              -1260.681
+            ],
+            [
+              346.487,
+              -1263.05
+            ],
+            [
+              348.586,
+              -1259.615
+            ],
+            [
+              344.661,
+              -1257.246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1209647635",
+      "properties": {
+        "id": "osm:way:1209647635",
+        "source_ids": [
+          "osm:way:1209647635",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 570.26,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:1209647635",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              371.84,
+              -1328.912
+            ],
+            [
+              342.765,
+              -1314.012
+            ],
+            [
+              334.72,
+              -1329.503
+            ],
+            [
+              363.795,
+              -1344.403
+            ],
+            [
+              371.84,
+              -1328.912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286424484",
+      "properties": {
+        "id": "osm:way:286424484",
+        "source_ids": [
+          "osm:way:286424484",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 528.23,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "apartments"
+        },
+        "canonical_entity_id": "osm:way:286424484",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              236.133,
+              -1403.615
+            ],
+            [
+              272.69,
+              -1380.477
+            ],
+            [
+              266.105,
+              -1370.195
+            ],
+            [
+              229.548,
+              -1393.333
+            ],
+            [
+              236.133,
+              -1403.615
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286424581",
+      "properties": {
+        "id": "osm:way:286424581",
+        "source_ids": [
+          "osm:way:286424581",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 760.55,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "apartments"
+        },
+        "canonical_entity_id": "osm:way:286424581",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              313.67,
+              -1332.986
+            ],
+            [
+              300.289,
+              -1323.333
+            ],
+            [
+              273.108,
+              -1360.561
+            ],
+            [
+              286.489,
+              -1370.214
+            ],
+            [
+              313.67,
+              -1332.986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286424584",
+      "properties": {
+        "id": "osm:way:286424584",
+        "source_ids": [
+          "osm:way:286424584",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 658.62,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "apartments"
+        },
+        "canonical_entity_id": "osm:way:286424584",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              313.783,
+              -1324.776
+            ],
+            [
+              334.628,
+              -1282.193
+            ],
+            [
+              322.121,
+              -1276.144
+            ],
+            [
+              301.276,
+              -1318.738
+            ],
+            [
+              313.783,
+              -1324.776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425478",
+      "properties": {
+        "id": "osm:way:286425478",
+        "source_ids": [
+          "osm:way:286425478",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 100.84,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425478",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              413.316,
+              -1347.06
+            ],
+            [
+              417.748,
+              -1351.923
+            ],
+            [
+              429.144,
+              -1341.673
+            ],
+            [
+              424.711,
+              -1336.81
+            ],
+            [
+              413.316,
+              -1347.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425485",
+      "properties": {
+        "id": "osm:way:286425485",
+        "source_ids": [
+          "osm:way:286425485",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 126.54,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425485",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              486.455,
+              -1275.099
+            ],
+            [
+              481.588,
+              -1266.902
+            ],
+            [
+              470.137,
+              -1273.632
+            ],
+            [
+              475.004,
+              -1281.819
+            ],
+            [
+              486.455,
+              -1275.099
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425486",
+      "properties": {
+        "id": "osm:way:286425486",
+        "source_ids": [
+          "osm:way:286425486",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 163.49,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425486",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              427.435,
+              -1363.769
+            ],
+            [
+              417.759,
+              -1353.152
+            ],
+            [
+              409.297,
+              -1360.771
+            ],
+            [
+              418.962,
+              -1371.377
+            ],
+            [
+              427.435,
+              -1363.769
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425490",
+      "properties": {
+        "id": "osm:way:286425490",
+        "source_ids": [
+          "osm:way:286425490",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 107.33,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425490",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              453.809,
+              -1296.013
+            ],
+            [
+              450.353,
+              -1284.109
+            ],
+            [
+              442.032,
+              -1286.506
+            ],
+            [
+              445.488,
+              -1298.41
+            ],
+            [
+              453.809,
+              -1296.013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425492",
+      "properties": {
+        "id": "osm:way:286425492",
+        "source_ids": [
+          "osm:way:286425492",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 105.66,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425492",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              488.361,
+              -1272.858
+            ],
+            [
+              498.89,
+              -1265.577
+            ],
+            [
+              494.15,
+              -1258.82
+            ],
+            [
+              483.621,
+              -1266.1
+            ],
+            [
+              488.361,
+              -1272.858
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425499",
+      "properties": {
+        "id": "osm:way:286425499",
+        "source_ids": [
+          "osm:way:286425499",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 153.05,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425499",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345.268,
+              -1370.616
+            ],
+            [
+              331.824,
+              -1364.514
+            ],
+            [
+              327.937,
+              -1372.737
+            ],
+            [
+              344.762,
+              -1380.594
+            ],
+            [
+              345.268,
+              -1370.616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425504",
+      "properties": {
+        "id": "osm:way:286425504",
+        "source_ids": [
+          "osm:way:286425504",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 146.11,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425504",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              352.375,
+              -1361.425
+            ],
+            [
+              352.217,
+              -1371.018
+            ],
+            [
+              367.447,
+              -1371.27
+            ],
+            [
+              367.615,
+              -1361.688
+            ],
+            [
+              352.375,
+              -1361.425
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425505",
+      "properties": {
+        "id": "osm:way:286425505",
+        "source_ids": [
+          "osm:way:286425505",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 119.19,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425505",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              491.243,
+              -1283.816
+            ],
+            [
+              486.991,
+              -1276.686
+            ],
+            [
+              474.619,
+              -1283.951
+            ],
+            [
+              478.859,
+              -1291.092
+            ],
+            [
+              491.243,
+              -1283.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286425510",
+      "properties": {
+        "id": "osm:way:286425510",
+        "source_ids": [
+          "osm:way:286425510",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 112.49,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286425510",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              488.498,
+              -1275.758
+            ],
+            [
+              493.471,
+              -1282.861
+            ],
+            [
+              504.141,
+              -1275.482
+            ],
+            [
+              499.157,
+              -1268.379
+            ],
+            [
+              488.498,
+              -1275.758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286430835",
+      "properties": {
+        "id": "osm:way:286430835",
+        "source_ids": [
+          "osm:way:286430835",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 112.53,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286430835",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              331.179,
+              -1332.671
+            ],
+            [
+              322.786,
+              -1328.372
+            ],
+            [
+              317.295,
+              -1338.971
+            ],
+            [
+              325.677,
+              -1343.27
+            ],
+            [
+              331.179,
+              -1332.671
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286430840",
+      "properties": {
+        "id": "osm:way:286430840",
+        "source_ids": [
+          "osm:way:286430840",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Gate 1",
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 36.9,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "guardhouse",
+          "name": "Gate 1"
+        },
+        "canonical_entity_id": "osm:way:286430840",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              356.987,
+              -1264.202
+            ],
+            [
+              350.778,
+              -1260.486
+            ],
+            [
+              348.132,
+              -1264.845
+            ],
+            [
+              354.341,
+              -1268.561
+            ],
+            [
+              356.987,
+              -1264.202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286430848",
+      "properties": {
+        "id": "osm:way:286430848",
+        "source_ids": [
+          "osm:way:286430848",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 137.39,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286430848",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              387.981,
+              -1265.241
+            ],
+            [
+              374.54,
+              -1257.457
+            ],
+            [
+              370.066,
+              -1265.088
+            ],
+            [
+              383.496,
+              -1272.871
+            ],
+            [
+              387.981,
+              -1265.241
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286430850",
+      "properties": {
+        "id": "osm:way:286430850",
+        "source_ids": [
+          "osm:way:286430850",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 135.98,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286430850",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              395.579,
+              -1256.508
+            ],
+            [
+              382.643,
+              -1249.016
+            ],
+            [
+              378.049,
+              -1256.867
+            ],
+            [
+              390.974,
+              -1264.359
+            ],
+            [
+              395.579,
+              -1256.508
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:286430852",
+      "properties": {
+        "id": "osm:way:286430852",
+        "source_ids": [
+          "osm:way:286430852",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 82.57,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:province": "Metro Manila",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:286430852",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              337.581,
+              -1320.11
+            ],
+            [
+              329.163,
+              -1316.297
+            ],
+            [
+              325.439,
+              -1324.433
+            ],
+            [
+              333.869,
+              -1328.223
+            ],
+            [
+              337.581,
+              -1320.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584723",
+      "properties": {
+        "id": "osm:way:538584723",
+        "source_ids": [
+          "osm:way:538584723",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 120.89,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584723",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              399.563,
+              -1273.551
+            ],
+            [
+              388.919,
+              -1266.422
+            ],
+            [
+              383.625,
+              -1274.234
+            ],
+            [
+              394.257,
+              -1281.363
+            ],
+            [
+              399.563,
+              -1273.551
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584730",
+      "properties": {
+        "id": "osm:way:538584730",
+        "source_ids": [
+          "osm:way:538584730",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 116.58,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584730",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              471.122,
+              -1252.913
+            ],
+            [
+              466.614,
+              -1244.309
+            ],
+            [
+              455.959,
+              -1249.818
+            ],
+            [
+              460.467,
+              -1258.433
+            ],
+            [
+              471.122,
+              -1252.913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584732",
+      "properties": {
+        "id": "osm:way:538584732",
+        "source_ids": [
+          "osm:way:538584732",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 151.23,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584732",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              450.758,
+              -1251.788
+            ],
+            [
+              446.482,
+              -1242.533
+            ],
+            [
+              432.987,
+              -1248.693
+            ],
+            [
+              437.263,
+              -1257.947
+            ],
+            [
+              450.758,
+              -1251.788
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584733",
+      "properties": {
+        "id": "osm:way:538584733",
+        "source_ids": [
+          "osm:way:538584733",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 112.42,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584733",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              458.955,
+              -1260.025
+            ],
+            [
+              454.971,
+              -1251.979
+            ],
+            [
+              443.724,
+              -1257.482
+            ],
+            [
+              447.708,
+              -1265.528
+            ],
+            [
+              458.955,
+              -1260.025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584734",
+      "properties": {
+        "id": "osm:way:538584734",
+        "source_ids": [
+          "osm:way:538584734",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 143.78,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584734",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              445.987,
+              -1267.65
+            ],
+            [
+              442.115,
+              -1259.118
+            ],
+            [
+              428.112,
+              -1265.395
+            ],
+            [
+              431.985,
+              -1273.927
+            ],
+            [
+              445.987,
+              -1267.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584799",
+      "properties": {
+        "id": "osm:way:538584799",
+        "source_ids": [
+          "osm:way:538584799",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 143.51,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584799",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              386.78,
+              -1359.251
+            ],
+            [
+              369.388,
+              -1362.367
+            ],
+            [
+              370.839,
+              -1370.358
+            ],
+            [
+              388.232,
+              -1367.242
+            ],
+            [
+              386.78,
+              -1359.251
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584800",
+      "properties": {
+        "id": "osm:way:538584800",
+        "source_ids": [
+          "osm:way:538584800",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 118.36,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584800",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              336.124,
+              -1355.753
+            ],
+            [
+              332.949,
+              -1362.709
+            ],
+            [
+              347.06,
+              -1369.071
+            ],
+            [
+              350.245,
+              -1362.126
+            ],
+            [
+              336.124,
+              -1355.753
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584832",
+      "properties": {
+        "id": "osm:way:538584832",
+        "source_ids": [
+          "osm:way:538584832",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 156.59,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584832",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              499.519,
+              -1313.235
+            ],
+            [
+              494.216,
+              -1316.886
+            ],
+            [
+              494.136,
+              -1331.371
+            ],
+            [
+              500.56,
+              -1331.404
+            ],
+            [
+              500.585,
+              -1326.026
+            ],
+            [
+              502.459,
+              -1328.709
+            ],
+            [
+              507.761,
+              -1325.046
+            ],
+            [
+              499.519,
+              -1313.235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584833",
+      "properties": {
+        "id": "osm:way:538584833",
+        "source_ids": [
+          "osm:way:538584833",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 133.57,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584833",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              499.59,
+              -1344.044
+            ],
+            [
+              492.224,
+              -1333.103
+            ],
+            [
+              483.789,
+              -1338.708
+            ],
+            [
+              491.156,
+              -1349.649
+            ],
+            [
+              499.59,
+              -1344.044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584834",
+      "properties": {
+        "id": "osm:way:538584834",
+        "source_ids": [
+          "osm:way:538584834",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 56.0,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584834",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              492.025,
+              -1305.812
+            ],
+            [
+              488.817,
+              -1300.318
+            ],
+            [
+              481.19,
+              -1304.712
+            ],
+            [
+              484.399,
+              -1310.206
+            ],
+            [
+              492.025,
+              -1305.812
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584835",
+      "properties": {
+        "id": "osm:way:538584835",
+        "source_ids": [
+          "osm:way:538584835",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 304.99,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584835",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              483.367,
+              -1311.116
+            ],
+            [
+              479.731,
+              -1315.324
+            ],
+            [
+              479.137,
+              -1334.43
+            ],
+            [
+              485.894,
+              -1334.632
+            ],
+            [
+              485.97,
+              -1332.043
+            ],
+            [
+              490.432,
+              -1332.18
+            ],
+            [
+              490.909,
+              -1316.581
+            ],
+            [
+              497.678,
+              -1312.898
+            ],
+            [
+              493.612,
+              -1305.526
+            ],
+            [
+              483.367,
+              -1311.116
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584836",
+      "properties": {
+        "id": "osm:way:538584836",
+        "source_ids": [
+          "osm:way:538584836",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 224.17,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584836",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              467.031,
+              -1331.937
+            ],
+            [
+              456.439,
+              -1331.437
+            ],
+            [
+              455.848,
+              -1343.782
+            ],
+            [
+              456.333,
+              -1343.808
+            ],
+            [
+              466.026,
+              -1353.707
+            ],
+            [
+              472.808,
+              -1347.158
+            ],
+            [
+              468.309,
+              -1342.56
+            ],
+            [
+              466.794,
+              -1336.915
+            ],
+            [
+              467.031,
+              -1331.937
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584837",
+      "properties": {
+        "id": "osm:way:538584837",
+        "source_ids": [
+          "osm:way:538584837",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 118.22,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584837",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              466.149,
+              -1329.129
+            ],
+            [
+              466.792,
+              -1315.722
+            ],
+            [
+              457.988,
+              -1315.304
+            ],
+            [
+              457.357,
+              -1328.711
+            ],
+            [
+              466.149,
+              -1329.129
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584838",
+      "properties": {
+        "id": "osm:way:538584838",
+        "source_ids": [
+          "osm:way:538584838",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 163.17,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584838",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              454.983,
+              -1345.368
+            ],
+            [
+              453.851,
+              -1344.152
+            ],
+            [
+              454.411,
+              -1344.19
+            ],
+            [
+              455.156,
+              -1331.426
+            ],
+            [
+              445.05,
+              -1330.831
+            ],
+            [
+              444.294,
+              -1343.595
+            ],
+            [
+              450.159,
+              -1349.842
+            ],
+            [
+              454.983,
+              -1345.368
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538584839",
+      "properties": {
+        "id": "osm:way:538584839",
+        "source_ids": [
+          "osm:way:538584839",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 137.73,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538584839",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              455.582,
+              -1314.354
+            ],
+            [
+              445.806,
+              -1314.238
+            ],
+            [
+              445.642,
+              -1328.324
+            ],
+            [
+              455.419,
+              -1328.44
+            ],
+            [
+              455.582,
+              -1314.354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538585202",
+      "properties": {
+        "id": "osm:way:538585202",
+        "source_ids": [
+          "osm:way:538585202",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 132.08,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538585202",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              315.078,
+              -1356.227
+            ],
+            [
+              322.121,
+              -1344.435
+            ],
+            [
+              313.83,
+              -1339.55
+            ],
+            [
+              306.798,
+              -1351.342
+            ],
+            [
+              315.078,
+              -1356.227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538585204",
+      "properties": {
+        "id": "osm:way:538585204",
+        "source_ids": [
+          "osm:way:538585204",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 236.11,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:538585204",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              399.209,
+              -1349.12
+            ],
+            [
+              400.337,
+              -1349.617
+            ],
+            [
+              408.231,
+              -1359.4
+            ],
+            [
+              416.892,
+              -1352.502
+            ],
+            [
+              411.633,
+              -1345.984
+            ],
+            [
+              414.667,
+              -1339.126
+            ],
+            [
+              405.398,
+              -1335.096
+            ],
+            [
+              399.209,
+              -1349.12
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1065885934",
+      "properties": {
+        "id": "osm:way:1065885934",
+        "source_ids": [
+          "osm:way:1065885934",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 22.38,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              285.519,
+              -1375.274
+            ],
+            [
+              270.418,
+              -1358.756
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              287.364,
+              -1373.588
+            ],
+            [
+              283.674,
+              -1376.961
+            ],
+            [
+              268.573,
+              -1360.443
+            ],
+            [
+              272.263,
+              -1357.069
+            ],
+            [
+              287.364,
+              -1373.588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1066163384",
+      "properties": {
+        "id": "osm:way:1066163384",
+        "source_ids": [
+          "osm:way:1066163384",
+          "source:osm"
+        ],
+        "name": "Country Club",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 23.6,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              368.689,
+              -1274.892
+            ],
+            [
+              365.096,
+              -1269.018
+            ],
+            [
+              362.985,
+              -1266.189
+            ],
+            [
+              361.558,
+              -1264.252
+            ],
+            [
+              359.509,
+              -1261.755
+            ],
+            [
+              356.543,
+              -1259.428
+            ],
+            [
+              353.217,
+              -1257.64
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Country Club",
+          "surface": "paving_stones"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              360.409,
+              -1268.088
+            ],
+            [
+              359.031,
+              -1266.217
+            ],
+            [
+              357.258,
+              -1264.056
+            ],
+            [
+              354.785,
+              -1262.116
+            ],
+            [
+              351.702,
+              -1260.459
+            ],
+            [
+              354.732,
+              -1254.822
+            ],
+            [
+              358.058,
+              -1256.61
+            ],
+            [
+              358.295,
+              -1256.75
+            ],
+            [
+              358.518,
+              -1256.911
+            ],
+            [
+              361.484,
+              -1259.238
+            ],
+            [
+              361.747,
+              -1259.468
+            ],
+            [
+              361.983,
+              -1259.725
+            ],
+            [
+              364.031,
+              -1262.222
+            ],
+            [
+              364.134,
+              -1262.353
+            ],
+            [
+              365.556,
+              -1264.284
+            ],
+            [
+              367.661,
+              -1267.105
+            ],
+            [
+              367.825,
+              -1267.348
+            ],
+            [
+              371.419,
+              -1273.222
+            ],
+            [
+              365.959,
+              -1276.562
+            ],
+            [
+              362.443,
+              -1270.814
+            ],
+            [
+              360.42,
+              -1268.103
+            ],
+            [
+              360.409,
+              -1268.088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1066163385",
+      "properties": {
+        "id": "osm:way:1066163385",
+        "source_ids": [
+          "osm:way:1066163385",
+          "source:osm"
+        ],
+        "name": "Country Club",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 24.99,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              323.962,
+              -1257.513
+            ],
+            [
+              346.145,
+              -1269.012
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Country Club",
+          "surface": "paving_stones"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              322.489,
+              -1260.354
+            ],
+            [
+              325.434,
+              -1254.672
+            ],
+            [
+              347.618,
+              -1266.171
+            ],
+            [
+              344.672,
+              -1271.853
+            ],
+            [
+              322.489,
+              -1260.354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1085737940",
+      "properties": {
+        "id": "osm:way:1085737940",
+        "source_ids": [
+          "osm:way:1085737940",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 44.61,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              323.967,
+              -1242.971
+            ],
+            [
+              318.214,
+              -1242.623
+            ],
+            [
+              315.108,
+              -1242.741
+            ],
+            [
+              310.317,
+              -1244.57
+            ],
+            [
+              303.117,
+              -1258.364
+            ],
+            [
+              302.934,
+              -1263.398
+            ],
+            [
+              304.42,
+              -1267.427
+            ],
+            [
+              309.004,
+              -1270.842
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              305.595,
+              -1259.02
+            ],
+            [
+              305.45,
+              -1262.996
+            ],
+            [
+              306.509,
+              -1265.866
+            ],
+            [
+              310.498,
+              -1268.837
+            ],
+            [
+              307.511,
+              -1272.847
+            ],
+            [
+              302.926,
+              -1269.432
+            ],
+            [
+              302.741,
+              -1269.28
+            ],
+            [
+              302.57,
+              -1269.11
+            ],
+            [
+              302.417,
+              -1268.924
+            ],
+            [
+              302.283,
+              -1268.725
+            ],
+            [
+              302.168,
+              -1268.513
+            ],
+            [
+              302.074,
+              -1268.292
+            ],
+            [
+              300.588,
+              -1264.262
+            ],
+            [
+              300.516,
+              -1264.03
+            ],
+            [
+              300.465,
+              -1263.792
+            ],
+            [
+              300.439,
+              -1263.55
+            ],
+            [
+              300.436,
+              -1263.307
+            ],
+            [
+              300.619,
+              -1258.273
+            ],
+            [
+              300.637,
+              -1258.051
+            ],
+            [
+              300.674,
+              -1257.832
+            ],
+            [
+              300.731,
+              -1257.617
+            ],
+            [
+              300.807,
+              -1257.409
+            ],
+            [
+              300.901,
+              -1257.207
+            ],
+            [
+              304.6628094823837,
+              -1250.0
+            ],
+            [
+              310.30310246526943,
+              -1250.0
+            ],
+            [
+              305.595,
+              -1259.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1188118138",
+      "properties": {
+        "id": "osm:way:1188118138",
+        "source_ids": [
+          "osm:way:1188118138",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 16.68,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              259.944,
+              -1350.732
+            ],
+            [
+              252.743,
+              -1350.715
+            ],
+            [
+              243.313,
+              -1351.653
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              252.495,
+              -1348.227
+            ],
+            [
+              252.749,
+              -1348.215
+            ],
+            [
+              259.949,
+              -1348.232
+            ],
+            [
+              259.938,
+              -1353.232
+            ],
+            [
+              252.864,
+              -1353.215
+            ],
+            [
+              250.0,
+              -1353.4997683542942
+            ],
+            [
+              250.0,
+              -1348.4752034149963
+            ],
+            [
+              252.495,
+              -1348.227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1188118139",
+      "properties": {
+        "id": "osm:way:1188118139",
+        "source_ids": [
+          "osm:way:1188118139",
+          "source:osm"
+        ],
+        "name": "Country Club",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 25.41,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              353.217,
+              -1257.64
+            ],
+            [
+              330.92,
+              -1245.443
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Country Club",
+          "surface": "paving_stones"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              354.752,
+              -1254.833
+            ],
+            [
+              351.681,
+              -1260.448
+            ],
+            [
+              332.58372110181995,
+              -1250.0
+            ],
+            [
+              345.9173219644174,
+              -1250.0
+            ],
+            [
+              354.752,
+              -1254.833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:366906389",
+      "properties": {
+        "id": "osm:way:366906389",
+        "source_ids": [
+          "osm:way:366906389",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 133.11,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              263.359,
+              -1391.801
+            ],
+            [
+              275.454,
+              -1383.754
+            ],
+            [
+              285.519,
+              -1375.274
+            ],
+            [
+              298.618,
+              -1361.21
+            ],
+            [
+              307.751,
+              -1348.318
+            ],
+            [
+              315.11,
+              -1336.042
+            ],
+            [
+              319.878,
+              -1325.514
+            ],
+            [
+              339.88,
+              -1285.724
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              296.675,
+              -1359.629
+            ],
+            [
+              305.655,
+              -1346.951
+            ],
+            [
+              312.892,
+              -1334.88
+            ],
+            [
+              317.601,
+              -1324.483
+            ],
+            [
+              317.645,
+              -1324.391
+            ],
+            [
+              337.646,
+              -1284.601
+            ],
+            [
+              342.113,
+              -1286.847
+            ],
+            [
+              322.135,
+              -1326.592
+            ],
+            [
+              317.387,
+              -1337.073
+            ],
+            [
+              317.254,
+              -1337.327
+            ],
+            [
+              309.895,
+              -1349.604
+            ],
+            [
+              309.791,
+              -1349.763
+            ],
+            [
+              300.658,
+              -1362.655
+            ],
+            [
+              300.447,
+              -1362.914
+            ],
+            [
+              287.349,
+              -1376.978
+            ],
+            [
+              287.13,
+              -1377.186
+            ],
+            [
+              277.065,
+              -1385.666
+            ],
+            [
+              276.839,
+              -1385.835
+            ],
+            [
+              264.744,
+              -1393.882
+            ],
+            [
+              261.974,
+              -1389.72
+            ],
+            [
+              273.952,
+              -1381.751
+            ],
+            [
+              283.793,
+              -1373.46
+            ],
+            [
+              296.675,
+              -1359.629
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:366906390",
+      "properties": {
+        "id": "osm:way:366906390",
+        "source_ids": [
+          "osm:way:366906390",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 5.93,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              270.418,
+              -1358.756
+            ],
+            [
+              269.07,
+              -1357.494
+            ],
+            [
+              265.869,
+              -1354.955
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              267.422,
+              -1352.996
+            ],
+            [
+              270.624,
+              -1355.536
+            ],
+            [
+              270.779,
+              -1355.67
+            ],
+            [
+              272.127,
+              -1356.932
+            ],
+            [
+              268.709,
+              -1360.581
+            ],
+            [
+              267.436,
+              -1359.389
+            ],
+            [
+              264.315,
+              -1356.913
+            ],
+            [
+              267.422,
+              -1352.996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387347",
+      "properties": {
+        "id": "osm:way:48387347",
+        "source_ids": [
+          "osm:way:48387347",
+          "source:osm"
+        ],
+        "name": "Country Club",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 151.09,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              368.689,
+              -1274.892
+            ],
+            [
+              374.677,
+              -1278.097
+            ],
+            [
+              384.887,
+              -1284.248
+            ],
+            [
+              393.751,
+              -1291.395
+            ],
+            [
+              394.968,
+              -1292.844
+            ],
+            [
+              398.724,
+              -1297.336
+            ],
+            [
+              402.16,
+              -1304.005
+            ],
+            [
+              403.734,
+              -1314.034
+            ],
+            [
+              403.734,
+              -1322.909
+            ],
+            [
+              402.032,
+              -1331.593
+            ],
+            [
+              399.525,
+              -1337.392
+            ],
+            [
+              395.216,
+              -1343.442
+            ],
+            [
+              390.008,
+              -1348.632
+            ],
+            [
+              383.807,
+              -1352.707
+            ],
+            [
+              375.88,
+              -1355.672
+            ],
+            [
+              367.573,
+              -1356.475
+            ],
+            [
+              360.308,
+              -1356.38
+            ],
+            [
+              353.595,
+              -1354.84
+            ],
+            [
+              341.627,
+              -1347.5
+            ],
+            [
+              337.355,
+              -1346.678
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Country Club"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              386.564,
+              -1281.465
+            ],
+            [
+              386.927,
+              -1281.718
+            ],
+            [
+              395.791,
+              -1288.865
+            ],
+            [
+              396.026,
+              -1289.075
+            ],
+            [
+              396.24,
+              -1289.306
+            ],
+            [
+              397.457,
+              -1290.755
+            ],
+            [
+              397.461,
+              -1290.76
+            ],
+            [
+              401.217,
+              -1295.251
+            ],
+            [
+              401.432,
+              -1295.539
+            ],
+            [
+              401.613,
+              -1295.848
+            ],
+            [
+              405.049,
+              -1302.517
+            ],
+            [
+              405.191,
+              -1302.833
+            ],
+            [
+              405.298,
+              -1303.162
+            ],
+            [
+              405.37,
+              -1303.501
+            ],
+            [
+              406.945,
+              -1313.53
+            ],
+            [
+              406.974,
+              -1313.781
+            ],
+            [
+              406.984,
+              -1314.034
+            ],
+            [
+              406.984,
+              -1322.909
+            ],
+            [
+              406.969,
+              -1323.223
+            ],
+            [
+              406.923,
+              -1323.534
+            ],
+            [
+              405.222,
+              -1332.218
+            ],
+            [
+              405.136,
+              -1332.556
+            ],
+            [
+              405.015,
+              -1332.883
+            ],
+            [
+              402.508,
+              -1338.682
+            ],
+            [
+              402.356,
+              -1338.989
+            ],
+            [
+              402.172,
+              -1339.278
+            ],
+            [
+              397.863,
+              -1345.328
+            ],
+            [
+              397.695,
+              -1345.544
+            ],
+            [
+              397.51,
+              -1345.744
+            ],
+            [
+              392.302,
+              -1350.934
+            ],
+            [
+              392.058,
+              -1351.154
+            ],
+            [
+              391.793,
+              -1351.348
+            ],
+            [
+              385.592,
+              -1355.423
+            ],
+            [
+              385.278,
+              -1355.605
+            ],
+            [
+              384.946,
+              -1355.751
+            ],
+            [
+              377.019,
+              -1358.716
+            ],
+            [
+              376.749,
+              -1358.803
+            ],
+            [
+              376.474,
+              -1358.867
+            ],
+            [
+              376.193,
+              -1358.907
+            ],
+            [
+              367.886,
+              -1359.71
+            ],
+            [
+              367.53,
+              -1359.725
+            ],
+            [
+              360.266,
+              -1359.63
+            ],
+            [
+              359.922,
+              -1359.607
+            ],
+            [
+              359.582,
+              -1359.548
+            ],
+            [
+              352.868,
+              -1358.008
+            ],
+            [
+              352.53,
+              -1357.911
+            ],
+            [
+              352.205,
+              -1357.778
+            ],
+            [
+              351.896,
+              -1357.61
+            ],
+            [
+              340.432,
+              -1350.58
+            ],
+            [
+              336.741,
+              -1349.87
+            ],
+            [
+              337.969,
+              -1343.487
+            ],
+            [
+              342.241,
+              -1344.309
+            ],
+            [
+              342.526,
+              -1344.377
+            ],
+            [
+              342.803,
+              -1344.47
+            ],
+            [
+              343.071,
+              -1344.588
+            ],
+            [
+              343.326,
+              -1344.73
+            ],
+            [
+              354.84,
+              -1351.791
+            ],
+            [
+              360.697,
+              -1353.135
+            ],
+            [
+              367.437,
+              -1353.223
+            ],
+            [
+              375.142,
+              -1352.478
+            ],
+            [
+              382.327,
+              -1349.791
+            ],
+            [
+              387.947,
+              -1346.097
+            ],
+            [
+              392.727,
+              -1341.334
+            ],
+            [
+              396.678,
+              -1335.787
+            ],
+            [
+              398.91,
+              -1330.624
+            ],
+            [
+              400.484,
+              -1322.594
+            ],
+            [
+              400.484,
+              -1314.288
+            ],
+            [
+              399.03,
+              -1305.028
+            ],
+            [
+              396.0,
+              -1299.145
+            ],
+            [
+              392.477,
+              -1294.932
+            ],
+            [
+              391.465,
+              -1293.727
+            ],
+            [
+              383.019,
+              -1286.918
+            ],
+            [
+              373.07,
+              -1280.923
+            ],
+            [
+              367.155,
+              -1277.757
+            ],
+            [
+              370.223,
+              -1272.027
+            ],
+            [
+              376.211,
+              -1275.232
+            ],
+            [
+              376.354,
+              -1275.313
+            ],
+            [
+              386.564,
+              -1281.465
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387348",
+      "properties": {
+        "id": "osm:way:48387348",
+        "source_ids": [
+          "osm:way:48387348",
+          "source:osm"
+        ],
+        "name": "Acacia Drive",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 411.83,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              446.435,
+              -1357.43
+            ],
+            [
+              439.218,
+              -1349.771
+            ],
+            [
+              437.885,
+              -1346.86
+            ],
+            [
+              437.645,
+              -1343.383
+            ],
+            [
+              438.823,
+              -1336.698
+            ],
+            [
+              439.711,
+              -1326.137
+            ],
+            [
+              440.379,
+              -1314.767
+            ],
+            [
+              440.062,
+              -1307.66
+            ],
+            [
+              438.821,
+              -1298.973
+            ],
+            [
+              437.181,
+              -1292.795
+            ],
+            [
+              433.065,
+              -1283.752
+            ],
+            [
+              425.583,
+              -1271.26
+            ],
+            [
+              419.856,
+              -1265.258
+            ],
+            [
+              413.305,
+              -1258.64
+            ],
+            [
+              399.745,
+              -1249.671
+            ],
+            [
+              388.844,
+              -1242.429
+            ],
+            [
+              386.819,
+              -1239.7
+            ],
+            [
+              387.01,
+              -1236.238
+            ],
+            [
+              391.288,
+              -1231.35
+            ],
+            [
+              400.105,
+              -1223.9
+            ],
+            [
+              409.642,
+              -1217.906
+            ],
+            [
+              420.757,
+              -1212.711
+            ],
+            [
+              431.076,
+              -1208.561
+            ],
+            [
+              442.395,
+              -1202.139
+            ],
+            [
+              452.163,
+              -1195.693
+            ],
+            [
+              461.775,
+              -1188.482
+            ],
+            [
+              465.77,
+              -1185.23
+            ],
+            [
+              469.273,
+              -1183.998
+            ],
+            [
+              473.292,
+              -1184.187
+            ],
+            [
+              479.479,
+              -1186.73
+            ],
+            [
+              498.082,
+              -1198.453
+            ],
+            [
+              525.506,
+              -1217.333
+            ],
+            [
+              539.084,
+              -1229.246
+            ],
+            [
+              552.625,
+              -1243.028
+            ],
+            [
+              566.43,
+              -1258.606
+            ],
+            [
+              576.221,
+              -1272.146
+            ],
+            [
+              585.064,
+              -1285.611
+            ],
+            [
+              589.901,
+              -1294.298
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Acacia Drive"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              415.098,
+              -1255.929
+            ],
+            [
+              415.367,
+              -1256.128
+            ],
+            [
+              415.614,
+              -1256.353
+            ],
+            [
+              422.166,
+              -1262.971
+            ],
+            [
+              422.208,
+              -1263.014
+            ],
+            [
+              427.934,
+              -1269.017
+            ],
+            [
+              428.169,
+              -1269.292
+            ],
+            [
+              428.371,
+              -1269.59
+            ],
+            [
+              435.853,
+              -1282.082
+            ],
+            [
+              436.023,
+              -1282.405
+            ],
+            [
+              440.139,
+              -1291.449
+            ],
+            [
+              440.242,
+              -1291.701
+            ],
+            [
+              440.323,
+              -1291.961
+            ],
+            [
+              441.962,
+              -1298.139
+            ],
+            [
+              442.039,
+              -1298.513
+            ],
+            [
+              443.28,
+              -1307.2
+            ],
+            [
+              443.309,
+              -1307.515
+            ],
+            [
+              443.626,
+              -1314.622
+            ],
+            [
+              443.623,
+              -1314.958
+            ],
+            [
+              442.955,
+              -1326.328
+            ],
+            [
+              442.949,
+              -1326.41
+            ],
+            [
+              442.062,
+              -1336.971
+            ],
+            [
+              442.024,
+              -1337.262
+            ],
+            [
+              440.915,
+              -1343.556
+            ],
+            [
+              441.086,
+              -1346.046
+            ],
+            [
+              441.95,
+              -1347.932
+            ],
+            [
+              448.8,
+              -1355.202
+            ],
+            [
+              444.069,
+              -1359.659
+            ],
+            [
+              436.853,
+              -1352.0
+            ],
+            [
+              436.625,
+              -1351.73
+            ],
+            [
+              436.428,
+              -1351.437
+            ],
+            [
+              436.263,
+              -1351.125
+            ],
+            [
+              434.93,
+              -1348.214
+            ],
+            [
+              434.82,
+              -1347.942
+            ],
+            [
+              434.735,
+              -1347.662
+            ],
+            [
+              434.676,
+              -1347.375
+            ],
+            [
+              434.642,
+              -1347.084
+            ],
+            [
+              434.403,
+              -1343.607
+            ],
+            [
+              434.399,
+              -1343.212
+            ],
+            [
+              434.444,
+              -1342.819
+            ],
+            [
+              435.597,
+              -1336.279
+            ],
+            [
+              436.469,
+              -1325.906
+            ],
+            [
+              437.125,
+              -1314.744
+            ],
+            [
+              436.823,
+              -1307.962
+            ],
+            [
+              435.631,
+              -1299.622
+            ],
+            [
+              434.11,
+              -1293.893
+            ],
+            [
+              430.183,
+              -1285.265
+            ],
+            [
+              422.981,
+              -1273.242
+            ],
+            [
+              417.525,
+              -1267.523
+            ],
+            [
+              411.231,
+              -1261.165
+            ],
+            [
+              397.952,
+              -1252.382
+            ],
+            [
+              397.946,
+              -1252.378
+            ],
+            [
+              394.3665222314279,
+              -1250.0
+            ],
+            [
+              406.1334207650273,
+              -1250.0
+            ],
+            [
+              415.098,
+              -1255.929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387351",
+      "properties": {
+        "id": "osm:way:48387351",
+        "source_ids": [
+          "osm:way:48387351",
+          "source:osm"
+        ],
+        "name": "Pinetree",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 47.66,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              307.543,
+              -1383.506
+            ],
+            [
+              315.356,
+              -1375.451
+            ],
+            [
+              325.871,
+              -1362.261
+            ],
+            [
+              334.111,
+              -1349.141
+            ],
+            [
+              337.355,
+              -1346.678
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Pinetree"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              331.358,
+              -1347.412
+            ],
+            [
+              331.525,
+              -1347.171
+            ],
+            [
+              331.713,
+              -1346.946
+            ],
+            [
+              331.921,
+              -1346.739
+            ],
+            [
+              332.146,
+              -1346.552
+            ],
+            [
+              335.39,
+              -1344.089
+            ],
+            [
+              339.32,
+              -1349.267
+            ],
+            [
+              336.548,
+              -1351.371
+            ],
+            [
+              328.623,
+              -1363.99
+            ],
+            [
+              328.412,
+              -1364.287
+            ],
+            [
+              317.897,
+              -1377.477
+            ],
+            [
+              317.689,
+              -1377.714
+            ],
+            [
+              309.876,
+              -1385.769
+            ],
+            [
+              305.21,
+              -1381.243
+            ],
+            [
+              312.913,
+              -1373.302
+            ],
+            [
+              323.216,
+              -1360.378
+            ],
+            [
+              331.358,
+              -1347.412
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387363",
+      "properties": {
+        "id": "osm:way:48387363",
+        "source_ids": [
+          "osm:way:48387363",
+          "source:osm"
+        ],
+        "name": "Orange Grove",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 9.69,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              323.633,
+              -1380.485
+            ],
+            [
+              315.356,
+              -1375.451
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Orange Grove"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              325.322,
+              -1377.709
+            ],
+            [
+              321.944,
+              -1383.262
+            ],
+            [
+              313.667,
+              -1378.228
+            ],
+            [
+              317.045,
+              -1372.675
+            ],
+            [
+              325.322,
+              -1377.709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387364",
+      "properties": {
+        "id": "osm:way:48387364",
+        "source_ids": [
+          "osm:way:48387364",
+          "source:osm"
+        ],
+        "name": "Country Club",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 22.15,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              404.614,
+              -1365.282
+            ],
+            [
+              403.747,
+              -1364.331
+            ],
+            [
+              396.413,
+              -1355.958
+            ],
+            [
+              390.008,
+              -1348.632
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Country Club"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              393.968,
+              -1358.099
+            ],
+            [
+              387.561,
+              -1350.772
+            ],
+            [
+              392.454,
+              -1346.493
+            ],
+            [
+              398.859,
+              -1353.817
+            ],
+            [
+              406.171,
+              -1362.165
+            ],
+            [
+              407.016,
+              -1363.092
+            ],
+            [
+              402.213,
+              -1367.472
+            ],
+            [
+              401.346,
+              -1366.521
+            ],
+            [
+              401.303,
+              -1366.472
+            ],
+            [
+              393.968,
+              -1358.099
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387366",
+      "properties": {
+        "id": "osm:way:48387366",
+        "source_ids": [
+          "osm:way:48387366",
+          "source:osm"
+        ],
+        "name": "Pebblewood",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 86.81,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              484.995,
+              -1350.191
+            ],
+            [
+              476.794,
+              -1341.161
+            ],
+            [
+              474.922,
+              -1338.168
+            ],
+            [
+              474.114,
+              -1334.343
+            ],
+            [
+              474.366,
+              -1323.733
+            ],
+            [
+              474.754,
+              -1312.382
+            ],
+            [
+              474.376,
+              -1303.68
+            ],
+            [
+              472.849,
+              -1295.6
+            ],
+            [
+              471.066,
+              -1288.558
+            ],
+            [
+              468.6,
+              -1280.635
+            ],
+            [
+              463.904,
+              -1268.832
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Pebblewood"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              474.039,
+              -1342.884
+            ],
+            [
+              472.167,
+              -1339.891
+            ],
+            [
+              472.027,
+              -1339.643
+            ],
+            [
+              471.909,
+              -1339.384
+            ],
+            [
+              471.814,
+              -1339.116
+            ],
+            [
+              471.743,
+              -1338.84
+            ],
+            [
+              470.934,
+              -1335.015
+            ],
+            [
+              470.878,
+              -1334.643
+            ],
+            [
+              470.865,
+              -1334.266
+            ],
+            [
+              471.117,
+              -1323.655
+            ],
+            [
+              471.118,
+              -1323.622
+            ],
+            [
+              471.502,
+              -1312.397
+            ],
+            [
+              471.139,
+              -1304.055
+            ],
+            [
+              469.674,
+              -1296.301
+            ],
+            [
+              467.937,
+              -1289.44
+            ],
+            [
+              465.534,
+              -1281.72
+            ],
+            [
+              460.884,
+              -1270.033
+            ],
+            [
+              466.923,
+              -1267.63
+            ],
+            [
+              471.62,
+              -1279.434
+            ],
+            [
+              471.703,
+              -1279.669
+            ],
+            [
+              474.169,
+              -1287.592
+            ],
+            [
+              474.216,
+              -1287.76
+            ],
+            [
+              476.0,
+              -1294.802
+            ],
+            [
+              476.043,
+              -1294.997
+            ],
+            [
+              477.569,
+              -1303.077
+            ],
+            [
+              477.622,
+              -1303.539
+            ],
+            [
+              478.001,
+              -1312.241
+            ],
+            [
+              478.002,
+              -1312.493
+            ],
+            [
+              477.615,
+              -1323.827
+            ],
+            [
+              477.372,
+              -1334.042
+            ],
+            [
+              477.983,
+              -1336.933
+            ],
+            [
+              479.396,
+              -1339.191
+            ],
+            [
+              487.4,
+              -1348.006
+            ],
+            [
+              482.589,
+              -1352.376
+            ],
+            [
+              474.388,
+              -1343.346
+            ],
+            [
+              474.203,
+              -1343.123
+            ],
+            [
+              474.039,
+              -1342.884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387368",
+      "properties": {
+        "id": "osm:way:48387368",
+        "source_ids": [
+          "osm:way:48387368",
+          "source:osm"
+        ],
+        "name": "Parkview",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 152.14,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              525.506,
+              -1217.333
+            ],
+            [
+              507.323,
+              -1237.297
+            ],
+            [
+              494.533,
+              -1249.35
+            ],
+            [
+              481.703,
+              -1258.525
+            ],
+            [
+              463.904,
+              -1268.832
+            ],
+            [
+              433.065,
+              -1283.752
+            ],
+            [
+              424.992,
+              -1288.729
+            ],
+            [
+              415.998,
+              -1294.274
+            ],
+            [
+              402.16,
+              -1304.005
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Parkview"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              496.762,
+              -1251.715
+            ],
+            [
+              496.424,
+              -1251.994
+            ],
+            [
+              483.593,
+              -1261.169
+            ],
+            [
+              483.331,
+              -1261.338
+            ],
+            [
+              465.532,
+              -1271.644
+            ],
+            [
+              465.319,
+              -1271.757
+            ],
+            [
+              434.63,
+              -1286.605
+            ],
+            [
+              426.698,
+              -1291.496
+            ],
+            [
+              417.787,
+              -1296.989
+            ],
+            [
+              404.029,
+              -1306.664
+            ],
+            [
+              400.29,
+              -1301.347
+            ],
+            [
+              414.128,
+              -1291.616
+            ],
+            [
+              414.292,
+              -1291.508
+            ],
+            [
+              423.286,
+              -1285.963
+            ],
+            [
+              431.36,
+              -1280.985
+            ],
+            [
+              431.65,
+              -1280.826
+            ],
+            [
+              462.38,
+              -1265.959
+            ],
+            [
+              479.939,
+              -1255.791
+            ],
+            [
+              488.0368313051245,
+              -1250.0
+            ],
+            [
+              498.581866423297,
+              -1250.0
+            ],
+            [
+              496.762,
+              -1251.715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387369",
+      "properties": {
+        "id": "osm:way:48387369",
+        "source_ids": [
+          "osm:way:48387369",
+          "source:osm"
+        ],
+        "name": "Richmore",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 105.33,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              498.082,
+              -1198.453
+            ],
+            [
+              486.276,
+              -1212.694
+            ],
+            [
+              473.691,
+              -1222.071
+            ],
+            [
+              461.356,
+              -1230.055
+            ],
+            [
+              447.965,
+              -1237.975
+            ],
+            [
+              429.701,
+              -1245.976
+            ],
+            [
+              422.609,
+              -1249.644
+            ],
+            [
+              418.569,
+              -1253.096
+            ],
+            [
+              413.305,
+              -1258.64
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Richmore"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              424.435,
+              -1252.359
+            ],
+            [
+              420.809,
+              -1255.457
+            ],
+            [
+              415.661,
+              -1260.878
+            ],
+            [
+              410.948,
+              -1256.402
+            ],
+            [
+              416.213,
+              -1250.858
+            ],
+            [
+              416.458,
+              -1250.625
+            ],
+            [
+              417.18949087221097,
+              -1250.0
+            ],
+            [
+              428.99431980284146,
+              -1250.0
+            ],
+            [
+              424.435,
+              -1252.359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387370",
+      "properties": {
+        "id": "osm:way:48387370",
+        "source_ids": [
+          "osm:way:48387370",
+          "source:osm"
+        ],
+        "name": "Fairwood",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 99.41,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              552.625,
+              -1243.028
+            ],
+            [
+              528.191,
+              -1266.591
+            ],
+            [
+              516.207,
+              -1276.393
+            ],
+            [
+              503.732,
+              -1285.582
+            ],
+            [
+              474.376,
+              -1303.68
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Fairwood"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              476.081,
+              -1306.447
+            ],
+            [
+              472.67,
+              -1300.914
+            ],
+            [
+              500.0,
+              -1284.064768073319
+            ],
+            [
+              500.0,
+              -1291.700915315438
+            ],
+            [
+              476.081,
+              -1306.447
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387371",
+      "properties": {
+        "id": "osm:way:48387371",
+        "source_ids": [
+          "osm:way:48387371",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 11.99,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              501.029,
+              -1347.181
+            ],
+            [
+              509.756,
+              -1338.963
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              499.315,
+              -1345.361
+            ],
+            [
+              500.0,
+              -1344.7159524464307
+            ],
+            [
+              500.0,
+              -1346.0883628938157
+            ],
+            [
+              499.315,
+              -1345.361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48387378",
+      "properties": {
+        "id": "osm:way:48387378",
+        "source_ids": [
+          "osm:way:48387378",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 22.5,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              379.258,
+              -1333.701
+            ],
+            [
+              377.304,
+              -1337.9
+            ],
+            [
+              376.214,
+              -1344.387
+            ],
+            [
+              375.88,
+              -1355.672
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              378.379,
+              -1355.746
+            ],
+            [
+              373.381,
+              -1355.598
+            ],
+            [
+              373.715,
+              -1344.313
+            ],
+            [
+              373.748,
+              -1343.973
+            ],
+            [
+              374.838,
+              -1337.486
+            ],
+            [
+              374.885,
+              -1337.267
+            ],
+            [
+              374.952,
+              -1337.053
+            ],
+            [
+              375.037,
+              -1336.845
+            ],
+            [
+              376.992,
+              -1332.646
+            ],
+            [
+              381.525,
+              -1334.755
+            ],
+            [
+              379.713,
+              -1338.648
+            ],
+            [
+              378.707,
+              -1344.632
+            ],
+            [
+              378.379,
+              -1355.746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:48786590",
+      "properties": {
+        "id": "osm:way:48786590",
+        "source_ids": [
+          "osm:way:48786590",
+          "source:osm"
+        ],
+        "name": "Upper McKinley Road",
+        "class": "secondary",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 229.96,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              317.664,
+              -1254.017
+            ],
+            [
+              309.004,
+              -1270.842
+            ],
+            [
+              307.163,
+              -1274.412
+            ],
+            [
+              284.867,
+              -1317.735
+            ],
+            [
+              277.643,
+              -1330.61
+            ],
+            [
+              269.07,
+              -1341.138
+            ],
+            [
+              259.944,
+              -1350.732
+            ],
+            [
+              252.282,
+              -1358.026
+            ],
+            [
+              241.544,
+              -1365.736
+            ],
+            [
+              230.782,
+              -1372.517
+            ],
+            [
+              212.671,
+              -1380.23
+            ],
+            [
+              198.77,
+              -1387.216
+            ],
+            [
+              189.296,
+              -1392.149
+            ],
+            [
+              179.463,
+              -1397.388
+            ],
+            [
+              168.621,
+              -1404.699
+            ],
+            [
+              160.828,
+              -1411.05
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "2",
+          "name": "Upper McKinley Road",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              250.235,
+              -1355.556
+            ],
+            [
+              257.68,
+              -1348.469
+            ],
+            [
+              266.666,
+              -1339.022
+            ],
+            [
+              274.987,
+              -1328.803
+            ],
+            [
+              282.049,
+              -1316.219
+            ],
+            [
+              304.318,
+              -1272.947
+            ],
+            [
+              306.16,
+              -1269.376
+            ],
+            [
+              314.819,
+              -1252.553
+            ],
+            [
+              320.509,
+              -1255.482
+            ],
+            [
+              311.85,
+              -1272.306
+            ],
+            [
+              310.008,
+              -1275.877
+            ],
+            [
+              287.713,
+              -1319.199
+            ],
+            [
+              287.658,
+              -1319.3
+            ],
+            [
+              280.434,
+              -1332.175
+            ],
+            [
+              280.289,
+              -1332.409
+            ],
+            [
+              280.124,
+              -1332.63
+            ],
+            [
+              271.551,
+              -1343.159
+            ],
+            [
+              271.388,
+              -1343.343
+            ],
+            [
+              262.262,
+              -1352.938
+            ],
+            [
+              262.15,
+              -1353.05
+            ],
+            [
+              254.488,
+              -1360.344
+            ],
+            [
+              254.148,
+              -1360.625
+            ],
+            [
+              250.0,
+              -1363.6036951015087
+            ],
+            [
+              250.0,
+              -1355.7247317492127
+            ],
+            [
+              250.235,
+              -1355.556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:568943190",
+      "properties": {
+        "id": "osm:way:568943190",
+        "source_ids": [
+          "osm:way:568943190",
+          "source:osm"
+        ],
+        "name": "Upper McKinley Road",
+        "class": "secondary",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 215.98,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              179.22,
+              -1407.597
+            ],
+            [
+              182.738,
+              -1405.217
+            ],
+            [
+              192.806,
+              -1398.907
+            ],
+            [
+              202.179,
+              -1393.199
+            ],
+            [
+              216.076,
+              -1386.634
+            ],
+            [
+              233.978,
+              -1378.199
+            ],
+            [
+              244.349,
+              -1371.758
+            ],
+            [
+              256.08,
+              -1363.857
+            ],
+            [
+              263.114,
+              -1358.152
+            ],
+            [
+              265.869,
+              -1354.955
+            ],
+            [
+              274.229,
+              -1346.616
+            ],
+            [
+              283.832,
+              -1334.226
+            ],
+            [
+              291.362,
+              -1320.922
+            ],
+            [
+              310.556,
+              -1282.287
+            ],
+            [
+              313.09,
+              -1277.173
+            ],
+            [
+              323.962,
+              -1257.513
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "2",
+          "name": "Upper McKinley Road",
+          "sidewalk": "separate",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              254.175,
+              -1361.282
+            ],
+            [
+              260.876,
+              -1355.846
+            ],
+            [
+              263.444,
+              -1352.866
+            ],
+            [
+              263.609,
+              -1352.689
+            ],
+            [
+              271.825,
+              -1344.494
+            ],
+            [
+              281.161,
+              -1332.448
+            ],
+            [
+              288.535,
+              -1319.421
+            ],
+            [
+              307.689,
+              -1280.864
+            ],
+            [
+              310.222,
+              -1275.753
+            ],
+            [
+              310.289,
+              -1275.625
+            ],
+            [
+              321.161,
+              -1255.964
+            ],
+            [
+              326.762,
+              -1259.061
+            ],
+            [
+              315.925,
+              -1278.659
+            ],
+            [
+              313.423,
+              -1283.707
+            ],
+            [
+              313.422,
+              -1283.71
+            ],
+            [
+              294.228,
+              -1322.345
+            ],
+            [
+              294.147,
+              -1322.498
+            ],
+            [
+              286.617,
+              -1335.802
+            ],
+            [
+              286.361,
+              -1336.186
+            ],
+            [
+              276.759,
+              -1348.576
+            ],
+            [
+              276.489,
+              -1348.881
+            ],
+            [
+              268.214,
+              -1357.135
+            ],
+            [
+              265.538,
+              -1360.24
+            ],
+            [
+              265.343,
+              -1360.448
+            ],
+            [
+              265.13,
+              -1360.637
+            ],
+            [
+              258.096,
+              -1366.342
+            ],
+            [
+              257.868,
+              -1366.511
+            ],
+            [
+              250.0,
+              -1371.8102130253176
+            ],
+            [
+              250.0,
+              -1364.0940957281216
+            ],
+            [
+              254.175,
+              -1361.282
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:586230528",
+      "properties": {
+        "id": "osm:way:586230528",
+        "source_ids": [
+          "osm:way:586230528",
+          "source:osm"
+        ],
+        "name": "Country Club",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 23.68,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              346.145,
+              -1269.012
+            ],
+            [
+              348.528,
+              -1270.15
+            ],
+            [
+              353.296,
+              -1272.293
+            ],
+            [
+              357.368,
+              -1273.943
+            ],
+            [
+              361.101,
+              -1274.783
+            ],
+            [
+              368.689,
+              -1274.892
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Country Club",
+          "surface": "paving_stones"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              358.326,
+              -1270.879
+            ],
+            [
+              361.479,
+              -1271.588
+            ],
+            [
+              368.735,
+              -1271.692
+            ],
+            [
+              368.643,
+              -1278.092
+            ],
+            [
+              361.055,
+              -1277.983
+            ],
+            [
+              360.725,
+              -1277.961
+            ],
+            [
+              360.399,
+              -1277.905
+            ],
+            [
+              356.666,
+              -1277.065
+            ],
+            [
+              356.412,
+              -1276.997
+            ],
+            [
+              356.166,
+              -1276.909
+            ],
+            [
+              352.094,
+              -1275.259
+            ],
+            [
+              351.984,
+              -1275.212
+            ],
+            [
+              347.216,
+              -1273.068
+            ],
+            [
+              347.15,
+              -1273.037
+            ],
+            [
+              344.766,
+              -1271.899
+            ],
+            [
+              347.524,
+              -1266.124
+            ],
+            [
+              349.874,
+              -1267.246
+            ],
+            [
+              354.554,
+              -1269.35
+            ],
+            [
+              358.326,
+              -1270.879
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:887419588",
+      "properties": {
+        "id": "osm:way:887419588",
+        "source_ids": [
+          "osm:way:887419588",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 7.28,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              259.944,
+              -1350.732
+            ],
+            [
+              265.869,
+              -1354.955
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              258.493,
+              -1352.768
+            ],
+            [
+              261.394,
+              -1348.696
+            ],
+            [
+              267.32,
+              -1352.919
+            ],
+            [
+              264.418,
+              -1356.991
+            ],
+            [
+              258.493,
+              -1352.768
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:887488573",
+      "properties": {
+        "id": "osm:way:887488573",
+        "source_ids": [
+          "osm:way:887488573",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 7.51,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              382.829,
+              -1327.091
+            ],
+            [
+              379.258,
+              -1333.701
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              380.629,
+              -1325.903
+            ],
+            [
+              385.028,
+              -1328.279
+            ],
+            [
+              381.458,
+              -1334.889
+            ],
+            [
+              377.059,
+              -1332.512
+            ],
+            [
+              380.629,
+              -1325.903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:887488574",
+      "properties": {
+        "id": "osm:way:887488574",
+        "source_ids": [
+          "osm:way:887488574",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 25.87,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              403.734,
+              -1314.034
+            ],
+            [
+              393.733,
+              -1316.35
+            ],
+            [
+              388.5,
+              -1319.415
+            ],
+            [
+              382.829,
+              -1327.091
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              384.84,
+              -1328.577
+            ],
+            [
+              380.818,
+              -1325.606
+            ],
+            [
+              386.489,
+              -1317.93
+            ],
+            [
+              386.649,
+              -1317.734
+            ],
+            [
+              386.829,
+              -1317.556
+            ],
+            [
+              387.025,
+              -1317.397
+            ],
+            [
+              387.236,
+              -1317.258
+            ],
+            [
+              392.469,
+              -1314.193
+            ],
+            [
+              392.692,
+              -1314.077
+            ],
+            [
+              392.926,
+              -1313.984
+            ],
+            [
+              393.169,
+              -1313.915
+            ],
+            [
+              403.17,
+              -1311.598
+            ],
+            [
+              404.298,
+              -1316.47
+            ],
+            [
+              394.668,
+              -1318.7
+            ],
+            [
+              390.206,
+              -1321.313
+            ],
+            [
+              384.84,
+              -1328.577
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:919767432",
+      "properties": {
+        "id": "osm:way:919767432",
+        "source_ids": [
+          "osm:way:919767432",
+          "source:osm"
+        ],
+        "name": "Country Club",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 7.2,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              317.664,
+              -1254.017
+            ],
+            [
+              323.962,
+              -1257.513
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Country Club"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              316.087,
+              -1256.859
+            ],
+            [
+              319.241,
+              -1251.175
+            ],
+            [
+              325.539,
+              -1254.671
+            ],
+            [
+              322.384,
+              -1260.354
+            ],
+            [
+              316.087,
+              -1256.859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:936498628",
+      "properties": {
+        "id": "osm:way:936498628",
+        "source_ids": [
+          "osm:way:936498628",
+          "source:osm"
+        ],
+        "name": "Upper McKinley Road",
+        "class": "secondary",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 34.38,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              323.962,
+              -1257.513
+            ],
+            [
+              330.92,
+              -1245.443
+            ],
+            [
+              341.536,
+              -1227.971
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "2",
+          "name": "Upper McKinley Road",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              326.734,
+              -1259.111
+            ],
+            [
+              321.189,
+              -1255.914
+            ],
+            [
+              324.59901955422987,
+              -1250.0
+            ],
+            [
+              331.98656188735674,
+              -1250.0
+            ],
+            [
+              326.734,
+              -1259.111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:936498629",
+      "properties": {
+        "id": "osm:way:936498629",
+        "source_ids": [
+          "osm:way:936498629",
+          "source:osm"
+        ],
+        "name": "Upper McKinley Road",
+        "class": "secondary",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 35.26,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              335.633,
+              -1223.682
+            ],
+            [
+              330.2,
+              -1232.589
+            ],
+            [
+              324.897,
+              -1241.33
+            ],
+            [
+              323.967,
+              -1242.971
+            ],
+            [
+              317.664,
+              -1254.017
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "secondary",
+          "lanes": "2",
+          "name": "Upper McKinley Road",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              320.443,
+              -1255.603
+            ],
+            [
+              314.884,
+              -1252.431
+            ],
+            [
+              316.2714444846948,
+              -1250.0
+            ],
+            [
+              323.64014910374794,
+              -1250.0
+            ],
+            [
+              320.443,
+              -1255.603
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "type": "Feature",
+      "id": "osm:way:614426416",
+      "properties": {
+        "id": "osm:way:614426416",
+        "source_ids": [
+          "osm:way:614426416",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 297.89,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              149.607,
+              -1413.156
+            ],
+            [
+              153.684,
+              -1409.241
+            ],
+            [
+              176.249,
+              -1392.568
+            ],
+            [
+              189.751,
+              -1384.295
+            ],
+            [
+              196.459,
+              -1381.42
+            ],
+            [
+              222.847,
+              -1370.092
+            ],
+            [
+              248.677,
+              -1354.686
+            ],
+            [
+              252.743,
+              -1350.715
+            ],
+            [
+              266.461,
+              -1337.309
+            ],
+            [
+              285.148,
+              -1305.077
+            ],
+            [
+              304.726,
+              -1273.173
+            ],
+            [
+              295.892,
+              -1270.121
+            ],
+            [
+              292.448,
+              -1259.28
+            ],
+            [
+              305.972,
+              -1237.096
+            ],
+            [
+              314.185,
+              -1232.176
+            ],
+            [
+              326.336,
+              -1231.848
+            ],
+            [
+              333.695,
+              -1219.627
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              293.43,
+              -1259.398
+            ],
+            [
+              296.613,
+              -1269.418
+            ],
+            [
+              305.02,
+              -1272.323
+            ],
+            [
+              305.103,
+              -1272.356
+            ],
+            [
+              305.182,
+              -1272.398
+            ],
+            [
+              305.257,
+              -1272.447
+            ],
+            [
+              305.327,
+              -1272.503
+            ],
+            [
+              305.39,
+              -1272.566
+            ],
+            [
+              305.447,
+              -1272.635
+            ],
+            [
+              305.497,
+              -1272.709
+            ],
+            [
+              305.539,
+              -1272.787
+            ],
+            [
+              305.574,
+              -1272.87
+            ],
+            [
+              305.6,
+              -1272.956
+            ],
+            [
+              305.617,
+              -1273.043
+            ],
+            [
+              305.626,
+              -1273.132
+            ],
+            [
+              305.625,
+              -1273.222
+            ],
+            [
+              305.616,
+              -1273.311
+            ],
+            [
+              305.598,
+              -1273.398
+            ],
+            [
+              305.571,
+              -1273.483
+            ],
+            [
+              305.536,
+              -1273.566
+            ],
+            [
+              305.494,
+              -1273.644
+            ],
+            [
+              285.921,
+              -1305.538
+            ],
+            [
+              267.24,
+              -1337.76
+            ],
+            [
+              267.196,
+              -1337.829
+            ],
+            [
+              267.146,
+              -1337.893
+            ],
+            [
+              267.09,
+              -1337.953
+            ],
+            [
+              253.372,
+              -1351.359
+            ],
+            [
+              250.0,
+              -1354.652214953271
+            ],
+            [
+              250.0,
+              -1352.1362439207821
+            ],
+            [
+              252.114,
+              -1350.071
+            ],
+            [
+              265.744,
+              -1336.751
+            ],
+            [
+              284.369,
+              -1304.626
+            ],
+            [
+              284.381,
+              -1304.606
+            ],
+            [
+              303.373,
+              -1273.658
+            ],
+            [
+              295.598,
+              -1270.972
+            ],
+            [
+              295.511,
+              -1270.937
+            ],
+            [
+              295.429,
+              -1270.893
+            ],
+            [
+              295.352,
+              -1270.842
+            ],
+            [
+              295.281,
+              -1270.782
+            ],
+            [
+              295.216,
+              -1270.715
+            ],
+            [
+              295.158,
+              -1270.642
+            ],
+            [
+              295.108,
+              -1270.564
+            ],
+            [
+              295.067,
+              -1270.481
+            ],
+            [
+              295.034,
+              -1270.394
+            ],
+            [
+              291.591,
+              -1259.552
+            ],
+            [
+              291.569,
+              -1259.47
+            ],
+            [
+              291.555,
+              -1259.385
+            ],
+            [
+              291.549,
+              -1259.3
+            ],
+            [
+              291.551,
+              -1259.215
+            ],
+            [
+              291.561,
+              -1259.13
+            ],
+            [
+              291.579,
+              -1259.046
+            ],
+            [
+              291.605,
+              -1258.965
+            ],
+            [
+              291.639,
+              -1258.886
+            ],
+            [
+              291.68,
+              -1258.811
+            ],
+            [
+              297.0516793941306,
+              -1250.0
+            ],
+            [
+              299.15937580853813,
+              -1250.0
+            ],
+            [
+              293.43,
+              -1259.398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:614431381",
+      "properties": {
+        "id": "osm:way:614431381",
+        "source_ids": [
+          "osm:way:614431381",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 182.77,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              316.289,
+              -1278.739
+            ],
+            [
+              287.161,
+              -1338.249
+            ],
+            [
+              276.963,
+              -1349.704
+            ],
+            [
+              269.07,
+              -1357.494
+            ],
+            [
+              262.465,
+              -1363.469
+            ],
+            [
+              229.62,
+              -1386.163
+            ],
+            [
+              201.496,
+              -1400.021
+            ],
+            [
+              192.95,
+              -1405.019
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "footway",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              261.905,
+              -1362.762
+            ],
+            [
+              268.452,
+              -1356.84
+            ],
+            [
+              276.31,
+              -1349.084
+            ],
+            [
+              286.407,
+              -1337.743
+            ],
+            [
+              315.48,
+              -1278.343
+            ],
+            [
+              317.097,
+              -1279.135
+            ],
+            [
+              287.969,
+              -1338.645
+            ],
+            [
+              287.93,
+              -1338.716
+            ],
+            [
+              287.885,
+              -1338.784
+            ],
+            [
+              287.833,
+              -1338.848
+            ],
+            [
+              277.635,
+              -1350.303
+            ],
+            [
+              277.595,
+              -1350.345
+            ],
+            [
+              269.702,
+              -1358.135
+            ],
+            [
+              269.674,
+              -1358.162
+            ],
+            [
+              263.069,
+              -1364.136
+            ],
+            [
+              262.977,
+              -1364.21
+            ],
+            [
+              250.0,
+              -1373.1756902210316
+            ],
+            [
+              250.0,
+              -1370.987728880337
+            ],
+            [
+              261.905,
+              -1362.762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:745173127",
+      "properties": {
+        "id": "osm:way:745173127",
+        "source_ids": [
+          "osm:way:745173127",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 14.86,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              266.728,
+              -1338.938
+            ],
+            [
+              269.07,
+              -1341.138
+            ],
+            [
+              274.229,
+              -1346.616
+            ],
+            [
+              276.963,
+              -1349.704
+            ]
+          ]
+        },
+        "tags": {
+          "crossing": "uncontrolled",
+          "footway": "crossing",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              274.885,
+              -1345.999
+            ],
+            [
+              274.903,
+              -1346.019
+            ],
+            [
+              277.637,
+              -1349.108
+            ],
+            [
+              276.289,
+              -1350.301
+            ],
+            [
+              273.565,
+              -1347.223
+            ],
+            [
+              268.433,
+              -1341.775
+            ],
+            [
+              266.111,
+              -1339.594
+            ],
+            [
+              267.344,
+              -1338.282
+            ],
+            [
+              269.686,
+              -1340.482
+            ],
+            [
+              269.725,
+              -1340.521
+            ],
+            [
+              274.885,
+              -1345.999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:745173128",
+      "properties": {
+        "id": "osm:way:745173128",
+        "source_ids": [
+          "osm:way:745173128",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 12.83,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              304.726,
+              -1273.173
+            ],
+            [
+              307.163,
+              -1274.412
+            ],
+            [
+              313.09,
+              -1277.173
+            ],
+            [
+              316.289,
+              -1278.739
+            ]
+          ]
+        },
+        "tags": {
+          "crossing": "uncontrolled",
+          "footway": "crossing",
+          "highway": "footway",
+          "surface": "paved"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              313.485,
+              -1276.365
+            ],
+            [
+              316.684,
+              -1277.93
+            ],
+            [
+              315.893,
+              -1279.547
+            ],
+            [
+              312.702,
+              -1277.986
+            ],
+            [
+              306.783,
+              -1275.227
+            ],
+            [
+              306.755,
+              -1275.214
+            ],
+            [
+              304.319,
+              -1273.976
+            ],
+            [
+              305.134,
+              -1272.371
+            ],
+            [
+              307.557,
+              -1273.602
+            ],
+            [
+              313.47,
+              -1276.358
+            ],
+            [
+              313.485,
+              -1276.365
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "open_spaces": [
+    {
+      "type": "Feature",
+      "id": "osm:way:48387379",
+      "properties": {
+        "id": "osm:way:48387379",
+        "source_ids": [
+          "osm:way:48387379",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "recreation_ground",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 3876.41,
+        "tags": {
+          "landuse": "recreation_ground"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              330.941,
+              -1311.3
+            ],
+            [
+              345.067,
+              -1285.48
+            ],
+            [
+              358.916,
+              -1292.061
+            ],
+            [
+              365.966,
+              -1279.461
+            ],
+            [
+              380.965,
+              -1287.756
+            ],
+            [
+              389.319,
+              -1294.113
+            ],
+            [
+              394.175,
+              -1299.81
+            ],
+            [
+              397.756,
+              -1307.166
+            ],
+            [
+              399.152,
+              -1311.66
+            ],
+            [
+              399.8,
+              -1315.207
+            ],
+            [
+              399.963,
+              -1321.461
+            ],
+            [
+              399.591,
+              -1327.101
+            ],
+            [
+              397.429,
+              -1332.937
+            ],
+            [
+              395.045,
+              -1338.162
+            ],
+            [
+              390.191,
+              -1343.621
+            ],
+            [
+              384.65,
+              -1347.447
+            ],
+            [
+              379.547,
+              -1350.38
+            ],
+            [
+              373.094,
+              -1352.439
+            ],
+            [
+              366.231,
+              -1353.354
+            ],
+            [
+              360.886,
+              -1353.065
+            ],
+            [
+              355.843,
+              -1351.594
+            ],
+            [
+              344.287,
+              -1346.627
+            ],
+            [
+              331.204,
+              -1339.853
+            ],
+            [
+              335.216,
+              -1332.063
+            ],
+            [
+              322.996,
+              -1326.481
+            ],
+            [
+              330.941,
+              -1311.3
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "input_sha256": "e21b673d46c0aa2ca923e54389d6e3810949834df3a87d5aa66c3ffbe026f469"
+}

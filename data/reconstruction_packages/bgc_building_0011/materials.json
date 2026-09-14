@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0011",
+  "materials": [
+    {
+      "material_id": "mat:primary",
+      "family": "warm_neutral_cladding",
+      "shared_family": "warm_neutral_cladding",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "ref:official:bgc-c1-directory",
+        "ref:web:officepro-bhs-central"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:glass",
+      "family": "dark architectural glazing",
+      "shared_family": "architectural_dark_glass",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "ref:official:bgc-c1-directory",
+        "ref:web:officepro-bhs-central"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:storefront",
+      "family": "storefront glazing",
+      "shared_family": "generic_storefront_glass",
+      "status": "INFERRED",
+      "confidence": 0.55,
+      "evidence_ids": [
+        "ref:official:bgc-c1-directory",
+        "ref:web:officepro-bhs-central"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:roof",
+      "family": "neutral roof",
+      "shared_family": "neutral_roof",
+      "status": "UNKNOWN",
+      "confidence": 0.25,
+      "evidence_ids": [],
+      "exact_colour": "UNKNOWN"
+    }
+  ]
+}

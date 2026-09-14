@@ -1,0 +1,99 @@
+{
+  "type": "FeatureCollection",
+  "projected_crs": "EPSG:32651",
+  "units": "metres",
+  "origin_wgs84": {
+    "longitude": 121.050972,
+    "latitude": 14.550806
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:145147831",
+      "properties": {
+        "id": "osm:way:145147831",
+        "source_ids": [
+          "osm:way:145147831",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "W Global Center",
+        "feature_kind": "building_outline",
+        "height_m": 30.5,
+        "min_height_m": 0.0,
+        "levels": 8.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1826.81,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "Lane P",
+          "addr:street:corner": "9th Avenue",
+          "building": "commercial",
+          "building:levels": "8",
+          "height": "30.5",
+          "name": "W Global Center",
+          "wikidata": "Q18395924"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.659,
+              11.69
+            ],
+            [
+              124.051,
+              54.792
+            ],
+            [
+              86.315,
+              67.62
+            ],
+            [
+              71.268,
+              24.744
+            ],
+            [
+              109.659,
+              11.69
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "deterministic_measurements": {
+    "area_m2": 1826.8,
+    "perimeter_m": 171.29,
+    "centroid_local_m": {
+      "x": 97.802,
+      "y": 39.65
+    },
+    "oriented_bounding_box_m": {
+      "major": 45.44,
+      "minor": 40.203
+    },
+    "local_axis_rotation_deg_from_east": 71.536,
+    "major_axis_bearing_deg_clockwise_from_north": 18.464,
+    "axis_aligned_bounds_m": {
+      "min_x": 71.268,
+      "min_y": 11.69,
+      "max_x": 124.051,
+      "max_y": 67.62
+    },
+    "major_edge_lengths_m": [
+      45.441,
+      45.44,
+      40.55,
+      39.857
+    ]
+  }
+}

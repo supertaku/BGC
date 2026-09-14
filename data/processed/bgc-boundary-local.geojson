@@ -1,0 +1,98 @@
+{
+  "type": "FeatureCollection",
+  "name": "bgc-boundary-local",
+  "schema_version": 2,
+  "dataset_id": "bgc-boundary-local",
+  "source_id": "source:osm",
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "source_retrieved_at": "2026-09-14T16:21:50.891252+00:00",
+  "source_crs": "EPSG:4326",
+  "projected_crs": "EPSG:32651",
+  "local_frame": {
+    "origin_wgs84": {
+      "longitude": 121.050972,
+      "latitude": 14.550806
+    },
+    "origin_projected": {
+      "easting": 289998.297,
+      "northing": 1609541.742
+    },
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres",
+    "transform_library": "pyproj"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "scope:bgc-working-v1",
+      "properties": {
+        "name": "BGC project working boundary",
+        "status": "estimated information",
+        "boundary_role": "project_working_boundary",
+        "version": 1,
+        "crs": "EPSG:4326",
+        "approximate_area_ha": 472.39,
+        "basis": "Approximation of the commonly understood BGC extent, constrained by the principal surrounding road network and checked against published BCDA/FBDC district maps. It is not an official cadastral or legal boundary.",
+        "review_trigger": "Replace or revise only when an authoritative reusable boundary dataset is obtained.",
+        "sources": [
+          "source:bcda-bgc-2014",
+          "source:bcda-master-plan-1996",
+          "source:osm"
+        ],
+        "geometry_status": "ESTIMATED",
+        "source_ids": [
+          "source:bcda-bgc-2014",
+          "source:bcda-master-plan-1996",
+          "source:osm"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -330.329,
+              1352.273
+            ],
+            [
+              -1086.868,
+              1115.305
+            ],
+            [
+              -1181.943,
+              86.935
+            ],
+            [
+              -974.453,
+              -855.501
+            ],
+            [
+              -441.199,
+              -1524.061
+            ],
+            [
+              573.725,
+              -1333.532
+            ],
+            [
+              991.981,
+              -318.984
+            ],
+            [
+              849.565,
+              678.204
+            ],
+            [
+              -330.329,
+              1352.273
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

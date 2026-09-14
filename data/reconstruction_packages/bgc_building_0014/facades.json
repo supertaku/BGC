@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "facades": [
+    {
+      "facade_id": "csq:facade:north-30th",
+      "orientation": "NORTH_30TH",
+      "major_segments": [
+        "warm-neutral opaque upper panels",
+        "large vertical dark glazed/recessed zones",
+        "recessed transparent ground retail band",
+        "mutable signage/mural fields"
+      ],
+      "floor_alignment": "Four broad visible occupied bands are plausible but exact physical storey alignment is CONFLICTED",
+      "bay_count": "UNKNOWN",
+      "opening_pattern": "few large vertical openings rather than a regular window grid",
+      "material_regions": [
+        "mat:warm-neutral-cladding",
+        "mat:dark-glazing",
+        "mat:storefront-glazing",
+        "mat:dark-metal"
+      ],
+      "entrances": [],
+      "setbacks": [
+        "ground floor recessed beneath upper wall"
+      ],
+      "confidence": 0.88,
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:web:inside-metro-central-square-2024"
+      ],
+      "feature_confidence": {
+        "outline": "HIGH",
+        "large_openings": "HIGH",
+        "exact_bays": "LOW",
+        "signage_2026": "LOW"
+      }
+    },
+    {
+      "facade_id": "csq:facade:west-5th",
+      "orientation": "WEST_5TH",
+      "major_segments": [
+        "opaque warm-neutral upper planes",
+        "tall vertical glazed bay",
+        "recessed palm-lined ground retail interface"
+      ],
+      "floor_alignment": "Exact mullion and slab lines are not measured",
+      "bay_count": "UNKNOWN",
+      "opening_pattern": "large vertical glazed cuts plus ground storefront glazing",
+      "material_regions": [
+        "mat:warm-neutral-cladding",
+        "mat:light-panel",
+        "mat:dark-glazing",
+        "mat:storefront-glazing"
+      ],
+      "entrances": [
+        "csq:entrance:west-public-approach"
+      ],
+      "setbacks": [
+        "recessed ground frontage"
+      ],
+      "confidence": 0.76,
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:commons:173664145",
+        "ref:commons:146482138",
+        "ref:youtube:tour-from-home-central-square-2021",
+        "ref:youtube:hg-central-square-2023"
+      ],
+      "feature_confidence": {
+        "outline": "HIGH",
+        "vertical_glazed_bay": "MEDIUM_HIGH",
+        "main_portal": "LOW",
+        "exact_mullions": "LOW"
+      }
+    },
+    {
+      "facade_id": "csq:facade:south-high-street",
+      "orientation": "SOUTH_HIGH_STREET",
+      "major_segments": [
+        "warm-neutral opaque upper wall",
+        "tall dark glazed/recessed strip",
+        "ground colonnade/storefront edge",
+        "landscape-screened pedestrian interface"
+      ],
+      "floor_alignment": "Partial visibility only",
+      "bay_count": "UNKNOWN",
+      "opening_pattern": "large vertical glazed/recessed segment and mostly opaque wall",
+      "material_regions": [
+        "mat:warm-neutral-cladding",
+        "mat:dark-glazing",
+        "mat:storefront-glazing",
+        "mat:dark-metal"
+      ],
+      "entrances": [],
+      "setbacks": [
+        "ground frontage recessed behind columns"
+      ],
+      "confidence": 0.8,
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:commons:158404929",
+        "ref:commons:158404930"
+      ],
+      "feature_confidence": {
+        "upper_outline": "HIGH",
+        "ground_interface": "MEDIUM",
+        "portal_positions": "LOW",
+        "tenant_signage": "LOW"
+      }
+    },
+    {
+      "facade_id": "csq:facade:east-other",
+      "orientation": "EAST_OTHER",
+      "major_segments": [
+        "massing-only neutral treatment"
+      ],
+      "floor_alignment": "UNKNOWN",
+      "bay_count": "UNKNOWN",
+      "opening_pattern": "UNKNOWN",
+      "material_regions": [
+        "mat:warm-neutral-cladding"
+      ],
+      "entrances": [],
+      "setbacks": [],
+      "confidence": 0.25,
+      "status": "UNKNOWN",
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929"
+      ],
+      "feature_confidence": {
+        "overall_outline": "MEDIUM",
+        "openings": "UNKNOWN",
+        "service_access": "UNKNOWN",
+        "materials": "LOW"
+      },
+      "procedural_rule": "Use low-detail neutral opaque treatment. Do not invent distinctive windows, loading bays, signs, or doors."
+    }
+  ]
+}

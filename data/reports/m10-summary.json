@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "phase": "PASS",
+  "milestone": "M10 — Pilot Reconstruction Batch and Throughput Validation",
+  "candidates_evaluated": 29,
+  "targets_selected": 5,
+  "targets_completed": 5,
+  "targets_deferred": 0,
+  "wave_a": "PASS",
+  "wave_b": "PASS_AFTER_ONE_PACKAGE_RETRY",
+  "completed_buildings": [
+    {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien"
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre"
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "name": "Verve Residences Tower 2"
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo"
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "name": "C1"
+    }
+  ],
+  "architectural_archetypes": [
+    "IRREGULAR_FOOTPRINT",
+    "LOW_RISE_RETAIL",
+    "OFFICE_BLOCK",
+    "PODIUM_TOWER"
+  ],
+  "non_rectilinear_real_target": "PASS",
+  "evidence": {
+    "ready": 0,
+    "ready_with_gaps": 5,
+    "not_ready": 0,
+    "average_authoritative_sources": 1.4,
+    "average_usable_reference_count": 2.4
+  },
+  "reconstruction": {
+    "average_qa_passes": 1.8,
+    "critical_discrepancies_remaining": 0,
+    "major_discrepancies_remaining": 0
+  },
+  "framework": {
+    "schema_version": 1,
+    "milestone": "M10",
+    "wave_a_gate": "PASS",
+    "existing_shared_primitives_used": 6,
+    "new_shared_primitives": [
+      "PolygonEdgeFrame"
+    ],
+    "target_specific_configurations": 5,
+    "target_specific_code": 0,
+    "authoring_components": 232,
+    "runtime_meshes": 12,
+    "central_square_regression": "PASS",
+    "w_global_regression": "PASS",
+    "generic_fixture": "PASS",
+    "metadata_transport": "PASS",
+    "schema_version_before": "1.0",
+    "schema_version_after": "1.0",
+    "schema_status": "UNCHANGED",
+    "compatibility_bug_found_and_fixed": "Legacy fixture GeoJSON features can identify themselves through properties.id when top-level id is absent.",
+    "configuration_assessment": "CONFIGURATION_DRIVEN",
+    "framework_status": "STABLE"
+  },
+  "pilot_detailed_assets": {
+    "lod1_before": 2,
+    "lod1_after": 7
+  },
+  "runtime": {
+    "pilot_glb_bytes": 1208880,
+    "pilot_triangles": 23796,
+    "actual_overview_draw_calls": 76,
+    "actual_overview_rendered_triangles": 23796,
+    "active_geometries": 76,
+    "active_textures": 0
+  },
+  "performance": {
+    "overview_mean_fps": 165.84,
+    "overview_median_fps": 163.93,
+    "overview_p1": 153.85,
+    "worst_new_building_mean_fps": 165.36,
+    "worst_new_building_mean_view": "C1",
+    "minimum_new_building_p1": 140.85
+  },
+  "scaling": {
+    "schema_version": 1,
+    "milestone": "M10",
+    "observed_curve": [
+      {
+        "milestone": "M7",
+        "detailed_lod1_buildings": 1,
+        "pilot_bytes": 950388,
+        "pilot_triangles": 20076,
+        "overview_draw_calls": 67
+      },
+      {
+        "milestone": "M8",
+        "detailed_lod1_buildings": 1,
+        "pilot_bytes": 962916,
+        "pilot_triangles": 20076,
+        "overview_draw_calls": 60
+      },
+      {
+        "milestone": "M9",
+        "detailed_lod1_buildings": 2,
+        "pilot_bytes": 1033348,
+        "pilot_triangles": 21096,
+        "overview_draw_calls": 71
+      },
+      {
+        "milestone": "M10",
+        "detailed_lod1_buildings": 7,
+        "pilot_bytes": 1208880,
+        "pilot_triangles": 23796,
+        "overview_draw_calls": 76
+      }
+    ],
+    "m10_increment": {
+      "buildings": 5,
+      "pilot_bytes": 175532,
+      "pilot_triangles": 2700,
+      "overview_draw_calls": 5,
+      "bytes_per_building": 35106.4,
+      "triangles_per_building": 540,
+      "draw_calls_per_building": 1.0
+    },
+    "standalone_asset_average": {
+      "bytes": 36013.6,
+      "triangles": 575.2,
+      "draw_calls": 2.4
+    },
+    "planning_extrapolation_31_detailed_buildings": {
+      "basis": "linear continuation of M10 marginal contribution; planning evidence only",
+      "pilot_bytes": 2051424,
+      "pilot_triangles": 36756,
+      "overview_draw_calls": 100
+    },
+    "primary_scaling_concern": "Evidence preparation and visual specificity, not current GPU geometry cost",
+    "runtime_risk": "LOW_AT_OBSERVED_SCALE"
+  },
+  "throughput": {
+    "primary_evidence_bottleneck": "Rights-safe facade coverage for weak/rear sides",
+    "primary_modeling_bottleneck": "Translating partial facade evidence into conservative reusable edge-local configuration",
+    "primary_qa_bottleneck": "Camera framing across buildings with very different heights",
+    "dominant_overall_bottleneck": "Evidence coverage",
+    "average_build_and_qa_seconds": 26.991
+  },
+  "grounding_audit": "PASS",
+  "production_build": "PASS",
+  "automated_tests": 39,
+  "routine_workflow_lighter_model_ready": "YES",
+  "sol_capability": "SUFFICIENT_WITH_LIMITATIONS",
+  "recommended_next_milestone": "M11 — Evidence Coverage Expansion and Reconstruction Throughput",
+  "recommended_model": "SOL",
+  "astra_required_next": "NO",
+  "reason": "Batch mechanics and runtime scaling are stable; rights-safe visual evidence coverage is now the limiting factor."
+}

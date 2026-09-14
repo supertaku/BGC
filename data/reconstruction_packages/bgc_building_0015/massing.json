@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0015",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 1879.17,
+    "perimeter_m": 173.62,
+    "axis_aligned_bounds_m": {
+      "min_x": 9.317,
+      "min_y": 32.697,
+      "max_x": 63.049,
+      "max_y": 88.958
+    },
+    "maximum_height_m": 45.9,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "components": [
+    {
+      "name": "M10_0015_Envelope",
+      "component_id": "0015:massing:envelope",
+      "source_feature_id": "osm:way:242294490",
+      "base_z_m": 0,
+      "height_m": 45.9,
+      "material_family": "architectural_dark_glass",
+      "classification": "verified geographic polygon and retained height evidence",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:0015:footprint",
+        "obs:0015:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Mid-rise office block with a repeating perforated geometric screen and ground-level commercial frontage."
+}

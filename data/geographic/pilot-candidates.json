@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "crs": "EPSG:4326",
+  "candidates": [
+    {
+      "id": "high-street-central",
+      "name": "High Street central core",
+      "bbox": [14.54865, 121.04750, 14.55240, 121.05205],
+      "expected_character": "One BHS/BHS Central edge, central promenade, parks, retail blocks, towers, and ordinary intersections"
+    },
+    {
+      "id": "high-street-east",
+      "name": "High Street east / Serendra edge",
+      "bbox": [14.54780, 121.05200, 14.55160, 121.05620],
+      "expected_character": "retail promenade, Serendra frontage, Market! Market! edge, and high pedestrian complexity"
+    },
+    {
+      "id": "high-street-west",
+      "name": "High Street west / cultural edge",
+      "bbox": [14.54940, 121.04490, 14.55340, 121.04920],
+      "expected_character": "Mind Museum/One BHS vicinity, offices, parks, and larger individual landmarks"
+    }
+  ]
+}

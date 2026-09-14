@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_005_008",
+  "input_sha256": "26184893e4a7dfae9decebabdfe47dbe8254d46b255046f0d65fd4ce54c10362",
+  "output_sha256": "f2b400a65fd84cf0c894f9f97a6735f319d3430dc535cf8325399bcbb40453c4",
+  "building_count": 13,
+  "render_volume_count": 16,
+  "mesh_count": 8,
+  "triangle_count": 5000,
+  "material_count": 8,
+  "bytes": 235652,
+  "entities": [
+    {
+      "entity_id": "osm:way:1022486130",
+      "source_feature_id": "osm:way:1022486130",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:1022486130",
+      "source_feature_id": "osm:way:538697025",
+      "name": "Avida Towers Verte",
+      "height_m": 102.4,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1163653754",
+      "source_feature_id": "osm:way:1163653754",
+      "name": null,
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:147796322",
+      "source_feature_id": "osm:way:147796322",
+      "name": null,
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:203893556",
+      "source_feature_id": "osm:way:203893556",
+      "name": "One World Place",
+      "height_m": 32.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "commercial",
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:203893563",
+      "source_feature_id": "osm:way:203893563",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "service",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:452965288",
+      "source_feature_id": "osm:way:452965288",
+      "name": "Menarco Tower",
+      "height_m": 27.7,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:452965289",
+      "source_feature_id": "osm:way:452965289",
+      "name": null,
+      "height_m": 120.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:469658014",
+      "source_feature_id": "osm:way:469658014",
+      "name": "One World Place",
+      "height_m": 119.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:538697024",
+      "source_feature_id": "osm:way:538697024",
+      "name": "Capital House",
+      "height_m": 38.4,
+      "height_status": "ESTIMATED",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:538751520",
+      "source_feature_id": "osm:way:1161281597",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:538751520",
+      "source_feature_id": "osm:way:1161281598",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:538751520",
+      "source_feature_id": "osm:way:538751520",
+      "name": "Avida Towers Turf BGC",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "residential",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:763323140",
+      "source_feature_id": "osm:way:763323140",
+      "name": "Ecoprime Tower",
+      "height_m": 122.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:929418254",
+      "source_feature_id": "osm:way:929418254",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:989298372",
+      "source_feature_id": "osm:way:989298372",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

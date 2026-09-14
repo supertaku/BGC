@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "generated_at": "2026-09-11T02:42:06.149915+00:00",
+  "fields": {
+    "identity": {
+      "status": "GOOD",
+      "evidence_count": 1,
+      "best_source": "ref:official:central-square",
+      "confidence": 0.99,
+      "importance_for_reconstruction": "CRITICAL",
+      "research_required": false
+    },
+    "footprint": {
+      "status": "GOOD",
+      "evidence_count": 1,
+      "best_source": "source:osm",
+      "confidence": 0.8,
+      "importance_for_reconstruction": "CRITICAL",
+      "research_required": false
+    },
+    "building_parts": {
+      "status": "GOOD",
+      "evidence_count": 1,
+      "best_source": "source:osm",
+      "confidence": 0.8,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "overall_height": {
+      "status": "GOOD",
+      "evidence_count": 1,
+      "best_source": "source:osm",
+      "confidence": 0.75,
+      "importance_for_reconstruction": "CRITICAL",
+      "research_required": false
+    },
+    "above_ground_floor_organization": {
+      "status": "PARTIAL_CONFLICTED",
+      "evidence_count": 3,
+      "best_source": "ref:official:central-square",
+      "confidence": 0.7,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "basement_structure": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:official:central-square",
+      "confidence": 0.95,
+      "importance_for_reconstruction": "LOW_FOR_EXTERIOR",
+      "research_required": false
+    },
+    "overall_massing": {
+      "status": "GOOD",
+      "evidence_count": 3,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.9,
+      "importance_for_reconstruction": "CRITICAL",
+      "research_required": false
+    },
+    "north_exterior": {
+      "status": "GOOD",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.88,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "south_exterior": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:commons:158404929",
+      "confidence": 0.8,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "east_exterior": {
+      "status": "WEAK",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.35,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": true
+    },
+    "west_exterior": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:commons:173664145",
+      "confidence": 0.76,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "main_entrance": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:youtube:tour-from-home-central-square-2021",
+      "confidence": 0.68,
+      "importance_for_reconstruction": "CRITICAL",
+      "research_required": true
+    },
+    "secondary_entrances": {
+      "status": "UNKNOWN",
+      "evidence_count": 0,
+      "best_source": null,
+      "confidence": 0.15,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": true
+    },
+    "30th_street_relationship": {
+      "status": "GOOD",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.9,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "5th_avenue_relationship": {
+      "status": "GOOD",
+      "evidence_count": 3,
+      "best_source": "ref:commons:173664145",
+      "confidence": 0.88,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "bonifacio_high_street_relationship": {
+      "status": "GOOD",
+      "evidence_count": 3,
+      "best_source": "ref:commons:158404929",
+      "confidence": 0.9,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "podium": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.72,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "roof": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:commons:173664147",
+      "confidence": 0.75,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": true
+    },
+    "facade_materials": {
+      "status": "GOOD",
+      "evidence_count": 3,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.9,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "glass_treatment": {
+      "status": "GOOD",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.86,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": false
+    },
+    "opaque_wall_treatment": {
+      "status": "GOOD",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.9,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "columns": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "source:osm",
+      "confidence": 0.68,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": false
+    },
+    "setbacks": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.72,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "openings": {
+      "status": "PARTIAL",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.72,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "signage_zones": {
+      "status": "GOOD_MUTABLE",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.86,
+      "importance_for_reconstruction": "LOW",
+      "research_required": false
+    },
+    "storefront_rhythm": {
+      "status": "WEAK",
+      "evidence_count": 2,
+      "best_source": "ref:commons:146482138",
+      "confidence": 0.55,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": true
+    },
+    "pedestrian_interface": {
+      "status": "GOOD",
+      "evidence_count": 3,
+      "best_source": "ref:commons:158404929",
+      "confidence": 0.86,
+      "importance_for_reconstruction": "HIGH",
+      "research_required": false
+    },
+    "neighboring_buildings": {
+      "status": "GOOD",
+      "evidence_count": 3,
+      "best_source": "ref:commons:173664147",
+      "confidence": 0.9,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": false
+    },
+    "street_furniture": {
+      "status": "GOOD",
+      "evidence_count": 2,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.84,
+      "importance_for_reconstruction": "LOW",
+      "research_required": false
+    },
+    "vegetation": {
+      "status": "GOOD",
+      "evidence_count": 2,
+      "best_source": "ref:commons:158404929",
+      "confidence": 0.92,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": false
+    },
+    "night_appearance": {
+      "status": "WEAK",
+      "evidence_count": 1,
+      "best_source": "ref:commons:146482138",
+      "confidence": 0.48,
+      "importance_for_reconstruction": "LOW",
+      "research_required": true
+    },
+    "historical_current_consistency": {
+      "status": "PARTIAL",
+      "evidence_count": 3,
+      "best_source": "ref:commons:133250280",
+      "confidence": 0.78,
+      "importance_for_reconstruction": "MEDIUM",
+      "research_required": false
+    }
+  },
+  "research_stop_rule_result": "STOP: additional targeted searches predominantly returned duplicate, tenant, event, interior, or weakly framed material. Major geometry-producing features are sufficient for LOD1; remaining critical precision needs targeted capture or non-public drawings."
+}

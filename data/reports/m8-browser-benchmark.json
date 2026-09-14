@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "methodology": {
+    "build": "Next.js production",
+    "viewport_css_px": [759, 742],
+    "device_pixel_ratio": 1,
+    "warmup_ms": 5000,
+    "measurement_ms": 15000,
+    "sampling": "requestAnimationFrame intervals",
+    "primary_metrics": ["mean_fps", "median_fps", "p1_low_fps"],
+    "renderer_metrics": "Three.js WebGLRenderer.info"
+  },
+  "environment": {
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "logical_processors": 16,
+    "ram_gb": 15.7,
+    "available_gpus": ["NVIDIA GeForce RTX 3050 Ti Laptop GPU", "Intel(R) Iris(R) Xe Graphics"],
+    "browser": "Codex in-app browser (Chromium family)",
+    "browser_version": "not exposed by benchmark harness",
+    "host_chrome_version": "153.0.8010.36",
+    "render_backend": "WebGL via @react-three/fiber; active adapter string not exposed",
+    "production_url": "http://127.0.0.1:3002"
+  },
+  "asset": {"bytes": 962916, "triangles": 20076, "meshes": 60, "materials": 16},
+  "scenes": {
+    "PILOT_OVERVIEW": {"view_id":"overview","mean_fps":165.61,"median_fps":163.93,"p1_low_fps":149.25,"draw_calls":60,"visible_triangles":20076,"load_ms_observed":442},
+    "CENTRAL_SQUARE_NEAR": {"view_id":"central-square","mean_fps":165.38,"median_fps":163.93,"p1_low_fps":149.25,"draw_calls":40,"visible_triangles":19536,"load_ms_observed":null},
+    "CENTRAL_SQUARE_STREET": {"view_id":"central-square-street","mean_fps":165.48,"median_fps":166.67,"p1_low_fps":149.25,"draw_calls":31,"visible_triangles":19344,"load_ms_observed":393}
+  },
+  "console_warning_error_count": 0,
+  "comparison_note": "M7 spot FPS is not a matched statistical baseline. M8 values establish the first reproducible distribution-based baseline."
+}

@@ -1,0 +1,393 @@
+{
+  "$defs": {
+    "Approximation": {
+      "additionalProperties": true,
+      "properties": {
+        "feature": {
+          "minLength": 1,
+          "title": "Feature",
+          "type": "string"
+        },
+        "classification": {
+          "enum": [
+            "PROCEDURAL",
+            "PARAMETRIC_PLACEHOLDER",
+            "CUSTOM",
+            "OMIT_FOR_MVP"
+          ],
+          "title": "Classification",
+          "type": "string"
+        },
+        "instruction": {
+          "minLength": 1,
+          "title": "Instruction",
+          "type": "string"
+        }
+      },
+      "required": [
+        "feature",
+        "classification",
+        "instruction"
+      ],
+      "title": "Approximation",
+      "type": "object"
+    },
+    "Bounds": {
+      "additionalProperties": true,
+      "properties": {
+        "min_x": {
+          "title": "Min X",
+          "type": "number"
+        },
+        "min_y": {
+          "title": "Min Y",
+          "type": "number"
+        },
+        "max_x": {
+          "title": "Max X",
+          "type": "number"
+        },
+        "max_y": {
+          "title": "Max Y",
+          "type": "number"
+        }
+      },
+      "required": [
+        "min_x",
+        "min_y",
+        "max_x",
+        "max_y"
+      ],
+      "title": "Bounds",
+      "type": "object"
+    },
+    "Camera": {
+      "additionalProperties": true,
+      "properties": {
+        "camera_id": {
+          "minLength": 1,
+          "title": "Camera Id",
+          "type": "string"
+        },
+        "position": {
+          "title": "Position"
+        },
+        "target": {
+          "title": "Target"
+        },
+        "fov_deg": {
+          "exclusiveMaximum": 180,
+          "exclusiveMinimum": 1,
+          "title": "Fov Deg",
+          "type": "number"
+        },
+        "corresponding_reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Corresponding Reference"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "match_status": {
+          "minLength": 1,
+          "title": "Match Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "camera_id",
+        "position",
+        "target",
+        "fov_deg",
+        "corresponding_reference",
+        "confidence",
+        "match_status"
+      ],
+      "title": "Camera",
+      "type": "object"
+    },
+    "Dimensions": {
+      "additionalProperties": true,
+      "properties": {
+        "area_m2": {
+          "exclusiveMinimum": 0,
+          "title": "Area M2",
+          "type": "number"
+        },
+        "perimeter_m": {
+          "exclusiveMinimum": 0,
+          "title": "Perimeter M",
+          "type": "number"
+        },
+        "axis_aligned_bounds_m": {
+          "$ref": "#/$defs/Bounds"
+        },
+        "maximum_height_m": {
+          "exclusiveMinimum": 0,
+          "title": "Maximum Height M",
+          "type": "number"
+        },
+        "height_status": {
+          "enum": [
+            "VERIFIED_AUTHORITATIVE",
+            "VERIFIED_GEOGRAPHIC",
+            "VERIFIED_GEOGRAPHIC_NOT_SURVEYED",
+            "VERIFIED_PHOTOGRAPHIC",
+            "VERIFIED_STRUCTURED",
+            "INFERRED",
+            "ESTIMATED",
+            "PROCEDURAL",
+            "UNKNOWN",
+            "CONFLICTED"
+          ],
+          "title": "Height Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "area_m2",
+        "perimeter_m",
+        "axis_aligned_bounds_m",
+        "maximum_height_m",
+        "height_status"
+      ],
+      "title": "Dimensions",
+      "type": "object"
+    },
+    "PerformanceConstraints": {
+      "additionalProperties": true,
+      "properties": {
+        "principle": {
+          "minLength": 1,
+          "title": "Principle",
+          "type": "string"
+        },
+        "track": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Track",
+          "type": "array"
+        },
+        "instructions": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Instructions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "principle",
+        "track",
+        "instructions"
+      ],
+      "title": "PerformanceConstraints",
+      "type": "object"
+    },
+    "Target": {
+      "additionalProperties": true,
+      "properties": {
+        "entity_id": {
+          "minLength": 1,
+          "title": "Entity Id",
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "location": {
+          "minLength": 1,
+          "title": "Location",
+          "type": "string"
+        },
+        "identity_status": {
+          "const": "CONFIRMED",
+          "title": "Identity Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "entity_id",
+        "name",
+        "location",
+        "identity_status"
+      ],
+      "title": "Target",
+      "type": "object"
+    },
+    "TimeState": {
+      "additionalProperties": true,
+      "properties": {
+        "value": {
+          "minLength": 1,
+          "title": "Value",
+          "type": "string"
+        },
+        "permanent_architecture": {
+          "minLength": 1,
+          "title": "Permanent Architecture",
+          "type": "string"
+        },
+        "tenant_signage_and_seasonal_state": {
+          "minLength": 1,
+          "title": "Tenant Signage And Seasonal State",
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "permanent_architecture",
+        "tenant_signage_and_seasonal_state"
+      ],
+      "title": "TimeState",
+      "type": "object"
+    }
+  },
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "target": {
+      "$ref": "#/$defs/Target"
+    },
+    "target_time_state": {
+      "$ref": "#/$defs/TimeState"
+    },
+    "target_fidelity": {
+      "enum": [
+        "LOD0_HIGH_DETAIL_FUTURE",
+        "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+        "LOD2_COARSE_MASSING",
+        "LOD3_DISTANT_PROXY"
+      ],
+      "title": "Target Fidelity",
+      "type": "string"
+    },
+    "geometry_file": {
+      "minLength": 1,
+      "title": "Geometry File",
+      "type": "string"
+    },
+    "known_dimensions": {
+      "$ref": "#/$defs/Dimensions"
+    },
+    "major_building_parts": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Major Building Parts",
+      "type": "array"
+    },
+    "massing_file": {
+      "minLength": 1,
+      "title": "Massing File",
+      "type": "string"
+    },
+    "facades_file": {
+      "minLength": 1,
+      "title": "Facades File",
+      "type": "string"
+    },
+    "entrances_file": {
+      "minLength": 1,
+      "title": "Entrances File",
+      "type": "string"
+    },
+    "materials_file": {
+      "minLength": 1,
+      "title": "Materials File",
+      "type": "string"
+    },
+    "best_reference_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Best Reference Ids",
+      "type": "array"
+    },
+    "confidence": {
+      "additionalProperties": {
+        "type": "number"
+      },
+      "title": "Confidence",
+      "type": "object"
+    },
+    "required_procedural_approximations": {
+      "items": {
+        "$ref": "#/$defs/Approximation"
+      },
+      "title": "Required Procedural Approximations",
+      "type": "array"
+    },
+    "do_not_invent": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Do Not Invent",
+      "type": "array"
+    },
+    "visual_qa_cameras": {
+      "items": {
+        "$ref": "#/$defs/Camera"
+      },
+      "minItems": 1,
+      "title": "Visual Qa Cameras",
+      "type": "array"
+    },
+    "web_performance_constraints": {
+      "$ref": "#/$defs/PerformanceConstraints"
+    },
+    "readiness": {
+      "enum": [
+        "RECONSTRUCTION_READY",
+        "RECONSTRUCTION_READY_WITH_GAPS"
+      ],
+      "title": "Readiness",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "target",
+    "target_time_state",
+    "target_fidelity",
+    "geometry_file",
+    "known_dimensions",
+    "major_building_parts",
+    "massing_file",
+    "facades_file",
+    "entrances_file",
+    "materials_file",
+    "best_reference_ids",
+    "confidence",
+    "required_procedural_approximations",
+    "do_not_invent",
+    "visual_qa_cameras",
+    "web_performance_constraints",
+    "readiness"
+  ],
+  "title": "BGC LOD1 Reconstruction Specification 1.0",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bgc/reconstruction-spec-1.0.schema.json"
+}

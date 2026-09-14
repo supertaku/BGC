@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "source:osm",
+      "title": "OpenStreetMap",
+      "access_url": "https://www.openstreetmap.org/",
+      "api_url": "https://overpass-api.de/api/interpreter",
+      "license": "ODbL 1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "© OpenStreetMap contributors",
+      "original_crs": "EPSG:4326",
+      "latest_pilot_snapshot": "data/raw/osm/pilot-2026-09-10T134635Z.json",
+      "latest_pilot_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+      "latest_pilot_retrieved_at": "2026-09-10T13:46:35Z",
+      "allowed_use": "Geographic database input with attribution and ODbL compliance for publicly used derived databases.",
+      "metadata_quality": "Element IDs, tags, version timestamps in API output; field completeness varies by mapper and place."
+    },
+    {
+      "id": "source:bcda-bgc-2014",
+      "title": "BCDA 2014 Annual Report",
+      "access_url": "https://www.bcda.gov.ph/sites/default/files/2021-09/2014%20Annual%20Report.pdf",
+      "license": "No open reuse license identified; research/reference only",
+      "attribution": "Bases Conversion and Development Authority",
+      "allowed_use": "Scope and planning evidence; do not redistribute embedded media without permission.",
+      "metadata_quality": "Authoritative agency publication; states 240-hectare first-phase development."
+    },
+    {
+      "id": "source:bcda-master-plan-1996",
+      "title": "Administrative Order No. 269, s. 1996",
+      "access_url": "https://issuances-library.senate.gov.ph/executive-issuance/administrative-order-no-269-s-1996",
+      "license": "Official government issuance; verify reuse status for attached plans",
+      "attribution": "Republic of the Philippines",
+      "allowed_use": "Evidence that an official Fort Bonifacio Master Development Plan exists; not a machine-readable boundary.",
+      "metadata_quality": "Authoritative legal record."
+    },
+    {
+      "id": "source:uli-bgc-case-study",
+      "title": "ULI Case Study: Bonifacio Global City",
+      "access_url": "https://ulidigitalmarketing.blob.core.windows.net/ulidcnc/sites/37/2020/03/ULI-Case-Studies-BGC-Manila-Philippines-20200302.pdf",
+      "license": "No open reuse license identified; research/reference only",
+      "attribution": "Urban Land Institute",
+      "allowed_use": "Planning/reference evidence only; do not redistribute imagery.",
+      "metadata_quality": "Documents the 3×3 city-center grid, east-west High Street pedestrian axis, and open-space strategy."
+    },
+    {
+      "id": "source:wikimedia-commons",
+      "title": "Wikimedia Commons",
+      "access_url": "https://commons.wikimedia.org/",
+      "api_url": "https://commons.wikimedia.org/w/api.php",
+      "license": "Per-file open license or public-domain status",
+      "attribution": "Per-file author, title, source, license, and change indication",
+      "allowed_use": "Use only after storing and checking each file's extmetadata and license requirements.",
+      "metadata_quality": "Strong page/author/license metadata; geolocation and capture date are optional."
+    },
+    {
+      "id": "source:mapillary",
+      "title": "Mapillary",
+      "access_url": "https://www.mapillary.com/",
+      "api_url": "https://graph.mapillary.com/",
+      "license": "CC BY-SA for contributed imagery; API/terms also apply",
+      "attribution": "Image title/link, contributor/profile link, and CC BY-SA notice",
+      "allowed_use": "Reference imagery with per-image provenance and share-alike review; API access requires a token.",
+      "metadata_quality": "Geolocation, capture time, compass angle, sequence and panorama metadata may be available."
+    },
+    {
+      "id": "source:official-owner-sites",
+      "title": "Official building, developer, and BGC websites",
+      "access_url": "https://www.bgc.com.ph/",
+      "license": "Generally copyrighted unless a page states otherwise",
+      "attribution": "Per owner/site",
+      "allowed_use": "Research and factual observation; no bulk download or redistribution without permission.",
+      "metadata_quality": "Good identity and current marketing views; geolocation, camera pose, and dates are often absent."
+    },
+    {
+      "id": "source:user-photography",
+      "title": "Future user-supplied photography",
+      "access_url": "local://references/images",
+      "license": "Explicit contributor grant required",
+      "attribution": "Recorded per submission",
+      "allowed_use": "Only according to captured consent, license, and privacy restrictions.",
+      "metadata_quality": "Potentially excellent when capture position, direction, date, and target building are required fields."
+    }
+  ]
+}

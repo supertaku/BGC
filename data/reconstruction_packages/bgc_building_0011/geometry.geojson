@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_building_0011",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "source_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:178125951",
+      "properties": {
+        "id": "osm:way:178125951",
+        "source_ids": [
+          "osm:way:178125951",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "C1",
+        "feature_kind": "building_outline",
+        "height_m": 10.1,
+        "min_height_m": 0.0,
+        "levels": 2.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 3196.07,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:housename": "Bonifacio High Street Central",
+          "addr:street": "5th Avenue",
+          "addr:street:corner": "28th Street",
+          "building": "retail",
+          "building:levels": "2",
+          "height": "10.1",
+          "name": "C1",
+          "shop": "mall"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -349.177,
+              6.562
+            ],
+            [
+              -329.034,
+              -0.029
+            ],
+            [
+              -319.772,
+              26.684
+            ],
+            [
+              -269.788,
+              10.486
+            ],
+            [
+              -264.217,
+              27.89
+            ],
+            [
+              -263.198,
+              31.08
+            ],
+            [
+              -259.589,
+              43.443
+            ],
+            [
+              -309.759,
+              54.253
+            ],
+            [
+              -332.854,
+              68.649
+            ],
+            [
+              -347.34,
+              26.035
+            ],
+            [
+              -349.177,
+              6.562
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

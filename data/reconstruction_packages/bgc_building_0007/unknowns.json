@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "unknowns": [
+    {
+      "unknown_id": "unknown:wgc:floor-count",
+      "entity_id": "bgc_building_0007",
+      "description": "Exact physical storey count and counting convention",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Preserve conflict; model visible bands"
+    },
+    {
+      "unknown_id": "unknown:wgc:opposite-a",
+      "entity_id": "bgc_building_0007",
+      "description": "Opposite side A openings and service functions",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Use low-detail neutral wall"
+    },
+    {
+      "unknown_id": "unknown:wgc:opposite-b",
+      "entity_id": "bgc_building_0007",
+      "description": "Opposite side B openings and service functions",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Use low-detail neutral wall"
+    },
+    {
+      "unknown_id": "unknown:wgc:entrance",
+      "entity_id": "bgc_building_0007",
+      "description": "Exact primary portal width, door count, and hierarchy",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Use understated inferred glazing"
+    },
+    {
+      "unknown_id": "unknown:wgc:roof-plant",
+      "entity_id": "bgc_building_0007",
+      "description": "Rooftop machinery and fine frame connections",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Omit machinery; retain only major square frame"
+    },
+    {
+      "unknown_id": "unknown:wgc:window-spacing",
+      "entity_id": "bgc_building_0007",
+      "description": "Exact centimetre window/mullion spacing",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Use normalized approximate rhythm"
+    }
+  ]
+}

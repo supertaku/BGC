@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "generated_at": "2026-09-14T14:54:54.739757+00:00",
+  "mode": "continue-on-error",
+  "wave": "B",
+  "stage": "full",
+  "results": [
+    {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo",
+      "wave": "B",
+      "status": "PASS",
+      "elapsed_seconds": 26.423,
+      "retry_count": 1,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "00:21.735  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0027\\qa-north.png'\n00:22.078  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0027\\qa-south.png'\n00:22.375  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0027\\qa-east.png'\n00:22.657  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0027\\qa-west.png'\n00:22.938  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0027\\qa-aerial.png'\nInfo: Saved as \"bgc_building_0027-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n22:54:51 | INFO: Starting glTF 2.0 export\n22:54:51 | INFO: Extracting primitive: M10_0027_Envelope_mesh.001\n22:54:51 | INFO: Primitives created: 1\n22:54:51 | INFO: Extracting primitive: BGC_RUNTIME_M10_0027_FACADE_BANDS_mesh\n22:54:51 | INFO: Primitives created: 1\n22:54:51 | INFO: Finished glTF 2.0 export in 0.05526876449584961 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0027 components=28 materials=3\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "22:54:54 | INFO: Data are loaded, start creating Blender stuff\n22:54:54 | INFO: Blender create Mesh node M10_0027_Envelope_mesh.001\n22:54:54 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0027_FACADE_BANDS_mesh\n22:54:54 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0027_lod1.glb size_bytes=23124 meshes=2 triangles=356 materials=2 draw_calls_approx=2 max_dimension_m=42.168\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0027_lod1.json"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "failed": 0
+  }
+}

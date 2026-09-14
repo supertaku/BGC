@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_building_0015",
+  "accepted_visual_reference_ids": [
+    "ref:official:jy-campos-contact",
+    "ref:government:jy-campos",
+    "ref:web:csya-jy-campos",
+    "ref:web:savills-jy-campos"
+  ],
+  "reusable_visual_reference_ids": [],
+  "research_only_visual_reference_ids": [
+    "ref:official:jy-campos-contact",
+    "ref:government:jy-campos",
+    "ref:web:csya-jy-campos",
+    "ref:web:savills-jy-campos"
+  ],
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:official:jy-campos-contact",
+        "ref:government:jy-campos",
+        "ref:web:csya-jy-campos",
+        "ref:web:savills-jy-campos"
+      ]
+    },
+    "footprint": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:official:jy-campos-contact",
+        "ref:government:jy-campos",
+        "ref:web:csya-jy-campos",
+        "ref:web:savills-jy-campos"
+      ]
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:official:jy-campos-contact",
+        "ref:government:jy-campos",
+        "ref:web:csya-jy-campos",
+        "ref:web:savills-jy-campos"
+      ]
+    },
+    "entrance": {
+      "rating": "WEAK",
+      "reference_ids": []
+    },
+    "roof": {
+      "rating": "WEAK",
+      "reference_ids": []
+    }
+  },
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "readiness_reason": "Identity, polygonal footprint, height envelope, and major visible character are usable; entrances, exact modules, roof plant, and weak sides remain conservative."
+}

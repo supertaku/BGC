@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "blender_version": "5.2.1 LTS",
+  "source_objects": 3,
+  "shared_mesh_datablocks": 1,
+  "extensions_used": [],
+  "instanced_nodes": [],
+  "outcome": "CORE_GLTF_SHARED_MESH_ONLY",
+  "decision": "Linked duplicates alone use core glTF shared mesh data, not EXT_mesh_gpu_instancing. Geometry Nodes GPU-instance authoring is unnecessary for five Central Square columns; retain the simpler local merge."
+}

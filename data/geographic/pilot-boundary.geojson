@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "bgc-pilot-boundary",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "scope:pilot-high-street-central-v1",
+      "properties": {
+        "name": "Bonifacio High Street central core pilot",
+        "status": "estimated information",
+        "boundary_role": "m1_m5_lite_pilot",
+        "version": 1,
+        "crs": "EPSG:4326",
+        "bbox_west_south_east_north": [121.0475, 14.54865, 121.05205, 14.5524],
+        "centroid_wgs84": [121.049775, 14.550525],
+        "approximate_width_m": 493.8,
+        "approximate_length_m": 418.8,
+        "approximate_area_ha": 20.35,
+        "description": "Engineering pilot centered on Bonifacio High Street, spanning approximately 5th–9th Avenues and 28th–32nd Streets. The polygon is a reproducible project scope, not a legal parcel boundary.",
+        "evidence": "Pilot selection is inferred from current OSM coverage metrics and published High Street planning context; the rectangle itself is an estimated engineering boundary.",
+        "sources": ["source:osm", "source:uli-bgc-case-study"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [121.0475, 14.54865],
+          [121.05205, 14.54865],
+          [121.05205, 14.5524],
+          [121.0475, 14.5524],
+          [121.0475, 14.54865]
+        ]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_002_012",
+  "tile_size_m": 250.0,
+  "bounds": [
+    -750.0,
+    1250.0,
+    -500.0,
+    1500.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -500.0,
+          1299.127560666403
+        ],
+        [
+          -500.0,
+          1250.0
+        ],
+        [
+          -656.8436059678943,
+          1250.0
+        ],
+        [
+          -500.0,
+          1299.127560666403
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:way:264882094",
+      "properties": {
+        "id": "osm:way:264882094",
+        "source_ids": [
+          "osm:way:264882094",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 239.91,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264882094",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -627.093,
+              1253.405
+            ],
+            [
+              -643.055,
+              1266.014
+            ],
+            [
+              -650.421,
+              1256.803
+            ],
+            [
+              -634.469,
+              1244.194
+            ],
+            [
+              -627.093,
+              1253.405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:264882107",
+      "properties": {
+        "id": "osm:way:264882107",
+        "source_ids": [
+          "osm:way:264882107",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 182.55,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264882107",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -575.192,
+              1258.681
+            ],
+            [
+              -577.132,
+              1275.01
+            ],
+            [
+              -588.159,
+              1273.721
+            ],
+            [
+              -586.218,
+              1257.392
+            ],
+            [
+              -575.192,
+              1258.681
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:264882113",
+      "properties": {
+        "id": "osm:way:264882113",
+        "source_ids": [
+          "osm:way:264882113",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 330.2,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264882113",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -560.647,
+              1276.816
+            ],
+            [
+              -576.086,
+              1275.001
+            ],
+            [
+              -573.594,
+              1253.92
+            ],
+            [
+              -558.144,
+              1255.724
+            ],
+            [
+              -560.647,
+              1276.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:264882937",
+      "properties": {
+        "id": "osm:way:264882937",
+        "source_ids": [
+          "osm:way:264882937",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 217.64,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264882937",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -520.763,
+              1282.162
+            ],
+            [
+              -543.322,
+              1280.95
+            ],
+            [
+              -542.79,
+              1271.329
+            ],
+            [
+              -520.242,
+              1272.541
+            ],
+            [
+              -520.763,
+              1282.162
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:264882949",
+      "properties": {
+        "id": "osm:way:264882949",
+        "source_ids": [
+          "osm:way:264882949",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 260.4,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264882949",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -492.777,
+              1267.58
+            ],
+            [
+              -493.409,
+              1281.927
+            ],
+            [
+              -511.524,
+              1281.142
+            ],
+            [
+              -510.892,
+              1266.794
+            ],
+            [
+              -492.777,
+              1267.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:264884795",
+      "properties": {
+        "id": "osm:way:264884795",
+        "source_ids": [
+          "osm:way:264884795",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 145.18,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264884795",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -498.726,
+              1300.443
+            ],
+            [
+              -512.773,
+              1300.076
+            ],
+            [
+              -512.485,
+              1289.749
+            ],
+            [
+              -498.437,
+              1290.115
+            ],
+            [
+              -498.726,
+              1300.443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:310206449",
+      "properties": {
+        "id": "osm:way:310206449",
+        "source_ids": [
+          "osm:way:310206449",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 75.02,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:310206449",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -522.624,
+              1282.609
+            ],
+            [
+              -523.064,
+              1291.588
+            ],
+            [
+              -531.399,
+              1291.184
+            ],
+            [
+              -530.948,
+              1282.194
+            ],
+            [
+              -522.624,
+              1282.609
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:310206452",
+      "properties": {
+        "id": "osm:way:310206452",
+        "source_ids": [
+          "osm:way:310206452",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 71.92,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:310206452",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -508.425,
+              1282.963
+            ],
+            [
+              -508.66,
+              1289.495
+            ],
+            [
+              -519.658,
+              1289.102
+            ],
+            [
+              -519.423,
+              1282.571
+            ],
+            [
+              -508.425,
+              1282.963
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:310221091",
+      "properties": {
+        "id": "osm:way:310221091",
+        "source_ids": [
+          "osm:way:310221091",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 151.8,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:310221091",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -610.266,
+              1262.324
+            ],
+            [
+              -618.251,
+              1256.35
+            ],
+            [
+              -609.053,
+              1244.22
+            ],
+            [
+              -601.068,
+              1250.194
+            ],
+            [
+              -610.266,
+              1262.324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:310221102",
+      "properties": {
+        "id": "osm:way:310221102",
+        "source_ids": [
+          "osm:way:310221102",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 88.87,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:310221102",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -540.207,
+              1270.864
+            ],
+            [
+              -539.629,
+              1260.445
+            ],
+            [
+              -531.12,
+              1260.914
+            ],
+            [
+              -531.699,
+              1271.322
+            ],
+            [
+              -540.207,
+              1270.864
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:310221117",
+      "properties": {
+        "id": "osm:way:310221117",
+        "source_ids": [
+          "osm:way:310221117",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 150.53,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:310221117",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -592.758,
+              1253.984
+            ],
+            [
+              -603.81,
+              1268.565
+            ],
+            [
+              -610.406,
+              1263.642
+            ],
+            [
+              -599.343,
+              1249.061
+            ],
+            [
+              -592.758,
+              1253.984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:400389282",
+      "properties": {
+        "id": "osm:way:400389282",
+        "source_ids": [
+          "osm:way:400389282",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 204.36,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:400389282",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -493.739,
+              1264.81
+            ],
+            [
+              -511.321,
+              1264.574
+            ],
+            [
+              -511.162,
+              1252.952
+            ],
+            [
+              -493.58,
+              1253.189
+            ],
+            [
+              -493.739,
+              1264.81
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:27274188",
+      "properties": {
+        "id": "osm:way:27274188",
+        "source_ids": [
+          "osm:way:27274188",
+          "source:osm"
+        ],
+        "name": "La Consolacion Street",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 151.54,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -638.968,
+              1148.22
+            ],
+            [
+              -638.908,
+              1157.748
+            ],
+            [
+              -637.942,
+              1164.778
+            ],
+            [
+              -635.674,
+              1171.609
+            ],
+            [
+              -623.328,
+              1187.173
+            ],
+            [
+              -616.155,
+              1199.085
+            ],
+            [
+              -591.744,
+              1238.936
+            ],
+            [
+              -579.036,
+              1247.836
+            ],
+            [
+              -547.423,
+              1250.187
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "La Consolacion Street",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -580.9,
+              1250.498
+            ],
+            [
+              -580.604,
+              1250.682
+            ],
+            [
+              -580.29,
+              1250.834
+            ],
+            [
+              -579.961,
+              1250.951
+            ],
+            [
+              -579.622,
+              1251.032
+            ],
+            [
+              -579.277,
+              1251.077
+            ],
+            [
+              -547.664,
+              1253.428
+            ],
+            [
+              -547.4090947238507,
+              1250.0
+            ],
+            [
+              -581.6112127205305,
+              1250.0
+            ],
+            [
+              -580.9,
+              1250.498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:27274189",
+      "properties": {
+        "id": "osm:way:27274189",
+        "source_ids": [
+          "osm:way:27274189",
+          "source:osm"
+        ],
+        "name": "Nuestra Señora de Guadalupe Street",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 366.79,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -550.544,
+              1283.293
+            ],
+            [
+              -547.423,
+              1250.187
+            ],
+            [
+              -538.447,
+              1141.869
+            ],
+            [
+              -552.153,
+              917.436
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Nuestra Señora de Guadalupe Street",
+          "sidewalk": "both",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -553.73,
+              1282.993
+            ],
+            [
+              -547.358,
+              1283.594
+            ],
+            [
+              -544.237,
+              1250.487
+            ],
+            [
+              -544.234,
+              1250.451
+            ],
+            [
+              -544.1966269318119,
+              1250.0
+            ],
+            [
+              -550.619955059236,
+              1250.0
+            ],
+            [
+              -553.73,
+              1282.993
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [],
+  "open_spaces": [],
+  "input_sha256": "92752f39f18621677a0d70e416ea0efc65b3702d09e1feab6bb89fb8becc6dab"
+}

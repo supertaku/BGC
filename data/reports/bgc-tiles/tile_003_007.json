@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_003_007",
+  "input_sha256": "46df2ff4b6f2ebc3209f785b326b2022b7f4052a899ea20e6c2031b9d9df423c",
+  "output_sha256": "9690572806d165af9174d8cf7a3cba0a3b652ea6b3539d94c33ef4533d3e4c7f",
+  "building_count": 11,
+  "render_volume_count": 24,
+  "mesh_count": 10,
+  "triangle_count": 6816,
+  "material_count": 8,
+  "bytes": 324560,
+  "entities": [
+    {
+      "entity_id": "osm:way:1078392706",
+      "source_feature_id": "osm:way:1078392706",
+      "name": "One Bonifacio High Street",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "commercial",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:178125951",
+      "source_feature_id": "osm:way:178125951",
+      "name": "C1",
+      "height_m": 10.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:182331875",
+      "source_feature_id": "osm:way:182331875",
+      "name": "Arthaland Century Pacific Tower",
+      "height_m": 114.7,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:203910666",
+      "source_feature_id": "osm:way:203910666",
+      "name": "The Suites at One Bonifacio High Street",
+      "height_m": 29.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:203910666",
+      "source_feature_id": "osm:way:538701626",
+      "name": null,
+      "height_m": 227.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:205968610",
+      "source_feature_id": "osm:way:205968610",
+      "name": "Central Square",
+      "height_m": 25.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:205968610",
+      "source_feature_id": "osm:way:470203065",
+      "name": null,
+      "height_m": 5.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:205968610",
+      "source_feature_id": "osm:way:470203066",
+      "name": null,
+      "height_m": 25.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:205968610",
+      "source_feature_id": "osm:way:470203067",
+      "name": null,
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:469845353",
+      "source_feature_id": "osm:way:469845353",
+      "name": null,
+      "height_m": 25.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:469845353",
+      "source_feature_id": "osm:way:469845354",
+      "name": null,
+      "height_m": 20.7,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:469845353",
+      "source_feature_id": "osm:way:469908149",
+      "name": null,
+      "height_m": 31.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:469845356",
+      "source_feature_id": "osm:way:469845355",
+      "name": null,
+      "height_m": 250.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:469845356",
+      "source_feature_id": "osm:way:469845356",
+      "name": "Shangri-La at the Fort",
+      "height_m": 25.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "hotel",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:469845356",
+      "source_feature_id": "osm:way:469845357",
+      "name": null,
+      "height_m": 31.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:469845356",
+      "source_feature_id": "osm:way:469906738",
+      "name": null,
+      "height_m": 188.8,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:469845356",
+      "source_feature_id": "osm:way:469906739",
+      "name": null,
+      "height_m": 241.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:469845358",
+      "source_feature_id": "osm:way:469845358",
+      "name": null,
+      "height_m": 20.7,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:469907691",
+      "source_feature_id": "osm:way:469907691",
+      "name": null,
+      "height_m": 15.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:469908300",
+      "source_feature_id": "osm:way:469908300",
+      "name": null,
+      "height_m": 15.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:71598335",
+      "source_feature_id": "osm:way:1026303383",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:71598335",
+      "source_feature_id": "osm:way:1069827306",
+      "name": null,
+      "height_m": 131.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:71598335",
+      "source_feature_id": "osm:way:538701627",
+      "name": "Philippine Stock Exchange",
+      "height_m": 119.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:71598335",
+      "source_feature_id": "osm:way:71598335",
+      "name": "Philippine Stock Exchange",
+      "height_m": 15.6,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    }
+  ]
+}

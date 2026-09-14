@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_004_007",
+  "input_sha256": "53cc25b68c3d9529498339791bd01d89fa3279a53ad553c90868f56d25f4e81c",
+  "output_sha256": "a11493d34b6e126a8703c542eaf8ac536e9bc325f2bd5ea6f6caddc759c93d62",
+  "building_count": 11,
+  "render_volume_count": 13,
+  "mesh_count": 17,
+  "triangle_count": 5620,
+  "material_count": 7,
+  "bytes": 273916,
+  "entities": [
+    {
+      "entity_id": "osm:way:1071370327",
+      "source_feature_id": "osm:way:1071370326",
+      "name": null,
+      "height_m": 45.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1071370327",
+      "source_feature_id": "osm:way:1071370327",
+      "name": null,
+      "height_m": 37.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:1498398259",
+      "source_feature_id": "osm:way:1498398259",
+      "name": "Harlan + Holden Coffee",
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:178125950",
+      "source_feature_id": "osm:way:178125950",
+      "name": "C3",
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:203893616",
+      "source_feature_id": "osm:way:203893616",
+      "name": "Three Parkade",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:203893627",
+      "source_feature_id": "osm:way:203893627",
+      "name": "Live Street",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27442528",
+      "source_feature_id": "osm:way:27442528",
+      "name": "B:3",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:317139890",
+      "source_feature_id": "osm:way:317139890",
+      "name": "World Plaza",
+      "height_m": 86.4,
+      "height_status": "ESTIMATED",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:37554033",
+      "source_feature_id": "osm:way:37554033",
+      "name": "Two Parkade",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:443761696",
+      "source_feature_id": "osm:way:443761696",
+      "name": "Uniqlo",
+      "height_m": 12.8,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:531995980",
+      "source_feature_id": "osm:way:1071370325",
+      "name": null,
+      "height_m": 112.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:531995980",
+      "source_feature_id": "osm:way:531995980",
+      "name": "W City Center",
+      "height_m": 23.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "commercial",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:781744843",
+      "source_feature_id": "osm:way:781744843",
+      "name": "Mariano K. Tan Center",
+      "height_m": 25.6,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "construction",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ],
+  "representation": "PER_BUILDING"
+}

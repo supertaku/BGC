@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_006_009",
+  "input_sha256": "7c26fe043d10f09317c0e1eb93ef310080d58e5715a874106d756aaaf94af16b",
+  "output_sha256": "9f68b054aafea3e1ee589cd798d272579bcb290eb783c7fe738120976aa0d52c",
+  "building_count": 5,
+  "render_volume_count": 13,
+  "mesh_count": 7,
+  "triangle_count": 4440,
+  "material_count": 7,
+  "bytes": 212800,
+  "entities": [
+    {
+      "entity_id": "osm:way:1531328138",
+      "source_feature_id": "osm:way:1531328138",
+      "name": "Gordon Ramsay Bar & Grill x Idiot",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:533345980",
+      "name": "Uptown Mall",
+      "height_m": 12.8,
+      "height_status": "ESTIMATED",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:533345981",
+      "name": "Uptown Place Tower 1",
+      "height_m": 64.0,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:533345982",
+      "name": "Uptown Place Tower 2",
+      "height_m": 64.0,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:533345983",
+      "name": "Uptown Place Tower 3",
+      "height_m": 80.0,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:538347443",
+      "name": "Uptown Place Tower 4",
+      "height_m": 89.6,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:613886957",
+      "name": "Starbucks",
+      "height_m": 16.0,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:613886958",
+      "name": null,
+      "height_m": 16.0,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:613886959",
+      "name": null,
+      "height_m": 16.0,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345980",
+      "source_feature_id": "osm:way:613886960",
+      "name": "St. Gabriel the Archangel Chapel",
+      "height_m": 16.0,
+      "height_status": "ESTIMATED",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:538347434",
+      "source_feature_id": "osm:way:538347434",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:538697026",
+      "source_feature_id": "osm:way:538697026",
+      "name": "One Park Drive",
+      "height_m": 76.8,
+      "height_status": "ESTIMATED",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:928477280",
+      "source_feature_id": "osm:way:928477280",
+      "name": "International Finance Center",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

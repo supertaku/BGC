@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "Q18395924": {
+      "type": "item",
+      "id": "Q18395924",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "W Global Center"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "building in Philippines"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "26649b92d6c661851f2cb4def40d14ea9177ce68",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 41176,
+                  "id": "Q41176"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18395924$C9A4E019-6E0A-4E2C-9ECE-4E97C5623F5B",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "1da1ec0f02413324771c48bbbab5b72ef6dd3184",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 928,
+                  "id": "Q928"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18395924$05b20dc4-441c-0cd5-4340-a0ef4cf72120",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "1e97fef56c30a6fd3f6e2cd4881af32deafda83f",
+              "datavalue": {
+                "value": "/m/0113kk68",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18395924$049CF7C2-0E67-455E-8F83-701A29908F6F",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "458cf6f7e986c1b0b0c841e9367b58ef741109d7",
+              "datavalue": {
+                "value": {
+                  "latitude": 14.55116,
+                  "longitude": 121.05186,
+                  "altitude": null,
+                  "precision": 1e-05,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "Q18395924$3097f900-c466-4b54-8319-d81574d3ab59",
+            "rank": "normal"
+          }
+        ],
+        "P10689": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10689",
+              "hash": "2f0eb3deeef8fa345dfeef09b884af8a22faf880",
+              "datavalue": {
+                "value": "145147831",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18395924$BC16F38A-6E6B-4100-84A9-D1FC6BDE396F",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "W Global Center",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

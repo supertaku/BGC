@@ -1,0 +1,110 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:0015:identity",
+      "entity_id": "bgc_building_0015",
+      "property": "identity",
+      "value": "JY Campos Centre at 30th Street corner 9th Avenue, BGC, Taguig, Philippines",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.99,
+      "source_ids": [
+        "source:csya-jy-campos",
+        "source:government-jy-campos-proclamation",
+        "source:official-del-monte-jy-campos",
+        "source:osm",
+        "source:savills-jy-campos"
+      ],
+      "reference_ids": [
+        "ref:official:jy-campos-contact"
+      ],
+      "method": "canonical_geographic_and_named_source_reconciliation"
+    },
+    {
+      "observation_id": "obs:0015:footprint",
+      "entity_id": "bgc_building_0015",
+      "property": "footprint",
+      "value": {
+        "area_m2": 1879.17,
+        "perimeter_m": 173.62,
+        "axis_aligned_bounds_m": {
+          "min_x": 9.317,
+          "min_y": 32.697,
+          "max_x": 63.049,
+          "max_y": 88.958
+        },
+        "vertex_count": 4
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "deterministic_local_metre_polygon_measurement",
+      "notes": "Community mapped, not cadastral."
+    },
+    {
+      "observation_id": "obs:0015:height",
+      "entity_id": "bgc_building_0015",
+      "property": "height_m",
+      "value": 45.9,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retained without upgrading to surveyed precision."
+    },
+    {
+      "observation_id": "obs:0015:massing",
+      "entity_id": "bgc_building_0015",
+      "property": "overall_massing",
+      "value": "Mid-rise office block with a repeating perforated geometric screen and ground-level commercial frontage.",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.72,
+      "source_ids": [
+        "source:official-del-monte-jy-campos",
+        "source:government-jy-campos-proclamation",
+        "source:csya-jy-campos",
+        "source:savills-jy-campos"
+      ],
+      "reference_ids": [
+        "ref:official:jy-campos-contact",
+        "ref:government:jy-campos",
+        "ref:web:csya-jy-campos",
+        "ref:web:savills-jy-campos"
+      ],
+      "method": "bounded exterior evidence review"
+    },
+    {
+      "observation_id": "obs:0015:materials",
+      "entity_id": "bgc_building_0015",
+      "property": "material_families",
+      "value": [
+        "architectural_dark_glass",
+        "architectural_dark_glass",
+        "generic_storefront_glass",
+        "neutral_roof"
+      ],
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:official-del-monte-jy-campos",
+        "source:government-jy-campos-proclamation",
+        "source:csya-jy-campos",
+        "source:savills-jy-campos"
+      ],
+      "reference_ids": [
+        "ref:official:jy-campos-contact",
+        "ref:government:jy-campos",
+        "ref:web:csya-jy-campos",
+        "ref:web:savills-jy-campos"
+      ],
+      "method": "visual family classification; exact colour unknown"
+    }
+  ],
+  "conflicts": []
+}

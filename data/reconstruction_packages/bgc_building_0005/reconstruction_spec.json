@@ -1,0 +1,522 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "entity_id": "bgc_building_0005",
+    "name": "Verve Residences Tower 2",
+    "location": "High Street South, BGC, Taguig, Philippines",
+    "identity_status": "CONFIRMED"
+  },
+  "target_time_state": {
+    "value": "CURRENT_APPROX_2025_2026",
+    "permanent_architecture": "PRIMARY",
+    "tenant_signage_and_seasonal_state": "OMIT_OR_NEUTRALIZE"
+  },
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {
+    "area_m2": 2480.1,
+    "perimeter_m": 212.94,
+    "axis_aligned_bounds_m": {
+      "min_x": -213.403,
+      "min_y": -220.302,
+      "max_x": -134.241,
+      "max_y": -165.943
+    },
+    "maximum_height_m": 172.0,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "major_building_parts": [
+    "0005:massing:podium",
+    "0005:massing:tower"
+  ],
+  "massing_file": "massing.json",
+  "facades_file": "facades.json",
+  "entrances_file": "entrances.json",
+  "materials_file": "materials.json",
+  "required_coverage_aspects": [
+    "overall_massing",
+    "materials"
+  ],
+  "best_reference_ids": [
+    "ref:official:verve",
+    "ref:web:verve-exterior"
+  ],
+  "confidence": {
+    "identity": 0.9,
+    "footprint": 0.8,
+    "height": 0.75,
+    "massing": 0.72,
+    "materials": 0.65
+  },
+  "required_procedural_approximations": [
+    {
+      "feature": "facade module spacing",
+      "classification": "PROCEDURAL",
+      "instruction": "Use normalized polygon-edge bands without false centimetre precision."
+    },
+    {
+      "feature": "weak sides and roof plant",
+      "classification": "OMIT_FOR_MVP",
+      "instruction": "Keep conservative and omit unresolved openings/equipment."
+    }
+  ],
+  "do_not_invent": [
+    "Do not invent entrances or service openings.",
+    "Do not copy tenant graphics or logos.",
+    "Do not claim exact facade spacing or surveyed height."
+  ],
+  "visual_qa_cameras": [
+    {
+      "camera_id": "qa:0005:north",
+      "position": [
+        -173.822,
+        236.878,
+        86.0
+      ],
+      "target": [
+        -173.822,
+        -193.122,
+        72.24
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:verve",
+      "confidence": 0.65,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:0005:south",
+      "position": [
+        -173.822,
+        -623.1220000000001,
+        86.0
+      ],
+      "target": [
+        -173.822,
+        -193.122,
+        72.24
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.25,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:0005:east",
+      "position": [
+        256.178,
+        -193.122,
+        86.0
+      ],
+      "target": [
+        -173.822,
+        -193.122,
+        72.24
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:verve",
+      "confidence": 0.65,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:0005:west",
+      "position": [
+        -603.822,
+        -193.122,
+        86.0
+      ],
+      "target": [
+        -173.822,
+        -193.122,
+        72.24
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.25,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:0005:aerial",
+      "position": [
+        84.178,
+        -451.122,
+        430.0
+      ],
+      "target": [
+        -173.822,
+        -193.122,
+        68.8
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:verve",
+      "confidence": 0.65,
+      "match_status": "MASSING"
+    }
+  ],
+  "web_performance_constraints": {
+    "principle": "LOD and measured runtime cost first",
+    "track": [
+      "triangles",
+      "vertices",
+      "materials",
+      "draw_calls",
+      "GLB_transfer_size",
+      "runtime_nodes"
+    ],
+    "instructions": [
+      "reuse shared materials",
+      "merge same-material edge bands at runtime",
+      "retain semantic authoring components",
+      "use no photo textures"
+    ]
+  },
+  "readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "generic_builder": {
+    "material_families": [
+      "architectural_dark_glass",
+      "light_neutral_panel",
+      "warm_neutral_cladding"
+    ],
+    "volumes": [],
+    "polygon_volumes": [
+      {
+        "name": "M10_0005_Podium",
+        "component_id": "0005:massing:podium",
+        "source_feature_id": "osm:way:1070584578",
+        "base_z_m": 0,
+        "height_m": 24.4,
+        "material_family": "light_neutral_panel",
+        "classification": "verified geographic outline with evidence-driven estimated podium height",
+        "evidence_status": "ESTIMATED",
+        "observation_ids": [
+          "obs:0005:footprint",
+          "obs:0005:massing"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Tower",
+        "component_id": "0005:massing:tower",
+        "source_feature_id": "osm:way:538702984",
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "light_neutral_panel",
+        "classification": "verified geographic building part and height envelope",
+        "evidence_status": "VERIFIED_GEOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:footprint",
+          "obs:0005:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      }
+    ],
+    "polygon_edge_regions": [
+      {
+        "name": "M10_0005_Band_01",
+        "component_id": "0005:facade:band-01",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.03,
+        "v1": 0.05,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Band_02",
+        "component_id": "0005:facade:band-02",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.16,
+        "v1": 0.18,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Band_03",
+        "component_id": "0005:facade:band-03",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.29,
+        "v1": 0.31,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Band_04",
+        "component_id": "0005:facade:band-04",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.42,
+        "v1": 0.44,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Band_05",
+        "component_id": "0005:facade:band-05",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.55,
+        "v1": 0.57,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Band_06",
+        "component_id": "0005:facade:band-06",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.68,
+        "v1": 0.7,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Band_07",
+        "component_id": "0005:facade:band-07",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.81,
+        "v1": 0.83,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "name": "M10_0005_Band_08",
+        "component_id": "0005:facade:band-08",
+        "source_feature_id": "osm:way:538702984",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.94,
+        "v1": 0.96,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 24.4,
+        "height_m": 147.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0005_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0005:massing",
+          "obs:0005:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      }
+    ],
+    "facade_regions": [],
+    "qa_cameras": [
+      {
+        "camera_id": "qa:0005:north",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -173.822,
+          236.878,
+          86.0
+        ],
+        "target": [
+          -173.822,
+          -193.122,
+          72.24
+        ],
+        "lens_mm": 40,
+        "filename": "qa-north.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "camera_id": "qa:0005:south",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -173.822,
+          -623.1220000000001,
+          86.0
+        ],
+        "target": [
+          -173.822,
+          -193.122,
+          72.24
+        ],
+        "lens_mm": 40,
+        "filename": "qa-south.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:0005:east",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          256.178,
+          -193.122,
+          86.0
+        ],
+        "target": [
+          -173.822,
+          -193.122,
+          72.24
+        ],
+        "lens_mm": 40,
+        "filename": "qa-east.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      },
+      {
+        "camera_id": "qa:0005:west",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -603.822,
+          -193.122,
+          86.0
+        ],
+        "target": [
+          -173.822,
+          -193.122,
+          72.24
+        ],
+        "lens_mm": 40,
+        "filename": "qa-west.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:0005:aerial",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          84.178,
+          -451.122,
+          430.0
+        ],
+        "target": [
+          -173.822,
+          -193.122,
+          68.8
+        ],
+        "lens_mm": 40,
+        "filename": "qa-aerial.png",
+        "match": "MASSING",
+        "reference_ids": [
+          "ref:official:verve",
+          "ref:web:verve-exterior"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "entrances": [
+    {
+      "entrance_id": "csq:entrance:west-public-approach",
+      "type": "PUBLIC_APPROACH",
+      "hierarchy": "PRIMARY_CANDIDATE",
+      "side": "WEST_5TH",
+      "position": "UNKNOWN_WITHIN_WEST_GROUND_FRONTAGE",
+      "status": "INFERRED",
+      "confidence": 0.68,
+      "evidence_ids": [
+        "ref:youtube:tour-from-home-central-square-2021",
+        "ref:youtube:hg-central-square-2023"
+      ],
+      "geometry_guidance": "Use a simple recessed glazed entrance placeholder aligned with the visible ground retail setback; do not claim exact width or canopy geometry."
+    },
+    {
+      "entrance_id": "csq:entrance:south-public",
+      "type": "PUBLIC_ENTRANCE",
+      "hierarchy": "UNKNOWN",
+      "side": "SOUTH_HIGH_STREET",
+      "position": "UNKNOWN",
+      "status": "UNKNOWN",
+      "confidence": 0.2,
+      "evidence_ids": [
+        "ref:commons:158404929"
+      ],
+      "geometry_guidance": "Do not add a distinctive portal without new evidence."
+    },
+    {
+      "entrance_id": "csq:entrance:basement-access",
+      "type": "VEHICULAR_OR_SERVICE",
+      "hierarchy": "UNKNOWN",
+      "side": "UNKNOWN",
+      "position": "UNKNOWN",
+      "status": "UNKNOWN",
+      "confidence": 0.1,
+      "evidence_ids": [],
+      "geometry_guidance": "Omit from first reconstruction unless GIS or capture evidence resolves it."
+    }
+  ]
+}

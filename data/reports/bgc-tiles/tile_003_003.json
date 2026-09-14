@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_003_003",
+  "input_sha256": "bd719835e4ba122fb6a121e46b8624e6f48da36c86828edee110514465160fd8",
+  "output_sha256": "ea403817076e404620d165028e299fa17d963dd2f6e64c8effe75da4e00c1096",
+  "building_count": 10,
+  "render_volume_count": 10,
+  "mesh_count": 6,
+  "triangle_count": 3060,
+  "material_count": 6,
+  "bytes": 144648,
+  "entities": [
+    {
+      "entity_id": "osm:way:1279255550",
+      "source_feature_id": "osm:way:1279255550",
+      "name": null,
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "guardhouse",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:1279259391",
+      "source_feature_id": "osm:way:1279259391",
+      "name": null,
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "guardhouse",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:131247786",
+      "source_feature_id": "osm:way:131247786",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:131247787",
+      "source_feature_id": "osm:way:131247787",
+      "name": null,
+      "height_m": 145.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:138513411",
+      "source_feature_id": "osm:way:138513411",
+      "name": "Essensa Lawton",
+      "height_m": 125.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:138513412",
+      "source_feature_id": "osm:way:138513412",
+      "name": "Essensa Cameron",
+      "height_m": 125.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:222623655",
+      "source_feature_id": "osm:way:222623655",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:222623657",
+      "source_feature_id": "osm:way:222623657",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:334446096",
+      "source_feature_id": "osm:way:334446096",
+      "name": "Del Rosario Law Centre",
+      "height_m": 63.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:473425446",
+      "source_feature_id": "osm:way:473425446",
+      "name": "Vista Hub",
+      "height_m": 57.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

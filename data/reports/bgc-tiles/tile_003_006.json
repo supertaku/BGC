@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_003_006",
+  "input_sha256": "68a844cc819a41848fcd5e3cd75b8dfdcd0bc399d808f2c9c8eb6b362762b061",
+  "output_sha256": "893a2643c2f0f1d4e713ec055b8da1cdcd64831834e9183286daaf014f2648fe",
+  "building_count": 7,
+  "render_volume_count": 9,
+  "mesh_count": 6,
+  "triangle_count": 2764,
+  "material_count": 6,
+  "bytes": 135484,
+  "entities": [
+    {
+      "entity_id": "osm:way:109565806",
+      "source_feature_id": "osm:way:109565806",
+      "name": "Ascott Bonifacio Global City Manila",
+      "height_m": 22.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "hotel",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:109565806",
+      "source_feature_id": "osm:way:459472743",
+      "name": null,
+      "height_m": 118.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1278985505",
+      "source_feature_id": "osm:way:1278985505",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:317144212",
+      "source_feature_id": "osm:way:317144212",
+      "name": null,
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:359969680",
+      "source_feature_id": "osm:way:359969680",
+      "name": "Seven/Neo",
+      "height_m": 31.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:359969680",
+      "source_feature_id": "osm:way:428836642",
+      "name": null,
+      "height_m": 162.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:38715205",
+      "source_feature_id": "osm:way:38715205",
+      "name": "Police Community Precinct - 7",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:66405543",
+      "source_feature_id": "osm:way:66405543",
+      "name": "Six/NEO",
+      "height_m": 127.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:781744845",
+      "source_feature_id": "osm:way:781744845",
+      "name": "Pioneer House BGC",
+      "height_m": 120.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "construction",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

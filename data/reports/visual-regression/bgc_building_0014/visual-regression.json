@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "interpretation": "Change detector only; architectural correctness requires evidence-grounded visual review.",
+  "pairs": [
+    {
+      "camera": "qa-30th-01",
+      "mean_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "camera": "qa-5th-01",
+      "mean_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "camera": "qa-aerial-01",
+      "mean_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "camera": "qa-corner-01",
+      "mean_absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "camera": "qa-high-street-01",
+      "mean_absolute_difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

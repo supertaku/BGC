@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "materials": [
+    {
+      "material_id": "mat:warm-neutral-cladding",
+      "family": "warm beige/tan opaque architectural panels",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929",
+        "ref:commons:173664145"
+      ],
+      "exact_colour": "UNKNOWN",
+      "exact_roughness": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:light-panel",
+      "family": "light grey/off-white opaque panel",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.78,
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:commons:173664145"
+      ],
+      "exact_colour": "UNKNOWN",
+      "exact_roughness": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:dark-glazing",
+      "family": "dark reflective architectural glass",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929",
+        "ref:commons:173664145"
+      ],
+      "exact_transmission": "UNKNOWN",
+      "exact_roughness": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:storefront-glazing",
+      "family": "clear-to-dark ground-floor storefront glazing",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.82,
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:commons:146482138"
+      ],
+      "exact_transmission": "UNKNOWN",
+      "exact_roughness": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:dark-metal",
+      "family": "dark metal frames/columns",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.78,
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929"
+      ],
+      "exact_finish": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:signage-display",
+      "family": "digital or printed advertising/signage surface",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.86,
+      "evidence_ids": [
+        "ref:commons:133250280",
+        "ref:web:inside-metro-central-square-2024"
+      ],
+      "permanence": "TEMPORARY_OR_MUTABLE",
+      "mvp_treatment": "neutral emissive/graphic placeholder without copied logos or campaigns"
+    }
+  ]
+}

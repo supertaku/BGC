@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source": "source:mapillary",
+  "api": "https://graph.mapillary.com/images",
+  "retrieved_at": "2026-09-10T14:09:46.548221+00:00",
+  "discovery_only": true,
+  "downloaded_images": 0,
+  "bbox_west_south_east_north": [
+    121.0475,
+    14.54865,
+    121.05205,
+    14.5524
+  ],
+  "requested_fields": [
+    "id",
+    "geometry",
+    "computed_geometry",
+    "captured_at",
+    "compass_angle",
+    "computed_compass_angle",
+    "sequence",
+    "creator",
+    "is_pano"
+  ],
+  "status": "BLOCKED_CREDENTIALS",
+  "records": [],
+  "requirement": "Set MAPILLARY_ACCESS_TOKEN to a valid Mapillary client token, then run with --refresh.",
+  "notes": "Credential absence does not block geographic normalization, Blender generation, GLB export, or the viewer."
+}

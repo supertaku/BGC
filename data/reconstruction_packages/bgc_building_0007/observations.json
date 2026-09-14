@@ -1,0 +1,250 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:wgc:identity",
+      "entity_id": "bgc_building_0007",
+      "property": "identity",
+      "value": "W Global Center at 9th Avenue corner 30th Street",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.99,
+      "source_ids": [
+        "source:official-w-group-w-global",
+        "source:osm",
+        "source:wikidata"
+      ],
+      "reference_ids": [
+        "ref:official:w-global"
+      ],
+      "method": "owner_geographic_identifier_reconciliation",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:wgc:footprint",
+      "entity_id": "bgc_building_0007",
+      "property": "footprint_metrics",
+      "value": {
+        "area_m2": 1826.8,
+        "perimeter_m": 171.29,
+        "centroid_local_m": {
+          "x": 97.802,
+          "y": 39.65
+        },
+        "oriented_bounding_box_m": {
+          "major": 45.44,
+          "minor": 40.203
+        },
+        "local_axis_rotation_deg_from_east": 71.536,
+        "major_axis_bearing_deg_clockwise_from_north": 18.464,
+        "axis_aligned_bounds_m": {
+          "min_x": 71.268,
+          "min_y": 11.69,
+          "max_x": 124.051,
+          "max_y": 67.62
+        },
+        "major_edge_lengths_m": [
+          45.441,
+          45.44,
+          40.55,
+          39.857
+        ]
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "deterministic_local_metre_polygon_measurement",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:wgc:height",
+      "entity_id": "bgc_building_0007",
+      "property": "height_m",
+      "value": 30.5,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "explicit_osm_height_tag",
+      "notes": "Retained unchanged; not a surveyed measurement."
+    },
+    {
+      "observation_id": "obs:wgc:floor-conflict",
+      "entity_id": "bgc_building_0007",
+      "property": "physical_storey_count",
+      "value": {
+        "claims": [
+          {
+            "value": 7,
+            "source": "owner and Colliers"
+          },
+          {
+            "value": 8,
+            "source": "OSM building:levels, Savills, and OfficePro"
+          }
+        ],
+        "possible_explanation": "Ground/mezzanine or marketing-count convention; not determinable from available sources.",
+        "final_modeling_interpretation": "Unresolved; follow visible architectural bands inside the 30.5 m envelope."
+      },
+      "status": "CONFLICTED",
+      "confidence": 0.78,
+      "source_ids": [
+        "source:official-w-group-w-global",
+        "source:colliers-w-global",
+        "source:savills-w-global",
+        "source:officepro-w-global",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:official:w-global",
+        "ref:web:colliers-w-global",
+        "ref:web:savills-w-global",
+        "ref:web:officepro-w-global"
+      ],
+      "method": "cross_source_conflict_audit",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:wgc:floor-organization",
+      "entity_id": "bgc_building_0007",
+      "property": "visible_and_published_floor_organization",
+      "value": {
+        "ground_and_mezzanine": "retail/dining",
+        "open_bands": 2,
+        "brochure_interpretation": "two parking levels",
+        "upper_office_window_rows": "approximately four visible rows"
+      },
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.84,
+      "source_ids": [
+        "source:kmc-w-global-brochure",
+        "source:officepro-w-global"
+      ],
+      "reference_ids": [
+        "ref:web:kmc-w-global-brochure",
+        "ref:web:officepro-w-global"
+      ],
+      "method": "brochure_and_multi_view_visual_reconciliation",
+      "notes": "Open bands are geometrically verified; their parking use is supported by the brochure, not inferred from appearance alone."
+    },
+    {
+      "observation_id": "obs:wgc:massing",
+      "entity_id": "bgc_building_0007",
+      "property": "overall_massing",
+      "value": "Rectangular low-rise office block with transparent retail base, two open horizontal middle bands, an opaque upper office volume, a glazed corner zone, and a projecting rooftop square frame.",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:officepro-w-global",
+        "source:colliers-w-global"
+      ],
+      "reference_ids": [
+        "ref:web:officepro-w-global",
+        "ref:web:colliers-w-global"
+      ],
+      "method": "multi_view_visual_reconciliation",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:wgc:facades",
+      "entity_id": "bgc_building_0007",
+      "property": "street_facades",
+      "value": {
+        "30TH_STREET": "light panel grid with regular punched windows, open middle bands and glazed base",
+        "9TH_AVENUE": "light panels, regular punched windows, broad upper glazing zone and open middle bands",
+        "corner": "full-height glazed office corner above open bands; square rooftop frame"
+      },
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.88,
+      "source_ids": [
+        "source:officepro-w-global",
+        "source:colliers-w-global"
+      ],
+      "reference_ids": [
+        "ref:web:officepro-w-global",
+        "ref:web:colliers-w-global"
+      ],
+      "method": "three_oblique_exterior_views",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:wgc:materials",
+      "entity_id": "bgc_building_0007",
+      "property": "material_families",
+      "value": [
+        "light neutral opaque panels",
+        "blue/dark architectural glass",
+        "dark structural metal",
+        "clear-to-dark storefront glass",
+        "neutral concrete slabs"
+      ],
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.87,
+      "source_ids": [
+        "source:officepro-w-global"
+      ],
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "method": "visual_material_family_classification",
+      "notes": "Exact colours and reflectance remain unknown."
+    },
+    {
+      "observation_id": "obs:wgc:entrance",
+      "entity_id": "bgc_building_0007",
+      "property": "primary_public_entrance",
+      "value": "Glazed ground-level public/retail frontage near the 30th Street\u20139th Avenue corner; exact portal hierarchy and width unresolved.",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:officepro-w-global"
+      ],
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "method": "oblique_visual_interpretation",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:wgc:roof",
+      "entity_id": "bgc_building_0007",
+      "property": "roof_feature",
+      "value": "Large square open frame rises above the glazed corner; fine roof equipment is not resolved.",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.86,
+      "source_ids": [
+        "source:officepro-w-global",
+        "source:colliers-w-global"
+      ],
+      "reference_ids": [
+        "ref:web:officepro-w-global",
+        "ref:web:colliers-w-global"
+      ],
+      "method": "multiple_oblique_views",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:wgc:architect",
+      "entity_id": "bgc_building_0007",
+      "property": "architect_or_designer",
+      "value": "Esteban Tan & Associates",
+      "status": "INFERRED",
+      "confidence": 0.45,
+      "source_ids": [
+        "source:official-w-group-w-global"
+      ],
+      "reference_ids": [
+        "ref:official:w-global"
+      ],
+      "method": "bounded_search_no_primary_project_credit_found",
+      "notes": "The attribution was not independently supported by an original firm/project page; do not present it as verified."
+    }
+  ],
+  "conflicts": [
+    "obs:wgc:floor-conflict"
+  ]
+}

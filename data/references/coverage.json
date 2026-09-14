@@ -1,0 +1,2022 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-10T18:38:45.242595+00:00",
+  "rating_policy": "Counts are decision coverage, not image volume. Camera side and depicted facade remain separate.",
+  "entities": [
+    {
+      "entity_id": "bgc_building_0001",
+      "canonical_name": null,
+      "identity": "UNRESOLVED",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0002",
+      "canonical_name": null,
+      "identity": "UNRESOLVED",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0003",
+      "canonical_name": "West Gallery Place",
+      "identity": "REVIEW_REQUIRED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "canonical_name": "One Maridien",
+      "identity": "CONFIRMED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [
+        "ref:official:one-maridien"
+      ],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [
+        "ref:official:one-maridien"
+      ],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "canonical_name": "Verve Residences Tower 2",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [
+        "ref:official:verve-residences"
+      ],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [
+        "ref:official:verve-residences"
+      ],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0006",
+      "canonical_name": null,
+      "identity": "UNRESOLVED",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0007",
+      "canonical_name": "W Global Center",
+      "identity": "CONFIRMED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [
+        "ref:official:w-global-center"
+      ],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [
+        "ref:official:w-global-center"
+      ],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0008",
+      "canonical_name": "Harlan + Holden Coffee",
+      "identity": "REVIEW_REQUIRED",
+      "height_evidence": "ESTIMATED",
+      "massing_evidence": "PARTIAL",
+      "overall_imagery": "WEAK",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [
+        "ref:commons:176963359"
+      ],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "WEAK",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0009",
+      "canonical_name": "C2",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0010",
+      "canonical_name": "C3",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "ESTIMATED",
+      "massing_evidence": "PARTIAL",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "canonical_name": "C1",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0012",
+      "canonical_name": "Maybank",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0013",
+      "canonical_name": "Live Street",
+      "identity": "REVIEW_REQUIRED",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0014",
+      "canonical_name": "Central Square",
+      "identity": "CONFIRMED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "GOOD",
+      "identity_reference_ids": [
+        "ref:official:central-square"
+      ],
+      "accepted_visual_reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:40678045"
+      ],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:40678045"
+      ],
+      "research_only_reference_ids": [
+        "ref:official:central-square"
+      ],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "GOOD",
+          "reference_ids": [
+            "ref:commons:133250280",
+            "ref:commons:40678045"
+          ]
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_B_CANDIDATE",
+      "reconstruction_readiness": "MEDIUM"
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "canonical_name": "JY Campos Centre",
+      "identity": "CONFIRMED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [
+        "ref:official:jy-campos-centre"
+      ],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [
+        "ref:official:jy-campos-centre"
+      ],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0016",
+      "canonical_name": "B:3",
+      "identity": "REVIEW_REQUIRED",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0017",
+      "canonical_name": "B:3",
+      "identity": "REVIEW_REQUIRED",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0018",
+      "canonical_name": "B:8",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0019",
+      "canonical_name": "Honda Cars Global City",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0020",
+      "canonical_name": "B:5",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0021",
+      "canonical_name": "B:2",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0022",
+      "canonical_name": "B:1",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0023",
+      "canonical_name": "Active Fun Building",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0024",
+      "canonical_name": "One Parkade",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0025",
+      "canonical_name": "Two Parkade",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0026",
+      "canonical_name": "Police Community Precinct - 7",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "canonical_name": "Uniqlo",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "ESTIMATED",
+      "massing_evidence": "PARTIAL",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0028",
+      "canonical_name": "Bench",
+      "identity": "HIGH_CONFIDENCE",
+      "height_evidence": "PROCEDURAL",
+      "massing_evidence": "WEAK",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "LOW"
+    },
+    {
+      "entity_id": "bgc_building_0029",
+      "canonical_name": "Alveo High Street South Block",
+      "identity": "REVIEW_REQUIRED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0030",
+      "canonical_name": "Mariano K. Tan Center",
+      "identity": "REVIEW_REQUIRED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    },
+    {
+      "entity_id": "bgc_building_0031",
+      "canonical_name": null,
+      "identity": "UNRESOLVED",
+      "height_evidence": "VERIFIED_GEOGRAPHIC",
+      "massing_evidence": "GOOD",
+      "overall_imagery": "NONE",
+      "identity_reference_ids": [],
+      "accepted_visual_reference_ids": [],
+      "pending_visual_reference_ids": [],
+      "reusable_reference_ids": [],
+      "research_only_reference_ids": [],
+      "aspects": {
+        "north_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "south_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "east_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "west_side_evidence": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "entrance": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "podium": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "roof": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "aerial_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "materials": {
+          "rating": "NONE",
+          "reference_ids": []
+        },
+        "street_context": {
+          "rating": "NONE",
+          "reference_ids": []
+        }
+      },
+      "viewpoint_side_status": "UNKNOWN",
+      "facade_depicted": "UNKNOWN",
+      "important_missing_evidence": [
+        "directionally verified facade views",
+        "entrance view",
+        "roof/aerial view"
+      ],
+      "recommended_fidelity_tier": "TIER_C",
+      "reconstruction_readiness": "NOT_READY"
+    }
+  ]
+}

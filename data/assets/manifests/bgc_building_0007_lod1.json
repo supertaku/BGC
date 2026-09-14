@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0007",
+  "name": "W Global Center",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_building_0007_lod1.glb",
+  "bounds_m": {
+    "min": [
+      71.013,
+      11.69,
+      0.0
+    ],
+    "max": [
+      124.051,
+      67.989,
+      30.5
+    ]
+  },
+  "geographic_anchor": {
+    "longitude": 121.0518762,
+    "latitude": 14.5511718,
+    "x": 97.802,
+    "y": 39.65
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_building_0007.json",
+  "generated_at": "2026-09-14T10:59:26.277259+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

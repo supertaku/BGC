@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "target": {"entity_id":"synthetic_framework_fixture","name":"Synthetic Framework Fixture","location":"Synthetic local-metre test origin","identity_status":"CONFIRMED"},
+  "target_time_state": {"value":"SYNTHETIC_TIMELESS","permanent_architecture":"PROCEDURAL","tenant_signage_and_seasonal_state":"OMITTED"},
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {"area_m2":1200,"perimeter_m":140,"axis_aligned_bounds_m":{"min_x":-20,"min_y":-15,"max_x":20,"max_y":15},"maximum_height_m":36,"height_status":"PROCEDURAL"},
+  "major_building_parts": ["fixture:massing:main","fixture:massing:roof"],
+  "massing_file":"massing.json",
+  "facades_file":"facades.json",
+  "entrances_file":"entrances.json",
+  "materials_file":"materials.json",
+  "best_reference_ids":[],
+  "required_coverage_aspects":["overall_massing","materials"],
+  "confidence":{"massing":1,"materials":1},
+  "required_procedural_approximations":[{"feature":"all geometry","classification":"PROCEDURAL","instruction":"Remain visibly synthetic and make no real-world claim."}],
+  "do_not_invent":["Do not present this fixture as a real building."],
+  "visual_qa_cameras":[{"camera_id":"QA_FIXTURE_OBLIQUE","position":{"x":60,"y":-60,"z":45},"target":{"x":0,"y":0,"z":15},"fov_deg":50,"corresponding_reference":null,"confidence":1,"match_status":"SYNTHETIC"}],
+  "web_performance_constraints":{"principle":"Exercise generic tooling cheaply","track":["triangles","meshes","materials","draw_calls"],"instructions":["use shared materials"]},
+  "readiness":"RECONSTRUCTION_READY_WITH_GAPS",
+  "generic_builder": {
+    "material_families":["warm_neutral_cladding","architectural_dark_glass","neutral_roof"],
+    "volumes":[
+      {"name":"BGC_FIXTURE_MASSING_MAIN_01","component_id":"fixture:massing:main","center_m":[0,0,18],"dimensions_m":[40,30,36],"material_family":"warm_neutral_cladding","evidence_status":"PROCEDURAL","observation_ids":["obs:fixture:massing"]},
+      {"name":"BGC_FIXTURE_ROOF_01","component_id":"fixture:massing:roof","center_m":[0,0,36.25],"dimensions_m":[38,28,0.5],"material_family":"neutral_roof","evidence_status":"PROCEDURAL","observation_ids":["obs:fixture:massing"]}
+    ],
+    "facade_regions":[
+      {"name":"BGC_FIXTURE_FACADE_NORTH_GLASS_01","component_id":"fixture:facade:north-glass","frame":{"origin_m":[-20,15.2],"length_m":40,"height_m":36,"angle_deg":0,"outward_sign":1},"u0":0.2,"u1":0.8,"v0":0.1,"v1":0.75,"d_m":0,"thickness_m":0.25,"material_family":"architectural_dark_glass","evidence_status":"PROCEDURAL","observation_ids":["obs:fixture:facade"]}
+    ],
+    "qa_cameras":[{"camera_id":"QA_FIXTURE_OBLIQUE","kind":"CARDINAL_OBLIQUE","location":[60,-60,45],"target":[0,0,15],"lens_mm":50,"filename":"qa-fixture-oblique.png","match":"SYNTHETIC"}]
+  }
+}

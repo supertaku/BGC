@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-14",
+  "records": [
+    {
+      "reference_id": "ref:official:jy-campos-contact",
+      "source_id": "source:official-del-monte-jy-campos",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0015",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://www.delmontephil.com/contact",
+      "title": "Del Monte Philippines contact page",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:government:jy-campos",
+      "source_id": "source:government-jy-campos-proclamation",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0015",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/80291",
+      "title": "Proclamation No. 380 (2017)",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:web:csya-jy-campos",
+      "source_id": "source:csya-jy-campos",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0015",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://www.archify.com/sg/project/jy-campos-centre-del-monte",
+      "title": "JY Campos Centre project",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:web:savills-jy-campos",
+      "source_id": "source:savills-jy-campos",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0015",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://savillsph.com/building/JY-Campos-Center/",
+      "title": "JY Campos Center building details",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-14",
+  "records": [
+    {
+      "reference_id": "ref:official:bgc-c1-directory",
+      "source_id": "source:official-ayala-bonifacio-high-street",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0011",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://bgc.com.ph/shop/?directory_type=all",
+      "title": "BGC district directory – C1",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:web:officepro-bhs-central",
+      "source_id": "source:officepro-bhs-central",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0011",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://www.officepro.ph/buildings/bonifacio-high-street-central-%28bhs-central%29",
+      "title": "Bonifacio High Street Central exterior",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "generated_at": "2026-09-14T15:11:06.884565+00:00",
+  "mode": "continue-on-error",
+  "wave": "ALL",
+  "stage": "build",
+  "results": [
+    {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 5.63,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "Info: Saved as \"bgc_building_0004-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n23:10:44 | INFO: Starting glTF 2.0 export\n23:10:44 | INFO: Extracting primitive: M10_0004_Podium_mesh.001\n23:10:44 | INFO: Primitives created: 1\n23:10:44 | INFO: Extracting primitive: M10_0004_Tower_mesh.001\n23:10:44 | INFO: Primitives created: 1\n23:10:44 | INFO: Extracting primitive: BGC_RUNTIME_M10_0004_FACADE_BANDS_mesh\n23:10:44 | INFO: Primitives created: 1\n23:10:44 | INFO: Finished glTF 2.0 export in 0.07274627685546875 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0004 components=62 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "23:10:47 | INFO: Data are loaded, start creating Blender stuff\n23:10:47 | INFO: Blender create Mesh node M10_0004_Podium_mesh.001\n23:10:47 | INFO: Blender create Mesh node M10_0004_Tower_mesh.001\n23:10:47 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0004_FACADE_BANDS_mesh\n23:10:47 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0004_lod1.glb size_bytes=47512 meshes=3 triangles=768 materials=2 draw_calls_approx=3 max_dimension_m=135.600\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0004_lod1.json"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 4.52,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "Info: Saved as \"bgc_building_0015-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n23:10:49 | INFO: Starting glTF 2.0 export\n23:10:49 | INFO: Extracting primitive: M10_0015_Envelope_mesh.001\n23:10:49 | INFO: Primitives created: 1\n23:10:49 | INFO: Extracting primitive: BGC_RUNTIME_M10_0015_FACADE_BANDS_mesh\n23:10:49 | INFO: Primitives created: 1\n23:10:49 | INFO: Finished glTF 2.0 export in 0.046829938888549805 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0015 components=29 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "23:10:51 | INFO: Data are loaded, start creating Blender stuff\n23:10:51 | INFO: Blender create Mesh node M10_0015_Envelope_mesh.001\n23:10:51 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0015_FACADE_BANDS_mesh\n23:10:51 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0015_lod1.glb size_bytes=23040 meshes=2 triangles=348 materials=2 draw_calls_approx=2 max_dimension_m=56.564\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0015_lod1.json"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "name": "Verve Residences Tower 2",
+      "wave": "B",
+      "status": "PASS",
+      "elapsed_seconds": 4.757,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "Info: Saved as \"bgc_building_0005-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n23:10:54 | INFO: Starting glTF 2.0 export\n23:10:54 | INFO: Extracting primitive: M10_0005_Podium_mesh.001\n23:10:54 | INFO: Primitives created: 1\n23:10:54 | INFO: Extracting primitive: M10_0005_Tower_mesh.001\n23:10:54 | INFO: Primitives created: 1\n23:10:54 | INFO: Extracting primitive: BGC_RUNTIME_M10_0005_FACADE_BANDS_mesh\n23:10:54 | INFO: Primitives created: 1\n23:10:54 | INFO: Finished glTF 2.0 export in 0.049771785736083984 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0005 components=82 materials=3\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "23:10:56 | INFO: Data are loaded, start creating Blender stuff\n23:10:56 | INFO: Blender create Mesh node M10_0005_Podium_mesh.001\n23:10:56 | INFO: Blender create Mesh node M10_0005_Tower_mesh.001\n23:10:56 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0005_FACADE_BANDS_mesh\n23:10:56 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0005_lod1.glb size_bytes=61032 meshes=3 triangles=1008 materials=2 draw_calls_approx=3 max_dimension_m=147.600\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0005_lod1.json"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo",
+      "wave": "B",
+      "status": "PASS",
+      "elapsed_seconds": 5.178,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "Info: Saved as \"bgc_building_0027-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n23:10:59 | INFO: Starting glTF 2.0 export\n23:10:59 | INFO: Extracting primitive: M10_0027_Envelope_mesh.001\n23:10:59 | INFO: Primitives created: 1\n23:10:59 | INFO: Extracting primitive: BGC_RUNTIME_M10_0027_FACADE_BANDS_mesh\n23:10:59 | INFO: Primitives created: 1\n23:10:59 | INFO: Finished glTF 2.0 export in 0.06290674209594727 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0027 components=28 materials=3\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "23:11:01 | INFO: Data are loaded, start creating Blender stuff\n23:11:01 | INFO: Blender create Mesh node M10_0027_Envelope_mesh.001\n23:11:01 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0027_FACADE_BANDS_mesh\n23:11:01 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0027_lod1.glb size_bytes=23124 meshes=2 triangles=356 materials=2 draw_calls_approx=2 max_dimension_m=42.168\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0027_lod1.json"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "name": "C1",
+      "wave": "B",
+      "status": "PASS",
+      "elapsed_seconds": 4.868,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "Info: Saved as \"bgc_building_0011-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n23:11:04 | INFO: Starting glTF 2.0 export\n23:11:04 | INFO: Extracting primitive: M10_0011_Envelope_mesh.001\n23:11:04 | INFO: Primitives created: 1\n23:11:04 | INFO: Extracting primitive: BGC_RUNTIME_M10_0011_FACADE_BANDS_mesh\n23:11:04 | INFO: Primitives created: 1\n23:11:04 | INFO: Finished glTF 2.0 export in 0.051721811294555664 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0011 components=31 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "23:11:06 | INFO: Data are loaded, start creating Blender stuff\n23:11:06 | INFO: Blender create Mesh node M10_0011_Envelope_mesh.001\n23:11:06 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0011_FACADE_BANDS_mesh\n23:11:06 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0011_lod1.glb size_bytes=25360 meshes=2 triangles=396 materials=2 draw_calls_approx=2 max_dimension_m=89.901\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0011_lod1.json"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0
+  }
+}

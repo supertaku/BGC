@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:0027:identity",
+      "entity_id": "bgc_building_0027",
+      "property": "identity",
+      "value": "Uniqlo at C3 Annex, 7th Avenue corner 30th Street, BGC, Taguig, Philippines",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:official-uniqlo-bgc",
+        "source:osm",
+        "source:primer-uniqlo-bgc"
+      ],
+      "reference_ids": [
+        "ref:official:uniqlo-bgc"
+      ],
+      "method": "canonical_geographic_and_named_source_reconciliation"
+    },
+    {
+      "observation_id": "obs:0027:footprint",
+      "entity_id": "bgc_building_0027",
+      "property": "footprint",
+      "value": {
+        "area_m2": 781.09,
+        "perimeter_m": 121.69,
+        "axis_aligned_bounds_m": {
+          "min_x": -161.522,
+          "min_y": 103.702,
+          "max_x": -129.362,
+          "max_y": 145.566
+        },
+        "vertex_count": 9
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "deterministic_local_metre_polygon_measurement",
+      "notes": "Community mapped, not cadastral."
+    },
+    {
+      "observation_id": "obs:0027:height",
+      "entity_id": "bgc_building_0027",
+      "property": "height_m",
+      "value": 12.8,
+      "status": "ESTIMATED",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "building_levels_x_3.2m",
+      "notes": "Retained without upgrading to surveyed precision."
+    },
+    {
+      "observation_id": "obs:0027:massing",
+      "entity_id": "bgc_building_0027",
+      "property": "overall_massing",
+      "value": "Four-storey modern retail block with bright cladding and broad glazed frontage; temporary graphics omitted.",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.72,
+      "source_ids": [
+        "source:official-uniqlo-bgc",
+        "source:primer-uniqlo-bgc"
+      ],
+      "reference_ids": [
+        "ref:official:uniqlo-bgc",
+        "ref:web:primer-uniqlo-bgc"
+      ],
+      "method": "bounded exterior evidence review"
+    },
+    {
+      "observation_id": "obs:0027:materials",
+      "entity_id": "bgc_building_0027",
+      "property": "material_families",
+      "value": [
+        "light_neutral_panel",
+        "architectural_dark_glass",
+        "generic_storefront_glass",
+        "neutral_roof"
+      ],
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:official-uniqlo-bgc",
+        "source:primer-uniqlo-bgc"
+      ],
+      "reference_ids": [
+        "ref:official:uniqlo-bgc",
+        "ref:web:primer-uniqlo-bgc"
+      ],
+      "method": "visual family classification; exact colour unknown"
+    }
+  ],
+  "conflicts": []
+}

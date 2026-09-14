@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "milestone": "M7",
+  "captured_at": "2026-09-14",
+  "environment": {
+    "browser": "Codex in-app Chromium",
+    "viewport_css_px": [759, 742],
+    "measurement_note": "M6 five-second fixed-camera warm spot checks; one-second rolling FPS counter"
+  },
+  "pilot_asset": {
+    "file": "exports/glb/bgc-pilot-base.glb",
+    "file_size_bytes": 919392,
+    "triangle_count": 19896,
+    "mesh_count": 46,
+    "material_count": 10,
+    "draw_call_approximation": 46,
+    "textures": 0
+  },
+  "browser": {
+    "overview": {
+      "visible_triangles": 19896,
+      "calls": 46,
+      "warm_fps_samples": [108, 123, 128, 127],
+      "load_ready_ms": 442
+    },
+    "street_level": {
+      "visible_triangles": 19608,
+      "calls": 33,
+      "warm_fps_samples": [117, 121, 122, 124],
+      "load_ready_ms": 805
+    },
+    "console_warning_error_count": 0
+  },
+  "sources": [
+    "exports/glb/bgc-pilot-base.metrics.json",
+    "docs/PILOT_PERFORMANCE_BASELINE.md"
+  ]
+}

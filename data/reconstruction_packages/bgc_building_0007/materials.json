@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "materials": [
+    {
+      "material_id": "mat:light-panel",
+      "family": "light neutral opaque architectural panels",
+      "shared_family": "light_neutral_panel",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:dark-glazing",
+      "family": "dark blue reflective architectural glass",
+      "shared_family": "architectural_dark_glass",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:storefront-glazing",
+      "family": "clear-to-dark storefront glazing",
+      "shared_family": "generic_storefront_glass",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:dark-metal",
+      "family": "dark structural metal",
+      "shared_family": "dark_metal",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:neutral-concrete",
+      "family": "neutral concrete/open-deck surfaces",
+      "shared_family": "neutral_roof",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.84,
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "exact_colour": "UNKNOWN"
+    }
+  ]
+}

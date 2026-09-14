@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "events": [
+    {
+      "period": "2012",
+      "event": "Building completion reported by current property firms",
+      "status": "VERIFIED_STRUCTURED",
+      "evidence_ids": [
+        "ref:web:colliers-w-global",
+        "ref:web:savills-w-global"
+      ]
+    },
+    {
+      "period": "2025-2026",
+      "event": "Permanent architecture target state; tenant graphics excluded",
+      "status": "INFERRED",
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    }
+  ]
+}

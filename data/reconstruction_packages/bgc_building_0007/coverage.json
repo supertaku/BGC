@@ -1,0 +1,133 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_building_0007",
+  "accepted_visual_reference_ids": [
+    "ref:official:w-global",
+    "ref:web:officepro-w-global",
+    "ref:web:colliers-w-global",
+    "ref:web:savills-w-global",
+    "ref:web:kmc-w-global-brochure"
+  ],
+  "reusable_visual_reference_ids": [],
+  "research_only_visual_reference_ids": [
+    "ref:official:w-global",
+    "ref:web:officepro-w-global",
+    "ref:web:colliers-w-global",
+    "ref:web:savills-w-global",
+    "ref:web:kmc-w-global-brochure"
+  ],
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "footprint": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "floor_organization": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "30th_street_side": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "9th_avenue_side": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "opposite_side_a": {
+      "rating": "WEAK",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "opposite_side_b": {
+      "rating": "WEAK",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "primary_entrance": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "entrance": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "parking_bands": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "ground_retail": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "glazing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "opaque_panels": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "structural_frame": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "roof": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "materials": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    "street_context": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:web:officepro-w-global"
+      ]
+    }
+  },
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "readiness_reason": "Identity, footprint, height, massing, both street sides, corner, open bands, and roof frame are usable. Opposite sides and exact entrance remain weak and must stay conservative."
+}

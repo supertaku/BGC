@@ -1,0 +1,10 @@
+{
+  "source_id": "source:osm",
+  "source_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "retrieved_at": "2026-09-10T13:04:27.567258+00:00",
+  "query": "[out:json][timeout:60];\n(\n  nwr[\"building\"](14.54865,121.0475,14.5524,121.05205);\n  nwr[\"highway\"](14.54865,121.0475,14.5524,121.05205);\n  nwr[\"leisure\"](14.54865,121.0475,14.5524,121.05205);\n  nwr[\"natural\"](14.54865,121.0475,14.5524,121.05205);\n  nwr[\"amenity\"](14.54865,121.0475,14.5524,121.05205);\n  nwr[\"shop\"](14.54865,121.0475,14.5524,121.05205);\n);\nout body geom;",
+  "sha256": "97f5c3ded03f0efa37a7ef12ede12a6645c3fcde8d0b0777f15c45cca06dee7c",
+  "element_count": 845
+}

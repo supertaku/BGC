@@ -1,0 +1,73 @@
+{
+  "entity_id": "bgc_building_0005",
+  "entity_type": "BUILDING",
+  "canonical_name": "Verve Residences Tower 2",
+  "normalized_name": "verve residences tower 2",
+  "aliases": [
+    "The Verve Residences Two"
+  ],
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.9,
+  "decision_method": "EXACT_OFFICIAL_MATCH",
+  "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+  "decision_timestamp": "2026-09-11",
+  "supporting_evidence": [
+    "Official developer development and tower list support the OSM name/location; no direct source identifier exists."
+  ],
+  "centroid": {
+    "longitude": 121.0493748,
+    "latitude": 14.5490475,
+    "local_x_m": -173.822,
+    "local_y_m": -193.122
+  },
+  "footprint_reference": "data/processed/pilot-buildings.geojson",
+  "geographic_feature_ids": [
+    "osm:way:1070584578"
+  ],
+  "osm_ids": [
+    "osm:way:1070584578"
+  ],
+  "building_part_ids": [
+    "osm:way:538702984"
+  ],
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "official_url": "https://www.alveoland.com.ph/properties/condos/taguig/hss-verve-residences/",
+  "official_address": null,
+  "parent_entity_id": "bgc_complex_0002",
+  "child_entity_ids": [],
+  "source_ids": [
+    "source:official-alveo-verve",
+    "source:osm",
+    "source:web-verve-exterior"
+  ],
+  "height": {
+    "value_m": 172.0,
+    "status": "VERIFIED_GEOGRAPHIC",
+    "method": "maximum_explicit_osm_building_part_height",
+    "confidence": 0.75,
+    "source_ids": [
+      "source:osm"
+    ],
+    "levels": 45.0,
+    "components": [
+      {
+        "source_feature_id": "osm:way:538702984",
+        "value_m": 172.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height"
+      }
+    ]
+  },
+  "tags": {
+    "building": "apartments",
+    "building:colour": "beige",
+    "building:levels": "5",
+    "height": "24.4",
+    "name": "The Verve Residences Two"
+  },
+  "reconstruction_package_version": 1,
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

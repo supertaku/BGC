@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0004",
+  "name": "One Maridien",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_building_0004_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -120.651,
+      -252.569,
+      0.0
+    ],
+    "max": [
+      -38.169,
+      -196.157,
+      152.9
+    ]
+  },
+  "geographic_anchor": {
+    "longitude": 121.0502531,
+    "latitude": 14.5487725,
+    "local_x_m": -79.41,
+    "local_y_m": -224.363
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_building_0004.json",
+  "generated_at": "2026-09-14T15:10:47.552732+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

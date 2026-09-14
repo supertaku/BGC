@@ -1,0 +1,66 @@
+{
+  "entity_id": "bgc_building_0027",
+  "entity_type": "BUILDING",
+  "canonical_name": "Uniqlo",
+  "normalized_name": "uniqlo",
+  "aliases": [
+    "Uniqlo"
+  ],
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.9,
+  "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+  "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+  "decision_timestamp": "2026-09-11",
+  "supporting_evidence": [
+    "OSM tags and footprint location"
+  ],
+  "centroid": {
+    "longitude": 121.0496154,
+    "latitude": 14.5519183,
+    "local_x_m": -145.169,
+    "local_y_m": 124.334
+  },
+  "footprint_reference": "data/processed/pilot-buildings.geojson",
+  "geographic_feature_ids": [
+    "osm:way:443761696"
+  ],
+  "osm_ids": [
+    "osm:way:443761696"
+  ],
+  "building_part_ids": [],
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "official_url": null,
+  "official_address": null,
+  "parent_entity_id": null,
+  "child_entity_ids": [],
+  "source_ids": [
+    "source:official-uniqlo-bgc",
+    "source:osm",
+    "source:primer-uniqlo-bgc"
+  ],
+  "height": {
+    "value_m": 12.8,
+    "status": "ESTIMATED",
+    "method": "building_levels_x_3.2m",
+    "confidence": 0.55,
+    "source_ids": [],
+    "levels": 4.0
+  },
+  "tags": {
+    "addr:city": "Taguig",
+    "addr:housenumber": "C3 Annex",
+    "addr:postcode": "1634",
+    "addr:province": "Metro Manila",
+    "addr:street": "30th Street",
+    "addr:street:corner": "7th Avenue",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "Uniqlo",
+    "shop": "clothes"
+  },
+  "reconstruction_package_version": 1,
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

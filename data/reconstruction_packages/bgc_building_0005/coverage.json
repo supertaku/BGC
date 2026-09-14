@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_building_0005",
+  "accepted_visual_reference_ids": [
+    "ref:official:verve",
+    "ref:web:verve-exterior"
+  ],
+  "reusable_visual_reference_ids": [],
+  "research_only_visual_reference_ids": [
+    "ref:official:verve",
+    "ref:web:verve-exterior"
+  ],
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:official:verve",
+        "ref:web:verve-exterior"
+      ]
+    },
+    "footprint": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:official:verve",
+        "ref:web:verve-exterior"
+      ]
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:official:verve",
+        "ref:web:verve-exterior"
+      ]
+    },
+    "entrance": {
+      "rating": "WEAK",
+      "reference_ids": []
+    },
+    "roof": {
+      "rating": "WEAK",
+      "reference_ids": []
+    }
+  },
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "readiness_reason": "Identity, polygonal footprint, height envelope, and major visible character are usable; entrances, exact modules, roof plant, and weak sides remain conservative."
+}

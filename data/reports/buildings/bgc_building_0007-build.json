@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "status": "PASS",
+  "authoring_validation": {
+    "status": "PASS",
+    "errors": [],
+    "warnings": []
+  },
+  "export": {
+    "authoring_meshes": 86,
+    "runtime_meshes": 12,
+    "merged_meshes": 74,
+    "path": "C:\\Users\\joshu\\Documents\\BGC\\exports\\glb\\buildings\\bgc_building_0007_lod1.glb"
+  },
+  "qa_camera_count": 5,
+  "materials_reused": 5,
+  "shared_primitives": [
+    "FacadeFrame",
+    "OpenFacadeBand",
+    "WindowGrid"
+  ],
+  "floor_count_interpretation": "CONFLICTED_7_VS_8_VISIBLE_BANDS_MODELED"
+}

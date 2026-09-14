@@ -1,0 +1,100 @@
+{
+  "entity_id": "bgc_building_0014",
+  "entity_type": "BUILDING",
+  "canonical_name": "Central Square",
+  "normalized_name": "central square",
+  "aliases": [
+    "Central Square",
+    "C4",
+    "SSI NorthWest Building"
+  ],
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.97,
+  "decision_method": "EXACT_OFFICIAL_MATCH",
+  "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+  "decision_timestamp": "2026-09-11",
+  "supporting_evidence": [
+    "Official operator page matches the named property and Bonifacio High Street Central location."
+  ],
+  "centroid": {
+    "longitude": 121.0484706,
+    "latitude": 14.5519147,
+    "local_x_m": -268.556,
+    "local_y_m": 124.986
+  },
+  "footprint_reference": "data/processed/pilot-buildings.geojson",
+  "geographic_feature_ids": [
+    "osm:way:205968610"
+  ],
+  "osm_ids": [
+    "osm:way:205968610"
+  ],
+  "building_part_ids": [
+    "osm:way:470203065",
+    "osm:way:470203066",
+    "osm:way:470203067"
+  ],
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "official_url": "https://ssilife.com.ph/central-square",
+  "official_address": "5th Avenue, Bonifacio High Street Central, Bonifacio Global City, Taguig",
+  "parent_entity_id": "bgc_complex_0001",
+  "child_entity_ids": [],
+  "source_ids": [
+    "source:consultant-campbell-central-square",
+    "source:official-ssi-annual-report-2015",
+    "source:official-ssi-central-square",
+    "source:osm",
+    "source:wikimedia-commons"
+  ],
+  "height": {
+    "value_m": 25.9,
+    "status": "VERIFIED_GEOGRAPHIC",
+    "method": "osm_height",
+    "confidence": 0.75,
+    "source_ids": [
+      "source:osm"
+    ],
+    "levels": 5.0,
+    "components": [
+      {
+        "source_feature_id": "osm:way:470203065",
+        "value_m": 5.2,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height"
+      },
+      {
+        "source_feature_id": "osm:way:470203066",
+        "value_m": 25.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height"
+      },
+      {
+        "source_feature_id": "osm:way:470203067",
+        "value_m": 3.2,
+        "status": "ESTIMATED",
+        "method": "building_levels_x_3.2m"
+      }
+    ],
+    "evidence_note": "Explicit OSM geographic tag audited at way version 5 (2026-04-09); not an authoritative measured survey."
+  },
+  "tags": {
+    "addr:city": "Taguig",
+    "addr:street": "30th Street",
+    "addr:street:corner": "5th Avenue",
+    "alt_name": "SSI NorthWest Building",
+    "building": "yes",
+    "building:levels": "5",
+    "building:min_level": "1",
+    "height": "25.9",
+    "min_height": "5.2",
+    "name": "Central Square",
+    "operator": "SSI Group",
+    "shop": "mall",
+    "short_name": "C4"
+  },
+  "reconstruction_package_version": 2,
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

@@ -1,0 +1,24 @@
+# Risk register
+
+Scores use 1 (low) to 5 (high). Priority is probability × impact × detection difficulty; it is a triage heuristic, not a statistical estimate.
+
+| Rank | Risk | P | I | D | Priority | Early retirement experiment | Mitigation / decision gate |
+| ---: | --- | ---: | ---: | ---: | ---: | --- | --- |
+| 1 | Photographic results exist but do not cover the required facade/roof, are outdated, or have unusable rights | 5 | 5 | 4 | 100 | For five candidate Tier A/B buildings, populate the aspect coverage matrix using Commons, Mapillary metadata, official pages, and a targeted-photo request list | Do not select the first refined building until one has adequate licensed/usable coverage; store rejects and dates. |
+| 2 | Entity matching attaches references or POIs to the wrong building/part | 4 | 5 | 4 | 80 | Match ten pilot records using footprint proximity, address/name aliases, viewpoint direction, and manual review | Record candidate scores and approval; never use name-only automatic matches for Tier A/B. |
+| 3 | Architectural hallucination turns missing evidence into plausible-looking “facts” | 4 | 5 | 4 | 80 | Audit one generated building field-by-field and render unknown/procedural regions with diagnostic colors | Evidence enum is mandatory; QA rejects undocumented upgrades to verified. |
+| 4 | OSM multipolygons, holes, parts, or invalid topology break generation or subtly distort massing | 4 | 4 | 3 | 48 | Build a fixture suite containing relation holes, nested parts, concave rings, and invalid geometry before full-pilot ingestion | Validate/repair with logged operations; preserve raw geometry and reject unrecoverable entities. |
+| 5 | Height/level data is incomplete or stale | 5 | 4 | 2 | 40 | Produce a pilot height-coverage report and compare five prominent buildings to dated imagery/official facts | Preserve tagged height; estimate from levels only with method; queue prominent unknowns for research. |
+| 6 | Licensing/attribution obligations are lost between source data, imagery, derived assets, and the web UI | 3 | 5 | 2 | 30 | Trace one OSM building and one Commons/Mapillary reference from source registry to asset manifest and viewer credits | Fail export/release when required provenance or attribution fields are absent. |
+| 7 | Draw calls/material fragmentation overwhelm the browser before triangle count does | 4 | 4 | 2 | 32 | Benchmark one representative 250 m tile with per-object vs batched/instanced variants | Shared materials/instances first; merge only within culling/ownership boundaries. |
+| 8 | Texture memory and transfer size grow through unique high-resolution facades | 4 | 4 | 2 | 32 | Create a texture inventory/decoded-memory report for the first refined block | Texel-density rules, atlases/trim sheets, mipmaps, later KTX2; per-tier caps. |
+| 9 | Coordinate or axis errors produce offsets, mirrored data, seams, or incorrect scale | 3 | 5 | 2 | 30 | Keep transform invariants plus three known-distance/adjacent-tile seam checks | One transform module, fixed origin/version, exporter-owned axis conversion. |
+| 10 | Tile ownership/streaming causes duplicate buildings, road gaps, popping, or leaked resources | 3 | 5 | 3 | 45 | Two-by-two tile prototype with crossing roads, centroid-owned building, far landmark, repeated load/unload loop | Explicit manifest ownership, clipped linear features, hysteresis, ref-counted cache/disposal. |
+| 11 | Blender batch automation becomes slow or fragile as tiles/refinements grow | 3 | 4 | 3 | 36 | Time clean generation/export of four representative tiles; inject one failed entity | Per-tile files/jobs, deterministic inputs, fail with entity ID, resume successful hashes. |
+| 12 | Regeneration overwrites justified manual landmark work | 3 | 5 | 2 | 30 | Regenerate a base under a separate mock override and compare linked/export assembly | Manual overrides are separate assets keyed by entity/generator compatibility, never edits inside disposable generated files. |
+| 13 | Working boundary differs from an authoritative/legal interpretation | 3 | 3 | 4 | 36 | Seek a reusable FBDC/BCDA district polygon or georeference an authorized plan later | Label current polygon as project-estimated; version rather than silently replace it. |
+| 14 | City-scale GPU/load behavior fails despite a successful pilot | 3 | 5 | 3 | 45 | Before refinement expansion, generate cheap full-extent proxy tiles and run the fixed 10-minute route | MVP-B is a separate scale gate; defer broad facade work until it passes. |
+
+## Immediate sequence
+
+The cheapest high-value sequence is: (1) topology fixtures and height coverage during M2, (2) five-building reference/rights and entity-match spike during M5/M6, (3) representative tile draw-call/texture benchmark during M7/M10, and (4) a 2×2 streaming seam/leak prototype before whole-city generation. This retires the top quality and scale risks before costly modeling.

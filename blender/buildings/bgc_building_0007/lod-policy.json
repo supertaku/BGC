@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "lods": {
+    "LOD1": {
+      "representation": "standalone evidence-aware GLB",
+      "asset": "exports/glb/buildings/bgc_building_0007_lod1.glb"
+    },
+    "LOD2": {
+      "representation": "existing geographic procedural extrusion",
+      "source_feature": "osm:way:145147831",
+      "regeneration": "Run blender/scripts/generate_bgc_pilot.py with --base-lod-only"
+    }
+  }
+}

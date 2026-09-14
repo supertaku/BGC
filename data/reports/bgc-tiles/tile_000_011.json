@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_000_011",
+  "input_sha256": "9d55c2942dacc3d3f73237a1e9637b402cb603786c729e4a1997a654e026acb1",
+  "output_sha256": "15916485b4fb18d97bb97606c1d2f15eb145320d2d1d431974f7e5ee62410451",
+  "building_count": 8,
+  "render_volume_count": 8,
+  "mesh_count": 4,
+  "triangle_count": 812,
+  "material_count": 4,
+  "bytes": 43524,
+  "entities": [
+    {
+      "entity_id": "osm:way:155433375",
+      "source_feature_id": "osm:way:155433375",
+      "name": "Shell",
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:262581093",
+      "source_feature_id": "osm:way:262581093",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:262581094",
+      "source_feature_id": "osm:way:262581094",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:262581099",
+      "source_feature_id": "osm:way:262581099",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:262581104",
+      "source_feature_id": "osm:way:262581104",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:262581122",
+      "source_feature_id": "osm:way:262581122",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:310208117",
+      "source_feature_id": "osm:way:310208117",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:310214067",
+      "source_feature_id": "osm:way:310214067",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

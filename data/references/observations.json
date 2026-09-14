@@ -1,0 +1,3484 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-10T18:38:45.080323+00:00",
+  "precedence": [
+    "VERIFIED_AUTHORITATIVE",
+    "VERIFIED_STRUCTURED",
+    "VERIFIED_GEOGRAPHIC",
+    "VERIFIED_PHOTOGRAPHIC",
+    "ESTIMATED",
+    "INFERRED",
+    "PROCEDURAL",
+    "UNKNOWN"
+  ],
+  "observations": [
+    {
+      "observation_id": "obs:bgc_building_0001:height_m:0:0.6",
+      "entity_id": "bgc_building_0001",
+      "property": "height_m",
+      "value": 0.6,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0002:height_m:0:0.6",
+      "entity_id": "bgc_building_0002",
+      "property": "height_m",
+      "value": 0.6,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0003:name:1:West-Gallery-Place",
+      "entity_id": "bgc_building_0003",
+      "property": "name",
+      "value": "West Gallery Place",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "OSM_NAME_ONLY",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0003:height_m:1:169.1",
+      "entity_id": "bgc_building_0003",
+      "property": "height_m",
+      "value": 169.1,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "maximum_explicit_osm_building_part_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0003:floor_count:1:50.0",
+      "entity_id": "bgc_building_0003",
+      "property": "floor_count",
+      "value": 50.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0004:name:2:One-Maridien",
+      "entity_id": "bgc_building_0004",
+      "property": "name",
+      "value": "One Maridien",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.96,
+      "source_ids": [
+        "source:osm",
+        "source:official-alveo-maridien"
+      ],
+      "method": "EXACT_OFFICIAL_MATCH",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0004:height_m:1:152.9",
+      "entity_id": "bgc_building_0004",
+      "property": "height_m",
+      "value": 152.9,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "maximum_explicit_osm_building_part_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0004:floor_count:1:40.0",
+      "entity_id": "bgc_building_0004",
+      "property": "floor_count",
+      "value": 40.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0005:name:2:Verve-Residences-Tower-2",
+      "entity_id": "bgc_building_0005",
+      "property": "name",
+      "value": "Verve Residences Tower 2",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:osm",
+        "source:official-alveo-verve"
+      ],
+      "method": "EXACT_OFFICIAL_MATCH",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0005:height_m:1:172.0",
+      "entity_id": "bgc_building_0005",
+      "property": "height_m",
+      "value": 172.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "maximum_explicit_osm_building_part_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0005:floor_count:1:45.0",
+      "entity_id": "bgc_building_0005",
+      "property": "floor_count",
+      "value": 45.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0006:height_m:0:12.0",
+      "entity_id": "bgc_building_0006",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0007:name:3:W-Global-Center",
+      "entity_id": "bgc_building_0007",
+      "property": "name",
+      "value": "W Global Center",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.98,
+      "source_ids": [
+        "source:osm",
+        "source:official-w-group-w-global",
+        "source:wikidata"
+      ],
+      "method": "DIRECT_IDENTIFIER",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0007:height_m:1:30.5",
+      "entity_id": "bgc_building_0007",
+      "property": "height_m",
+      "value": 30.5,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0007:floor_count:1:8.0",
+      "entity_id": "bgc_building_0007",
+      "property": "floor_count",
+      "value": 8.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0008:name:1:Harlan-+-Holden-Coffee",
+      "entity_id": "bgc_building_0008",
+      "property": "name",
+      "value": "Harlan + Holden Coffee",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "OSM_NAME_ONLY",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0008:height_m:0:3.2",
+      "entity_id": "bgc_building_0008",
+      "property": "height_m",
+      "value": 3.2,
+      "status": "ESTIMATED",
+      "confidence": 0.55,
+      "source_ids": [],
+      "method": "building_levels_x_3.2m",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0008:floor_count:1:1.0",
+      "entity_id": "bgc_building_0008",
+      "property": "floor_count",
+      "value": 1.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0009:name:1:C2",
+      "entity_id": "bgc_building_0009",
+      "property": "name",
+      "value": "C2",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0009:height_m:0:12.0",
+      "entity_id": "bgc_building_0009",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0010:name:1:C3",
+      "entity_id": "bgc_building_0010",
+      "property": "name",
+      "value": "C3",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0010:height_m:0:6.4",
+      "entity_id": "bgc_building_0010",
+      "property": "height_m",
+      "value": 6.4,
+      "status": "ESTIMATED",
+      "confidence": 0.55,
+      "source_ids": [],
+      "method": "building_levels_x_3.2m",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0010:floor_count:1:2.0",
+      "entity_id": "bgc_building_0010",
+      "property": "floor_count",
+      "value": 2.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0011:name:1:C1",
+      "entity_id": "bgc_building_0011",
+      "property": "name",
+      "value": "C1",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0011:height_m:1:10.1",
+      "entity_id": "bgc_building_0011",
+      "property": "height_m",
+      "value": 10.1,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0011:floor_count:1:2.0",
+      "entity_id": "bgc_building_0011",
+      "property": "floor_count",
+      "value": 2.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0012:name:1:Maybank",
+      "entity_id": "bgc_building_0012",
+      "property": "name",
+      "value": "Maybank",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0012:height_m:0:12.0",
+      "entity_id": "bgc_building_0012",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0013:name:1:Live-Street",
+      "entity_id": "bgc_building_0013",
+      "property": "name",
+      "value": "Live Street",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "OSM_NAME_ONLY",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0013:height_m:0:12.0",
+      "entity_id": "bgc_building_0013",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0014:name:2:Central-Square",
+      "entity_id": "bgc_building_0014",
+      "property": "name",
+      "value": "Central Square",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.97,
+      "source_ids": [
+        "source:osm",
+        "source:official-ssi-central-square"
+      ],
+      "method": "EXACT_OFFICIAL_MATCH",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0014:height_m:1:25.9",
+      "entity_id": "bgc_building_0014",
+      "property": "height_m",
+      "value": 25.9,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0014:floor_count:1:5.0",
+      "entity_id": "bgc_building_0014",
+      "property": "floor_count",
+      "value": 5.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0015:name:3:JY-Campos-Centre",
+      "entity_id": "bgc_building_0015",
+      "property": "name",
+      "value": "JY Campos Centre",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.99,
+      "source_ids": [
+        "source:osm",
+        "source:official-del-monte-jy-campos",
+        "source:government-jy-campos-proclamation"
+      ],
+      "method": "EXACT_OFFICIAL_MATCH",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0015:height_m:1:45.9",
+      "entity_id": "bgc_building_0015",
+      "property": "height_m",
+      "value": 45.9,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0015:floor_count:1:12.0",
+      "entity_id": "bgc_building_0015",
+      "property": "floor_count",
+      "value": 12.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0016:name:1:B:3",
+      "entity_id": "bgc_building_0016",
+      "property": "name",
+      "value": "B:3",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "AMBIGUOUS_DUPLICATE_NAME",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0016:height_m:0:12.0",
+      "entity_id": "bgc_building_0016",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0017:name:1:B:3",
+      "entity_id": "bgc_building_0017",
+      "property": "name",
+      "value": "B:3",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "AMBIGUOUS_DUPLICATE_NAME",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0017:height_m:0:12.0",
+      "entity_id": "bgc_building_0017",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0018:name:1:B:8",
+      "entity_id": "bgc_building_0018",
+      "property": "name",
+      "value": "B:8",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0018:height_m:0:12.0",
+      "entity_id": "bgc_building_0018",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0019:name:1:Honda-Cars-Global-City",
+      "entity_id": "bgc_building_0019",
+      "property": "name",
+      "value": "Honda Cars Global City",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0019:height_m:0:12.0",
+      "entity_id": "bgc_building_0019",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0020:name:1:B:5",
+      "entity_id": "bgc_building_0020",
+      "property": "name",
+      "value": "B:5",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0020:height_m:0:12.0",
+      "entity_id": "bgc_building_0020",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0021:name:1:B:2",
+      "entity_id": "bgc_building_0021",
+      "property": "name",
+      "value": "B:2",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0021:height_m:0:12.0",
+      "entity_id": "bgc_building_0021",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0022:name:1:B:1",
+      "entity_id": "bgc_building_0022",
+      "property": "name",
+      "value": "B:1",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0022:height_m:0:12.0",
+      "entity_id": "bgc_building_0022",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0023:name:1:Active-Fun-Building",
+      "entity_id": "bgc_building_0023",
+      "property": "name",
+      "value": "Active Fun Building",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0023:height_m:0:12.0",
+      "entity_id": "bgc_building_0023",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0024:name:1:One-Parkade",
+      "entity_id": "bgc_building_0024",
+      "property": "name",
+      "value": "One Parkade",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0024:height_m:0:12.0",
+      "entity_id": "bgc_building_0024",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0025:name:1:Two-Parkade",
+      "entity_id": "bgc_building_0025",
+      "property": "name",
+      "value": "Two Parkade",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0025:height_m:0:12.0",
+      "entity_id": "bgc_building_0025",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0026:name:1:Police-Community-Precinct---7",
+      "entity_id": "bgc_building_0026",
+      "property": "name",
+      "value": "Police Community Precinct - 7",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0026:height_m:0:12.0",
+      "entity_id": "bgc_building_0026",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0027:name:1:Uniqlo",
+      "entity_id": "bgc_building_0027",
+      "property": "name",
+      "value": "Uniqlo",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0027:height_m:0:12.8",
+      "entity_id": "bgc_building_0027",
+      "property": "height_m",
+      "value": 12.8,
+      "status": "ESTIMATED",
+      "confidence": 0.55,
+      "source_ids": [],
+      "method": "building_levels_x_3.2m",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0027:floor_count:1:4.0",
+      "entity_id": "bgc_building_0027",
+      "property": "floor_count",
+      "value": 4.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0028:name:1:Bench",
+      "entity_id": "bgc_building_0028",
+      "property": "name",
+      "value": "Bench",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "MULTI_SIGNAL_AUTOMATIC",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0028:height_m:0:12.0",
+      "entity_id": "bgc_building_0028",
+      "property": "height_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0029:name:1:Alveo-High-Street-South-Block",
+      "entity_id": "bgc_building_0029",
+      "property": "name",
+      "value": "Alveo High Street South Block",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "OSM_NAME_ONLY",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0029:height_m:1:38.2",
+      "entity_id": "bgc_building_0029",
+      "property": "height_m",
+      "value": 38.2,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0029:floor_count:1:10.0",
+      "entity_id": "bgc_building_0029",
+      "property": "floor_count",
+      "value": 10.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0030:name:1:Mariano-K.-Tan-Center",
+      "entity_id": "bgc_building_0030",
+      "property": "name",
+      "value": "Mariano K. Tan Center",
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.55,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "OSM_NAME_ONLY",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0030:height_m:1:45.9",
+      "entity_id": "bgc_building_0030",
+      "property": "height_m",
+      "value": 45.9,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "maximum_explicit_osm_building_part_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0030:floor_count:1:12.0",
+      "entity_id": "bgc_building_0030",
+      "property": "floor_count",
+      "value": 12.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0031:height_m:1:31.1",
+      "entity_id": "bgc_building_0031",
+      "property": "height_m",
+      "value": 31.1,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_height",
+      "notes": "Canonical maximum uses explicit building-part height when applicable."
+    },
+    {
+      "observation_id": "obs:bgc_building_0031:floor_count:1:6.0",
+      "entity_id": "bgc_building_0031",
+      "property": "floor_count",
+      "value": 6.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:osm"
+      ],
+      "method": "osm_building_levels",
+      "notes": "OSM building:levels semantics; not an independent survey."
+    },
+    {
+      "observation_id": "obs:bgc_building_0007:floor_count:1:7",
+      "entity_id": "bgc_building_0007",
+      "property": "floor_count",
+      "value": 7,
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.95,
+      "source_ids": [
+        "source:official-w-group-w-global"
+      ],
+      "method": "owner_page_storey_count",
+      "notes": "Owner describes a seven-storey property."
+    },
+    {
+      "observation_id": "obs:bgc_building_0014:retail_floor_count:1:3",
+      "entity_id": "bgc_building_0014",
+      "property": "retail_floor_count",
+      "value": 3,
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.95,
+      "source_ids": [
+        "source:official-ssi-central-square"
+      ],
+      "method": "operator_page",
+      "notes": "Operator distinguishes three retail floors, two basement floors, and one cinema floor."
+    },
+    {
+      "observation_id": "obs:bgc_building_0014:opening_date:1:2014-06",
+      "entity_id": "bgc_building_0014",
+      "property": "opening_date",
+      "value": "2014-06",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.95,
+      "source_ids": [
+        "source:official-ssi-central-square"
+      ],
+      "method": "operator_page",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0015:official_address:2:9th-Avenue-corner-30th-Street,-Bonifacio-Global-City,-Taguig-City",
+      "entity_id": "bgc_building_0015",
+      "property": "official_address",
+      "value": "9th Avenue corner 30th Street, Bonifacio Global City, Taguig City",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.99,
+      "source_ids": [
+        "source:official-del-monte-jy-campos",
+        "source:government-jy-campos-proclamation"
+      ],
+      "method": "official_address_match",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0015:gross_floor_area_m2:1:19693.55",
+      "entity_id": "bgc_building_0015",
+      "property": "gross_floor_area_m2",
+      "value": 19693.55,
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.99,
+      "source_ids": [
+        "source:government-jy-campos-proclamation"
+      ],
+      "method": "government_proclamation",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0004:development:1:High-Street-South",
+      "entity_id": "bgc_building_0004",
+      "property": "development",
+      "value": "High Street South",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.95,
+      "source_ids": [
+        "source:official-alveo-maridien"
+      ],
+      "method": "developer_page",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:bgc_building_0005:development:1:High-Street-South-–-Verve-Residences",
+      "entity_id": "bgc_building_0005",
+      "property": "development",
+      "value": "High Street South – Verve Residences",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:official-alveo-verve"
+      ],
+      "method": "developer_page",
+      "notes": "Tower-specific identity remains HIGH_CONFIDENCE rather than CONFIRMED."
+    }
+  ],
+  "selected": [
+    {
+      "entity_id": "bgc_building_0001",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0001:height_m:0:0.6",
+        "entity_id": "bgc_building_0001",
+        "property": "height_m",
+        "value": 0.6,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0001:height_m:0:0.6",
+          "entity_id": "bgc_building_0001",
+          "property": "height_m",
+          "value": 0.6,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0002",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0002:height_m:0:0.6",
+        "entity_id": "bgc_building_0002",
+        "property": "height_m",
+        "value": 0.6,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0002:height_m:0:0.6",
+          "entity_id": "bgc_building_0002",
+          "property": "height_m",
+          "value": 0.6,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0003",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0003:name:1:West-Gallery-Place",
+        "entity_id": "bgc_building_0003",
+        "property": "name",
+        "value": "West Gallery Place",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.55,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "OSM_NAME_ONLY",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0003:name:1:West-Gallery-Place",
+          "entity_id": "bgc_building_0003",
+          "property": "name",
+          "value": "West Gallery Place",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.55,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "OSM_NAME_ONLY",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0003",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0003:height_m:1:169.1",
+        "entity_id": "bgc_building_0003",
+        "property": "height_m",
+        "value": 169.1,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "maximum_explicit_osm_building_part_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0003:height_m:1:169.1",
+          "entity_id": "bgc_building_0003",
+          "property": "height_m",
+          "value": 169.1,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "maximum_explicit_osm_building_part_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0003",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0003:floor_count:1:50.0",
+        "entity_id": "bgc_building_0003",
+        "property": "floor_count",
+        "value": 50.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0003:floor_count:1:50.0",
+          "entity_id": "bgc_building_0003",
+          "property": "floor_count",
+          "value": 50.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0004:name:2:One-Maridien",
+        "entity_id": "bgc_building_0004",
+        "property": "name",
+        "value": "One Maridien",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.96,
+        "source_ids": [
+          "source:osm",
+          "source:official-alveo-maridien"
+        ],
+        "method": "EXACT_OFFICIAL_MATCH",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0004:name:2:One-Maridien",
+          "entity_id": "bgc_building_0004",
+          "property": "name",
+          "value": "One Maridien",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.96,
+          "source_ids": [
+            "source:osm",
+            "source:official-alveo-maridien"
+          ],
+          "method": "EXACT_OFFICIAL_MATCH",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0004:height_m:1:152.9",
+        "entity_id": "bgc_building_0004",
+        "property": "height_m",
+        "value": 152.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "maximum_explicit_osm_building_part_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0004:height_m:1:152.9",
+          "entity_id": "bgc_building_0004",
+          "property": "height_m",
+          "value": 152.9,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "maximum_explicit_osm_building_part_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0004:floor_count:1:40.0",
+        "entity_id": "bgc_building_0004",
+        "property": "floor_count",
+        "value": 40.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0004:floor_count:1:40.0",
+          "entity_id": "bgc_building_0004",
+          "property": "floor_count",
+          "value": 40.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0005:name:2:Verve-Residences-Tower-2",
+        "entity_id": "bgc_building_0005",
+        "property": "name",
+        "value": "Verve Residences Tower 2",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.9,
+        "source_ids": [
+          "source:osm",
+          "source:official-alveo-verve"
+        ],
+        "method": "EXACT_OFFICIAL_MATCH",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0005:name:2:Verve-Residences-Tower-2",
+          "entity_id": "bgc_building_0005",
+          "property": "name",
+          "value": "Verve Residences Tower 2",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.9,
+          "source_ids": [
+            "source:osm",
+            "source:official-alveo-verve"
+          ],
+          "method": "EXACT_OFFICIAL_MATCH",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0005:height_m:1:172.0",
+        "entity_id": "bgc_building_0005",
+        "property": "height_m",
+        "value": 172.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "maximum_explicit_osm_building_part_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0005:height_m:1:172.0",
+          "entity_id": "bgc_building_0005",
+          "property": "height_m",
+          "value": 172.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "maximum_explicit_osm_building_part_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0005:floor_count:1:45.0",
+        "entity_id": "bgc_building_0005",
+        "property": "floor_count",
+        "value": 45.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0005:floor_count:1:45.0",
+          "entity_id": "bgc_building_0005",
+          "property": "floor_count",
+          "value": 45.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0006",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0006:height_m:0:12.0",
+        "entity_id": "bgc_building_0006",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0006:height_m:0:12.0",
+          "entity_id": "bgc_building_0006",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0007",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0007:name:3:W-Global-Center",
+        "entity_id": "bgc_building_0007",
+        "property": "name",
+        "value": "W Global Center",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.98,
+        "source_ids": [
+          "source:osm",
+          "source:official-w-group-w-global",
+          "source:wikidata"
+        ],
+        "method": "DIRECT_IDENTIFIER",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0007:name:3:W-Global-Center",
+          "entity_id": "bgc_building_0007",
+          "property": "name",
+          "value": "W Global Center",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.98,
+          "source_ids": [
+            "source:osm",
+            "source:official-w-group-w-global",
+            "source:wikidata"
+          ],
+          "method": "DIRECT_IDENTIFIER",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0007",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0007:height_m:1:30.5",
+        "entity_id": "bgc_building_0007",
+        "property": "height_m",
+        "value": 30.5,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0007:height_m:1:30.5",
+          "entity_id": "bgc_building_0007",
+          "property": "height_m",
+          "value": 30.5,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0007",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0007:floor_count:1:7",
+        "entity_id": "bgc_building_0007",
+        "property": "floor_count",
+        "value": 7,
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.95,
+        "source_ids": [
+          "source:official-w-group-w-global"
+        ],
+        "method": "owner_page_storey_count",
+        "notes": "Owner describes a seven-storey property."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0007:floor_count:1:7",
+          "entity_id": "bgc_building_0007",
+          "property": "floor_count",
+          "value": 7,
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.95,
+          "source_ids": [
+            "source:official-w-group-w-global"
+          ],
+          "method": "owner_page_storey_count",
+          "notes": "Owner describes a seven-storey property."
+        },
+        {
+          "observation_id": "obs:bgc_building_0007:floor_count:1:8.0",
+          "entity_id": "bgc_building_0007",
+          "property": "floor_count",
+          "value": 8.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0008",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0008:name:1:Harlan-+-Holden-Coffee",
+        "entity_id": "bgc_building_0008",
+        "property": "name",
+        "value": "Harlan + Holden Coffee",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.55,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "OSM_NAME_ONLY",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0008:name:1:Harlan-+-Holden-Coffee",
+          "entity_id": "bgc_building_0008",
+          "property": "name",
+          "value": "Harlan + Holden Coffee",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.55,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "OSM_NAME_ONLY",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0008",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0008:height_m:0:3.2",
+        "entity_id": "bgc_building_0008",
+        "property": "height_m",
+        "value": 3.2,
+        "status": "ESTIMATED",
+        "confidence": 0.55,
+        "source_ids": [],
+        "method": "building_levels_x_3.2m",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0008:height_m:0:3.2",
+          "entity_id": "bgc_building_0008",
+          "property": "height_m",
+          "value": 3.2,
+          "status": "ESTIMATED",
+          "confidence": 0.55,
+          "source_ids": [],
+          "method": "building_levels_x_3.2m",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0008",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0008:floor_count:1:1.0",
+        "entity_id": "bgc_building_0008",
+        "property": "floor_count",
+        "value": 1.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0008:floor_count:1:1.0",
+          "entity_id": "bgc_building_0008",
+          "property": "floor_count",
+          "value": 1.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0009",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0009:name:1:C2",
+        "entity_id": "bgc_building_0009",
+        "property": "name",
+        "value": "C2",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0009:name:1:C2",
+          "entity_id": "bgc_building_0009",
+          "property": "name",
+          "value": "C2",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0009",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0009:height_m:0:12.0",
+        "entity_id": "bgc_building_0009",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0009:height_m:0:12.0",
+          "entity_id": "bgc_building_0009",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0010",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0010:name:1:C3",
+        "entity_id": "bgc_building_0010",
+        "property": "name",
+        "value": "C3",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0010:name:1:C3",
+          "entity_id": "bgc_building_0010",
+          "property": "name",
+          "value": "C3",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0010",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0010:height_m:0:6.4",
+        "entity_id": "bgc_building_0010",
+        "property": "height_m",
+        "value": 6.4,
+        "status": "ESTIMATED",
+        "confidence": 0.55,
+        "source_ids": [],
+        "method": "building_levels_x_3.2m",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0010:height_m:0:6.4",
+          "entity_id": "bgc_building_0010",
+          "property": "height_m",
+          "value": 6.4,
+          "status": "ESTIMATED",
+          "confidence": 0.55,
+          "source_ids": [],
+          "method": "building_levels_x_3.2m",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0010",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0010:floor_count:1:2.0",
+        "entity_id": "bgc_building_0010",
+        "property": "floor_count",
+        "value": 2.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0010:floor_count:1:2.0",
+          "entity_id": "bgc_building_0010",
+          "property": "floor_count",
+          "value": 2.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0011:name:1:C1",
+        "entity_id": "bgc_building_0011",
+        "property": "name",
+        "value": "C1",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0011:name:1:C1",
+          "entity_id": "bgc_building_0011",
+          "property": "name",
+          "value": "C1",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0011:height_m:1:10.1",
+        "entity_id": "bgc_building_0011",
+        "property": "height_m",
+        "value": 10.1,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0011:height_m:1:10.1",
+          "entity_id": "bgc_building_0011",
+          "property": "height_m",
+          "value": 10.1,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0011:floor_count:1:2.0",
+        "entity_id": "bgc_building_0011",
+        "property": "floor_count",
+        "value": 2.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0011:floor_count:1:2.0",
+          "entity_id": "bgc_building_0011",
+          "property": "floor_count",
+          "value": 2.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0012",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0012:name:1:Maybank",
+        "entity_id": "bgc_building_0012",
+        "property": "name",
+        "value": "Maybank",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0012:name:1:Maybank",
+          "entity_id": "bgc_building_0012",
+          "property": "name",
+          "value": "Maybank",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0012",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0012:height_m:0:12.0",
+        "entity_id": "bgc_building_0012",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0012:height_m:0:12.0",
+          "entity_id": "bgc_building_0012",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0013",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0013:name:1:Live-Street",
+        "entity_id": "bgc_building_0013",
+        "property": "name",
+        "value": "Live Street",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.55,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "OSM_NAME_ONLY",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0013:name:1:Live-Street",
+          "entity_id": "bgc_building_0013",
+          "property": "name",
+          "value": "Live Street",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.55,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "OSM_NAME_ONLY",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0013",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0013:height_m:0:12.0",
+        "entity_id": "bgc_building_0013",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0013:height_m:0:12.0",
+          "entity_id": "bgc_building_0013",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0014",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0014:name:2:Central-Square",
+        "entity_id": "bgc_building_0014",
+        "property": "name",
+        "value": "Central Square",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.97,
+        "source_ids": [
+          "source:osm",
+          "source:official-ssi-central-square"
+        ],
+        "method": "EXACT_OFFICIAL_MATCH",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0014:name:2:Central-Square",
+          "entity_id": "bgc_building_0014",
+          "property": "name",
+          "value": "Central Square",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.97,
+          "source_ids": [
+            "source:osm",
+            "source:official-ssi-central-square"
+          ],
+          "method": "EXACT_OFFICIAL_MATCH",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0014",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0014:height_m:1:25.9",
+        "entity_id": "bgc_building_0014",
+        "property": "height_m",
+        "value": 25.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0014:height_m:1:25.9",
+          "entity_id": "bgc_building_0014",
+          "property": "height_m",
+          "value": 25.9,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0014",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0014:floor_count:1:5.0",
+        "entity_id": "bgc_building_0014",
+        "property": "floor_count",
+        "value": 5.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0014:floor_count:1:5.0",
+          "entity_id": "bgc_building_0014",
+          "property": "floor_count",
+          "value": 5.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0015:name:3:JY-Campos-Centre",
+        "entity_id": "bgc_building_0015",
+        "property": "name",
+        "value": "JY Campos Centre",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.99,
+        "source_ids": [
+          "source:osm",
+          "source:official-del-monte-jy-campos",
+          "source:government-jy-campos-proclamation"
+        ],
+        "method": "EXACT_OFFICIAL_MATCH",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0015:name:3:JY-Campos-Centre",
+          "entity_id": "bgc_building_0015",
+          "property": "name",
+          "value": "JY Campos Centre",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.99,
+          "source_ids": [
+            "source:osm",
+            "source:official-del-monte-jy-campos",
+            "source:government-jy-campos-proclamation"
+          ],
+          "method": "EXACT_OFFICIAL_MATCH",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0015:height_m:1:45.9",
+        "entity_id": "bgc_building_0015",
+        "property": "height_m",
+        "value": 45.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0015:height_m:1:45.9",
+          "entity_id": "bgc_building_0015",
+          "property": "height_m",
+          "value": 45.9,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0015:floor_count:1:12.0",
+        "entity_id": "bgc_building_0015",
+        "property": "floor_count",
+        "value": 12.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0015:floor_count:1:12.0",
+          "entity_id": "bgc_building_0015",
+          "property": "floor_count",
+          "value": 12.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0016",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0016:name:1:B:3",
+        "entity_id": "bgc_building_0016",
+        "property": "name",
+        "value": "B:3",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.55,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "AMBIGUOUS_DUPLICATE_NAME",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0016:name:1:B:3",
+          "entity_id": "bgc_building_0016",
+          "property": "name",
+          "value": "B:3",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.55,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "AMBIGUOUS_DUPLICATE_NAME",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0016",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0016:height_m:0:12.0",
+        "entity_id": "bgc_building_0016",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0016:height_m:0:12.0",
+          "entity_id": "bgc_building_0016",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0017",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0017:name:1:B:3",
+        "entity_id": "bgc_building_0017",
+        "property": "name",
+        "value": "B:3",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.55,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "AMBIGUOUS_DUPLICATE_NAME",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0017:name:1:B:3",
+          "entity_id": "bgc_building_0017",
+          "property": "name",
+          "value": "B:3",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.55,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "AMBIGUOUS_DUPLICATE_NAME",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0017",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0017:height_m:0:12.0",
+        "entity_id": "bgc_building_0017",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0017:height_m:0:12.0",
+          "entity_id": "bgc_building_0017",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0018",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0018:name:1:B:8",
+        "entity_id": "bgc_building_0018",
+        "property": "name",
+        "value": "B:8",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0018:name:1:B:8",
+          "entity_id": "bgc_building_0018",
+          "property": "name",
+          "value": "B:8",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0018",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0018:height_m:0:12.0",
+        "entity_id": "bgc_building_0018",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0018:height_m:0:12.0",
+          "entity_id": "bgc_building_0018",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0019",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0019:name:1:Honda-Cars-Global-City",
+        "entity_id": "bgc_building_0019",
+        "property": "name",
+        "value": "Honda Cars Global City",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0019:name:1:Honda-Cars-Global-City",
+          "entity_id": "bgc_building_0019",
+          "property": "name",
+          "value": "Honda Cars Global City",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0019",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0019:height_m:0:12.0",
+        "entity_id": "bgc_building_0019",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0019:height_m:0:12.0",
+          "entity_id": "bgc_building_0019",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0020",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0020:name:1:B:5",
+        "entity_id": "bgc_building_0020",
+        "property": "name",
+        "value": "B:5",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0020:name:1:B:5",
+          "entity_id": "bgc_building_0020",
+          "property": "name",
+          "value": "B:5",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0020",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0020:height_m:0:12.0",
+        "entity_id": "bgc_building_0020",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0020:height_m:0:12.0",
+          "entity_id": "bgc_building_0020",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0021",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0021:name:1:B:2",
+        "entity_id": "bgc_building_0021",
+        "property": "name",
+        "value": "B:2",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0021:name:1:B:2",
+          "entity_id": "bgc_building_0021",
+          "property": "name",
+          "value": "B:2",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0021",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0021:height_m:0:12.0",
+        "entity_id": "bgc_building_0021",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0021:height_m:0:12.0",
+          "entity_id": "bgc_building_0021",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0022",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0022:name:1:B:1",
+        "entity_id": "bgc_building_0022",
+        "property": "name",
+        "value": "B:1",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0022:name:1:B:1",
+          "entity_id": "bgc_building_0022",
+          "property": "name",
+          "value": "B:1",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0022",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0022:height_m:0:12.0",
+        "entity_id": "bgc_building_0022",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0022:height_m:0:12.0",
+          "entity_id": "bgc_building_0022",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0023",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0023:name:1:Active-Fun-Building",
+        "entity_id": "bgc_building_0023",
+        "property": "name",
+        "value": "Active Fun Building",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0023:name:1:Active-Fun-Building",
+          "entity_id": "bgc_building_0023",
+          "property": "name",
+          "value": "Active Fun Building",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0023",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0023:height_m:0:12.0",
+        "entity_id": "bgc_building_0023",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0023:height_m:0:12.0",
+          "entity_id": "bgc_building_0023",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0024",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0024:name:1:One-Parkade",
+        "entity_id": "bgc_building_0024",
+        "property": "name",
+        "value": "One Parkade",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0024:name:1:One-Parkade",
+          "entity_id": "bgc_building_0024",
+          "property": "name",
+          "value": "One Parkade",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0024",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0024:height_m:0:12.0",
+        "entity_id": "bgc_building_0024",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0024:height_m:0:12.0",
+          "entity_id": "bgc_building_0024",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0025",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0025:name:1:Two-Parkade",
+        "entity_id": "bgc_building_0025",
+        "property": "name",
+        "value": "Two Parkade",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0025:name:1:Two-Parkade",
+          "entity_id": "bgc_building_0025",
+          "property": "name",
+          "value": "Two Parkade",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0025",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0025:height_m:0:12.0",
+        "entity_id": "bgc_building_0025",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0025:height_m:0:12.0",
+          "entity_id": "bgc_building_0025",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0026",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0026:name:1:Police-Community-Precinct---7",
+        "entity_id": "bgc_building_0026",
+        "property": "name",
+        "value": "Police Community Precinct - 7",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0026:name:1:Police-Community-Precinct---7",
+          "entity_id": "bgc_building_0026",
+          "property": "name",
+          "value": "Police Community Precinct - 7",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0026",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0026:height_m:0:12.0",
+        "entity_id": "bgc_building_0026",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0026:height_m:0:12.0",
+          "entity_id": "bgc_building_0026",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0027:name:1:Uniqlo",
+        "entity_id": "bgc_building_0027",
+        "property": "name",
+        "value": "Uniqlo",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0027:name:1:Uniqlo",
+          "entity_id": "bgc_building_0027",
+          "property": "name",
+          "value": "Uniqlo",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0027:height_m:0:12.8",
+        "entity_id": "bgc_building_0027",
+        "property": "height_m",
+        "value": 12.8,
+        "status": "ESTIMATED",
+        "confidence": 0.55,
+        "source_ids": [],
+        "method": "building_levels_x_3.2m",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0027:height_m:0:12.8",
+          "entity_id": "bgc_building_0027",
+          "property": "height_m",
+          "value": 12.8,
+          "status": "ESTIMATED",
+          "confidence": 0.55,
+          "source_ids": [],
+          "method": "building_levels_x_3.2m",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0027:floor_count:1:4.0",
+        "entity_id": "bgc_building_0027",
+        "property": "floor_count",
+        "value": 4.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0027:floor_count:1:4.0",
+          "entity_id": "bgc_building_0027",
+          "property": "floor_count",
+          "value": 4.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0028",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0028:name:1:Bench",
+        "entity_id": "bgc_building_0028",
+        "property": "name",
+        "value": "Bench",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.8,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "MULTI_SIGNAL_AUTOMATIC",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0028:name:1:Bench",
+          "entity_id": "bgc_building_0028",
+          "property": "name",
+          "value": "Bench",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "MULTI_SIGNAL_AUTOMATIC",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0028",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0028:height_m:0:12.0",
+        "entity_id": "bgc_building_0028",
+        "property": "height_m",
+        "value": 12.0,
+        "status": "PROCEDURAL",
+        "confidence": 0.15,
+        "source_ids": [],
+        "method": "diagnostic_type_fallback",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0028:height_m:0:12.0",
+          "entity_id": "bgc_building_0028",
+          "property": "height_m",
+          "value": 12.0,
+          "status": "PROCEDURAL",
+          "confidence": 0.15,
+          "source_ids": [],
+          "method": "diagnostic_type_fallback",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0029",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0029:name:1:Alveo-High-Street-South-Block",
+        "entity_id": "bgc_building_0029",
+        "property": "name",
+        "value": "Alveo High Street South Block",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.55,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "OSM_NAME_ONLY",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0029:name:1:Alveo-High-Street-South-Block",
+          "entity_id": "bgc_building_0029",
+          "property": "name",
+          "value": "Alveo High Street South Block",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.55,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "OSM_NAME_ONLY",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0029",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0029:height_m:1:38.2",
+        "entity_id": "bgc_building_0029",
+        "property": "height_m",
+        "value": 38.2,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0029:height_m:1:38.2",
+          "entity_id": "bgc_building_0029",
+          "property": "height_m",
+          "value": 38.2,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0029",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0029:floor_count:1:10.0",
+        "entity_id": "bgc_building_0029",
+        "property": "floor_count",
+        "value": 10.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0029:floor_count:1:10.0",
+          "entity_id": "bgc_building_0029",
+          "property": "floor_count",
+          "value": 10.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0030",
+      "property": "name",
+      "selected": {
+        "observation_id": "obs:bgc_building_0030:name:1:Mariano-K.-Tan-Center",
+        "entity_id": "bgc_building_0030",
+        "property": "name",
+        "value": "Mariano K. Tan Center",
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.55,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "OSM_NAME_ONLY",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0030:name:1:Mariano-K.-Tan-Center",
+          "entity_id": "bgc_building_0030",
+          "property": "name",
+          "value": "Mariano K. Tan Center",
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.55,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "OSM_NAME_ONLY",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0030",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0030:height_m:1:45.9",
+        "entity_id": "bgc_building_0030",
+        "property": "height_m",
+        "value": 45.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "maximum_explicit_osm_building_part_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0030:height_m:1:45.9",
+          "entity_id": "bgc_building_0030",
+          "property": "height_m",
+          "value": 45.9,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "maximum_explicit_osm_building_part_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0030",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0030:floor_count:1:12.0",
+        "entity_id": "bgc_building_0030",
+        "property": "floor_count",
+        "value": 12.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0030:floor_count:1:12.0",
+          "entity_id": "bgc_building_0030",
+          "property": "floor_count",
+          "value": 12.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0031",
+      "property": "height_m",
+      "selected": {
+        "observation_id": "obs:bgc_building_0031:height_m:1:31.1",
+        "entity_id": "bgc_building_0031",
+        "property": "height_m",
+        "value": 31.1,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_height",
+        "notes": "Canonical maximum uses explicit building-part height when applicable."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0031:height_m:1:31.1",
+          "entity_id": "bgc_building_0031",
+          "property": "height_m",
+          "value": 31.1,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_height",
+          "notes": "Canonical maximum uses explicit building-part height when applicable."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0031",
+      "property": "floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0031:floor_count:1:6.0",
+        "entity_id": "bgc_building_0031",
+        "property": "floor_count",
+        "value": 6.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "confidence": 0.65,
+        "source_ids": [
+          "source:osm"
+        ],
+        "method": "osm_building_levels",
+        "notes": "OSM building:levels semantics; not an independent survey."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0031:floor_count:1:6.0",
+          "entity_id": "bgc_building_0031",
+          "property": "floor_count",
+          "value": 6.0,
+          "status": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.65,
+          "source_ids": [
+            "source:osm"
+          ],
+          "method": "osm_building_levels",
+          "notes": "OSM building:levels semantics; not an independent survey."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0014",
+      "property": "retail_floor_count",
+      "selected": {
+        "observation_id": "obs:bgc_building_0014:retail_floor_count:1:3",
+        "entity_id": "bgc_building_0014",
+        "property": "retail_floor_count",
+        "value": 3,
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.95,
+        "source_ids": [
+          "source:official-ssi-central-square"
+        ],
+        "method": "operator_page",
+        "notes": "Operator distinguishes three retail floors, two basement floors, and one cinema floor."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0014:retail_floor_count:1:3",
+          "entity_id": "bgc_building_0014",
+          "property": "retail_floor_count",
+          "value": 3,
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.95,
+          "source_ids": [
+            "source:official-ssi-central-square"
+          ],
+          "method": "operator_page",
+          "notes": "Operator distinguishes three retail floors, two basement floors, and one cinema floor."
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0014",
+      "property": "opening_date",
+      "selected": {
+        "observation_id": "obs:bgc_building_0014:opening_date:1:2014-06",
+        "entity_id": "bgc_building_0014",
+        "property": "opening_date",
+        "value": "2014-06",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.95,
+        "source_ids": [
+          "source:official-ssi-central-square"
+        ],
+        "method": "operator_page",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0014:opening_date:1:2014-06",
+          "entity_id": "bgc_building_0014",
+          "property": "opening_date",
+          "value": "2014-06",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.95,
+          "source_ids": [
+            "source:official-ssi-central-square"
+          ],
+          "method": "operator_page",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "property": "official_address",
+      "selected": {
+        "observation_id": "obs:bgc_building_0015:official_address:2:9th-Avenue-corner-30th-Street,-Bonifacio-Global-City,-Taguig-City",
+        "entity_id": "bgc_building_0015",
+        "property": "official_address",
+        "value": "9th Avenue corner 30th Street, Bonifacio Global City, Taguig City",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.99,
+        "source_ids": [
+          "source:official-del-monte-jy-campos",
+          "source:government-jy-campos-proclamation"
+        ],
+        "method": "official_address_match",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0015:official_address:2:9th-Avenue-corner-30th-Street,-Bonifacio-Global-City,-Taguig-City",
+          "entity_id": "bgc_building_0015",
+          "property": "official_address",
+          "value": "9th Avenue corner 30th Street, Bonifacio Global City, Taguig City",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.99,
+          "source_ids": [
+            "source:official-del-monte-jy-campos",
+            "source:government-jy-campos-proclamation"
+          ],
+          "method": "official_address_match",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "property": "gross_floor_area_m2",
+      "selected": {
+        "observation_id": "obs:bgc_building_0015:gross_floor_area_m2:1:19693.55",
+        "entity_id": "bgc_building_0015",
+        "property": "gross_floor_area_m2",
+        "value": 19693.55,
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.99,
+        "source_ids": [
+          "source:government-jy-campos-proclamation"
+        ],
+        "method": "government_proclamation",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0015:gross_floor_area_m2:1:19693.55",
+          "entity_id": "bgc_building_0015",
+          "property": "gross_floor_area_m2",
+          "value": 19693.55,
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.99,
+          "source_ids": [
+            "source:government-jy-campos-proclamation"
+          ],
+          "method": "government_proclamation",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "property": "development",
+      "selected": {
+        "observation_id": "obs:bgc_building_0004:development:1:High-Street-South",
+        "entity_id": "bgc_building_0004",
+        "property": "development",
+        "value": "High Street South",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.95,
+        "source_ids": [
+          "source:official-alveo-maridien"
+        ],
+        "method": "developer_page",
+        "notes": null
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0004:development:1:High-Street-South",
+          "entity_id": "bgc_building_0004",
+          "property": "development",
+          "value": "High Street South",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.95,
+          "source_ids": [
+            "source:official-alveo-maridien"
+          ],
+          "method": "developer_page",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "property": "development",
+      "selected": {
+        "observation_id": "obs:bgc_building_0005:development:1:High-Street-South-–-Verve-Residences",
+        "entity_id": "bgc_building_0005",
+        "property": "development",
+        "value": "High Street South – Verve Residences",
+        "status": "VERIFIED_AUTHORITATIVE",
+        "confidence": 0.9,
+        "source_ids": [
+          "source:official-alveo-verve"
+        ],
+        "method": "developer_page",
+        "notes": "Tower-specific identity remains HIGH_CONFIDENCE rather than CONFIRMED."
+      },
+      "conflicted": false,
+      "candidates": [
+        {
+          "observation_id": "obs:bgc_building_0005:development:1:High-Street-South-–-Verve-Residences",
+          "entity_id": "bgc_building_0005",
+          "property": "development",
+          "value": "High Street South – Verve Residences",
+          "status": "VERIFIED_AUTHORITATIVE",
+          "confidence": 0.9,
+          "source_ids": [
+            "source:official-alveo-verve"
+          ],
+          "method": "developer_page",
+          "notes": "Tower-specific identity remains HIGH_CONFIDENCE rather than CONFIRMED."
+        }
+      ]
+    }
+  ]
+}

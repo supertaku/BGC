@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "methodology": {
+    "build": "Next.js production",
+    "viewport_css_px": [759, 742],
+    "device_pixel_ratio": 1,
+    "warmup_ms": 5000,
+    "measurement_ms": 15000,
+    "sampling": "requestAnimationFrame intervals",
+    "renderer_metrics": "Three.js WebGLRenderer.info",
+    "changed_from_m8": false
+  },
+  "asset": {
+    "bytes": 1033348,
+    "triangles": 21096,
+    "vertices": 34461,
+    "meshes": 71,
+    "materials": 17
+  },
+  "scenes": {
+    "PILOT_OVERVIEW": {"view_id":"overview","mean_fps":165.20,"median_fps":163.93,"p1_low_fps":151.52,"draw_calls":71,"visible_triangles":21096,"load_ms_observed":407},
+    "CENTRAL_SQUARE_NEAR": {"view_id":"central-square","mean_fps":165.21,"median_fps":163.93,"p1_low_fps":151.52,"draw_calls":40,"visible_triangles":19536,"load_ms_observed":381},
+    "CENTRAL_SQUARE_STREET": {"view_id":"central-square-street","mean_fps":165.14,"median_fps":163.93,"p1_low_fps":153.85,"draw_calls":31,"visible_triangles":19344,"load_ms_observed":385},
+    "W_GLOBAL_NEAR": {"view_id":"w-global-near","mean_fps":165.35,"median_fps":163.93,"p1_low_fps":153.85,"draw_calls":24,"visible_triangles":20028,"load_ms_observed":383},
+    "W_GLOBAL_STREET": {"view_id":"w-global-street","mean_fps":165.22,"median_fps":163.93,"p1_low_fps":151.52,"draw_calls":33,"visible_triangles":20292,"load_ms_observed":394}
+  },
+  "console_warning_error_count": 0,
+  "comparison": {
+    "m8_overview_median_fps": 163.93,
+    "m9_overview_median_fps": 163.93,
+    "matched_environment_fps_regression": false,
+    "draw_call_growth_percent": 18.33,
+    "draw_call_status": "WARNING_BELOW_FAILURE_THRESHOLD"
+  }
+}

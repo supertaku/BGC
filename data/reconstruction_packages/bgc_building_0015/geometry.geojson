@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_building_0015",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "source_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:242294490",
+      "properties": {
+        "id": "osm:way:242294490",
+        "source_ids": [
+          "osm:way:242294490",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "JY Campos Center",
+        "feature_kind": "building_outline",
+        "height_m": 45.9,
+        "min_height_m": 0.0,
+        "levels": 12.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1879.16,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:district": "Bonifacio Global City",
+          "addr:street": "30th Street",
+          "addr:street:corner": "9th Avenue",
+          "alt_name": "J.Y. Campos Center",
+          "building": "office",
+          "building:levels": "12",
+          "height": "45.9",
+          "name": "JY Campos Center"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              63.049,
+              75.864
+            ],
+            [
+              23.957,
+              88.958
+            ],
+            [
+              9.317,
+              45.791
+            ],
+            [
+              48.408,
+              32.697
+            ],
+            [
+              63.049,
+              75.864
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

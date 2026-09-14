@@ -1,0 +1,208 @@
+{
+  "world_id": "bgc-pilot-base-v1",
+  "title": "Bonifacio High Street central core pilot",
+  "coordinate_system": {
+    "source": "EPSG:4326",
+    "projected": "EPSG:32651",
+    "local_origin": [
+      121.050972,
+      14.550806
+    ],
+    "blender_axes": "X east, Y north, Z up",
+    "viewer_axes": "Blender glTF exporter conversion; no viewer correction"
+  },
+  "asset": {
+    "url": "/models/bgc-pilot-base.glb",
+    "size_bytes": 1208880,
+    "triangles": 23796,
+    "meshes": 76,
+    "materials": 27,
+    "central_square_lod": "LOD1",
+    "w_global_center_lod": "LOD1",
+    "reconstructed_lod1_entities": [
+      "bgc_building_0014",
+      "bgc_building_0007",
+      "bgc_building_0004",
+      "bgc_building_0015",
+      "bgc_building_0005",
+      "bgc_building_0027",
+      "bgc_building_0011"
+    ]
+  },
+  "viewpoints": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "position": [
+        260,
+        310,
+        360
+      ],
+      "target": [
+        -134,
+        24,
+        26
+      ]
+    },
+    {
+      "id": "high-street",
+      "label": "High Street",
+      "position": [
+        -90,
+        16,
+        170
+      ],
+      "target": [
+        -120,
+        12,
+        10
+      ]
+    },
+    {
+      "id": "ninth-avenue",
+      "label": "9th Avenue",
+      "position": [
+        45,
+        16,
+        55
+      ],
+      "target": [
+        58,
+        12,
+        -68
+      ]
+    },
+    {
+      "id": "central-square",
+      "label": "Central Square",
+      "position": [
+        -248,
+        20,
+        -275
+      ],
+      "target": [
+        -268,
+        11,
+        -122
+      ]
+    },
+    {
+      "id": "central-square-street",
+      "label": "Central Square Street",
+      "position": [
+        -289,
+        8,
+        30
+      ],
+      "target": [
+        -268,
+        11,
+        -122
+      ]
+    },
+    {
+      "id": "w-global-near",
+      "label": "W Global Center",
+      "position": [
+        35,
+        20,
+        -112
+      ],
+      "target": [
+        98,
+        14,
+        -40
+      ]
+    },
+    {
+      "id": "w-global-street",
+      "label": "W Global Center Street",
+      "position": [
+        104,
+        12,
+        -150
+      ],
+      "target": [
+        104,
+        14,
+        -52
+      ]
+    },
+    {
+      "id": "building-0004",
+      "label": "One Maridien",
+      "position": [
+        19.975,
+        68.805,
+        323.748
+      ],
+      "target": [
+        -79.41,
+        58.102,
+        224.363
+      ]
+    },
+    {
+      "id": "building-0015",
+      "label": "JY Campos Centre",
+      "position": [
+        91.183,
+        20.655,
+        -5.828
+      ],
+      "target": [
+        36.183,
+        17.442,
+        -60.828
+      ]
+    },
+    {
+      "id": "building-0005",
+      "label": "Verve Residences Tower 2",
+      "position": [
+        -62.022,
+        77.4,
+        304.922
+      ],
+      "target": [
+        -173.822,
+        65.36,
+        193.122
+      ]
+    },
+    {
+      "id": "building-0027",
+      "label": "Uniqlo",
+      "position": [
+        -90.169,
+        16,
+        -69.334
+      ],
+      "target": [
+        -145.169,
+        4.864,
+        -124.334
+      ]
+    },
+    {
+      "id": "building-0011",
+      "label": "C1",
+      "position": [
+        -254.232,
+        16,
+        21.515
+      ],
+      "target": [
+        -309.232,
+        3.838,
+        -33.485
+      ]
+    }
+  ],
+  "attribution": {
+    "text": "© OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/copyright",
+    "license": "ODbL 1.0",
+    "license_url": "https://opendatacommons.org/licenses/odbl/1-0/"
+  }
+}

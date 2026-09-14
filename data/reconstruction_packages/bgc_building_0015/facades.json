@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0015",
+  "facades": [
+    {
+      "facade_id": "0015:facade:perimeter",
+      "orientation": "PERIMETER",
+      "major_segments": [
+        "Mid-rise office block with a repeating perforated geometric screen and ground-level commercial frontage."
+      ],
+      "floor_alignment": "APPROXIMATE_VISIBLE_RHYTHM",
+      "bay_count": "APPROXIMATE",
+      "opening_pattern": "normalized edge-local bands",
+      "material_regions": [
+        "mat:primary",
+        "mat:glass",
+        "mat:storefront",
+        "mat:roof"
+      ],
+      "entrances": [],
+      "setbacks": [
+        "mapped outline and parts only"
+      ],
+      "confidence": 0.65,
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:official:jy-campos-contact",
+        "ref:government:jy-campos",
+        "ref:web:csya-jy-campos",
+        "ref:web:savills-jy-campos"
+      ],
+      "coverage_rating": "PARTIAL"
+    }
+  ]
+}

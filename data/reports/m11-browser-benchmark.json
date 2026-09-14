@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "viewer": "web/components/SceneViewer.tsx",
+  "tile_loading": "ALL_LOADED",
+  "initial_transfer_bytes": 15580452,
+  "environment": {
+    "browser": "Chrome 152",
+    "viewport": "1280x720",
+    "device_pixel_ratio": 1.25,
+    "logical_cpu_count": 16,
+    "device_memory_gb": 16,
+    "gpu": "ANGLE Intel Iris Xe Graphics, Direct3D11"
+  },
+  "scenarios": [
+    {
+      "id": "bgc-aerial-full",
+      "load_time_ms": 1733,
+      "mean_fps": 156.69,
+      "median_fps": 156.25,
+      "p1_low_fps": 91.74,
+      "draw_calls": 557,
+      "triangles": 310388,
+      "geometries": 566,
+      "textures": 0
+    },
+    {
+      "id": "bgc-high-street",
+      "load_time_ms": 789,
+      "mean_fps": 167.9,
+      "median_fps": 163.93,
+      "p1_low_fps": 100.0,
+      "draw_calls": 233,
+      "triangles": 147684,
+      "geometries": 239,
+      "textures": 0
+    },
+    {
+      "id": "bgc-south-street",
+      "load_time_ms": 784,
+      "mean_fps": 159.3,
+      "median_fps": 161.29,
+      "p1_low_fps": 82.64,
+      "draw_calls": 394,
+      "triangles": 238092,
+      "geometries": 403,
+      "textures": 0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_003_001",
+  "input_sha256": "beb75ba405ac2ff8c87db8b7192538479ccc910687d773e661ce6452d270646b",
+  "output_sha256": "e1a0b52fe889972a67be282de1e13fb33783e6790d44f4de317d061bbe311b84",
+  "building_count": 3,
+  "render_volume_count": 3,
+  "mesh_count": 4,
+  "triangle_count": 692,
+  "material_count": 4,
+  "bytes": 36360,
+  "entities": [
+    {
+      "entity_id": "osm:way:1069805464",
+      "source_feature_id": "osm:way:1069805464",
+      "name": null,
+      "height_m": 95.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:565146106",
+      "source_feature_id": "osm:way:565146106",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:565146107",
+      "source_feature_id": "osm:way:565146107",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

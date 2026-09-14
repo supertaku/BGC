@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_002_008",
+  "input_sha256": "b3f729bcaa2ee0d77a6aaf889eab7a2cdd3e8605000fd0bb2ae56b573f32b8b2",
+  "output_sha256": "a81e288c79cf0c43a79bb890dc75bd05d7b4a05b0349b827740281cc12320885",
+  "building_count": 18,
+  "render_volume_count": 24,
+  "mesh_count": 8,
+  "triangle_count": 5168,
+  "material_count": 8,
+  "bytes": 243088,
+  "entities": [
+    {
+      "entity_id": "osm:relation:5487985",
+      "source_feature_id": "osm:relation:5487985",
+      "name": null,
+      "height_m": 9.6,
+      "height_status": "ESTIMATED",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:117326412",
+      "source_feature_id": "osm:way:117326412",
+      "name": "Shell Select",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27665249",
+      "source_feature_id": "osm:way:27665249",
+      "name": "Bonifacio Technology Center",
+      "height_m": 10.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27913048",
+      "source_feature_id": "osm:way:27913048",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:291211316",
+      "source_feature_id": "osm:way:291211316",
+      "name": "Shell",
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32487622",
+      "source_feature_id": "osm:way:32487622",
+      "name": "The Grand Hamptons Tower II",
+      "height_m": 76.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32487627",
+      "source_feature_id": "osm:way:1069827310",
+      "name": null,
+      "height_m": 76.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32487627",
+      "source_feature_id": "osm:way:32487627",
+      "name": "The Grand Hamptons Tower I",
+      "height_m": 10.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:32487630",
+      "source_feature_id": "osm:way:1069827311",
+      "name": null,
+      "height_m": 107.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32487630",
+      "source_feature_id": "osm:way:32487630",
+      "name": "Fort Palm Springs",
+      "height_m": 26.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:32487836",
+      "source_feature_id": "osm:way:1069827301",
+      "name": null,
+      "height_m": 99.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32487836",
+      "source_feature_id": "osm:way:32487836",
+      "name": "Sapphire Residences",
+      "height_m": 10.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:32487838",
+      "source_feature_id": "osm:way:32487838",
+      "name": "Space 2000",
+      "height_m": 13.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:38063488",
+      "source_feature_id": "osm:way:38063488",
+      "name": "Bonifacio One Technology Tower",
+      "height_m": 110.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:51354823",
+      "source_feature_id": "osm:way:51354823",
+      "name": "Ascendas Tower",
+      "height_m": 103.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:51355119",
+      "source_feature_id": "osm:way:51355119",
+      "name": "The Fort Residences",
+      "height_m": 7.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:51355119",
+      "source_feature_id": "osm:way:538342730",
+      "name": null,
+      "height_m": 107.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:538344758",
+      "source_feature_id": "osm:way:538344758",
+      "name": "Bonifacio Stop Over Corporate Center",
+      "height_m": 72.6,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:71124744",
+      "source_feature_id": "osm:way:71124744",
+      "name": "Bench Tower",
+      "height_m": 87.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:74687617",
+      "source_feature_id": "osm:way:1069827309",
+      "name": "Blue Sapphire Residences",
+      "height_m": 107.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:74687617",
+      "source_feature_id": "osm:way:74687617",
+      "name": "Blue Sapphire Residences",
+      "height_m": 11.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:74846182",
+      "source_feature_id": "osm:way:538342729",
+      "name": null,
+      "height_m": 107.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:74846182",
+      "source_feature_id": "osm:way:74846182",
+      "name": "Crescent Park Residences",
+      "height_m": 11.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:80323775",
+      "source_feature_id": "osm:way:80323775",
+      "name": "Bonifacio Stopover",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

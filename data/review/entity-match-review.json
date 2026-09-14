@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-10T18:38:44.267584+00:00",
+  "items": [
+    {
+      "review_id": "review:entity:osm-way-469908149",
+      "candidate": "osm:way:469908149",
+      "possible_entity_id": null,
+      "evidence": [
+        "No containing outline in pilot",
+        "Feature is tagged building:part"
+      ],
+      "recommended_action": "REVIEW_PARENT_OUTSIDE_PILOT"
+    },
+    {
+      "review_id": "review:entity:bench-b5",
+      "candidate": "osm:way:603380324",
+      "possible_entity_id": "bgc_building_0020",
+      "evidence": [
+        "Footprint is fully contained by B:5",
+        "addr:housename says B:5, Bonifacio High Street",
+        "Name/brand identifies a tenant"
+      ],
+      "recommended_action": "KEEP_CHILD_ENTITY_REVIEW_BUILDING_VS_TENANT"
+    },
+    {
+      "review_id": "review:entity:duplicate-b-3",
+      "candidate": "b 3",
+      "possible_entity_ids": [
+        "bgc_building_0016",
+        "bgc_building_0017"
+      ],
+      "evidence": [
+        "Canonical/OSM name is shared by multiple distinct footprints"
+      ],
+      "recommended_action": "REVIEW_ALIAS_DISAMBIGUATION"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0001",
+      "candidate": [
+        "osm:relation:13512337"
+      ],
+      "possible_entity_id": "bgc_building_0001",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "RESEARCH_IDENTITY"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0002",
+      "candidate": [
+        "osm:relation:13512338"
+      ],
+      "possible_entity_id": "bgc_building_0002",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "RESEARCH_IDENTITY"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0003",
+      "candidate": "West Gallery Place",
+      "possible_entity_id": "bgc_building_0003",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "REVIEW"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0006",
+      "candidate": [
+        "osm:way:1278985505"
+      ],
+      "possible_entity_id": "bgc_building_0006",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "RESEARCH_IDENTITY"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0008",
+      "candidate": "Harlan + Holden Coffee",
+      "possible_entity_id": "bgc_building_0008",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "REVIEW"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0013",
+      "candidate": "Live Street",
+      "possible_entity_id": "bgc_building_0013",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "REVIEW"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0016",
+      "candidate": "B:3",
+      "possible_entity_id": "bgc_building_0016",
+      "evidence": [
+        "OSM tags and footprint location",
+        "Name is shared by multiple distinct pilot footprints."
+      ],
+      "recommended_action": "REVIEW"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0017",
+      "candidate": "B:3",
+      "possible_entity_id": "bgc_building_0017",
+      "evidence": [
+        "OSM tags and footprint location",
+        "Name is shared by multiple distinct pilot footprints."
+      ],
+      "recommended_action": "REVIEW"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0029",
+      "candidate": "Alveo High Street South Block",
+      "possible_entity_id": "bgc_building_0029",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "REVIEW"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0030",
+      "candidate": "Mariano K. Tan Center",
+      "possible_entity_id": "bgc_building_0030",
+      "evidence": [
+        "OSM tags and footprint location"
+      ],
+      "recommended_action": "REVIEW"
+    },
+    {
+      "review_id": "review:identity:bgc_building_0031",
+      "candidate": [
+        "osm:way:469908149"
+      ],
+      "possible_entity_id": "bgc_building_0031",
+      "evidence": [
+        "Part intersects no in-pilot building outline; its parent may lie outside the clipped pilot."
+      ],
+      "recommended_action": "RESEARCH_IDENTITY"
+    }
+  ]
+}

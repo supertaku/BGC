@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bgc/qa-discrepancy-1.0.schema.json",
+  "title": "BGC reconstruction QA discrepancy",
+  "type": "object",
+  "required": ["discrepancy_id", "camera_id", "component_id", "category", "cause", "severity", "description", "evidence_ids", "status", "resolution"],
+  "properties": {
+    "discrepancy_id": {"type": "string", "minLength": 1},
+    "camera_id": {"type": "string", "minLength": 1},
+    "component_id": {"type": ["string", "null"]},
+    "category": {"type": "string", "minLength": 1},
+    "cause": {"enum": ["IMPLEMENTATION_ERROR", "INTERPRETATION_ERROR", "INSUFFICIENT_EVIDENCE", "SOURCE_CONFLICT", "INTENTIONAL_LOD_SIMPLIFICATION"]},
+    "severity": {"enum": ["CRITICAL", "MAJOR", "MINOR", "IGNORE_FOR_CURRENT_LOD"]},
+    "description": {"type": "string", "minLength": 1},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "status": {"enum": ["OPEN", "FIXED", "ACCEPTED_UNCERTAINTY", "BLOCKED_BY_EVIDENCE"]},
+    "resolution": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

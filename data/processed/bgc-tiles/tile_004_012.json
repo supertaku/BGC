@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_004_012",
+  "tile_size_m": 250.0,
+  "bounds": [
+    -250.0,
+    1250.0,
+    0.0,
+    1500.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -151.30979119199978,
+          1250.0
+        ],
+        [
+          -250.0,
+          1250.0
+        ],
+        [
+          -250.0,
+          1306.3813447318148
+        ],
+        [
+          -151.30979119199978,
+          1250.0
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:way:256587760",
+      "properties": {
+        "id": "osm:way:256587760",
+        "source_ids": [
+          "osm:way:256587760",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 192.44,
+        "tags": {
+          "building": "residential"
+        },
+        "canonical_entity_id": "osm:way:256587760",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -191.76,
+              1254.088
+            ],
+            [
+              -204.979,
+              1268.71
+            ],
+            [
+              -212.267,
+              1262.21
+            ],
+            [
+              -199.038,
+              1247.588
+            ],
+            [
+              -191.76,
+              1254.088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:256587761",
+      "properties": {
+        "id": "osm:way:256587761",
+        "source_ids": [
+          "osm:way:256587761",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 88.9,
+        "tags": {
+          "building": "residential"
+        },
+        "canonical_entity_id": "osm:way:256587761",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -179.719,
+              1261.886
+            ],
+            [
+              -186.319,
+              1268.937
+            ],
+            [
+              -193.077,
+              1262.687
+            ],
+            [
+              -186.476,
+              1255.636
+            ],
+            [
+              -179.719,
+              1261.886
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:256587764",
+      "properties": {
+        "id": "osm:way:256587764",
+        "source_ids": [
+          "osm:way:256587764",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 108.99,
+        "tags": {
+          "building": "residential"
+        },
+        "canonical_entity_id": "osm:way:256587764",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -221.107,
+              1270.806
+            ],
+            [
+              -227.863,
+              1278.71
+            ],
+            [
+              -235.875,
+              1271.94
+            ],
+            [
+              -229.12,
+              1264.047
+            ],
+            [
+              -221.107,
+              1270.806
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:264884803",
+      "properties": {
+        "id": "osm:way:264884803",
+        "source_ids": [
+          "osm:way:264884803",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 203.89,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:264884803",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -257.916,
+              1284.734
+            ],
+            [
+              -250.392,
+              1275.915
+            ],
+            [
+              -236.94,
+              1287.265
+            ],
+            [
+              -244.464,
+              1296.072
+            ],
+            [
+              -257.916,
+              1284.734
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:266996194",
+      "properties": {
+        "id": "osm:way:266996194",
+        "source_ids": [
+          "osm:way:266996194",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 88.38,
+        "tags": {
+          "building": "house"
+        },
+        "canonical_entity_id": "osm:way:266996194",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -242.822,
+              1249.9
+            ],
+            [
+              -250.341,
+              1259.205
+            ],
+            [
+              -256.115,
+              1254.595
+            ],
+            [
+              -248.596,
+              1245.29
+            ],
+            [
+              -242.822,
+              1249.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:266996195",
+      "properties": {
+        "id": "osm:way:266996195",
+        "source_ids": [
+          "osm:way:266996195",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 117.74,
+        "tags": {
+          "building": "house"
+        },
+        "canonical_entity_id": "osm:way:266996195",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -228.031,
+              1259.069
+            ],
+            [
+              -236.359,
+              1268.336
+            ],
+            [
+              -243.429,
+              1262.067
+            ],
+            [
+              -235.101,
+              1252.799
+            ],
+            [
+              -228.031,
+              1259.069
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:266996197",
+      "properties": {
+        "id": "osm:way:266996197",
+        "source_ids": [
+          "osm:way:266996197",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 85.96,
+        "tags": {
+          "building": "house"
+        },
+        "canonical_entity_id": "osm:way:266996197",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -202.257,
+              1278.226
+            ],
+            [
+              -211.228,
+              1289.17
+            ],
+            [
+              -215.949,
+              1285.348
+            ],
+            [
+              -206.978,
+              1274.404
+            ],
+            [
+              -202.257,
+              1278.226
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1489764373",
+      "properties": {
+        "id": "osm:way:1489764373",
+        "source_ids": [
+          "osm:way:1489764373",
+          "source:osm"
+        ],
+        "name": "San Nicolas Street",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 2.48,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -223.406,
+              1291.184
+            ],
+            [
+              -225.248,
+              1289.522
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "San Nicolas Street",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -225.55,
+              1293.56
+            ],
+            [
+              -221.262,
+              1288.808
+            ],
+            [
+              -223.104,
+              1287.146
+            ],
+            [
+              -227.392,
+              1291.898
+            ],
+            [
+              -225.55,
+              1293.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:28535728",
+      "properties": {
+        "id": "osm:way:28535728",
+        "source_ids": [
+          "osm:way:28535728",
+          "source:osm"
+        ],
+        "name": "Dapitan Street",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 422.43,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -496.739,
+              1003.014
+            ],
+            [
+              -483.638,
+              1002.293
+            ],
+            [
+              -475.515,
+              1002.998
+            ],
+            [
+              -468.095,
+              1006.022
+            ],
+            [
+              -428.815,
+              1042.769
+            ],
+            [
+              -253.321,
+              1188.172
+            ],
+            [
+              -214.155,
+              1220.549
+            ],
+            [
+              -212.353,
+              1222.039
+            ],
+            [
+              -196.189,
+              1235.346
+            ],
+            [
+              -167.442,
+              1259.21
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Dapitan Street",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -169.485,
+              1261.672
+            ],
+            [
+              -165.398,
+              1256.748
+            ],
+            [
+              -173.52676114649685,
+              1250.0
+            ],
+            [
+              -183.54628907330576,
+              1250.0
+            ],
+            [
+              -169.485,
+              1261.672
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:28536354",
+      "properties": {
+        "id": "osm:way:28536354",
+        "source_ids": [
+          "osm:way:28536354",
+          "source:osm"
+        ],
+        "name": "San Nicolas Street",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 258.73,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -225.248,
+              1289.522
+            ],
+            [
+              -310.009,
+              1220.541
+            ],
+            [
+              -350.357,
+              1184.865
+            ],
+            [
+              -408.959,
+              1136.022
+            ],
+            [
+              -418.167,
+              1133.157
+            ],
+            [
+              -427.825,
+              1133.063
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "San Nicolas Street",
+          "sidewalk": "both",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -227.268,
+              1292.004
+            ],
+            [
+              -223.228,
+              1287.04
+            ],
+            [
+              -250.0,
+              1265.2519976390035
+            ],
+            [
+              -250.0,
+              1273.5037602199125
+            ],
+            [
+              -227.268,
+              1292.004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:792461827",
+      "properties": {
+        "id": "osm:way:792461827",
+        "source_ids": [
+          "osm:way:792461827",
+          "source:osm"
+        ],
+        "name": "Balagtas Street",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 29.92,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -249.98,
+              1306.367
+            ],
+            [
+              -225.248,
+              1289.522
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Balagtas Street",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -248.151,
+              1309.053
+            ],
+            [
+              -223.418,
+              1292.208
+            ],
+            [
+              -227.077,
+              1286.836
+            ],
+            [
+              -250.0,
+              1302.4482562972548
+            ],
+            [
+              -250.0,
+              1306.338370866357
+            ],
+            [
+              -248.151,
+              1309.053
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [],
+  "open_spaces": [],
+  "input_sha256": "b7db8efcdb33f2080f0fbc4975fe975bcca8733e629b9581d9a87c05c68024be"
+}

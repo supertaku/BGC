@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-10T18:38:44.649033+00:00",
+  "api": "https://commons.wikimedia.org/w/api.php",
+  "stage": "CHEAP_DISCOVERY",
+  "targets": 12,
+  "candidate_cap_per_entity": 3,
+  "network_requests": 0,
+  "full_resolution_downloads": 0,
+  "candidates": [
+    {
+      "candidate_id": "commons:184587740:bgc_building_0003",
+      "source_item_id": "184587740",
+      "title": "File:WestGalleryPlace02192026.jpg",
+      "entity_id": "bgc_building_0003",
+      "query": "\"West Gallery Place\" \"Bonifacio Global City\"",
+      "discovery_status": "REJECTED",
+      "match_signals": {
+        "exact_name_tokens_in_title": false,
+        "entity_identity_status": "REVIEW_REQUIRED"
+      },
+      "rejection_reason": "title_name_mismatch"
+    },
+    {
+      "candidate_id": "commons:176963359:bgc_building_0008",
+      "source_item_id": "176963359",
+      "title": "File:Harlan + holden coffee at Bonifacio Global City (BGC) 2025.jpg",
+      "entity_id": "bgc_building_0008",
+      "query": "\"Harlan + Holden Coffee\" \"Bonifacio Global City\"",
+      "discovery_status": "SHORTLISTED",
+      "match_signals": {
+        "exact_name_tokens_in_title": true,
+        "entity_identity_status": "REVIEW_REQUIRED"
+      },
+      "rejection_reason": null
+    },
+    {
+      "candidate_id": "commons:133250280:bgc_building_0014",
+      "source_item_id": "133250280",
+      "title": "File:View of Central Square from 30th St., BGC.jpg",
+      "entity_id": "bgc_building_0014",
+      "query": "\"Central Square\" \"Bonifacio Global City\"",
+      "discovery_status": "SHORTLISTED",
+      "match_signals": {
+        "exact_name_tokens_in_title": true,
+        "entity_identity_status": "CONFIRMED"
+      },
+      "rejection_reason": null
+    },
+    {
+      "candidate_id": "commons:40678045:bgc_building_0014",
+      "source_item_id": "40678045",
+      "title": "File:Central Square Building, Bonifacio Global City.jpg",
+      "entity_id": "bgc_building_0014",
+      "query": "\"Central Square\" \"Bonifacio Global City\"",
+      "discovery_status": "SHORTLISTED",
+      "match_signals": {
+        "exact_name_tokens_in_title": true,
+        "entity_identity_status": "CONFIRMED"
+      },
+      "rejection_reason": null
+    },
+    {
+      "candidate_id": "commons:150539742:bgc_building_0019",
+      "source_item_id": "150539742",
+      "title": "File:2024 Honda CR-V 1.5 VX Turbo AWD in Platinum White Pearl, 07-19-2024.jpg",
+      "entity_id": "bgc_building_0019",
+      "query": "\"Honda Cars Global City\" \"Bonifacio Global City\"",
+      "discovery_status": "REJECTED",
+      "match_signals": {
+        "exact_name_tokens_in_title": false,
+        "entity_identity_status": "HIGH_CONFIDENCE"
+      },
+      "rejection_reason": "title_name_mismatch"
+    }
+  ]
+}

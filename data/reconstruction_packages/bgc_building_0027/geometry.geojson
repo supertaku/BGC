@@ -1,0 +1,98 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_building_0027",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "source_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:443761696",
+      "properties": {
+        "id": "osm:way:443761696",
+        "source_ids": [
+          "osm:way:443761696",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Uniqlo",
+        "feature_kind": "building_outline",
+        "height_m": 12.8,
+        "min_height_m": 0.0,
+        "levels": 4.0,
+        "height_status": "ESTIMATED",
+        "height_method": "building_levels_x_3.2m",
+        "height_confidence": 0.55,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 781.09,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:housenumber": "C3 Annex",
+          "addr:postcode": "1634",
+          "addr:province": "Metro Manila",
+          "addr:street": "30th Street",
+          "addr:street:corner": "7th Avenue",
+          "building": "yes",
+          "building:levels": "4",
+          "name": "Uniqlo",
+          "shop": "clothes"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -157.316,
+              122.877
+            ],
+            [
+              -161.522,
+              109.944
+            ],
+            [
+              -140.772,
+              103.702
+            ],
+            [
+              -129.362,
+              138.364
+            ],
+            [
+              -149.792,
+              145.566
+            ],
+            [
+              -154.411,
+              131.053
+            ],
+            [
+              -153.326,
+              130.656
+            ],
+            [
+              -152.434,
+              130.328
+            ],
+            [
+              -155.166,
+              122.118
+            ],
+            [
+              -157.316,
+              122.877
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

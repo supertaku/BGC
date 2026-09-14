@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111820;
+  color: #f5f7f8;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body { overflow: hidden; }
+main { min-height: 100vh; }
+
+.viewer { position: fixed; inset: 0; background: #8aa0ad; }
+.viewer canvas { display: block; touch-action: none; }
+
+.status-panel {
+  position: fixed;
+  z-index: 2;
+  top: 18px;
+  left: 18px;
+  max-width: 360px;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(12, 18, 24, 0.82);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+
+.status-panel h1 { margin: 2px 0 5px; font-size: 1.2rem; }
+.status-panel p { margin: 0; color: #ccd4d9; font-size: 0.82rem; }
+.status-panel .eyebrow { color: #8ed1a4; text-transform: uppercase; letter-spacing: 0.09em; font-size: 0.68rem; }
+.canvas-message { white-space: nowrap; color: #fff; background: #101820; padding: 9px 12px; border-radius: 5px; }
+.viewer-error { position: fixed; inset: 0; z-index: 3; display: grid; place-content: center; gap: 8px; padding: 24px; background: #281318; color: #ffd6dc; text-align: center; }
+.viewer-error span { font-family: monospace; }
+.viewer-loading { position: fixed; inset: 0; display: grid; place-items: center; background: #111820; }
+.viewpoint-controls { position: fixed; z-index: 2; left: 18px; bottom: 44px; display: flex; gap: 7px; flex-wrap: wrap; max-width: min(680px, calc(100vw - 36px)); }
+.viewpoint-controls button { border: 1px solid rgba(255,255,255,.22); border-radius: 5px; padding: 7px 10px; color: #e8edef; background: rgba(12,18,24,.82); cursor: pointer; }
+.viewpoint-controls button:hover, .viewpoint-controls button.active { border-color: #8ed1a4; background: #1d3a2a; }
+.metrics-panel { position: fixed; z-index: 2; right: 18px; bottom: 18px; display: grid; gap: 3px; padding: 10px 12px; border: 1px solid rgba(255,255,255,.18); border-radius: 6px; background: rgba(12,18,24,.82); color: #dbe2e6; font: 12px/1.35 ui-monospace, monospace; pointer-events: none; }
+.attribution { position: fixed; z-index: 2; left: 18px; bottom: 15px; color: #dce6eb; font-size: 12px; }

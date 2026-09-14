@@ -1,0 +1,391 @@
+{
+  "type": "FeatureCollection",
+  "name": "bgc_building_0014-geometry",
+  "source_crs": "EPSG:4326",
+  "projected_crs": "EPSG:32651",
+  "local_frame": {
+    "origin_wgs84": {
+      "longitude": 121.050972,
+      "latitude": 14.550806
+    },
+    "origin_projected": {
+      "easting": 289998.297,
+      "northing": 1609541.742
+    },
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres",
+    "transform_library": "pyproj"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:205968610",
+      "properties": {
+        "id": "osm:way:205968610",
+        "source_ids": [
+          "osm:way:205968610",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Central Square",
+        "feature_kind": "building_outline",
+        "height_m": 25.9,
+        "min_height_m": 5.2,
+        "levels": 5.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 6118.4,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "30th Street",
+          "addr:street:corner": "5th Avenue",
+          "alt_name": "SSI NorthWest Building",
+          "building": "yes",
+          "building:levels": "5",
+          "building:min_level": "1",
+          "height": "25.9",
+          "min_height": "5.2",
+          "name": "Central Square",
+          "operator": "SSI Group",
+          "shop": "mall",
+          "short_name": "C4"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -215.592,
+              150.024
+            ],
+            [
+              -214.465,
+              153.29
+            ],
+            [
+              -216.814,
+              153.399
+            ],
+            [
+              -228.354,
+              153.94
+            ],
+            [
+              -243.718,
+              154.658
+            ],
+            [
+              -244.338,
+              152.749
+            ],
+            [
+              -253.378,
+              155.737
+            ],
+            [
+              -254.442,
+              156.078
+            ],
+            [
+              -261.289,
+              158.295
+            ],
+            [
+              -262.784,
+              158.772
+            ],
+            [
+              -263.848,
+              159.124
+            ],
+            [
+              -272.306,
+              162.008
+            ],
+            [
+              -273.274,
+              162.337
+            ],
+            [
+              -277.529,
+              163.834
+            ],
+            [
+              -281.248,
+              165.15
+            ],
+            [
+              -282.118,
+              165.445
+            ],
+            [
+              -289.653,
+              167.944
+            ],
+            [
+              -293.63,
+              169.273
+            ],
+            [
+              -298.155,
+              170.739
+            ],
+            [
+              -321.859,
+              102.706
+            ],
+            [
+              -283.744,
+              92.575
+            ],
+            [
+              -284.309,
+              90.798
+            ],
+            [
+              -276.901,
+              88.643
+            ],
+            [
+              -276.413,
+              90.233
+            ],
+            [
+              -240.034,
+              78.833
+            ],
+            [
+              -238.348,
+              84.44
+            ],
+            [
+              -237.481,
+              86.247
+            ],
+            [
+              -235.232,
+              93.355
+            ],
+            [
+              -225.155,
+              122.152
+            ],
+            [
+              -215.592,
+              150.024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:470203065",
+      "properties": {
+        "id": "osm:way:470203065",
+        "source_ids": [
+          "osm:way:470203065",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 5.2,
+        "min_height_m": 0.0,
+        "levels": 1.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 27.84,
+        "tags": {
+          "building:levels": "1",
+          "building:part": "column",
+          "height": "5.2"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -289.653,
+              167.944
+            ],
+            [
+              -293.63,
+              169.273
+            ],
+            [
+              -295.753,
+              162.983
+            ],
+            [
+              -291.776,
+              161.654
+            ],
+            [
+              -289.653,
+              167.944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:470203066",
+      "properties": {
+        "id": "osm:way:470203066",
+        "source_ids": [
+          "osm:way:470203066",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 25.9,
+        "min_height_m": 0.0,
+        "levels": 5.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 4307.53,
+        "tags": {
+          "building:levels": "5",
+          "building:part": "yes",
+          "height": "25.9"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -272.356,
+              151.196
+            ],
+            [
+              -296.173,
+              159.291
+            ],
+            [
+              -314.988,
+              108.28
+            ],
+            [
+              -238.348,
+              84.44
+            ],
+            [
+              -235.232,
+              93.355
+            ],
+            [
+              -225.155,
+              122.152
+            ],
+            [
+              -237.422,
+              125.909
+            ],
+            [
+              -228.354,
+              153.94
+            ],
+            [
+              -243.718,
+              154.658
+            ],
+            [
+              -244.338,
+              152.749
+            ],
+            [
+              -247.818,
+              142.863
+            ],
+            [
+              -272.356,
+              151.196
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:470203067",
+      "properties": {
+        "id": "osm:way:470203067",
+        "source_ids": [
+          "osm:way:470203067",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 3.2,
+        "min_height_m": 0.0,
+        "levels": 1.0,
+        "height_status": "ESTIMATED",
+        "height_method": "building_levels_x_3.2m",
+        "height_confidence": 0.55,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 6.92,
+        "tags": {
+          "building": "yes",
+          "building:levels": "1",
+          "building:part": "column"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -214.465,
+              153.29
+            ],
+            [
+              -216.814,
+              153.399
+            ],
+            [
+              -217.634,
+              150.717
+            ],
+            [
+              -215.592,
+              150.024
+            ],
+            [
+              -214.465,
+              153.29
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-14",
+  "records": [
+    {
+      "reference_id": "ref:official:verve",
+      "source_id": "source:official-alveo-verve",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0005",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://www.alveoland.com.ph/properties/condos/taguig/hss-verve-residences/",
+      "title": "High Street South – Verve Residences",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:web:verve-exterior",
+      "source_id": "source:web-verve-exterior",
+      "entity_links": [
+        {
+          "entity_id": "bgc_building_0005",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "source_page_url": "https://onepropertee.com/interior-designed-furnished-2-bedroom-condot-sale-verve-residences-bgc-property",
+      "title": "Verve Residences exterior reference",
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "rights_status": "RESEARCH_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

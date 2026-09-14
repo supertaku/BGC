@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_004_012",
+  "input_sha256": "b7db8efcdb33f2080f0fbc4975fe975bcca8733e629b9581d9a87c05c68024be",
+  "output_sha256": "dbc6f54cf4c819ceebdd0634f24656531574196f639e0b6161d8492c77610725",
+  "building_count": 7,
+  "render_volume_count": 7,
+  "mesh_count": 4,
+  "triangle_count": 144,
+  "material_count": 4,
+  "bytes": 12792,
+  "entities": [
+    {
+      "entity_id": "osm:way:256587760",
+      "source_feature_id": "osm:way:256587760",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "residential",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:256587761",
+      "source_feature_id": "osm:way:256587761",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "residential",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:256587764",
+      "source_feature_id": "osm:way:256587764",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "residential",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:264884803",
+      "source_feature_id": "osm:way:264884803",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:266996194",
+      "source_feature_id": "osm:way:266996194",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "house",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:266996195",
+      "source_feature_id": "osm:way:266996195",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "house",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:266996197",
+      "source_feature_id": "osm:way:266996197",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "house",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_000_004",
+  "tile_size_m": 250.0,
+  "bounds": [
+    -1250.0,
+    -750.0,
+    -1000.0,
+    -500.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -1052.7213412878964,
+          -500.0
+        ],
+        [
+          -1000.0,
+          -500.0
+        ],
+        [
+          -1000.0,
+          -739.4645043038217
+        ],
+        [
+          -1052.7213412878964,
+          -500.0
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:way:262338384",
+      "properties": {
+        "id": "osm:way:262338384",
+        "source_ids": [
+          "osm:way:262338384",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1039.71,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:262338384",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1007.991,
+              -513.203
+            ],
+            [
+              -1012.189,
+              -507.49
+            ],
+            [
+              -1021.789,
+              -514.479
+            ],
+            [
+              -1025.38,
+              -509.601
+            ],
+            [
+              -1040.056,
+              -520.287
+            ],
+            [
+              -1043.967,
+              -514.985
+            ],
+            [
+              -1053.979,
+              -522.281
+            ],
+            [
+              -1041.619,
+              -539.042
+            ],
+            [
+              -1031.097,
+              -531.386
+            ],
+            [
+              -1024.906,
+              -539.783
+            ],
+            [
+              -1019.353,
+              -535.747
+            ],
+            [
+              -1014.11,
+              -542.864
+            ],
+            [
+              -999.076,
+              -531.915
+            ],
+            [
+              -1011.159,
+              -515.511
+            ],
+            [
+              -1007.991,
+              -513.203
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1430949388",
+      "properties": {
+        "id": "osm:way:1430949388",
+        "source_ids": [
+          "osm:way:1430949388",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 58.27,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -1039.061,
+              -562.055
+            ],
+            [
+              -1019.916,
+              -563.663
+            ],
+            [
+              -1013.198,
+              -563.433
+            ],
+            [
+              -1006.534,
+              -561.841
+            ],
+            [
+              -988.606,
+              -552.866
+            ],
+            [
+              -983.597,
+              -550.762
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1005.414,
+              -564.077
+            ],
+            [
+              -1005.678,
+              -564.191
+            ],
+            [
+              -1005.953,
+              -564.273
+            ],
+            [
+              -1012.617,
+              -565.865
+            ],
+            [
+              -1012.863,
+              -565.911
+            ],
+            [
+              -1013.113,
+              -565.932
+            ],
+            [
+              -1019.83,
+              -566.162
+            ],
+            [
+              -1020.125,
+              -566.154
+            ],
+            [
+              -1039.271,
+              -564.546
+            ],
+            [
+              -1038.852,
+              -559.564
+            ],
+            [
+              -1019.854,
+              -561.16
+            ],
+            [
+              -1013.535,
+              -560.943
+            ],
+            [
+              -1007.395,
+              -559.477
+            ],
+            [
+              -1000.0,
+              -555.7744779286927
+            ],
+            [
+              -1000.0,
+              -561.3662093205623
+            ],
+            [
+              -1005.414,
+              -564.077
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "type": "Feature",
+      "id": "osm:way:264030655",
+      "properties": {
+        "id": "osm:way:264030655",
+        "source_ids": [
+          "osm:way:264030655",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "bridleway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 225.14,
+        "centerline_local": {
+          "type": "MultiLineString",
+          "coordinates": [
+            [
+              [
+                -996.728,
+                -573.601
+              ],
+              [
+                -1002.051,
+                -569.571
+              ],
+              [
+                -1007.328,
+                -567.766
+              ],
+              [
+                -1038.314,
+                -565.451
+              ]
+            ],
+            [
+              [
+                -996.534,
+                -755.212
+              ],
+              [
+                -996.372,
+                -748.09
+              ],
+              [
+                -995.157,
+                -735.849
+              ],
+              [
+                -995.124,
+                -637.856
+              ],
+              [
+                -995.044,
+                -583.354
+              ],
+              [
+                -996.728,
+                -573.601
+              ]
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "bridleway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1002.479,
+              -570.376
+            ],
+            [
+              -1007.51,
+              -568.655
+            ],
+            [
+              -1038.381,
+              -566.349
+            ],
+            [
+              -1038.247,
+              -564.554
+            ],
+            [
+              -1007.261,
+              -566.869
+            ],
+            [
+              -1007.185,
+              -566.878
+            ],
+            [
+              -1007.11,
+              -566.893
+            ],
+            [
+              -1007.037,
+              -566.915
+            ],
+            [
+              -1001.76,
+              -568.72
+            ],
+            [
+              -1001.671,
+              -568.755
+            ],
+            [
+              -1001.587,
+              -568.8
+            ],
+            [
+              -1001.508,
+              -568.854
+            ],
+            [
+              -1000.0,
+              -569.9954112342664
+            ],
+            [
+              -1000.0,
+              -572.2528708367181
+            ],
+            [
+              -1002.479,
+              -570.376
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "open_spaces": [
+    {
+      "type": "Feature",
+      "id": "osm:way:119635717",
+      "properties": {
+        "id": "osm:way:119635717",
+        "source_ids": [
+          "osm:way:119635717",
+          "source:osm"
+        ],
+        "name": null,
+        "category": "pitch",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 537.39,
+        "tags": {
+          "leisure": "pitch"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1029.497,
+              -605.496
+            ],
+            [
+              -1013.422,
+              -605.805
+            ],
+            [
+              -1014.714,
+              -672.639
+            ],
+            [
+              -1029.497,
+              -605.496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:19296105",
+      "properties": {
+        "id": "osm:way:19296105",
+        "source_ids": [
+          "osm:way:19296105",
+          "source:osm"
+        ],
+        "name": "Manila Polo Club",
+        "category": "recreation_ground",
+        "geometry_status": "VERIFIED_GEOGRAPHIC",
+        "area_m2": 8338.58,
+        "tags": {
+          "landuse": "recreation_ground",
+          "name": "Manila Polo Club"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1042.708,
+              -545.49
+            ],
+            [
+              -1000.0,
+              -547.7902250428816
+            ],
+            [
+              -1000.0,
+              -739.4667333433059
+            ],
+            [
+              -1042.708,
+              -545.49
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "input_sha256": "6cadbac27b3ce44e7537f3d0359eff82fd462f81e5df990e516d8a97b3aa9ca3"
+}

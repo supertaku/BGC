@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "lods": {
+    "LOD2": {
+      "description": "Original OSM outline and building-part extrusion",
+      "regeneration": "Run blender/scripts/generate_bgc_pilot.py with --central-square-lod2",
+      "status": "PRESERVED_PROCEDURAL"
+    },
+    "LOD1": {
+      "description": "M7 evidence-grounded medium architectural fidelity asset",
+      "regeneration": "Run blender/buildings/bgc_building_0014/scripts/build.py",
+      "status": "ACTIVE_PILOT"
+    },
+    "LOD0": {
+      "description": "Future high-detail asset",
+      "status": "NOT_IMPLEMENTED"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "bgc-pilot-zone",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "scope:pilot-high-street-central-v1",
+      "properties": {
+        "name": "Bonifacio High Street central core pilot",
+        "status": "estimated information",
+        "boundary_role": "mvp_a_pilot",
+        "version": 1,
+        "crs": "EPSG:4326",
+        "approximate_extent": "approximately 490 m east-west by 415 m north-south",
+        "description": "Technical cross-section centered on Bonifacio High Street between approximately 5th and 9th Avenues and 28th and 32nd Streets.",
+        "selected_for": [
+          "mixed building heights",
+          "low-rise retail and storefronts",
+          "pedestrian promenade and parks",
+          "ordinary roads and intersections",
+          "vegetation and street furniture",
+          "recognizable nearby architecture"
+        ],
+        "sources": ["source:osm", "source:uli-bgc-case-study"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [121.04750, 14.54865],
+          [121.05205, 14.54865],
+          [121.05205, 14.55240],
+          [121.04750, 14.55240],
+          [121.04750, 14.54865]
+        ]]
+      }
+    }
+  ]
+}

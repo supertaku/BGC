@@ -1,0 +1,67 @@
+{
+  "entity_id": "bgc_building_0011",
+  "entity_type": "BUILDING",
+  "canonical_name": "C1",
+  "normalized_name": "c1",
+  "aliases": [
+    "C1"
+  ],
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.9,
+  "decision_method": "OFFICIAL_DISTRICT_DIRECTORY_AND_OSM_LOCATION",
+  "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+  "decision_timestamp": "2026-09-14",
+  "supporting_evidence": [
+    "OSM tags and footprint location"
+  ],
+  "centroid": {
+    "longitude": 121.0481005,
+    "latitude": 14.5510847,
+    "local_x_m": -309.232,
+    "local_y_m": 33.485
+  },
+  "footprint_reference": "data/processed/pilot-buildings.geojson",
+  "geographic_feature_ids": [
+    "osm:way:178125951"
+  ],
+  "osm_ids": [
+    "osm:way:178125951"
+  ],
+  "building_part_ids": [],
+  "wikidata_id": null,
+  "wikipedia_url": null,
+  "official_url": null,
+  "official_address": null,
+  "parent_entity_id": "bgc_complex_0001",
+  "child_entity_ids": [],
+  "source_ids": [
+    "source:officepro-bhs-central",
+    "source:official-ayala-bonifacio-high-street",
+    "source:osm"
+  ],
+  "height": {
+    "value_m": 10.1,
+    "status": "VERIFIED_GEOGRAPHIC",
+    "method": "osm_height",
+    "confidence": 0.75,
+    "source_ids": [
+      "source:osm"
+    ],
+    "levels": 2.0
+  },
+  "tags": {
+    "addr:city": "Taguig",
+    "addr:housename": "Bonifacio High Street Central",
+    "addr:street": "5th Avenue",
+    "addr:street:corner": "28th Street",
+    "building": "retail",
+    "building:levels": "2",
+    "height": "10.1",
+    "name": "C1",
+    "shop": "mall"
+  },
+  "reconstruction_package_version": 1,
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

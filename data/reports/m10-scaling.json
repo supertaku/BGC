@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "observed_curve": [
+    {
+      "milestone": "M7",
+      "detailed_lod1_buildings": 1,
+      "pilot_bytes": 950388,
+      "pilot_triangles": 20076,
+      "overview_draw_calls": 67
+    },
+    {
+      "milestone": "M8",
+      "detailed_lod1_buildings": 1,
+      "pilot_bytes": 962916,
+      "pilot_triangles": 20076,
+      "overview_draw_calls": 60
+    },
+    {
+      "milestone": "M9",
+      "detailed_lod1_buildings": 2,
+      "pilot_bytes": 1033348,
+      "pilot_triangles": 21096,
+      "overview_draw_calls": 71
+    },
+    {
+      "milestone": "M10",
+      "detailed_lod1_buildings": 7,
+      "pilot_bytes": 1208880,
+      "pilot_triangles": 23796,
+      "overview_draw_calls": 76
+    }
+  ],
+  "m10_increment": {
+    "buildings": 5,
+    "pilot_bytes": 175532,
+    "pilot_triangles": 2700,
+    "overview_draw_calls": 5,
+    "bytes_per_building": 35106.4,
+    "triangles_per_building": 540,
+    "draw_calls_per_building": 1.0
+  },
+  "standalone_asset_average": {
+    "bytes": 36013.6,
+    "triangles": 575.2,
+    "draw_calls": 2.4
+  },
+  "planning_extrapolation_31_detailed_buildings": {
+    "basis": "linear continuation of M10 marginal contribution; planning evidence only",
+    "pilot_bytes": 2051424,
+    "pilot_triangles": 36756,
+    "overview_draw_calls": 100
+  },
+  "primary_scaling_concern": "Evidence preparation and visual specificity, not current GPU geometry cost",
+  "runtime_risk": "LOW_AT_OBSERVED_SCALE"
+}

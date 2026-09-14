@@ -1,0 +1,757 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_002_001",
+  "tile_size_m": 250.0,
+  "bounds": [
+    -750.0,
+    -1500.0,
+    -500.0,
+    -1250.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -659.7943758735191,
+          -1250.0
+        ],
+        [
+          -500.0,
+          -1250.0
+        ],
+        [
+          -500.0,
+          -1450.340040457268
+        ],
+        [
+          -659.7943758735191,
+          -1250.0
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:way:552037178",
+      "properties": {
+        "id": "osm:way:552037178",
+        "source_ids": [
+          "osm:way:552037178",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "St. Moritz Cluster 1",
+        "feature_kind": "building_outline",
+        "height_m": 38.2,
+        "min_height_m": 0.0,
+        "levels": 10.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1958.71,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:neighbourhood": "McKinley West",
+          "building": "apartments",
+          "building:levels": "10",
+          "height": "38.2",
+          "name": "St. Moritz Cluster 1"
+        },
+        "canonical_entity_id": "osm:way:552037178",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -564.815,
+              -1287.929
+            ],
+            [
+              -562.6,
+              -1410.631
+            ],
+            [
+              -547.537,
+              -1410.273
+            ],
+            [
+              -548.065,
+              -1286.822
+            ],
+            [
+              -564.815,
+              -1287.929
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:341448622",
+      "properties": {
+        "id": "osm:way:341448622",
+        "source_ids": [
+          "osm:way:341448622",
+          "source:osm"
+        ],
+        "name": "Saint Tropez Avenue",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 78.8,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -629.706,
+              -1287.729
+            ],
+            [
+              -623.151,
+              -1287.507
+            ],
+            [
+              -611.076,
+              -1286.039
+            ],
+            [
+              -588.508,
+              -1280.334
+            ],
+            [
+              -552.711,
+              -1271.798
+            ]
+          ]
+        },
+        "tags": {
+          "alt_name": "St. Tropez",
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Saint Tropez Avenue",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -589.293,
+              -1277.231
+            ],
+            [
+              -589.251,
+              -1277.221
+            ],
+            [
+              -553.454,
+              -1268.685
+            ],
+            [
+              -551.969,
+              -1274.911
+            ],
+            [
+              -587.745,
+              -1283.441
+            ],
+            [
+              -610.292,
+              -1289.141
+            ],
+            [
+              -610.69,
+              -1289.215
+            ],
+            [
+              -622.765,
+              -1290.683
+            ],
+            [
+              -623.043,
+              -1290.705
+            ],
+            [
+              -629.597,
+              -1290.927
+            ],
+            [
+              -629.814,
+              -1284.531
+            ],
+            [
+              -623.399,
+              -1284.313
+            ],
+            [
+              -611.664,
+              -1282.886
+            ],
+            [
+              -589.293,
+              -1277.231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:341448623",
+      "properties": {
+        "id": "osm:way:341448623",
+        "source_ids": [
+          "osm:way:341448623",
+          "source:osm"
+        ],
+        "name": "Savoy Street",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 59.99,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -588.508,
+              -1280.334
+            ],
+            [
+              -587.762,
+              -1340.315
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Savoy Street",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -591.708,
+              -1280.373
+            ],
+            [
+              -585.309,
+              -1280.294
+            ],
+            [
+              -584.562,
+              -1340.275
+            ],
+            [
+              -590.962,
+              -1340.355
+            ],
+            [
+              -591.708,
+              -1280.373
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:516278262",
+      "properties": {
+        "id": "osm:way:516278262",
+        "source_ids": [
+          "osm:way:516278262",
+          "source:osm"
+        ],
+        "name": "Hermitage Street",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 8.62,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -623.151,
+              -1287.507
+            ],
+            [
+              -623.01,
+              -1296.123
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Hermitage Street",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -626.351,
+              -1287.559
+            ],
+            [
+              -619.952,
+              -1287.454
+            ],
+            [
+              -619.811,
+              -1296.071
+            ],
+            [
+              -626.21,
+              -1296.176
+            ],
+            [
+              -626.351,
+              -1287.559
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:741963822",
+      "properties": {
+        "id": "osm:way:741963822",
+        "source_ids": [
+          "osm:way:741963822",
+          "source:osm"
+        ],
+        "name": "Le Grand Avenue",
+        "class": "residential",
+        "width_m": 12.8,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 176.34,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -536.042,
+              -1232.268
+            ],
+            [
+              -534.292,
+              -1267.12
+            ],
+            [
+              -533.326,
+              -1408.561
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "4",
+          "name": "Le Grand Avenue",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -527.9,
+              -1266.799
+            ],
+            [
+              -527.892,
+              -1267.076
+            ],
+            [
+              -526.926,
+              -1408.518
+            ],
+            [
+              -539.726,
+              -1408.605
+            ],
+            [
+              -540.691,
+              -1267.302
+            ],
+            [
+              -541.5592400184364,
+              -1250.0
+            ],
+            [
+              -528.7435168713416,
+              -1250.0
+            ],
+            [
+              -527.9,
+              -1266.799
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:742161132",
+      "properties": {
+        "id": "osm:way:742161132",
+        "source_ids": [
+          "osm:way:742161132",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 70.73,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -566.441,
+              -1367.045
+            ],
+            [
+              -567.647,
+              -1296.326
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -563.941,
+              -1367.003
+            ],
+            [
+              -568.94,
+              -1367.088
+            ],
+            [
+              -570.146,
+              -1296.369
+            ],
+            [
+              -565.147,
+              -1296.284
+            ],
+            [
+              -563.941,
+              -1367.003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:742161133",
+      "properties": {
+        "id": "osm:way:742161133",
+        "source_ids": [
+          "osm:way:742161133",
+          "source:osm"
+        ],
+        "name": "Saint Tropez Avenue",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 19.0,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -552.711,
+              -1271.798
+            ],
+            [
+              -546.391,
+              -1270.192
+            ],
+            [
+              -534.292,
+              -1267.12
+            ]
+          ]
+        },
+        "tags": {
+          "alt_name": "St. Tropez",
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Saint Tropez Avenue",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -533.504,
+              -1270.221
+            ],
+            [
+              -545.604,
+              -1273.294
+            ],
+            [
+              -551.923,
+              -1274.899
+            ],
+            [
+              -553.499,
+              -1268.697
+            ],
+            [
+              -547.18,
+              -1267.091
+            ],
+            [
+              -535.079,
+              -1264.018
+            ],
+            [
+              -533.504,
+              -1270.221
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "type": "Feature",
+      "id": "osm:way:693155118",
+      "properties": {
+        "id": "osm:way:693155118",
+        "source_ids": [
+          "osm:way:693155118",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 163.01,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -545.855,
+              -1392.854
+            ],
+            [
+              -546.391,
+              -1270.192
+            ],
+            [
+              -545.82,
+              -1229.849
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -545.491,
+              -1270.197
+            ],
+            [
+              -544.955,
+              -1392.85
+            ],
+            [
+              -546.755,
+              -1392.858
+            ],
+            [
+              -547.291,
+              -1270.196
+            ],
+            [
+              -547.291,
+              -1270.179
+            ],
+            [
+              -547.0048936618497,
+              -1250.0
+            ],
+            [
+              -545.2050894734232,
+              -1250.0
+            ],
+            [
+              -545.491,
+              -1270.197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:740592675",
+      "properties": {
+        "id": "osm:way:740592675",
+        "source_ids": [
+          "osm:way:740592675",
+          "source:osm"
+        ],
+        "name": null,
+        "class": "footway",
+        "width_m": 1.8,
+        "width_status": "ESTIMATED",
+        "width_method": "path_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 399.55,
+        "centerline_local": {
+          "type": "MultiLineString",
+          "coordinates": [
+            [
+              [
+                -447.42,
+                -1370.616
+              ],
+              [
+                -443.466,
+                -1382.148
+              ],
+              [
+                -450.236,
+                -1480.493
+              ],
+              [
+                -456.051,
+                -1505.441
+              ]
+            ],
+            [
+              [
+                -524.019,
+                -1420.23
+              ],
+              [
+                -520.173,
+                -1374.453
+              ],
+              [
+                -519.281,
+                -1236.251
+              ],
+              [
+                -473.29,
+                -1218.12
+              ],
+              [
+                -446.63,
+                -1205.301
+              ]
+            ]
+          ]
+        },
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -519.273,
+              -1374.458
+            ],
+            [
+              -519.276,
+              -1374.528
+            ],
+            [
+              -523.122,
+              -1420.305
+            ],
+            [
+              -524.916,
+              -1420.154
+            ],
+            [
+              -521.073,
+              -1374.412
+            ],
+            [
+              -520.2698016675473,
+              -1250.0
+            ],
+            [
+              -518.4697708822397,
+              -1250.0
+            ],
+            [
+              -519.273,
+              -1374.458
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "open_spaces": [],
+  "input_sha256": "0f06574ec7ba69d79db9b47a141f05b4de711f1b9e47a3b46d1c31d5fad76f82"
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "recommended_target_time_state": "CURRENT_APPROX_2025_2026",
+  "entries": [
+    {
+      "period": "2014-06",
+      "event": "Central Square opened",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "evidence_ids": [
+        "ref:official:central-square",
+        "ref:news:philstar-central-square-2014"
+      ]
+    },
+    {
+      "period": "2015",
+      "event": "Official report records 33,813 m2 GFA and the Ayala-operated uppermost cineplex floor; Commons interior records the early atrium state",
+      "status": "VERIFIED_AUTHORITATIVE_AND_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:official:ssi-annual-report-2015",
+        "ref:commons:40678045"
+      ]
+    },
+    {
+      "period": "2019",
+      "event": "Shake Shack park/lobby interface documented; tenant configuration is historical",
+      "status": "VERIFIED_FROM_RESEARCH_VISUAL",
+      "evidence_ids": [
+        "ref:web:eatsplorations-shake-shack-2019"
+      ]
+    },
+    {
+      "period": "2021-2023",
+      "event": "5th Avenue approach, northwest corner, major cladding/glazing composition, and mural/tenant state documented",
+      "status": "VERIFIED_FROM_VISUAL_REFERENCES",
+      "evidence_ids": [
+        "ref:youtube:tour-from-home-central-square-2021",
+        "ref:commons:133250280",
+        "ref:youtube:hg-central-square-2023"
+      ]
+    },
+    {
+      "period": "2024",
+      "event": "Northwest corner photographed with a large mutable digital/signage display; permanent wall/logo zone remains recognizable",
+      "status": "VERIFIED_FROM_RESEARCH_VISUAL",
+      "evidence_ids": [
+        "ref:web:inside-metro-central-square-2024"
+      ]
+    },
+    {
+      "period": "2025",
+      "event": "Recent south/High Street, west/5th Avenue, roof, and surrounding-context views show no observed major silhouette change",
+      "status": "INFERRED_FROM_MULTIPLE_RECENT_PHOTOS",
+      "evidence_ids": [
+        "ref:commons:158404929",
+        "ref:commons:158404930",
+        "ref:commons:173664145",
+        "ref:commons:173664147"
+      ]
+    }
+  ],
+  "source_age_distribution": {
+    "2014": 1,
+    "2015": 2,
+    "2019": 1,
+    "2021": 1,
+    "2022": 1,
+    "2023": 2,
+    "2024": 2,
+    "2025": 4,
+    "2026_current_page_or_directory": 2,
+    "unknown_capture_date": 0
+  },
+  "chronology_rule": "Model permanent architecture to approximately 2025-2026. Keep tenant, mural, advertising, event tents, and seasonal decor separate and optional."
+}

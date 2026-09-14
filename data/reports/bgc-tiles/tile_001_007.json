@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_001_007",
+  "input_sha256": "3f38fe9d34ef75b7be00fa11bb10060c4ed389cf51c7d4da26ca2b4071bc5c20",
+  "output_sha256": "28e016f1b5742b0aec686624127b0be0b2c1534a6682ed17ef319436650a71ad",
+  "building_count": 5,
+  "render_volume_count": 8,
+  "mesh_count": 7,
+  "triangle_count": 5384,
+  "material_count": 7,
+  "bytes": 241364,
+  "entities": [
+    {
+      "entity_id": "osm:way:183472019",
+      "source_feature_id": "osm:way:183472019",
+      "name": null,
+      "height_m": 156.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "residential",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:183472020",
+      "source_feature_id": "osm:way:183472020",
+      "name": null,
+      "height_m": 136.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:183472021",
+      "source_feature_id": "osm:way:183472021",
+      "name": null,
+      "height_m": 146.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "residential",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:183472022",
+      "source_feature_id": "osm:way:183472022",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:80323776",
+      "source_feature_id": "osm:way:538341467",
+      "name": null,
+      "height_m": 177.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:80323776",
+      "source_feature_id": "osm:way:538341468",
+      "name": null,
+      "height_m": 184.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:80323776",
+      "source_feature_id": "osm:way:538341469",
+      "name": null,
+      "height_m": 194.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:80323776",
+      "source_feature_id": "osm:way:80323776",
+      "name": "Eight Forbes Town Road",
+      "height_m": 36.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    }
+  ]
+}

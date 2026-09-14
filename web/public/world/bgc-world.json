@@ -1,0 +1,1738 @@
+{
+  "world_id": "bgc-whole-city-lod2-v1",
+  "title": "Whole-BGC low-fidelity skeleton",
+  "tiles": [
+    {
+      "tile_id": "tile_000_004",
+      "url": "/models/bgc/tiles/tile_000_004.glb",
+      "center": [
+        -1125.0,
+        -625.0
+      ],
+      "bounds": [
+        -1250.0,
+        -750.0,
+        -1000.0,
+        -500.0
+      ],
+      "size_bytes": 14240,
+      "triangles": 184,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_000_005",
+      "url": "/models/bgc/tiles/tile_000_005.glb",
+      "center": [
+        -1125.0,
+        -375.0
+      ],
+      "bounds": [
+        -1250.0,
+        -500.0,
+        -1000.0,
+        -250.0
+      ],
+      "size_bytes": 33612,
+      "triangles": 640,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_000_006",
+      "url": "/models/bgc/tiles/tile_000_006.glb",
+      "center": [
+        -1125.0,
+        -125.0
+      ],
+      "bounds": [
+        -1250.0,
+        -250.0,
+        -1000.0,
+        0.0
+      ],
+      "size_bytes": 55892,
+      "triangles": 1176,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_000_007",
+      "url": "/models/bgc/tiles/tile_000_007.glb",
+      "center": [
+        -1125.0,
+        125.0
+      ],
+      "bounds": [
+        -1250.0,
+        0.0,
+        -1000.0,
+        250.0
+      ],
+      "size_bytes": 68020,
+      "triangles": 1436,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_000_008",
+      "url": "/models/bgc/tiles/tile_000_008.glb",
+      "center": [
+        -1125.0,
+        375.0
+      ],
+      "bounds": [
+        -1250.0,
+        250.0,
+        -1000.0,
+        500.0
+      ],
+      "size_bytes": 68304,
+      "triangles": 1416,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_000_009",
+      "url": "/models/bgc/tiles/tile_000_009.glb",
+      "center": [
+        -1125.0,
+        625.0
+      ],
+      "bounds": [
+        -1250.0,
+        500.0,
+        -1000.0,
+        750.0
+      ],
+      "size_bytes": 124004,
+      "triangles": 2340,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_000_010",
+      "url": "/models/bgc/tiles/tile_000_010.glb",
+      "center": [
+        -1125.0,
+        875.0
+      ],
+      "bounds": [
+        -1250.0,
+        750.0,
+        -1000.0,
+        1000.0
+      ],
+      "size_bytes": 109508,
+      "triangles": 1936,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_000_011",
+      "url": "/models/bgc/tiles/tile_000_011.glb",
+      "center": [
+        -1125.0,
+        1125.0
+      ],
+      "bounds": [
+        -1250.0,
+        1000.0,
+        -1000.0,
+        1250.0
+      ],
+      "size_bytes": 43524,
+      "triangles": 812,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_001_002",
+      "url": "/models/bgc/tiles/tile_001_002.glb",
+      "center": [
+        -875.0,
+        -1125.0
+      ],
+      "bounds": [
+        -1000.0,
+        -1250.0,
+        -750.0,
+        -1000.0
+      ],
+      "size_bytes": 16024,
+      "triangles": 236,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_001_003",
+      "url": "/models/bgc/tiles/tile_001_003.glb",
+      "center": [
+        -875.0,
+        -875.0
+      ],
+      "bounds": [
+        -1000.0,
+        -1000.0,
+        -750.0,
+        -750.0
+      ],
+      "size_bytes": 42808,
+      "triangles": 776,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_001_004",
+      "url": "/models/bgc/tiles/tile_001_004.glb",
+      "center": [
+        -875.0,
+        -625.0
+      ],
+      "bounds": [
+        -1000.0,
+        -750.0,
+        -750.0,
+        -500.0
+      ],
+      "size_bytes": 103300,
+      "triangles": 2180,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_001_005",
+      "url": "/models/bgc/tiles/tile_001_005.glb",
+      "center": [
+        -875.0,
+        -375.0
+      ],
+      "bounds": [
+        -1000.0,
+        -500.0,
+        -750.0,
+        -250.0
+      ],
+      "size_bytes": 94460,
+      "triangles": 2052,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_001_006",
+      "url": "/models/bgc/tiles/tile_001_006.glb",
+      "center": [
+        -875.0,
+        -125.0
+      ],
+      "bounds": [
+        -1000.0,
+        -250.0,
+        -750.0,
+        0.0
+      ],
+      "size_bytes": 139512,
+      "triangles": 3032,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_001_007",
+      "url": "/models/bgc/tiles/tile_001_007.glb",
+      "center": [
+        -875.0,
+        125.0
+      ],
+      "bounds": [
+        -1000.0,
+        0.0,
+        -750.0,
+        250.0
+      ],
+      "size_bytes": 241364,
+      "triangles": 5384,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_001_008",
+      "url": "/models/bgc/tiles/tile_001_008.glb",
+      "center": [
+        -875.0,
+        375.0
+      ],
+      "bounds": [
+        -1000.0,
+        250.0,
+        -750.0,
+        500.0
+      ],
+      "size_bytes": 242012,
+      "triangles": 5392,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_001_009",
+      "url": "/models/bgc/tiles/tile_001_009.glb",
+      "center": [
+        -875.0,
+        625.0
+      ],
+      "bounds": [
+        -1000.0,
+        500.0,
+        -750.0,
+        750.0
+      ],
+      "size_bytes": 329576,
+      "triangles": 6544,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_001_010",
+      "url": "/models/bgc/tiles/tile_001_010.glb",
+      "center": [
+        -875.0,
+        875.0
+      ],
+      "bounds": [
+        -1000.0,
+        750.0,
+        -750.0,
+        1000.0
+      ],
+      "size_bytes": 285376,
+      "triangles": 5280,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_001_011",
+      "url": "/models/bgc/tiles/tile_001_011.glb",
+      "center": [
+        -875.0,
+        1125.0
+      ],
+      "bounds": [
+        -1000.0,
+        1000.0,
+        -750.0,
+        1250.0
+      ],
+      "size_bytes": 130400,
+      "triangles": 2664,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_002_001",
+      "url": "/models/bgc/tiles/tile_002_001.glb",
+      "center": [
+        -625.0,
+        -1375.0
+      ],
+      "bounds": [
+        -750.0,
+        -1500.0,
+        -500.0,
+        -1250.0
+      ],
+      "size_bytes": 14360,
+      "triangles": 196,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_002_002",
+      "url": "/models/bgc/tiles/tile_002_002.glb",
+      "center": [
+        -625.0,
+        -1125.0
+      ],
+      "bounds": [
+        -750.0,
+        -1250.0,
+        -500.0,
+        -1000.0
+      ],
+      "size_bytes": 44068,
+      "triangles": 768,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_002_003",
+      "url": "/models/bgc/tiles/tile_002_003.glb",
+      "center": [
+        -625.0,
+        -875.0
+      ],
+      "bounds": [
+        -750.0,
+        -1000.0,
+        -500.0,
+        -750.0
+      ],
+      "size_bytes": 45700,
+      "triangles": 828,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_002_004",
+      "url": "/models/bgc/tiles/tile_002_004.glb",
+      "center": [
+        -625.0,
+        -625.0
+      ],
+      "bounds": [
+        -750.0,
+        -750.0,
+        -500.0,
+        -500.0
+      ],
+      "size_bytes": 133476,
+      "triangles": 2800,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_002_005",
+      "url": "/models/bgc/tiles/tile_002_005.glb",
+      "center": [
+        -625.0,
+        -375.0
+      ],
+      "bounds": [
+        -750.0,
+        -500.0,
+        -500.0,
+        -250.0
+      ],
+      "size_bytes": 177580,
+      "triangles": 3812,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_002_006",
+      "url": "/models/bgc/tiles/tile_002_006.glb",
+      "center": [
+        -625.0,
+        -125.0
+      ],
+      "bounds": [
+        -750.0,
+        -250.0,
+        -500.0,
+        0.0
+      ],
+      "size_bytes": 255504,
+      "triangles": 5532,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_002_007",
+      "url": "/models/bgc/tiles/tile_002_007.glb",
+      "center": [
+        -625.0,
+        125.0
+      ],
+      "bounds": [
+        -750.0,
+        0.0,
+        -500.0,
+        250.0
+      ],
+      "size_bytes": 378428,
+      "triangles": 8316,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_002_008",
+      "url": "/models/bgc/tiles/tile_002_008.glb",
+      "center": [
+        -625.0,
+        375.0
+      ],
+      "bounds": [
+        -750.0,
+        250.0,
+        -500.0,
+        500.0
+      ],
+      "size_bytes": 243088,
+      "triangles": 5168,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_002_009",
+      "url": "/models/bgc/tiles/tile_002_009.glb",
+      "center": [
+        -625.0,
+        625.0
+      ],
+      "bounds": [
+        -750.0,
+        500.0,
+        -500.0,
+        750.0
+      ],
+      "size_bytes": 306816,
+      "triangles": 5728,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_002_010",
+      "url": "/models/bgc/tiles/tile_002_010.glb",
+      "center": [
+        -625.0,
+        875.0
+      ],
+      "bounds": [
+        -750.0,
+        750.0,
+        -500.0,
+        1000.0
+      ],
+      "size_bytes": 282180,
+      "triangles": 5296,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_002_011",
+      "url": "/models/bgc/tiles/tile_002_011.glb",
+      "center": [
+        -625.0,
+        1125.0
+      ],
+      "bounds": [
+        -750.0,
+        1000.0,
+        -500.0,
+        1250.0
+      ],
+      "size_bytes": 184448,
+      "triangles": 3328,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_002_012",
+      "url": "/models/bgc/tiles/tile_002_012.glb",
+      "center": [
+        -625.0,
+        1375.0
+      ],
+      "bounds": [
+        -750.0,
+        1250.0,
+        -500.0,
+        1500.0
+      ],
+      "size_bytes": 14728,
+      "triangles": 204,
+      "meshes": 3
+    },
+    {
+      "tile_id": "tile_003_000",
+      "url": "/models/bgc/tiles/tile_003_000.glb",
+      "center": [
+        -375.0,
+        -1625.0
+      ],
+      "bounds": [
+        -500.0,
+        -1750.0,
+        -250.0,
+        -1500.0
+      ],
+      "size_bytes": 7456,
+      "triangles": 76,
+      "meshes": 3
+    },
+    {
+      "tile_id": "tile_003_001",
+      "url": "/models/bgc/tiles/tile_003_001.glb",
+      "center": [
+        -375.0,
+        -1375.0
+      ],
+      "bounds": [
+        -500.0,
+        -1500.0,
+        -250.0,
+        -1250.0
+      ],
+      "size_bytes": 36360,
+      "triangles": 692,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_003_002",
+      "url": "/models/bgc/tiles/tile_003_002.glb",
+      "center": [
+        -375.0,
+        -1125.0
+      ],
+      "bounds": [
+        -500.0,
+        -1250.0,
+        -250.0,
+        -1000.0
+      ],
+      "size_bytes": 53064,
+      "triangles": 1056,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_003_003",
+      "url": "/models/bgc/tiles/tile_003_003.glb",
+      "center": [
+        -375.0,
+        -875.0
+      ],
+      "bounds": [
+        -500.0,
+        -1000.0,
+        -250.0,
+        -750.0
+      ],
+      "size_bytes": 144648,
+      "triangles": 3060,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_003_004",
+      "url": "/models/bgc/tiles/tile_003_004.glb",
+      "center": [
+        -375.0,
+        -625.0
+      ],
+      "bounds": [
+        -500.0,
+        -750.0,
+        -250.0,
+        -500.0
+      ],
+      "size_bytes": 168044,
+      "triangles": 3652,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_003_005",
+      "url": "/models/bgc/tiles/tile_003_005.glb",
+      "center": [
+        -375.0,
+        -375.0
+      ],
+      "bounds": [
+        -500.0,
+        -500.0,
+        -250.0,
+        -250.0
+      ],
+      "size_bytes": 212060,
+      "triangles": 4368,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_003_006",
+      "url": "/models/bgc/tiles/tile_003_006.glb",
+      "center": [
+        -375.0,
+        -125.0
+      ],
+      "bounds": [
+        -500.0,
+        -250.0,
+        -250.0,
+        0.0
+      ],
+      "size_bytes": 135484,
+      "triangles": 2764,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_003_007",
+      "url": "/models/bgc/tiles/tile_003_007.glb",
+      "center": [
+        -375.0,
+        125.0
+      ],
+      "bounds": [
+        -500.0,
+        0.0,
+        -250.0,
+        250.0
+      ],
+      "size_bytes": 324560,
+      "triangles": 6816,
+      "meshes": 10
+    },
+    {
+      "tile_id": "tile_003_008",
+      "url": "/models/bgc/tiles/tile_003_008.glb",
+      "center": [
+        -375.0,
+        375.0
+      ],
+      "bounds": [
+        -500.0,
+        250.0,
+        -250.0,
+        500.0
+      ],
+      "size_bytes": 205380,
+      "triangles": 4276,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_003_009",
+      "url": "/models/bgc/tiles/tile_003_009.glb",
+      "center": [
+        -375.0,
+        625.0
+      ],
+      "bounds": [
+        -500.0,
+        500.0,
+        -250.0,
+        750.0
+      ],
+      "size_bytes": 209300,
+      "triangles": 4012,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_003_010",
+      "url": "/models/bgc/tiles/tile_003_010.glb",
+      "center": [
+        -375.0,
+        875.0
+      ],
+      "bounds": [
+        -500.0,
+        750.0,
+        -250.0,
+        1000.0
+      ],
+      "size_bytes": 266456,
+      "triangles": 5044,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_003_011",
+      "url": "/models/bgc/tiles/tile_003_011.glb",
+      "center": [
+        -375.0,
+        1125.0
+      ],
+      "bounds": [
+        -500.0,
+        1000.0,
+        -250.0,
+        1250.0
+      ],
+      "size_bytes": 216728,
+      "triangles": 3940,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_003_012",
+      "url": "/models/bgc/tiles/tile_003_012.glb",
+      "center": [
+        -375.0,
+        1375.0
+      ],
+      "bounds": [
+        -500.0,
+        1250.0,
+        -250.0,
+        1500.0
+      ],
+      "size_bytes": 80248,
+      "triangles": 1396,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_004_001",
+      "url": "/models/bgc/tiles/tile_004_001.glb",
+      "center": [
+        -125.0,
+        -1375.0
+      ],
+      "bounds": [
+        -250.0,
+        -1500.0,
+        0.0,
+        -1250.0
+      ],
+      "size_bytes": 25128,
+      "triangles": 464,
+      "meshes": 3
+    },
+    {
+      "tile_id": "tile_004_002",
+      "url": "/models/bgc/tiles/tile_004_002.glb",
+      "center": [
+        -125.0,
+        -1125.0
+      ],
+      "bounds": [
+        -250.0,
+        -1250.0,
+        0.0,
+        -1000.0
+      ],
+      "size_bytes": 48404,
+      "triangles": 988,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_004_003",
+      "url": "/models/bgc/tiles/tile_004_003.glb",
+      "center": [
+        -125.0,
+        -875.0
+      ],
+      "bounds": [
+        -250.0,
+        -1000.0,
+        0.0,
+        -750.0
+      ],
+      "size_bytes": 35720,
+      "triangles": 748,
+      "meshes": 2
+    },
+    {
+      "tile_id": "tile_004_004",
+      "url": "/models/bgc/tiles/tile_004_004.glb",
+      "center": [
+        -125.0,
+        -625.0
+      ],
+      "bounds": [
+        -250.0,
+        -750.0,
+        0.0,
+        -500.0
+      ],
+      "size_bytes": 108224,
+      "triangles": 2236,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_004_005",
+      "url": "/models/bgc/tiles/tile_004_005.glb",
+      "center": [
+        -125.0,
+        -375.0
+      ],
+      "bounds": [
+        -250.0,
+        -500.0,
+        0.0,
+        -250.0
+      ],
+      "size_bytes": 268276,
+      "triangles": 5720,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_004_006",
+      "url": "/models/bgc/tiles/tile_004_006.glb",
+      "center": [
+        -125.0,
+        -125.0
+      ],
+      "bounds": [
+        -250.0,
+        -250.0,
+        0.0,
+        0.0
+      ],
+      "size_bytes": 240060,
+      "triangles": 5060,
+      "meshes": 10
+    },
+    {
+      "tile_id": "tile_004_007",
+      "url": "/models/bgc/tiles/tile_004_007.glb",
+      "center": [
+        -125.0,
+        125.0
+      ],
+      "bounds": [
+        -250.0,
+        0.0,
+        0.0,
+        250.0
+      ],
+      "size_bytes": 266556,
+      "triangles": 5620,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_004_008",
+      "url": "/models/bgc/tiles/tile_004_008.glb",
+      "center": [
+        -125.0,
+        375.0
+      ],
+      "bounds": [
+        -250.0,
+        250.0,
+        0.0,
+        500.0
+      ],
+      "size_bytes": 179140,
+      "triangles": 3716,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_004_009",
+      "url": "/models/bgc/tiles/tile_004_009.glb",
+      "center": [
+        -125.0,
+        625.0
+      ],
+      "bounds": [
+        -250.0,
+        500.0,
+        0.0,
+        750.0
+      ],
+      "size_bytes": 266416,
+      "triangles": 5136,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_004_010",
+      "url": "/models/bgc/tiles/tile_004_010.glb",
+      "center": [
+        -125.0,
+        875.0
+      ],
+      "bounds": [
+        -250.0,
+        750.0,
+        0.0,
+        1000.0
+      ],
+      "size_bytes": 274120,
+      "triangles": 5012,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_004_011",
+      "url": "/models/bgc/tiles/tile_004_011.glb",
+      "center": [
+        -125.0,
+        1125.0
+      ],
+      "bounds": [
+        -250.0,
+        1000.0,
+        0.0,
+        1250.0
+      ],
+      "size_bytes": 252312,
+      "triangles": 4652,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_004_012",
+      "url": "/models/bgc/tiles/tile_004_012.glb",
+      "center": [
+        -125.0,
+        1375.0
+      ],
+      "bounds": [
+        -250.0,
+        1250.0,
+        0.0,
+        1500.0
+      ],
+      "size_bytes": 12792,
+      "triangles": 144,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_005_001",
+      "url": "/models/bgc/tiles/tile_005_001.glb",
+      "center": [
+        125.0,
+        -1375.0
+      ],
+      "bounds": [
+        0.0,
+        -1500.0,
+        250.0,
+        -1250.0
+      ],
+      "size_bytes": 50108,
+      "triangles": 972,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_005_002",
+      "url": "/models/bgc/tiles/tile_005_002.glb",
+      "center": [
+        125.0,
+        -1125.0
+      ],
+      "bounds": [
+        0.0,
+        -1250.0,
+        250.0,
+        -1000.0
+      ],
+      "size_bytes": 31848,
+      "triangles": 640,
+      "meshes": 3
+    },
+    {
+      "tile_id": "tile_005_003",
+      "url": "/models/bgc/tiles/tile_005_003.glb",
+      "center": [
+        125.0,
+        -875.0
+      ],
+      "bounds": [
+        0.0,
+        -1000.0,
+        250.0,
+        -750.0
+      ],
+      "size_bytes": 177840,
+      "triangles": 3416,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_005_004",
+      "url": "/models/bgc/tiles/tile_005_004.glb",
+      "center": [
+        125.0,
+        -625.0
+      ],
+      "bounds": [
+        0.0,
+        -750.0,
+        250.0,
+        -500.0
+      ],
+      "size_bytes": 251824,
+      "triangles": 4880,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_005_005",
+      "url": "/models/bgc/tiles/tile_005_005.glb",
+      "center": [
+        125.0,
+        -375.0
+      ],
+      "bounds": [
+        0.0,
+        -500.0,
+        250.0,
+        -250.0
+      ],
+      "size_bytes": 251868,
+      "triangles": 5400,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_005_006",
+      "url": "/models/bgc/tiles/tile_005_006.glb",
+      "center": [
+        125.0,
+        -125.0
+      ],
+      "bounds": [
+        0.0,
+        -250.0,
+        250.0,
+        0.0
+      ],
+      "size_bytes": 255864,
+      "triangles": 5432,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_005_007",
+      "url": "/models/bgc/tiles/tile_005_007.glb",
+      "center": [
+        125.0,
+        125.0
+      ],
+      "bounds": [
+        0.0,
+        0.0,
+        250.0,
+        250.0
+      ],
+      "size_bytes": 240396,
+      "triangles": 5016,
+      "meshes": 9
+    },
+    {
+      "tile_id": "tile_005_008",
+      "url": "/models/bgc/tiles/tile_005_008.glb",
+      "center": [
+        125.0,
+        375.0
+      ],
+      "bounds": [
+        0.0,
+        250.0,
+        250.0,
+        500.0
+      ],
+      "size_bytes": 235652,
+      "triangles": 5000,
+      "meshes": 8
+    },
+    {
+      "tile_id": "tile_005_009",
+      "url": "/models/bgc/tiles/tile_005_009.glb",
+      "center": [
+        125.0,
+        625.0
+      ],
+      "bounds": [
+        0.0,
+        500.0,
+        250.0,
+        750.0
+      ],
+      "size_bytes": 222256,
+      "triangles": 4592,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_005_010",
+      "url": "/models/bgc/tiles/tile_005_010.glb",
+      "center": [
+        125.0,
+        875.0
+      ],
+      "bounds": [
+        0.0,
+        750.0,
+        250.0,
+        1000.0
+      ],
+      "size_bytes": 159300,
+      "triangles": 3384,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_005_011",
+      "url": "/models/bgc/tiles/tile_005_011.glb",
+      "center": [
+        125.0,
+        1125.0
+      ],
+      "bounds": [
+        0.0,
+        1000.0,
+        250.0,
+        1250.0
+      ],
+      "size_bytes": 106164,
+      "triangles": 1888,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_006_001",
+      "url": "/models/bgc/tiles/tile_006_001.glb",
+      "center": [
+        375.0,
+        -1375.0
+      ],
+      "bounds": [
+        250.0,
+        -1500.0,
+        500.0,
+        -1250.0
+      ],
+      "size_bytes": 131836,
+      "triangles": 2708,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_006_002",
+      "url": "/models/bgc/tiles/tile_006_002.glb",
+      "center": [
+        375.0,
+        -1125.0
+      ],
+      "bounds": [
+        250.0,
+        -1250.0,
+        500.0,
+        -1000.0
+      ],
+      "size_bytes": 182888,
+      "triangles": 3848,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_006_003",
+      "url": "/models/bgc/tiles/tile_006_003.glb",
+      "center": [
+        375.0,
+        -875.0
+      ],
+      "bounds": [
+        250.0,
+        -1000.0,
+        500.0,
+        -750.0
+      ],
+      "size_bytes": 375976,
+      "triangles": 7012,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_006_004",
+      "url": "/models/bgc/tiles/tile_006_004.glb",
+      "center": [
+        375.0,
+        -625.0
+      ],
+      "bounds": [
+        250.0,
+        -750.0,
+        500.0,
+        -500.0
+      ],
+      "size_bytes": 249616,
+      "triangles": 4788,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_006_005",
+      "url": "/models/bgc/tiles/tile_006_005.glb",
+      "center": [
+        375.0,
+        -375.0
+      ],
+      "bounds": [
+        250.0,
+        -500.0,
+        500.0,
+        -250.0
+      ],
+      "size_bytes": 298220,
+      "triangles": 6512,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_006_006",
+      "url": "/models/bgc/tiles/tile_006_006.glb",
+      "center": [
+        375.0,
+        -125.0
+      ],
+      "bounds": [
+        250.0,
+        -250.0,
+        500.0,
+        0.0
+      ],
+      "size_bytes": 303736,
+      "triangles": 6776,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_006_007",
+      "url": "/models/bgc/tiles/tile_006_007.glb",
+      "center": [
+        375.0,
+        125.0
+      ],
+      "bounds": [
+        250.0,
+        0.0,
+        500.0,
+        250.0
+      ],
+      "size_bytes": 155936,
+      "triangles": 3164,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_006_008",
+      "url": "/models/bgc/tiles/tile_006_008.glb",
+      "center": [
+        375.0,
+        375.0
+      ],
+      "bounds": [
+        250.0,
+        250.0,
+        500.0,
+        500.0
+      ],
+      "size_bytes": 116584,
+      "triangles": 2332,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_006_009",
+      "url": "/models/bgc/tiles/tile_006_009.glb",
+      "center": [
+        375.0,
+        625.0
+      ],
+      "bounds": [
+        250.0,
+        500.0,
+        500.0,
+        750.0
+      ],
+      "size_bytes": 212800,
+      "triangles": 4440,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_006_010",
+      "url": "/models/bgc/tiles/tile_006_010.glb",
+      "center": [
+        375.0,
+        875.0
+      ],
+      "bounds": [
+        250.0,
+        750.0,
+        500.0,
+        1000.0
+      ],
+      "size_bytes": 194296,
+      "triangles": 4152,
+      "meshes": 7
+    },
+    {
+      "tile_id": "tile_006_011",
+      "url": "/models/bgc/tiles/tile_006_011.glb",
+      "center": [
+        375.0,
+        1125.0
+      ],
+      "bounds": [
+        250.0,
+        1000.0,
+        500.0,
+        1250.0
+      ],
+      "size_bytes": 8912,
+      "triangles": 108,
+      "meshes": 3
+    },
+    {
+      "tile_id": "tile_007_001",
+      "url": "/models/bgc/tiles/tile_007_001.glb",
+      "center": [
+        625.0,
+        -1375.0
+      ],
+      "bounds": [
+        500.0,
+        -1500.0,
+        750.0,
+        -1250.0
+      ],
+      "size_bytes": 26844,
+      "triangles": 456,
+      "meshes": 3
+    },
+    {
+      "tile_id": "tile_007_002",
+      "url": "/models/bgc/tiles/tile_007_002.glb",
+      "center": [
+        625.0,
+        -1125.0
+      ],
+      "bounds": [
+        500.0,
+        -1250.0,
+        750.0,
+        -1000.0
+      ],
+      "size_bytes": 183676,
+      "triangles": 3428,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_007_003",
+      "url": "/models/bgc/tiles/tile_007_003.glb",
+      "center": [
+        625.0,
+        -875.0
+      ],
+      "bounds": [
+        500.0,
+        -1000.0,
+        750.0,
+        -750.0
+      ],
+      "size_bytes": 340612,
+      "triangles": 6396,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_007_004",
+      "url": "/models/bgc/tiles/tile_007_004.glb",
+      "center": [
+        625.0,
+        -625.0
+      ],
+      "bounds": [
+        500.0,
+        -750.0,
+        750.0,
+        -500.0
+      ],
+      "size_bytes": 430704,
+      "triangles": 8100,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_007_005",
+      "url": "/models/bgc/tiles/tile_007_005.glb",
+      "center": [
+        625.0,
+        -375.0
+      ],
+      "bounds": [
+        500.0,
+        -500.0,
+        750.0,
+        -250.0
+      ],
+      "size_bytes": 258524,
+      "triangles": 5112,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_007_006",
+      "url": "/models/bgc/tiles/tile_007_006.glb",
+      "center": [
+        625.0,
+        -125.0
+      ],
+      "bounds": [
+        500.0,
+        -250.0,
+        750.0,
+        0.0
+      ],
+      "size_bytes": 148800,
+      "triangles": 3012,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_007_007",
+      "url": "/models/bgc/tiles/tile_007_007.glb",
+      "center": [
+        625.0,
+        125.0
+      ],
+      "bounds": [
+        500.0,
+        0.0,
+        750.0,
+        250.0
+      ],
+      "size_bytes": 209520,
+      "triangles": 4424,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_007_008",
+      "url": "/models/bgc/tiles/tile_007_008.glb",
+      "center": [
+        625.0,
+        375.0
+      ],
+      "bounds": [
+        500.0,
+        250.0,
+        750.0,
+        500.0
+      ],
+      "size_bytes": 88348,
+      "triangles": 1772,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_007_009",
+      "url": "/models/bgc/tiles/tile_007_009.glb",
+      "center": [
+        625.0,
+        625.0
+      ],
+      "bounds": [
+        500.0,
+        500.0,
+        750.0,
+        750.0
+      ],
+      "size_bytes": 114544,
+      "triangles": 2340,
+      "meshes": 6
+    },
+    {
+      "tile_id": "tile_007_010",
+      "url": "/models/bgc/tiles/tile_007_010.glb",
+      "center": [
+        625.0,
+        875.0
+      ],
+      "bounds": [
+        500.0,
+        750.0,
+        750.0,
+        1000.0
+      ],
+      "size_bytes": 47552,
+      "triangles": 900,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_008_003",
+      "url": "/models/bgc/tiles/tile_008_003.glb",
+      "center": [
+        875.0,
+        -875.0
+      ],
+      "bounds": [
+        750.0,
+        -1000.0,
+        1000.0,
+        -750.0
+      ],
+      "size_bytes": 25180,
+      "triangles": 436,
+      "meshes": 3
+    },
+    {
+      "tile_id": "tile_008_004",
+      "url": "/models/bgc/tiles/tile_008_004.glb",
+      "center": [
+        875.0,
+        -625.0
+      ],
+      "bounds": [
+        750.0,
+        -750.0,
+        1000.0,
+        -500.0
+      ],
+      "size_bytes": 128976,
+      "triangles": 2332,
+      "meshes": 4
+    },
+    {
+      "tile_id": "tile_008_005",
+      "url": "/models/bgc/tiles/tile_008_005.glb",
+      "center": [
+        875.0,
+        -375.0
+      ],
+      "bounds": [
+        750.0,
+        -500.0,
+        1000.0,
+        -250.0
+      ],
+      "size_bytes": 213564,
+      "triangles": 3804,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_008_006",
+      "url": "/models/bgc/tiles/tile_008_006.glb",
+      "center": [
+        875.0,
+        -125.0
+      ],
+      "bounds": [
+        750.0,
+        -250.0,
+        1000.0,
+        0.0
+      ],
+      "size_bytes": 318688,
+      "triangles": 5964,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_008_007",
+      "url": "/models/bgc/tiles/tile_008_007.glb",
+      "center": [
+        875.0,
+        125.0
+      ],
+      "bounds": [
+        750.0,
+        0.0,
+        1000.0,
+        250.0
+      ],
+      "size_bytes": 175616,
+      "triangles": 3732,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_008_008",
+      "url": "/models/bgc/tiles/tile_008_008.glb",
+      "center": [
+        875.0,
+        375.0
+      ],
+      "bounds": [
+        750.0,
+        250.0,
+        1000.0,
+        500.0
+      ],
+      "size_bytes": 61324,
+      "triangles": 1168,
+      "meshes": 5
+    },
+    {
+      "tile_id": "tile_008_009",
+      "url": "/models/bgc/tiles/tile_008_009.glb",
+      "center": [
+        875.0,
+        625.0
+      ],
+      "bounds": [
+        750.0,
+        500.0,
+        1000.0,
+        750.0
+      ],
+      "size_bytes": 36640,
+      "triangles": 656,
+      "meshes": 5
+    }
+  ],
+  "detailed_assets": [
+    {
+      "entity_id": "bgc_building_0014",
+      "name": "Central Square",
+      "url": "/models/buildings/bgc_building_0014_lod1.glb",
+      "lod": "LOD1"
+    },
+    {
+      "entity_id": "bgc_building_0007",
+      "name": "W Global Center",
+      "url": "/models/buildings/bgc_building_0007_lod1.glb",
+      "lod": "LOD1"
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien",
+      "url": "/models/buildings/bgc_building_0004_lod1.glb",
+      "lod": "LOD1"
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre",
+      "url": "/models/buildings/bgc_building_0015_lod1.glb",
+      "lod": "LOD1"
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "name": "Verve Residences Tower 2",
+      "url": "/models/buildings/bgc_building_0005_lod1.glb",
+      "lod": "LOD1"
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo",
+      "url": "/models/buildings/bgc_building_0027_lod1.glb",
+      "lod": "LOD1"
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "name": "C1",
+      "url": "/models/buildings/bgc_building_0011_lod1.glb",
+      "lod": "LOD1"
+    }
+  ],
+  "totals": {
+    "tiles": 94,
+    "canonical_buildings": 6982,
+    "building_outlines": 6967,
+    "building_parts": 154,
+    "render_volumes": 7120,
+    "completed_tiles": 94,
+    "glb_bytes": 15282280,
+    "triangles": 306596,
+    "runtime_nodes": 522
+  },
+  "tile_loading": "ALL_LOADED",
+  "viewpoints": [
+    {
+      "id": "bgc-aerial-full",
+      "label": "BGC Aerial Full",
+      "position": [
+        1975.9794799999997,
+        2531.1739199999997,
+        2156.85448
+      ],
+      "target": [
+        -94.981,
+        24,
+        85.894
+      ]
+    },
+    {
+      "id": "bgc-high-street",
+      "label": "BGC High Street",
+      "position": [
+        -90,
+        16,
+        170
+      ],
+      "target": [
+        -120,
+        12,
+        10
+      ]
+    },
+    {
+      "id": "bgc-north",
+      "label": "BGC North",
+      "position": [
+        -94.981,
+        1380.64032,
+        -2560.33328
+      ],
+      "target": [
+        -94.981,
+        20,
+        85.894
+      ]
+    },
+    {
+      "id": "bgc-south",
+      "label": "BGC South",
+      "position": [
+        -94.981,
+        1380.64032,
+        2732.12128
+      ],
+      "target": [
+        -94.981,
+        20,
+        85.894
+      ]
+    },
+    {
+      "id": "bgc-south-street",
+      "label": "South Street",
+      "position": [
+        300,
+        7,
+        800
+      ],
+      "target": [
+        180,
+        8,
+        650
+      ]
+    }
+  ],
+  "attribution": {
+    "text": "© OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/copyright",
+    "license": "ODbL 1.0",
+    "license_url": "https://opendatacommons.org/licenses/odbl/1-0/"
+  }
+}

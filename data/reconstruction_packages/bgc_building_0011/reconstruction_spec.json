@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "entity_id": "bgc_building_0011",
+    "name": "C1",
+    "location": "Bonifacio High Street Central C1, BGC, Taguig, Philippines",
+    "identity_status": "CONFIRMED"
+  },
+  "target_time_state": {
+    "value": "CURRENT_APPROX_2025_2026",
+    "permanent_architecture": "PRIMARY",
+    "tenant_signage_and_seasonal_state": "OMIT_OR_NEUTRALIZE"
+  },
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {
+    "area_m2": 3196.04,
+    "perimeter_m": 279.62,
+    "axis_aligned_bounds_m": {
+      "min_x": -349.177,
+      "min_y": -0.029,
+      "max_x": -259.589,
+      "max_y": 68.649
+    },
+    "maximum_height_m": 10.1,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "major_building_parts": [
+    "0011:massing:envelope"
+  ],
+  "massing_file": "massing.json",
+  "facades_file": "facades.json",
+  "entrances_file": "entrances.json",
+  "materials_file": "materials.json",
+  "required_coverage_aspects": [
+    "overall_massing",
+    "materials"
+  ],
+  "best_reference_ids": [
+    "ref:official:bgc-c1-directory",
+    "ref:web:officepro-bhs-central"
+  ],
+  "confidence": {
+    "identity": 0.9,
+    "footprint": 0.8,
+    "height": 0.75,
+    "massing": 0.72,
+    "materials": 0.65
+  },
+  "required_procedural_approximations": [
+    {
+      "feature": "facade module spacing",
+      "classification": "PROCEDURAL",
+      "instruction": "Use normalized polygon-edge bands without false centimetre precision."
+    },
+    {
+      "feature": "weak sides and roof plant",
+      "classification": "OMIT_FOR_MVP",
+      "instruction": "Keep conservative and omit unresolved openings/equipment."
+    }
+  ],
+  "do_not_invent": [
+    "Do not invent entrances or service openings.",
+    "Do not copy tenant graphics or logos.",
+    "Do not claim exact facade spacing or surveyed height."
+  ],
+  "visual_qa_cameras": [
+    {
+      "camera_id": "qa:0011:north",
+      "position": [
+        -309.232,
+        230.57860000000005,
+        5.05
+      ],
+      "target": [
+        -309.232,
+        33.485,
+        4.242
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:bgc-c1-directory",
+      "confidence": 0.65,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:0011:south",
+      "position": [
+        -309.232,
+        -163.60860000000008,
+        5.05
+      ],
+      "target": [
+        -309.232,
+        33.485,
+        4.242
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.25,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:0011:east",
+      "position": [
+        -112.13839999999996,
+        33.485,
+        5.05
+      ],
+      "target": [
+        -309.232,
+        33.485,
+        4.242
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:bgc-c1-directory",
+      "confidence": 0.65,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:0011:west",
+      "position": [
+        -506.3256000000001,
+        33.485,
+        5.05
+      ],
+      "target": [
+        -309.232,
+        33.485,
+        4.242
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.25,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:0011:aerial",
+      "position": [
+        -165.8912,
+        -109.85580000000003,
+        25.25
+      ],
+      "target": [
+        -309.232,
+        33.485,
+        4.04
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:bgc-c1-directory",
+      "confidence": 0.65,
+      "match_status": "MASSING"
+    }
+  ],
+  "web_performance_constraints": {
+    "principle": "LOD and measured runtime cost first",
+    "track": [
+      "triangles",
+      "vertices",
+      "materials",
+      "draw_calls",
+      "GLB_transfer_size",
+      "runtime_nodes"
+    ],
+    "instructions": [
+      "reuse shared materials",
+      "merge same-material edge bands at runtime",
+      "retain semantic authoring components",
+      "use no photo textures"
+    ]
+  },
+  "readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "generic_builder": {
+    "material_families": [
+      "architectural_dark_glass",
+      "warm_neutral_cladding"
+    ],
+    "volumes": [],
+    "polygon_volumes": [
+      {
+        "name": "M10_0011_Envelope",
+        "component_id": "0011:massing:envelope",
+        "source_feature_id": "osm:way:178125951",
+        "base_z_m": 0,
+        "height_m": 10.1,
+        "material_family": "warm_neutral_cladding",
+        "classification": "verified geographic polygon and retained height evidence",
+        "evidence_status": "VERIFIED_GEOGRAPHIC",
+        "observation_ids": [
+          "obs:0011:footprint",
+          "obs:0011:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      }
+    ],
+    "polygon_edge_regions": [
+      {
+        "name": "M10_0011_Band_01",
+        "component_id": "0011:facade:band-01",
+        "source_feature_id": "osm:way:178125951",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.05,
+        "v1": 0.26,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0,
+        "height_m": 10.1,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0011_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0011:massing",
+          "obs:0011:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:bgc-c1-directory",
+          "ref:web:officepro-bhs-central"
+        ]
+      },
+      {
+        "name": "M10_0011_Band_02",
+        "component_id": "0011:facade:band-02",
+        "source_feature_id": "osm:way:178125951",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.38,
+        "v1": 0.56,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0,
+        "height_m": 10.1,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0011_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0011:massing",
+          "obs:0011:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:bgc-c1-directory",
+          "ref:web:officepro-bhs-central"
+        ]
+      },
+      {
+        "name": "M10_0011_Band_03",
+        "component_id": "0011:facade:band-03",
+        "source_feature_id": "osm:way:178125951",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.68,
+        "v1": 0.86,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0,
+        "height_m": 10.1,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0011_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0011:massing",
+          "obs:0011:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:bgc-c1-directory",
+          "ref:web:officepro-bhs-central"
+        ]
+      }
+    ],
+    "facade_regions": [],
+    "qa_cameras": [
+      {
+        "camera_id": "qa:0011:north",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -309.232,
+          230.57860000000005,
+          5.05
+        ],
+        "target": [
+          -309.232,
+          33.485,
+          4.242
+        ],
+        "lens_mm": 40,
+        "filename": "qa-north.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:official:bgc-c1-directory",
+          "ref:web:officepro-bhs-central"
+        ]
+      },
+      {
+        "camera_id": "qa:0011:south",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -309.232,
+          -163.60860000000008,
+          5.05
+        ],
+        "target": [
+          -309.232,
+          33.485,
+          4.242
+        ],
+        "lens_mm": 40,
+        "filename": "qa-south.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:0011:east",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -112.13839999999996,
+          33.485,
+          5.05
+        ],
+        "target": [
+          -309.232,
+          33.485,
+          4.242
+        ],
+        "lens_mm": 40,
+        "filename": "qa-east.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:official:bgc-c1-directory",
+          "ref:web:officepro-bhs-central"
+        ]
+      },
+      {
+        "camera_id": "qa:0011:west",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -506.3256000000001,
+          33.485,
+          5.05
+        ],
+        "target": [
+          -309.232,
+          33.485,
+          4.242
+        ],
+        "lens_mm": 40,
+        "filename": "qa-west.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:0011:aerial",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -165.8912,
+          -109.85580000000003,
+          25.25
+        ],
+        "target": [
+          -309.232,
+          33.485,
+          4.04
+        ],
+        "lens_mm": 40,
+        "filename": "qa-aerial.png",
+        "match": "MASSING",
+        "reference_ids": [
+          "ref:official:bgc-c1-directory",
+          "ref:web:officepro-bhs-central"
+        ]
+      }
+    ]
+  }
+}

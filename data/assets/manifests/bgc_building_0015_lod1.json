@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0015",
+  "name": "JY Campos Centre",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_building_0015_lod1.glb",
+  "bounds_m": {
+    "min": [
+      9.165,
+      32.545,
+      0.0
+    ],
+    "max": [
+      63.201,
+      89.11,
+      45.9
+    ]
+  },
+  "geographic_anchor": {
+    "longitude": 121.0513029,
+    "latitude": 14.5513585,
+    "local_x_m": 36.183,
+    "local_y_m": 60.828
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_building_0015.json",
+  "generated_at": "2026-09-14T15:10:52.073899+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

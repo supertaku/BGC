@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "facades": [
+    {
+      "facade_id": "wgc:facade:30th",
+      "orientation": "30TH_STREET",
+      "major_segments": [
+        "regular punched office windows",
+        "open horizontal middle bands",
+        "glazed retail base",
+        "glazed corner zone"
+      ],
+      "floor_alignment": "Follow visible bands; physical storey count remains CONFLICTED",
+      "bay_count": "APPROXIMATE_FROM_PHOTOGRAPHY",
+      "opening_pattern": "regular office rhythm",
+      "material_regions": [
+        "mat:light-panel",
+        "mat:dark-glazing",
+        "mat:storefront-glazing",
+        "mat:dark-metal",
+        "mat:neutral-concrete"
+      ],
+      "entrances": [
+        "wgc:entrance:corner-public"
+      ],
+      "setbacks": [
+        "upper office volume over open bands and retail base"
+      ],
+      "confidence": 0.86,
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "coverage_rating": "GOOD"
+    },
+    {
+      "facade_id": "wgc:facade:9th",
+      "orientation": "9TH_AVENUE",
+      "major_segments": [
+        "regular punched office windows",
+        "broad upper glazing",
+        "open horizontal middle bands",
+        "glazed retail base"
+      ],
+      "floor_alignment": "Follow visible bands; physical storey count remains CONFLICTED",
+      "bay_count": "APPROXIMATE_FROM_PHOTOGRAPHY",
+      "opening_pattern": "regular office rhythm",
+      "material_regions": [
+        "mat:light-panel",
+        "mat:dark-glazing",
+        "mat:storefront-glazing",
+        "mat:dark-metal",
+        "mat:neutral-concrete"
+      ],
+      "entrances": [],
+      "setbacks": [
+        "upper office volume over open bands and retail base"
+      ],
+      "confidence": 0.86,
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "coverage_rating": "GOOD"
+    },
+    {
+      "facade_id": "wgc:facade:opposite-a",
+      "orientation": "OPPOSITE_SIDE_A",
+      "major_segments": [
+        "massing-only conservative treatment"
+      ],
+      "floor_alignment": "Follow visible bands; physical storey count remains CONFLICTED",
+      "bay_count": "UNKNOWN",
+      "opening_pattern": "UNKNOWN",
+      "material_regions": [
+        "mat:light-panel",
+        "mat:dark-glazing",
+        "mat:storefront-glazing",
+        "mat:dark-metal",
+        "mat:neutral-concrete"
+      ],
+      "entrances": [],
+      "setbacks": [
+        "upper office volume over open bands and retail base"
+      ],
+      "confidence": 0.3,
+      "status": "UNKNOWN",
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "coverage_rating": "WEAK"
+    },
+    {
+      "facade_id": "wgc:facade:opposite-b",
+      "orientation": "OPPOSITE_SIDE_B",
+      "major_segments": [
+        "massing-only conservative treatment"
+      ],
+      "floor_alignment": "Follow visible bands; physical storey count remains CONFLICTED",
+      "bay_count": "UNKNOWN",
+      "opening_pattern": "UNKNOWN",
+      "material_regions": [
+        "mat:light-panel",
+        "mat:dark-glazing",
+        "mat:storefront-glazing",
+        "mat:dark-metal",
+        "mat:neutral-concrete"
+      ],
+      "entrances": [],
+      "setbacks": [
+        "upper office volume over open bands and retail base"
+      ],
+      "confidence": 0.3,
+      "status": "UNKNOWN",
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "coverage_rating": "WEAK"
+    }
+  ]
+}

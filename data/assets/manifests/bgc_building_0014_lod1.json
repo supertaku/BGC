@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0014",
+  "name": "Central Square",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_building_0014_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -315.047,
+      83.805,
+      0.0
+    ],
+    "max": [
+      -214.465,
+      173.591,
+      25.9
+    ]
+  },
+  "geographic_anchor": {
+    "longitude": 121.0484706,
+    "latitude": 14.5519147,
+    "local_x_m": -268.556,
+    "local_y_m": 124.986
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_building_0014.json",
+  "generated_at": "2026-09-14T11:00:18.011248+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

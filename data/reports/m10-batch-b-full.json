@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "generated_at": "2026-09-14T14:53:40.291616+00:00",
+  "mode": "continue-on-error",
+  "wave": "B",
+  "stage": "full",
+  "results": [
+    {
+      "entity_id": "bgc_building_0005",
+      "name": "Verve Residences Tower 2",
+      "wave": "B",
+      "status": "PASS",
+      "elapsed_seconds": 27.982,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "00:23.157  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0005\\qa-north.png'\n00:23.516  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0005\\qa-south.png'\n00:23.797  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0005\\qa-east.png'\n00:24.078  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0005\\qa-west.png'\n00:24.360  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0005\\qa-aerial.png'\nInfo: Saved as \"bgc_building_0005-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n22:53:10 | INFO: Starting glTF 2.0 export\n22:53:10 | INFO: Extracting primitive: M10_0005_Podium_mesh.001\n22:53:10 | INFO: Primitives created: 1\n22:53:10 | INFO: Extracting primitive: M10_0005_Tower_mesh.001\n22:53:10 | INFO: Primitives created: 1\n22:53:10 | INFO: Extracting primitive: BGC_RUNTIME_M10_0005_FACADE_BANDS_mesh\n22:53:10 | INFO: Primitives created: 1\n22:53:10 | INFO: Finished glTF 2.0 export in 0.055741071701049805 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0005 components=82 materials=3\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "22:53:12 | INFO: Data are loaded, start creating Blender stuff\n22:53:12 | INFO: Blender create Mesh node M10_0005_Podium_mesh.001\n22:53:12 | INFO: Blender create Mesh node M10_0005_Tower_mesh.001\n22:53:12 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0005_FACADE_BANDS_mesh\n22:53:12 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0005_lod1.glb size_bytes=61032 meshes=3 triangles=1008 materials=2 draw_calls_approx=3 max_dimension_m=147.600\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0005_lod1.json"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo",
+      "wave": "B",
+      "status": "FAIL",
+      "elapsed_seconds": 0.253,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "FAIL",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: NOT_RECONSTRUCTION_READY errors=1 warnings=0\nERROR: observations without source evidence or explicit unknown/procedural status: ['obs:0027:height']"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "name": "C1",
+      "wave": "B",
+      "status": "PASS",
+      "elapsed_seconds": 26.888,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "00:22.000  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0011\\qa-north.png'\n00:22.328  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0011\\qa-south.png'\n00:22.594  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0011\\qa-east.png'\n00:22.875  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0011\\qa-west.png'\n00:23.141  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0011\\qa-aerial.png'\nInfo: Saved as \"bgc_building_0011-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n22:53:37 | INFO: Starting glTF 2.0 export\n22:53:37 | INFO: Extracting primitive: M10_0011_Envelope_mesh.001\n22:53:37 | INFO: Primitives created: 1\n22:53:37 | INFO: Extracting primitive: BGC_RUNTIME_M10_0011_FACADE_BANDS_mesh\n22:53:37 | INFO: Primitives created: 1\n22:53:37 | INFO: Finished glTF 2.0 export in 0.05227804183959961 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0011 components=31 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "22:53:40 | INFO: Data are loaded, start creating Blender stuff\n22:53:40 | INFO: Blender create Mesh node M10_0011_Envelope_mesh.001\n22:53:40 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0011_FACADE_BANDS_mesh\n22:53:40 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0011_lod1.glb size_bytes=25360 meshes=2 triangles=396 materials=2 draw_calls_approx=2 max_dimension_m=89.901\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0011_lod1.json"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 1
+  }
+}

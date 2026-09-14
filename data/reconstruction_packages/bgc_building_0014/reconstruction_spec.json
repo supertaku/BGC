@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "entity_id": "bgc_building_0014",
+    "name": "Central Square",
+    "location": "Bonifacio High Street Central, BGC, Taguig, Philippines",
+    "identity_status": "CONFIRMED"
+  },
+  "target_time_state": {
+    "value": "CURRENT_APPROX_2025_2026",
+    "permanent_architecture": "PRIMARY",
+    "tenant_signage_and_seasonal_state": "OPTIONAL_SIMPLIFIED"
+  },
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {
+    "area_m2": 6118.37,
+    "perimeter_m": 327.63,
+    "oriented_bounding_box_m": {
+      "major": 87.079,
+      "minor": 80.681
+    },
+    "local_axis_rotation_deg_from_east": -17.595,
+    "major_axis_bearing_deg_clockwise_from_north": 107.595,
+    "axis_aligned_bounds_m": {
+      "min_x": -321.859,
+      "min_y": 78.833,
+      "max_x": -214.465,
+      "max_y": 170.739
+    },
+    "maximum_height_m": 25.9,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "major_building_parts": [
+    "csq:massing:envelope-outline",
+    "csq:massing:main-volume",
+    "csq:massing:northwest-column",
+    "csq:massing:northeast-column",
+    "csq:massing:roof-plane"
+  ],
+  "massing_file": "massing.json",
+  "facades_file": "facades.json",
+  "entrances_file": "entrances.json",
+  "materials_file": "materials.json",
+  "street_relationship": {
+    "north": "30th Street vehicular edge with streetlights and trees",
+    "west": "5th Avenue vehicular edge with signalized intersection and palms",
+    "south": "BHS Central pedestrian park/corridor with mature trees, lawn/terraced steps, seating, lights, and temporary event elements",
+    "east": "close adjacent retail mass"
+  },
+  "best_reference_ids": [
+    "ref:commons:133250280",
+    "ref:commons:158404929",
+    "ref:commons:173664145",
+    "ref:commons:173664147",
+    "ref:youtube:tour-from-home-central-square-2021"
+  ],
+  "required_coverage_aspects": ["overall_massing", "north_30th_side", "entrance", "materials"],
+  "confidence": {
+    "identity": 0.99,
+    "footprint": 0.8,
+    "height": 0.75,
+    "massing": 0.9,
+    "north_30th": 0.88,
+    "west_5th": 0.76,
+    "south_high_street": 0.8,
+    "east_other": 0.25,
+    "entrance": 0.68,
+    "roof_major_plane": 0.75,
+    "materials": 0.9
+  },
+  "required_procedural_approximations": [
+    {
+      "feature": "east/service facade",
+      "classification": "PROCEDURAL",
+      "instruction": "neutral low-detail opaque treatment"
+    },
+    {
+      "feature": "west public entrance portal",
+      "classification": "PARAMETRIC_PLACEHOLDER",
+      "instruction": "simple recessed glazed portal; expose dimensions as parameters"
+    },
+    {
+      "feature": "repeated facade panels/bays",
+      "classification": "PROCEDURAL",
+      "instruction": "derive approximate large-bay rhythm from evidence; avoid false fine precision"
+    },
+    {
+      "feature": "distinctive northwest corner/signage frame",
+      "classification": "CUSTOM",
+      "instruction": "model the wall/display recess as geometry; keep campaign artwork neutral"
+    },
+    {
+      "feature": "roof mechanical equipment",
+      "classification": "OMIT_FOR_MVP",
+      "instruction": "major flat roof/parapet only"
+    },
+    {
+      "feature": "tiny tenant hardware and rooftop piping",
+      "classification": "OMIT_FOR_MVP",
+      "instruction": "omit"
+    }
+  ],
+  "do_not_invent": [
+    "Do not invent high-detail roof plant, pipes, or screens.",
+    "Do not invent east/service-side loading bays, doors, or signage.",
+    "Do not claim an exact main entrance width or hierarchy.",
+    "Do not map Lower Ground/Upper Ground/Second/Third/Cinema labels directly to geometric storey indices.",
+    "Do not copy research-only advertising, tenant campaigns, or trademarks into textures.",
+    "Do not change the 25.9 m height without new evidence.",
+    "Do not treat Commons files from one capture session as independent corroboration merely by count."
+  ],
+  "future_blender_object_hierarchy": [
+    "CSQ_ROOT",
+    "CSQ_ROOT/MASSING/MAIN_VOLUME",
+    "CSQ_ROOT/MASSING/COLUMNS",
+    "CSQ_ROOT/FACADES/NORTH_30TH",
+    "CSQ_ROOT/FACADES/WEST_5TH",
+    "CSQ_ROOT/FACADES/SOUTH_HIGH_STREET",
+    "CSQ_ROOT/FACADES/EAST_OTHER_PROCEDURAL",
+    "CSQ_ROOT/ENTRANCES/WEST_PUBLIC_PLACEHOLDER",
+    "CSQ_ROOT/MATERIAL_GROUPS/OPAQUE_CLADDING",
+    "CSQ_ROOT/MATERIAL_GROUPS/GLASS",
+    "CSQ_ROOT/STRUCTURAL_ELEMENTS",
+    "CSQ_ROOT/SIGNAGE_PLACEHOLDERS",
+    "CSQ_ROOT/ROOF/MAJOR_PLANE"
+  ],
+  "visual_qa_cameras": [
+    {
+      "camera_id": "qa:csq:north-30th",
+      "position": "approximate street-level northeast of centroid",
+      "target": "north facade center",
+      "fov_deg": 55,
+      "corresponding_reference": "ref:commons:133250280",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:csq:south-high-street",
+      "position": "approximate southeast BHS Central pedestrian corridor",
+      "target": "south facade center",
+      "fov_deg": 55,
+      "corresponding_reference": "ref:commons:158404929",
+      "confidence": 0.65,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:csq:west-5th-high",
+      "position": "high southwest view; exact coordinates unknown",
+      "target": "west facade and roof",
+      "fov_deg": 50,
+      "corresponding_reference": "ref:commons:173664145",
+      "confidence": 0.6,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:csq:pse-aerial",
+      "position": {
+        "x": -394.082,
+        "y": 38.121,
+        "z": "ESTIMATE_FROM_SOURCE_ALTITUDE_OR_VISUAL_MATCH"
+      },
+      "target": {
+        "x": -268.556,
+        "y": 124.986,
+        "z": 12.95
+      },
+      "fov_deg": 60,
+      "corresponding_reference": "ref:commons:173664147",
+      "confidence": 0.82,
+      "match_status": "CAMERA_MATCH_READY"
+    },
+    {
+      "camera_id": "qa:csq:east-diagnostic",
+      "position": "east-side facade-normal diagnostic",
+      "target": "east facade center",
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.2,
+      "match_status": "NOT_POSSIBLE_REFERENCE_MISSING"
+    }
+  ],
+  "web_performance_constraints": {
+    "principle": "LOD and metrics first; no photorealism target",
+    "track": [
+      "triangles",
+      "vertices",
+      "materials",
+      "draw_calls",
+      "texture_memory",
+      "GLB_transfer_size",
+      "parse_decode_time"
+    ],
+    "instructions": [
+      "use shared coarse materials",
+      "instance repeated facade modules where practical",
+      "avoid photo textures for the first pass",
+      "keep signage as optional low-cost placeholders",
+      "generate LOD2/LOD3 from parameters rather than blind decimation"
+    ]
+  },
+  "compute_estimate": {
+    "class": "MODERATE",
+    "reason": "Broad simple massing and a small material set; moderate manual reasoning for three partially evidenced facades and entrance placement."
+  },
+  "model_recommendation": {
+    "next_model": "SOL",
+    "astra_required": false,
+    "reason": "Structured dimensions, massing, reference priorities, and approximation rules are sufficient for a deterministic first reconstruction."
+  },
+  "readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

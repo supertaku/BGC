@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "unknowns": [
+    {
+      "unknown_id": "unknown:0011:weak-sides",
+      "entity_id": "bgc_building_0011",
+      "description": "Exact openings on weakly evidenced sides",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Use conservative perimeter rhythm"
+    },
+    {
+      "unknown_id": "unknown:0011:entrances",
+      "entity_id": "bgc_building_0011",
+      "description": "Exact portal locations and dimensions",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Omit rather than invent"
+    },
+    {
+      "unknown_id": "unknown:0011:roof",
+      "entity_id": "bgc_building_0011",
+      "description": "Fine rooftop equipment and service elements",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Omit machinery"
+    },
+    {
+      "unknown_id": "unknown:0011:spacing",
+      "entity_id": "bgc_building_0011",
+      "description": "Centimetre facade module spacing",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Use normalized approximate bands"
+    }
+  ]
+}

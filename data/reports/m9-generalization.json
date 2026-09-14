@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "milestone": "M9 — Second-Building Reconstruction and Generalization Validation",
+  "target": "bgc_building_0007",
+  "assessment": "GENERALIZES",
+  "operation_distribution": {
+    "EXISTING_SHARED_PRIMITIVE": 7,
+    "NEW_SHARED_PRIMITIVE": 2,
+    "TARGET_SPECIFIC_CONFIGURATION": 4,
+    "TARGET_SPECIFIC_CODE": 2,
+    "MANUAL_EXCEPTION": 0
+  },
+  "new_shared_primitives": ["WindowGrid", "OpenFacadeBand"],
+  "target_specific_functions": 6,
+  "framework_files_modified": 3,
+  "central_square_regressions_introduced": 0,
+  "central_square_regressions_fixed": 0,
+  "central_square_final_regression": "PASS",
+  "generic_fixture": "PASS",
+  "configuration_assessment": "MOSTLY_CONFIGURATION_DRIVEN",
+  "third_building_easier": true,
+  "largest_generalization_weakness": "The framework still needs a real curvilinear, terraced, or tower-and-podium test for non-rectilinear massing."
+}

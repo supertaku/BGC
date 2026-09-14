@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "entity_id": "bgc_building_0004",
+    "name": "One Maridien",
+    "location": "27th Street corner 9th Avenue, BGC, Taguig, Philippines",
+    "identity_status": "CONFIRMED"
+  },
+  "target_time_state": {
+    "value": "CURRENT_APPROX_2025_2026",
+    "permanent_architecture": "PRIMARY",
+    "tenant_signage_and_seasonal_state": "OMIT_OR_NEUTRALIZE"
+  },
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {
+    "area_m2": 2553.83,
+    "perimeter_m": 218.61,
+    "axis_aligned_bounds_m": {
+      "min_x": -120.651,
+      "min_y": -252.569,
+      "max_x": -38.169,
+      "max_y": -196.157
+    },
+    "maximum_height_m": 152.9,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "major_building_parts": [
+    "0004:massing:podium",
+    "0004:massing:tower"
+  ],
+  "massing_file": "massing.json",
+  "facades_file": "facades.json",
+  "entrances_file": "entrances.json",
+  "materials_file": "materials.json",
+  "required_coverage_aspects": [
+    "overall_massing",
+    "materials"
+  ],
+  "best_reference_ids": [
+    "ref:official:one-maridien",
+    "ref:web:kmc-one-maridien"
+  ],
+  "confidence": {
+    "identity": 0.96,
+    "footprint": 0.8,
+    "height": 0.75,
+    "massing": 0.72,
+    "materials": 0.65
+  },
+  "required_procedural_approximations": [
+    {
+      "feature": "facade module spacing",
+      "classification": "PROCEDURAL",
+      "instruction": "Use normalized polygon-edge bands without false centimetre precision."
+    },
+    {
+      "feature": "weak sides and roof plant",
+      "classification": "OMIT_FOR_MVP",
+      "instruction": "Keep conservative and omit unresolved openings/equipment."
+    }
+  ],
+  "do_not_invent": [
+    "Do not invent entrances or service openings.",
+    "Do not copy tenant graphics or logos.",
+    "Do not claim exact facade spacing or surveyed height."
+  ],
+  "visual_qa_cameras": [
+    {
+      "camera_id": "qa:0004:north",
+      "position": [
+        -79.41,
+        157.887,
+        76.45
+      ],
+      "target": [
+        -79.41,
+        -224.363,
+        64.218
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:one-maridien",
+      "confidence": 0.65,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:0004:south",
+      "position": [
+        -79.41,
+        -606.613,
+        76.45
+      ],
+      "target": [
+        -79.41,
+        -224.363,
+        64.218
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.25,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:0004:east",
+      "position": [
+        302.84000000000003,
+        -224.363,
+        76.45
+      ],
+      "target": [
+        -79.41,
+        -224.363,
+        64.218
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:one-maridien",
+      "confidence": 0.65,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:0004:west",
+      "position": [
+        -461.65999999999997,
+        -224.363,
+        76.45
+      ],
+      "target": [
+        -79.41,
+        -224.363,
+        64.218
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.25,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:0004:aerial",
+      "position": [
+        149.94000000000003,
+        -453.713,
+        382.25
+      ],
+      "target": [
+        -79.41,
+        -224.363,
+        61.160000000000004
+      ],
+      "fov_deg": 50,
+      "corresponding_reference": "ref:official:one-maridien",
+      "confidence": 0.65,
+      "match_status": "MASSING"
+    }
+  ],
+  "web_performance_constraints": {
+    "principle": "LOD and measured runtime cost first",
+    "track": [
+      "triangles",
+      "vertices",
+      "materials",
+      "draw_calls",
+      "GLB_transfer_size",
+      "runtime_nodes"
+    ],
+    "instructions": [
+      "reuse shared materials",
+      "merge same-material edge bands at runtime",
+      "retain semantic authoring components",
+      "use no photo textures"
+    ]
+  },
+  "readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "generic_builder": {
+    "material_families": [
+      "architectural_dark_glass",
+      "warm_neutral_cladding"
+    ],
+    "volumes": [],
+    "polygon_volumes": [
+      {
+        "name": "M10_0004_Podium",
+        "component_id": "0004:massing:podium",
+        "source_feature_id": "osm:way:1070584577",
+        "base_z_m": 0,
+        "height_m": 17.3,
+        "material_family": "warm_neutral_cladding",
+        "classification": "verified geographic outline with evidence-driven estimated podium height",
+        "evidence_status": "ESTIMATED",
+        "observation_ids": [
+          "obs:0004:footprint",
+          "obs:0004:massing"
+        ],
+        "evidence_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "name": "M10_0004_Tower",
+        "component_id": "0004:massing:tower",
+        "source_feature_id": "osm:way:531995976",
+        "base_z_m": 17.3,
+        "height_m": 135.6,
+        "material_family": "warm_neutral_cladding",
+        "classification": "verified geographic building part and height envelope",
+        "evidence_status": "VERIFIED_GEOGRAPHIC",
+        "observation_ids": [
+          "obs:0004:footprint",
+          "obs:0004:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      }
+    ],
+    "polygon_edge_regions": [
+      {
+        "name": "M10_0004_Band_01",
+        "component_id": "0004:facade:band-01",
+        "source_feature_id": "osm:way:531995976",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.03,
+        "v1": 0.05,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 17.3,
+        "height_m": 135.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0004_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0004:massing",
+          "obs:0004:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "name": "M10_0004_Band_02",
+        "component_id": "0004:facade:band-02",
+        "source_feature_id": "osm:way:531995976",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.19,
+        "v1": 0.21,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 17.3,
+        "height_m": 135.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0004_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0004:massing",
+          "obs:0004:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "name": "M10_0004_Band_03",
+        "component_id": "0004:facade:band-03",
+        "source_feature_id": "osm:way:531995976",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.35,
+        "v1": 0.37,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 17.3,
+        "height_m": 135.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0004_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0004:massing",
+          "obs:0004:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "name": "M10_0004_Band_04",
+        "component_id": "0004:facade:band-04",
+        "source_feature_id": "osm:way:531995976",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.51,
+        "v1": 0.53,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 17.3,
+        "height_m": 135.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0004_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0004:massing",
+          "obs:0004:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "name": "M10_0004_Band_05",
+        "component_id": "0004:facade:band-05",
+        "source_feature_id": "osm:way:531995976",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.67,
+        "v1": 0.69,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 17.3,
+        "height_m": 135.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0004_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0004:massing",
+          "obs:0004:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "name": "M10_0004_Band_06",
+        "component_id": "0004:facade:band-06",
+        "source_feature_id": "osm:way:531995976",
+        "edges": "all",
+        "u0": 0.0,
+        "u1": 1.0,
+        "v0": 0.83,
+        "v1": 0.85,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 17.3,
+        "height_m": 135.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M10_0004_FACADE_BANDS",
+        "evidence_status": "VERIFIED_PHOTOGRAPHIC",
+        "observation_ids": [
+          "obs:0004:massing",
+          "obs:0004:materials"
+        ],
+        "evidence_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      }
+    ],
+    "facade_regions": [],
+    "qa_cameras": [
+      {
+        "camera_id": "qa:0004:north",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -79.41,
+          157.887,
+          76.45
+        ],
+        "target": [
+          -79.41,
+          -224.363,
+          64.218
+        ],
+        "lens_mm": 40,
+        "filename": "qa-north.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "camera_id": "qa:0004:south",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -79.41,
+          -606.613,
+          76.45
+        ],
+        "target": [
+          -79.41,
+          -224.363,
+          64.218
+        ],
+        "lens_mm": 40,
+        "filename": "qa-south.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:0004:east",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          302.84000000000003,
+          -224.363,
+          76.45
+        ],
+        "target": [
+          -79.41,
+          -224.363,
+          64.218
+        ],
+        "lens_mm": 40,
+        "filename": "qa-east.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      },
+      {
+        "camera_id": "qa:0004:west",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -461.65999999999997,
+          -224.363,
+          76.45
+        ],
+        "target": [
+          -79.41,
+          -224.363,
+          64.218
+        ],
+        "lens_mm": 40,
+        "filename": "qa-west.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:0004:aerial",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          149.94000000000003,
+          -453.713,
+          382.25
+        ],
+        "target": [
+          -79.41,
+          -224.363,
+          61.160000000000004
+        ],
+        "lens_mm": 40,
+        "filename": "qa-aerial.png",
+        "match": "MASSING",
+        "reference_ids": [
+          "ref:official:one-maridien",
+          "ref:web:kmc-one-maridien"
+        ]
+      }
+    ]
+  }
+}

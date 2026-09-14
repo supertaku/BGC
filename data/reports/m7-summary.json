@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "milestone": "M7",
+  "phase": "PASS",
+  "target": {"entity_id": "bgc_building_0014", "name": "Central Square", "lod": "LOD1_MEDIUM_FIDELITY"},
+  "grounding": {
+    "geographic_placement": "PASS",
+    "massing": "PASS",
+    "north_30th": "PASS",
+    "west_5th": "PASS_WITH_DOCUMENTED_GAPS",
+    "south_high_street": "PASS_WITH_DOCUMENTED_GAPS",
+    "east_other": "PASS_LOW_DETAIL_BY_POLICY",
+    "entrances": "PARTIAL_INFERRED_PLACEHOLDER",
+    "roof": "PASS_MAJOR_FORM_ONLY",
+    "materials": "PASS",
+    "audit": "PASS"
+  },
+  "qa": {"diagnostic_cameras": 5, "refinement_passes": 2, "critical_remaining": 0, "major_remaining": 0},
+  "standalone_asset": {
+    "file": "exports/glb/buildings/bgc_building_0014_lod1.glb",
+    "size_bytes": 51204,
+    "triangles": 356,
+    "meshes": 25,
+    "materials": 6,
+    "draw_call_approximation": 25,
+    "validation": "PASS"
+  },
+  "pilot_before": {"size_bytes": 919392, "triangles": 19896, "meshes": 46, "materials": 10, "fps_overview_range": [108, 128], "fps_street_range": [117, 124]},
+  "pilot_after": {"size_bytes": 950388, "triangles": 20076, "meshes": 67, "materials": 16, "fps_overview_spot": 165, "fps_central_square_spot": 165, "console_warning_error_count": 0},
+  "performance_regression": "No regression observed in matched-viewport desktop spot checks; +3.37% GLB bytes, +0.90% triangles, and +21 approximate draw calls.",
+  "standalone_glb_validation": "PASS",
+  "pilot_integration": "PASS",
+  "production_build": "PASS",
+  "regeneration": "PASS",
+  "sol_reconstruction_capability": "SUFFICIENT_WITH_LIMITATIONS",
+  "most_difficult_problem": "Mapping oblique partial facade evidence into conservative geometry without implying false portal or mullion precision.",
+  "recommended_next_milestone": "M8 — reconstruction tooling hardening",
+  "recommended_next_model": "SOL",
+  "astra_required_next": false,
+  "unknown_architectural_areas": ["exact entrances", "east/service openings", "basement access", "roof equipment", "exact mullion spacing", "physical storey mapping"]
+}

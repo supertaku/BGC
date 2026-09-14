@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0",
+  "buildings": {
+    "bgc_building_0014": {
+      "entity_id": "bgc_building_0014",
+      "name": "Central Square",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:205968610",
+        "osm:way:470203065",
+        "osm:way:470203066",
+        "osm:way:470203067"
+      ],
+      "builder_module": "blender/buildings/bgc_building_0014/scripts/central_square.py",
+      "runtime_merge_groups": {
+        "CSQ_NORTH_BANDS": [
+          "csq:facade:north-broad-band-01",
+          "csq:facade:north-broad-band-02",
+          "csq:facade:north-broad-band-03",
+          "csq:facade:north-broad-band-04"
+        ],
+        "CSQ_SOUTH_COLUMNS": [
+          "csq:structure:south-column-01",
+          "csq:structure:south-column-02",
+          "csq:structure:south-column-03",
+          "csq:structure:south-column-04",
+          "csq:structure:south-column-05"
+        ]
+      },
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_building_0014_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_building_0014_lod1.json",
+          "metrics": "data/reports/buildings/bgc_building_0014.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_003_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:205968610",
+            "osm:way:470203065",
+            "osm:way:470203066",
+            "osm:way:470203067"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_building_0007": {
+      "entity_id": "bgc_building_0007",
+      "name": "W Global Center",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:145147831"
+      ],
+      "builder_module": "blender/buildings/bgc_building_0007/scripts/w_global.py",
+      "runtime_merge_groups": {
+        "WGC_30TH_WINDOWS": [
+          "wgc:window:30th-01",
+          "wgc:window:30th-02",
+          "wgc:window:30th-03",
+          "wgc:window:30th-04",
+          "wgc:window:30th-05",
+          "wgc:window:30th-06",
+          "wgc:window:30th-07",
+          "wgc:window:30th-08",
+          "wgc:window:30th-09",
+          "wgc:window:30th-10",
+          "wgc:window:30th-11",
+          "wgc:window:30th-12",
+          "wgc:window:30th-13",
+          "wgc:window:30th-14",
+          "wgc:window:30th-15",
+          "wgc:window:30th-16",
+          "wgc:window:30th-17",
+          "wgc:window:30th-18",
+          "wgc:window:30th-19",
+          "wgc:window:30th-20",
+          "wgc:window:30th-21",
+          "wgc:window:30th-22",
+          "wgc:window:30th-23",
+          "wgc:window:30th-24"
+        ],
+        "WGC_9TH_WINDOWS": [
+          "wgc:window:9th-01",
+          "wgc:window:9th-02",
+          "wgc:window:9th-03",
+          "wgc:window:9th-04",
+          "wgc:window:9th-05",
+          "wgc:window:9th-06",
+          "wgc:window:9th-07",
+          "wgc:window:9th-08",
+          "wgc:window:9th-09",
+          "wgc:window:9th-10",
+          "wgc:window:9th-11",
+          "wgc:window:9th-12",
+          "wgc:window:9th-13",
+          "wgc:window:9th-14",
+          "wgc:window:9th-15",
+          "wgc:window:9th-16",
+          "wgc:window:9th-17",
+          "wgc:window:9th-18",
+          "wgc:window:9th-19",
+          "wgc:window:9th-20",
+          "wgc:window:9th-21",
+          "wgc:window:9th-22",
+          "wgc:window:9th-23",
+          "wgc:window:9th-24",
+          "wgc:window:9th-25",
+          "wgc:window:9th-26",
+          "wgc:window:9th-27",
+          "wgc:window:9th-28",
+          "wgc:window:9th-29",
+          "wgc:window:9th-30",
+          "wgc:window:9th-31",
+          "wgc:window:9th-32"
+        ],
+        "WGC_GROUND_GLAZING": [
+          "wgc:facade:30th-ground-glazing",
+          "wgc:facade:9th-ground-glazing"
+        ],
+        "WGC_OPEN_BAND_SLABS": [
+          "wgc:open-band:30th-1-bottom_slab",
+          "wgc:open-band:30th-1-top_slab",
+          "wgc:open-band:30th-2-bottom_slab",
+          "wgc:open-band:30th-2-top_slab",
+          "wgc:open-band:9th-1-bottom_slab",
+          "wgc:open-band:9th-1-top_slab",
+          "wgc:open-band:9th-2-bottom_slab",
+          "wgc:open-band:9th-2-top_slab"
+        ],
+        "WGC_OPEN_BAND_GUARDS": [
+          "wgc:open-band:30th-1-guard_band",
+          "wgc:open-band:30th-2-guard_band",
+          "wgc:open-band:9th-1-guard_band",
+          "wgc:open-band:9th-2-guard_band"
+        ],
+        "WGC_OPEN_BAND_SHADOWS": [
+          "wgc:open-band:30th-1-shadow",
+          "wgc:open-band:30th-2-shadow",
+          "wgc:open-band:9th-1-shadow",
+          "wgc:open-band:9th-2-shadow"
+        ],
+        "WGC_DIAGONAL_BRACES": [
+          "wgc:structure:30th-brace-01",
+          "wgc:structure:30th-brace-02",
+          "wgc:structure:9th-brace-01",
+          "wgc:structure:9th-brace-02",
+          "wgc:structure:9th-brace-03"
+        ],
+        "WGC_ROOF_FRAME": [
+          "wgc:roof:corner-frame-01",
+          "wgc:roof:corner-frame-02",
+          "wgc:roof:corner-frame-03"
+        ]
+      },
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_building_0007_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_building_0007_lod1.json",
+          "metrics": "data/reports/buildings/bgc_building_0007.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_005_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:145147831"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_building_0004": {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:1070584577",
+        "osm:way:531995976"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_building_0004_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_building_0004_lod1.json",
+          "metrics": "data/reports/buildings/bgc_building_0004.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_004_006"
+          ],
+          "source_feature_ids": [
+            "osm:way:1070584577",
+            "osm:way:531995976"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_building_0015": {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:242294490"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_building_0015_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_building_0015_lod1.json",
+          "metrics": "data/reports/buildings/bgc_building_0015.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_005_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:242294490"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_building_0005": {
+      "entity_id": "bgc_building_0005",
+      "name": "Verve Residences Tower 2",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:1070584578",
+        "osm:way:538702984"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_building_0005_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_building_0005_lod1.json",
+          "metrics": "data/reports/buildings/bgc_building_0005.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_004_006"
+          ],
+          "source_feature_ids": [
+            "osm:way:1070584578",
+            "osm:way:538702984"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_building_0027": {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:443761696"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_building_0027_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_building_0027_lod1.json",
+          "metrics": "data/reports/buildings/bgc_building_0027.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_004_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:443761696"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_building_0011": {
+      "entity_id": "bgc_building_0011",
+      "name": "C1",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:178125951"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_building_0011_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_building_0011_lod1.json",
+          "metrics": "data/reports/buildings/bgc_building_0011.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_003_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:178125951"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    }
+  }
+}

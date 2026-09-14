@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "finding": "Fragmentation, not triangle count, was the measured scaling risk.",
+  "authoring_meshes": 25,
+  "authoring_estimated_draw_calls": 25,
+  "runtime_meshes_after_explicit_safe_merge": 18,
+  "runtime_estimated_draw_calls_after": 18,
+  "draw_call_reduction": 7,
+  "triangle_count_unchanged": 356,
+  "gpu_instancing_decision": "DEFER: only five columns qualify; local merge is simpler and preserves equivalent cost at this scale.",
+  "geometry_nodes_decision": "DEFER: Python remains more transparent and deterministic for the single proven facade pattern.",
+  "meshes": [
+    {
+      "mesh": "CSQ_ENTRANCE_5TH_Canopy_Placeholder",
+      "component_id": "csq:entrance:west-canopy-placeholder",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_ENTRANCE_5TH_01",
+      "component_id": "csq:entrance:west-public-approach",
+      "material": "BGC_MAT_ARCHITECTURAL_DARK_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_OTHER_Neutral_Plane",
+      "component_id": "csq:facade:east-procedural",
+      "material": "BGC_MAT_WARM_NEUTRAL_CLADDING_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Broad_Band_01",
+      "component_id": "csq:facade:north-broad-band-01",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe merge by identical material and facade role",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_NORTH_BANDS",
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Broad_Band_02",
+      "component_id": "csq:facade:north-broad-band-02",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe merge by identical material and facade role",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_NORTH_BANDS",
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Broad_Band_03",
+      "component_id": "csq:facade:north-broad-band-03",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe merge by identical material and facade role",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_NORTH_BANDS",
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Broad_Band_04",
+      "component_id": "csq:facade:north-broad-band-04",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe merge by identical material and facade role",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_NORTH_BANDS",
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Glazed_Zone_01",
+      "component_id": "csq:facade:north-glazed-zone-01",
+      "material": "BGC_MAT_ARCHITECTURAL_DARK_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Glazed_Zone_02",
+      "component_id": "csq:facade:north-glazed-zone-02",
+      "material": "BGC_MAT_ARCHITECTURAL_DARK_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Glazed_Zone_03",
+      "component_id": "csq:facade:north-glazed-zone-03",
+      "material": "BGC_MAT_ARCHITECTURAL_DARK_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_30TH_Ground_Storefront",
+      "component_id": "csq:facade:north-ground-retail",
+      "material": "BGC_MAT_STOREFRONT_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_HIGH_STREET_Ground_Storefront",
+      "component_id": "csq:facade:south-ground-retail",
+      "material": "BGC_MAT_STOREFRONT_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_HIGH_STREET_Tall_Glazed_Strip",
+      "component_id": "csq:facade:south-tall-glazed-strip",
+      "material": "BGC_MAT_ARCHITECTURAL_DARK_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_5TH_Ground_Storefront",
+      "component_id": "csq:facade:west-ground-retail",
+      "material": "BGC_MAT_STOREFRONT_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_FACADE_5TH_Tall_Glazed_Bay",
+      "component_id": "csq:facade:west-tall-glazed-bay",
+      "material": "BGC_MAT_ARCHITECTURAL_DARK_GLASS_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_MASSING_Main_Volume",
+      "component_id": "csq:massing:main-volume",
+      "material": "BGC_MAT_WARM_NEUTRAL_CLADDING_01",
+      "triangles": 40,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_MASSING_Northeast_Column",
+      "component_id": "csq:massing:northeast-column",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_MASSING_Northwest_Column",
+      "component_id": "csq:massing:northwest-column",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_ROOF_Major_Plane",
+      "component_id": "csq:massing:roof-plane",
+      "material": "BGC_MAT_NEUTRAL_ROOF_01",
+      "triangles": 40,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_SIGNAGE_Northwest_Neutral_Display",
+      "component_id": "csq:signage:northwest-placeholder",
+      "material": "BGC_MAT_GENERIC_PLACEHOLDER_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "distinct architectural role or metadata boundary",
+      "potentially_mergeable": false,
+      "runtime_merge_group": null,
+      "instancing_candidate": false
+    },
+    {
+      "mesh": "CSQ_STRUCTURE_High_Street_Column_01",
+      "component_id": "csq:structure:south-column-01",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe local batch",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_SOUTH_COLUMNS",
+      "instancing_candidate": true
+    },
+    {
+      "mesh": "CSQ_STRUCTURE_High_Street_Column_02",
+      "component_id": "csq:structure:south-column-02",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe local batch",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_SOUTH_COLUMNS",
+      "instancing_candidate": true
+    },
+    {
+      "mesh": "CSQ_STRUCTURE_High_Street_Column_03",
+      "component_id": "csq:structure:south-column-03",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe local batch",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_SOUTH_COLUMNS",
+      "instancing_candidate": true
+    },
+    {
+      "mesh": "CSQ_STRUCTURE_High_Street_Column_04",
+      "component_id": "csq:structure:south-column-04",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe local batch",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_SOUTH_COLUMNS",
+      "instancing_candidate": true
+    },
+    {
+      "mesh": "CSQ_STRUCTURE_High_Street_Column_05",
+      "component_id": "csq:structure:south-column-05",
+      "material": "BGC_MAT_DARK_METAL_01",
+      "triangles": 12,
+      "reason_separate_in_authoring": "logical authoring component; runtime-safe local batch",
+      "potentially_mergeable": true,
+      "runtime_merge_group": "CSQ_SOUTH_COLUMNS",
+      "instancing_candidate": true
+    }
+  ]
+}

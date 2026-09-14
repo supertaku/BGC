@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_004_008",
+  "input_sha256": "40bf4300e658441d00edea3fb37df53b6449f225b84d76382dbea06b1782e963",
+  "output_sha256": "eed402fd359ea785271617bca7ca2e7c4cd57b97c52ee748db825d8ad60b9f26",
+  "building_count": 10,
+  "render_volume_count": 13,
+  "mesh_count": 7,
+  "triangle_count": 3716,
+  "material_count": 7,
+  "bytes": 179140,
+  "entities": [
+    {
+      "entity_id": "osm:relation:10316857",
+      "source_feature_id": "osm:relation:10316857",
+      "name": "S&R Membership Shopping",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:101376493",
+      "source_feature_id": "osm:way:101376493",
+      "name": "Starbucks",
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:1120242621",
+      "source_feature_id": "osm:way:1120242621",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:1153949175",
+      "source_feature_id": "osm:way:1153949175",
+      "name": null,
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "guardhouse",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:131229047",
+      "source_feature_id": "osm:way:131229047",
+      "name": "Cork  Elite",
+      "height_m": 114.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:147796323",
+      "source_feature_id": "osm:way:147796323",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:331614515",
+      "source_feature_id": "osm:way:331614515",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:35826309",
+      "source_feature_id": "osm:way:35826309",
+      "name": "F1 City Center",
+      "height_m": 22.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:35826309",
+      "source_feature_id": "osm:way:582087453",
+      "name": null,
+      "height_m": 118.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:35826310",
+      "source_feature_id": "osm:way:35826310",
+      "name": "Globe Telecom Headquarters",
+      "height_m": 29.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:35826310",
+      "source_feature_id": "osm:way:582087454",
+      "name": null,
+      "height_m": 120.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:74687615",
+      "source_feature_id": "osm:way:582087452",
+      "name": null,
+      "height_m": 118.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:74687615",
+      "source_feature_id": "osm:way:74687615",
+      "name": "The Trade and Financial Tower",
+      "height_m": 19.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    }
+  ]
+}

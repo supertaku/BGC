@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_004_004",
+  "input_sha256": "fb0b8730e0d0fda75c87b1cf8937d524fafdb68393d67b0d64627501bdf44e37",
+  "output_sha256": "342d640a6612d2f4e49b2bd6ab8573f40805c9632c175d846b64a30a5b104aa5",
+  "building_count": 4,
+  "render_volume_count": 7,
+  "mesh_count": 6,
+  "triangle_count": 2236,
+  "material_count": 6,
+  "bytes": 108224,
+  "entities": [
+    {
+      "entity_id": "osm:way:1279259073",
+      "source_feature_id": "osm:way:1279259073",
+      "name": null,
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "guardhouse",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:222623656",
+      "source_feature_id": "osm:way:222623656",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32836370",
+      "source_feature_id": "osm:way:178125948",
+      "name": null,
+      "height_m": 170.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32836370",
+      "source_feature_id": "osm:way:203893557",
+      "name": null,
+      "height_m": 170.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32836370",
+      "source_feature_id": "osm:way:203893621",
+      "name": null,
+      "height_m": 170.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32836370",
+      "source_feature_id": "osm:way:32836370",
+      "name": "Trion Towers",
+      "height_m": 12.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:743748243",
+      "source_feature_id": "osm:way:743748243",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

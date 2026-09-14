@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "generated_at": "2026-09-14T14:45:33.376651+00:00",
+  "mode": "continue-on-error",
+  "wave": "A",
+  "stage": "validate",
+  "results": [
+    {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 0.272,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 0.221,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 0
+  }
+}

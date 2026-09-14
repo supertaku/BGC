@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "generated_at": "2026-09-14T14:49:55.054568+00:00",
+  "mode": "continue-on-error",
+  "wave": "A",
+  "stage": "full",
+  "results": [
+    {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 26.962,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "00:22.172  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0004\\qa-north.png'\n00:22.532  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0004\\qa-south.png'\n00:22.813  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0004\\qa-east.png'\n00:23.110  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0004\\qa-west.png'\n00:23.407  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0004\\qa-aerial.png'\nInfo: Saved as \"bgc_building_0004-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n22:49:25 | INFO: Starting glTF 2.0 export\n22:49:25 | INFO: Extracting primitive: M10_0004_Podium_mesh.001\n22:49:25 | INFO: Primitives created: 1\n22:49:25 | INFO: Extracting primitive: M10_0004_Tower_mesh.001\n22:49:25 | INFO: Primitives created: 1\n22:49:25 | INFO: Extracting primitive: BGC_RUNTIME_M10_0004_FACADE_BANDS_mesh\n22:49:25 | INFO: Primitives created: 1\n22:49:25 | INFO: Finished glTF 2.0 export in 0.052916765213012695 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0004 components=62 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "22:49:28 | INFO: Data are loaded, start creating Blender stuff\n22:49:28 | INFO: Blender create Mesh node M10_0004_Podium_mesh.001\n22:49:28 | INFO: Blender create Mesh node M10_0004_Tower_mesh.001\n22:49:28 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0004_FACADE_BANDS_mesh\n22:49:28 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0004_lod1.glb size_bytes=47512 meshes=3 triangles=768 materials=2 draw_calls_approx=3 max_dimension_m=135.600\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0004_lod1.json"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 26.701,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "00:21.984  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0015\\qa-north.png'\n00:22.344  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0015\\qa-south.png'\n00:22.640  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0015\\qa-east.png'\n00:22.937  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0015\\qa-west.png'\n00:23.219  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_building_0015\\qa-aerial.png'\nInfo: Saved as \"bgc_building_0015-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n22:49:52 | INFO: Starting glTF 2.0 export\n22:49:52 | INFO: Extracting primitive: M10_0015_Envelope_mesh.001\n22:49:52 | INFO: Primitives created: 1\n22:49:52 | INFO: Extracting primitive: BGC_RUNTIME_M10_0015_FACADE_BANDS_mesh\n22:49:52 | INFO: Primitives created: 1\n22:49:52 | INFO: Finished glTF 2.0 export in 0.04909467697143555 s\n\nGENERIC_BUILD: PASS entity=bgc_building_0015 components=29 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "22:49:54 | INFO: Data are loaded, start creating Blender stuff\n22:49:54 | INFO: Blender create Mesh node M10_0015_Envelope_mesh.001\n22:49:54 | INFO: Blender create Mesh node BGC_RUNTIME_M10_0015_FACADE_BANDS_mesh\n22:49:54 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_building_0015_lod1.glb size_bytes=23040 meshes=2 triangles=348 materials=2 draw_calls_approx=2 max_dimension_m=56.564\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_building_0015_lod1.json"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 0
+  }
+}

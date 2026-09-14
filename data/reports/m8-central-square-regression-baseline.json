@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0014",
+  "footprint_basis": "osm:way:470203066 in EPSG:32651 local metres",
+  "expected_dimensions_m": {"x_range": [99.5, 101.5], "y_range": [88.5, 91.0], "z_range": [25.8, 26.0]},
+  "expected_object_categories": ["massing", "facade", "entrance", "structure", "signage"],
+  "expected_runtime_materials": ["BGC_MAT_ARCHITECTURAL_DARK_GLASS_01", "BGC_MAT_DARK_METAL_01", "BGC_MAT_GENERIC_PLACEHOLDER_01", "BGC_MAT_NEUTRAL_ROOF_01", "BGC_MAT_STOREFRONT_GLASS_01", "BGC_MAT_WARM_NEUTRAL_CLADDING_01"],
+  "triangle_range": [340, 380],
+  "authoring_mesh_range": [25, 25],
+  "runtime_mesh_range": [18, 20],
+  "glb_size_bytes_range": [35000, 70000],
+  "qa_cameras": ["QA_30TH_01", "QA_5TH_01", "QA_HIGH_STREET_01", "QA_CORNER_01", "QA_AERIAL_01"],
+  "required_component_metadata": ["entity_id", "component_id", "component_type", "evidence_status", "observation_ids", "reconstruction_fidelity"],
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "accepted_m7_glb_size_bytes": 51204,
+  "accepted_m7_triangles": 356,
+  "accepted_m7_runtime_meshes": 25,
+  "accepted_m7_materials": 6
+}

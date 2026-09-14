@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0005",
+  "name": "Verve Residences Tower 2",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_building_0005_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -213.403,
+      -220.302,
+      0.0
+    ],
+    "max": [
+      -134.241,
+      -165.943,
+      172.0
+    ]
+  },
+  "geographic_anchor": {
+    "longitude": 121.0493748,
+    "latitude": 14.5490475,
+    "local_x_m": -173.822,
+    "local_y_m": -193.122
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_building_0005.json",
+  "generated_at": "2026-09-14T15:10:56.830901+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

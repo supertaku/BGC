@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0027",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 781.09,
+    "perimeter_m": 121.69,
+    "axis_aligned_bounds_m": {
+      "min_x": -161.522,
+      "min_y": 103.702,
+      "max_x": -129.362,
+      "max_y": 145.566
+    },
+    "maximum_height_m": 12.8,
+    "height_status": "ESTIMATED"
+  },
+  "components": [
+    {
+      "name": "M10_0027_Envelope",
+      "component_id": "0027:massing:envelope",
+      "source_feature_id": "osm:way:443761696",
+      "base_z_m": 0,
+      "height_m": 12.8,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic polygon and retained height evidence",
+      "evidence_status": "ESTIMATED",
+      "observation_ids": [
+        "obs:0027:footprint",
+        "obs:0027:height"
+      ],
+      "evidence_ids": []
+    }
+  ],
+  "massing_summary": "Four-storey modern retail block with bright cladding and broad glazed frontage; temporary graphics omitted."
+}

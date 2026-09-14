@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:0005:identity",
+      "entity_id": "bgc_building_0005",
+      "property": "identity",
+      "value": "Verve Residences Tower 2 at High Street South, BGC, Taguig, Philippines",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:official-alveo-verve",
+        "source:osm",
+        "source:web-verve-exterior"
+      ],
+      "reference_ids": [
+        "ref:official:verve"
+      ],
+      "method": "canonical_geographic_and_named_source_reconciliation"
+    },
+    {
+      "observation_id": "obs:0005:footprint",
+      "entity_id": "bgc_building_0005",
+      "property": "footprint",
+      "value": {
+        "area_m2": 2480.1,
+        "perimeter_m": 212.94,
+        "axis_aligned_bounds_m": {
+          "min_x": -213.403,
+          "min_y": -220.302,
+          "max_x": -134.241,
+          "max_y": -165.943
+        },
+        "vertex_count": 4
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "deterministic_local_metre_polygon_measurement",
+      "notes": "Community mapped, not cadastral."
+    },
+    {
+      "observation_id": "obs:0005:height",
+      "entity_id": "bgc_building_0005",
+      "property": "height_m",
+      "value": 172.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "maximum_explicit_osm_building_part_height",
+      "notes": "Retained without upgrading to surveyed precision."
+    },
+    {
+      "observation_id": "obs:0005:massing",
+      "entity_id": "bgc_building_0005",
+      "property": "overall_massing",
+      "value": "Light residential tower over a podium with regular balcony and glazing bands.",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.72,
+      "source_ids": [
+        "source:official-alveo-verve",
+        "source:web-verve-exterior"
+      ],
+      "reference_ids": [
+        "ref:official:verve",
+        "ref:web:verve-exterior"
+      ],
+      "method": "bounded exterior evidence review"
+    },
+    {
+      "observation_id": "obs:0005:materials",
+      "entity_id": "bgc_building_0005",
+      "property": "material_families",
+      "value": [
+        "light_neutral_panel",
+        "architectural_dark_glass",
+        "generic_storefront_glass",
+        "neutral_roof"
+      ],
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:official-alveo-verve",
+        "source:web-verve-exterior"
+      ],
+      "reference_ids": [
+        "ref:official:verve",
+        "ref:web:verve-exterior"
+      ],
+      "method": "visual family classification; exact colour unknown"
+    }
+  ],
+  "conflicts": []
+}

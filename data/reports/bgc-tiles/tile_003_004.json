@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_003_004",
+  "input_sha256": "3efa027036915cda2fb1cb11e8393619ccc76e0383f7ad3ec52c4c3f4506f30d",
+  "output_sha256": "2411cc7cecb8562e480e14f17b48d33ba3fa122e2e4f368e4f713266fec330fe",
+  "building_count": 5,
+  "render_volume_count": 7,
+  "mesh_count": 6,
+  "triangle_count": 3652,
+  "material_count": 6,
+  "bytes": 168044,
+  "entities": [
+    {
+      "entity_id": "osm:relation:2442880",
+      "source_feature_id": "osm:relation:2442880",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:1070584559",
+      "source_feature_id": "osm:way:1070584558",
+      "name": null,
+      "height_m": 187.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1070584559",
+      "source_feature_id": "osm:way:1070584559",
+      "name": null,
+      "height_m": 18.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "construction",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:131247785",
+      "source_feature_id": "osm:way:131247785",
+      "name": "Jeco Prime",
+      "height_m": 21.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:131247785",
+      "source_feature_id": "osm:way:772351482",
+      "name": null,
+      "height_m": 76.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:183477169",
+      "source_feature_id": "osm:way:183477169",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:183477170",
+      "source_feature_id": "osm:way:183477170",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

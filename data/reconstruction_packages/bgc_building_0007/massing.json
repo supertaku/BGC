@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "coordinate_frame": {
+    "origin_wgs84": {
+      "longitude": 121.050972,
+      "latitude": 14.550806
+    },
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "target_local_frame": {
+    "centroid_local_m": {
+      "x": 97.802,
+      "y": 39.65
+    },
+    "30th_street_side": "northeast short edge",
+    "9th_avenue_side": "northwest long edge",
+    "footprint_rotation_deg_from_east": 71.536
+  },
+  "known_dimensions": {
+    "area_m2": 1826.8,
+    "perimeter_m": 171.29,
+    "centroid_local_m": {
+      "x": 97.802,
+      "y": 39.65
+    },
+    "oriented_bounding_box_m": {
+      "major": 45.44,
+      "minor": 40.203
+    },
+    "local_axis_rotation_deg_from_east": 71.536,
+    "major_axis_bearing_deg_clockwise_from_north": 18.464,
+    "axis_aligned_bounds_m": {
+      "min_x": 71.268,
+      "min_y": 11.69,
+      "max_x": 124.051,
+      "max_y": 67.62
+    },
+    "major_edge_lengths_m": [
+      45.441,
+      45.44,
+      40.55,
+      39.857
+    ]
+  },
+  "height_audit": {
+    "source_feature": "osm:way:145147831",
+    "original_value": "30.5",
+    "unit": "m",
+    "strength": "EXPLICIT_COMMUNITY_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "components": [
+    {
+      "component_id": "wgc:massing:envelope",
+      "geometry_basis": "osm:way:145147831",
+      "height_m": 30.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "modeling_class": "PARAMETRIC",
+      "evidence": [
+        "source:osm",
+        "ref:web:officepro-w-global"
+      ]
+    },
+    {
+      "component_id": "wgc:massing:retail-base",
+      "height_range_m": [
+        0,
+        6.0
+      ],
+      "height_status": "ESTIMATED",
+      "confidence": 0.72,
+      "modeling_class": "PARAMETRIC",
+      "evidence": [
+        "ref:web:kmc-w-global-brochure",
+        "ref:web:officepro-w-global"
+      ]
+    },
+    {
+      "component_id": "wgc:massing:open-bands",
+      "height_range_m": [
+        6.0,
+        14.0
+      ],
+      "height_status": "ESTIMATED",
+      "confidence": 0.84,
+      "modeling_class": "NEW_SHARED_PRIMITIVE",
+      "evidence": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    {
+      "component_id": "wgc:massing:office-volume",
+      "height_range_m": [
+        14.0,
+        30.5
+      ],
+      "height_status": "ESTIMATED",
+      "confidence": 0.88,
+      "modeling_class": "PARAMETRIC",
+      "evidence": [
+        "ref:web:officepro-w-global"
+      ]
+    },
+    {
+      "component_id": "wgc:roof:corner-frame",
+      "height_range_m": [
+        27.8,
+        30.5
+      ],
+      "height_status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.86,
+      "modeling_class": "TARGET_SPECIFIC_CONFIGURATION",
+      "evidence": [
+        "ref:web:officepro-w-global",
+        "ref:web:colliers-w-global"
+      ]
+    }
+  ],
+  "massing_summary": "Mapped rectangular footprint, transparent retail base, two visually open bands, upper office volume, and a square rooftop corner frame; total height remains 30.5 m."
+}

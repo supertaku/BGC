@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_005_006",
+  "input_sha256": "3b41f1107b85599065831937a0791e43073db5c5ed9bd45a2278907491891064",
+  "output_sha256": "c9f01ad18b819c13838a143d6e3fd7994c4293b4a0e7fa7ed8b05ef3ec47667b",
+  "building_count": 13,
+  "render_volume_count": 14,
+  "mesh_count": 7,
+  "triangle_count": 5432,
+  "material_count": 7,
+  "bytes": 255864,
+  "entities": [
+    {
+      "entity_id": "osm:relation:13512337",
+      "source_feature_id": "osm:relation:13512337",
+      "name": null,
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:relation:13512338",
+      "source_feature_id": "osm:relation:13512338",
+      "name": null,
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:1070584575",
+      "source_feature_id": "osm:way:1070584574",
+      "name": null,
+      "height_m": 169.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1070584575",
+      "source_feature_id": "osm:way:1070584575",
+      "name": "West Gallery Place",
+      "height_m": 150.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:1263142216",
+      "source_feature_id": "osm:way:1263142216",
+      "name": "BYD",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:203893564",
+      "source_feature_id": "osm:way:203893564",
+      "name": null,
+      "height_m": 57.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "hotel",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27442590",
+      "source_feature_id": "osm:way:27442590",
+      "name": "B:8",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27442879",
+      "source_feature_id": "osm:way:27442879",
+      "name": "B:7",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27442939",
+      "source_feature_id": "osm:way:27442939",
+      "name": "Honda Cars Global City",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27442969",
+      "source_feature_id": "osm:way:27442969",
+      "name": "B:5",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27442995",
+      "source_feature_id": "osm:way:27442995",
+      "name": "B:6",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:37236977",
+      "source_feature_id": "osm:way:37236977",
+      "name": "W High Street",
+      "height_m": 22.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:603380324",
+      "source_feature_id": "osm:way:603380324",
+      "name": "Bench",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:902502668",
+      "source_feature_id": "osm:way:902502668",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

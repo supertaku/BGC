@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "target": "Central Square",
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "qa_refinement_passes": 2,
+  "discrepancy_schema": "data/schemas/qa-discrepancy.schema.json",
+  "discrepancies": [
+    {"discrepancy_id":"csq-qa-001","camera_id":"QA_30TH_01","component_id":null,"category":"diagnostic framing","cause":"IMPLEMENTATION_ERROR","severity":"MAJOR","description":"Initial camera cropped the whole-building silhouette.","evidence_ids":["ref:commons:133250280"],"status":"FIXED","resolution":"Moved camera outward while retaining deterministic target."},
+    {"discrepancy_id":"csq-qa-002","camera_id":"QA_30TH_01","component_id":"csq:facade:north-30th","category":"facade rhythm","cause":"INTERPRETATION_ERROR","severity":"MAJOR","description":"Initial facade lacked supported broad horizontal organization.","evidence_ids":["ref:commons:133250280"],"status":"FIXED","resolution":"Added four coarse estimated bands without claiming exact storeys."},
+    {"discrepancy_id":"csq-qa-003","camera_id":"QA_5TH_01","component_id":"csq:entrance:west-public-approach","category":"portal geometry","cause":"INSUFFICIENT_EVIDENCE","severity":"IGNORE_FOR_CURRENT_LOD","description":"Exact facade-normal portal dimensions remain unresolved.","evidence_ids":["ref:youtube:tour-from-home-central-square-2021"],"status":"BLOCKED_BY_EVIDENCE","resolution":"Retain an understated inferred placeholder."},
+    {"discrepancy_id":"csq-qa-004","camera_id":"QA_AERIAL_01","component_id":"csq:massing:roof-plane","category":"roof equipment","cause":"INTENTIONAL_LOD_SIMPLIFICATION","severity":"IGNORE_FOR_CURRENT_LOD","description":"Roof plant is omitted because coverage is insufficient and it is outside LOD1 needs.","evidence_ids":["ref:commons:173664147"],"status":"ACCEPTED_UNCERTAINTY","resolution":"Preserve only the broad roof plane."}
+  ],
+  "cameras": [
+    {"name": "QA_30TH_01", "match": "APPROXIMATE", "reference_ids": ["ref:commons:133250280"]},
+    {"name": "QA_5TH_01", "match": "APPROXIMATE", "reference_ids": ["ref:commons:173664145", "ref:commons:146482138"]},
+    {"name": "QA_HIGH_STREET_01", "match": "APPROXIMATE", "reference_ids": ["ref:commons:158404929", "ref:commons:158404930"]},
+    {"name": "QA_CORNER_01", "match": "APPROXIMATE", "reference_ids": ["ref:commons:133250280", "ref:commons:173664145"]},
+    {"name": "QA_AERIAL_01", "match": "GOOD", "reference_ids": ["ref:commons:173664147"]}
+  ],
+  "passes": [
+    {
+      "pass": 1,
+      "findings": [
+        {"severity": "MAJOR", "aspect": "diagnostic framing", "finding": "30th Street and aerial cameras cropped the whole-building silhouette", "resolution": "camera positions moved outward while retaining deterministic targets"},
+        {"severity": "MAJOR", "aspect": "facade rhythm", "finding": "north facade read as oversized flat zones without broad horizontal organization", "resolution": "added four coarse estimated bands; no exact floor mapping claimed"},
+        {"severity": "MINOR", "aspect": "lighting", "finding": "north facade fill was too dark for diagnostic comparison", "resolution": "added a QA-only area fill; it is excluded from the GLB"}
+      ]
+    },
+    {
+      "pass": 2,
+      "findings": [
+        {"severity": "PASS", "aspect": "silhouette", "finding": "broad low-rise box mass and irregular footprint are legible in all five cameras"},
+        {"severity": "PASS", "aspect": "overall proportions", "finding": "maximum height remains 25.9 m and plan extent remains geographically anchored"},
+        {"severity": "PASS", "aspect": "north facade", "finding": "few large dark vertical zones, opaque warm planes, recessed ground band, and neutral mutable display field are represented"},
+        {"severity": "PASS", "aspect": "west and south facades", "finding": "supported large glazing/recess relationships are represented conservatively"},
+        {"severity": "IGNORE_FOR_LOD1", "aspect": "exact portals and mullions", "finding": "evidence remains insufficient; placeholders are classified INFERRED/ESTIMATED"},
+        {"severity": "IGNORE_FOR_LOD1", "aspect": "east facade and roof plant", "finding": "unknown openings and equipment are deliberately omitted"}
+      ]
+    }
+  ],
+  "critical_discrepancies_remaining": 0,
+  "major_discrepancies_remaining": 0,
+  "known_limitations": [
+    "Reference cameras are approximate, not photogrammetrically calibrated.",
+    "Exact facade-normal portal and mullion measurements are unavailable.",
+    "The east/service side and roof equipment remain unknown by policy."
+  ],
+  "status": "PASS_WITH_DOCUMENTED_GAPS"
+}

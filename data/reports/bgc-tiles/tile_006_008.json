@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_006_008",
+  "input_sha256": "b9d735164297c9f78e03feddd50c61caf1f0c4cfa0a87676fd6a8a861790a940",
+  "output_sha256": "ff514eb2ed45ac0af23d6a3c7150db63ea706d4136b6201659471e607cbe79f7",
+  "building_count": 9,
+  "render_volume_count": 9,
+  "mesh_count": 6,
+  "triangle_count": 2332,
+  "material_count": 6,
+  "bytes": 116584,
+  "entities": [
+    {
+      "entity_id": "osm:way:1278358005",
+      "source_feature_id": "osm:way:1278358005",
+      "name": null,
+      "height_m": 3.2,
+      "height_status": "ESTIMATED",
+      "building_type": "guardhouse",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:264879067",
+      "source_feature_id": "osm:way:264879067",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:280298495",
+      "source_feature_id": "osm:way:280298495",
+      "name": null,
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340064070",
+      "source_feature_id": "osm:way:340064070",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:428836646",
+      "source_feature_id": "osm:way:428836646",
+      "name": "2 Citi Plaza",
+      "height_m": 64.0,
+      "height_status": "ESTIMATED",
+      "building_type": "commercial",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:444366845",
+      "source_feature_id": "osm:way:444366845",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:444366846",
+      "source_feature_id": "osm:way:444366846",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:533345984",
+      "source_feature_id": "osm:way:533345984",
+      "name": null,
+      "height_m": 96.0,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:533345985",
+      "source_feature_id": "osm:way:533345985",
+      "name": null,
+      "height_m": 96.0,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

@@ -1,0 +1,2053 @@
+{
+  "schema_version": 1,
+  "dataset_id": "pilot-canonical-entities-v1",
+  "generated_at": "2026-09-10T18:38:44.267584+00:00",
+  "source_dataset": "data/processed/pilot-buildings.geojson",
+  "source_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "id_policy": "Persistent project-owned IDs; existing source mappings are reused and new IDs are append-only.",
+  "counts": {
+    "raw_geographic_records": 39,
+    "building_outlines": 31,
+    "building_parts": 8,
+    "canonical_building_entities": 31,
+    "building_complexes": 2,
+    "building_parts_resolved": 7,
+    "building_parts_unresolved": 1
+  },
+  "source_entity_map": {
+    "osm:relation:13512337": "bgc_building_0001",
+    "osm:relation:13512338": "bgc_building_0002",
+    "osm:way:1070584575": "bgc_building_0003",
+    "osm:way:1070584577": "bgc_building_0004",
+    "osm:way:1070584578": "bgc_building_0005",
+    "osm:way:1278985505": "bgc_building_0006",
+    "osm:way:145147831": "bgc_building_0007",
+    "osm:way:1498398259": "bgc_building_0008",
+    "osm:way:178125949": "bgc_building_0009",
+    "osm:way:178125950": "bgc_building_0010",
+    "osm:way:178125951": "bgc_building_0011",
+    "osm:way:203893554": "bgc_building_0012",
+    "osm:way:203893627": "bgc_building_0013",
+    "osm:way:205968610": "bgc_building_0014",
+    "osm:way:242294490": "bgc_building_0015",
+    "osm:way:27442528": "bgc_building_0016",
+    "osm:way:27442546": "bgc_building_0017",
+    "osm:way:27442590": "bgc_building_0018",
+    "osm:way:27442939": "bgc_building_0019",
+    "osm:way:27442969": "bgc_building_0020",
+    "osm:way:27664814": "bgc_building_0021",
+    "osm:way:27664877": "bgc_building_0022",
+    "osm:way:37554026": "bgc_building_0023",
+    "osm:way:37554027": "bgc_building_0024",
+    "osm:way:37554033": "bgc_building_0025",
+    "osm:way:38715205": "bgc_building_0026",
+    "osm:way:443761696": "bgc_building_0027",
+    "osm:way:603380324": "bgc_building_0028",
+    "osm:way:69740688": "bgc_building_0029",
+    "osm:way:1071370327": "bgc_building_0030",
+    "osm:way:781744843": "bgc_building_0030",
+    "osm:way:1070584574": "bgc_building_0003",
+    "osm:way:1071370326": "bgc_building_0030",
+    "osm:way:469908149": "bgc_building_0031",
+    "osm:way:470203065": "bgc_building_0014",
+    "osm:way:470203066": "bgc_building_0014",
+    "osm:way:470203067": "bgc_building_0014",
+    "osm:way:531995976": "bgc_building_0004",
+    "osm:way:538702984": "bgc_building_0005"
+  },
+  "part_relationships": [
+    {
+      "part_id": "osm:way:1070584574",
+      "parent_entity_id": "bgc_building_0003",
+      "status": "HIGH_CONFIDENCE",
+      "method": "GEOMETRIC_CONTAINMENT",
+      "coverage_ratio": 1.0,
+      "supporting_outline_ids": [
+        "osm:way:1070584575"
+      ]
+    },
+    {
+      "part_id": "osm:way:1071370326",
+      "parent_entity_id": "bgc_building_0030",
+      "status": "HIGH_CONFIDENCE",
+      "method": "GEOMETRIC_CONTAINMENT",
+      "coverage_ratio": 1.0,
+      "supporting_outline_ids": [
+        "osm:way:1071370327",
+        "osm:way:781744843"
+      ]
+    },
+    {
+      "part_id": "osm:way:469908149",
+      "parent_entity_id": null,
+      "status": "UNRESOLVED",
+      "method": "NO_PARENT_CONTAINMENT"
+    },
+    {
+      "part_id": "osm:way:470203065",
+      "parent_entity_id": "bgc_building_0014",
+      "status": "HIGH_CONFIDENCE",
+      "method": "GEOMETRIC_CONTAINMENT",
+      "coverage_ratio": 1.0,
+      "supporting_outline_ids": [
+        "osm:way:205968610"
+      ]
+    },
+    {
+      "part_id": "osm:way:470203066",
+      "parent_entity_id": "bgc_building_0014",
+      "status": "HIGH_CONFIDENCE",
+      "method": "GEOMETRIC_CONTAINMENT",
+      "coverage_ratio": 1.0,
+      "supporting_outline_ids": [
+        "osm:way:205968610"
+      ]
+    },
+    {
+      "part_id": "osm:way:470203067",
+      "parent_entity_id": "bgc_building_0014",
+      "status": "HIGH_CONFIDENCE",
+      "method": "GEOMETRIC_CONTAINMENT",
+      "coverage_ratio": 1.0,
+      "supporting_outline_ids": [
+        "osm:way:205968610"
+      ]
+    },
+    {
+      "part_id": "osm:way:531995976",
+      "parent_entity_id": "bgc_building_0004",
+      "status": "HIGH_CONFIDENCE",
+      "method": "GEOMETRIC_CONTAINMENT",
+      "coverage_ratio": 1.0,
+      "supporting_outline_ids": [
+        "osm:way:1070584577"
+      ]
+    },
+    {
+      "part_id": "osm:way:538702984",
+      "parent_entity_id": "bgc_building_0005",
+      "status": "HIGH_CONFIDENCE",
+      "method": "GEOMETRIC_CONTAINMENT",
+      "coverage_ratio": 1.0,
+      "supporting_outline_ids": [
+        "osm:way:1070584578"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "bgc_building_0001",
+      "entity_type": "BUILDING_STRUCTURE",
+      "canonical_name": null,
+      "normalized_name": null,
+      "aliases": [],
+      "status": "ACTIVE",
+      "identity_status": "UNRESOLVED",
+      "identity_confidence": 0.1,
+      "decision_method": "NO_IDENTITY_EVIDENCE",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0519576,
+        "latitude": 14.5494574,
+        "local_x_m": 104.952,
+        "local_y_m": -150.142
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:relation:13512337"
+      ],
+      "osm_ids": [
+        "osm:relation:13512337"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 0.6,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "1",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0002",
+      "entity_type": "BUILDING_STRUCTURE",
+      "canonical_name": null,
+      "normalized_name": null,
+      "aliases": [],
+      "status": "ACTIVE",
+      "identity_status": "UNRESOLVED",
+      "identity_confidence": 0.1,
+      "decision_method": "NO_IDENTITY_EVIDENCE",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.051895,
+        "latitude": 14.5494764,
+        "local_x_m": 98.228,
+        "local_y_m": -147.981
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:relation:13512338"
+      ],
+      "osm_ids": [
+        "osm:relation:13512338"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 0.6,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "1",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0003",
+      "entity_type": "BUILDING",
+      "canonical_name": "West Gallery Place",
+      "normalized_name": "west gallery place",
+      "aliases": [
+        "West Gallery Place"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "REVIEW_REQUIRED",
+      "identity_confidence": 0.55,
+      "decision_method": "OSM_NAME_ONLY",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0510876,
+        "latitude": 14.5488613,
+        "local_x_m": 10.621,
+        "local_y_m": -215.303
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:1070584575"
+      ],
+      "osm_ids": [
+        "osm:way:1070584575"
+      ],
+      "building_part_ids": [
+        "osm:way:1070584574"
+      ],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0002",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 169.1,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "maximum_explicit_osm_building_part_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 50.0,
+        "components": [
+          {
+            "source_feature_id": "osm:way:1070584574",
+            "value_m": 169.1,
+            "status": "VERIFIED_GEOGRAPHIC",
+            "method": "osm_height"
+          }
+        ]
+      },
+      "tags": {
+        "building": "apartments",
+        "building:colour": "gray",
+        "building:levels": "45",
+        "building:material": "glass",
+        "height": "150.8",
+        "name": "West Gallery Place"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "entity_type": "BUILDING",
+      "canonical_name": "One Maridien",
+      "normalized_name": "one maridien",
+      "aliases": [
+        "One Maridien"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "CONFIRMED",
+      "identity_confidence": 0.96,
+      "decision_method": "EXACT_OFFICIAL_MATCH",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Official developer page name and coordinates match the OSM footprint location."
+      ],
+      "centroid": {
+        "longitude": 121.0502531,
+        "latitude": 14.5487725,
+        "local_x_m": -79.41,
+        "local_y_m": -224.363
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:1070584577"
+      ],
+      "osm_ids": [
+        "osm:way:1070584577"
+      ],
+      "building_part_ids": [
+        "osm:way:531995976"
+      ],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": "https://www.alveoland.com.ph/properties/condos/taguig/hss-maridien/",
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0002",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm",
+        "source:official-alveo-maridien"
+      ],
+      "height": {
+        "value_m": 152.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "maximum_explicit_osm_building_part_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 40.0,
+        "components": [
+          {
+            "source_feature_id": "osm:way:531995976",
+            "value_m": 152.9,
+            "status": "VERIFIED_GEOGRAPHIC",
+            "method": "osm_height"
+          }
+        ]
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:postcode": "1634",
+        "addr:street": "9th Avenue",
+        "building": "apartments",
+        "building:colour": "beige",
+        "building:levels": "3",
+        "height": "17.3",
+        "name": "One Maridien"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "entity_type": "BUILDING",
+      "canonical_name": "Verve Residences Tower 2",
+      "normalized_name": "verve residences tower 2",
+      "aliases": [
+        "The Verve Residences Two"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.9,
+      "decision_method": "EXACT_OFFICIAL_MATCH",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Official developer development and tower list support the OSM name/location; no direct source identifier exists."
+      ],
+      "centroid": {
+        "longitude": 121.0493748,
+        "latitude": 14.5490475,
+        "local_x_m": -173.822,
+        "local_y_m": -193.122
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:1070584578"
+      ],
+      "osm_ids": [
+        "osm:way:1070584578"
+      ],
+      "building_part_ids": [
+        "osm:way:538702984"
+      ],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": "https://www.alveoland.com.ph/properties/condos/taguig/hss-verve-residences/",
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0002",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm",
+        "source:official-alveo-verve"
+      ],
+      "height": {
+        "value_m": 172.0,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "maximum_explicit_osm_building_part_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 45.0,
+        "components": [
+          {
+            "source_feature_id": "osm:way:538702984",
+            "value_m": 172.0,
+            "status": "VERIFIED_GEOGRAPHIC",
+            "method": "osm_height"
+          }
+        ]
+      },
+      "tags": {
+        "building": "apartments",
+        "building:colour": "beige",
+        "building:levels": "5",
+        "height": "24.4",
+        "name": "The Verve Residences Two"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0006",
+      "entity_type": "BUILDING",
+      "canonical_name": null,
+      "normalized_name": null,
+      "aliases": [],
+      "status": "ACTIVE",
+      "identity_status": "UNRESOLVED",
+      "identity_confidence": 0.1,
+      "decision_method": "NO_IDENTITY_EVIDENCE",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0485882,
+        "latitude": 14.548709,
+        "local_x_m": -258.925,
+        "local_y_m": -229.846
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:1278985505"
+      ],
+      "osm_ids": [
+        "osm:way:1278985505"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0007",
+      "entity_type": "BUILDING",
+      "canonical_name": "W Global Center",
+      "normalized_name": "w global center",
+      "aliases": [
+        "W Global Center"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "CONFIRMED",
+      "identity_confidence": 0.98,
+      "decision_method": "DIRECT_IDENTIFIER",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Direct OSM Wikidata identifier plus owner page matching 9th Avenue and 30th Street."
+      ],
+      "centroid": {
+        "longitude": 121.0518762,
+        "latitude": 14.5511718,
+        "local_x_m": 97.802,
+        "local_y_m": 39.65
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:145147831"
+      ],
+      "osm_ids": [
+        "osm:way:145147831"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": "Q18395924",
+      "wikipedia_url": null,
+      "official_url": "https://wgroup.com.ph/projects/w-global-center-3/",
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm",
+        "source:official-w-group-w-global",
+        "source:wikidata"
+      ],
+      "height": {
+        "value_m": 30.5,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 8.0
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:street": "Lane P",
+        "addr:street:corner": "9th Avenue",
+        "building": "commercial",
+        "building:levels": "8",
+        "height": "30.5",
+        "name": "W Global Center",
+        "wikidata": "Q18395924"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0008",
+      "entity_type": "BUILDING",
+      "canonical_name": "Harlan + Holden Coffee",
+      "normalized_name": "harlan holden coffee",
+      "aliases": [
+        "Harlan + Holden Coffee"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "REVIEW_REQUIRED",
+      "identity_confidence": 0.55,
+      "decision_method": "OSM_NAME_ONLY",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0486606,
+        "latitude": 14.5514082,
+        "local_x_m": -248.566,
+        "local_y_m": 68.763
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:1498398259"
+      ],
+      "osm_ids": [
+        "osm:way:1498398259"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 3.2,
+        "status": "ESTIMATED",
+        "method": "building_levels_x_3.2m",
+        "confidence": 0.55,
+        "source_ids": [],
+        "levels": 1.0
+      },
+      "tags": {
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Harlan + Holden Coffee"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0009",
+      "entity_type": "BUILDING",
+      "canonical_name": "C2",
+      "normalized_name": "c2",
+      "aliases": [
+        "C2"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0489443,
+        "latitude": 14.5507307,
+        "local_x_m": -218.626,
+        "local_y_m": -6.466
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:178125949"
+      ],
+      "osm_ids": [
+        "osm:way:178125949"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street Central",
+        "addr:street": "7th Avenue",
+        "addr:street:corner": "28th Street",
+        "building": "retail",
+        "name": "C2"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0010",
+      "entity_type": "BUILDING",
+      "canonical_name": "C3",
+      "normalized_name": "c3",
+      "aliases": [
+        "C3"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0492055,
+        "latitude": 14.5516549,
+        "local_x_m": -189.594,
+        "local_y_m": 95.568
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:178125950"
+      ],
+      "osm_ids": [
+        "osm:way:178125950"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 6.4,
+        "status": "ESTIMATED",
+        "method": "building_levels_x_3.2m",
+        "confidence": 0.55,
+        "source_ids": [],
+        "levels": 2.0
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street Central",
+        "addr:street": "7th Avenue",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "C3"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "entity_type": "BUILDING",
+      "canonical_name": "C1",
+      "normalized_name": "c1",
+      "aliases": [
+        "C1"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "CONFIRMED",
+      "identity_confidence": 0.9,
+      "decision_method": "OFFICIAL_DISTRICT_DIRECTORY_AND_OSM_LOCATION",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-14",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0481005,
+        "latitude": 14.5510847,
+        "local_x_m": -309.232,
+        "local_y_m": 33.485
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:178125951"
+      ],
+      "osm_ids": [
+        "osm:way:178125951"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm",
+        "source:official-ayala-bonifacio-high-street"
+      ],
+      "height": {
+        "value_m": 10.1,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 2.0
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street Central",
+        "addr:street": "5th Avenue",
+        "addr:street:corner": "28th Street",
+        "building": "retail",
+        "building:levels": "2",
+        "height": "10.1",
+        "name": "C1",
+        "shop": "mall"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0012",
+      "entity_type": "BUILDING",
+      "canonical_name": "Maybank",
+      "normalized_name": "maybank",
+      "aliases": [
+        "Maybank"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0490583,
+        "latitude": 14.5503312,
+        "local_x_m": -206.711,
+        "local_y_m": -50.772
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:203893554"
+      ],
+      "osm_ids": [
+        "osm:way:203893554"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:street": "7th Avenue",
+        "addr:street:corner": "28th Street",
+        "building": "commercial",
+        "name": "Maybank"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0013",
+      "entity_type": "BUILDING",
+      "canonical_name": "Live Street",
+      "normalized_name": "live street",
+      "aliases": [
+        "Live Street"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "REVIEW_REQUIRED",
+      "identity_confidence": 0.55,
+      "decision_method": "OSM_NAME_ONLY",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0489402,
+        "latitude": 14.5513662,
+        "local_x_m": -218.462,
+        "local_y_m": 63.857
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:203893627"
+      ],
+      "osm_ids": [
+        "osm:way:203893627"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "amenity": "community_centre",
+        "building": "yes",
+        "name": "Live Street"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0014",
+      "entity_type": "BUILDING",
+      "canonical_name": "Central Square",
+      "normalized_name": "central square",
+      "aliases": [
+        "Central Square",
+        "C4",
+        "SSI NorthWest Building"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "CONFIRMED",
+      "identity_confidence": 0.97,
+      "decision_method": "EXACT_OFFICIAL_MATCH",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Official operator page matches the named property and Bonifacio High Street Central location."
+      ],
+      "centroid": {
+        "longitude": 121.0484706,
+        "latitude": 14.5519147,
+        "local_x_m": -268.556,
+        "local_y_m": 124.986
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:205968610"
+      ],
+      "osm_ids": [
+        "osm:way:205968610"
+      ],
+      "building_part_ids": [
+        "osm:way:470203065",
+        "osm:way:470203066",
+        "osm:way:470203067"
+      ],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": "https://ssilife.com.ph/central-square",
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm",
+        "source:official-ssi-central-square"
+      ],
+      "height": {
+        "value_m": 25.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 5.0,
+        "components": [
+          {
+            "source_feature_id": "osm:way:470203065",
+            "value_m": 5.2,
+            "status": "VERIFIED_GEOGRAPHIC",
+            "method": "osm_height"
+          },
+          {
+            "source_feature_id": "osm:way:470203066",
+            "value_m": 25.9,
+            "status": "VERIFIED_GEOGRAPHIC",
+            "method": "osm_height"
+          },
+          {
+            "source_feature_id": "osm:way:470203067",
+            "value_m": 3.2,
+            "status": "ESTIMATED",
+            "method": "building_levels_x_3.2m"
+          }
+        ]
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:street": "30th Street",
+        "addr:street:corner": "5th Avenue",
+        "alt_name": "SSI NorthWest Building",
+        "building": "yes",
+        "building:levels": "5",
+        "building:min_level": "1",
+        "height": "25.9",
+        "min_height": "5.2",
+        "name": "Central Square",
+        "operator": "SSI Group",
+        "shop": "mall",
+        "short_name": "C4"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "entity_type": "BUILDING",
+      "canonical_name": "JY Campos Centre",
+      "normalized_name": "jy campos centre",
+      "aliases": [
+        "JY Campos Center",
+        "J.Y. Campos Center"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "CONFIRMED",
+      "identity_confidence": 0.99,
+      "decision_method": "EXACT_OFFICIAL_MATCH",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Company and government sources match the named building at 9th Avenue and 30th Street."
+      ],
+      "centroid": {
+        "longitude": 121.0513029,
+        "latitude": 14.5513585,
+        "local_x_m": 36.183,
+        "local_y_m": 60.828
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:242294490"
+      ],
+      "osm_ids": [
+        "osm:way:242294490"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": "https://www.delmontephil.com/contact",
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm",
+        "source:official-del-monte-jy-campos",
+        "source:government-jy-campos-proclamation"
+      ],
+      "height": {
+        "value_m": 45.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 12.0
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:district": "Bonifacio Global City",
+        "addr:street": "30th Street",
+        "addr:street:corner": "9th Avenue",
+        "alt_name": "J.Y. Campos Center",
+        "building": "office",
+        "building:levels": "12",
+        "height": "45.9",
+        "name": "JY Campos Center"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0016",
+      "entity_type": "BUILDING",
+      "canonical_name": "B:3",
+      "normalized_name": "b 3",
+      "aliases": [
+        "B:3"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "REVIEW_REQUIRED",
+      "identity_confidence": 0.55,
+      "decision_method": "AMBIGUOUS_DUPLICATE_NAME",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location",
+        "Name is shared by multiple distinct pilot footprints."
+      ],
+      "centroid": {
+        "longitude": 121.0501041,
+        "latitude": 14.5512078,
+        "local_x_m": -93.169,
+        "local_y_m": 45.262
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:27442528"
+      ],
+      "osm_ids": [
+        "osm:way:27442528"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:3"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0017",
+      "entity_type": "BUILDING",
+      "canonical_name": "B:3",
+      "normalized_name": "b 3",
+      "aliases": [
+        "B:3"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "REVIEW_REQUIRED",
+      "identity_confidence": 0.55,
+      "decision_method": "AMBIGUOUS_DUPLICATE_NAME",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location",
+        "Name is shared by multiple distinct pilot footprints."
+      ],
+      "centroid": {
+        "longitude": 121.0509924,
+        "latitude": 14.5509287,
+        "local_x_m": 2.319,
+        "local_y_m": 13.558
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:27442546"
+      ],
+      "osm_ids": [
+        "osm:way:27442546"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:3"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0018",
+      "entity_type": "BUILDING",
+      "canonical_name": "B:8",
+      "normalized_name": "b 8",
+      "aliases": [
+        "B:8"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0518743,
+        "latitude": 14.5506671,
+        "local_x_m": 97.125,
+        "local_y_m": -16.202
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:27442590"
+      ],
+      "osm_ids": [
+        "osm:way:27442590"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:8"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0019",
+      "entity_type": "BUILDING",
+      "canonical_name": "Honda Cars Global City",
+      "normalized_name": "honda cars global city",
+      "aliases": [
+        "Honda Cars Global City"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0514036,
+        "latitude": 14.5496432,
+        "local_x_m": 45.424,
+        "local_y_m": -129.07
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:27442939"
+      ],
+      "osm_ids": [
+        "osm:way:27442939"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:district": "Bonifacio Global City",
+        "addr:housename": "932",
+        "addr:province": "Metro Manila",
+        "addr:street": "28th Street",
+        "building": "yes",
+        "name": "Honda Cars Global City",
+        "shop": "car"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0020",
+      "entity_type": "BUILDING",
+      "canonical_name": "B:5",
+      "normalized_name": "b 5",
+      "aliases": [
+        "B:5"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0516458,
+        "latitude": 14.5500589,
+        "local_x_m": 71.919,
+        "local_y_m": -83.293
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:27442969"
+      ],
+      "osm_ids": [
+        "osm:way:27442969"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [
+        "bgc_building_0028"
+      ],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:5"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0021",
+      "entity_type": "BUILDING",
+      "canonical_name": "B:2",
+      "normalized_name": "b 2",
+      "aliases": [
+        "B:2"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0507587,
+        "latitude": 14.5503328,
+        "local_x_m": -23.435,
+        "local_y_m": -52.164
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:27664814"
+      ],
+      "osm_ids": [
+        "osm:way:27664814"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:2"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0022",
+      "entity_type": "BUILDING",
+      "canonical_name": "B:1",
+      "normalized_name": "b 1",
+      "aliases": [
+        "B:1"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0499066,
+        "latitude": 14.5506163,
+        "local_x_m": -115.016,
+        "local_y_m": -20.008
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:27664877"
+      ],
+      "osm_ids": [
+        "osm:way:27664877"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0001",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:1"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0023",
+      "entity_type": "BUILDING",
+      "canonical_name": "Active Fun Building",
+      "normalized_name": "active fun building",
+      "aliases": [
+        "Active Fun Building"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0507886,
+        "latitude": 14.5498318,
+        "local_x_m": -20.685,
+        "local_y_m": -107.633
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:37554026"
+      ],
+      "osm_ids": [
+        "osm:way:37554026"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:street": "28th Street",
+        "addr:street:corner": "9th Avenue",
+        "building": "yes",
+        "name": "Active Fun Building"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0024",
+      "entity_type": "BUILDING",
+      "canonical_name": "One Parkade",
+      "normalized_name": "one parkade",
+      "aliases": [
+        "One Parkade"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0497851,
+        "latitude": 14.550138,
+        "local_x_m": -128.557,
+        "local_y_m": -72.824
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:37554027"
+      ],
+      "osm_ids": [
+        "osm:way:37554027"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:postcode": "1634",
+        "addr:street": "Lane O",
+        "amenity": "parking",
+        "building": "yes",
+        "name": "One Parkade"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0025",
+      "entity_type": "BUILDING",
+      "canonical_name": "Two Parkade",
+      "normalized_name": "two parkade",
+      "aliases": [
+        "Two Parkade"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0503024,
+        "latitude": 14.5516879,
+        "local_x_m": -71.333,
+        "local_y_m": 98.208
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:37554033"
+      ],
+      "osm_ids": [
+        "osm:way:37554033"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:postcode": "1634",
+        "addr:street": "Lane P",
+        "amenity": "parking",
+        "building": "yes",
+        "name": "Two Parkade"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0026",
+      "entity_type": "BUILDING",
+      "canonical_name": "Police Community Precinct - 7",
+      "normalized_name": "police community precinct 7",
+      "aliases": [
+        "Police Community Precinct - 7"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0486547,
+        "latitude": 14.5488375,
+        "local_x_m": -251.631,
+        "local_y_m": -215.694
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:38715205"
+      ],
+      "osm_ids": [
+        "osm:way:38715205"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:street": "7th Avenue",
+        "amenity": "police",
+        "building": "yes",
+        "name": "Police Community Precinct - 7",
+        "operator": "Taguig City Police"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "entity_type": "BUILDING",
+      "canonical_name": "Uniqlo",
+      "normalized_name": "uniqlo",
+      "aliases": [
+        "Uniqlo"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0496154,
+        "latitude": 14.5519183,
+        "local_x_m": -145.169,
+        "local_y_m": 124.334
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:443761696"
+      ],
+      "osm_ids": [
+        "osm:way:443761696"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.8,
+        "status": "ESTIMATED",
+        "method": "building_levels_x_3.2m",
+        "confidence": 0.55,
+        "source_ids": [],
+        "levels": 4.0
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:housenumber": "C3 Annex",
+        "addr:postcode": "1634",
+        "addr:province": "Metro Manila",
+        "addr:street": "30th Street",
+        "addr:street:corner": "7th Avenue",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Uniqlo",
+        "shop": "clothes"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0028",
+      "entity_type": "BUILDING",
+      "canonical_name": "Bench",
+      "normalized_name": "bench",
+      "aliases": [
+        "Bench"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.8,
+      "decision_method": "MULTI_SIGNAL_AUTOMATIC",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0513807,
+        "latitude": 14.5501039,
+        "local_x_m": 43.388,
+        "local_y_m": -78.067
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:603380324"
+      ],
+      "osm_ids": [
+        "osm:way:603380324"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_building_0020",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 12.0,
+        "status": "PROCEDURAL",
+        "method": "diagnostic_type_fallback",
+        "confidence": 0.15,
+        "source_ids": [],
+        "levels": null
+      },
+      "tags": {
+        "addr:city": "Taguig",
+        "addr:district": "Bonifacio Global City",
+        "addr:housename": "B:5, Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "yes",
+        "name": "Bench",
+        "shop": "clothes"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0029",
+      "entity_type": "BUILDING",
+      "canonical_name": "Alveo High Street South Block",
+      "normalized_name": "alveo high street south block",
+      "aliases": [
+        "Alveo High Street South Block"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "REVIEW_REQUIRED",
+      "identity_confidence": 0.55,
+      "decision_method": "OSM_NAME_ONLY",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0504164,
+        "latitude": 14.5499509,
+        "local_x_m": -60.692,
+        "local_y_m": -94.11
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:69740688"
+      ],
+      "osm_ids": [
+        "osm:way:69740688"
+      ],
+      "building_part_ids": [],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": "bgc_complex_0002",
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 38.2,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 10.0
+      },
+      "tags": {
+        "building": "office",
+        "building:levels": "10",
+        "height": "38.2",
+        "name": "Alveo High Street South Block"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0030",
+      "entity_type": "BUILDING",
+      "canonical_name": "Mariano K. Tan Center",
+      "normalized_name": "mariano k tan center",
+      "aliases": [
+        "Mariano K. Tan Center"
+      ],
+      "status": "ACTIVE",
+      "identity_status": "REVIEW_REQUIRED",
+      "identity_confidence": 0.55,
+      "decision_method": "OSM_NAME_ONLY",
+      "id_assignment_method": "PERSISTED_SOURCE_MAPPING",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "OSM tags and footprint location"
+      ],
+      "centroid": {
+        "longitude": 121.0508926,
+        "latitude": 14.5514932,
+        "local_x_m": -7.912,
+        "local_y_m": 76.119
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:1071370327",
+        "osm:way:781744843"
+      ],
+      "osm_ids": [
+        "osm:way:1071370327",
+        "osm:way:781744843"
+      ],
+      "building_part_ids": [
+        "osm:way:1071370326"
+      ],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 45.9,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "maximum_explicit_osm_building_part_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 12.0,
+        "components": [
+          {
+            "source_feature_id": "osm:way:1071370326",
+            "value_m": 45.9,
+            "status": "VERIFIED_GEOGRAPHIC",
+            "method": "osm_height"
+          }
+        ]
+      },
+      "tags": {
+        "building": "construction",
+        "building:levels": "7",
+        "height": "25.6",
+        "name": "Mariano K. Tan Center"
+      }
+    },
+    {
+      "entity_id": "bgc_building_0031",
+      "entity_type": "BUILDING_FRAGMENT",
+      "canonical_name": null,
+      "normalized_name": null,
+      "aliases": [],
+      "status": "ACTIVE",
+      "identity_status": "UNRESOLVED",
+      "identity_confidence": 0.1,
+      "decision_method": "NO_PARENT_CONTAINMENT",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Part intersects no in-pilot building outline; its parent may lie outside the clipped pilot."
+      ],
+      "centroid": {
+        "longitude": 121.0477021,
+        "latitude": 14.5522978,
+        "local_x_m": -351.028,
+        "local_y_m": 168.088
+      },
+      "footprint_reference": "data/processed/pilot-buildings.geojson",
+      "geographic_feature_ids": [
+        "osm:way:469908149"
+      ],
+      "osm_ids": [
+        "osm:way:469908149"
+      ],
+      "building_part_ids": [
+        "osm:way:469908149"
+      ],
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "official_url": null,
+      "official_address": null,
+      "parent_entity_id": null,
+      "child_entity_ids": [],
+      "source_ids": [
+        "source:osm"
+      ],
+      "height": {
+        "value_m": 31.1,
+        "status": "VERIFIED_GEOGRAPHIC",
+        "method": "osm_height",
+        "confidence": 0.75,
+        "source_ids": [
+          "source:osm"
+        ],
+        "levels": 6.0
+      },
+      "tags": {
+        "building:levels": "6",
+        "building:part": "yes",
+        "height": "31.1"
+      }
+    }
+  ],
+  "complexes": [
+    {
+      "entity_id": "bgc_complex_0001",
+      "entity_type": "BUILDING_COMPLEX",
+      "canonical_name": "Bonifacio High Street",
+      "normalized_name": "bonifacio high street",
+      "aliases": [],
+      "status": "ACTIVE",
+      "identity_status": "CONFIRMED",
+      "identity_confidence": 0.95,
+      "decision_method": "EXACT_OFFICIAL_MATCH",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Official developer/operator source names the development; membership uses explicit OSM names and address tags."
+      ],
+      "child_entity_ids": [
+        "bgc_building_0009",
+        "bgc_building_0010",
+        "bgc_building_0011",
+        "bgc_building_0013",
+        "bgc_building_0014",
+        "bgc_building_0016",
+        "bgc_building_0017",
+        "bgc_building_0018",
+        "bgc_building_0020",
+        "bgc_building_0021",
+        "bgc_building_0022",
+        "bgc_building_0028"
+      ],
+      "source_ids": [
+        "source:official-ayala-bonifacio-high-street"
+      ]
+    },
+    {
+      "entity_id": "bgc_complex_0002",
+      "entity_type": "BUILDING_COMPLEX",
+      "canonical_name": "High Street South",
+      "normalized_name": "high street south",
+      "aliases": [],
+      "status": "ACTIVE",
+      "identity_status": "HIGH_CONFIDENCE",
+      "identity_confidence": 0.85,
+      "decision_method": "EXACT_OFFICIAL_MATCH",
+      "decision_timestamp": "2026-09-11",
+      "supporting_evidence": [
+        "Official developer/operator source names the development; membership uses explicit OSM names and address tags."
+      ],
+      "child_entity_ids": [
+        "bgc_building_0003",
+        "bgc_building_0004",
+        "bgc_building_0005",
+        "bgc_building_0029"
+      ],
+      "source_ids": [
+        "source:official-alveo-high-street-south"
+      ]
+    }
+  ],
+  "content_sha256": "5e401c1814fc43e2b8bd1dfc39588f063d614ed927fc647e52236ba1cf7af652"
+}

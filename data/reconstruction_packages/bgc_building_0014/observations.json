@@ -1,0 +1,384 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:csq:identity",
+      "entity_id": "bgc_building_0014",
+      "property": "identity",
+      "value": "Central Square, Bonifacio High Street Central",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.99,
+      "source_ids": [
+        "source:official-ssi-central-square",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:official:central-square"
+      ],
+      "method": "official_operator_and_geographic_match",
+      "notes": "Canonical identity remains confirmed."
+    },
+    {
+      "observation_id": "obs:csq:address",
+      "entity_id": "bgc_building_0014",
+      "property": "address",
+      "value": "5th Avenue, Bonifacio High Street Central, BGC, Taguig",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.98,
+      "source_ids": [
+        "source:official-ssi-central-square",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:official:central-square"
+      ],
+      "method": "official_operator_page",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:csq:opened",
+      "entity_id": "bgc_building_0014",
+      "property": "opening_date",
+      "value": "2014-06",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.97,
+      "source_ids": [
+        "source:official-ssi-central-square"
+      ],
+      "reference_ids": [
+        "ref:official:central-square"
+      ],
+      "method": "official_operator_page",
+      "notes": null
+    },
+    {
+      "observation_id": "obs:csq:footprint-area",
+      "entity_id": "bgc_building_0014",
+      "property": "footprint_area_m2",
+      "value": 6118.37,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "shapely_area_of_local_metre_osm_polygon",
+      "notes": "Source is community-mapped OSM geometry, not a cadastral survey."
+    },
+    {
+      "observation_id": "obs:csq:footprint-dimensions",
+      "entity_id": "bgc_building_0014",
+      "property": "oriented_footprint_dimensions_m",
+      "value": {
+        "major": 87.079,
+        "minor": 80.681
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "minimum_rotated_rectangle",
+      "notes": "Dimensions are deterministic measures of the mapped footprint."
+    },
+    {
+      "observation_id": "obs:csq:orientation",
+      "entity_id": "bgc_building_0014",
+      "property": "major_axis_bearing_deg_clockwise_from_north",
+      "value": 107.595,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "minimum_rotated_rectangle",
+      "notes": "Undirected major axis; target-local facades are mapped separately to streets."
+    },
+    {
+      "observation_id": "obs:csq:height",
+      "entity_id": "bgc_building_0014",
+      "property": "height_m",
+      "value": 25.9,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "OSM way 470203066 explicit height tag",
+      "notes": "Tag version 5, timestamp 2026-04-09; explicit mapped value, not an authoritative survey. No independent measured-height source found."
+    },
+    {
+      "observation_id": "obs:csq:height-audit",
+      "entity_id": "bgc_building_0014",
+      "property": "height_evidence_audit",
+      "value": {
+        "source_feature": "osm:way:470203066",
+        "original_value": "25.9",
+        "unit": "m",
+        "source_timestamp": "2026-04-09T05:32:36Z",
+        "source_version": 5,
+        "strength": "EXPLICIT_COMMUNITY_GEOGRAPHIC_NOT_SURVEYED"
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "raw_osm_tag_audit",
+      "notes": "Value retained unchanged."
+    },
+    {
+      "observation_id": "obs:csq:official-floor-organization",
+      "entity_id": "bgc_building_0014",
+      "property": "official_floor_organization",
+      "value": {
+        "retail_floors": 3,
+        "basement_floors": 2,
+        "cinema_floor": 1
+      },
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.97,
+      "source_ids": [
+        "source:official-ssi-central-square"
+      ],
+      "reference_ids": [
+        "ref:official:central-square"
+      ],
+      "method": "official_operator_page",
+      "notes": "These are property/marketing categories, not a direct geometric storey count."
+    },
+    {
+      "observation_id": "obs:csq:cinema-directory-label",
+      "entity_id": "bgc_building_0014",
+      "property": "cinema_directory_label",
+      "value": "Level 3",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.95,
+      "source_ids": [
+        "source:official-ayala-cinemas-central-square"
+      ],
+      "reference_ids": [
+        "ref:official:ayala-cinemas-central-square"
+      ],
+      "method": "official_operator_directory",
+      "notes": "Directory terminology only; do not translate this label into a physical storey count."
+    },
+    {
+      "observation_id": "obs:csq:above-ground-storeys",
+      "entity_id": "bgc_building_0014",
+      "property": "above_ground_physical_storeys",
+      "value": {
+        "project_consultant": 4,
+        "contemporaneous_retail_levels": 4,
+        "osm_building_levels": 5
+      },
+      "status": "CONFLICTED",
+      "confidence": 0.7,
+      "source_ids": [
+        "source:consultant-campbell-central-square",
+        "source:philstar-central-square-2014",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:consultant:campbell-central-square",
+        "ref:news:philstar-central-square-2014"
+      ],
+      "method": "cross_source_terminology_audit",
+      "notes": "Do not force marketing/directory labels onto geometric storeys. Model vertical bands from photographic evidence and retain 25.9 m total height."
+    },
+    {
+      "observation_id": "obs:csq:gfa",
+      "entity_id": "bgc_building_0014",
+      "property": "gross_floor_area_m2",
+      "value": 33813,
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.98,
+      "source_ids": [
+        "source:official-ssi-annual-report-2015"
+      ],
+      "reference_ids": [
+        "ref:official:ssi-annual-report-2015"
+      ],
+      "method": "official_annual_report",
+      "notes": "Consultant portfolio independently rounds project area to 34,000 m2."
+    },
+    {
+      "observation_id": "obs:csq:floor-ownership",
+      "entity_id": "bgc_building_0014",
+      "property": "uppermost_floor_relationship",
+      "value": "SSI transferred ownership of the uppermost floor to Ayala Land for an Ayala-operated cineplex",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.96,
+      "source_ids": [
+        "source:official-ssi-annual-report-2015"
+      ],
+      "reference_ids": [
+        "ref:official:ssi-annual-report-2015"
+      ],
+      "method": "official_annual_report",
+      "notes": "Functional/ownership evidence; it does not by itself define a separately expressed exterior volume."
+    },
+    {
+      "observation_id": "obs:csq:local-sides",
+      "entity_id": "bgc_building_0014",
+      "property": "target_local_side_mapping",
+      "value": {
+        "north": "30th Street",
+        "west": "5th Avenue",
+        "south": "Bonifacio High Street / BHS Central pedestrian corridor",
+        "east": "adjacent-building/service side"
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.95,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "nearest_feature_relationship_in_existing_local_crs",
+      "notes": "Cardinal labels are target-local convenience; the footprint is rotated about 17.6 degrees from east-west."
+    },
+    {
+      "observation_id": "obs:csq:dominant-massing",
+      "entity_id": "bgc_building_0014",
+      "property": "overall_massing",
+      "value": "Broad, low-rise, predominantly box-like retail/cinema volume with an irregular footprint, flat roof/parapet, facade recesses, and ground-level setbacks",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:wikimedia-commons",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929",
+        "ref:commons:173664145",
+        "ref:commons:173664147"
+      ],
+      "method": "cross_source_visual_and_geographic",
+      "notes": "No evidence supports a distinct tall rooftop mechanical mass."
+    },
+    {
+      "observation_id": "obs:csq:north-facade",
+      "entity_id": "bgc_building_0014",
+      "property": "north_30th_facade",
+      "value": "Mostly opaque warm-neutral panelled upper wall, large dark vertical glazed/recessed zones, a recessed transparent ground-floor retail line, and large mutable signage/mural zones",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.88,
+      "source_ids": [
+        "source:wikimedia-commons",
+        "source:inside-the-metro-central-square-2024"
+      ],
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:web:inside-metro-central-square-2024"
+      ],
+      "method": "multiple_visual_references",
+      "notes": "Treat advertising, murals, and tenant graphics as temporary state."
+    },
+    {
+      "observation_id": "obs:csq:south-facade",
+      "entity_id": "bgc_building_0014",
+      "property": "south_high_street_facade",
+      "value": "Opaque warm-neutral upper mass broken by a tall dark glazed/recessed strip; ground level is set back behind columns/storefront glazing and heavily screened by mature landscape",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:wikimedia-commons"
+      ],
+      "reference_ids": [
+        "ref:commons:158404929",
+        "ref:commons:158404930"
+      ],
+      "method": "two_recent_context_views",
+      "notes": "Exact bay count and ground-floor portal positions remain unknown."
+    },
+    {
+      "observation_id": "obs:csq:west-facade",
+      "entity_id": "bgc_building_0014",
+      "property": "west_5th_facade",
+      "value": "Warm-neutral opaque upper planes with a tall glazed vertical bay and recessed ground-level retail frontage along a palm-lined urban edge",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.76,
+      "source_ids": [
+        "source:wikimedia-commons",
+        "source:youtube-tour-from-home-central-square-2021",
+        "source:youtube-hg-virtual-central-square-2023"
+      ],
+      "reference_ids": [
+        "ref:commons:173664145",
+        "ref:commons:146482138",
+        "ref:youtube:tour-from-home-central-square-2021",
+        "ref:youtube:hg-central-square-2023"
+      ],
+      "method": "recent_high_view_plus_research_video",
+      "notes": "The exact main entrance portal is not clearly surveyed."
+    },
+    {
+      "observation_id": "obs:csq:roof",
+      "entity_id": "bgc_building_0014",
+      "property": "roof",
+      "value": "Predominantly broad, light-coloured flat roof within a parapet; fine equipment distribution is unresolved",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:wikimedia-commons"
+      ],
+      "reference_ids": [
+        "ref:commons:173664145",
+        "ref:commons:173664147"
+      ],
+      "method": "recent_high_view_photography",
+      "notes": "Model only the major roof plane/parapet for MVP; do not invent dense mechanical equipment."
+    },
+    {
+      "observation_id": "obs:csq:public-approach",
+      "entity_id": "bgc_building_0014",
+      "property": "public_entrance_hierarchy",
+      "value": "A public approach exists from 5th Avenue into the Ground Floor; exact portal extent and whether it is the primary entrance are unresolved",
+      "status": "INFERRED",
+      "confidence": 0.68,
+      "source_ids": [
+        "source:youtube-tour-from-home-central-square-2021",
+        "source:youtube-hg-virtual-central-square-2023"
+      ],
+      "reference_ids": [
+        "ref:youtube:tour-from-home-central-square-2021",
+        "ref:youtube:hg-central-square-2023"
+      ],
+      "method": "video_route_sequence",
+      "notes": "Use an understated entrance placeholder until a facade-normal still or perimeter video closes the gap."
+    },
+    {
+      "observation_id": "obs:csq:street-context",
+      "entity_id": "bgc_building_0014",
+      "property": "street_context",
+      "value": {
+        "north": "30th Street vehicular edge with streetlights and trees",
+        "west": "5th Avenue vehicular edge with signalized intersection and palms",
+        "south": "BHS Central pedestrian park/corridor with mature trees, lawn/terraced steps, seating, lights, and temporary event elements",
+        "east": "close adjacent retail mass"
+      },
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.88,
+      "source_ids": [
+        "source:wikimedia-commons",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929",
+        "ref:commons:158404930",
+        "ref:commons:173664147"
+      ],
+      "method": "recent_visual_and_geographic_context",
+      "notes": "Temporary tents, vehicles, banners, and seasonal decor are not permanent architecture."
+    }
+  ],
+  "conflicts": [
+    "obs:csq:above-ground-storeys"
+  ]
+}

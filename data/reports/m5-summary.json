@@ -1,0 +1,46 @@
+{
+  "phase": "PASS",
+  "raw_geographic_records": 39,
+  "canonical_entities": 31,
+  "building_complexes": 2,
+  "building_parts_resolved": 7,
+  "building_parts_total": 8,
+  "entity_identities": {
+    "CONFIRMED": 4,
+    "HIGH_CONFIDENCE": 16,
+    "REVIEW_REQUIRED": 7,
+    "UNRESOLVED": 4
+  },
+  "wikidata_linked_entities": 1,
+  "official_source_confirmed_entities": 4,
+  "references_discovered": 10,
+  "references_accepted": 7,
+  "references_rejected": 2,
+  "duplicates_removed": 0,
+  "rights_reviewed": 8,
+  "reusable_references": 3,
+  "research_only_references": 5,
+  "rights_review_required": 0,
+  "reference_coverage": {
+    "GOOD": 1,
+    "PARTIAL": 0,
+    "WEAK": 1,
+    "NONE": 29
+  },
+  "heights": {
+    "VERIFIED": 17,
+    "ESTIMATED": 4,
+    "PROCEDURAL": 18,
+    "UNKNOWN": 0,
+    "CONFLICTED": 0
+  },
+  "previous_procedural_heights": 18,
+  "procedural_heights_remaining": 18,
+  "primary_reconstruction_target": "bgc_building_0014 — Central Square",
+  "backup_target": "bgc_building_0007 — W Global Center",
+  "major_evidence_gap": "No directionally verified facade, entrance, or roof coverage for any entity.",
+  "major_blocker": null,
+  "recommended_next_milestone": "M6 — target-specific evidence closure and reconstruction-package validation",
+  "recommended_model": "SOL",
+  "astra_required_next": false
+}

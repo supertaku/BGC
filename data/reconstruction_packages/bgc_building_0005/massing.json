@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0005",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 2480.1,
+    "perimeter_m": 212.94,
+    "axis_aligned_bounds_m": {
+      "min_x": -213.403,
+      "min_y": -220.302,
+      "max_x": -134.241,
+      "max_y": -165.943
+    },
+    "maximum_height_m": 172.0,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "components": [
+    {
+      "name": "M10_0005_Podium",
+      "component_id": "0005:massing:podium",
+      "source_feature_id": "osm:way:1070584578",
+      "base_z_m": 0,
+      "height_m": 24.4,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic outline with evidence-driven estimated podium height",
+      "evidence_status": "ESTIMATED",
+      "observation_ids": [
+        "obs:0005:footprint",
+        "obs:0005:massing"
+      ],
+      "evidence_ids": [
+        "ref:official:verve",
+        "ref:web:verve-exterior"
+      ]
+    },
+    {
+      "name": "M10_0005_Tower",
+      "component_id": "0005:massing:tower",
+      "source_feature_id": "osm:way:538702984",
+      "base_z_m": 24.4,
+      "height_m": 147.6,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic building part and height envelope",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:0005:footprint",
+        "obs:0005:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Light residential tower over a podium with regular balcony and glazing bands."
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "bgc_building_0007",
+  "entity_type": "BUILDING",
+  "canonical_name": "W Global Center",
+  "aliases": [
+    "W Global Center"
+  ],
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.99,
+  "decision_method": "DIRECT_IDENTIFIER_AND_OWNER_LOCATION_MATCH",
+  "centroid": {
+    "longitude": 121.0518762,
+    "latitude": 14.5511718,
+    "x": 97.802,
+    "y": 39.65
+  },
+  "footprint_reference": "data/processed/pilot-buildings.geojson",
+  "geographic_feature_ids": [
+    "osm:way:145147831"
+  ],
+  "osm_ids": [
+    "osm:way:145147831"
+  ],
+  "building_part_ids": [],
+  "wikidata_id": "Q18395924",
+  "official_url": "https://wgroup.com.ph/projects/w-global-center-3/",
+  "official_address": "9th Avenue corner 30th Street, BGC, Taguig",
+  "source_ids": [
+    "source:osm",
+    "source:wikidata",
+    "source:official-w-group-w-global"
+  ],
+  "height": {
+    "value_m": 30.5,
+    "status": "VERIFIED_GEOGRAPHIC",
+    "method": "osm_height",
+    "confidence": 0.75,
+    "source_ids": [
+      "source:osm"
+    ],
+    "levels": 8
+  },
+  "reconstruction_package_version": 1,
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

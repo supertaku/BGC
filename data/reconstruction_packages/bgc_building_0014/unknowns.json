@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0014",
+  "unknowns": [
+    {
+      "unknown_id": "unknown:csq:east-facade",
+      "aspect": "east/service facade",
+      "importance": "MEDIUM",
+      "status": "UNKNOWN",
+      "rule": "neutral massing-only facade; no invented doors, loading bays, or signage",
+      "closure_action": "facade-normal still from the east-side passage"
+    },
+    {
+      "unknown_id": "unknown:csq:entrance-portals",
+      "aspect": "exact entrance hierarchy and portal geometry",
+      "importance": "HIGH",
+      "status": "UNKNOWN",
+      "rule": "use understated recessed glazed placeholder",
+      "closure_action": "full-height stills of every public entrance with both adjacent corners"
+    },
+    {
+      "unknown_id": "unknown:csq:roof-equipment",
+      "aspect": "roof mechanical equipment and screening",
+      "importance": "LOW_FOR_LOD1",
+      "status": "UNKNOWN",
+      "rule": "flat roof/parapet only; omit fine plant",
+      "closure_action": "recent elevated oblique roof image"
+    },
+    {
+      "unknown_id": "unknown:csq:storey-mapping",
+      "aspect": "physical storeys versus directory labels",
+      "importance": "MEDIUM",
+      "status": "CONFLICTED",
+      "rule": "use photo-visible broad horizontal bands within 25.9 m; do not encode directory names as geometry",
+      "closure_action": "section drawing or facade-normal survey"
+    },
+    {
+      "unknown_id": "unknown:csq:mullion-spacing",
+      "aspect": "exact glazing mullion rhythm",
+      "importance": "LOW_FOR_LOD1",
+      "status": "ESTIMATED",
+      "rule": "maintain approximate large-bay rhythm only",
+      "closure_action": "facade-normal high-resolution photographs"
+    },
+    {
+      "unknown_id": "unknown:csq:current-signage",
+      "aspect": "2025-2026 tenant and advertising state",
+      "importance": "LOW",
+      "status": "UNKNOWN",
+      "rule": "separate permanent logo zone from temporary tenant/campaign graphics; omit or simplify trademarks",
+      "closure_action": "dated 2026 perimeter capture"
+    },
+    {
+      "unknown_id": "unknown:csq:basement-ramp",
+      "aspect": "basement vehicular access location",
+      "importance": "MEDIUM",
+      "status": "UNKNOWN",
+      "rule": "omit until evidenced",
+      "closure_action": "street-level perimeter capture focused on ramps/service access"
+    }
+  ]
+}

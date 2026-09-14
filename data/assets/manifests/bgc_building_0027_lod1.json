@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0027",
+  "name": "Uniqlo",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_building_0027_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -161.674,
+      103.549,
+      0.0
+    ],
+    "max": [
+      -129.21,
+      145.717,
+      12.8
+    ]
+  },
+  "geographic_anchor": {
+    "longitude": 121.0496154,
+    "latitude": 14.5519183,
+    "local_x_m": -145.169,
+    "local_y_m": 124.334
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_building_0027.json",
+  "generated_at": "2026-09-14T15:11:02.008891+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

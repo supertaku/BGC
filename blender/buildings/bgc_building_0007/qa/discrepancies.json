@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "qa_refinement_passes": 2,
+  "critical_discrepancies_remaining": 0,
+  "major_discrepancies_remaining": 0,
+  "assessments": [
+    {
+      "discrepancy_id": "wgc-qa-001",
+      "camera_id": "QA_CORNER_01",
+      "component_id": "wgc:roof:corner-frame-01",
+      "category": "roof silhouette",
+      "cause": "IMPLEMENTATION_ERROR",
+      "severity": "MAJOR",
+      "description": "Frame-inclusive maximum height was initially filled by the main shell.",
+      "status": "RESOLVED",
+      "resolution": "Estimated main roof lowered to 27.5 m; frame retains the 30.5 m maximum."
+    },
+    {
+      "discrepancy_id": "wgc-qa-002",
+      "camera_id": "QA_30TH_01",
+      "component_id": "wgc:massing:envelope",
+      "category": "camera framing",
+      "cause": "IMPLEMENTATION_ERROR",
+      "severity": "MAJOR",
+      "description": "Initial street cameras cropped the overall façade.",
+      "status": "RESOLVED",
+      "resolution": "Cameras moved back and widened."
+    },
+    {
+      "discrepancy_id": "wgc-qa-003",
+      "camera_id": "QA_WEAK_01",
+      "component_id": "wgc:massing:envelope",
+      "category": "weak facade detail",
+      "cause": "INSUFFICIENT_EVIDENCE",
+      "severity": "IGNORE_FOR_CURRENT_LOD",
+      "description": "Opposite-side openings and service functions are unresolved.",
+      "status": "BLOCKED_BY_EVIDENCE",
+      "resolution": "Retain conservative neutral planes."
+    },
+    {
+      "discrepancy_id": "wgc-qa-004",
+      "camera_id": "QA_CORNER_01",
+      "component_id": "wgc:entrance:corner-public",
+      "category": "entrance geometry",
+      "cause": "INSUFFICIENT_EVIDENCE",
+      "severity": "IGNORE_FOR_CURRENT_LOD",
+      "description": "Exact door count, width, and hierarchy are unresolved.",
+      "status": "BLOCKED_BY_EVIDENCE",
+      "resolution": "Use understated inferred glazing."
+    },
+    {
+      "discrepancy_id": "wgc-qa-005",
+      "camera_id": "QA_CORNER_01",
+      "component_id": "wgc:massing:envelope",
+      "category": "storey interpretation",
+      "cause": "SOURCE_CONFLICT",
+      "severity": "IGNORE_FOR_CURRENT_LOD",
+      "description": "Sources claim seven and eight floors/storeys.",
+      "status": "PRESERVED_UNRESOLVED",
+      "resolution": "Model visible bands inside the mapped height without an exact physical-storey claim."
+    }
+  ],
+  "status": "PASS_WITH_EVIDENCE_LIMITATIONS"
+}

@@ -1,0 +1,1527 @@
+{
+  "schema_version": 1,
+  "pipeline_version": 1,
+  "tile_id": "tile_008_003",
+  "tile_size_m": 250.0,
+  "bounds": [
+    750.0,
+    -1000.0,
+    1000.0,
+    -750.0
+  ],
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "ground": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          750.0,
+          -905.9482983914157
+        ],
+        [
+          750.0,
+          -750.0
+        ],
+        [
+          814.2910059376195,
+          -750.0
+        ],
+        [
+          750.0,
+          -905.9482983914157
+        ]
+      ]
+    ]
+  },
+  "buildings": [
+    {
+      "type": "Feature",
+      "id": "osm:way:320823437",
+      "properties": {
+        "id": "osm:way:320823437",
+        "source_ids": [
+          "osm:way:320823437",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 120.64,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:320823437",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              786.378,
+              -772.284
+            ],
+            [
+              784.844,
+              -782.807
+            ],
+            [
+              796.073,
+              -784.429
+            ],
+            [
+              797.607,
+              -773.907
+            ],
+            [
+              786.378,
+              -772.284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:320823470",
+      "properties": {
+        "id": "osm:way:320823470",
+        "source_ids": [
+          "osm:way:320823470",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 81.17,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:320823470",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              794.649,
+              -788.357
+            ],
+            [
+              786.64,
+              -787.138
+            ],
+            [
+              785.122,
+              -797.04
+            ],
+            [
+              793.131,
+              -798.259
+            ],
+            [
+              794.649,
+              -788.357
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:404340922",
+      "properties": {
+        "id": "osm:way:404340922",
+        "source_ids": [
+          "osm:way:404340922",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 66.59,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:404340922",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              786.407,
+              -815.742
+            ],
+            [
+              787.24,
+              -807.804
+            ],
+            [
+              778.936,
+              -806.947
+            ],
+            [
+              778.114,
+              -814.886
+            ],
+            [
+              786.407,
+              -815.742
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:404340924",
+      "properties": {
+        "id": "osm:way:404340924",
+        "source_ids": [
+          "osm:way:404340924",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 93.33,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:404340924",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              779.135,
+              -805.068
+            ],
+            [
+              769.722,
+              -804.102
+            ],
+            [
+              768.712,
+              -813.921
+            ],
+            [
+              778.114,
+              -814.886
+            ],
+            [
+              778.936,
+              -806.947
+            ],
+            [
+              779.135,
+              -805.068
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:404340933",
+      "properties": {
+        "id": "osm:way:404340933",
+        "source_ids": [
+          "osm:way:404340933",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 60.81,
+        "tags": {
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:404340933",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              795.443,
+              -798.877
+            ],
+            [
+              787.743,
+              -798.048
+            ],
+            [
+              786.89,
+              -805.853
+            ],
+            [
+              794.59,
+              -806.682
+            ],
+            [
+              795.443,
+              -798.877
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443916871",
+      "properties": {
+        "id": "osm:way:443916871",
+        "source_ids": [
+          "osm:way:443916871",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 110.83,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443916871",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              764.167,
+              -753.902
+            ],
+            [
+              763.339,
+              -762.593
+            ],
+            [
+              775.984,
+              -763.774
+            ],
+            [
+              776.801,
+              -755.083
+            ],
+            [
+              764.167,
+              -753.902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443916928",
+      "properties": {
+        "id": "osm:way:443916928",
+        "source_ids": [
+          "osm:way:443916928",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 57.2,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443916928",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              779.119,
+              -762.65
+            ],
+            [
+              778.319,
+              -769.327
+            ],
+            [
+              786.772,
+              -770.329
+            ],
+            [
+              787.572,
+              -763.663
+            ],
+            [
+              779.119,
+              -762.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443916930",
+      "properties": {
+        "id": "osm:way:443916930",
+        "source_ids": [
+          "osm:way:443916930",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 37.07,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443916930",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              766.644,
+              -784.588
+            ],
+            [
+              760.888,
+              -784.539
+            ],
+            [
+              760.833,
+              -790.968
+            ],
+            [
+              766.6,
+              -791.029
+            ],
+            [
+              766.644,
+              -784.588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443916973",
+      "properties": {
+        "id": "osm:way:443916973",
+        "source_ids": [
+          "osm:way:443916973",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 83.17,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443916973",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              762.097,
+              -765.327
+            ],
+            [
+              762.393,
+              -772.423
+            ],
+            [
+              774.103,
+              -771.948
+            ],
+            [
+              773.808,
+              -764.863
+            ],
+            [
+              762.097,
+              -765.327
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443916981",
+      "properties": {
+        "id": "osm:way:443916981",
+        "source_ids": [
+          "osm:way:443916981",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 41.3,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443916981",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              779.523,
+              -755.737
+            ],
+            [
+              778.682,
+              -760.854
+            ],
+            [
+              786.551,
+              -762.138
+            ],
+            [
+              787.392,
+              -757.033
+            ],
+            [
+              779.523,
+              -755.737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443916984",
+      "properties": {
+        "id": "osm:way:443916984",
+        "source_ids": [
+          "osm:way:443916984",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 33.02,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443916984",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              762.662,
+              -775.015
+            ],
+            [
+              756.213,
+              -776.532
+            ],
+            [
+              757.379,
+              -781.389
+            ],
+            [
+              763.817,
+              -779.861
+            ],
+            [
+              762.662,
+              -775.015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443916985",
+      "properties": {
+        "id": "osm:way:443916985",
+        "source_ids": [
+          "osm:way:443916985",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 69.17,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443916985",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              751.641,
+              -753.95
+            ],
+            [
+              751.933,
+              -761.412
+            ],
+            [
+              761.185,
+              -761.059
+            ],
+            [
+              760.904,
+              -753.598
+            ],
+            [
+              751.641,
+              -753.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:443917023",
+      "properties": {
+        "id": "osm:way:443917023",
+        "source_ids": [
+          "osm:way:443917023",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 61.78,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1642",
+          "building": "yes"
+        },
+        "canonical_entity_id": "osm:way:443917023",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              758.339,
+              -764.919
+            ],
+            [
+              750.86,
+              -768.518
+            ],
+            [
+              754.123,
+              -775.208
+            ],
+            [
+              761.602,
+              -771.609
+            ],
+            [
+              758.339,
+              -764.919
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1072977676",
+      "properties": {
+        "id": "osm:way:1072977676",
+        "source_ids": [
+          "osm:way:1072977676",
+          "source:osm"
+        ],
+        "name": "Maricel Street",
+        "class": "residential",
+        "width_m": 3.2,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 45.41,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              754.049,
+              -782.533
+            ],
+            [
+              796.848,
+              -787.07
+            ],
+            [
+              799.149,
+              -786.514
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "1",
+          "name": "Maricel Street",
+          "sidewalk": "no",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              799.525,
+              -788.069
+            ],
+            [
+              797.224,
+              -788.625
+            ],
+            [
+              797.044,
+              -788.658
+            ],
+            [
+              796.862,
+              -788.67
+            ],
+            [
+              796.68,
+              -788.661
+            ],
+            [
+              753.881,
+              -784.124
+            ],
+            [
+              754.218,
+              -780.942
+            ],
+            [
+              796.742,
+              -785.449
+            ],
+            [
+              798.773,
+              -784.959
+            ],
+            [
+              799.525,
+              -788.069
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:226831899",
+      "properties": {
+        "id": "osm:way:226831899",
+        "source_ids": [
+          "osm:way:226831899",
+          "source:osm"
+        ],
+        "name": "Sampaguita Street",
+        "class": "tertiary",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 325.82,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              769.061,
+              -859.723
+            ],
+            [
+              767.442,
+              -847.851
+            ],
+            [
+              767.57,
+              -821.381
+            ],
+            [
+              763.608,
+              -804.382
+            ],
+            [
+              762.128,
+              -800.994
+            ],
+            [
+              754.049,
+              -782.533
+            ],
+            [
+              753.278,
+              -780.767
+            ],
+            [
+              747.745,
+              -767.142
+            ],
+            [
+              745.064,
+              -760.512
+            ],
+            [
+              736.816,
+              -740.412
+            ],
+            [
+              732.565,
+              -729.464
+            ],
+            [
+              727.481,
+              -715.068
+            ],
+            [
+              721.743,
+              -697.811
+            ],
+            [
+              712.929,
+              -666.993
+            ],
+            [
+              707.858,
+              -649.775
+            ],
+            [
+              705.872,
+              -642.498
+            ],
+            [
+              702.917,
+              -638.954
+            ],
+            [
+              698.373,
+              -637.078
+            ],
+            [
+              691.144,
+              -635.335
+            ],
+            [
+              665.667,
+              -633.469
+            ],
+            [
+              632.406,
+              -630.43
+            ],
+            [
+              611.039,
+              -625.622
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "Sampaguita Street",
+          "sidewalk": "no",
+          "surface": "asphalt"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              750.711,
+              -765.94
+            ],
+            [
+              756.227,
+              -779.524
+            ],
+            [
+              756.981,
+              -781.251
+            ],
+            [
+              765.059,
+              -799.712
+            ],
+            [
+              766.54,
+              -803.101
+            ],
+            [
+              766.645,
+              -803.374
+            ],
+            [
+              766.724,
+              -803.656
+            ],
+            [
+              770.687,
+              -820.654
+            ],
+            [
+              770.75,
+              -821.023
+            ],
+            [
+              770.77,
+              -821.396
+            ],
+            [
+              770.643,
+              -847.641
+            ],
+            [
+              772.232,
+              -859.291
+            ],
+            [
+              765.89,
+              -860.156
+            ],
+            [
+              764.271,
+              -848.283
+            ],
+            [
+              764.242,
+              -847.835
+            ],
+            [
+              764.368,
+              -821.741
+            ],
+            [
+              760.558,
+              -805.395
+            ],
+            [
+              759.196,
+              -802.277
+            ],
+            [
+              751.118,
+              -783.816
+            ],
+            [
+              750.345,
+              -782.049
+            ],
+            [
+              750.313,
+              -781.971
+            ],
+            [
+              750.0,
+              -781.200181637448
+            ],
+            [
+              750.0,
+              -764.1822573666543
+            ],
+            [
+              750.711,
+              -765.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:29082535",
+      "properties": {
+        "id": "osm:way:29082535",
+        "source_ids": [
+          "osm:way:29082535",
+          "source:osm"
+        ],
+        "name": "Lotus Street",
+        "class": "residential",
+        "width_m": 6.4,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 64.2,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              687.508,
+              -891.436
+            ],
+            [
+              711.647,
+              -897.307
+            ],
+            [
+              750.091,
+              -905.738
+            ]
+          ]
+        },
+        "tags": {
+          "alt_name": "Sampaguita Street",
+          "highway": "residential",
+          "lanes": "2",
+          "name": "Lotus Street",
+          "sidewalk": "no",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              750.776,
+              -902.613
+            ],
+            [
+              750.0,
+              -906.1511298322391
+            ],
+            [
+              750.0,
+              -902.4428004582379
+            ],
+            [
+              750.776,
+              -902.613
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:565252104",
+      "properties": {
+        "id": "osm:way:565252104",
+        "source_ids": [
+          "osm:way:565252104",
+          "source:osm"
+        ],
+        "name": "Tarhata Street",
+        "class": "residential",
+        "width_m": 6.5,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 16.54,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              767.57,
+              -821.381
+            ],
+            [
+              775.732,
+              -822.502
+            ],
+            [
+              783.96,
+              -823.582
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "name": "Tarhata Street"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              783.537,
+              -826.805
+            ],
+            [
+              775.308,
+              -825.724
+            ],
+            [
+              775.289,
+              -825.721
+            ],
+            [
+              767.128,
+              -824.601
+            ],
+            [
+              768.012,
+              -818.161
+            ],
+            [
+              776.164,
+              -819.281
+            ],
+            [
+              784.384,
+              -820.36
+            ],
+            [
+              783.537,
+              -826.805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:894809251",
+      "properties": {
+        "id": "osm:way:894809251",
+        "source_ids": [
+          "osm:way:894809251",
+          "source:osm"
+        ],
+        "name": "Maricel Street",
+        "class": "residential",
+        "width_m": 3.2,
+        "width_status": "ESTIMATED",
+        "width_method": "lanes_x_3.2m",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 41.61,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              799.941,
+              -745.398
+            ],
+            [
+              800.476,
+              -745.923
+            ],
+            [
+              800.846,
+              -746.7
+            ],
+            [
+              800.938,
+              -748.582
+            ],
+            [
+              800.998,
+              -750.365
+            ],
+            [
+              800.989,
+              -752.755
+            ],
+            [
+              801.047,
+              -754.814
+            ],
+            [
+              800.946,
+              -756.484
+            ],
+            [
+              800.859,
+              -757.833
+            ],
+            [
+              800.769,
+              -768.456
+            ],
+            [
+              800.01,
+              -784.164
+            ],
+            [
+              799.149,
+              -786.514
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "residential",
+          "lanes": "1",
+          "name": "Maricel Street",
+          "sidewalk": "no",
+          "surface": "concrete"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              802.597,
+              -750.311
+            ],
+            [
+              802.598,
+              -750.371
+            ],
+            [
+              802.589,
+              -752.736
+            ],
+            [
+              802.646,
+              -754.769
+            ],
+            [
+              802.644,
+              -754.91
+            ],
+            [
+              802.543,
+              -756.58
+            ],
+            [
+              802.543,
+              -756.587
+            ],
+            [
+              802.459,
+              -757.892
+            ],
+            [
+              802.369,
+              -768.47
+            ],
+            [
+              802.367,
+              -768.533
+            ],
+            [
+              801.608,
+              -784.241
+            ],
+            [
+              801.592,
+              -784.402
+            ],
+            [
+              801.56,
+              -784.56
+            ],
+            [
+              801.512,
+              -784.714
+            ],
+            [
+              800.651,
+              -787.064
+            ],
+            [
+              797.647,
+              -785.964
+            ],
+            [
+              798.423,
+              -783.843
+            ],
+            [
+              799.169,
+              -768.411
+            ],
+            [
+              799.259,
+              -757.82
+            ],
+            [
+              799.263,
+              -757.73
+            ],
+            [
+              799.349,
+              -756.384
+            ],
+            [
+              799.445,
+              -754.788
+            ],
+            [
+              799.389,
+              -752.8
+            ],
+            [
+              799.389,
+              -752.748
+            ],
+            [
+              799.398,
+              -750.388
+            ],
+            [
+              799.3848436781609,
+              -750.0
+            ],
+            [
+              802.5865344924284,
+              -750.0
+            ],
+            [
+              802.597,
+              -750.311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:927556270",
+      "properties": {
+        "id": "osm:way:927556270",
+        "source_ids": [
+          "osm:way:927556270",
+          "source:osm"
+        ],
+        "name": "Tarhata Street",
+        "class": "service",
+        "width_m": 5.0,
+        "width_status": "ESTIMATED",
+        "width_method": "highway_class_default",
+        "surface_status": "ESTIMATED",
+        "surface_method": "buffered_centerline",
+        "centerline_length_m": 31.81,
+        "centerline_local": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              762.128,
+              -800.994
+            ],
+            [
+              744.262,
+              -806.608
+            ],
+            [
+              731.25,
+              -807.969
+            ]
+          ]
+        },
+        "tags": {
+          "highway": "service",
+          "name": "Tarhata Street"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              761.378,
+              -798.609
+            ],
+            [
+              762.877,
+              -803.38
+            ],
+            [
+              750.0,
+              -807.4255950408598
+            ],
+            [
+              750.0,
+              -802.1845555429479
+            ],
+            [
+              761.378,
+              -798.609
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "paths": [],
+  "open_spaces": [],
+  "input_sha256": "f2af131d667d253f6628e90fa7a43f0fe3f471687fb4a267928f961a5029de07"
+}

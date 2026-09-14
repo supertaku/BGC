@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0004",
+  "facades": [
+    {
+      "facade_id": "0004:facade:perimeter",
+      "orientation": "PERIMETER",
+      "major_segments": [
+        "Light-toned residential tower above an active mixed-use podium; repetitive balcony/window rhythm."
+      ],
+      "floor_alignment": "APPROXIMATE_VISIBLE_RHYTHM",
+      "bay_count": "APPROXIMATE",
+      "opening_pattern": "normalized edge-local bands",
+      "material_regions": [
+        "mat:primary",
+        "mat:glass",
+        "mat:storefront",
+        "mat:roof"
+      ],
+      "entrances": [],
+      "setbacks": [
+        "mapped outline and parts only"
+      ],
+      "confidence": 0.65,
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "evidence_ids": [
+        "ref:official:one-maridien",
+        "ref:web:kmc-one-maridien"
+      ],
+      "coverage_rating": "PARTIAL"
+    }
+  ]
+}

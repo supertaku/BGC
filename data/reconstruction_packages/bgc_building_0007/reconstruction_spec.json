@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "entity_id": "bgc_building_0007",
+    "name": "W Global Center",
+    "location": "9th Avenue corner 30th Street, BGC, Taguig, Philippines",
+    "identity_status": "CONFIRMED"
+  },
+  "target_time_state": {
+    "value": "CURRENT_APPROX_2025_2026",
+    "permanent_architecture": "PRIMARY",
+    "tenant_signage_and_seasonal_state": "OMIT_OR_NEUTRALIZE"
+  },
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {
+    "area_m2": 1826.8,
+    "perimeter_m": 171.29,
+    "centroid_local_m": {
+      "x": 97.802,
+      "y": 39.65
+    },
+    "oriented_bounding_box_m": {
+      "major": 45.44,
+      "minor": 40.203
+    },
+    "local_axis_rotation_deg_from_east": 71.536,
+    "major_axis_bearing_deg_clockwise_from_north": 18.464,
+    "axis_aligned_bounds_m": {
+      "min_x": 71.268,
+      "min_y": 11.69,
+      "max_x": 124.051,
+      "max_y": 67.62
+    },
+    "major_edge_lengths_m": [
+      45.441,
+      45.44,
+      40.55,
+      39.857
+    ],
+    "maximum_height_m": 30.5,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "major_building_parts": [
+    "wgc:massing:retail-base",
+    "wgc:massing:open-bands",
+    "wgc:massing:office-volume",
+    "wgc:roof:corner-frame"
+  ],
+  "massing_file": "massing.json",
+  "facades_file": "facades.json",
+  "entrances_file": "entrances.json",
+  "materials_file": "materials.json",
+  "street_relationship": {
+    "30TH_STREET": "northeast short street edge",
+    "9TH_AVENUE": "northwest long street edge",
+    "OPPOSITE_SIDE_A": "weakly evidenced",
+    "OPPOSITE_SIDE_B": "weakly evidenced"
+  },
+  "best_reference_ids": [
+    "ref:web:officepro-w-global",
+    "ref:web:colliers-w-global",
+    "ref:web:kmc-w-global-brochure"
+  ],
+  "required_coverage_aspects": [
+    "overall_massing",
+    "30th_street_side",
+    "9th_avenue_side",
+    "materials"
+  ],
+  "confidence": {
+    "identity": 0.99,
+    "footprint": 0.8,
+    "height": 0.75,
+    "massing": 0.9,
+    "30th_street": 0.88,
+    "9th_avenue": 0.86,
+    "opposite_a": 0.3,
+    "opposite_b": 0.3,
+    "entrance": 0.62,
+    "roof": 0.86,
+    "materials": 0.87
+  },
+  "required_procedural_approximations": [
+    {
+      "feature": "office window rhythm",
+      "classification": "PROCEDURAL",
+      "instruction": "Use normalized repeated bays; avoid false centimetre precision."
+    },
+    {
+      "feature": "open horizontal bands",
+      "classification": "PROCEDURAL",
+      "instruction": "Use the shared open-facade-band primitive with brochure-supported parking interpretation."
+    },
+    {
+      "feature": "opposite facades",
+      "classification": "PROCEDURAL",
+      "instruction": "Use conservative neutral treatment without specific doors or service openings."
+    },
+    {
+      "feature": "roof corner frame",
+      "classification": "CUSTOM",
+      "instruction": "Configure a simple square open frame from observed silhouette; omit machinery."
+    }
+  ],
+  "do_not_invent": [
+    "Do not resolve seven versus eight storeys without new evidence.",
+    "Do not invent service/loading openings on weak sides.",
+    "Do not copy tenant or leasing graphics.",
+    "Do not invent roof machinery.",
+    "Do not claim exact window spacing or entrance dimensions."
+  ],
+  "visual_qa_cameras": [
+    {
+      "camera_id": "qa:wgc:30th",
+      "position": "street-level across 30th Street",
+      "target": "30th Street facade",
+      "fov_deg": 55,
+      "corresponding_reference": "ref:web:officepro-w-global",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:wgc:9th",
+      "position": "street-level across 9th Avenue",
+      "target": "9th Avenue facade",
+      "fov_deg": 55,
+      "corresponding_reference": "ref:web:officepro-w-global",
+      "confidence": 0.7,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:wgc:corner",
+      "position": "opposite 30th Street and 9th Avenue corner",
+      "target": "glazed corner and roof frame",
+      "fov_deg": 55,
+      "corresponding_reference": "ref:web:officepro-w-global",
+      "confidence": 0.8,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:wgc:weak",
+      "position": "opposite-side diagnostic",
+      "target": "weak facades",
+      "fov_deg": 50,
+      "corresponding_reference": null,
+      "confidence": 0.2,
+      "match_status": "NOT_POSSIBLE_REFERENCE_MISSING"
+    },
+    {
+      "camera_id": "qa:wgc:aerial",
+      "position": "oblique aerial",
+      "target": "overall massing and roof",
+      "fov_deg": 55,
+      "corresponding_reference": "ref:web:officepro-w-global",
+      "confidence": 0.55,
+      "match_status": "DIAGNOSTIC"
+    }
+  ],
+  "web_performance_constraints": {
+    "principle": "LOD and measured runtime cost first",
+    "track": [
+      "triangles",
+      "vertices",
+      "materials",
+      "draw_calls",
+      "GLB_transfer_size",
+      "runtime_nodes"
+    ],
+    "instructions": [
+      "reuse shared materials",
+      "merge repeated window groups by facade at runtime",
+      "use no photo textures",
+      "retain semantic authoring components"
+    ]
+  },
+  "model_recommendation": {
+    "next_model": "SOL",
+    "astra_required": false
+  },
+  "readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

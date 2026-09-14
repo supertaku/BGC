@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_building_0027",
+  "accepted_visual_reference_ids": [
+    "ref:official:uniqlo-bgc",
+    "ref:web:primer-uniqlo-bgc"
+  ],
+  "reusable_visual_reference_ids": [],
+  "research_only_visual_reference_ids": [
+    "ref:official:uniqlo-bgc",
+    "ref:web:primer-uniqlo-bgc"
+  ],
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:official:uniqlo-bgc",
+        "ref:web:primer-uniqlo-bgc"
+      ]
+    },
+    "footprint": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "PARTIAL",
+      "reference_ids": []
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:official:uniqlo-bgc",
+        "ref:web:primer-uniqlo-bgc"
+      ]
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:official:uniqlo-bgc",
+        "ref:web:primer-uniqlo-bgc"
+      ]
+    },
+    "entrance": {
+      "rating": "WEAK",
+      "reference_ids": []
+    },
+    "roof": {
+      "rating": "WEAK",
+      "reference_ids": []
+    }
+  },
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "readiness_reason": "Identity, polygonal footprint, height envelope, and major visible character are usable; entrances, exact modules, roof plant, and weak sides remain conservative."
+}

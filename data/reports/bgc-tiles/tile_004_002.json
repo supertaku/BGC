@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_004_002",
+  "input_sha256": "8b5c2f916fa1172ad666682b0dc11d6575f1f884570058adfa81e91cba39af25",
+  "output_sha256": "f7404868b483a87d93fa41c1d2d64e44aecf17a3b50b74518b3f42594813d8a9",
+  "building_count": 3,
+  "render_volume_count": 3,
+  "mesh_count": 4,
+  "triangle_count": 988,
+  "material_count": 4,
+  "bytes": 48404,
+  "entities": [
+    {
+      "entity_id": "osm:way:1179866944",
+      "source_feature_id": "osm:way:1179866944",
+      "name": "New Visitor Center",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "government",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32836453",
+      "source_feature_id": "osm:way:32836453",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32836463",
+      "source_feature_id": "osm:way:32836463",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ]
+}

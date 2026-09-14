@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0007",
+  "entrances": [
+    {
+      "entrance_id": "wgc:entrance:corner-public",
+      "type": "PUBLIC_APPROACH",
+      "hierarchy": "PRIMARY_CANDIDATE",
+      "side": "30TH_STREET",
+      "position": "NEAR_30TH_9TH_CORNER",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "evidence_ids": [
+        "ref:web:officepro-w-global"
+      ],
+      "geometry_guidance": "Use an understated glazed opening; do not claim exact portal width or door count."
+    }
+  ]
+}

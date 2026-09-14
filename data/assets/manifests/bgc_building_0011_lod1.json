@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_building_0011",
+  "name": "C1",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_building_0011_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -349.336,
+      -0.181,
+      0.0
+    ],
+    "max": [
+      -259.435,
+      68.785,
+      10.1
+    ]
+  },
+  "geographic_anchor": {
+    "longitude": 121.0481005,
+    "latitude": 14.5510847,
+    "local_x_m": -309.232,
+    "local_y_m": 33.485
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_building_0011.json",
+  "generated_at": "2026-09-14T15:11:06.877370+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

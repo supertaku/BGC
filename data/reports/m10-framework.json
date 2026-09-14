@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "milestone": "M10",
+  "wave_a_gate": "PASS",
+  "existing_shared_primitives_used": 6,
+  "new_shared_primitives": [
+    "PolygonEdgeFrame"
+  ],
+  "target_specific_configurations": 5,
+  "target_specific_code": 0,
+  "authoring_components": 232,
+  "runtime_meshes": 12,
+  "central_square_regression": "PASS",
+  "w_global_regression": "PASS",
+  "generic_fixture": "PASS",
+  "metadata_transport": "PASS",
+  "schema_version_before": "1.0",
+  "schema_version_after": "1.0",
+  "schema_status": "UNCHANGED",
+  "compatibility_bug_found_and_fixed": "Legacy fixture GeoJSON features can identify themselves through properties.id when top-level id is absent.",
+  "configuration_assessment": "CONFIGURATION_DRIVEN",
+  "framework_status": "STABLE"
+}

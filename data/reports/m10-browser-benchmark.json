@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "captured_at": "2026-09-14T15:53:11.212523+00:00",
+  "methodology": {
+    "build": "Next.js production",
+    "viewport_css_px": [
+      759,
+      742
+    ],
+    "canvas_device_pixel_ratio": 1,
+    "browser_reported_device_pixel_ratio": 1.25,
+    "warmup_ms": 5000,
+    "measurement_ms": 15000,
+    "sampling": "requestAnimationFrame intervals",
+    "renderer_metrics": "Three.js WebGLRenderer.info",
+    "machine": "same local host as M8/M9",
+    "browser": "Chrome 152 / Codex in-app browser",
+    "gpu": "Intel Iris Xe via ANGLE D3D11"
+  },
+  "asset": {
+    "bytes": 1208880,
+    "triangles": 23796,
+    "meshes": 76,
+    "materials": 27
+  },
+  "scenes": {
+    "PILOT_OVERVIEW": {
+      "view_id": "overview",
+      "mean_fps": 165.84,
+      "median_fps": 163.93,
+      "p1_low_fps": 153.85,
+      "draw_calls": 76,
+      "visible_triangles": 23796,
+      "geometries": 76,
+      "textures": 0
+    },
+    "CENTRAL_SQUARE_NEAR": {
+      "view_id": "central-square",
+      "mean_fps": 165.55,
+      "median_fps": 163.93,
+      "p1_low_fps": 142.86,
+      "draw_calls": 43,
+      "visible_triangles": 21576,
+      "geometries": 43,
+      "textures": 0
+    },
+    "W_GLOBAL_NEAR": {
+      "view_id": "w-global-near",
+      "mean_fps": 165.65,
+      "median_fps": 163.93,
+      "p1_low_fps": 147.06,
+      "draw_calls": 25,
+      "visible_triangles": 20364,
+      "geometries": 25,
+      "textures": 0
+    },
+    "ONE_MARIDIEN_NEAR": {
+      "view_id": "building-0004",
+      "mean_fps": 165.6,
+      "median_fps": 163.93,
+      "p1_low_fps": 140.85,
+      "draw_calls": 51,
+      "visible_triangles": 22116,
+      "geometries": 51,
+      "textures": 0
+    },
+    "JY_CAMPOS_NEAR": {
+      "view_id": "building-0015",
+      "mean_fps": 165.95,
+      "median_fps": 163.93,
+      "p1_low_fps": 140.85,
+      "draw_calls": 39,
+      "visible_triangles": 20744,
+      "geometries": 39,
+      "textures": 0
+    },
+    "VERVE_TWO_NEAR": {
+      "view_id": "building-0005",
+      "mean_fps": 165.58,
+      "median_fps": 163.93,
+      "p1_low_fps": 142.86,
+      "draw_calls": 42,
+      "visible_triangles": 21564,
+      "geometries": 42,
+      "textures": 0
+    },
+    "UNIQLO_NEAR": {
+      "view_id": "building-0027",
+      "mean_fps": 165.48,
+      "median_fps": 163.93,
+      "p1_low_fps": 151.52,
+      "draw_calls": 26,
+      "visible_triangles": 19580,
+      "geometries": 26,
+      "textures": 0
+    },
+    "C1_IRREGULAR_NEAR": {
+      "view_id": "building-0011",
+      "mean_fps": 165.36,
+      "median_fps": 163.93,
+      "p1_low_fps": 149.25,
+      "draw_calls": 19,
+      "visible_triangles": 19492,
+      "geometries": 19,
+      "textures": 0
+    }
+  },
+  "console_warning_error_count": 0
+}

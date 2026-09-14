@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "coordinate_system": "synthetic local metres; x=east, y=north, z=up",
+  "classification": "procedurally generated filler",
+  "buildings": [
+    {"id": "test_001", "height": 18, "footprint": [[-30, -28], [-12, -28], [-12, -12], [-30, -12]], "material": "warm"},
+    {"id": "test_002", "height": 31, "footprint": [[8, -30], [30, -30], [30, -15], [8, -15]], "material": "blue"},
+    {"id": "test_003", "height": 24, "footprint": [[12, 12], [31, 12], [31, 31], [12, 31]], "material": "neutral"}
+  ]
+}

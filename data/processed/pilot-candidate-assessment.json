@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-09-10T13:10:25.015030+00:00",
+  "sources": [
+    "source:osm",
+    "source:wikimedia-commons"
+  ],
+  "candidates": [
+    {
+      "id": "high-street-central",
+      "name": "High Street central core",
+      "bbox": [
+        14.54865,
+        121.0475,
+        14.5524,
+        121.05205
+      ],
+      "expected_character": "One BHS/BHS Central edge, central promenade, parks, retail blocks, towers, and ordinary intersections",
+      "approximate_width_m": 494.0,
+      "approximate_depth_m": 419.2,
+      "osm": {
+        "unique_elements": 795,
+        "buildings": 32,
+        "named_buildings": 27,
+        "buildings_with_height": 10,
+        "buildings_with_levels": 14,
+        "highways": 400,
+        "pedestrian_ways": 244,
+        "open_space_features": 15,
+        "vegetation_features": 132,
+        "street_furniture_features": 26,
+        "shops": 70,
+        "amenities": 147
+      },
+      "wikimedia_commons": {
+        "geotagged_files": 500,
+        "search_radius_m": 284,
+        "sample_titles": [
+          "File:Mercedes-Benz X166 FL GLS 350d 4MATIC Polar White 02.jpg",
+          "File:Mercedes-Benz X166 FL GLS 350d 4MATIC Polar White 01.jpg",
+          "File:Nissan Patrol Y63 3.5 V6T LE Everest White 04.jpg",
+          "File:MG and Sniper Rifles @ SAF 36th Anniversary Exhibit.jpg",
+          "File:IWI Negev Machine Gun @ SAF 36th Anniversary Exhibit.jpg",
+          "File:Audi A8 L D5 FL quattro S Line Glacier White Metallic.jpg",
+          "File:Mazda CX-90 KK 3.3 eSkyactiv-G AWD HEV Turbo Exclusive Deep Crystal Blue.jpg",
+          "File:Honda HR-V RV5 FL 1.5 RS e-HEV Crystal Black Pearl 01.jpg"
+        ],
+        "caveat": "Geosearch measures nearby geotagged Commons files, not facade coverage or license suitability. Each file still requires metadata review."
+      },
+      "mapillary": {
+        "coverage": "not measured",
+        "reason": "Mapillary Graph API access requires a project token; assess interactively or with a configured token before reference acquisition."
+      }
+    },
+    {
+      "id": "high-street-east",
+      "name": "High Street east / Serendra edge",
+      "bbox": [
+        14.5478,
+        121.052,
+        14.5516,
+        121.0562
+      ],
+      "expected_character": "retail promenade, Serendra frontage, Market! Market! edge, and high pedestrian complexity",
+      "approximate_width_m": 456.3,
+      "approximate_depth_m": 424.4,
+      "osm": {
+        "unique_elements": 526,
+        "buildings": 34,
+        "named_buildings": 16,
+        "buildings_with_height": 17,
+        "buildings_with_levels": 20,
+        "highways": 242,
+        "pedestrian_ways": 86,
+        "open_space_features": 8,
+        "vegetation_features": 46,
+        "street_furniture_features": 9,
+        "shops": 51,
+        "amenities": 144
+      },
+      "wikimedia_commons": {
+        "geotagged_files": 75,
+        "search_radius_m": 262,
+        "sample_titles": [
+          "File:Mitsubishi Endeavor D81W Limited Kalapana Black 01.jpg",
+          "File:Mitsubishi Endeavor D81W Limited Kalapana Black 02.jpg",
+          "File:Bonifacio High Street, BGC, Taguig, Aug 2026 (1).jpg",
+          "File:Toyota Crown TZSH35 2.4 XLE Precious White Pearl.jpg",
+          "File:Market Market Circle, BGC, Taguig, Aug 2026.jpg",
+          "File:Toyota Avanza F654LM FL2 1.5 G Gray Metallic.jpg",
+          "File:Toyota RAV4 AXAH52 FL 2.5 XLE Hybrid Platinum White Pearl Mica.jpg",
+          "File:Toyota Fortuner GUN166 Legender 2.8 Q 4x2 Platinum White Pearl Mica 03.jpg"
+        ],
+        "caveat": "Geosearch measures nearby geotagged Commons files, not facade coverage or license suitability. Each file still requires metadata review."
+      },
+      "mapillary": {
+        "coverage": "not measured",
+        "reason": "Mapillary Graph API access requires a project token; assess interactively or with a configured token before reference acquisition."
+      }
+    },
+    {
+      "id": "high-street-west",
+      "name": "High Street west / cultural edge",
+      "bbox": [
+        14.5494,
+        121.0449,
+        14.5534,
+        121.0492
+      ],
+      "expected_character": "Mind Museum/One BHS vicinity, offices, parks, and larger individual landmarks",
+      "approximate_width_m": 467.3,
+      "approximate_depth_m": 446.6,
+      "osm": {
+        "unique_elements": 731,
+        "buildings": 35,
+        "named_buildings": 27,
+        "buildings_with_height": 25,
+        "buildings_with_levels": 29,
+        "highways": 393,
+        "pedestrian_ways": 175,
+        "open_space_features": 33,
+        "vegetation_features": 80,
+        "street_furniture_features": 10,
+        "shops": 49,
+        "amenities": 137
+      },
+      "wikimedia_commons": {
+        "geotagged_files": 500,
+        "search_radius_m": 268,
+        "sample_titles": [
+          "File:View of Bonifacio Global City from PSE Tower (1).jpg",
+          "File:View of Bonifacio Global City (East side) from PSE Tower.jpg",
+          "File:View of Bonifacio Global City from PSE Tower (2).jpg",
+          "File:5th Avenue, Bonifacio Global City, Taguig, Aug 2025 (1).jpg",
+          "File:Bonifacio High Street from PSE Tower, BGC, Taguig, Aug 2025.jpg",
+          "File:Egg Tart, Aug 2025.jpg",
+          "File:Mercedes-Benz C124 300 CE-24 Pearl Grey Metallic 01.jpg",
+          "File:Mercedes-Benz C124 300 CE-24 Pearl Grey Metallic 02.jpg"
+        ],
+        "caveat": "Geosearch measures nearby geotagged Commons files, not facade coverage or license suitability. Each file still requires metadata review."
+      },
+      "mapillary": {
+        "coverage": "not measured",
+        "reason": "Mapillary Graph API access requires a project token; assess interactively or with a configured token before reference acquisition."
+      }
+    }
+  ]
+}

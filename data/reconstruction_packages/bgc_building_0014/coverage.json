@@ -1,0 +1,103 @@
+{
+  "entity_id": "bgc_building_0014",
+  "canonical_name": "Central Square",
+  "identity": "CONFIRMED",
+  "height_evidence": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED",
+  "target_time_state": "CURRENT_APPROX_2025_2026",
+  "unique_exterior_viewpoints": 5,
+  "directionally_resolved_viewpoints": 5,
+  "reusable_visual_reference_ids": [
+    "ref:commons:133250280",
+    "ref:commons:40678045",
+    "ref:commons:146482138",
+    "ref:commons:158404929",
+    "ref:commons:158404930",
+    "ref:commons:173664145",
+    "ref:commons:173664147"
+  ],
+  "research_only_visual_reference_ids": [
+    "ref:official:central-square",
+    "ref:web:inside-metro-central-square-2024",
+    "ref:youtube:tour-from-home-central-square-2021",
+    "ref:youtube:hg-central-square-2023",
+    "ref:web:urban-roamer-bhs-central-2022",
+    "ref:web:eatsplorations-shake-shack-2019"
+  ],
+  "aspects": {
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:173664147"
+      ]
+    },
+    "north_30th_side": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:web:inside-metro-central-square-2024"
+      ]
+    },
+    "west_5th_side": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:commons:173664145",
+        "ref:commons:146482138",
+        "ref:youtube:tour-from-home-central-square-2021"
+      ]
+    },
+    "south_high_street_side": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:commons:158404929",
+        "ref:commons:158404930"
+      ]
+    },
+    "east_other_side": {
+      "rating": "WEAK",
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929"
+      ]
+    },
+    "entrance": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:youtube:tour-from-home-central-square-2021",
+        "ref:youtube:hg-central-square-2023"
+      ]
+    },
+    "roof": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:commons:173664145",
+        "ref:commons:173664147"
+      ]
+    },
+    "materials": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929",
+        "ref:commons:173664145"
+      ]
+    },
+    "street_context": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:commons:133250280",
+        "ref:commons:158404929",
+        "ref:commons:158404930",
+        "ref:commons:173664147"
+      ]
+    }
+  },
+  "important_missing_evidence": [
+    "facade-normal entry portal photographs",
+    "east/service-side continuity",
+    "fine roof equipment/screens",
+    "basement ramp/service access"
+  ],
+  "recommended_fidelity_tier": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

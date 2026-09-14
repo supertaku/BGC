@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "name": "bgc-working-boundary",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "scope:bgc-working-v1",
+      "properties": {
+        "name": "BGC project working boundary",
+        "status": "estimated information",
+        "boundary_role": "project_working_boundary",
+        "version": 1,
+        "crs": "EPSG:4326",
+        "approximate_area_ha": 472.39,
+        "basis": "Approximation of the commonly understood BGC extent, constrained by the principal surrounding road network and checked against published BCDA/FBDC district maps. It is not an official cadastral or legal boundary.",
+        "review_trigger": "Replace or revise only when an authoritative reusable boundary dataset is obtained.",
+        "sources": [
+          "source:bcda-bgc-2014",
+          "source:bcda-master-plan-1996",
+          "source:osm"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [121.0408, 14.5608],
+          [121.0478, 14.5630],
+          [121.0588, 14.5570],
+          [121.0602, 14.5480],
+          [121.0564, 14.5388],
+          [121.0470, 14.5370],
+          [121.0420, 14.5430],
+          [121.0400, 14.5515],
+          [121.0408, 14.5608]
+        ]]
+      }
+    }
+  ]
+}

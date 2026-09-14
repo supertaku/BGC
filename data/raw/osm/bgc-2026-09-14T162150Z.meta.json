@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "source_id": "source:osm",
+  "source_title": "OpenStreetMap official map API",
+  "source_url": "https://api.openstreetmap.org/api/0.6/map",
+  "license": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "retrieved_at": "2026-09-14T16:21:50.891252+00:00",
+  "boundary_path": "data/geographic/bgc-working-boundary.geojson",
+  "boundary_sha256": "82d4e301fbbec3326d92ce11d548190c4dc0a23e7cafe2faf70b5068488364f0",
+  "bbox_south_west_north_east": [
+    14.537,
+    121.04,
+    14.563,
+    121.0602
+  ],
+  "query": "https://api.openstreetmap.org/api/0.6/map?bbox=121.0400000,14.5370000,121.0450500,14.5435000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0450500,14.5370000,121.0501000,14.5435000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0501000,14.5370000,121.0551500,14.5435000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0551500,14.5370000,121.0602000,14.5435000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0400000,14.5435000,121.0450500,14.5500000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0450500,14.5435000,121.0501000,14.5500000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0501000,14.5435000,121.0551500,14.5500000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0551500,14.5435000,121.0602000,14.5500000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0400000,14.5500000,121.0450500,14.5565000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0450500,14.5500000,121.0501000,14.5565000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0501000,14.5500000,121.0551500,14.5565000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0551500,14.5500000,121.0602000,14.5565000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0400000,14.5565000,121.0450500,14.5630000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0450500,14.5565000,121.0501000,14.5630000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0501000,14.5565000,121.0551500,14.5630000\nhttps://api.openstreetmap.org/api/0.6/map?bbox=121.0551500,14.5565000,121.0602000,14.5630000",
+  "query_sha256": "149903439170856adca4521e7f637002e6a84cf14cb99c49bfebf11e67f643de",
+  "query_profile": "whole-city-map-api-grid",
+  "query_grid": 4,
+  "sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "element_count": 21290,
+  "raw_path": "data/raw/osm/bgc-2026-09-14T162150Z.json"
+}

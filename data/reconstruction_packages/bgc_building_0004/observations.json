@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:0004:identity",
+      "entity_id": "bgc_building_0004",
+      "property": "identity",
+      "value": "One Maridien at 27th Street corner 9th Avenue, BGC, Taguig, Philippines",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.96,
+      "source_ids": [
+        "source:kmc-one-maridien",
+        "source:official-alveo-maridien",
+        "source:osm"
+      ],
+      "reference_ids": [
+        "ref:official:one-maridien"
+      ],
+      "method": "canonical_geographic_and_named_source_reconciliation"
+    },
+    {
+      "observation_id": "obs:0004:footprint",
+      "entity_id": "bgc_building_0004",
+      "property": "footprint",
+      "value": {
+        "area_m2": 2553.83,
+        "perimeter_m": 218.61,
+        "axis_aligned_bounds_m": {
+          "min_x": -120.651,
+          "min_y": -252.569,
+          "max_x": -38.169,
+          "max_y": -196.157
+        },
+        "vertex_count": 4
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "deterministic_local_metre_polygon_measurement",
+      "notes": "Community mapped, not cadastral."
+    },
+    {
+      "observation_id": "obs:0004:height",
+      "entity_id": "bgc_building_0004",
+      "property": "height_m",
+      "value": 152.9,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "maximum_explicit_osm_building_part_height",
+      "notes": "Retained without upgrading to surveyed precision."
+    },
+    {
+      "observation_id": "obs:0004:massing",
+      "entity_id": "bgc_building_0004",
+      "property": "overall_massing",
+      "value": "Light-toned residential tower above an active mixed-use podium; repetitive balcony/window rhythm.",
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.72,
+      "source_ids": [
+        "source:official-alveo-maridien",
+        "source:kmc-one-maridien"
+      ],
+      "reference_ids": [
+        "ref:official:one-maridien",
+        "ref:web:kmc-one-maridien"
+      ],
+      "method": "bounded exterior evidence review"
+    },
+    {
+      "observation_id": "obs:0004:materials",
+      "entity_id": "bgc_building_0004",
+      "property": "material_families",
+      "value": [
+        "warm_neutral_cladding",
+        "architectural_dark_glass",
+        "generic_storefront_glass",
+        "neutral_roof"
+      ],
+      "status": "VERIFIED_PHOTOGRAPHIC",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:official-alveo-maridien",
+        "source:kmc-one-maridien"
+      ],
+      "reference_ids": [
+        "ref:official:one-maridien",
+        "ref:web:kmc-one-maridien"
+      ],
+      "method": "visual family classification; exact colour unknown"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source_snapshot": "data/raw/osm/bgc-2026-09-14T162150Z.json",
+  "source_metadata": "data/raw/osm/bgc-2026-09-14T162150Z.meta.json",
+  "source_sha256": "c7c77bdee83947293624a3a6036089e809c2fb2c1cec4d5283fb1c89535a8ac3",
+  "counts": {
+    "building_outlines": 6967,
+    "building_parts": 154,
+    "buildings_named": 305,
+    "heights_verified_geographic": 295,
+    "heights_estimated": 77,
+    "heights_procedural": 6749,
+    "roads": 1824,
+    "paths": 1226,
+    "open_spaces": 206,
+    "pois": 2652
+  },
+  "issues": [],
+  "height_coverage_percent": {
+    "VERIFIED_GEOGRAPHIC": 4.14,
+    "ESTIMATED": 1.08,
+    "PROCEDURAL": 94.78
+  },
+  "boundary": {
+    "path": "data/geographic/bgc-working-boundary.geojson",
+    "area_m2": 4723913.01,
+    "bounds_wgs84": [
+      121.04,
+      14.537,
+      121.0602,
+      14.563
+    ]
+  }
+}

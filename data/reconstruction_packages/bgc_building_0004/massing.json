@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_building_0004",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 2553.83,
+    "perimeter_m": 218.61,
+    "axis_aligned_bounds_m": {
+      "min_x": -120.651,
+      "min_y": -252.569,
+      "max_x": -38.169,
+      "max_y": -196.157
+    },
+    "maximum_height_m": 152.9,
+    "height_status": "VERIFIED_GEOGRAPHIC_NOT_SURVEYED"
+  },
+  "components": [
+    {
+      "name": "M10_0004_Podium",
+      "component_id": "0004:massing:podium",
+      "source_feature_id": "osm:way:1070584577",
+      "base_z_m": 0,
+      "height_m": 17.3,
+      "material_family": "warm_neutral_cladding",
+      "classification": "verified geographic outline with evidence-driven estimated podium height",
+      "evidence_status": "ESTIMATED",
+      "observation_ids": [
+        "obs:0004:footprint",
+        "obs:0004:massing"
+      ],
+      "evidence_ids": [
+        "ref:official:one-maridien",
+        "ref:web:kmc-one-maridien"
+      ]
+    },
+    {
+      "name": "M10_0004_Tower",
+      "component_id": "0004:massing:tower",
+      "source_feature_id": "osm:way:531995976",
+      "base_z_m": 17.3,
+      "height_m": 135.6,
+      "material_family": "warm_neutral_cladding",
+      "classification": "verified geographic building part and height envelope",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:0004:footprint",
+        "obs:0004:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Light-toned residential tower above an active mixed-use podium; repetitive balcony/window rhythm."
+}

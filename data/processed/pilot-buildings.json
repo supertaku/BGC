@@ -1,0 +1,1080 @@
+{
+  "schema_version": 1,
+  "dataset_id": "pilot-buildings-v1",
+  "source_id": "source:osm",
+  "source_sha256": "97f5c3ded03f0efa37a7ef12ede12a6645c3fcde8d0b0777f15c45cca06dee7c",
+  "source_retrieved_at": "2026-09-10T13:04:27.567258+00:00",
+  "source_crs": "EPSG:4326",
+  "projected_crs": "EPSG:32651",
+  "local_frame": {
+    "origin_wgs84": {
+      "longitude": 121.050972,
+      "latitude": 14.550806
+    },
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "selection": {
+    "method": "nearest footprint centroids to the fixed local origin, then stable OSM ID",
+    "available_building_ways": 29,
+    "selected_building_ways": 16,
+    "limit": 16
+  },
+  "buildings": [
+    {
+      "id": "osm:way:27442546",
+      "name": "B:3",
+      "footprint": [
+        [
+          43.133,
+          18.267
+        ],
+        [
+          32.968,
+          -11.968
+        ],
+        [
+          20.035,
+          -7.962
+        ],
+        [
+          -8.522,
+          2.983
+        ],
+        [
+          -44.923,
+          16.928
+        ],
+        [
+          -36.734,
+          41.747
+        ],
+        [
+          -23.728,
+          37.43
+        ],
+        [
+          -25.662,
+          30.619
+        ],
+        [
+          -19.64,
+          28.908
+        ],
+        [
+          -22.123,
+          20.883
+        ],
+        [
+          -4.37,
+          14.623
+        ],
+        [
+          -2.081,
+          13.818
+        ],
+        [
+          0.444,
+          21.642
+        ],
+        [
+          2.445,
+          21.171
+        ],
+        [
+          5.307,
+          30.719
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "description": "Del Monte Phils. Inc. Office",
+        "layer": "1",
+        "name": "B:3"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 2048.35
+    },
+    {
+      "id": "osm:way:27664814",
+      "name": "B:2",
+      "footprint": [
+        [
+          -62.904,
+          -26.088
+        ],
+        [
+          -71.865,
+          -52.947
+        ],
+        [
+          -57.343,
+          -57.73
+        ],
+        [
+          -55.141,
+          -51.142
+        ],
+        [
+          -50.584,
+          -52.653
+        ],
+        [
+          -47.807,
+          -44.322
+        ],
+        [
+          -23.181,
+          -52.423
+        ],
+        [
+          -25.538,
+          -59.474
+        ],
+        [
+          -18.336,
+          -61.849
+        ],
+        [
+          -22.308,
+          -73.766
+        ],
+        [
+          5.145,
+          -82.81
+        ],
+        [
+          17.23,
+          -49.825
+        ],
+        [
+          3.937,
+          -45.118
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:2"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 2107.32
+    },
+    {
+      "id": "osm:way:242294490",
+      "name": "JY Campos Center",
+      "footprint": [
+        [
+          23.957,
+          88.958
+        ],
+        [
+          63.049,
+          75.864
+        ],
+        [
+          48.408,
+          32.697
+        ],
+        [
+          9.317,
+          45.791
+        ]
+      ],
+      "height": 45.9,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:district": "Bonifacio Global City",
+        "addr:street": "30th Street",
+        "addr:street:corner": "9th Avenue",
+        "alt_name": "J.Y. Campos Center",
+        "building": "office",
+        "building:levels": "12",
+        "height": "45.9",
+        "name": "JY Campos Center"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "method": "OSM height tag",
+          "source_ids": [
+            "source:osm"
+          ]
+        }
+      },
+      "footprint_area_m2": 1879.16
+    },
+    {
+      "id": "osm:way:781744843",
+      "name": "Mariano K. Tan Center",
+      "footprint": [
+        [
+          -19.495,
+          101.325
+        ],
+        [
+          -32.488,
+          63.036
+        ],
+        [
+          -4.414,
+          53.622
+        ],
+        [
+          3.669,
+          50.908
+        ],
+        [
+          16.662,
+          89.197
+        ],
+        [
+          8.59,
+          91.911
+        ]
+      ],
+      "height": 25.6,
+      "source_tags": {
+        "building": "construction",
+        "building:levels": "7",
+        "construction": "office",
+        "height": "25.6",
+        "name": "Mariano K. Tan Center"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "method": "OSM height tag",
+          "source_ids": [
+            "source:osm"
+          ]
+        }
+      },
+      "footprint_area_m2": 1542.08
+    },
+    {
+      "id": "osm:way:1071370327",
+      "name": null,
+      "footprint": [
+        [
+          -4.414,
+          53.622
+        ],
+        [
+          -32.488,
+          63.036
+        ],
+        [
+          -23.642,
+          89.099
+        ],
+        [
+          -19.495,
+          101.325
+        ],
+        [
+          8.59,
+          91.911
+        ],
+        [
+          4.432,
+          79.674
+        ]
+      ],
+      "height": 37.0,
+      "source_tags": {
+        "building": "office",
+        "building:levels": "10",
+        "height": "37"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "method": "OSM height tag",
+          "source_ids": [
+            "source:osm"
+          ]
+        }
+      },
+      "footprint_area_m2": 1197.46
+    },
+    {
+      "id": "osm:way:603380324",
+      "name": "Bench",
+      "footprint": [
+        [
+          42.662,
+          -64.495
+        ],
+        [
+          34.309,
+          -88.438
+        ],
+        [
+          44.037,
+          -91.564
+        ],
+        [
+          52.517,
+          -67.965
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:district": "Bonifacio Global City",
+        "addr:housename": "B:5, Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "air_conditioning": "yes",
+        "branch": "Concept",
+        "brand": "Bench",
+        "brand:wikidata": "Q4886917",
+        "building": "yes",
+        "check_date": "2026-01-17",
+        "name": "Bench",
+        "shop": "clothes"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 260.52
+    },
+    {
+      "id": "osm:way:27442528",
+      "name": "B:3",
+      "footprint": [
+        [
+          -122.388,
+          75.358
+        ],
+        [
+          -133.414,
+          42.729
+        ],
+        [
+          -52.814,
+          19.386
+        ],
+        [
+          -44.427,
+          44.601
+        ],
+        [
+          -58.616,
+          49.315
+        ],
+        [
+          -60.755,
+          42.439
+        ],
+        [
+          -68.023,
+          44.582
+        ],
+        [
+          -70.601,
+          36.846
+        ],
+        [
+          -91.123,
+          43.274
+        ],
+        [
+          -88.464,
+          51.762
+        ],
+        [
+          -94.135,
+          54.079
+        ],
+        [
+          -93.115,
+          57.445
+        ],
+        [
+          -98.229,
+          59.337
+        ],
+        [
+          -95.861,
+          66.499
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:3",
+        "note": "Houses an office of Del Monte Phils. Inc."
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 2035.22
+    },
+    {
+      "id": "osm:way:37554026",
+      "name": "Active Fun Building",
+      "footprint": [
+        [
+          -48.506,
+          -123.507
+        ],
+        [
+          -32.92,
+          -78.224
+        ],
+        [
+          -18.937,
+          -82.98
+        ],
+        [
+          7.17,
+          -91.858
+        ],
+        [
+          -8.458,
+          -136.986
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:street": "28th Street",
+        "addr:street:corner": "9th Avenue",
+        "building": "yes",
+        "name": "Active Fun Building"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 2022.89
+    },
+    {
+      "id": "osm:way:27442590",
+      "name": "B:8",
+      "footprint": [
+        [
+          69.838,
+          12.572
+        ],
+        [
+          58.299,
+          -19.588
+        ],
+        [
+          71.208,
+          -23.782
+        ],
+        [
+          132.915,
+          -41.971
+        ],
+        [
+          142.08,
+          -13.852
+        ],
+        [
+          129.61,
+          -9.839
+        ],
+        [
+          126.876,
+          -18.237
+        ],
+        [
+          119.018,
+          -15.702
+        ],
+        [
+          116.948,
+          -22.048
+        ],
+        [
+          98.459,
+          -16.091
+        ],
+        [
+          103.518,
+          -0.553
+        ],
+        [
+          95.348,
+          2.073
+        ],
+        [
+          96.079,
+          4.314
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:8"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 2080.41
+    },
+    {
+      "id": "osm:way:145147831",
+      "name": "W Global Center",
+      "footprint": [
+        [
+          124.051,
+          54.792
+        ],
+        [
+          86.315,
+          67.62
+        ],
+        [
+          71.268,
+          24.744
+        ],
+        [
+          109.659,
+          11.69
+        ]
+      ],
+      "height": 30.5,
+      "source_tags": {
+        "addr2:street": "9th Avenue",
+        "addr:city": "Taguig",
+        "addr:street": "Lane P",
+        "addr:street:corner": "9th Avenue",
+        "building": "commercial",
+        "building:levels": "8",
+        "height": "30.5",
+        "name": "W Global Center",
+        "wikidata": "Q18395924"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "method": "OSM height tag",
+          "source_ids": [
+            "source:osm"
+          ]
+        }
+      },
+      "footprint_area_m2": 1826.81
+    },
+    {
+      "id": "osm:way:69740688",
+      "name": "Alveo High Street South Block",
+      "footprint": [
+        [
+          -32.92,
+          -78.224
+        ],
+        [
+          -72.838,
+          -64.658
+        ],
+        [
+          -88.468,
+          -110.063
+        ],
+        [
+          -48.506,
+          -123.507
+        ]
+      ],
+      "height": 38.2,
+      "source_tags": {
+        "building": "office",
+        "building:levels": "10",
+        "height": "38.2",
+        "name": "Alveo High Street South Block"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.75,
+          "method": "OSM height tag",
+          "source_ids": [
+            "source:osm"
+          ]
+        }
+      },
+      "footprint_area_m2": 2021.83
+    },
+    {
+      "id": "osm:way:27664877",
+      "name": "B:1",
+      "footprint": [
+        [
+          -77.156,
+          -50.29
+        ],
+        [
+          -68.016,
+          -23.897
+        ],
+        [
+          -133.804,
+          2.185
+        ],
+        [
+          -145.552,
+          6.114
+        ],
+        [
+          -156.206,
+          -25.799
+        ],
+        [
+          -128.842,
+          -35.174
+        ],
+        [
+          -125.697,
+          -25.429
+        ],
+        [
+          -116.067,
+          -28.699
+        ],
+        [
+          -112.757,
+          -19.719
+        ],
+        [
+          -90.47,
+          -27.767
+        ],
+        [
+          -93.556,
+          -35.797
+        ],
+        [
+          -87.906,
+          -38.058
+        ],
+        [
+          -90.183,
+          -45.874
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:1"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 2009.5
+    },
+    {
+      "id": "osm:way:27442969",
+      "name": "B:5",
+      "footprint": [
+        [
+          106.286,
+          -111.839
+        ],
+        [
+          115.561,
+          -86.033
+        ],
+        [
+          55.182,
+          -62.654
+        ],
+        [
+          43.261,
+          -58.79
+        ],
+        [
+          32.923,
+          -90.429
+        ],
+        [
+          54.405,
+          -98.005
+        ],
+        [
+          58.115,
+          -87.7
+        ],
+        [
+          67.518,
+          -91.045
+        ],
+        [
+          70.213,
+          -83.554
+        ],
+        [
+          78.896,
+          -86.639
+        ],
+        [
+          93.296,
+          -91.742
+        ],
+        [
+          90.889,
+          -98.427
+        ],
+        [
+          96.789,
+          -100.514
+        ],
+        [
+          94.25,
+          -107.575
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:housename": "Bonifacio High Street",
+        "addr:street": "9th Avenue",
+        "building": "retail",
+        "layer": "1",
+        "name": "B:5"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 1815.25
+    },
+    {
+      "id": "osm:way:27442939",
+      "name": "Honda Cars Global City",
+      "footprint": [
+        [
+          28.957,
+          -97.843
+        ],
+        [
+          14.729,
+          -141.887
+        ],
+        [
+          28.923,
+          -148.549
+        ],
+        [
+          62.016,
+          -159.71
+        ],
+        [
+          76.908,
+          -116.114
+        ],
+        [
+          64.881,
+          -112.082
+        ],
+        [
+          51.328,
+          -107.473
+        ],
+        [
+          52.024,
+          -105.432
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:district": "Bonifacio Global City",
+        "addr:housename": "932",
+        "addr:province": "Metro Manila",
+        "addr:street": "28th Street",
+        "brand": "Honda;KIA;Isuzu",
+        "building": "yes",
+        "check_date": "2023-08-23",
+        "name": "Honda Cars Global City",
+        "shop": "car"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 2379.73
+    },
+    {
+      "id": "osm:way:37554033",
+      "name": "Two Parkade",
+      "footprint": [
+        [
+          -38.827,
+          64.241
+        ],
+        [
+          -117.519,
+          91.374
+        ],
+        [
+          -111.795,
+          109.142
+        ],
+        [
+          -109.286,
+          116.347
+        ],
+        [
+          -103.717,
+          132.235
+        ],
+        [
+          -24.887,
+          104.813
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:postcode": "1634",
+        "addr:street": "Lane P",
+        "amenity": "parking",
+        "building": "yes",
+        "fee": "yes",
+        "name": "Two Parkade",
+        "parking": "multi-storey"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 3591.04
+    },
+    {
+      "id": "osm:way:37554027",
+      "name": "One Parkade",
+      "footprint": [
+        [
+          -81.381,
+          -64.154
+        ],
+        [
+          -96.418,
+          -108.213
+        ],
+        [
+          -175.729,
+          -81.495
+        ],
+        [
+          -160.703,
+          -37.436
+        ]
+      ],
+      "height": 12.0,
+      "source_tags": {
+        "addr:city": "Taguig",
+        "addr:postcode": "1634",
+        "addr:street": "Lane O",
+        "amenity": "parking",
+        "building": "yes",
+        "fee": "yes",
+        "name": "One Parkade",
+        "parking": "multi-storey"
+      },
+      "observations": {
+        "footprint": {
+          "evidence_class": "VERIFIED_GEOGRAPHIC",
+          "confidence": 0.8,
+          "source_ids": [
+            "source:osm"
+          ]
+        },
+        "height": {
+          "evidence_class": "PROCEDURAL",
+          "confidence": 0.15,
+          "method": "MVP diagnostic default; not a real-world height claim",
+          "source_ids": []
+        }
+      },
+      "footprint_area_m2": 3896.26
+    }
+  ]
+}

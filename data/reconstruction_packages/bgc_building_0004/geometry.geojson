@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_building_0004",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "source_sha256": "09dc9d5aea72e11ad8d84d1c8d2e88132c0a5556e7a2f601824a0a7a74d4adcd",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1070584577",
+      "properties": {
+        "id": "osm:way:1070584577",
+        "source_ids": [
+          "osm:way:1070584577",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "One Maridien",
+        "feature_kind": "building_outline",
+        "height_m": 17.3,
+        "min_height_m": 0.0,
+        "levels": 3.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": "beige",
+        "footprint_area_m2": 2553.87,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1634",
+          "addr:street": "9th Avenue",
+          "building": "apartments",
+          "building:colour": "beige",
+          "building:levels": "3",
+          "height": "17.3",
+          "name": "One Maridien"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -49.254,
+              -252.569
+            ],
+            [
+              -38.169,
+              -220.593
+            ],
+            [
+              -109.566,
+              -196.157
+            ],
+            [
+              -120.651,
+              -228.132
+            ],
+            [
+              -49.254,
+              -252.569
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:531995976",
+      "properties": {
+        "id": "osm:way:531995976",
+        "source_ids": [
+          "osm:way:531995976",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 152.9,
+        "min_height_m": 0.0,
+        "levels": 40.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": "beige",
+        "footprint_area_m2": 1427.35,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:postcode": "1634",
+          "addr:street": "9th Avenue",
+          "building:colour": "beige",
+          "building:levels": "40",
+          "building:part": "yes",
+          "height": "152.9"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.863,
+              -210.838
+            ],
+            [
+              -107.172,
+              -198.556
+            ],
+            [
+              -112.719,
+              -216.979
+            ],
+            [
+              -88.334,
+              -224.27
+            ],
+            [
+              -92.221,
+              -235.104
+            ],
+            [
+              -55.88,
+              -248.396
+            ],
+            [
+              -52.335,
+              -238.477
+            ],
+            [
+              -49.176,
+              -239.655
+            ],
+            [
+              -45.918,
+              -230.553
+            ],
+            [
+              -73.205,
+              -221.057
+            ],
+            [
+              -69.863,
+              -210.838
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
