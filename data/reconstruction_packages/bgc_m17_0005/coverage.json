@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_m17_0005",
+  "accepted_visual_reference_ids": [
+    "ref:m17:official-shang-properties",
+    "ref:m17:architect-handel-shang"
+  ],
+  "reusable_visual_reference_ids": [],
+  "research_only_visual_reference_ids": [
+    "ref:m17:official-shang-properties",
+    "ref:m17:architect-handel-shang"
+  ],
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-shang-properties",
+        "ref:m17:architect-handel-shang"
+      ]
+    },
+    "height": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-shang-properties",
+        "ref:m17:architect-handel-shang"
+      ]
+    },
+    "major_facades": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-shang-properties",
+        "ref:m17:architect-handel-shang"
+      ]
+    },
+    "roof": {
+      "rating": "WEAK",
+      "reference_ids": []
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:m17:official-shang-properties",
+        "ref:m17:architect-handel-shang"
+      ]
+    },
+    "entrances": {
+      "rating": "WEAK",
+      "reference_ids": []
+    }
+  },
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "readiness_reason": "Identity, grounded polygon massing, major visible character, and broad materials are supported; exact entrances, roof plant, and weak sides stay conservative."
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0007",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 2116.17,
+    "perimeter_m": 208.44,
+    "axis_aligned_bounds_m": {
+      "min_x": -166.889,
+      "min_y": -361.863,
+      "max_x": -98.258,
+      "max_y": -311.0
+    },
+    "maximum_height_m": 12.0,
+    "height_status": "PROCEDURAL"
+  },
+  "components": [
+    {
+      "name": "M17_bgc_m17_0007_Volume_00",
+      "component_id": "bgc_m17_0007:massing:00",
+      "source_feature_id": "osm:way:25006899",
+      "base_z_m": 0.0,
+      "height_m": 12.0,
+      "material_family": "warm_neutral_cladding",
+      "classification": "verified geographic footprint; procedural height",
+      "evidence_status": "PROCEDURAL",
+      "observation_ids": [
+        "obs:bgc_m17_0007:footprint",
+        "obs:bgc_m17_0007:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Evidence-bounded performing arts using grounded source volumes."
+}

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BGC 3D Pipeline Viewer",
-  description: "Synthetic Blender-to-Three.js integration fixture",
+  title: "Interactive BGC City Model",
+  description: "Explore geographically grounded BGC massing, detailed landmarks, and mapped street context.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0010",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 1611.87,
+    "perimeter_m": 393.24,
+    "axis_aligned_bounds_m": {
+      "min_x": -232.351,
+      "min_y": -270.023,
+      "max_x": -148.489,
+      "max_y": -207.657
+    },
+    "maximum_height_m": 172.0,
+    "height_status": "VERIFIED_GEOGRAPHIC"
+  },
+  "components": [
+    {
+      "name": "M17_bgc_m17_0010_Volume_00",
+      "component_id": "bgc_m17_0010:massing:00",
+      "source_feature_id": "osm:way:1070584580",
+      "base_z_m": 0.0,
+      "height_m": 24.4,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0010:footprint",
+        "obs:bgc_m17_0010:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0010_Volume_01",
+      "component_id": "bgc_m17_0010:massing:01",
+      "source_feature_id": "osm:way:538702986",
+      "base_z_m": 0.0,
+      "height_m": 172.0,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0010:footprint",
+        "obs:bgc_m17_0010:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Evidence-bounded residential tower using grounded source volumes."
+}

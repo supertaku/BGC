@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0001:footprint",
+      "entity_id": "bgc_m17_0001",
+      "property": "footprint",
+      "value": {
+        "area_m2": 12248.28,
+        "perimeter_m": 481.25,
+        "axis_aligned_bounds_m": {
+          "min_x": -551.103,
+          "min_y": 12.689,
+          "max_x": -368.426,
+          "max_y": 136.408
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0001:height",
+      "entity_id": "bgc_m17_0001",
+      "property": "height_envelope_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0001:facade",
+      "entity_id": "bgc_m17_0001",
+      "property": "major_facade_rhythm",
+      "value": "3 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-ayala-obhs",
+        "source:m17:architect-obhs"
+      ],
+      "reference_ids": [
+        "ref:m17:official-ayala-obhs",
+        "ref:m17:architect-obhs"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0001:materials",
+      "entity_id": "bgc_m17_0001",
+      "property": "material_families",
+      "value": [
+        "warm_neutral_cladding",
+        "generic_storefront_glass"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-ayala-obhs",
+        "source:m17:architect-obhs"
+      ],
+      "reference_ids": [
+        "ref:m17:official-ayala-obhs",
+        "ref:m17:architect-obhs"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

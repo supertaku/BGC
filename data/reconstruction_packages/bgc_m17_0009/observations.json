@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0009:footprint",
+      "entity_id": "bgc_m17_0009",
+      "property": "footprint",
+      "value": {
+        "area_m2": 1555.34,
+        "perimeter_m": 395.3,
+        "axis_aligned_bounds_m": {
+          "min_x": -137.848,
+          "min_y": -301.139,
+          "max_x": -53.144,
+          "max_y": -239.042
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0009:height",
+      "entity_id": "bgc_m17_0009",
+      "property": "height_envelope_m",
+      "value": 160.5,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0009:facade",
+      "entity_id": "bgc_m17_0009",
+      "property": "major_facade_rhythm",
+      "value": "7 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-alveo-maridien",
+        "source:m17:official-alveo-bgc"
+      ],
+      "reference_ids": [
+        "ref:m17:official-alveo-maridien",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0009:materials",
+      "entity_id": "bgc_m17_0009",
+      "property": "material_families",
+      "value": [
+        "warm_neutral_cladding",
+        "architectural_dark_glass"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-alveo-maridien",
+        "source:m17:official-alveo-bgc"
+      ],
+      "reference_ids": [
+        "ref:m17:official-alveo-maridien",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

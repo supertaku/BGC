@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0009",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1070584579",
+      "properties": {
+        "id": "osm:way:1070584579",
+        "source_ids": [
+          "osm:way:1070584579",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Two Maridien",
+        "feature_kind": "building_outline",
+        "height_m": 20.7,
+        "min_height_m": 0.0,
+        "levels": 4.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": "beige",
+        "footprint_area_m2": 3000.27,
+        "tags": {
+          "building": "apartments",
+          "building:colour": "beige",
+          "building:levels": "4",
+          "height": "20.7",
+          "name": "Two Maridien"
+        },
+        "render_role": "outline_residual",
+        "canonical_entity_id": "osm:way:1070584579"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.144,
+              -263.768
+            ],
+            [
+              -66.204,
+              -301.139
+            ],
+            [
+              -137.848,
+              -276.412
+            ],
+            [
+              -124.787,
+              -239.042
+            ],
+            [
+              -53.144,
+              -263.768
+            ]
+          ],
+          [
+            [
+              -115.511,
+              -247.2
+            ],
+            [
+              -125.851,
+              -276.526
+            ],
+            [
+              -115.115,
+              -280.27
+            ],
+            [
+              -114.22,
+              -277.732
+            ],
+            [
+              -92.962,
+              -285.129
+            ],
+            [
+              -93.901,
+              -287.799
+            ],
+            [
+              -80.241,
+              -292.564
+            ],
+            [
+              -69.857,
+              -263.094
+            ],
+            [
+              -115.511,
+              -247.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:533348885",
+      "properties": {
+        "id": "osm:way:533348885",
+        "source_ids": [
+          "osm:way:533348885",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 160.5,
+        "min_height_m": 0.0,
+        "levels": 42.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": "beige",
+        "footprint_area_m2": 1444.97,
+        "tags": {
+          "building:colour": "beige",
+          "building:levels": "42",
+          "building:part": "yes",
+          "height": "160.5"
+        },
+        "canonical_entity_id": "osm:way:1070584579",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:1070584579"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.857,
+              -263.094
+            ],
+            [
+              -115.511,
+              -247.2
+            ],
+            [
+              -125.851,
+              -276.526
+            ],
+            [
+              -115.115,
+              -280.27
+            ],
+            [
+              -114.22,
+              -277.732
+            ],
+            [
+              -92.962,
+              -285.129
+            ],
+            [
+              -93.901,
+              -287.799
+            ],
+            [
+              -80.241,
+              -292.564
+            ],
+            [
+              -69.857,
+              -263.094
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

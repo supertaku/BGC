@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0004",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:182331875",
+      "properties": {
+        "id": "osm:way:182331875",
+        "source_ids": [
+          "osm:way:182331875",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Arthaland Century Pacific Tower",
+        "feature_kind": "building_outline",
+        "height_m": 114.7,
+        "min_height_m": 0.0,
+        "levels": 30.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 2148.54,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "Lane A",
+          "alt_name": "BGC Corporate Center Two",
+          "building": "office",
+          "building:levels": "30",
+          "height": "114.7",
+          "name": "Arthaland Century Pacific Tower",
+          "wikidata": "Q18209566"
+        },
+        "canonical_entity_id": "osm:way:182331875",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -227.637,
+              218.773
+            ],
+            [
+              -275.412,
+              234.83
+            ],
+            [
+              -289.156,
+              194.477
+            ],
+            [
+              -241.381,
+              178.42
+            ],
+            [
+              -227.637,
+              218.773
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

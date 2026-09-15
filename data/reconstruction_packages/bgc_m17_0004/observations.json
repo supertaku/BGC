@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0004:footprint",
+      "entity_id": "bgc_m17_0004",
+      "property": "footprint",
+      "value": {
+        "area_m2": 2148.55,
+        "perimeter_m": 186.06,
+        "axis_aligned_bounds_m": {
+          "min_x": -289.156,
+          "min_y": 178.42,
+          "max_x": -227.637,
+          "max_y": 234.83
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0004:height",
+      "entity_id": "bgc_m17_0004",
+      "property": "height_envelope_m",
+      "value": 114.7,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0004:facade",
+      "entity_id": "bgc_m17_0004",
+      "property": "major_facade_rhythm",
+      "value": "7 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-arthaland-acpt",
+        "source:m17:architect-som-acpt"
+      ],
+      "reference_ids": [
+        "ref:m17:official-arthaland-acpt",
+        "ref:m17:architect-som-acpt"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0004:materials",
+      "entity_id": "bgc_m17_0004",
+      "property": "material_families",
+      "value": [
+        "architectural_dark_glass",
+        "dark_metal"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-arthaland-acpt",
+        "source:m17:architect-som-acpt"
+      ],
+      "reference_ids": [
+        "ref:m17:official-arthaland-acpt",
+        "ref:m17:architect-som-acpt"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

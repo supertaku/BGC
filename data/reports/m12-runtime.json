@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "PARTIAL",
+  "tile_mode": "DYNAMIC",
+  "fallback_mode": "ALL_LOADED",
+  "tile_count": 94,
+  "tile_size_m": 250,
+  "distance_rings_m": {
+    "active": 500,
+    "deactivate": 650,
+    "preload": 750,
+    "retention": 1000
+  },
+  "lod1_rings_m": {
+    "activate": 180,
+    "deactivate": 230,
+    "preload": 360
+  },
+  "states": [
+    "UNREQUESTED",
+    "PRELOADING",
+    "READY",
+    "ACTIVE",
+    "CACHED",
+    "ERROR"
+  ],
+  "cache_strategy": "Retain loaded GLBs in Three/Drei loader cache and keep mounted scenes hidden outside the active ring; no hard eviction at the current 15.28 MB city scale.",
+  "scenario_model": [
+    {"id": "bgc-aerial-full", "active_tiles": 22, "requested_tiles": 43, "tile_bytes": 9460572},
+    {"id": "bgc-high-street", "active_tiles": 21, "requested_tiles": 40, "tile_bytes": 8509244},
+    {"id": "bgc-north", "active_tiles": 22, "requested_tiles": 43, "tile_bytes": 9460572},
+    {"id": "bgc-south", "active_tiles": 22, "requested_tiles": 43, "tile_bytes": 9460572},
+    {"id": "bgc-south-street", "active_tiles": 22, "requested_tiles": 41, "tile_bytes": 7341828}
+  ],
+  "average_active_tiles": 21.8,
+  "peak_active_tiles": 22,
+  "interactive_index_bytes": 71368,
+  "high_street_initial_bytes": 8878784,
+  "additional_tile_bytes_to_full_city": 6773036,
+  "all_loaded_initial_bytes_m11": 15580452,
+  "lod1_assets": 7,
+  "lod1_switching": "PASS",
+  "lod_flicker": "NONE_OBSERVED",
+  "repeated_unnecessary_fetches": 0,
+  "browser_observation": {
+    "dynamic_high_street": {"active_tiles": 21, "cached_tiles": 19, "active_lod1": 2, "network_requests": 40, "tile_bytes": 8509244},
+    "all_loaded": {"active_tiles": 94, "network_requests": 94, "repeated_requests": 0}
+  },
+  "benchmark_status": "PARTIAL_AUTOMATION_THROTTLED",
+  "benchmark_note": "The automated browser heavily throttled requestAnimationFrame, so its FPS samples are not suitable for a performance claim. The M11 foreground Chrome baseline is preserved separately.",
+  "gate": {
+    "deterministic_runtime": "PASS",
+    "preload": "PASS",
+    "cache": "PASS",
+    "all_loaded_fallback": "PASS",
+    "production_build": "PASS",
+    "tests": "PASS",
+    "foreground_performance_benchmark": "PARTIAL"
+  }
+}

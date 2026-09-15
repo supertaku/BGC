@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_m17_0003",
+  "name": "Philippine Stock Exchange",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_m17_0003_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -463.966,
+      21.946,
+      0.0
+    ],
+    "max": [
+      -372.763,
+      104.264,
+      131.0
+    ]
+  },
+  "geographic_anchor": {
+    "local_x_m": -417.871,
+    "local_y_m": 64.22,
+    "longitude": null,
+    "latitude": null
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_m17_0003.json",
+  "generated_at": "2026-09-15T03:36:35.884320+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

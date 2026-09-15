@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0003",
+  "materials": [
+    {
+      "material_id": "mat:primary",
+      "family": "light_neutral_panel",
+      "shared_family": "light_neutral_panel",
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "ref:m17:official-pse-tower",
+        "ref:m17:architect-obhs"
+      ],
+      "exact_colour": "UNKNOWN"
+    },
+    {
+      "material_id": "mat:accent",
+      "family": "architectural_dark_glass",
+      "shared_family": "architectural_dark_glass",
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "ref:m17:official-pse-tower",
+        "ref:m17:architect-obhs"
+      ],
+      "exact_colour": "UNKNOWN"
+    }
+  ]
+}

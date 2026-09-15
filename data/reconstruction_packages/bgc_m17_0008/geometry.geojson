@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0008",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:408450256",
+      "properties": {
+        "id": "osm:way:408450256",
+        "source_ids": [
+          "osm:way:408450256",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "High Street South Corporate Plaza",
+        "feature_kind": "building_outline",
+        "height_m": 15.5,
+        "min_height_m": 0.0,
+        "levels": 3.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 6918.59,
+        "tags": {
+          "building": "office",
+          "building:levels": "3",
+          "height": "15.5",
+          "name": "High Street South Corporate Plaza"
+        },
+        "render_role": "outline_residual",
+        "canonical_entity_id": "osm:way:408450256"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.048,
+              -325.625
+            ],
+            [
+              120.719,
+              -362.894
+            ],
+            [
+              -44.248,
+              -305.089
+            ],
+            [
+              -30.919,
+              -267.82
+            ],
+            [
+              134.048,
+              -325.625
+            ]
+          ],
+          [
+            [
+              132.269,
+              -329.494
+            ],
+            [
+              71.298,
+              -308.489
+            ],
+            [
+              60.016,
+              -340.851
+            ],
+            [
+              114.302,
+              -359.541
+            ],
+            [
+              123.33,
+              -355.114
+            ],
+            [
+              132.269,
+              -329.494
+            ]
+          ],
+          [
+            [
+              27.244,
+              -291.967
+            ],
+            [
+              -32.345,
+              -271.892
+            ],
+            [
+              -43.689,
+              -305.16
+            ],
+            [
+              15.889,
+              -325.235
+            ],
+            [
+              27.244,
+              -291.967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:533348886",
+      "properties": {
+        "id": "osm:way:533348886",
+        "source_ids": [
+          "osm:way:533348886",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 122.3,
+        "min_height_m": 0.0,
+        "levels": 32.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": "glass",
+        "colour": "darkgray",
+        "footprint_area_m2": 2210.07,
+        "tags": {
+          "building:colour": "darkgray",
+          "building:levels": "32",
+          "building:material": "glass",
+          "building:part": "yes",
+          "height": "122.3"
+        },
+        "canonical_entity_id": "osm:way:408450256",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:408450256"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.244,
+              -291.967
+            ],
+            [
+              -32.345,
+              -271.892
+            ],
+            [
+              -43.689,
+              -305.16
+            ],
+            [
+              15.889,
+              -325.235
+            ],
+            [
+              27.244,
+              -291.967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:533348887",
+      "properties": {
+        "id": "osm:way:533348887",
+        "source_ids": [
+          "osm:way:533348887",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "High Street South Corporate Plaza Tower 2",
+        "feature_kind": "building_part",
+        "height_m": 160.5,
+        "min_height_m": 0.0,
+        "levels": 42.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": "glass",
+        "colour": "darkgray",
+        "footprint_area_m2": 2184.38,
+        "tags": {
+          "building:colour": "darkgray",
+          "building:levels": "42",
+          "building:material": "glass",
+          "building:part": "yes",
+          "height": "160.5",
+          "name": "High Street South Corporate Plaza Tower 2"
+        },
+        "canonical_entity_id": "osm:way:408450256",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:408450256"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              132.269,
+              -329.494
+            ],
+            [
+              71.298,
+              -308.489
+            ],
+            [
+              60.016,
+              -340.851
+            ],
+            [
+              114.302,
+              -359.541
+            ],
+            [
+              123.33,
+              -355.114
+            ],
+            [
+              132.269,
+              -329.494
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

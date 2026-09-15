@@ -1,0 +1,349 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0003",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1026303383",
+      "properties": {
+        "id": "osm:way:1026303383",
+        "source_ids": [
+          "osm:way:1026303383",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 362.8,
+        "tags": {
+          "building:part": "roof",
+          "layer": "1"
+        },
+        "canonical_entity_id": "osm:way:71598335",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:71598335"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -393.24,
+              21.946
+            ],
+            [
+              -387.496,
+              38.175
+            ],
+            [
+              -430.297,
+              43.566
+            ],
+            [
+              -393.24,
+              21.946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:1069827306",
+      "properties": {
+        "id": "osm:way:1069827306",
+        "source_ids": [
+          "osm:way:1069827306",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 131.0,
+        "min_height_m": 0.0,
+        "levels": 30.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": "glass",
+        "colour": null,
+        "footprint_area_m2": 1160.83,
+        "tags": {
+          "building": "yes",
+          "building:levels": "30",
+          "building:material": "glass",
+          "building:part": "yes",
+          "height": "131"
+        },
+        "canonical_entity_id": "osm:way:71598335",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:71598335"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -437.516,
+              71.593
+            ],
+            [
+              -442.935,
+              55.593
+            ],
+            [
+              -430.297,
+              43.566
+            ],
+            [
+              -387.496,
+              38.175
+            ],
+            [
+              -386.647,
+              55.476
+            ],
+            [
+              -389.926,
+              56.511
+            ],
+            [
+              -417.306,
+              65.19
+            ],
+            [
+              -437.516,
+              71.593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538701627",
+      "properties": {
+        "id": "osm:way:538701627",
+        "source_ids": [
+          "osm:way:538701627",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Philippine Stock Exchange",
+        "feature_kind": "building_part",
+        "height_m": 119.2,
+        "min_height_m": 0.0,
+        "levels": 27.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": "glass",
+        "colour": null,
+        "footprint_area_m2": 2099.49,
+        "tags": {
+          "building:levels": "27",
+          "building:material": "glass",
+          "building:part": "yes",
+          "height": "119.2",
+          "name": "Philippine Stock Exchange"
+        },
+        "canonical_entity_id": "osm:way:71598335",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:71598335"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -437.516,
+              71.593
+            ],
+            [
+              -442.935,
+              55.593
+            ],
+            [
+              -430.297,
+              43.566
+            ],
+            [
+              -387.496,
+              38.175
+            ],
+            [
+              -386.647,
+              55.476
+            ],
+            [
+              -389.926,
+              56.511
+            ],
+            [
+              -383.14,
+              76.063
+            ],
+            [
+              -422.837,
+              85.123
+            ],
+            [
+              -431.687,
+              88.851
+            ],
+            [
+              -437.516,
+              71.593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:71598335",
+      "properties": {
+        "id": "osm:way:71598335",
+        "source_ids": [
+          "osm:way:71598335",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Philippine Stock Exchange",
+        "feature_kind": "building_outline",
+        "height_m": 15.6,
+        "min_height_m": 0.0,
+        "levels": 3.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 4555.32,
+        "tags": {
+          "building": "office",
+          "building:levels": "3",
+          "height": "15.6",
+          "layer": "1",
+          "name": "Philippine Stock Exchange"
+        },
+        "render_role": "outline_residual",
+        "canonical_entity_id": "osm:way:71598335"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -432.378,
+              40.939
+            ],
+            [
+              -434.47,
+              38.312
+            ],
+            [
+              -438.713,
+              42.532
+            ],
+            [
+              -443.295,
+              37.436
+            ],
+            [
+              -447.158,
+              33.142
+            ],
+            [
+              -463.966,
+              40.313
+            ],
+            [
+              -443.014,
+              104.264
+            ],
+            [
+              -397.678,
+              88.98
+            ],
+            [
+              -396.415,
+              91.692
+            ],
+            [
+              -372.844,
+              83.854
+            ],
+            [
+              -375.369,
+              70.939
+            ],
+            [
+              -387.496,
+              38.175
+            ],
+            [
+              -386.647,
+              55.476
+            ],
+            [
+              -389.926,
+              56.511
+            ],
+            [
+              -383.14,
+              76.063
+            ],
+            [
+              -422.837,
+              85.123
+            ],
+            [
+              -431.687,
+              88.851
+            ],
+            [
+              -437.516,
+              71.593
+            ],
+            [
+              -442.935,
+              55.593
+            ],
+            [
+              -430.297,
+              43.566
+            ],
+            [
+              -432.378,
+              40.939
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

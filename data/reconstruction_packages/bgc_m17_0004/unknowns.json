@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "unknowns": [
+    {
+      "unknown_id": "unknown:bgc_m17_0004:entrances",
+      "entity_id": "bgc_m17_0004",
+      "description": "Exact entrance and service opening geometry",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Omit rather than invent"
+    },
+    {
+      "unknown_id": "unknown:bgc_m17_0004:roof",
+      "entity_id": "bgc_m17_0004",
+      "description": "Fine rooftop equipment and weak-side modules",
+      "impact": "LOD1_DETAIL",
+      "disposition": "Use conservative silhouette"
+    }
+  ]
+}

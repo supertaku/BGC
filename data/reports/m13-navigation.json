@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "PARTIAL",
+  "navigation_states": ["INSPECT", "WALK", "TOUR"],
+  "inspect": "PASS",
+  "walk": "PARTIAL",
+  "movement": {
+    "frame_rate_independent": true,
+    "walk_speed_mps": 7,
+    "sprint_speed_mps": 18,
+    "eye_height_m": 1.7
+  },
+  "collision": {
+    "status": "PASS_IMPLEMENTATION_PARTIAL_MANUAL_QA",
+    "method": "2D point-in-footprint tests against active-tile sidecars with a 0.65 m margin"
+  },
+  "world_boundary": {
+    "status": "ESTIMATED",
+    "method": "2D working-polygon constraint with a transient UI notice"
+  },
+  "selection": "PASS",
+  "selection_method": "Ground-plane ray intersection followed by smallest containing active-tile footprint lookup",
+  "search": "PASS",
+  "searchable_entities": 263,
+  "tour": "PASS",
+  "tour_stops": 7,
+  "reduced_motion": true,
+  "browser_observation": [
+    "Central Square search selected and focused the camera",
+    "Selection panel preserved entity, height, evidence, type, and LOD availability",
+    "Tour opened and advanced from stop 1 to stop 2",
+    "Walk UI and documented controls activated"
+  ],
+  "qa_limitation": "Synthetic browser input produced Pointer Lock API WrongDocumentError, so actual mouse-lock movement requires one foreground manual pass. This is an automation limitation; the production integration uses Drei PointerLockControls with an explicit selector and ESC exit.",
+  "gate": {
+    "inspect": "PASS",
+    "walk_implementation": "PASS",
+    "walk_foreground_manual_qa": "PARTIAL",
+    "selection": "PASS",
+    "search": "PASS",
+    "tour": "PASS",
+    "production_build": "PASS"
+  }
+}

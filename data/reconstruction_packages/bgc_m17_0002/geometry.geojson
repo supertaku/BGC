@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0002",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:203910666",
+      "properties": {
+        "id": "osm:way:203910666",
+        "source_ids": [
+          "osm:way:203910666",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "The Suites at One Bonifacio High Street",
+        "feature_kind": "building_outline",
+        "height_m": 29.3,
+        "min_height_m": 0.0,
+        "levels": 4.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 5767.15,
+        "tags": {
+          "building": "apartments",
+          "building:levels": "4",
+          "height": "29.3",
+          "name": "The Suites at One Bonifacio High Street",
+          "operator": "Ayala Land Premiere"
+        },
+        "render_role": "outline_residual",
+        "canonical_entity_id": "osm:way:203910666"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -493.208,
+              127.325
+            ],
+            [
+              -493.812,
+              124.741
+            ],
+            [
+              -442.493,
+              105.864
+            ],
+            [
+              -464.748,
+              39.712
+            ],
+            [
+              -489.613,
+              47.483
+            ],
+            [
+              -488.792,
+              55.278
+            ],
+            [
+              -488.038,
+              64.047
+            ],
+            [
+              -507.987,
+              69.453
+            ],
+            [
+              -519.721,
+              58.664
+            ],
+            [
+              -545.82,
+              65.892
+            ],
+            [
+              -522.973,
+              136.998
+            ],
+            [
+              -493.208,
+              127.325
+            ]
+          ],
+          [
+            [
+              -537.576,
+              73.148
+            ],
+            [
+              -514.792,
+              66.49
+            ],
+            [
+              -508.936,
+              75.625
+            ],
+            [
+              -501.099,
+              95.82
+            ],
+            [
+              -500.567,
+              107.602
+            ],
+            [
+              -523.906,
+              116.135
+            ],
+            [
+              -529.778,
+              105.118
+            ],
+            [
+              -535.732,
+              85.77
+            ],
+            [
+              -537.576,
+              73.148
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538701626",
+      "properties": {
+        "id": "osm:way:538701626",
+        "source_ids": [
+          "osm:way:538701626",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 227.0,
+        "min_height_m": 0.0,
+        "levels": 63.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 1242.51,
+        "tags": {
+          "building:levels": "63",
+          "building:part": "residential",
+          "height": "227"
+        },
+        "canonical_entity_id": "osm:way:203910666",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:203910666"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -535.732,
+              85.77
+            ],
+            [
+              -537.576,
+              73.148
+            ],
+            [
+              -514.792,
+              66.49
+            ],
+            [
+              -508.936,
+              75.625
+            ],
+            [
+              -501.099,
+              95.82
+            ],
+            [
+              -500.567,
+              107.602
+            ],
+            [
+              -523.906,
+              116.135
+            ],
+            [
+              -529.778,
+              105.118
+            ],
+            [
+              -535.732,
+              85.77
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

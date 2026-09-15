@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0004",
+  "entity_type": "BUILDING",
+  "canonical_name": "Arthaland Century Pacific Tower",
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.92,
+  "centroid": {
+    "local_x_m": -258.397,
+    "local_y_m": 206.625,
+    "longitude": null,
+    "latitude": null
+  },
+  "geographic_feature_ids": [
+    "osm:way:182331875"
+  ],
+  "source_ids": [
+    "source:osm",
+    "source:m17:official-arthaland-acpt",
+    "source:m17:architect-som-acpt"
+  ],
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

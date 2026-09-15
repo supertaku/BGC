@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0007:footprint",
+      "entity_id": "bgc_m17_0007",
+      "property": "footprint",
+      "value": {
+        "area_m2": 2116.17,
+        "perimeter_m": 208.44,
+        "axis_aligned_bounds_m": {
+          "min_x": -166.889,
+          "min_y": -361.863,
+          "max_x": -98.258,
+          "max_y": -311.0
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0007:height",
+      "entity_id": "bgc_m17_0007",
+      "property": "height_envelope_m",
+      "value": 12.0,
+      "status": "PROCEDURAL",
+      "confidence": 0.15,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "diagnostic_type_fallback",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0007:facade",
+      "entity_id": "bgc_m17_0007",
+      "property": "major_facade_rhythm",
+      "value": "3 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-bgc-arts-spaces",
+        "source:m17:official-bgc-arts-about"
+      ],
+      "reference_ids": [
+        "ref:m17:official-bgc-arts-spaces",
+        "ref:m17:official-bgc-arts-about"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0007:materials",
+      "entity_id": "bgc_m17_0007",
+      "property": "material_families",
+      "value": [
+        "warm_neutral_cladding",
+        "generic_storefront_glass"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-bgc-arts-spaces",
+        "source:m17:official-bgc-arts-about"
+      ],
+      "reference_ids": [
+        "ref:m17:official-bgc-arts-spaces",
+        "ref:m17:official-bgc-arts-about"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

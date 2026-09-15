@@ -1,0 +1,340 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "entity_id": "bgc_m17_0001",
+    "name": "One Bonifacio High Street",
+    "location": "Bonifacio Global City, Taguig, Philippines",
+    "identity_status": "CONFIRMED"
+  },
+  "target_time_state": {
+    "value": "CURRENT_APPROX_2025_2026",
+    "permanent_architecture": "PRIMARY",
+    "tenant_signage_and_seasonal_state": "OMIT_OR_NEUTRALIZE"
+  },
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {
+    "area_m2": 12248.28,
+    "perimeter_m": 481.25,
+    "axis_aligned_bounds_m": {
+      "min_x": -551.103,
+      "min_y": 12.689,
+      "max_x": -368.426,
+      "max_y": 136.408
+    },
+    "maximum_height_m": 12.0,
+    "height_status": "PROCEDURAL"
+  },
+  "major_building_parts": [
+    "bgc_m17_0001:massing:00"
+  ],
+  "massing_file": "massing.json",
+  "facades_file": "facades.json",
+  "entrances_file": "entrances.json",
+  "materials_file": "materials.json",
+  "required_coverage_aspects": [
+    "identity",
+    "overall_massing",
+    "major_facades",
+    "roof",
+    "materials",
+    "entrances"
+  ],
+  "best_reference_ids": [
+    "ref:m17:official-ayala-obhs",
+    "ref:m17:architect-obhs"
+  ],
+  "confidence": {
+    "identity": 0.92,
+    "footprint": 0.8,
+    "height": 0.15,
+    "massing": 0.72,
+    "materials": 0.65
+  },
+  "required_procedural_approximations": [
+    {
+      "feature": "exact facade modules and weak sides",
+      "classification": "PROCEDURAL",
+      "instruction": "Use broad normalized rhythm and conservative geometry."
+    }
+  ],
+  "do_not_invent": [
+    "Do not invent entrances or service openings.",
+    "Do not copy signs or tenant graphics.",
+    "Do not claim surveyed height or exact facade spacing."
+  ],
+  "visual_qa_cameras": [
+    {
+      "camera_id": "qa:bgc_m17_0001:north",
+      "position": [
+        -459.7645,
+        428.6912,
+        6
+      ],
+      "target": [
+        -459.7645,
+        74.54849999999999,
+        5.4
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": "ref:m17:official-ayala-obhs",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:bgc_m17_0001:south",
+      "position": [
+        -459.7645,
+        -279.59419999999994,
+        6
+      ],
+      "target": [
+        -459.7645,
+        74.54849999999999,
+        5.4
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": null,
+      "confidence": 0.3,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:bgc_m17_0001:east",
+      "position": [
+        -76.14280000000002,
+        74.54849999999999,
+        6
+      ],
+      "target": [
+        -459.7645,
+        74.54849999999999,
+        5.4
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": "ref:m17:official-ayala-obhs",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:bgc_m17_0001:aerial",
+      "position": [
+        -240.55210000000005,
+        -144.66389999999996,
+        24
+      ],
+      "target": [
+        -459.7645,
+        74.54849999999999,
+        5.4
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": "ref:m17:official-ayala-obhs",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    }
+  ],
+  "web_performance_constraints": {
+    "principle": "LOD and measured runtime cost first",
+    "track": [
+      "triangles",
+      "materials",
+      "draw_calls",
+      "GLB_transfer_size",
+      "runtime_nodes"
+    ],
+    "instructions": [
+      "reuse shared materials",
+      "merge facade bands at runtime",
+      "retain semantic authoring components",
+      "use no photo textures"
+    ]
+  },
+  "readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "generic_builder": {
+    "material_families": [
+      "generic_storefront_glass",
+      "warm_neutral_cladding"
+    ],
+    "volumes": [],
+    "polygon_volumes": [
+      {
+        "name": "M17_bgc_m17_0001_Volume_00",
+        "component_id": "bgc_m17_0001:massing:00",
+        "source_feature_id": "osm:way:1078392706",
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "warm_neutral_cladding",
+        "classification": "verified geographic footprint; procedural height",
+        "evidence_status": "PROCEDURAL",
+        "observation_ids": [
+          "obs:bgc_m17_0001:footprint",
+          "obs:bgc_m17_0001:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      }
+    ],
+    "polygon_edge_regions": [
+      {
+        "name": "M17_bgc_m17_0001_Band_00_00",
+        "component_id": "bgc_m17_0001:facade:00:00",
+        "source_feature_id": "osm:way:1078392706",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.08,
+        "v1": 0.18,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "generic_storefront_glass",
+        "runtime_group": "M17_bgc_m17_0001_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0001:facade",
+          "obs:bgc_m17_0001:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-ayala-obhs",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0001_Band_00_01",
+        "component_id": "bgc_m17_0001:facade:00:01",
+        "source_feature_id": "osm:way:1078392706",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.3533,
+        "v1": 0.4533,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "generic_storefront_glass",
+        "runtime_group": "M17_bgc_m17_0001_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0001:facade",
+          "obs:bgc_m17_0001:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-ayala-obhs",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0001_Band_00_02",
+        "component_id": "bgc_m17_0001:facade:00:02",
+        "source_feature_id": "osm:way:1078392706",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.6267,
+        "v1": 0.7267,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "generic_storefront_glass",
+        "runtime_group": "M17_bgc_m17_0001_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0001:facade",
+          "obs:bgc_m17_0001:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-ayala-obhs",
+          "ref:m17:architect-obhs"
+        ]
+      }
+    ],
+    "facade_regions": [],
+    "qa_cameras": [
+      {
+        "camera_id": "qa:bgc_m17_0001:north",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -459.7645,
+          428.6912,
+          6
+        ],
+        "target": [
+          -459.7645,
+          74.54849999999999,
+          5.4
+        ],
+        "lens_mm": 42,
+        "filename": "qa-north.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:m17:official-ayala-obhs",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "camera_id": "qa:bgc_m17_0001:south",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -459.7645,
+          -279.59419999999994,
+          6
+        ],
+        "target": [
+          -459.7645,
+          74.54849999999999,
+          5.4
+        ],
+        "lens_mm": 42,
+        "filename": "qa-south.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:bgc_m17_0001:east",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -76.14280000000002,
+          74.54849999999999,
+          6
+        ],
+        "target": [
+          -459.7645,
+          74.54849999999999,
+          5.4
+        ],
+        "lens_mm": 42,
+        "filename": "qa-east.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:m17:official-ayala-obhs",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "camera_id": "qa:bgc_m17_0001:aerial",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -240.55210000000005,
+          -144.66389999999996,
+          24
+        ],
+        "target": [
+          -459.7645,
+          74.54849999999999,
+          5.4
+        ],
+        "lens_mm": 42,
+        "filename": "qa-aerial.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:m17:official-ayala-obhs",
+          "ref:m17:architect-obhs"
+        ]
+      }
+    ]
+  }
+}

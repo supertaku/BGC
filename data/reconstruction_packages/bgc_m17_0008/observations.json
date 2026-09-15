@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0008:footprint",
+      "entity_id": "bgc_m17_0008",
+      "property": "footprint",
+      "value": {
+        "area_m2": 2524.18,
+        "perimeter_m": 818.18,
+        "axis_aligned_bounds_m": {
+          "min_x": -44.248,
+          "min_y": -362.894,
+          "max_x": 134.048,
+          "max_y": -267.82
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0008:height",
+      "entity_id": "bgc_m17_0008",
+      "property": "height_envelope_m",
+      "value": 160.5,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0008:facade",
+      "entity_id": "bgc_m17_0008",
+      "property": "major_facade_rhythm",
+      "value": "6 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-alveo-hsscp",
+        "source:m17:official-alveo-bgc"
+      ],
+      "reference_ids": [
+        "ref:m17:official-alveo-hsscp",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0008:materials",
+      "entity_id": "bgc_m17_0008",
+      "property": "material_families",
+      "value": [
+        "light_neutral_panel",
+        "architectural_dark_glass"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-alveo-hsscp",
+        "source:m17:official-alveo-bgc"
+      ],
+      "reference_ids": [
+        "ref:m17:official-alveo-hsscp",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

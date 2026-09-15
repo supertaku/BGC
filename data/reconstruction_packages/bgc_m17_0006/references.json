@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-15",
+  "records": [
+    {
+      "reference_id": "ref:m17:official-mind-museum",
+      "source_id": "source:m17:official-mind-museum",
+      "title": "The Mind Museum",
+      "url": "https://www.themindmuseum.org/",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://www.themindmuseum.org/",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0006",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:m17:project-mind-museum",
+      "source_id": "source:m17:project-mind-museum",
+      "title": "Atlas Concorde — Mind Museum project",
+      "url": "https://www.atlasconcorde.com/en/projects/mind-museum",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://www.atlasconcorde.com/en/projects/mind-museum",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0006",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

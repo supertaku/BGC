@@ -463,7 +463,8 @@
           "name": "The Verve Residences One"
         },
         "render_role": "outline_residual",
-        "canonical_entity_id": "osm:way:1070584580"
+        "canonical_entity_id": "osm:way:1070584580",
+        "detailed_asset_id": "bgc_m17_0010"
       },
       "geometry": {
         "type": "Polygon",
@@ -562,7 +563,8 @@
         },
         "canonical_entity_id": "osm:way:1070584580",
         "render_role": "building_part",
-        "parent_outline_id": "osm:way:1070584580"
+        "parent_outline_id": "osm:way:1070584580",
+        "detailed_asset_id": "bgc_m17_0010"
       },
       "geometry": {
         "type": "Polygon",
@@ -11787,5 +11789,5 @@
       }
     }
   ],
-  "input_sha256": "4acd3c52c329cdbe354aada8fb25d2f575ee0282a756c13dc1368cbab8d4eada"
+  "input_sha256": "039efb5d762eb0da8cdf71ea04cf8d419ec24c845b08f0fb2131a913739f30e2"
 }

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0002",
+  "entity_type": "BUILDING",
+  "canonical_name": "The Suites at One Bonifacio High Street",
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.92,
+  "centroid": {
+    "local_x_m": -493.945,
+    "local_y_m": 89.471,
+    "longitude": null,
+    "latitude": null
+  },
+  "geographic_feature_ids": [
+    "osm:way:203910666",
+    "osm:way:538701626"
+  ],
+  "source_ids": [
+    "source:osm",
+    "source:m17:official-alp-suites",
+    "source:m17:architect-suites"
+  ],
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

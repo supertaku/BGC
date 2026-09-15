@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0007",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:25006899",
+      "properties": {
+        "id": "osm:way:25006899",
+        "source_ids": [
+          "osm:way:25006899",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "Maybank Performing Arts Theater",
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 2116.17,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "26th Street",
+          "addr:street:corner": "9th Avenue",
+          "building": "yes",
+          "name": "Maybank Performing Arts Theater"
+        },
+        "canonical_entity_id": "osm:way:25006899",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -114.114,
+              -323.36
+            ],
+            [
+              -150.238,
+              -311.0
+            ],
+            [
+              -154.102,
+              -331.749
+            ],
+            [
+              -158.131,
+              -330.287
+            ],
+            [
+              -166.889,
+              -348.45
+            ],
+            [
+              -156.656,
+              -351.913
+            ],
+            [
+              -156.217,
+              -350.909
+            ],
+            [
+              -135.331,
+              -357.783
+            ],
+            [
+              -134.579,
+              -355.499
+            ],
+            [
+              -120.371,
+              -360.479
+            ],
+            [
+              -109.895,
+              -361.863
+            ],
+            [
+              -108.742,
+              -358.155
+            ],
+            [
+              -112.679,
+              -357.202
+            ],
+            [
+              -111.012,
+              -352.569
+            ],
+            [
+              -107.185,
+              -353.819
+            ],
+            [
+              -98.258,
+              -327.136
+            ],
+            [
+              -113.628,
+              -321.903
+            ],
+            [
+              -114.114,
+              -323.36
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

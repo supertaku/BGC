@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_m17_0008",
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-alveo-hsscp",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "confidence": 0.7,
+      "blocking": false
+    },
+    "height": {
+      "rating": "GOOD",
+      "reference_ids": [],
+      "confidence": 0.7,
+      "blocking": false
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-alveo-hsscp",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "confidence": 0.7,
+      "blocking": false
+    },
+    "major_facades": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-alveo-hsscp",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "confidence": 0.7,
+      "blocking": false
+    },
+    "roof": {
+      "rating": "WEAK",
+      "reference_ids": [],
+      "confidence": 0.45,
+      "blocking": false
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:m17:official-alveo-hsscp",
+        "ref:m17:official-alveo-bgc"
+      ],
+      "confidence": 0.45,
+      "blocking": false
+    },
+    "entrances": {
+      "rating": "WEAK",
+      "reference_ids": [],
+      "confidence": 0.45,
+      "blocking": false
+    }
+  },
+  "reconstruction_gate": "RECONSTRUCTION_READY_WITH_GAPS"
+}

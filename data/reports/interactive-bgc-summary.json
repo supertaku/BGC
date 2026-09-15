@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "phase": "PARTIAL",
+  "milestone": "M12-M14 Interactive BGC Runtime",
+  "date": "2026-09-15",
+  "m12": "PARTIAL",
+  "m13": "PARTIAL",
+  "m14": "PASS",
+  "preserved": {
+    "tiles": 94,
+    "canonical_buildings": 6982,
+    "lod1_assets": 7,
+    "lod2_triangles": 306596,
+    "lod2_glb_bytes": 15282280,
+    "asset_registry": true,
+    "geographic_coordinate_system": true
+  },
+  "runtime": {
+    "dynamic_average_active_tiles": 21.8,
+    "dynamic_peak_active_tiles": 22,
+    "high_street_initial_bytes": 8878784,
+    "additional_streamed_tile_bytes_to_full_city": 6773036,
+    "observed_high_street_calls": 104,
+    "observed_high_street_triangles": 62356,
+    "observed_high_street_geometries": 94,
+    "observed_high_street_textures": 0,
+    "fps": null,
+    "fps_status": "NOT_RELIABLY_MEASURED_AUTOMATION_THROTTLED"
+  },
+  "environment_instances": 452,
+  "validation": {
+    "lint": "PASS",
+    "production_build": "PASS",
+    "automated_tests": 49,
+    "browser_feature_qa": "PARTIAL",
+    "foreground_runtime_benchmark": "PARTIAL"
+  },
+  "primary_model_requested": "SOL",
+  "astra_used": false,
+  "recommended_next_milestone": "M15 foreground runtime validation and navigation hardening",
+  "recommended_model": "SOL"
+}

@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0001",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1078392706",
+      "properties": {
+        "id": "osm:way:1078392706",
+        "source_ids": [
+          "osm:way:1078392706",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "One Bonifacio High Street",
+        "feature_kind": "building_outline",
+        "height_m": 12.0,
+        "min_height_m": 0.0,
+        "levels": null,
+        "height_status": "PROCEDURAL",
+        "height_method": "diagnostic_type_fallback",
+        "height_confidence": 0.15,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 12248.33,
+        "tags": {
+          "building": "commercial",
+          "layer": "-1",
+          "name": "One Bonifacio High Street",
+          "operator": "Ayala Land, Inc.",
+          "shop": "mall"
+        },
+        "canonical_entity_id": "osm:way:1078392706",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -368.426,
+              81.094
+            ],
+            [
+              -526.481,
+              136.408
+            ],
+            [
+              -551.103,
+              66.934
+            ],
+            [
+              -392.586,
+              12.689
+            ],
+            [
+              -368.426,
+              81.094
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

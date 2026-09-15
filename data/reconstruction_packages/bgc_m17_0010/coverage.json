@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "entity_id": "bgc_m17_0010",
+  "accepted_visual_reference_ids": [
+    "ref:m17:official-alveo-verve",
+    "ref:m17:official-alveo-bgc"
+  ],
+  "reusable_visual_reference_ids": [],
+  "research_only_visual_reference_ids": [
+    "ref:m17:official-alveo-verve",
+    "ref:m17:official-alveo-bgc"
+  ],
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-alveo-verve",
+        "ref:m17:official-alveo-bgc"
+      ]
+    },
+    "height": {
+      "rating": "GOOD",
+      "reference_ids": []
+    },
+    "overall_massing": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-alveo-verve",
+        "ref:m17:official-alveo-bgc"
+      ]
+    },
+    "major_facades": {
+      "rating": "GOOD",
+      "reference_ids": [
+        "ref:m17:official-alveo-verve",
+        "ref:m17:official-alveo-bgc"
+      ]
+    },
+    "roof": {
+      "rating": "WEAK",
+      "reference_ids": []
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:m17:official-alveo-verve",
+        "ref:m17:official-alveo-bgc"
+      ]
+    },
+    "entrances": {
+      "rating": "WEAK",
+      "reference_ids": []
+    }
+  },
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "readiness_reason": "Identity, grounded polygon massing, major visible character, and broad materials are supported; exact entrances, roof plant, and weak sides stay conservative."
+}

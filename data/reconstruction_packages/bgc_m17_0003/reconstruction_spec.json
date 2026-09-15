@@ -1,0 +1,819 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "entity_id": "bgc_m17_0003",
+    "name": "Philippine Stock Exchange",
+    "location": "Bonifacio Global City, Taguig, Philippines",
+    "identity_status": "CONFIRMED"
+  },
+  "target_time_state": {
+    "value": "CURRENT_APPROX_2025_2026",
+    "permanent_architecture": "PRIMARY",
+    "tenant_signage_and_seasonal_state": "OMIT_OR_NEUTRALIZE"
+  },
+  "target_fidelity": "LOD1_MEDIUM_ARCHITECTURAL_FIDELITY",
+  "geometry_file": "geometry.geojson",
+  "known_dimensions": {
+    "area_m2": 2099.5,
+    "perimeter_m": 187.47,
+    "axis_aligned_bounds_m": {
+      "min_x": -442.935,
+      "min_y": 38.175,
+      "max_x": -383.14,
+      "max_y": 88.851
+    },
+    "maximum_height_m": 131.0,
+    "height_status": "VERIFIED_GEOGRAPHIC"
+  },
+  "major_building_parts": [
+    "bgc_m17_0003:massing:00",
+    "bgc_m17_0003:massing:01",
+    "bgc_m17_0003:massing:02",
+    "bgc_m17_0003:massing:03"
+  ],
+  "massing_file": "massing.json",
+  "facades_file": "facades.json",
+  "entrances_file": "entrances.json",
+  "materials_file": "materials.json",
+  "required_coverage_aspects": [
+    "identity",
+    "overall_massing",
+    "major_facades",
+    "roof",
+    "materials",
+    "entrances"
+  ],
+  "best_reference_ids": [
+    "ref:m17:official-pse-tower",
+    "ref:m17:architect-obhs"
+  ],
+  "confidence": {
+    "identity": 0.92,
+    "footprint": 0.8,
+    "height": 0.75,
+    "massing": 0.72,
+    "materials": 0.65
+  },
+  "required_procedural_approximations": [
+    {
+      "feature": "exact facade modules and weak sides",
+      "classification": "PROCEDURAL",
+      "instruction": "Use broad normalized rhythm and conservative geometry."
+    }
+  ],
+  "do_not_invent": [
+    "Do not invent entrances or service openings.",
+    "Do not copy signs or tenant graphics.",
+    "Do not claim surveyed height or exact facade spacing."
+  ],
+  "visual_qa_cameras": [
+    {
+      "camera_id": "qa:bgc_m17_0003:north",
+      "position": [
+        -413.0375,
+        184.52300000000002,
+        50.064
+      ],
+      "target": [
+        -413.0375,
+        63.513,
+        53.64
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": "ref:m17:official-pse-tower",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:bgc_m17_0003:south",
+      "position": [
+        -413.0375,
+        -57.49700000000003,
+        50.064
+      ],
+      "target": [
+        -413.0375,
+        63.513,
+        53.64
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": null,
+      "confidence": 0.3,
+      "match_status": "CONSERVATIVE"
+    },
+    {
+      "camera_id": "qa:bgc_m17_0003:east",
+      "position": [
+        -287.46799999999996,
+        63.513,
+        50.064
+      ],
+      "target": [
+        -413.0375,
+        63.513,
+        53.64
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": "ref:m17:official-pse-tower",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    },
+    {
+      "camera_id": "qa:bgc_m17_0003:aerial",
+      "position": [
+        -341.2835,
+        -8.241000000000021,
+        125.16000000000001
+      ],
+      "target": [
+        -413.0375,
+        63.513,
+        53.64
+      ],
+      "fov_deg": 48,
+      "corresponding_reference": "ref:m17:official-pse-tower",
+      "confidence": 0.72,
+      "match_status": "PARTIAL"
+    }
+  ],
+  "web_performance_constraints": {
+    "principle": "LOD and measured runtime cost first",
+    "track": [
+      "triangles",
+      "materials",
+      "draw_calls",
+      "GLB_transfer_size",
+      "runtime_nodes"
+    ],
+    "instructions": [
+      "reuse shared materials",
+      "merge facade bands at runtime",
+      "retain semantic authoring components",
+      "use no photo textures"
+    ]
+  },
+  "readiness": "RECONSTRUCTION_READY_WITH_GAPS",
+  "generic_builder": {
+    "material_families": [
+      "architectural_dark_glass",
+      "light_neutral_panel"
+    ],
+    "volumes": [],
+    "polygon_volumes": [
+      {
+        "name": "M17_bgc_m17_0003_Volume_00",
+        "component_id": "bgc_m17_0003:massing:00",
+        "source_feature_id": "osm:way:1026303383",
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "light_neutral_panel",
+        "classification": "verified geographic footprint; procedural height",
+        "evidence_status": "PROCEDURAL",
+        "observation_ids": [
+          "obs:bgc_m17_0003:footprint",
+          "obs:bgc_m17_0003:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Volume_01",
+        "component_id": "bgc_m17_0003:massing:01",
+        "source_feature_id": "osm:way:1069827306",
+        "base_z_m": 0.0,
+        "height_m": 131.0,
+        "material_family": "light_neutral_panel",
+        "classification": "verified geographic footprint; verified_geographic height",
+        "evidence_status": "VERIFIED_GEOGRAPHIC",
+        "observation_ids": [
+          "obs:bgc_m17_0003:footprint",
+          "obs:bgc_m17_0003:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Volume_02",
+        "component_id": "bgc_m17_0003:massing:02",
+        "source_feature_id": "osm:way:538701627",
+        "base_z_m": 0.0,
+        "height_m": 119.2,
+        "material_family": "light_neutral_panel",
+        "classification": "verified geographic footprint; verified_geographic height",
+        "evidence_status": "VERIFIED_GEOGRAPHIC",
+        "observation_ids": [
+          "obs:bgc_m17_0003:footprint",
+          "obs:bgc_m17_0003:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Volume_03",
+        "component_id": "bgc_m17_0003:massing:03",
+        "source_feature_id": "osm:way:71598335",
+        "base_z_m": 0.0,
+        "height_m": 15.6,
+        "material_family": "light_neutral_panel",
+        "classification": "verified geographic footprint; verified_geographic height",
+        "evidence_status": "VERIFIED_GEOGRAPHIC",
+        "observation_ids": [
+          "obs:bgc_m17_0003:footprint",
+          "obs:bgc_m17_0003:height"
+        ],
+        "evidence_ids": [
+          "source:osm"
+        ]
+      }
+    ],
+    "polygon_edge_regions": [
+      {
+        "name": "M17_bgc_m17_0003_Band_00_00",
+        "component_id": "bgc_m17_0003:facade:00:00",
+        "source_feature_id": "osm:way:1026303383",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.08,
+        "v1": 0.18,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_00_01",
+        "component_id": "bgc_m17_0003:facade:00:01",
+        "source_feature_id": "osm:way:1026303383",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.244,
+        "v1": 0.344,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_00_02",
+        "component_id": "bgc_m17_0003:facade:00:02",
+        "source_feature_id": "osm:way:1026303383",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.408,
+        "v1": 0.508,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_00_03",
+        "component_id": "bgc_m17_0003:facade:00:03",
+        "source_feature_id": "osm:way:1026303383",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.572,
+        "v1": 0.672,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_00_04",
+        "component_id": "bgc_m17_0003:facade:00:04",
+        "source_feature_id": "osm:way:1026303383",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.736,
+        "v1": 0.836,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 12.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_01_00",
+        "component_id": "bgc_m17_0003:facade:01:00",
+        "source_feature_id": "osm:way:1069827306",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.08,
+        "v1": 0.125,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 131.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_01_01",
+        "component_id": "bgc_m17_0003:facade:01:01",
+        "source_feature_id": "osm:way:1069827306",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.244,
+        "v1": 0.289,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 131.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_01_02",
+        "component_id": "bgc_m17_0003:facade:01:02",
+        "source_feature_id": "osm:way:1069827306",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.408,
+        "v1": 0.453,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 131.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_01_03",
+        "component_id": "bgc_m17_0003:facade:01:03",
+        "source_feature_id": "osm:way:1069827306",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.572,
+        "v1": 0.617,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 131.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_01_04",
+        "component_id": "bgc_m17_0003:facade:01:04",
+        "source_feature_id": "osm:way:1069827306",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.736,
+        "v1": 0.781,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 131.0,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_02_00",
+        "component_id": "bgc_m17_0003:facade:02:00",
+        "source_feature_id": "osm:way:538701627",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.08,
+        "v1": 0.125,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 119.2,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_02_01",
+        "component_id": "bgc_m17_0003:facade:02:01",
+        "source_feature_id": "osm:way:538701627",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.244,
+        "v1": 0.289,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 119.2,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_02_02",
+        "component_id": "bgc_m17_0003:facade:02:02",
+        "source_feature_id": "osm:way:538701627",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.408,
+        "v1": 0.453,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 119.2,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_02_03",
+        "component_id": "bgc_m17_0003:facade:02:03",
+        "source_feature_id": "osm:way:538701627",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.572,
+        "v1": 0.617,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 119.2,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_02_04",
+        "component_id": "bgc_m17_0003:facade:02:04",
+        "source_feature_id": "osm:way:538701627",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.736,
+        "v1": 0.781,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 119.2,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_03_00",
+        "component_id": "bgc_m17_0003:facade:03:00",
+        "source_feature_id": "osm:way:71598335",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.08,
+        "v1": 0.18,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 15.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_03_01",
+        "component_id": "bgc_m17_0003:facade:03:01",
+        "source_feature_id": "osm:way:71598335",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.244,
+        "v1": 0.344,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 15.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_03_02",
+        "component_id": "bgc_m17_0003:facade:03:02",
+        "source_feature_id": "osm:way:71598335",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.408,
+        "v1": 0.508,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 15.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_03_03",
+        "component_id": "bgc_m17_0003:facade:03:03",
+        "source_feature_id": "osm:way:71598335",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.572,
+        "v1": 0.672,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 15.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "name": "M17_bgc_m17_0003_Band_03_04",
+        "component_id": "bgc_m17_0003:facade:03:04",
+        "source_feature_id": "osm:way:71598335",
+        "edges": "all",
+        "u0": 0.03,
+        "u1": 0.97,
+        "v0": 0.736,
+        "v1": 0.836,
+        "d_m": 0.08,
+        "thickness_m": 0.16,
+        "base_z_m": 0.0,
+        "height_m": 15.6,
+        "material_family": "architectural_dark_glass",
+        "runtime_group": "M17_bgc_m17_0003_FACADE",
+        "evidence_status": "INFERRED",
+        "observation_ids": [
+          "obs:bgc_m17_0003:facade",
+          "obs:bgc_m17_0003:materials"
+        ],
+        "evidence_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      }
+    ],
+    "facade_regions": [],
+    "qa_cameras": [
+      {
+        "camera_id": "qa:bgc_m17_0003:north",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -413.0375,
+          184.52300000000002,
+          50.064
+        ],
+        "target": [
+          -413.0375,
+          63.513,
+          53.64
+        ],
+        "lens_mm": 42,
+        "filename": "qa-north.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "camera_id": "qa:bgc_m17_0003:south",
+        "kind": "DIAGNOSTIC",
+        "location": [
+          -413.0375,
+          -57.49700000000003,
+          50.064
+        ],
+        "target": [
+          -413.0375,
+          63.513,
+          53.64
+        ],
+        "lens_mm": 42,
+        "filename": "qa-south.png",
+        "match": "CONSERVATIVE",
+        "reference_ids": []
+      },
+      {
+        "camera_id": "qa:bgc_m17_0003:east",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -287.46799999999996,
+          63.513,
+          50.064
+        ],
+        "target": [
+          -413.0375,
+          63.513,
+          53.64
+        ],
+        "lens_mm": 42,
+        "filename": "qa-east.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      },
+      {
+        "camera_id": "qa:bgc_m17_0003:aerial",
+        "kind": "EVIDENCE_MATCH",
+        "location": [
+          -341.2835,
+          -8.241000000000021,
+          125.16000000000001
+        ],
+        "target": [
+          -413.0375,
+          63.513,
+          53.64
+        ],
+        "lens_mm": 42,
+        "filename": "qa-aerial.png",
+        "match": "PARTIAL",
+        "reference_ids": [
+          "ref:m17:official-pse-tower",
+          "ref:m17:architect-obhs"
+        ]
+      }
+    ]
+  }
+}

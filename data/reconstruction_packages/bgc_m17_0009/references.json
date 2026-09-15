@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-15",
+  "records": [
+    {
+      "reference_id": "ref:m17:official-alveo-maridien",
+      "source_id": "source:m17:official-alveo-maridien",
+      "title": "Alveo Land — High Street South Maridien",
+      "url": "https://www.alveoland.com.ph/properties/condos/taguig/hss-maridien/",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://www.alveoland.com.ph/properties/condos/taguig/hss-maridien/",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0009",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:m17:official-alveo-bgc",
+      "source_id": "source:m17:official-alveo-bgc",
+      "title": "Alveo Land — BGC properties",
+      "url": "https://www.alveoland.com.ph/commtalk-online/properties-for-sale-taguig-bgc/",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://www.alveoland.com.ph/commtalk-online/properties-for-sale-taguig-bgc/",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0009",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

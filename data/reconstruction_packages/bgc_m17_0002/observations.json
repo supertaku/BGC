@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0002:footprint",
+      "entity_id": "bgc_m17_0002",
+      "property": "footprint",
+      "value": {
+        "area_m2": 4524.65,
+        "perimeter_m": 477.87,
+        "axis_aligned_bounds_m": {
+          "min_x": -545.82,
+          "min_y": 39.712,
+          "max_x": -442.493,
+          "max_y": 136.998
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:height",
+      "entity_id": "bgc_m17_0002",
+      "property": "height_envelope_m",
+      "value": 227.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:facade",
+      "entity_id": "bgc_m17_0002",
+      "property": "major_facade_rhythm",
+      "value": "8 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-alp-suites",
+        "source:m17:architect-suites"
+      ],
+      "reference_ids": [
+        "ref:m17:official-alp-suites",
+        "ref:m17:architect-suites"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:materials",
+      "entity_id": "bgc_m17_0002",
+      "property": "material_families",
+      "value": [
+        "light_neutral_panel",
+        "architectural_dark_glass"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-alp-suites",
+        "source:m17:architect-suites"
+      ],
+      "reference_ids": [
+        "ref:m17:official-alp-suites",
+        "ref:m17:architect-suites"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

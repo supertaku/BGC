@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_m17_0006",
+  "name": "The Mind Museum",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_m17_0006_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -627.922,
+      82.784,
+      0.0
+    ],
+    "max": [
+      -550.291,
+      209.042,
+      10.0
+    ]
+  },
+  "geographic_anchor": {
+    "local_x_m": -588.336,
+    "local_y_m": 140.56,
+    "longitude": null,
+    "latitude": null
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_m17_0006.json",
+  "generated_at": "2026-09-15T03:38:10.165819+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

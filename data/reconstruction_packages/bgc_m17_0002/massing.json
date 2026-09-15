@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0002",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 4524.65,
+    "perimeter_m": 477.87,
+    "axis_aligned_bounds_m": {
+      "min_x": -545.82,
+      "min_y": 39.712,
+      "max_x": -442.493,
+      "max_y": 136.998
+    },
+    "maximum_height_m": 227.0,
+    "height_status": "VERIFIED_GEOGRAPHIC"
+  },
+  "components": [
+    {
+      "name": "M17_bgc_m17_0002_Volume_00",
+      "component_id": "bgc_m17_0002:massing:00",
+      "source_feature_id": "osm:way:203910666",
+      "base_z_m": 0.0,
+      "height_m": 29.3,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0002:footprint",
+        "obs:bgc_m17_0002:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0002_Volume_01",
+      "component_id": "bgc_m17_0002:massing:01",
+      "source_feature_id": "osm:way:538701626",
+      "base_z_m": 0.0,
+      "height_m": 227.0,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0002:footprint",
+        "obs:bgc_m17_0002:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Evidence-bounded podium tower using grounded source volumes."
+}

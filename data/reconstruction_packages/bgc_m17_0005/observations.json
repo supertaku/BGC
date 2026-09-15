@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0005:footprint",
+      "entity_id": "bgc_m17_0005",
+      "property": "footprint",
+      "value": {
+        "area_m2": 2037.83,
+        "perimeter_m": 200.37,
+        "axis_aligned_bounds_m": {
+          "min_x": -508.127,
+          "min_y": 167.656,
+          "max_x": -456.669,
+          "max_y": 237.532
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0005:height",
+      "entity_id": "bgc_m17_0005",
+      "property": "height_envelope_m",
+      "value": 250.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0005:facade",
+      "entity_id": "bgc_m17_0005",
+      "property": "major_facade_rhythm",
+      "value": "8 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-shang-properties",
+        "source:m17:architect-handel-shang"
+      ],
+      "reference_ids": [
+        "ref:m17:official-shang-properties",
+        "ref:m17:architect-handel-shang"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0005:materials",
+      "entity_id": "bgc_m17_0005",
+      "property": "material_families",
+      "value": [
+        "light_neutral_panel",
+        "architectural_dark_glass"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-shang-properties",
+        "source:m17:architect-handel-shang"
+      ],
+      "reference_ids": [
+        "ref:m17:official-shang-properties",
+        "ref:m17:architect-handel-shang"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

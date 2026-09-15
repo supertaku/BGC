@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "milestone": "M10",
-  "generated_at": "2026-09-14T14:45:33.376651+00:00",
+  "generated_at": "2026-09-15T03:32:28.417133+00:00",
   "mode": "continue-on-error",
   "wave": "A",
   "stage": "validate",
   "results": [
     {
-      "entity_id": "bgc_building_0004",
-      "name": "One Maridien",
+      "entity_id": "bgc_m17_0001",
+      "name": "One Bonifacio High Street",
       "wave": "A",
       "status": "PASS",
-      "elapsed_seconds": 0.272,
+      "elapsed_seconds": 0.212,
       "retry_count": 0,
       "stages": [
         {
@@ -22,11 +22,41 @@
       ]
     },
     {
-      "entity_id": "bgc_building_0015",
-      "name": "JY Campos Centre",
+      "entity_id": "bgc_m17_0002",
+      "name": "The Suites at One Bonifacio High Street",
       "wave": "A",
       "status": "PASS",
-      "elapsed_seconds": 0.221,
+      "elapsed_seconds": 0.205,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_m17_0003",
+      "name": "Philippine Stock Exchange",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 0.214,
+      "retry_count": 0,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_m17_0004",
+      "name": "Arthaland Century Pacific Tower",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 0.228,
       "retry_count": 0,
       "stages": [
         {
@@ -38,7 +68,7 @@
     }
   ],
   "summary": {
-    "passed": 2,
+    "passed": 4,
     "failed": 0
   }
 }

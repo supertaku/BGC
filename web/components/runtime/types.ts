@@ -1,0 +1,129 @@
+import type * as THREE from "three";
+
+export type NavigationMode = "INSPECT" | "WALK" | "TOUR";
+export type TileMode = "DYNAMIC" | "ALL_LOADED";
+export type EnvironmentQuality = "OFF" | "LOW" | "FULL";
+export type TileState = "UNREQUESTED" | "PRELOADING" | "READY" | "ACTIVE" | "CACHED" | "ERROR";
+
+export type Viewpoint = {
+  id: string;
+  label: string;
+  position: [number, number, number];
+  target: [number, number, number];
+};
+
+export type WorldTile = {
+  tile_id: string;
+  url: string;
+  center: [number, number];
+  bounds: [number, number, number, number];
+  size_bytes: number;
+  triangles: number;
+  meshes: number;
+};
+
+export type DetailedAsset = { entity_id: string; name: string; url: string; lod: "LOD1" };
+
+export type WorldManifest = {
+  world_id: string;
+  title: string;
+  asset?: { url: string; size_bytes: number; triangles: number; meshes: number; materials: number };
+  tiles?: WorldTile[];
+  detailed_assets?: DetailedAsset[];
+  totals?: { glb_bytes: number; triangles: number; runtime_nodes: number; tiles: number };
+  tile_loading?: "ALL_LOADED" | "DISTANCE_BASED";
+  attribution: { text: string; url: string; license: string; license_url: string };
+  viewpoints: Viewpoint[];
+};
+
+export type EntityRecord = {
+  entity_id: string;
+  name: string | null;
+  aliases: string[];
+  height_m: number | null;
+  height_status: string;
+  building_type: string;
+  detailed_asset_id: string | null;
+  tile_id: string;
+  center: [number, number];
+  bounds: [number, number, number, number];
+};
+
+export type Footprint = EntityRecord & { rings: [number, number][][] };
+export type EnvironmentInstance = { id: string; position: [number, number]; grounding: "VERIFIED_GEOGRAPHIC" | "PROCEDURAL" };
+export type EnvironmentAssetType =
+  | "TREE_GENERIC"
+  | "STREET_LAMP_GENERIC"
+  | "BENCH_GENERIC"
+  | "BOLLARD_GENERIC"
+  | "WASTE_BIN_GENERIC"
+  | "SHELTER_GENERIC";
+export type TileSidecar = {
+  tile_id: string;
+  footprints: Footprint[];
+  environment: Partial<Record<EnvironmentAssetType, EnvironmentInstance[]>>;
+};
+
+export type InteractiveManifest = {
+  schema_version: number;
+  source_snapshot: string;
+  source_status: string;
+  boundary_status: string;
+  boundary: [number, number][];
+  tile_size_m: number;
+  entities: EntityRecord[];
+  tile_sidecar_url_template: string;
+  environment_counts: Partial<Record<EnvironmentAssetType, number>>;
+  procedural_environment_count: number;
+  lod1_entity_ids: string[];
+};
+
+export type TileRuntimeRecord = WorldTile & {
+  state: TileState;
+  distance: number;
+  last_used_ms: number;
+  requested_count: number;
+  model_ready: boolean;
+  sidecar?: TileSidecar;
+};
+
+export type RuntimeSummary = {
+  active: number;
+  preloading: number;
+  cached: number;
+  errors: number;
+  activeIds: string[];
+  networkBytes: number;
+  networkRequests: number;
+  repeatedRequests: number;
+  activeLod1: string[];
+  camera: [number, number, number];
+  transitions: number;
+};
+
+export type RuntimeMetrics = { fps: number; calls: number; triangles: number; geometries: number; textures: number };
+export type BenchmarkReport = {
+  status: "PASS";
+  scene: string;
+  mode: TileMode;
+  navigation: NavigationMode;
+  sample_count: number;
+  warmup_ms: number;
+  duration_ms: number;
+  mean_fps: number;
+  median_fps: number;
+  p1_low_fps: number;
+  minimum_fps: number;
+  maximum_fps: number;
+  renderer: RuntimeMetrics;
+  runtime: RuntimeSummary;
+  environment: Record<string, string | number | null>;
+};
+
+export type RuntimeRefs = {
+  focus: React.MutableRefObject<THREE.Vector3>;
+  tileRecords: React.MutableRefObject<Map<string, TileRuntimeRecord>>;
+  tileScenes: React.MutableRefObject<Map<string, THREE.Object3D>>;
+  activeTileIds: React.MutableRefObject<Set<string>>;
+  sidecars: React.MutableRefObject<Map<string, TileSidecar>>;
+};

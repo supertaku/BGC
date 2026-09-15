@@ -370,6 +370,380 @@
           "status": "AVAILABLE"
         }
       }
+    },
+    "bgc_m17_0001": {
+      "entity_id": "bgc_m17_0001",
+      "name": "One Bonifacio High Street",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:1078392706"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0001_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0001_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0001.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_003_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:1078392706"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0002": {
+      "entity_id": "bgc_m17_0002",
+      "name": "The Suites at One Bonifacio High Street",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:203910666",
+        "osm:way:538701626"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0002_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0002_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0002.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_003_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:203910666",
+            "osm:way:538701626"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0003": {
+      "entity_id": "bgc_m17_0003",
+      "name": "Philippine Stock Exchange",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:1026303383",
+        "osm:way:1069827306",
+        "osm:way:538701627",
+        "osm:way:71598335"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0003_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0003_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0003.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_003_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:1026303383",
+            "osm:way:1069827306",
+            "osm:way:538701627",
+            "osm:way:71598335"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0004": {
+      "entity_id": "bgc_m17_0004",
+      "name": "Arthaland Century Pacific Tower",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:182331875"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0004_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0004_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0004.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_003_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:182331875"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0005": {
+      "entity_id": "bgc_m17_0005",
+      "name": "Shangri-La at the Fort",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:469845355",
+        "osm:way:469845356",
+        "osm:way:469845357",
+        "osm:way:469906738",
+        "osm:way:469906739"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0005_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0005_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0005.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_003_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:469845355",
+            "osm:way:469845356",
+            "osm:way:469845357",
+            "osm:way:469906738",
+            "osm:way:469906739"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0006": {
+      "entity_id": "bgc_m17_0006",
+      "name": "The Mind Museum",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:183463814"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0006_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0006_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0006.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_002_007"
+          ],
+          "source_feature_ids": [
+            "osm:way:183463814"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0007": {
+      "entity_id": "bgc_m17_0007",
+      "name": "Maybank Performing Arts Theater",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:25006899"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0007_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0007_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0007.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_004_005"
+          ],
+          "source_feature_ids": [
+            "osm:way:25006899"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0008": {
+      "entity_id": "bgc_m17_0008",
+      "name": "High Street South Corporate Plaza",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:408450256",
+        "osm:way:533348886",
+        "osm:way:533348887"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0008_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0008_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0008.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_005_005"
+          ],
+          "source_feature_ids": [
+            "osm:way:408450256",
+            "osm:way:533348886",
+            "osm:way:533348887"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0009": {
+      "entity_id": "bgc_m17_0009",
+      "name": "Two Maridien",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:1070584579",
+        "osm:way:533348885"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0009_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0009_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0009.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_004_005"
+          ],
+          "source_feature_ids": [
+            "osm:way:1070584579",
+            "osm:way:533348885"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
+    },
+    "bgc_m17_0010": {
+      "entity_id": "bgc_m17_0010",
+      "name": "The Verve Residences One",
+      "lifecycle": {
+        "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
+        "lod2": "AVAILABLE",
+        "lod1": "APPROVED"
+      },
+      "source_feature_ids": [
+        "osm:way:1070584580",
+        "osm:way:538702986"
+      ],
+      "runtime_merge_groups": {},
+      "available_lods": {
+        "1": {
+          "asset": "exports/glb/buildings/bgc_m17_0010_lod1.glb",
+          "manifest": "data/assets/manifests/bgc_m17_0010_lod1.json",
+          "metrics": "data/reports/buildings/bgc_m17_0010.json",
+          "version": "1.0",
+          "status": "APPROVED"
+        },
+        "2": {
+          "representation": "WHOLE_BGC_TILE",
+          "manifest": "exports/bgc/manifest.json",
+          "owning_tiles": [
+            "tile_004_006"
+          ],
+          "source_feature_ids": [
+            "osm:way:1070584580",
+            "osm:way:538702986"
+          ],
+          "generator": "blender/scripts/generate_bgc_tiles.py",
+          "version": "1",
+          "status": "AVAILABLE"
+        }
+      }
     }
   }
 }

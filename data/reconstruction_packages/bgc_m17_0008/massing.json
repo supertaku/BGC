@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0008",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 2524.18,
+    "perimeter_m": 818.18,
+    "axis_aligned_bounds_m": {
+      "min_x": -44.248,
+      "min_y": -362.894,
+      "max_x": 134.048,
+      "max_y": -267.82
+    },
+    "maximum_height_m": 160.5,
+    "height_status": "VERIFIED_GEOGRAPHIC"
+  },
+  "components": [
+    {
+      "name": "M17_bgc_m17_0008_Volume_00",
+      "component_id": "bgc_m17_0008:massing:00",
+      "source_feature_id": "osm:way:408450256",
+      "base_z_m": 0.0,
+      "height_m": 15.5,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0008:footprint",
+        "obs:bgc_m17_0008:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0008_Volume_01",
+      "component_id": "bgc_m17_0008:massing:01",
+      "source_feature_id": "osm:way:533348886",
+      "base_z_m": 0.0,
+      "height_m": 122.3,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0008:footprint",
+        "obs:bgc_m17_0008:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0008_Volume_02",
+      "component_id": "bgc_m17_0008:massing:02",
+      "source_feature_id": "osm:way:533348887",
+      "base_z_m": 0.0,
+      "height_m": 160.5,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0008:footprint",
+        "obs:bgc_m17_0008:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Evidence-bounded office tower using grounded source volumes."
+}

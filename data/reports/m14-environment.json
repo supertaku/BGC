@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "source_snapshot": "data/raw/osm/bgc-2026-09-14T162150Z.json",
+  "grounding": "VERIFIED_GEOGRAPHIC",
+  "procedural_instances": 0,
+  "instances": {
+    "TREE_GENERIC": 364,
+    "STREET_LAMP_GENERIC": 4,
+    "BENCH_GENERIC": 18,
+    "BOLLARD_GENERIC": 54,
+    "WASTE_BIN_GENERIC": 6,
+    "SHELTER_GENERIC": 6,
+    "total": 452
+  },
+  "instancing": {
+    "grouping": "tile plus asset type plus material",
+    "whole_city_nonempty_groups": 52,
+    "observed_dynamic_high_street_groups": 28
+  },
+  "quality_levels": {
+    "OFF": "No street props",
+    "LOW": "Mapped trees and street lamps",
+    "FULL": "All mapped M14 categories"
+  },
+  "tile_ownership": "PASS",
+  "coordinate_grounding": "PASS",
+  "procedural_exclusion_qa": "NOT_APPLICABLE",
+  "automated_qa": {
+    "unique_tile_ownership": "PASS",
+    "within_tile_bounds": "PASS",
+    "deterministic_output": "PASS"
+  },
+  "limitation": "The immutable OSM snapshot contains sparse street-light and shelter micromapping. Generic low-poly assets represent category and location, not photographed appearance."
+}

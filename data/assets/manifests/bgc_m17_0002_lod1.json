@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_m17_0002",
+  "name": "The Suites at One Bonifacio High Street",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_m17_0002_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -545.82,
+      39.712,
+      0.0
+    ],
+    "max": [
+      -442.493,
+      136.998,
+      227.0
+    ]
+  },
+  "geographic_anchor": {
+    "local_x_m": -493.945,
+    "local_y_m": 89.471,
+    "longitude": null,
+    "latitude": null
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_m17_0002.json",
+  "generated_at": "2026-09-15T03:36:30.014914+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0006",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:183463814",
+      "properties": {
+        "id": "osm:way:183463814",
+        "source_ids": [
+          "osm:way:183463814",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "The Mind Museum",
+        "feature_kind": "building_outline",
+        "height_m": 10.0,
+        "min_height_m": 0.0,
+        "levels": 2.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": null,
+        "footprint_area_m2": 6407.38,
+        "tags": {
+          "addr:city": "Taguig",
+          "addr:street": "Rizal Drive",
+          "addr:street:corner": "30th Street",
+          "building": "yes",
+          "building:levels": "2",
+          "height": "10",
+          "layer": "1",
+          "name": "The Mind Museum",
+          "wikidata": "Q7751515",
+          "wikipedia": "en:The Mind Museum"
+        },
+        "canonical_entity_id": "osm:way:183463814",
+        "render_role": "building_outline"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -563.192,
+              188.249
+            ],
+            [
+              -595.383,
+              209.042
+            ],
+            [
+              -601.456,
+              198.526
+            ],
+            [
+              -607.954,
+              181.118
+            ],
+            [
+              -610.972,
+              171.151
+            ],
+            [
+              -616.547,
+              153.249
+            ],
+            [
+              -622.672,
+              131.611
+            ],
+            [
+              -625.449,
+              115.655
+            ],
+            [
+              -627.837,
+              103.746
+            ],
+            [
+              -625.513,
+              101.966
+            ],
+            [
+              -612.996,
+              94.666
+            ],
+            [
+              -595.6,
+              84.49
+            ],
+            [
+              -594.036,
+              85.805
+            ],
+            [
+              -590.931,
+              84.705
+            ],
+            [
+              -585.742,
+              83.875
+            ],
+            [
+              -580.325,
+              83.319
+            ],
+            [
+              -576.426,
+              82.932
+            ],
+            [
+              -574.748,
+              83.78
+            ],
+            [
+              -572.798,
+              86.165
+            ],
+            [
+              -571.071,
+              88.961
+            ],
+            [
+              -568.271,
+              93.707
+            ],
+            [
+              -550.961,
+              138.876
+            ],
+            [
+              -550.44,
+              143.043
+            ],
+            [
+              -550.777,
+              146.499
+            ],
+            [
+              -552.298,
+              150.098
+            ],
+            [
+              -554.67,
+              153.814
+            ],
+            [
+              -556.688,
+              156.1
+            ],
+            [
+              -559.083,
+              157.072
+            ],
+            [
+              -559.427,
+              164.678
+            ],
+            [
+              -559.544,
+              173.765
+            ],
+            [
+              -560.126,
+              181.239
+            ],
+            [
+              -563.192,
+              188.249
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

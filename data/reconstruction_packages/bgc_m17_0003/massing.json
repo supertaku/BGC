@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0003",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 2099.5,
+    "perimeter_m": 187.47,
+    "axis_aligned_bounds_m": {
+      "min_x": -442.935,
+      "min_y": 38.175,
+      "max_x": -383.14,
+      "max_y": 88.851
+    },
+    "maximum_height_m": 131.0,
+    "height_status": "VERIFIED_GEOGRAPHIC"
+  },
+  "components": [
+    {
+      "name": "M17_bgc_m17_0003_Volume_00",
+      "component_id": "bgc_m17_0003:massing:00",
+      "source_feature_id": "osm:way:1026303383",
+      "base_z_m": 0.0,
+      "height_m": 12.0,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; procedural height",
+      "evidence_status": "PROCEDURAL",
+      "observation_ids": [
+        "obs:bgc_m17_0003:footprint",
+        "obs:bgc_m17_0003:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0003_Volume_01",
+      "component_id": "bgc_m17_0003:massing:01",
+      "source_feature_id": "osm:way:1069827306",
+      "base_z_m": 0.0,
+      "height_m": 131.0,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0003:footprint",
+        "obs:bgc_m17_0003:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0003_Volume_02",
+      "component_id": "bgc_m17_0003:massing:02",
+      "source_feature_id": "osm:way:538701627",
+      "base_z_m": 0.0,
+      "height_m": 119.2,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0003:footprint",
+        "obs:bgc_m17_0003:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0003_Volume_03",
+      "component_id": "bgc_m17_0003:massing:03",
+      "source_feature_id": "osm:way:71598335",
+      "base_z_m": 0.0,
+      "height_m": 15.6,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0003:footprint",
+        "obs:bgc_m17_0003:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Evidence-bounded office landmark using grounded source volumes."
+}

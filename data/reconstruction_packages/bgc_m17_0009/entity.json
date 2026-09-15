@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0009",
+  "entity_type": "BUILDING",
+  "canonical_name": "Two Maridien",
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.92,
+  "centroid": {
+    "local_x_m": -95.496,
+    "local_y_m": -270.09,
+    "longitude": null,
+    "latitude": null
+  },
+  "geographic_feature_ids": [
+    "osm:way:1070584579",
+    "osm:way:533348885"
+  ],
+  "source_ids": [
+    "source:osm",
+    "source:m17:official-alveo-maridien",
+    "source:m17:official-alveo-bgc"
+  ],
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

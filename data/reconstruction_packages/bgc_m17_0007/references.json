@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-15",
+  "records": [
+    {
+      "reference_id": "ref:m17:official-bgc-arts-spaces",
+      "source_id": "source:m17:official-bgc-arts-spaces",
+      "title": "BGC Arts Center — Spaces",
+      "url": "https://www.bgcartscenter.org/spaces",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://www.bgcartscenter.org/spaces",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0007",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:m17:official-bgc-arts-about",
+      "source_id": "source:m17:official-bgc-arts-about",
+      "title": "BGC Arts Center — About",
+      "url": "https://www.bgcartscenter.org/about",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://www.bgcartscenter.org/about",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0007",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

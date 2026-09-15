@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "observations": [
+    {
+      "observation_id": "obs:bgc_m17_0006:footprint",
+      "entity_id": "bgc_m17_0006",
+      "property": "footprint",
+      "value": {
+        "area_m2": 6407.4,
+        "perimeter_m": 322.17,
+        "axis_aligned_bounds_m": {
+          "min_x": -627.837,
+          "min_y": 82.932,
+          "max_x": -550.44,
+          "max_y": 209.042
+        }
+      },
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.8,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "processed_osm_geometry",
+      "notes": "Community-mapped geometry; not cadastral."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0006:height",
+      "entity_id": "bgc_m17_0006",
+      "property": "height_envelope_m",
+      "value": 10.0,
+      "status": "VERIFIED_GEOGRAPHIC",
+      "confidence": 0.75,
+      "source_ids": [
+        "source:osm"
+      ],
+      "reference_ids": [],
+      "method": "osm_height",
+      "notes": "Retains source evidence status."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0006:facade",
+      "entity_id": "bgc_m17_0006",
+      "property": "major_facade_rhythm",
+      "value": "3 broad normalized bands",
+      "status": "INFERRED",
+      "confidence": 0.62,
+      "source_ids": [
+        "source:m17:official-mind-museum",
+        "source:m17:project-mind-museum"
+      ],
+      "reference_ids": [
+        "ref:m17:official-mind-museum",
+        "ref:m17:project-mind-museum"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0006:materials",
+      "entity_id": "bgc_m17_0006",
+      "property": "material_families",
+      "value": [
+        "light_neutral_panel",
+        "dark_metal"
+      ],
+      "status": "INFERRED",
+      "confidence": 0.65,
+      "source_ids": [
+        "source:m17:official-mind-museum",
+        "source:m17:project-mind-museum"
+      ],
+      "reference_ids": [
+        "ref:m17:official-mind-museum",
+        "ref:m17:project-mind-museum"
+      ],
+      "method": "bounded_reference_interpretation",
+      "notes": "Broad PBR families only; no photographic textures."
+    }
+  ],
+  "conflicts": []
+}

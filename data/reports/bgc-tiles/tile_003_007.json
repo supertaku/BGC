@@ -1,14 +1,14 @@
 {
   "status": "PASS",
   "tile_id": "tile_003_007",
-  "input_sha256": "46df2ff4b6f2ebc3209f785b326b2022b7f4052a899ea20e6c2031b9d9df423c",
-  "output_sha256": "9690572806d165af9174d8cf7a3cba0a3b652ea6b3539d94c33ef4533d3e4c7f",
+  "input_sha256": "ffb012bfd77615e337f18f8049a4afa4648ad2156dcc99ed47eb37d88300fdea",
+  "output_sha256": "96d60928881db1270a8a79745419f5bfe92d745c76728a933bcb3db1a1cf8adb",
   "building_count": 11,
   "render_volume_count": 24,
-  "mesh_count": 10,
+  "mesh_count": 13,
   "triangle_count": 6816,
   "material_count": 8,
-  "bytes": 324560,
+  "bytes": 328564,
   "entities": [
     {
       "entity_id": "osm:way:1078392706",
@@ -250,5 +250,6 @@
       "lod": "LOD2",
       "render_role": "outline_residual"
     }
-  ]
+  ],
+  "representation": "MERGED_BY_TILE_MATERIAL"
 }

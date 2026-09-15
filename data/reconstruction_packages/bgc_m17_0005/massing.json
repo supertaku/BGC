@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0005",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 2037.83,
+    "perimeter_m": 200.37,
+    "axis_aligned_bounds_m": {
+      "min_x": -508.127,
+      "min_y": 167.656,
+      "max_x": -456.669,
+      "max_y": 237.532
+    },
+    "maximum_height_m": 250.0,
+    "height_status": "VERIFIED_GEOGRAPHIC"
+  },
+  "components": [
+    {
+      "name": "M17_bgc_m17_0005_Volume_00",
+      "component_id": "bgc_m17_0005:massing:00",
+      "source_feature_id": "osm:way:469845355",
+      "base_z_m": 0.0,
+      "height_m": 250.0,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0005:footprint",
+        "obs:bgc_m17_0005:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0005_Volume_01",
+      "component_id": "bgc_m17_0005:massing:01",
+      "source_feature_id": "osm:way:469845356",
+      "base_z_m": 0.0,
+      "height_m": 25.9,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0005:footprint",
+        "obs:bgc_m17_0005:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0005_Volume_02",
+      "component_id": "bgc_m17_0005:massing:02",
+      "source_feature_id": "osm:way:469845357",
+      "base_z_m": 0.0,
+      "height_m": 31.1,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0005:footprint",
+        "obs:bgc_m17_0005:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0005_Volume_03",
+      "component_id": "bgc_m17_0005:massing:03",
+      "source_feature_id": "osm:way:469906738",
+      "base_z_m": 19.2,
+      "height_m": 169.60000000000002,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; estimated height",
+      "evidence_status": "ESTIMATED",
+      "observation_ids": [
+        "obs:bgc_m17_0005:footprint",
+        "obs:bgc_m17_0005:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    },
+    {
+      "name": "M17_bgc_m17_0005_Volume_04",
+      "component_id": "bgc_m17_0005:massing:04",
+      "source_feature_id": "osm:way:469906739",
+      "base_z_m": 0.0,
+      "height_m": 241.0,
+      "material_family": "light_neutral_panel",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0005:footprint",
+        "obs:bgc_m17_0005:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Evidence-bounded hotel podium tower using grounded source volumes."
+}

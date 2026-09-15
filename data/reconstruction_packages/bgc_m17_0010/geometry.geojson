@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0010",
+  "projected_crs": "EPSG:32651",
+  "source_crs": "EPSG:4326",
+  "local_origin_wgs84": [
+    121.050972,
+    14.550806
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm:way:1070584580",
+      "properties": {
+        "id": "osm:way:1070584580",
+        "source_ids": [
+          "osm:way:1070584580",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": "The Verve Residences One",
+        "feature_kind": "building_outline",
+        "height_m": 24.4,
+        "min_height_m": 0.0,
+        "levels": 5.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": "beige",
+        "footprint_area_m2": 3046.22,
+        "tags": {
+          "building": "apartments",
+          "building:colour": "beige",
+          "building:levels": "5",
+          "height": "24.4",
+          "name": "The Verve Residences One"
+        },
+        "render_role": "outline_residual",
+        "canonical_entity_id": "osm:way:1070584580"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -219.236,
+              -207.657
+            ],
+            [
+              -148.489,
+              -231.358
+            ],
+            [
+              -161.604,
+              -270.023
+            ],
+            [
+              -232.351,
+              -246.322
+            ],
+            [
+              -219.236,
+              -207.657
+            ]
+          ],
+          [
+            [
+              -218.785,
+              -245.663
+            ],
+            [
+              -205.888,
+              -250.101
+            ],
+            [
+              -204.97,
+              -247.486
+            ],
+            [
+              -185.861,
+              -254.068
+            ],
+            [
+              -186.58,
+              -256.131
+            ],
+            [
+              -173.822,
+              -260.534
+            ],
+            [
+              -163.59,
+              -231.207
+            ],
+            [
+              -208.364,
+              -215.784
+            ],
+            [
+              -218.785,
+              -245.663
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm:way:538702986",
+      "properties": {
+        "id": "osm:way:538702986",
+        "source_ids": [
+          "osm:way:538702986",
+          "source:osm"
+        ],
+        "parent_ids": [],
+        "name": null,
+        "feature_kind": "building_part",
+        "height_m": 172.0,
+        "min_height_m": 0.0,
+        "levels": 45.0,
+        "height_status": "VERIFIED_GEOGRAPHIC",
+        "height_method": "osm_height",
+        "height_confidence": 0.75,
+        "footprint_status": "VERIFIED_GEOGRAPHIC",
+        "footprint_confidence": 0.8,
+        "material": null,
+        "colour": "beige",
+        "footprint_area_m2": 1434.38,
+        "tags": {
+          "building:colour": "beige",
+          "building:levels": "45",
+          "building:part": "yes",
+          "height": "172"
+        },
+        "canonical_entity_id": "osm:way:1070584580",
+        "render_role": "building_part",
+        "parent_outline_id": "osm:way:1070584580"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -208.364,
+              -215.784
+            ],
+            [
+              -218.785,
+              -245.663
+            ],
+            [
+              -205.888,
+              -250.101
+            ],
+            [
+              -204.97,
+              -247.486
+            ],
+            [
+              -185.861,
+              -254.068
+            ],
+            [
+              -186.58,
+              -256.131
+            ],
+            [
+              -173.822,
+              -260.534
+            ],
+            [
+              -163.59,
+              -231.207
+            ],
+            [
+              -208.364,
+              -215.784
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

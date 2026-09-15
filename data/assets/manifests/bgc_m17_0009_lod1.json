@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "entity_id": "bgc_m17_0009",
+  "name": "Two Maridien",
+  "lod": 1,
+  "asset": "exports/glb/buildings/bgc_m17_0009_lod1.glb",
+  "bounds_m": {
+    "min": [
+      -137.848,
+      -301.139,
+      0.0
+    ],
+    "max": [
+      -53.144,
+      -239.042,
+      160.5
+    ]
+  },
+  "geographic_anchor": {
+    "local_x_m": -95.496,
+    "local_y_m": -270.09,
+    "longitude": null,
+    "latitude": null
+  },
+  "evidence_status": "RECONSTRUCTION_READY_WITH_GAPS",
+  "metrics": "data/reports/buildings/bgc_m17_0009.json",
+  "generated_at": "2026-09-15T03:39:57.334427+00:00",
+  "runtime_metadata_policy": "compact identity/component IDs in GLB extras; canonical evidence external"
+}

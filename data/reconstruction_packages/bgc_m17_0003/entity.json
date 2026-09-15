@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0003",
+  "entity_type": "BUILDING",
+  "canonical_name": "Philippine Stock Exchange",
+  "status": "ACTIVE",
+  "identity_status": "CONFIRMED",
+  "identity_confidence": 0.92,
+  "centroid": {
+    "local_x_m": -417.871,
+    "local_y_m": 64.22,
+    "longitude": null,
+    "latitude": null
+  },
+  "geographic_feature_ids": [
+    "osm:way:1026303383",
+    "osm:way:1069827306",
+    "osm:way:538701627",
+    "osm:way:71598335"
+  ],
+  "source_ids": [
+    "source:osm",
+    "source:m17:official-pse-tower",
+    "source:m17:architect-obhs"
+  ],
+  "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS"
+}

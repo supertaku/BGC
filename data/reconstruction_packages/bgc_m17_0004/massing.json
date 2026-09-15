@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0004",
+  "coordinate_frame": {
+    "axes": {
+      "x": "east",
+      "y": "north",
+      "z": "up"
+    },
+    "units": "metres"
+  },
+  "known_dimensions": {
+    "area_m2": 2148.55,
+    "perimeter_m": 186.06,
+    "axis_aligned_bounds_m": {
+      "min_x": -289.156,
+      "min_y": 178.42,
+      "max_x": -227.637,
+      "max_y": 234.83
+    },
+    "maximum_height_m": 114.7,
+    "height_status": "VERIFIED_GEOGRAPHIC"
+  },
+  "components": [
+    {
+      "name": "M17_bgc_m17_0004_Volume_00",
+      "component_id": "bgc_m17_0004:massing:00",
+      "source_feature_id": "osm:way:182331875",
+      "base_z_m": 0.0,
+      "height_m": 114.7,
+      "material_family": "architectural_dark_glass",
+      "classification": "verified geographic footprint; verified_geographic height",
+      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "observation_ids": [
+        "obs:bgc_m17_0004:footprint",
+        "obs:bgc_m17_0004:height"
+      ],
+      "evidence_ids": [
+        "source:osm"
+      ]
+    }
+  ],
+  "massing_summary": "Evidence-bounded office tower using grounded source volumes."
+}

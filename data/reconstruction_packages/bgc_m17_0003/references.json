@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-15",
+  "records": [
+    {
+      "reference_id": "ref:m17:official-pse-tower",
+      "source_id": "source:m17:official-pse-tower",
+      "title": "Philippine Stock Exchange — BGC headquarters",
+      "url": "https://www.pse.com.ph/pse-begins-trading-at-bgc-headquarters/",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://www.pse.com.ph/pse-begins-trading-at-bgc-headquarters/",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0003",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:m17:architect-obhs",
+      "source_id": "source:m17:architect-obhs",
+      "title": "Handel Architects — One Bonifacio High Street",
+      "url": "https://handelarchitects.com/latest/one-bonifacio-high-street-in-manila-breaks-ground",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "source_page_url": "https://handelarchitects.com/latest/one-bonifacio-high-street-in-manila-breaks-ground",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0003",
+          "relationship": "IDENTITY_FACTS_AND_EXTERIOR",
+          "confidence": 0.9
+        }
+      ],
+      "reference_role": "IDENTITY_FACTS_AND_EXTERIOR",
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true
+    }
+  ]
+}

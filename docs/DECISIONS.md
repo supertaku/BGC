@@ -95,3 +95,19 @@ Keep reconstruction schema 1.0. Add one winding-aware polygon-edge facade primit
 ## 2026-09-15 — Whole-city fixed grid and merged tile runtime
 
 Generate M11 as deterministic 250 m local-meter tiles, with canonical building ownership by centroid and contained parts following their outline. Subtract part footprints from parent outlines before extrusion to avoid duplicate massing. Keep individual objects during authoring, merge runtime geometry by tile/material, and preserve entity lookup in the manifest sidecar. Load all 94 tiles initially because the measured 15.58 MB scene remains smooth on the current desktop; defer distance streaming until scaling evidence requires it.
+
+## 2026-09-15 — Visibility-first dynamic tile runtime
+
+Use the M11 world manifest with explicit runtime states and 500/650/750/1,000 m active/deactivate/preload/retention rings. Retain fetched GLBs in the Drei loader cache and mounted scene graph because the complete city is only 15.28 MB. Treat ALL_LOADED as a supported fallback. Do not hard-evict until measured memory pressure justifies network refetch risk.
+
+## 2026-09-15 — Registry-driven split-file landmark LOD
+
+Use a custom manager for seven separate LOD1 GLBs and tile-owned merged LOD2 groups. Preload at 360 m, activate at 180 m, and restore beyond 230 m. This preserves existing packaging and provenance rather than restructuring assets solely to fit `THREE.LOD`.
+
+## 2026-09-15 — Sidecars separate interaction from rendering
+
+Keep merged tile GLBs for rendering. Generate compact per-tile footprint/environment sidecars for nearby 2D collision and picking, plus a 263-record named/detailed global search index. Runtime spatial work stays in local project metres; latitude/longitude projection remains offline.
+
+## 2026-09-15 — Source-grounded instanced environment
+
+Reuse the immutable normalized OSM POIs and add no procedural filler because 452 mapped objects provide a useful first layer. Assign every object to one M11 tile and instance by tile plus asset type. Generic geometry represents category and mapped position, not photographed appearance.
