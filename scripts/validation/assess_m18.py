@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 import json
+import subprocess
 from pathlib import Path
 
 
@@ -55,12 +56,15 @@ def main() -> None:
                                 "low_draw_call_delta_pct": round(calls_delta, 2),
                                 "full_p1_vs_low_delta_pct": round(full_p1_delta, 2),
                                 "transfer_and_lod1_matched": same_load}
-    if not low_pass or not full_p1_failures:
-        raise ValueError("Capture assessment differs from reviewed LOW pass / FULL rejection")
+    branch = subprocess.run(["git", "branch", "--show-current"], cwd=ROOT, capture_output=True, text=True, check=False).stdout.strip() or None
+    git_sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True, check=False).stdout.strip() or None
+    full_status = "REJECTED" if full_p1_failures else "PASS"
+    status = "PASS" if low_pass else "FAIL"
     generated_at = datetime.now(timezone.utc).isoformat()
     report = {"schema_version": 1, "milestone": "M18A", "generated_at": generated_at,
-              "status": "PASS", "default_quality": "LOW", "legacy_mode": "PASS", "low_mode": "PASS",
-              "full_mode": "REJECTED", "full_shadows": "DIAGNOSTICS_ONLY",
+              "branch": branch, "git_sha": git_sha,
+              "status": status, "default_quality": "LOW", "legacy_mode": "PASS", "low_mode": "PASS" if low_pass else "FAIL",
+              "full_mode": full_status, "full_shadows": "DIAGNOSTICS_ONLY" if full_p1_failures else "AVAILABLE",
               "capture_source": "data/reports/m18-foreground-captures.json",
               "capture_time": captures["captured_at"], "matched_scenarios": list(SCENARIOS),
               "comparison": comparison, "full_p1_failures": full_p1_failures,
@@ -71,13 +75,15 @@ def main() -> None:
     fidelity = read(fidelity_path)
     if fidelity.get("m16") != "PASS" or fidelity.get("m17") != "CLOSED_WITH_DEFERMENT":
         raise ValueError("M16/M17 release prerequisites are not closed")
-    fidelity.update(generated_at=generated_at,
+    fidelity.update(generated_at=generated_at, branch=branch, git_sha=git_sha,
                     combined_milestone="M17C-M18A — Visual Fidelity Closure",
-                    phase="PASS_WITH_DOCUMENTED_LANDMARK_DEFERMENT", m18="PASS",
-                    visual_system="LOW_ACCEPTED_FULL_REJECTED",
+                    phase="PASS_WITH_DOCUMENTED_LANDMARK_DEFERMENT" if low_pass else "FAIL", m18=status,
+                    visual_system=f"LOW_{'ACCEPTED' if low_pass else 'FAILED'}_FULL_{full_status}",
                     dominant_remaining_weakness="PSE pointed upper silhouette and body/frontpiece relationship remain unresolved.")
     write(fidelity_path, fidelity)
-    print(f"M18A: LOW PASS; FULL REJECTED ({', '.join(full_p1_failures)})")
+    print(f"M18A: LOW {status}; FULL {full_status} ({', '.join(full_p1_failures)})")
+    if not low_pass:
+        raise ValueError("M18 acceptance failed: LOW exceeded the measured limits")
 
 
 if __name__ == "__main__":

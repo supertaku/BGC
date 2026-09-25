@@ -79,6 +79,12 @@ export function NavigationController({ mode, viewpoint, refs, focusRequest, tour
   }, [camera, mode, refs.focus]);
 
   useEffect(() => {
+    if (mode !== "WALK") pointer.current?.unlock();
+    keys.current.clear();
+    transition.current = null;
+  }, [mode]);
+
+  useEffect(() => {
     const entity = focusRequest?.entity ?? (mode === "TOUR" ? tourStop : null);
     if (!entity) return;
     const height = Math.max(20, entity.height_m ?? 20);

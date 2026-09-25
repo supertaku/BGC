@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "milestone": "M19",
+  "generated_at": "2026-09-25T14:40:47Z",
+  "branch": "main",
+  "git_sha": "765473d55b7062af52c0d26e5e601e7f90ef5a5f",
+  "status": "PARTIAL",
+  "product_name": "BGC 3D",
+  "public_modes": ["Explore", "Walk", "Tour"],
+  "search_entity_count": 263,
+  "tour_stop_count": 7,
+  "deep_link_support": ["place", "mode", "tour"],
+  "share_support": ["Web Share", "Clipboard fallback"],
+  "desktop_qa": "PASS",
+  "narrow_qa": "PARTIAL",
+  "keyboard_qa": "PARTIAL",
+  "reduced_motion_qa": "CODE_REVIEW_PASS",
+  "accessibility_status": "PARTIAL",
+  "debug_hidden_by_default": true,
+  "public_engineering_controls_removed": true,
+  "build": "PASS",
+  "lint": "PASS",
+  "tests": "55 repository tests and product-state validation PASS",
+  "performance_regression_status": "NOT_COMPARABLE_IN_BACKGROUNDED_BROWSER",
+  "known_limitations": [
+    "Pointer lock, WASD, sprint, collision, and Escape release not verified in controlled browser",
+    "Matched foreground M19 performance captures unavailable",
+    "Phone-width and 200 percent zoom accessibility passes not completed"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "milestone": "M19",
+  "generated_at": "2026-09-25T14:40:47Z",
+  "branch": "main",
+  "git_sha": "765473d55b7062af52c0d26e5e601e7f90ef5a5f",
+  "browser": "Chrome controlled session and Codex in-app browser",
+  "passed": [
+    "root entry",
+    "named search and Enter selection",
+    "no-result state",
+    "valid place link",
+    "invalid place fallback",
+    "Walk place preparation",
+    "seven-stop tour progression",
+    "browser Back and Forward",
+    "debug isolation",
+    "attribution visibility",
+    "desktop layout"
+  ],
+  "partial": ["726 px narrow layout", "keyboard and focus audit"],
+  "not_tested": ["pointer-lock movement", "phone-width layout", "200 percent zoom", "matched foreground performance"],
+  "performance_observation": {
+    "scenario": "HIGH_STREET_INSPECT",
+    "m18_low_foreground_median_fps": 163.93,
+    "m19_backgrounded_controlled_browser_median_fps": 1,
+    "comparable": false
+  }
+}
