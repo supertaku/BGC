@@ -1,4 +1,4 @@
-"""Validate and build an M10 reconstruction batch with isolated target results."""
+"""Validate and build a reconstruction batch with isolated target results."""
 
 from __future__ import annotations
 
@@ -31,6 +31,7 @@ def main() -> None:
     mode.add_argument("--continue-on-error", action="store_true")
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
+    milestone = str(manifest.get("milestone", "M10")).lower()
     targets = [item for item in manifest["targets"] if args.wave == "ALL" or item["wave"] == args.wave]
     if args.entity_ids:
         targets = [item for item in targets if item["entity_id"] in set(args.entity_ids)]
@@ -58,7 +59,7 @@ def main() -> None:
             ])
         status = "PASS"
         for label, command in commands:
-            if label == "registry":
+            if label == "registry" and manifest.get("approval_policy") != "VISUAL_QA_REQUIRED":
                 registry_path = ROOT / "data/assets/buildings.json"
                 registry = json.loads(registry_path.read_text(encoding="utf-8"))
                 registry["buildings"][entity_id]["available_lods"]["1"]["status"] = "APPROVED"
@@ -71,12 +72,12 @@ def main() -> None:
                 break
         elapsed = round(time.perf_counter() - started, 3)
         results.append({"entity_id": entity_id, "name": target["name"], "wave": target["wave"], "status": status, "elapsed_seconds": elapsed, "retry_count": args.retry_count, "stages": stages})
-        print(f"M10_TARGET {entity_id} {status} elapsed={elapsed}s")
+        print(f"{milestone.upper()}_TARGET {entity_id} {status} elapsed={elapsed}s")
         if status == "FAIL" and args.fail_fast:
             break
     report = {
         "schema_version": 1,
-        "milestone": "M10",
+        "milestone": milestone.upper(),
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "mode": "fail-fast" if args.fail_fast else "continue-on-error",
         "wave": args.wave,
@@ -85,9 +86,9 @@ def main() -> None:
         "summary": {"passed": sum(item["status"] == "PASS" for item in results), "failed": sum(item["status"] == "FAIL" for item in results)},
     }
     suffix = f"-retry-{args.retry_count}" if args.entity_ids else ""
-    output = ROOT / f"data/reports/m10-batch-{args.wave.lower()}-{args.stage}{suffix}.json"
+    output = ROOT / f"data/reports/{milestone}-batch-{args.wave.lower()}-{args.stage}{suffix}.json"
     output.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    print(f"M10_BATCH {'PASS' if not report['summary']['failed'] else 'FAIL'} report={output.relative_to(ROOT)}")
+    print(f"{milestone.upper()}_BATCH {'PASS' if not report['summary']['failed'] else 'FAIL'} report={output.relative_to(ROOT)}")
     raise SystemExit(1 if report["summary"]["failed"] else 0)
 
 

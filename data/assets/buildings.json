@@ -377,7 +377,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:1078392706"
@@ -389,14 +389,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0001_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0001.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_003_007"
-          ],
           "source_feature_ids": [
             "osm:way:1078392706"
           ],
@@ -412,7 +409,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:203910666",
@@ -425,14 +422,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0002_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0002.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_003_007"
-          ],
           "source_feature_ids": [
             "osm:way:203910666",
             "osm:way:538701626"
@@ -449,7 +443,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:1026303383",
@@ -464,14 +458,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0003_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0003.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_003_007"
-          ],
           "source_feature_ids": [
             "osm:way:1026303383",
             "osm:way:1069827306",
@@ -490,7 +481,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:182331875"
@@ -502,14 +493,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0004_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0004.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_003_007"
-          ],
           "source_feature_ids": [
             "osm:way:182331875"
           ],
@@ -525,7 +513,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:469845355",
@@ -541,14 +529,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0005_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0005.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_003_007"
-          ],
           "source_feature_ids": [
             "osm:way:469845355",
             "osm:way:469845356",
@@ -568,7 +553,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:183463814"
@@ -580,14 +565,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0006_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0006.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_002_007"
-          ],
           "source_feature_ids": [
             "osm:way:183463814"
           ],
@@ -603,7 +585,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:25006899"
@@ -615,14 +597,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0007_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0007.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_004_005"
-          ],
           "source_feature_ids": [
             "osm:way:25006899"
           ],
@@ -638,7 +617,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:408450256",
@@ -652,14 +631,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0008_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0008.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_005_005"
-          ],
           "source_feature_ids": [
             "osm:way:408450256",
             "osm:way:533348886",
@@ -677,7 +653,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:1070584579",
@@ -690,14 +666,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0009_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0009.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_004_005"
-          ],
           "source_feature_ids": [
             "osm:way:1070584579",
             "osm:way:533348885"
@@ -714,7 +687,7 @@
       "lifecycle": {
         "evidence": "RECONSTRUCTION_READY_WITH_GAPS",
         "lod2": "AVAILABLE",
-        "lod1": "APPROVED"
+        "lod1": "PENDING_VISUAL_QA"
       },
       "source_feature_ids": [
         "osm:way:1070584580",
@@ -727,14 +700,11 @@
           "manifest": "data/assets/manifests/bgc_m17_0010_lod1.json",
           "metrics": "data/reports/buildings/bgc_m17_0010.json",
           "version": "1.0",
-          "status": "APPROVED"
+          "status": "PENDING_VISUAL_QA"
         },
         "2": {
           "representation": "WHOLE_BGC_TILE",
           "manifest": "exports/bgc/manifest.json",
-          "owning_tiles": [
-            "tile_004_006"
-          ],
           "source_feature_ids": [
             "osm:way:1070584580",
             "osm:way:538702986"

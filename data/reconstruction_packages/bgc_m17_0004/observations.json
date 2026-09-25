@@ -29,14 +29,26 @@
       "entity_id": "bgc_m17_0004",
       "property": "height_envelope_m",
       "value": 114.7,
-      "status": "VERIFIED_GEOGRAPHIC",
-      "confidence": 0.75,
+      "status": "CONFLICTED",
+      "confidence": 0.35,
       "source_ids": [
         "source:osm"
       ],
       "reference_ids": [],
       "method": "osm_height",
-      "notes": "Retains source evidence status."
+      "notes": "OSM reports 114.7 m; SOM's project facts report 136 m. Model still uses the OSM envelope; resolve before approval."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0004:height-architect",
+      "entity_id": "bgc_m17_0004",
+      "property": "height_envelope_m",
+      "value": 136.0,
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": ["source:m17:architect-som-acpt"],
+      "reference_ids": ["ref:m17:architect-som-acpt"],
+      "method": "architect_project_facts",
+      "notes": "SOM project height; relationship to the OSM height convention is unresolved."
     },
     {
       "observation_id": "obs:bgc_m17_0004:facade",
@@ -78,5 +90,5 @@
       "notes": "Broad PBR families only; no photographic textures."
     }
   ],
-  "conflicts": []
+  "conflicts": ["obs:bgc_m17_0004:height"]
 }

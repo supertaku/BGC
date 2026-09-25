@@ -51,8 +51,9 @@ class M11WholeBgcTests(unittest.TestCase):
 
     def test_existing_seven_lod1_assets_remain_registered(self):
         registry = json.loads((ROOT / "data" / "assets" / "buildings.json").read_text(encoding="utf-8"))
-        approved = [entry for entry in registry["buildings"].values() if entry.get("available_lods", {}).get("1", {}).get("status") == "APPROVED"]
-        self.assertEqual(len(approved), 7)
+        approved = {entity_id for entity_id, entry in registry["buildings"].items() if entry.get("available_lods", {}).get("1", {}).get("status") == "APPROVED"}
+        original = {"bgc_building_0014", "bgc_building_0007", "bgc_building_0004", "bgc_building_0015", "bgc_building_0005", "bgc_building_0027", "bgc_building_0011"}
+        self.assertTrue(original <= approved, f"original LOD1 assets missing: {sorted(original - approved)}")
 
 
 if __name__ == "__main__":

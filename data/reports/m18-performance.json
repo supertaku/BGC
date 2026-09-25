@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "milestone": "M18",
+  "generated_at": "2026-09-25T08:46:05.745782+00:00",
+  "status": "NOT_GATED",
+  "default_quality": "LOW",
+  "full_shadows": "OPT_IN_UNBENCHMARKED",
+  "before": {
+    "source": "M15 foreground validation (not captured as a comparable machine-readable report)",
+    "initial_bytes": null,
+    "walk_mean_fps": null,
+    "walk_p1_fps": null,
+    "peak_draw_calls": null,
+    "textures": null
+  },
+  "after": {
+    "scenarios_measured": [],
+    "initial_bytes": null,
+    "walk_mean_fps": null,
+    "walk_p1_fps": null,
+    "peak_draw_calls": null,
+    "textures": null
+  },
+  "legacy_m11_all_loaded_reference": "data/reports/m11-browser-benchmark.json",
+  "note": "M11 Chrome results are a different runtime/scenario and must not be presented as M15-to-M18 deltas."
+}

@@ -46,10 +46,20 @@ class InteractiveRuntimeTests(unittest.TestCase):
 
     def test_lod_and_search_index_contract(self):
         index = json.loads(INDEX.read_text(encoding="utf-8"))
-        self.assertEqual(len(index["lod1_entity_ids"]), 7)
+        registry = json.loads((ROOT / "data" / "assets" / "buildings.json").read_text(encoding="utf-8"))
+        approved = {entity_id for entity_id, entry in registry["buildings"].items() if entry.get("available_lods", {}).get("1", {}).get("status") == "APPROVED"}
+        self.assertEqual(set(index["lod1_entity_ids"]), approved)
         indexed_lods = {entity["detailed_asset_id"] for entity in index["entities"] if entity["detailed_asset_id"]}
         self.assertEqual(set(index["lod1_entity_ids"]), indexed_lods)
         self.assertTrue(all(entity["name"] or entity["detailed_asset_id"] for entity in index["entities"]))
+
+    def test_pending_visual_qa_assets_are_not_published(self):
+        registry = json.loads((ROOT / "data" / "assets" / "buildings.json").read_text(encoding="utf-8"))
+        world = json.loads(WORLD.read_text(encoding="utf-8"))
+        published = {asset["entity_id"] for asset in world["detailed_assets"]}
+        pending = {entity_id for entity_id, entry in registry["buildings"].items()
+                   if entry.get("available_lods", {}).get("1", {}).get("status") == "PENDING_VISUAL_QA"}
+        self.assertFalse(pending & published)
 
     def test_generator_is_byte_deterministic(self):
         before = hashlib.sha256(INDEX.read_bytes()).hexdigest()

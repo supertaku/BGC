@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "milestone": "M16",
-  "generated_at": "2026-09-15T03:36:19.565141+00:00",
+  "generated_at": "2026-09-25T08:45:13.936388+00:00",
   "targets": [
     {
       "entity_id": "bgc_m17_0001",
@@ -54,7 +54,7 @@
       "archetype": "OFFICE_TOWER",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "VERY_HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "HIGH",
       "target_lod": "LOD1",
       "reference_count": 2
@@ -144,6 +144,6 @@
       "reference_count": 2
     }
   ],
-  "evidence_gate": "PASS",
+  "evidence_gate": "PARTIAL",
   "not_ready_replaced": 0
 }

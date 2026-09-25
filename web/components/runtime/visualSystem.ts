@@ -33,11 +33,13 @@ export function createBGCVisualMaterials(): BGCVisualMaterials {
 }
 
 function familyFor(sourceName: string): BGCMaterialName {
+  if (BGC_MATERIAL_NAMES.includes(sourceName as BGCMaterialName)) return sourceName as BGCMaterialName;
   const name = sourceName.toLocaleLowerCase();
   if (name.includes("road")) return "BGC_ASPHALT";
   if (name.includes("path") || name.includes("sidewalk")) return "BGC_SIDEWALK";
   if (name.includes("open") || name.includes("grass")) return "BGC_GRASS";
-  if (name.includes("ground") || name.includes("roof")) return "BGC_SOIL";
+  if (name.includes("ground")) return "BGC_SOIL";
+  if (name.includes("roof")) return "BGC_CONCRETE_DARK";
   if (name.includes("storefront") || name.includes("light_glass")) return "BGC_GLASS_LIGHT";
   if (name.includes("glass") || name.includes("office")) return "BGC_GLASS_DARK";
   if (name.includes("dark_metal")) return "BGC_METAL_DARK";
@@ -50,8 +52,10 @@ function familyFor(sourceName: string): BGCMaterialName {
 export function harmonizeScene(root: THREE.Object3D, materials: BGCVisualMaterials, quality: EnvironmentQuality, landmark = false) {
   root.traverse((object) => {
     if (!(object instanceof THREE.Mesh)) return;
-    const source = Array.isArray(object.material) ? object.material[0]?.name ?? "" : object.material?.name ?? "";
-    object.material = materials[familyFor(source)];
+    const mapMaterial = (source: THREE.Material) => materials[familyFor(source.name)];
+    object.material = Array.isArray(object.material)
+      ? object.material.map(mapMaterial)
+      : mapMaterial(object.material);
     object.castShadow = quality === "FULL" && landmark;
     object.receiveShadow = quality === "FULL";
     object.frustumCulled = true;

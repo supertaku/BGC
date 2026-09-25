@@ -2,6 +2,7 @@
   "schema_version": 1,
   "milestone": "M17",
   "strategy": "Wave A regression gate before Wave B",
+  "approval_policy": "VISUAL_QA_REQUIRED",
   "targets": [
     {
       "entity_id": "bgc_m17_0001",
@@ -42,20 +43,6 @@
       "visibility_importance": "VERY_HIGH",
       "evidence_readiness": "READY_WITH_GAPS",
       "expected_complexity": "MEDIUM",
-      "target_lod": "LOD1",
-      "reference_count": 2
-    },
-    {
-      "entity_id": "bgc_m17_0004",
-      "source_entity_id": "osm:way:182331875",
-      "name": "Arthaland Century Pacific Tower",
-      "tier": "A",
-      "wave": "A",
-      "archetype": "OFFICE_TOWER",
-      "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
-      "visibility_importance": "VERY_HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
-      "expected_complexity": "HIGH",
       "target_lod": "LOD1",
       "reference_count": 2
     },

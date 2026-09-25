@@ -34,7 +34,8 @@ export default function SceneViewer() {
   const [viewpointIndex, setViewpointIndex] = useState(0);
   const [tileMode, setTileMode] = useState<TileMode>("DYNAMIC");
   const [navigation, setNavigation] = useState<NavigationMode>("INSPECT");
-  const [environmentQuality, setEnvironmentQuality] = useState<EnvironmentQuality>("FULL");
+  // FULL remains opt-in until identical foreground scenarios establish its shadow cost.
+  const [environmentQuality, setEnvironmentQuality] = useState<EnvironmentQuality>("LOW");
   const [runtime, setRuntime] = useState<RuntimeSummary>(EMPTY_RUNTIME);
   const [metrics, setMetrics] = useState<RuntimeMetrics | null>(null);
   const [benchmark, setBenchmark] = useState<BenchmarkReport | null>(null);

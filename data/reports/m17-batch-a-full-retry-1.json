@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "milestone": "M17",
+  "generated_at": "2026-09-25T08:33:46.650662+00:00",
+  "mode": "continue-on-error",
+  "wave": "A",
+  "stage": "full",
+  "results": [
+    {
+      "entity_id": "bgc_m17_0002",
+      "name": "The Suites at One Bonifacio High Street",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 44.697,
+      "retry_count": 1,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "00:35.906  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0002\\qa-north.png'\n00:36.297  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0002\\qa-south.png'\n00:36.594  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0002\\qa-east.png'\n00:36.922  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0002\\qa-aerial.png'\nInfo: Saved as \"bgc_m17_0002-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n16:33:17 | INFO: Starting glTF 2.0 export\n16:33:17 | INFO: Extracting primitive: M17_bgc_m17_0002_Volume_00_mesh.001\n16:33:17 | INFO: Primitives created: 1\n16:33:17 | INFO: Extracting primitive: M17_bgc_m17_0002_Volume_01_mesh.001\n16:33:17 | INFO: Primitives created: 1\n16:33:17 | INFO: Extracting primitive: BGC_RUNTIME_M17_bgc_m17_0002_FACADE_mesh\n16:33:17 | INFO: Primitives created: 1\n16:33:17 | INFO: Finished glTF 2.0 export in 0.09714531898498535 s\n\nGENERIC_BUILD: PASS entity=bgc_m17_0002 components=154 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit\nC:\\Users\\joshu\\Documents\\BGC\\blender\\framework\\building_builder.py:143: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0\n  world.use_nodes = True"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "16:33:20 | INFO: Data are loaded, start creating Blender stuff\n16:33:20 | INFO: Blender create Mesh node M17_bgc_m17_0002_Volume_00_mesh.001\n16:33:20 | INFO: Blender create Mesh node M17_bgc_m17_0002_Volume_01_mesh.001\n16:33:20 | INFO: Blender create Mesh node BGC_RUNTIME_M17_bgc_m17_0002_FACADE_mesh\n16:33:20 | INFO: glTF import finished in 0.01s\nBGC_GLB: PASS file=bgc_m17_0002_lod1.glb size_bytes=113020 meshes=3 triangles=1928 materials=2 draw_calls_approx=3 max_dimension_m=227.000\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_m17_0002_lod1.json"
+        }
+      ]
+    },
+    {
+      "entity_id": "bgc_m17_0004",
+      "name": "Arthaland Century Pacific Tower",
+      "wave": "A",
+      "status": "PASS",
+      "elapsed_seconds": 25.613,
+      "retry_count": 1,
+      "stages": [
+        {
+          "stage": "package",
+          "status": "PASS",
+          "diagnostic": "BGC_PACKAGE_VALIDATION: VALID_WITH_GAPS errors=0 warnings=0"
+        },
+        {
+          "stage": "build",
+          "status": "PASS",
+          "diagnostic": "00:20.984  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0004\\qa-north.png'\n00:21.343  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0004\\qa-south.png'\n00:21.640  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0004\\qa-east.png'\n00:21.937  render           | Saved: 'C:\\Users\\joshu\\Documents\\BGC\\blender\\renders\\bgc_m17_0004\\qa-aerial.png'\nInfo: Saved as \"bgc_m17_0004-lod1.blend\"\nINFO Draco is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_draco_bridge.dll\nINFO MeshOptimizer is available, use library at C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\bf_intern_meshopt_bridge.dll\n16:33:43 | INFO: Starting glTF 2.0 export\n16:33:43 | INFO: Extracting primitive: M17_bgc_m17_0004_Volume_00_mesh.001\n16:33:43 | INFO: Primitives created: 1\n16:33:43 | INFO: Extracting primitive: BGC_RUNTIME_M17_bgc_m17_0004_FACADE_mesh\n16:33:43 | INFO: Primitives created: 1\n16:33:43 | INFO: Finished glTF 2.0 export in 0.04897737503051758 s\n\nGENERIC_BUILD: PASS entity=bgc_m17_0004 components=29 materials=2\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit\nC:\\Users\\joshu\\Documents\\BGC\\blender\\framework\\building_builder.py:143: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0\n  world.use_nodes = True"
+        },
+        {
+          "stage": "glb",
+          "status": "PASS",
+          "diagnostic": "16:33:46 | INFO: Data are loaded, start creating Blender stuff\n16:33:46 | INFO: Blender create Mesh node M17_bgc_m17_0004_Volume_00_mesh.001\n16:33:46 | INFO: Blender create Mesh node BGC_RUNTIME_M17_bgc_m17_0004_FACADE_mesh\n16:33:46 | INFO: glTF import finished in 0.00s\nBGC_GLB: PASS file=bgc_m17_0004_lod1.glb size_bytes=23184 meshes=2 triangles=348 materials=2 draw_calls_approx=2 max_dimension_m=114.700\nBlender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)\n\nBlender quit"
+        },
+        {
+          "stage": "registry",
+          "status": "PASS",
+          "diagnostic": "ASSET_REGISTRY: PASS manifest=data\\assets\\manifests\\bgc_m17_0004_lod1.json"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 0
+  }
+}

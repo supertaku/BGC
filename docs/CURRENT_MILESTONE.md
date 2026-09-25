@@ -1,6 +1,12 @@
 # Current milestone
 
-## M11 — Whole-BGC Low-Fidelity Skeleton
+## M16–M18 — Visual Fidelity Expansion
+
+Status: **PARTIAL** as of 2026-09-25. M16 ranked 6,982 candidates and selected ten priorities, but one remains NOT_READY due to a height conflict. M17 produced ten structurally valid draft LOD1 assets before that conflict was isolated; visual QA found major architectural discrepancies. All ten remain `PENDING_VISUAL_QA` and the published world still contains the original seven LOD1 assets. M18 shared materials/lighting/vegetation are a prototype only, with LOW quality default and no comparable foreground benchmark. See `docs/VISUAL_FIDELITY_REPORT.md`.
+
+Next gate: **M17 reference-matched reconstruction and signoff**, starting with the wave-A landmarks. Do not publish drafts or claim M18 acceptance until that gate passes.
+
+## Historical M11 — Whole-BGC Low-Fidelity Skeleton
 
 Status: **PASS** as of 2026-09-15.
 

@@ -138,6 +138,19 @@ def main() -> None:
         item["lens_mm"], item["filename"], item["match"], tuple(item.get("reference_ids", [])),
     ) for item in config["qa_cameras"]]
     render_dir = ROOT / "blender" / "renders" / entity_id if args.render else None
+    if render_dir is not None:
+        world = scene.world
+        world.use_nodes = True
+        background = world.node_tree.nodes.get("Background")
+        if background:
+            background.inputs["Color"].default_value = (0.55, 0.65, 0.73, 1.0)
+            background.inputs["Strength"].default_value = 0.9
+        sun_data = bpy.data.lights.new("QA_Sun", type="SUN")
+        sun_data.energy = 2.2
+        sun = bpy.data.objects.new("QA_Sun", sun_data)
+        scene.collection.objects.link(sun)
+        sun.rotation_euler = (math.radians(30), math.radians(-20), math.radians(-35))
+        sun["exportable"] = False
     create_qa_cameras(scene_tools, camera_specs, render_dir)
     validation = validate_authoring_scene(objects, set(materials.values()))
     if validation["status"] == "FAIL":
