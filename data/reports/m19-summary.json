@@ -1,30 +1,49 @@
 {
   "schema_version": 1,
   "milestone": "M19",
-  "generated_at": "2026-09-25T14:40:47Z",
+  "closure_phase": "M19C",
+  "generated_at": "2026-09-25T15:08:29Z",
   "branch": "main",
-  "git_sha": "765473d55b7062af52c0d26e5e601e7f90ef5a5f",
+  "base_sha": "765473d55b7062af52c0d26e5e601e7f90ef5a5f",
+  "reviewed_head_sha": "3eb5c407420a74c104ba00df713d7b2274effa12",
+  "report_generated_from_worktree": true,
   "status": "PARTIAL",
+  "ready_for_m20": false,
   "product_name": "BGC 3D",
-  "public_modes": ["Explore", "Walk", "Tour"],
+  "public_modes": [
+    "Explore",
+    "Walk",
+    "Tour"
+  ],
   "search_entity_count": 263,
   "tour_stop_count": 7,
-  "deep_link_support": ["place", "mode", "tour"],
-  "share_support": ["Web Share", "Clipboard fallback"],
-  "desktop_qa": "PASS",
-  "narrow_qa": "PARTIAL",
+  "deep_link_support": [
+    "place",
+    "mode",
+    "tour"
+  ],
+  "share_support": [
+    "Web Share",
+    "Clipboard fallback"
+  ],
+  "desktop_qa": "PARTIAL",
+  "phone_qa": "PASS_STRUCTURAL",
   "keyboard_qa": "PARTIAL",
-  "reduced_motion_qa": "CODE_REVIEW_PASS",
+  "zoom_qa": "NOT_TESTED_200_PERCENT",
+  "pointer_lock_qa": "NOT_TESTED",
   "accessibility_status": "PARTIAL",
+  "performance_regression_status": "NOT_VERIFIED_INVALID_P1_CAPTURE",
   "debug_hidden_by_default": true,
   "public_engineering_controls_removed": true,
   "build": "PASS",
   "lint": "PASS",
-  "tests": "55 repository tests and product-state validation PASS",
-  "performance_regression_status": "NOT_COMPARABLE_IN_BACKGROUNDED_BROWSER",
+  "product_validation": "PASS",
+  "repository_tests": "55 PASS",
+  "metadata_validation": "PASS",
+  "instancing_validation": "PASS",
   "known_limitations": [
-    "Pointer lock, WASD, sprint, collision, and Escape release not verified in controlled browser",
-    "Matched foreground M19 performance captures unavailable",
-    "Phone-width and 200 percent zoom accessibility passes not completed"
+    "Normal-browser pointer lock, WASD, sprint, collision and Escape release remain unverified by automation",
+    "200 percent browser zoom and soft-keyboard resizing remain untested",
+    "Matched foreground Inspect, Walk and Tour performance guard remains unverified; attempted Chrome Inspect capture included 1 FPS p1 samples and is invalid"
   ]
 }

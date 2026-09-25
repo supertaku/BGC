@@ -1,6 +1,6 @@
 # M19 product experience report
 
-Status: **PARTIAL**. The public product shell is implemented, while pointer-lock movement and a matched foreground performance comparison remain unverified in this automation environment.
+Status: **PARTIAL** after M19C closure review. The public shell and deterministic validation pass, but desktop pointer-lock movement, a valid matched foreground performance guard, and 200% zoom remain unverified.
 
 ## Baseline and scope
 
@@ -27,3 +27,13 @@ Status: **PARTIAL**. The public product shell is implemented, while pointer-lock
 - Browser automation's pointer-lock click produced `WrongDocumentError`; WASD, sprint, collision, and Esc release are **NOT_TESTED_IN_AUTOMATION**. Walk preparation and mode change were observed.
 - A backgrounded Chrome benchmark returned about 1 FPS for High Street Explore, against M18 foreground LOW median 163.93 FPS. Those environments are not comparable. Matched High Street Explore, High Street Walk, and Tour performance must be captured in a foreground session before M19 can be signed off.
 - This milestone does not begin M20.
+
+## M19C closure review (2026-09-25)
+
+Reviewed `main` at `3eb5c407420a74c104ba00df713d7b2274effa12` from a clean working tree. The original M19 starting SHA was `765473d55b7062af52c0d26e5e601e7f90ef5a5f`; machine reports use `base_sha` for that starting point and `reviewed_head_sha` for the commit audited here. Closure edits and reports were generated from an uncommitted worktree, so neither field claims to be the eventual release commit.
+
+The URL restore path now applies one precedence rule: explicit debug navigation under `debug=1`, valid public tour, public place/Walk, benchmark navigation compatibility, then Explore. Debug tile and quality settings are restored with the same state. Search, Help, About, and Search-origin Place restore focus to the appropriate trigger. Search renders status text outside the listbox and keeps the active option valid. Touch devices receive an honest Walk availability message. About presents the geographic snapshot as a date.
+
+Production build, lint, product-state verification, metadata verification, instancing verification, and 55 scoped Python tests pass. Chrome exercised public Search and Tour, place selection, Back restoration, debug precedence, and structural layouts at 390×844, 360×800, and 844×390. The Chrome pointer-lock click did not acquire lock, so movement and collision are not signed off. A Chrome Inspect benchmark produced a 1 FPS p1 sample despite 60 calls and 56,572 triangles; it is rejected as a throttled or interrupted run and does not establish a performance regression. Chrome 154/DPR 1.0 also differed from the M18 Chromium 153/DPR 1.25 reference. 200% zoom and soft-keyboard behavior were not reproduced. M19 remains PARTIAL, and Ready for M20 remains NO.
+
+Duplicate-name slug numbering is deterministic but could shift after a future source-data refresh. M22 deployment must set `NEXT_PUBLIC_SITE_URL`; the localhost fallback remains appropriate before deployment.

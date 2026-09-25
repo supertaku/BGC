@@ -5,6 +5,7 @@ import { Component, type ReactNode, Suspense, useCallback, useEffect, useMemo, u
 import * as THREE from "three";
 import { ProductShell } from "./product/ProductShell";
 import { placeSlugs, TOUR_SLUG } from "./product/placeState";
+import { resolveUrlState } from "./product/urlState";
 import { WorldRuntime } from "./runtime/WorldRuntime";
 import type { FocusRequest } from "./runtime/NavigationController";
 import { ACTIVE_RADIUS_M, PRELOAD_RADIUS_M, RETENTION_RADIUS_M } from "./runtime/spatial";
@@ -64,16 +65,20 @@ export default function SceneViewer() {
   }, []);
   const restoreUrl = useCallback((world: WorldManifest, data: InteractiveManifest) => {
     const params = new URLSearchParams(window.location.search);
-    const slugMap = placeSlugs(data.entities);
-    const place = data.entities.find((entity) => slugMap.get(entity.entity_id) === params.get("place"));
-    const stops = data.lod1_entity_ids.map((id) => data.entities.find((entity) => entity.detailed_asset_id === id)).filter((entity): entity is EntityRecord => Boolean(entity));
+    const state = resolveUrlState(params, data.entities, data.lod1_entity_ids);
     const view = world.viewpoints.findIndex((candidate) => candidate.id === params.get("view"));
     if (view >= 0) setViewpointIndex(view);
-    if (params.has("place") && !place) setNotice("That place link is unavailable in this dataset.");
-    if (params.has("tour") && params.get("tour") !== TOUR_SLUG) setNotice("That tour link is unavailable.");
-    if (params.get("tour") === TOUR_SLUG && stops.length) { setTourIndex(0); setSelectedEntity(stops[0]); setNavigation("TOUR"); }
-    else if (place) { setSelected(null); setSelectedEntity(place); setFocusRequest({ sequence: performance.now(), entity: place }); setNavigation(params.get("mode") === "walk" ? "WALK" : "INSPECT"); }
-    else { setSelected(null); setSelectedEntity(null); setNavigation(params.get("mode") === "walk" ? "WALK" : "INSPECT"); }
+    setDebug(state.debug);
+    setTileMode(state.tileMode);
+    setEnvironmentQuality(state.quality);
+    setSelected(null);
+    setSelectedEntity(state.selectedEntity);
+    setNavigation(state.navigation);
+    if (state.navigation === "TOUR") setTourIndex(0);
+    if (state.place && state.navigation !== "TOUR") setFocusRequest({ sequence: performance.now(), entity: state.place });
+    else setFocusRequest(null);
+    if (state.invalidPlace) setNotice("That place link is unavailable in this dataset.");
+    else if (state.invalidTour) setNotice("That tour link is unavailable.");
   }, []);
 
   useEffect(() => {
@@ -84,16 +89,6 @@ export default function SceneViewer() {
     ]).then(([world, data]) => {
       setManifest(world);
       setInteractive(data);
-      const params = new URLSearchParams(window.location.search);
-      const requested = params.get("view");
-      const index = world.viewpoints.findIndex((candidate) => candidate.id === requested);
-      if (index >= 0) setViewpointIndex(index);
-      if (params.get("debug") === "1" && params.get("tiles") === "all") setTileMode("ALL_LOADED");
-      const requestedQuality = params.get("quality")?.toUpperCase();
-      if (params.get("debug") === "1" && (requestedQuality === "LEGACY" || requestedQuality === "LOW" || (requestedQuality === "FULL" && params.get("benchmark") === "1"))) setEnvironmentQuality(requestedQuality);
-      const requestedNavigation = params.get("navigation")?.toUpperCase();
-      if (requestedNavigation === "INSPECT" || requestedNavigation === "WALK" || requestedNavigation === "TOUR") setNavigation(requestedNavigation);
-      if (params.get("debug") === "1") setDebug(true);
       restoreUrl(world, data);
     }).catch((reason: Error) => setError(reason.message));
     return () => { if (noticeTimer.current) clearTimeout(noticeTimer.current); };
@@ -163,10 +158,12 @@ export default function SceneViewer() {
     url.search = "";
     if (navigation === "TOUR") url.searchParams.set("tour", TOUR_SLUG);
     else { if (selectedEntity) url.searchParams.set("place", slugs.get(selectedEntity.entity_id) ?? ""); if (navigation === "WALK") url.searchParams.set("mode", "walk"); }
-    try {
-      if (navigator.share) await navigator.share({ title: "BGC 3D", url: url.toString() });
-      else { await navigator.clipboard.writeText(url.toString()); flashNotice("Link copied"); }
-    } catch (reason) { if ((reason as DOMException).name !== "AbortError") flashNotice("Could not share this link"); }
+    if (navigator.share) {
+      try { await navigator.share({ title: "BGC 3D", url: url.toString() }); return; }
+      catch (reason) { if ((reason as DOMException).name === "AbortError") return; }
+    }
+    try { await navigator.clipboard.writeText(url.toString()); flashNotice("Link copied"); }
+    catch { flashNotice("Could not share this link"); }
   }, [navigation, selectedEntity, slugs, flashNotice]);
 
   if (error) return <div className="viewer-error" role="alert"><strong>Could not load BGC 3D</strong><p>{error}</p><button onClick={() => window.location.reload()}>Retry</button></div>;

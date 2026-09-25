@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { placeSlugs, searchPlaces } from "../components/product/placeState.ts";
+import { resolveUrlState } from "../components/product/urlState.ts";
 
 const data = JSON.parse(readFileSync(new URL("../public/world/bgc-interactive.json", import.meta.url), "utf8"));
 const slugs = placeSlugs(data.entities);
@@ -15,4 +16,17 @@ assert.equal(searchPlaces(data.entities, "central")[0]?.name, "Central Square");
 assert.equal(searchPlaces(data.entities, "square")[0]?.name, "Central Square");
 assert.deepEqual(searchPlaces(data.entities, "no such named place 999"), []);
 for (const id of data.lod1_entity_ids) assert(data.entities.some((entity) => entity.detailed_asset_id === id), `Tour stop ${id} is missing`);
+const state = (query) => resolveUrlState(new URLSearchParams(query), data.entities, data.lod1_entity_ids);
+assert.equal(state("debug=1&navigation=WALK").navigation, "WALK");
+assert.equal(state("debug=1&navigation=INSPECT&tour=bgc-landmarks").navigation, "INSPECT");
+assert.equal(state("mode=walk").navigation, "WALK");
+assert.equal(state("tour=bgc-landmarks").navigation, "TOUR");
+assert.equal(state("tour=invalid").navigation, "INSPECT");
+assert.equal(state("tour=invalid").invalidTour, true);
+assert.equal(state("place=central-square").selectedEntity?.name, "Central Square");
+assert.equal(state("place=central-square&mode=walk").navigation, "WALK");
+assert.equal(state("place=central-square&mode=walk").selectedEntity?.name, "Central Square");
+assert.equal(state("benchmark=1&navigation=WALK&benchmark_walk=1").navigation, "WALK");
+assert.equal(state("debug=1&quality=FULL").quality, "LOW");
+assert.equal(state("debug=1&quality=FULL&benchmark=1").quality, "FULL");
 console.log(`Product state: ${slugs.size} unique place links, ${data.lod1_entity_ids.length} tour stops, search cases PASS`);
