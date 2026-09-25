@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 import subprocess
 import sys
@@ -38,6 +39,11 @@ def main() -> None:
         print("CLEAN PASS generated_outputs_only=true")
     if args.stage in {"validate", "full", "build", "render"}:
         run([sys.executable, str(ROOT / "scripts" / "reconstruction" / "validate_package.py"), str(package)], "PACKAGE")
+    if entity_id.startswith("bgc_m17_"):
+        from evidence_gate import assess
+        result = assess(package)
+        if result["status"] != "READY_FOR_VISUAL_RECONSTRUCTION":
+            raise SystemExit("EVIDENCE_GATE_ERROR: " + json.dumps(result["reasons"]))
     if args.stage == "validate":
         return
     blender = subprocess.check_output([

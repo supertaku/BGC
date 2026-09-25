@@ -36,10 +36,7 @@
   "required_coverage_aspects": [
     "identity",
     "overall_massing",
-    "major_facades",
-    "roof",
-    "materials",
-    "entrances"
+    "major_facades"
   ],
   "best_reference_ids": [
     "ref:m17:official-alp-suites",
@@ -54,9 +51,9 @@
   },
   "required_procedural_approximations": [
     {
-      "feature": "exact facade modules and weak sides",
+      "feature": "unknown secondary facade and exact modules",
       "classification": "PROCEDURAL",
-      "instruction": "Use broad normalized rhythm and conservative geometry."
+      "instruction": "Omit unsupported details until a source-matched visual review."
     }
   ],
   "do_not_invent": [
@@ -78,9 +75,9 @@
         102.15
       ],
       "fov_deg": 48,
-      "corresponding_reference": "ref:m17:official-alp-suites",
-      "confidence": 0.72,
-      "match_status": "PARTIAL"
+      "corresponding_reference": null,
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     },
     {
       "camera_id": "qa:bgc_m17_0002:south",
@@ -96,8 +93,8 @@
       ],
       "fov_deg": 48,
       "corresponding_reference": null,
-      "confidence": 0.3,
-      "match_status": "CONSERVATIVE"
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     },
     {
       "camera_id": "qa:bgc_m17_0002:east",
@@ -112,9 +109,9 @@
         102.15
       ],
       "fov_deg": 48,
-      "corresponding_reference": "ref:m17:official-alp-suites",
-      "confidence": 0.72,
-      "match_status": "PARTIAL"
+      "corresponding_reference": null,
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     },
     {
       "camera_id": "qa:bgc_m17_0002:aerial",
@@ -129,9 +126,9 @@
         102.15
       ],
       "fov_deg": 48,
-      "corresponding_reference": "ref:m17:official-alp-suites",
-      "confidence": 0.72,
-      "match_status": "PARTIAL"
+      "corresponding_reference": null,
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     }
   ],
   "web_performance_constraints": {
@@ -193,413 +190,12 @@
         ]
       }
     ],
-    "polygon_edge_regions": [
-      {
-        "name": "M17_bgc_m17_0002_Band_00_00",
-        "component_id": "bgc_m17_0002:facade:00:00",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.08,
-        "v1": 0.18,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_00_01",
-        "component_id": "bgc_m17_0002:facade:00:01",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.1825,
-        "v1": 0.2825,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_00_02",
-        "component_id": "bgc_m17_0002:facade:00:02",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.285,
-        "v1": 0.385,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_00_03",
-        "component_id": "bgc_m17_0002:facade:00:03",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.3875,
-        "v1": 0.4875,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_00_04",
-        "component_id": "bgc_m17_0002:facade:00:04",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.49,
-        "v1": 0.59,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_00_05",
-        "component_id": "bgc_m17_0002:facade:00:05",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.5925,
-        "v1": 0.6925,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_00_06",
-        "component_id": "bgc_m17_0002:facade:00:06",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.695,
-        "v1": 0.795,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_00_07",
-        "component_id": "bgc_m17_0002:facade:00:07",
-        "source_feature_id": "osm:way:203910666",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.7975,
-        "v1": 0.8975,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 29.3,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_00",
-        "component_id": "bgc_m17_0002:facade:01:00",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.08,
-        "v1": 0.125,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_01",
-        "component_id": "bgc_m17_0002:facade:01:01",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.1825,
-        "v1": 0.2275,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_02",
-        "component_id": "bgc_m17_0002:facade:01:02",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.285,
-        "v1": 0.33,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_03",
-        "component_id": "bgc_m17_0002:facade:01:03",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.3875,
-        "v1": 0.4325,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_04",
-        "component_id": "bgc_m17_0002:facade:01:04",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.49,
-        "v1": 0.535,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_05",
-        "component_id": "bgc_m17_0002:facade:01:05",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.5925,
-        "v1": 0.6375,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_06",
-        "component_id": "bgc_m17_0002:facade:01:06",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.695,
-        "v1": 0.74,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0002_Band_01_07",
-        "component_id": "bgc_m17_0002:facade:01:07",
-        "source_feature_id": "osm:way:538701626",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.7975,
-        "v1": 0.8425,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 227.0,
-        "material_family": "architectural_dark_glass",
-        "runtime_group": "M17_bgc_m17_0002_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0002:facade",
-          "obs:bgc_m17_0002:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
-      }
-    ],
+    "polygon_edge_regions": [],
     "facade_regions": [],
     "qa_cameras": [
       {
         "camera_id": "qa:bgc_m17_0002:north",
-        "kind": "EVIDENCE_MATCH",
+        "kind": "DIAGNOSTIC",
         "location": [
           -494.15650000000005,
           613.6980000000001,
@@ -612,11 +208,8 @@
         ],
         "lens_mm": 42,
         "filename": "qa-north.png",
-        "match": "PARTIAL",
-        "reference_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
+        "match": "UNMATCHED",
+        "reference_ids": []
       },
       {
         "camera_id": "qa:bgc_m17_0002:south",
@@ -633,12 +226,12 @@
         ],
         "lens_mm": 42,
         "filename": "qa-south.png",
-        "match": "CONSERVATIVE",
+        "match": "UNMATCHED",
         "reference_ids": []
       },
       {
         "camera_id": "qa:bgc_m17_0002:east",
-        "kind": "EVIDENCE_MATCH",
+        "kind": "DIAGNOSTIC",
         "location": [
           34.20700000000005,
           88.35499999999999,
@@ -651,15 +244,12 @@
         ],
         "lens_mm": 42,
         "filename": "qa-east.png",
-        "match": "PARTIAL",
-        "reference_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
+        "match": "UNMATCHED",
+        "reference_ids": []
       },
       {
         "camera_id": "qa:bgc_m17_0002:aerial",
-        "kind": "EVIDENCE_MATCH",
+        "kind": "DIAGNOSTIC",
         "location": [
           -112.79649999999998,
           -293.0050000000001,
@@ -672,12 +262,10 @@
         ],
         "lens_mm": 42,
         "filename": "qa-aerial.png",
-        "match": "PARTIAL",
-        "reference_ids": [
-          "ref:m17:official-alp-suites",
-          "ref:m17:architect-suites"
-        ]
+        "match": "UNMATCHED",
+        "reference_ids": []
       }
     ]
-  }
+  },
+  "visual_reconstruction_status": "NOT_READY"
 }

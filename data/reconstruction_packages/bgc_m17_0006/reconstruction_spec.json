@@ -35,10 +35,7 @@
   "required_coverage_aspects": [
     "identity",
     "overall_massing",
-    "major_facades",
-    "roof",
-    "materials",
-    "entrances"
+    "major_facades"
   ],
   "best_reference_ids": [
     "ref:m17:official-mind-museum",
@@ -53,9 +50,9 @@
   },
   "required_procedural_approximations": [
     {
-      "feature": "exact facade modules and weak sides",
+      "feature": "unknown secondary facade and exact modules",
       "classification": "PROCEDURAL",
-      "instruction": "Use broad normalized rhythm and conservative geometry."
+      "instruction": "Omit unsupported details until a source-matched visual review."
     }
   ],
   "do_not_invent": [
@@ -77,9 +74,9 @@
         4.5
       ],
       "fov_deg": 48,
-      "corresponding_reference": "ref:m17:official-mind-museum",
-      "confidence": 0.72,
-      "match_status": "PARTIAL"
+      "corresponding_reference": null,
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     },
     {
       "camera_id": "qa:bgc_m17_0006:south",
@@ -95,8 +92,8 @@
       ],
       "fov_deg": 48,
       "corresponding_reference": null,
-      "confidence": 0.3,
-      "match_status": "CONSERVATIVE"
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     },
     {
       "camera_id": "qa:bgc_m17_0006:east",
@@ -111,9 +108,9 @@
         4.5
       ],
       "fov_deg": 48,
-      "corresponding_reference": "ref:m17:official-mind-museum",
-      "confidence": 0.72,
-      "match_status": "PARTIAL"
+      "corresponding_reference": null,
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     },
     {
       "camera_id": "qa:bgc_m17_0006:aerial",
@@ -128,9 +125,9 @@
         4.5
       ],
       "fov_deg": 48,
-      "corresponding_reference": "ref:m17:official-mind-museum",
-      "confidence": 0.72,
-      "match_status": "PARTIAL"
+      "corresponding_reference": null,
+      "confidence": 0.0,
+      "match_status": "DIAGNOSTIC_UNMATCHED"
     }
   ],
   "web_performance_constraints": {
@@ -175,88 +172,12 @@
         ]
       }
     ],
-    "polygon_edge_regions": [
-      {
-        "name": "M17_bgc_m17_0006_Band_00_00",
-        "component_id": "bgc_m17_0006:facade:00:00",
-        "source_feature_id": "osm:way:183463814",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.08,
-        "v1": 0.18,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 10.0,
-        "material_family": "dark_metal",
-        "runtime_group": "M17_bgc_m17_0006_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0006:facade",
-          "obs:bgc_m17_0006:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-mind-museum",
-          "ref:m17:project-mind-museum"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0006_Band_00_01",
-        "component_id": "bgc_m17_0006:facade:00:01",
-        "source_feature_id": "osm:way:183463814",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.3533,
-        "v1": 0.4533,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 10.0,
-        "material_family": "dark_metal",
-        "runtime_group": "M17_bgc_m17_0006_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0006:facade",
-          "obs:bgc_m17_0006:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-mind-museum",
-          "ref:m17:project-mind-museum"
-        ]
-      },
-      {
-        "name": "M17_bgc_m17_0006_Band_00_02",
-        "component_id": "bgc_m17_0006:facade:00:02",
-        "source_feature_id": "osm:way:183463814",
-        "edges": "all",
-        "u0": 0.03,
-        "u1": 0.97,
-        "v0": 0.6267,
-        "v1": 0.7267,
-        "d_m": 0.08,
-        "thickness_m": 0.16,
-        "base_z_m": 0.0,
-        "height_m": 10.0,
-        "material_family": "dark_metal",
-        "runtime_group": "M17_bgc_m17_0006_FACADE",
-        "evidence_status": "INFERRED",
-        "observation_ids": [
-          "obs:bgc_m17_0006:facade",
-          "obs:bgc_m17_0006:materials"
-        ],
-        "evidence_ids": [
-          "ref:m17:official-mind-museum",
-          "ref:m17:project-mind-museum"
-        ]
-      }
-    ],
+    "polygon_edge_regions": [],
     "facade_regions": [],
     "qa_cameras": [
       {
         "camera_id": "qa:bgc_m17_0006:north",
-        "kind": "EVIDENCE_MATCH",
+        "kind": "DIAGNOSTIC",
         "location": [
           -589.1385,
           423.429,
@@ -269,11 +190,8 @@
         ],
         "lens_mm": 42,
         "filename": "qa-north.png",
-        "match": "PARTIAL",
-        "reference_ids": [
-          "ref:m17:official-mind-museum",
-          "ref:m17:project-mind-museum"
-        ]
+        "match": "UNMATCHED",
+        "reference_ids": []
       },
       {
         "camera_id": "qa:bgc_m17_0006:south",
@@ -290,12 +208,12 @@
         ],
         "lens_mm": 42,
         "filename": "qa-south.png",
-        "match": "CONSERVATIVE",
+        "match": "UNMATCHED",
         "reference_ids": []
       },
       {
         "camera_id": "qa:bgc_m17_0006:east",
-        "kind": "EVIDENCE_MATCH",
+        "kind": "DIAGNOSTIC",
         "location": [
           -336.05300000000005,
           145.987,
@@ -308,15 +226,12 @@
         ],
         "lens_mm": 42,
         "filename": "qa-east.png",
-        "match": "PARTIAL",
-        "reference_ids": [
-          "ref:m17:official-mind-museum",
-          "ref:m17:project-mind-museum"
-        ]
+        "match": "UNMATCHED",
+        "reference_ids": []
       },
       {
         "camera_id": "qa:bgc_m17_0006:aerial",
-        "kind": "EVIDENCE_MATCH",
+        "kind": "DIAGNOSTIC",
         "location": [
           -417.62890000000004,
           -25.52260000000001,
@@ -329,12 +244,10 @@
         ],
         "lens_mm": 42,
         "filename": "qa-aerial.png",
-        "match": "PARTIAL",
-        "reference_ids": [
-          "ref:m17:official-mind-museum",
-          "ref:m17:project-mind-museum"
-        ]
+        "match": "UNMATCHED",
+        "reference_ids": []
       }
     ]
-  }
+  },
+  "visual_reconstruction_status": "NOT_READY"
 }

@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-25T09:39:36.986909+00:00",
+  "policy": "An APPROVED target requires evidence readiness, reference/render comparisons, separate reviewer signoff, and zero open CRITICAL or MAJOR discrepancies.",
+  "research_media_policy": "Research-only source images stay remote; comparison artifacts may contain render and metadata links only until rights permit redistribution.",
+  "buildings": [
+    {
+      "entity_id": "bgc_m17_0001",
+      "source_entity_id": "osm:way:1078392706",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "CRITICAL",
+          "disposition": "OPEN",
+          "description": "OSM mall polygon includes 98.9% of Suites and 99.5% of PSE footprints; retail boundary unresolved"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": false,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0002",
+      "source_entity_id": "osm:way:203910666",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "MAJOR",
+          "disposition": "OPEN",
+          "description": "Generic draft has no architect-described curved tower form"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": false,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0003",
+      "source_entity_id": "osm:way:71598335",
+      "evidence_status": "READY_FOR_VISUAL_RECONSTRUCTION",
+      "builder_status": "PASS",
+      "glb_structural_status": "PASS",
+      "reference_comparisons": [
+        {
+          "round": 1,
+          "reference_id": "ref:m16r:architect-pse:044a",
+          "source_url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.044a.jpg",
+          "render_path": "blender/renders/bgc_m17_0003/qa-source-044a-round1.png",
+          "camera_id": "qa:bgc_m17_0003:source:044a",
+          "result": "FAIL",
+          "discrepancy_record": "data/reports/m17-reference-qa.json#bgc_m17_0003",
+          "note": "Coarse massing render lacks source-visible upper roof shaping and principal facade articulation. Camera positions are approximate."
+        },
+        {
+          "round": 2,
+          "reference_id": "ref:m16r:architect-pse:044a",
+          "source_url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.044a.jpg",
+          "render_path": "blender/renders/bgc_m17_0003/qa-source-044a-round2.png",
+          "camera_id": "qa:bgc_m17_0003:source:044a",
+          "result": "FAIL",
+          "discrepancy_record": "data/reports/m17-reference-qa.json#bgc_m17_0003",
+          "note": "Estimated 4 m roof slope improved the near roof edge but the source-visible twin upper shaping and volume articulation still differ."
+        },
+        {
+          "round": 1,
+          "reference_id": "ref:m16r:architect-pse:008a",
+          "source_url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.008a.jpg",
+          "render_path": "blender/renders/bgc_m17_0003/qa-source-008a-round1.png",
+          "camera_id": "qa:bgc_m17_0003:source:008a",
+          "result": "FAIL",
+          "discrepancy_record": "data/reports/m17-reference-qa.json#bgc_m17_0003",
+          "note": "Coarse massing render lacks source-visible upper roof shaping and principal facade articulation. Camera positions are approximate."
+        },
+        {
+          "round": 2,
+          "reference_id": "ref:m16r:architect-pse:008a",
+          "source_url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.008a.jpg",
+          "render_path": "blender/renders/bgc_m17_0003/qa-source-008a-round2.png",
+          "camera_id": "qa:bgc_m17_0003:source:008a",
+          "result": "FAIL",
+          "discrepancy_record": "data/reports/m17-reference-qa.json#bgc_m17_0003",
+          "note": "Estimated 4 m roof slope improved the near roof edge but the source-visible twin upper shaping and volume articulation still differ."
+        }
+      ],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "MAJOR",
+          "disposition": "OPEN",
+          "description": "Second massing render adds a 4 m estimated slope, but both architect views still show more distinct twin upper shapes."
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "MAJOR",
+          "disposition": "OPEN",
+          "description": "OSM overlapping tower parts render as a thick continuous block; frontpiece and body separation need refinement."
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "MAJOR",
+          "disposition": "OPEN",
+          "description": "Massing-only draft intentionally omits the architect-documented inflected glazing and vertical ribs."
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "MAJOR",
+          "disposition": "OPEN",
+          "description": "Estimated roof slope does not yet match the upper silhouette in source photographs."
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": true,
+        "build": true,
+        "glb": true,
+        "reference_comparison": false,
+        "discrepancies": false,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0004",
+      "source_entity_id": "osm:way:182331875",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "MAJOR",
+          "disposition": "OPEN",
+          "description": "Existing draft GLB uses 114.7 m OSM height; package now decides 136 m from SOM"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": false,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0005",
+      "source_entity_id": "osm:way:469845356",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": true,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0006",
+      "source_entity_id": "osm:way:183463814",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": true,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0007",
+      "source_entity_id": "osm:way:25006899",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": true,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0008",
+      "source_entity_id": "osm:way:408450256",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": true,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0009",
+      "source_entity_id": "osm:way:1070584579",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": true,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    },
+    {
+      "entity_id": "bgc_m17_0010",
+      "source_entity_id": "osm:way:1070584580",
+      "evidence_status": "NOT_READY",
+      "builder_status": "DRAFT_ONLY",
+      "glb_structural_status": "PASS_LEGACY_DRAFT",
+      "reference_comparisons": [],
+      "discrepancies": [
+        {
+          "aspect": "SILHOUETTE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "HEIGHT",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MAJOR_VOLUME",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "SETBACK",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "CURVATURE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "FACADE_COMPOSITION",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ROOF",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "ENTRANCE",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "MATERIAL",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        },
+        {
+          "aspect": "GROUND_RELATIONSHIP",
+          "severity": "INFO",
+          "disposition": "NOT_EVIDENCED",
+          "description": "Reference-matched comparison not completed"
+        }
+      ],
+      "manual_reviewer_signoff": null,
+      "visual_status": "PENDING_VISUAL_QA",
+      "approval_gates": {
+        "evidence": false,
+        "build": false,
+        "glb": false,
+        "reference_comparison": false,
+        "discrepancies": true,
+        "independent_signoff": false
+      },
+      "approval_gate": "BLOCKED"
+    }
+  ],
+  "approved_count": 0
+}

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import importlib
 import json
 import math
 from pathlib import Path
@@ -43,6 +44,15 @@ def main() -> None:
     config = spec.get("generic_builder")
     if not isinstance(config, dict):
         raise ValueError("PACKAGE_ERROR: generic_builder configuration is required")
+    strategy = spec.get("builder_strategy", {"mode": "GENERIC"})
+    mode = strategy.get("mode", "GENERIC")
+    if mode not in {"GENERIC", "LANDMARK_OVERRIDE"}:
+        raise ValueError(f"PACKAGE_ERROR: unsupported builder strategy {mode!r}")
+    original_config = config
+    if mode == "LANDMARK_OVERRIDE":
+        # Keep QA/material/export mechanics below; only geometry is overridden.
+        config = {**config, "volumes": [], "polygon_volumes": [],
+                  "polygon_edge_regions": [], "facade_regions": []}
     entity_id = spec["target"]["entity_id"]
     scene_tools.clear_scene()
     scene_tools.configure_scene()
@@ -133,6 +143,15 @@ def main() -> None:
             reconstruction_fidelity=spec["target_fidelity"], target_time_state=spec["target_time_state"]["value"],
         )
         objects.append(obj)
+    if mode == "LANDMARK_OVERRIDE":
+        module_name = strategy.get("module", "")
+        if module_name != entity_id or not module_name.startswith("bgc_m17_") or not module_name.isidentifier():
+            raise ValueError("PACKAGE_ERROR: landmark module must match a bgc_m17_* entity ID")
+        module = importlib.import_module(f"blender.landmarks.{module_name}")
+        objects.extend(module.build({"scene_tools": scene_tools, "geometry_by_id": geometry_by_id,
+                                     "materials": materials, "spec": spec, "package": package,
+                                     "entity_id": entity_id}))
+    config = original_config
     camera_specs = [QACameraSpec(
         item["camera_id"], item["kind"], tuple(item["location"]), tuple(item["target"]),
         item["lens_mm"], item["filename"], item["match"], tuple(item.get("reference_ids", [])),

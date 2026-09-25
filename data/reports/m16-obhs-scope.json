@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source_data": "data/processed/bgc-buildings.geojson",
+  "source_entity_id": "osm:way:1078392706",
+  "mall_tags": {
+    "building": "commercial",
+    "layer": "-1",
+    "name": "One Bonifacio High Street",
+    "operator": "Ayala Land, Inc.",
+    "shop": "mall"
+  },
+  "mall_footprint_area_m2": 12248.28,
+  "overlaps": {
+    "The Suites": {
+      "source_id": "osm:way:203910666",
+      "intersection_m2": 5702.21,
+      "neighbor_footprint_fraction": 0.9887
+    },
+    "PSE Tower": {
+      "source_id": "osm:way:71598335",
+      "intersection_m2": 4531.55,
+      "neighbor_footprint_fraction": 0.9948
+    }
+  },
+  "interpretation": "OSM feature is tagged as a mall but spatially includes almost all of two tower outlines; exact retail component boundary is unresolved.",
+  "evidence_state": "VERIFIED_GEOGRAPHIC"
+}

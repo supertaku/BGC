@@ -1,4 +1,13 @@
-# M18 — Visual and performance QA
+# M18A visual system acceptance
+
+Status: **NOT GATED**. M18A starts after the final revised M17 batch is individually approved. The existing shared materials, VisualEnvironment, tree variants, mapped instancing, and LOW default are preserved.
+
+There is no historical comparable M15 browser baseline. Do not infer one from the M11 report. When M17 passes, benchmark the same final runtime in controlled legacy/LOW/FULL modes across AERIAL, HIGH_STREET_INSPECT, HIGH_STREET_WALK, TOUR, and SOUTH_STREET in a foreground browser. Record mean/median/p1 FPS, initial and streamed bytes, draw calls, triangles, geometries, textures, active tiles, active LOD1, GPU, viewport, and DPR. Apply the existing >15% warning and >25% failure gates. Assess walking visual coherence, shadow popping and p1 stability before considering FULL; LOW remains default.
+
+`data/reports/m18-performance.json` remains `NOT_GATED` with null comparable measurements. No M18 acceptance or production build claim is made here.
+
+## Original M18 prototype assessment
+
 
 Status: **NOT RUN as an acceptance suite.** The M17 prerequisite failed. The system has a compile/test check and static asset accounting, not a valid M15-to-M18 foreground benchmark.
 

@@ -12,13 +12,18 @@
   "lod0_count": 0,
   "wave_a_targets": 4,
   "wave_b_targets": 6,
-  "critical_discrepancies_confirmed": 0,
-  "major_discrepancies_confirmed_minimum": 2,
+  "critical_discrepancies_confirmed": 1,
+  "major_discrepancies_confirmed_minimum": 6,
   "major_discrepancy_count_complete_audit": null,
   "qa_render_rounds": 12,
   "reference_comparison_passes": 0,
   "new_shared_geometry_primitives": 0,
-  "target_specific_builder_modules": 0,
+  "target_specific_builder_modules": 1,
   "astra_tasks": 0,
-  "gate_reason": "Architecture-level silhouette/facade mismatches remain; no reference-matched signoff or foreground LOD regression run."
+  "gate_reason": "No target has passed explicit evidence coverage, camera matching, reference comparison, and independent visual review.",
+  "final_evidence_ready_count": 1,
+  "draft_count": 10,
+  "confirmed_open_critical": 1,
+  "confirmed_open_major": 6,
+  "recovery_state": "IN_PROGRESS"
 }

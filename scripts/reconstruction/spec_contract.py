@@ -74,6 +74,11 @@ def validate_spec(payload: Any) -> dict:
             errors.append(f"{field}: expected non-empty array")
     if spec.get("readiness") not in {"RECONSTRUCTION_READY", "RECONSTRUCTION_READY_WITH_GAPS"}:
         errors.append("readiness: expected a reconstruction-ready lifecycle state")
+    strategy = spec.get("builder_strategy", {"mode": "GENERIC"})
+    if not isinstance(strategy, dict) or strategy.get("mode") not in {"GENERIC", "LANDMARK_OVERRIDE"}:
+        errors.append("builder_strategy: expected GENERIC or LANDMARK_OVERRIDE")
+    elif strategy["mode"] == "LANDMARK_OVERRIDE" and strategy.get("module") != target.get("entity_id"):
+        errors.append("builder_strategy.module: must match target entity_id")
     for index, camera in enumerate(spec.get("visual_qa_cameras", [])):
         item = _object(camera, f"visual_qa_cameras[{index}]", errors)
         _required(item, f"visual_qa_cameras[{index}]", ("camera_id", "position", "target", "fov_deg", "corresponding_reference", "confidence", "match_status"), errors)

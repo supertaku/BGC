@@ -43,18 +43,12 @@
       "entity_id": "bgc_m17_0003",
       "property": "major_facade_rhythm",
       "value": "5 broad normalized bands",
-      "status": "INFERRED",
-      "confidence": 0.62,
-      "source_ids": [
-        "source:m17:official-pse-tower",
-        "source:m17:architect-obhs"
-      ],
-      "reference_ids": [
-        "ref:m17:official-pse-tower",
-        "ref:m17:architect-obhs"
-      ],
+      "status": "PROCEDURAL",
+      "confidence": 0.0,
+      "source_ids": [],
+      "reference_ids": [],
       "method": "bounded_reference_interpretation",
-      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+      "notes": "Superseded generic draft pattern; no architectural evidence claim."
     },
     {
       "observation_id": "obs:bgc_m17_0003:materials",
@@ -76,6 +70,91 @@
       ],
       "method": "bounded_reference_interpretation",
       "notes": "Broad PBR families only; no photographic textures."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0003:stories",
+      "entity_id": "bgc_m17_0003",
+      "property": "stories",
+      "value": 30,
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m16r:architect-pse"
+      ],
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "stories",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0003:frontpiece",
+      "entity_id": "bgc_m17_0003",
+      "property": "principal_facade",
+      "value": "inflected glazed frontpiece toward main commercial avenue",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m16r:architect-pse"
+      ],
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "frontpiece",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0003:ribs",
+      "entity_id": "bgc_m17_0003",
+      "property": "principal_facade",
+      "value": "deep vertical solar-control ribs on expressed spine",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m16r:architect-pse"
+      ],
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "ribs",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0003:composition",
+      "entity_id": "bgc_m17_0003",
+      "property": "facade_composition",
+      "value": "asymmetric tower composition",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m16r:architect-pse"
+      ],
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "composition",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0003:roof-slope",
+      "entity_id": "bgc_m17_0003",
+      "property": "upper_silhouette",
+      "value": "sloped upper edges visible; 4 m draft slope is estimated",
+      "status": "INFERRED",
+      "confidence": 0.45,
+      "source_ids": [
+        "source:m16r:architect-pse"
+      ],
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "roof-slope",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
     }
   ],
   "conflicts": []

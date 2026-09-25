@@ -43,6 +43,69 @@
       "appearance_period": "CURRENT_OR_RECENT",
       "storage_status": "REMOTE_METADATA_ONLY",
       "viewable_for_research": true
+    },
+    {
+      "reference_id": "ref:m16r:architect-pse",
+      "source_id": "source:m16r:architect-pse",
+      "title": "Handel Architects — Philippine Stock Exchange",
+      "url": "https://handelarchitects.com/project/philippine-stock-exchange",
+      "source_page_url": "https://handelarchitects.com/project/philippine-stock-exchange",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true,
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "reference_role": "ARCHITECT_FACTS_AND_EXTERIOR",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0003",
+          "relationship": "ARCHITECT_FACTS_AND_EXTERIOR",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "reference_id": "ref:m16r:architect-pse:044a",
+      "source_id": "source:m16r:architect-pse",
+      "title": "Handel PSE exterior image 00.864.11.044a",
+      "url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.044a.jpg",
+      "source_page_url": "https://handelarchitects.com/project/philippine-stock-exchange",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true,
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "reference_role": "EXTERIOR_VIEW_UNMATCHED",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0003",
+          "relationship": "EXTERIOR_VIEW",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "reference_id": "ref:m16r:architect-pse:008a",
+      "source_id": "source:m16r:architect-pse",
+      "title": "Handel PSE exterior image 00.864.11.008a",
+      "url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.008a.jpg",
+      "source_page_url": "https://handelarchitects.com/project/philippine-stock-exchange",
+      "rights_status": "RESEARCH_ONLY",
+      "asset_embedded": false,
+      "storage_status": "REMOTE_METADATA_ONLY",
+      "viewable_for_research": true,
+      "entity_match_status": "ACCEPTED",
+      "appearance_period": "CURRENT_OR_RECENT",
+      "reference_role": "EXTERIOR_VIEW_UNMATCHED",
+      "entity_links": [
+        {
+          "entity_id": "bgc_m17_0003",
+          "relationship": "EXTERIOR_VIEW",
+          "confidence": 0.9
+        }
+      ]
     }
   ]
 }

@@ -12,46 +12,42 @@
   ],
   "aspects": {
     "identity": {
-      "rating": "GOOD",
-      "reference_ids": [
-        "ref:m17:official-ayala-obhs",
-        "ref:m17:architect-obhs"
-      ]
+      "rating": "CONFLICTED",
+      "reference_ids": [],
+      "basis": "OSM tags identify a mall; architect project name denotes whole mixed-use development"
     },
     "height": {
-      "rating": "GOOD",
-      "reference_ids": []
+      "rating": "WEAK",
+      "reference_ids": [],
+      "basis": "OSM height or explicit procedural fallback"
     },
     "overall_massing": {
-      "rating": "GOOD",
-      "reference_ids": [
-        "ref:m17:official-ayala-obhs",
-        "ref:m17:architect-obhs"
-      ]
+      "rating": "WEAK",
+      "reference_ids": [],
+      "basis": "12 m is a procedural fallback; OSM mall polygon overlaps Suites and PSE tower outlines"
     },
     "major_facades": {
-      "rating": "GOOD",
-      "reference_ids": [
-        "ref:m17:official-ayala-obhs",
-        "ref:m17:architect-obhs"
-      ]
+      "rating": "NONE",
+      "reference_ids": [],
+      "basis": "No aspect-specific review yet"
     },
     "roof": {
-      "rating": "WEAK",
-      "reference_ids": []
+      "rating": "NONE",
+      "reference_ids": [],
+      "basis": "No aspect-specific review yet"
     },
     "materials": {
-      "rating": "PARTIAL",
-      "reference_ids": [
-        "ref:m17:official-ayala-obhs",
-        "ref:m17:architect-obhs"
-      ]
+      "rating": "NONE",
+      "reference_ids": [],
+      "basis": "No aspect-specific review yet"
     },
     "entrances": {
-      "rating": "WEAK",
-      "reference_ids": []
+      "rating": "NONE",
+      "reference_ids": [],
+      "basis": "No aspect-specific review yet"
     }
   },
   "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
-  "readiness_reason": "Identity, grounded polygon massing, major visible character, and broad materials are supported; exact entrances, roof plant, and weak sides stay conservative."
+  "readiness_reason": "identity: CONFLICTED is insufficient; height: WEAK is insufficient; massing: WEAK is insufficient; principal_facade: NONE is insufficient; fewer than two inspected, camera-matchable viewpoints; entity scope unresolved",
+  "visual_reconstruction_status": "NOT_READY"
 }

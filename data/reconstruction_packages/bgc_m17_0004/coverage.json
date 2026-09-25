@@ -13,45 +13,51 @@
   "aspects": {
     "identity": {
       "rating": "GOOD",
-      "reference_ids": [
-        "ref:m17:official-arthaland-acpt",
-        "ref:m17:architect-som-acpt"
-      ]
+      "reference_ids": [],
+      "basis": "Named OSM entity and project identity"
     },
     "height": {
-      "rating": "PARTIAL",
-      "reference_ids": ["ref:m17:architect-som-acpt"]
+      "rating": "CONFLICTED",
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ],
+      "basis": "OSM 114.7 m conflicts with SOM 136 m; reconstruction decision follows SOM"
     },
     "overall_massing": {
-      "rating": "GOOD",
+      "rating": "PARTIAL",
       "reference_ids": [
-        "ref:m17:official-arthaland-acpt",
         "ref:m17:architect-som-acpt"
-      ]
+      ],
+      "basis": "SOM describes glass office tower with parking podium, lobby, rooftop terrace"
     },
     "major_facades": {
-      "rating": "GOOD",
+      "rating": "PARTIAL",
       "reference_ids": [
-        "ref:m17:official-arthaland-acpt",
         "ref:m17:architect-som-acpt"
-      ]
+      ],
+      "basis": "SOM describes overlapping glass and changing solar shading by height"
     },
     "roof": {
-      "rating": "WEAK",
-      "reference_ids": []
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ],
+      "basis": "SOM documents rooftop garden terrace; detailed plant omitted"
     },
     "materials": {
       "rating": "PARTIAL",
       "reference_ids": [
-        "ref:m17:official-arthaland-acpt",
         "ref:m17:architect-som-acpt"
-      ]
+      ],
+      "basis": "SOM documents glazing; no exact color or module count"
     },
     "entrances": {
-      "rating": "WEAK",
-      "reference_ids": []
+      "rating": "NONE",
+      "reference_ids": [],
+      "basis": "No aspect-specific review yet"
     }
   },
   "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
-  "readiness_reason": "Identity, grounded polygon massing, major visible character, and broad materials are supported; exact entrances, roof plant, and weak sides stay conservative."
+  "readiness_reason": "fewer than two inspected, camera-matchable viewpoints",
+  "visual_reconstruction_status": "NOT_READY"
 }

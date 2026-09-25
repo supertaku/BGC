@@ -13,45 +13,49 @@
   "aspects": {
     "identity": {
       "rating": "GOOD",
-      "reference_ids": [
-        "ref:m17:official-alp-suites",
-        "ref:m17:architect-suites"
-      ]
+      "reference_ids": [],
+      "basis": "Named OSM entity and project identity"
     },
     "height": {
-      "rating": "GOOD",
-      "reference_ids": []
+      "rating": "PARTIAL",
+      "reference_ids": [],
+      "basis": "OSM height or explicit procedural fallback"
     },
     "overall_massing": {
-      "rating": "GOOD",
+      "rating": "PARTIAL",
       "reference_ids": [
-        "ref:m17:official-alp-suites",
         "ref:m17:architect-suites"
-      ]
+      ],
+      "basis": "Architect describes a gently curved tower; exact curvature needs multiview review"
     },
     "major_facades": {
-      "rating": "GOOD",
+      "rating": "PARTIAL",
       "reference_ids": [
-        "ref:m17:official-alp-suites",
         "ref:m17:architect-suites"
-      ]
+      ],
+      "basis": "Architect describes horizontal bands and glass/masonry"
     },
     "roof": {
-      "rating": "WEAK",
-      "reference_ids": []
+      "rating": "NONE",
+      "reference_ids": [],
+      "basis": "No aspect-specific review yet"
     },
     "materials": {
       "rating": "PARTIAL",
       "reference_ids": [
-        "ref:m17:official-alp-suites",
         "ref:m17:architect-suites"
-      ]
+      ],
+      "basis": "Architect names glass and masonry"
     },
     "entrances": {
-      "rating": "WEAK",
-      "reference_ids": []
+      "rating": "PARTIAL",
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ],
+      "basis": "Architect describes retail and entry spaces at street level"
     }
   },
   "reconstruction_readiness": "RECONSTRUCTION_READY_WITH_GAPS",
-  "readiness_reason": "Identity, grounded polygon massing, major visible character, and broad materials are supported; exact entrances, roof plant, and weak sides stay conservative."
+  "readiness_reason": "fewer than two inspected, camera-matchable viewpoints",
+  "visual_reconstruction_status": "NOT_READY"
 }

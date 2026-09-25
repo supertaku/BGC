@@ -313,6 +313,9 @@ def main() -> None:
         "errors": errors,
         "warnings": warnings,
     }
+    if str(entity.get("entity_id", "")).startswith("bgc_m17_"):
+        from evidence_gate import assess
+        result["visual_reconstruction_gate"] = assess(package)
     if args.as_json:
         print(json.dumps(result, indent=2))
     else:

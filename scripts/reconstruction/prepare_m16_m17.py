@@ -223,6 +223,10 @@ def main() -> None:
     ranking = rank(features, source)
     generated_at = datetime.now(timezone.utc).isoformat()
     dump(ROOT / "data/reports/m16-priority-ranking.json", {"schema_version": 1, "milestone": "M16", "generated_at": generated_at, "method": "whole-city existing-data-only spatial and evidence-proxy scoring", "canonical_candidates": len(features), "dimensions_scale": "0..5 (complexity is cost, not quality)", "candidates": ranking})
+    recovery_report = ROOT / "data/reports/m16-selected-buildings.json"
+    if recovery_report.exists() and load(recovery_report).get("recovery_policy"):
+        print("M16_PREP: ranking refreshed; recovered selection/packages preserved")
+        return
     selected = [package_target(target, features[target[1]], source) for target in TARGETS]
     # SOM's 136 m project height conflicts with the 114.7 m OSM envelope used by
     # the draft ACPT package. Keep the target visible in the selection audit, but

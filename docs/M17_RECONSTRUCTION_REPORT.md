@@ -1,4 +1,15 @@
-# M17 — Priority landmark reconstruction
+# M17R landmark reconstruction recovery
+
+Status: **PSE MASSING CALIBRATION FAILED VISUAL QA; NO NEW ASSET APPROVED**.
+
+The generic polygon builder, facade frames, material library, metadata, QA cameras, exporter, and structural validation remain shared. An optional schema 1.0 `builder_strategy` dispatches to `blender/landmarks/<entity_id>.py`; absent fields continue through the generic builder. Only PSE has an override module. Its current `MASSING` phase creates a coarse podium and mapped tower parts; inferred ribs are gated to the later `FACADE` phase. The PSE massing draft was rebuilt and rendered from two approximate source cameras. Its GLB passes structural validation. It is **not published**.
+
+`build_building.py` stops M17 builds unless the explicit evidence gate passes. PSE now passes M16R on two low-confidence approximate views. Round 1 used mapped flat extrusion caps; round 2 tested a 4 m estimated upper slope. Both reference comparisons fail on upper silhouette and tower-part massing. The current draft GLB passes structural validation at 10,292 bytes, 132 triangles, 3 meshes, and 2 materials; details are in [M17 reference QA](M17_REFERENCE_QA.md). The seven approved LOD1 assets, 6,982 LOD2 buildings, 94 tiles, and runtime registry remain unchanged. Only the unpublished PSE draft GLB was regenerated.
+
+The next sequence is PSE camera/footprint interpretation, massing render and discrepancy closure, principal facade refinement, separate signoff, GLB validation, then foreground LOD2→LOD1→LOD2. Only after PSE passes should The Suites and ACPT receive landmark modules. One Bonifacio remains deferred pending component scope. Wave B remains deferred.
+
+## Original M17 baseline assessment
+
 
 Status: **FAIL at the visual acceptance gate.** Ten draft LOD1 GLBs passed structural validation; zero new assets passed reference-comparison visual QA, so zero were published. The live world retains the original seven approved LOD1 assets and all LOD2 fallbacks.
 

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0004",
+  "entity_scope_status": "RESOLVED",
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "basis": "Named OSM entity and project identity",
+      "reference_ids": []
+    },
+    "footprint": {
+      "rating": "PARTIAL",
+      "basis": "Processed OSM footprint; community mapping, not survey",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "CONFLICTED",
+      "basis": "OSM 114.7 m conflicts with SOM 136 m; reconstruction decision follows SOM",
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ]
+    },
+    "massing": {
+      "rating": "PARTIAL",
+      "basis": "SOM describes glass office tower with parking podium, lobby, rooftop terrace",
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ]
+    },
+    "principal_facade": {
+      "rating": "PARTIAL",
+      "basis": "SOM describes overlapping glass and changing solar shading by height",
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ]
+    },
+    "secondary_facade": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "roof": {
+      "rating": "PARTIAL",
+      "basis": "SOM documents rooftop garden terrace; detailed plant omitted",
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ]
+    },
+    "entrance": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "basis": "SOM documents glazing; no exact color or module count",
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ]
+    }
+  },
+  "reconstruction_height_decision": {
+    "height_m": 136.0,
+    "source_ids": [
+      "source:m17:architect-som-acpt"
+    ],
+    "conflict_retained": true
+  },
+  "viewpoints": [],
+  "review_note": "No view is camera matched yet; research-only images are not stored."
+}

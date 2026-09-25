@@ -43,18 +43,12 @@
       "entity_id": "bgc_m17_0002",
       "property": "major_facade_rhythm",
       "value": "8 broad normalized bands",
-      "status": "INFERRED",
-      "confidence": 0.62,
-      "source_ids": [
-        "source:m17:official-alp-suites",
-        "source:m17:architect-suites"
-      ],
-      "reference_ids": [
-        "ref:m17:official-alp-suites",
-        "ref:m17:architect-suites"
-      ],
+      "status": "PROCEDURAL",
+      "confidence": 0.0,
+      "source_ids": [],
+      "reference_ids": [],
       "method": "bounded_reference_interpretation",
-      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+      "notes": "Superseded generic draft pattern; no architectural evidence claim."
     },
     {
       "observation_id": "obs:bgc_m17_0002:materials",
@@ -76,6 +70,94 @@
       ],
       "method": "bounded_reference_interpretation",
       "notes": "Broad PBR families only; no photographic textures."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:curvature",
+      "entity_id": "bgc_m17_0002",
+      "property": "overall_form",
+      "value": "gently curved tower",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-suites"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "curvature",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:banding",
+      "entity_id": "bgc_m17_0002",
+      "property": "principal_facade",
+      "value": "strong horizontal banding",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-suites"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "banding",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:balconies",
+      "entity_id": "bgc_m17_0002",
+      "property": "facade_detail",
+      "value": "double-height balconies in some residences",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-suites"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "balconies",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:ground",
+      "entity_id": "bgc_m17_0002",
+      "property": "ground_relationship",
+      "value": "retail and entries join a multilevel courtyard",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-suites"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "ground",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0002:material",
+      "entity_id": "bgc_m17_0002",
+      "property": "material_families",
+      "value": [
+        "glass",
+        "masonry"
+      ],
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-suites"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "material",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
     }
   ],
   "conflicts": []

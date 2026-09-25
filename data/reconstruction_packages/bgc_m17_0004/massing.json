@@ -18,8 +18,8 @@
       "max_x": -227.637,
       "max_y": 234.83
     },
-    "maximum_height_m": 114.7,
-    "height_status": "VERIFIED_GEOGRAPHIC"
+    "maximum_height_m": 136.0,
+    "height_status": "VERIFIED_AUTHORITATIVE"
   },
   "components": [
     {
@@ -27,16 +27,16 @@
       "component_id": "bgc_m17_0004:massing:00",
       "source_feature_id": "osm:way:182331875",
       "base_z_m": 0.0,
-      "height_m": 114.7,
+      "height_m": 136.0,
       "material_family": "architectural_dark_glass",
-      "classification": "verified geographic footprint; verified_geographic height",
-      "evidence_status": "VERIFIED_GEOGRAPHIC",
+      "classification": "OSM footprint; SOM architectural height",
+      "evidence_status": "VERIFIED_AUTHORITATIVE",
       "observation_ids": [
-        "obs:bgc_m17_0004:footprint",
-        "obs:bgc_m17_0004:height"
+        "obs:bgc_m17_0004:height-architect",
+        "obs:bgc_m17_0004:footprint"
       ],
       "evidence_ids": [
-        "source:osm"
+        "ref:m17:architect-som-acpt"
       ]
     }
   ],

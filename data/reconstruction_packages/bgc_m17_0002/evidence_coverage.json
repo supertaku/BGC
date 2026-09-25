@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0002",
+  "entity_scope_status": "RESOLVED",
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "basis": "Named OSM entity and project identity",
+      "reference_ids": []
+    },
+    "footprint": {
+      "rating": "PARTIAL",
+      "basis": "Processed OSM footprint; community mapping, not survey",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "PARTIAL",
+      "basis": "OSM height or explicit procedural fallback",
+      "reference_ids": []
+    },
+    "massing": {
+      "rating": "PARTIAL",
+      "basis": "Architect describes a gently curved tower; exact curvature needs multiview review",
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ]
+    },
+    "principal_facade": {
+      "rating": "PARTIAL",
+      "basis": "Architect describes horizontal bands and glass/masonry",
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ]
+    },
+    "secondary_facade": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "roof": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "entrance": {
+      "rating": "PARTIAL",
+      "basis": "Architect describes retail and entry spaces at street level",
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ]
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "basis": "Architect names glass and masonry",
+      "reference_ids": [
+        "ref:m17:architect-suites"
+      ]
+    }
+  },
+  "reconstruction_height_decision": {
+    "height_m": 227.0,
+    "source_ids": [
+      "source:osm"
+    ],
+    "conflict_retained": false
+  },
+  "viewpoints": [],
+  "review_note": "No view is camera matched yet; research-only images are not stored."
+}

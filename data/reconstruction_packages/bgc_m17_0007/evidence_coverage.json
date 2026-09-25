@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0007",
+  "entity_scope_status": "RESOLVED",
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "basis": "Named OSM entity and project identity",
+      "reference_ids": []
+    },
+    "footprint": {
+      "rating": "PARTIAL",
+      "basis": "Processed OSM footprint; community mapping, not survey",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "WEAK",
+      "basis": "OSM height or explicit procedural fallback",
+      "reference_ids": []
+    },
+    "massing": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "principal_facade": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "secondary_facade": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "roof": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "entrance": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "materials": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    }
+  },
+  "reconstruction_height_decision": {
+    "height_m": 12.0,
+    "source_ids": [
+      "source:osm"
+    ],
+    "conflict_retained": false
+  },
+  "viewpoints": [],
+  "review_note": "No view is camera matched yet; research-only images are not stored."
+}

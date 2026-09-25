@@ -6,16 +6,40 @@
     {
       "entity_id": "bgc_m17_0001",
       "source_entity_id": "osm:way:1078392706",
-      "name": "One Bonifacio High Street",
+      "name": "One Bonifacio High Street — retail mall/podium candidate",
       "tier": "A",
       "wave": "A",
       "archetype": "MIXED_USE_PODIUM",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "VERY_HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "HIGH",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "scope_note": "OSM shop=mall polygon includes tower ground footprints; retail component boundary requires review.",
+      "disposition": "DEFER_SCOPE_AND_EVIDENCE",
+      "readiness_reasons": [
+        "identity: CONFLICTED is insufficient",
+        "height: WEAK is insufficient",
+        "massing: WEAK is insufficient",
+        "principal_facade: NONE is insufficient",
+        "fewer than two inspected, camera-matchable viewpoints",
+        "entity scope unresolved"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0001/evidence_coverage.json",
+      "spatial_scope_report": "data/reports/m16-obhs-scope.json",
+      "spatial_scope_review": {
+        "The Suites": {
+          "source_id": "osm:way:203910666",
+          "intersection_m2": 5702.21,
+          "neighbor_footprint_fraction": 0.9887
+        },
+        "PSE Tower": {
+          "source_id": "osm:way:71598335",
+          "intersection_m2": 4531.55,
+          "neighbor_footprint_fraction": 0.9948
+        }
+      }
     },
     {
       "entity_id": "bgc_m17_0002",
@@ -26,10 +50,15 @@
       "archetype": "PODIUM_TOWER",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "VERY_HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "HIGH",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_SECOND_VIEWPOINT_AND_GEOMETRY",
+      "readiness_reasons": [
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0002/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0003",
@@ -40,10 +69,13 @@
       "archetype": "OFFICE_LANDMARK",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "VERY_HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "READY_FOR_VISUAL_RECONSTRUCTION",
       "expected_complexity": "MEDIUM",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 5,
+      "disposition": "CALIBRATION_MASSING_ONLY",
+      "readiness_reasons": [],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0003/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0004",
@@ -57,7 +89,12 @@
       "evidence_readiness": "NOT_READY",
       "expected_complexity": "HIGH",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_VIEWPOINT_MATCH_AND_FACADE",
+      "readiness_reasons": [
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0004/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0005",
@@ -68,10 +105,17 @@
       "archetype": "HOTEL_PODIUM_TOWER",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "HIGH",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_ASPECT_REVIEW",
+      "readiness_reasons": [
+        "massing: NONE is insufficient",
+        "principal_facade: NONE is insufficient",
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0005/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0006",
@@ -82,10 +126,17 @@
       "archetype": "CULTURAL_IRREGULAR",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "MEDIUM",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_ASPECT_REVIEW",
+      "readiness_reasons": [
+        "massing: NONE is insufficient",
+        "principal_facade: NONE is insufficient",
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0006/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0007",
@@ -96,10 +147,18 @@
       "archetype": "PERFORMING_ARTS",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "MEDIUM",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_ASPECT_REVIEW",
+      "readiness_reasons": [
+        "height: WEAK is insufficient",
+        "massing: NONE is insufficient",
+        "principal_facade: NONE is insufficient",
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0007/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0008",
@@ -110,10 +169,17 @@
       "archetype": "OFFICE_TOWER",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "MEDIUM",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_ASPECT_REVIEW",
+      "readiness_reasons": [
+        "massing: NONE is insufficient",
+        "principal_facade: NONE is insufficient",
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0008/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0009",
@@ -124,10 +190,17 @@
       "archetype": "RESIDENTIAL_TOWER",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "MEDIUM",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_ASPECT_REVIEW",
+      "readiness_reasons": [
+        "massing: NONE is insufficient",
+        "principal_facade: NONE is insufficient",
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0009/evidence_coverage.json"
     },
     {
       "entity_id": "bgc_m17_0010",
@@ -138,12 +211,35 @@
       "archetype": "RESIDENTIAL_TOWER",
       "selection_reason": "High pedestrian/tour visibility and identity-defining massing on or near the High Street experience.",
       "visibility_importance": "HIGH",
-      "evidence_readiness": "READY_WITH_GAPS",
+      "evidence_readiness": "NOT_READY",
       "expected_complexity": "MEDIUM",
       "target_lod": "LOD1",
-      "reference_count": 2
+      "reference_count": 2,
+      "disposition": "DEFER_ASPECT_REVIEW",
+      "readiness_reasons": [
+        "massing: NONE is insufficient",
+        "principal_facade: NONE is insufficient",
+        "fewer than two inspected, camera-matchable viewpoints"
+      ],
+      "coverage_file": "data/reconstruction_packages/bgc_m17_0010/evidence_coverage.json"
     }
   ],
-  "evidence_gate": "PARTIAL",
-  "not_ready_replaced": 0
+  "evidence_gate": "PASS",
+  "not_ready_replaced": 0,
+  "recovery_policy": "Only READY_FOR_VISUAL_RECONSTRUCTION targets may enter the final batch. Original drafts remain unpublished.",
+  "initial_targets": [
+    "bgc_m17_0001",
+    "bgc_m17_0002",
+    "bgc_m17_0003",
+    "bgc_m17_0004",
+    "bgc_m17_0005",
+    "bgc_m17_0006",
+    "bgc_m17_0007",
+    "bgc_m17_0008",
+    "bgc_m17_0009",
+    "bgc_m17_0010"
+  ],
+  "final_selected_target_ids": [
+    "bgc_m17_0003"
+  ]
 }

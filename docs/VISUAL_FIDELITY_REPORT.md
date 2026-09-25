@@ -1,13 +1,13 @@
-# M16–M18 visual fidelity expansion — gate report
+# M16–M18 visual fidelity — recovery gate
 
-Overall phase: **PARTIAL**. M16 ranking passed but its evidence gate is partial; M17 visual reconstruction failed; M18 remains a prototype and is not gated. See [machine summary](../data/reports/visual-fidelity-summary.json).
+Combined status: **RECOVERY IN PROGRESS**. Do not begin M19.
 
-| Gate | Outcome | Evidence |
+| Gate | Current result | Required next action |
 | --- | --- | --- |
-| M16 | PARTIAL | 6,982 ranked, tiers A/B/C = 4/37/6,941, ten selected; nine READY_WITH_GAPS, one NOT_READY height conflict |
-| M17 | FAIL | Ten structurally valid draft GLBs; at least two confirmed major visual discrepancies; zero newly approved |
-| M18 | NOT GATED | 11-material shared prototype, three instanced tree variants, LOW default; no comparable browser benchmark |
+| M16R | PASS for a revised one-building calibration batch: PSE Tower has two approximate architect-image camera matches. ACPT height decision is resolved; One Bonifacio and Wave B are deferred. | Preserve the narrow batch and add candidates only after aspect review. |
+| M17R | FAIL. PSE massing-only draft builds and validates, but its first source comparisons show major silhouette and volume mismatches. Ten draft assets remain `PENDING_VISUAL_QA`; zero new approvals. | Refine PSE massing, then facade, independent signoff and foreground LOD transition. |
+| M18A | Prototype retained; no matched browser baseline or acceptance. | Start only after the revised M17 batch passes. |
 
-The published runtime remains at seven LOD1 and zero LOD0. Existing LOD2 geography and tile streaming are retained. Source-supported geography, research-only imagery, inferred material families and procedural facade filler are explicitly separate in the packages. The central weakness is not polygon count: it is lack of source-matched landmark massing and major facade composition. Structural validation alone cannot certify a recognizable building.
+The runtime still contains seven approved LOD1 assets, 6,982 LOD2 buildings and 94 tiles. Old M17 draft GLBs are excluded. `data/reports/visual-fidelity-summary.json`, `m16-selected-buildings.json`, and `m17-reference-qa.json` carry machine-readable gate state.
 
-The safe next milestone is **M17 reference-matched reconstruction and visual signoff**, beginning with the four wave-A targets and the Arthaland height conflict. Sol is appropriate for focused evidence interpretation and modeling; Astra is not yet justified because the brief's bounded-escalation conditions have not been met. Only after that gate passes should the M18 prototype be benchmarked and accepted.
+Recovery records: [M16 evidence](M16_RECOVERY_REPORT.md), [M17 reference QA](M17_REFERENCE_QA.md), [M17 reconstruction](M17_RECONSTRUCTION_REPORT.md), [M18 acceptance plan](M18_VISUAL_QA.md).

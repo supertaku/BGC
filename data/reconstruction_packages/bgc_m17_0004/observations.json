@@ -36,7 +36,7 @@
       ],
       "reference_ids": [],
       "method": "osm_height",
-      "notes": "OSM reports 114.7 m; SOM's project facts report 136 m. Model still uses the OSM envelope; resolve before approval."
+      "notes": "OSM source observation retained at 114.7 m; reconstruction uses SOM's published 136 m. Conflict remains visible."
     },
     {
       "observation_id": "obs:bgc_m17_0004:height-architect",
@@ -45,8 +45,12 @@
       "value": 136.0,
       "status": "VERIFIED_AUTHORITATIVE",
       "confidence": 0.9,
-      "source_ids": ["source:m17:architect-som-acpt"],
-      "reference_ids": ["ref:m17:architect-som-acpt"],
+      "source_ids": [
+        "source:m17:architect-som-acpt"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ],
       "method": "architect_project_facts",
       "notes": "SOM project height; relationship to the OSM height convention is unresolved."
     },
@@ -55,18 +59,12 @@
       "entity_id": "bgc_m17_0004",
       "property": "major_facade_rhythm",
       "value": "7 broad normalized bands",
-      "status": "INFERRED",
-      "confidence": 0.62,
-      "source_ids": [
-        "source:m17:official-arthaland-acpt",
-        "source:m17:architect-som-acpt"
-      ],
-      "reference_ids": [
-        "ref:m17:official-arthaland-acpt",
-        "ref:m17:architect-som-acpt"
-      ],
+      "status": "PROCEDURAL",
+      "confidence": 0.0,
+      "source_ids": [],
+      "reference_ids": [],
       "method": "bounded_reference_interpretation",
-      "notes": "Strongest visible facades inform a conservative repeatable rhythm; exact modules are not asserted."
+      "notes": "Superseded generic draft pattern; no architectural evidence claim."
     },
     {
       "observation_id": "obs:bgc_m17_0004:materials",
@@ -88,7 +86,67 @@
       ],
       "method": "bounded_reference_interpretation",
       "notes": "Broad PBR families only; no photographic textures."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0004:stories",
+      "entity_id": "bgc_m17_0004",
+      "property": "stories",
+      "value": 32,
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-som-acpt"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "stories",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0004:glass",
+      "entity_id": "bgc_m17_0004",
+      "property": "facade_composition",
+      "value": "overlapping glass conceals podium parking and changes appearance with height",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-som-acpt"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "glass",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0004:roof",
+      "entity_id": "bgc_m17_0004",
+      "property": "roof",
+      "value": "garden terrace, detailed equipment unknown",
+      "status": "VERIFIED_AUTHORITATIVE",
+      "confidence": 0.9,
+      "source_ids": [
+        "source:m17:architect-som-acpt"
+      ],
+      "reference_ids": [
+        "ref:m17:architect-som-acpt"
+      ],
+      "method": "architect_project_page",
+      "affected_component": "roof",
+      "notes": "Source fact; geometry interpretation still requires visual QA."
     }
   ],
-  "conflicts": ["obs:bgc_m17_0004:height"]
+  "conflicts": [
+    "obs:bgc_m17_0004:height"
+  ],
+  "height_decision": {
+    "reconstruction_height_m": 136.0,
+    "source_id": "source:m17:architect-som-acpt",
+    "reference_id": "ref:m17:architect-som-acpt",
+    "reason": "architect-published project height",
+    "conflicting_observation_id": "obs:bgc_m17_0004:height"
+  }
 }

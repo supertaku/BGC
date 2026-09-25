@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "entity_id": "bgc_m17_0003",
+  "entity_scope_status": "RESOLVED",
+  "aspects": {
+    "identity": {
+      "rating": "GOOD",
+      "basis": "Named OSM entity and project identity",
+      "reference_ids": []
+    },
+    "footprint": {
+      "rating": "PARTIAL",
+      "basis": "Processed OSM footprint; community mapping, not survey",
+      "reference_ids": []
+    },
+    "height": {
+      "rating": "PARTIAL",
+      "basis": "OSM height or explicit procedural fallback",
+      "reference_ids": []
+    },
+    "massing": {
+      "rating": "PARTIAL",
+      "basis": "Architect documents a 30-story glass tower and inflected frontpiece; exact volumes require photo match",
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ]
+    },
+    "principal_facade": {
+      "rating": "GOOD",
+      "basis": "Architect explicitly describes inflected glazing and deep vertical solar-control ribs",
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ]
+    },
+    "secondary_facade": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "roof": {
+      "rating": "WEAK",
+      "basis": "Upper silhouette visible in architect image; exact roof geometry unmeasured",
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ]
+    },
+    "entrance": {
+      "rating": "NONE",
+      "basis": "No aspect-specific review yet",
+      "reference_ids": []
+    },
+    "materials": {
+      "rating": "PARTIAL",
+      "basis": "Architect describes glass tower; other material hues are interpretation",
+      "reference_ids": [
+        "ref:m16r:architect-pse"
+      ]
+    }
+  },
+  "reconstruction_height_decision": {
+    "height_m": 131.0,
+    "source_ids": [
+      "source:osm"
+    ],
+    "conflict_retained": false
+  },
+  "viewpoints": [
+    {
+      "reference_id": "ref:m16r:architect-pse:044a",
+      "source_page": "https://handelarchitects.com/project/philippine-stock-exchange",
+      "camera_id": "qa:bgc_m17_0003:source:044a",
+      "viewpoint_side": "SOUTHEAST_ELEVATED",
+      "approximate_azimuth_deg": 135,
+      "kind": "ELEVATED_STREET",
+      "visible_facades": [
+        "principal"
+      ],
+      "visible_roof": false,
+      "coverage_aspects": [
+        "ground",
+        "podium",
+        "principal_facade",
+        "overall_massing"
+      ],
+      "camera_match_confidence": 0.55,
+      "useful": true,
+      "match_basis": "Approximate southeast sector inferred from adjacent towers; lens and position estimated.",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "reference_id": "ref:m16r:architect-pse:008a",
+      "source_page": "https://handelarchitects.com/project/philippine-stock-exchange",
+      "camera_id": "qa:bgc_m17_0003:source:008a",
+      "viewpoint_side": "SOUTHEAST_STREET",
+      "approximate_azimuth_deg": 130,
+      "kind": "STREET",
+      "visible_facades": [
+        "principal"
+      ],
+      "visible_roof": true,
+      "coverage_aspects": [
+        "principal_facade",
+        "roof",
+        "podium",
+        "overall_massing"
+      ],
+      "camera_match_confidence": 0.6,
+      "useful": true,
+      "match_basis": "Approximate southeast sector inferred from adjacent towers; lens and position estimated.",
+      "rights_status": "RESEARCH_ONLY"
+    }
+  ],
+  "review_note": "PSE views have approximate southeast camera matches; all source images remain research-only and unstored."
+}
