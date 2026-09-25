@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "source": "data/reconstruction_packages/bgc_m17_0003/geometry.geojson",
+  "evidence_state": "VERIFIED_GEOGRAPHIC",
+  "thresholds": {
+    "disjoint_overlap_fraction_below": 0.01,
+    "mostly_contained_fraction_at_least": 0.95
+  },
+  "interpretation_limit": "Footprint overlap does not establish floors, facade depth, roof shape, or component identity.",
+  "parts": [
+    {
+      "source_id": "osm:way:1026303383",
+      "height_m": 12.0,
+      "area_m2": 362.7917,
+      "perimeter_m": 103.2574,
+      "centroid_m": [
+        -403.6777,
+        34.5623
+      ],
+      "bounds_m": [
+        -430.297,
+        21.946,
+        -387.496,
+        43.566
+      ],
+      "principal_axis_bearing_deg_clockwise_from_north_mod_180": 120.2604,
+      "relationships": [
+        {
+          "other_source_id": "osm:way:1069827306",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 43.1392,
+          "self_difference_m2": 362.7917
+        },
+        {
+          "other_source_id": "osm:way:538701627",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 43.1392,
+          "self_difference_m2": 362.7917
+        },
+        {
+          "other_source_id": "osm:way:71598335",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 0.0,
+          "self_difference_m2": 362.7917
+        }
+      ]
+    },
+    {
+      "source_id": "osm:way:1069827306",
+      "height_m": 131.0,
+      "area_m2": 1160.8532,
+      "perimeter_m": 148.1611,
+      "centroid_m": [
+        -414.9644,
+        53.3079
+      ],
+      "bounds_m": [
+        -442.935,
+        38.175,
+        -386.647,
+        71.593
+      ],
+      "principal_axis_bearing_deg_clockwise_from_north_mod_180": 107.5794,
+      "relationships": [
+        {
+          "other_source_id": "osm:way:1026303383",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 43.1392,
+          "self_difference_m2": 1160.8532
+        },
+        {
+          "other_source_id": "osm:way:538701627",
+          "relationship": "MOSTLY_CONTAINED",
+          "intersection_m2": 1160.8532,
+          "self_fraction_inside_other": 1.0,
+          "other_fraction_inside_self": 0.5529,
+          "shared_boundary_m": 98.2384,
+          "self_difference_m2": 0.0
+        },
+        {
+          "other_source_id": "osm:way:71598335",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 55.0992,
+          "self_difference_m2": 1160.8532
+        }
+      ]
+    },
+    {
+      "source_id": "osm:way:538701627",
+      "height_m": 119.2,
+      "area_m2": 2099.5,
+      "perimeter_m": 187.4712,
+      "centroid_m": [
+        -412.7297,
+        61.9968
+      ],
+      "bounds_m": [
+        -442.935,
+        38.175,
+        -383.14,
+        88.851
+      ],
+      "principal_axis_bearing_deg_clockwise_from_north_mod_180": 104.7573,
+      "relationships": [
+        {
+          "other_source_id": "osm:way:1026303383",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 43.1392,
+          "self_difference_m2": 2099.5
+        },
+        {
+          "other_source_id": "osm:way:1069827306",
+          "relationship": "MOSTLY_CONTAINS",
+          "intersection_m2": 1160.8532,
+          "self_fraction_inside_other": 0.5529,
+          "other_fraction_inside_self": 1.0,
+          "shared_boundary_m": 98.2384,
+          "self_difference_m2": 938.6468
+        },
+        {
+          "other_source_id": "osm:way:71598335",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 144.3321,
+          "self_difference_m2": 2099.5
+        }
+      ]
+    },
+    {
+      "source_id": "osm:way:71598335",
+      "height_m": 15.6,
+      "area_m2": 2093.0197,
+      "perimeter_m": 378.9949,
+      "centroid_m": [
+        -425.4884,
+        71.5901
+      ],
+      "bounds_m": [
+        -463.966,
+        33.142,
+        -372.844,
+        104.264
+      ],
+      "principal_axis_bearing_deg_clockwise_from_north_mod_180": 108.1401,
+      "relationships": [
+        {
+          "other_source_id": "osm:way:1026303383",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 0.0,
+          "self_difference_m2": 2093.0197
+        },
+        {
+          "other_source_id": "osm:way:1069827306",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 55.0992,
+          "self_difference_m2": 2093.0197
+        },
+        {
+          "other_source_id": "osm:way:538701627",
+          "relationship": "DISJOINT",
+          "intersection_m2": 0.0,
+          "self_fraction_inside_other": 0.0,
+          "other_fraction_inside_self": 0.0,
+          "shared_boundary_m": 144.3321,
+          "self_difference_m2": 2093.0197
+        }
+      ]
+    }
+  ],
+  "massing_partition_hypothesis": {
+    "evidence_state": "INFERRED",
+    "description": "Extrude the 119.2 m body residual and the nested 131 m frontpiece separately to remove coincident volumes; architectural identity requires photo review.",
+    "body_source_id": "osm:way:538701627",
+    "frontpiece_source_id": "osm:way:1069827306",
+    "body_residual_area_m2": 938.6468,
+    "body_residual_ring_m": [
+      [
+        -431.687,
+        88.851
+      ],
+      [
+        -422.837,
+        85.123
+      ],
+      [
+        -383.14,
+        76.063
+      ],
+      [
+        -389.926,
+        56.511
+      ],
+      [
+        -417.306,
+        65.19
+      ],
+      [
+        -437.516,
+        71.593
+      ],
+      [
+        -431.687,
+        88.851
+      ]
+    ]
+  }
+}

@@ -8,7 +8,8 @@ checked against source-matched views before this asset can be approved.
 from __future__ import annotations
 
 import math
-import bpy
+import json
+from pathlib import Path
 
 from blender.framework.geometry import PolygonEdgeFrame
 from blender.framework.metadata import apply_component_metadata
@@ -37,34 +38,14 @@ def build(context: dict) -> list:
         )
         objects.append(obj)
 
-    # The residual outline is the mapped three-level base. The two upper mapped
-    # parts are retained as distinct source volumes; their overlap is a known
-    # massing discrepancy for the first reference-matched review.
-    def sloped_volume(name, polygon, height, slope, material):
-        ring = list(polygon[0])
-        if ring[0] == ring[-1]:
-            ring.pop()
-        signed_area = sum(ring[i][0] * ring[(i + 1) % len(ring)][1]
-                          - ring[(i + 1) % len(ring)][0] * ring[i][1]
-                          for i in range(len(ring)))
-        if signed_area < 0:
-            ring.reverse()
-        diagonals = [x - y for x, y in ring]
-        lo, hi = min(diagonals), max(diagonals)
-        tops = [height - slope * (value - lo) / max(hi - lo, .001) for value in diagonals]
-        n = len(ring)
-        vertices = [(x, y, 0.0) for x, y in ring] + [
-            (x, y, tops[i]) for i, (x, y) in enumerate(ring)]
-        faces = [tuple(reversed(range(n))), tuple(range(n, 2 * n))]
-        faces += [(i, (i + 1) % n, n + (i + 1) % n, n + i) for i in range(n)]
-        mesh = bpy.data.meshes.new(f"{name}_mesh")
-        mesh.from_pydata(vertices, [], faces)
-        mesh.validate(clean_customdata=True)
-        mesh.update()
-        obj = bpy.data.objects.new(name, mesh)
-        bpy.context.scene.collection.objects.link(obj)
-        obj.data.materials.append(material)
-        return obj
+    parameters = spec.get("landmark_parameters", {})
+    for component in ("body", "frontpiece"):
+        if parameters.get(f"{component}_top", {}).get("type") != "FLAT":
+            raise ValueError(f"Unsupported PSE {component} upper form; review evidence before modeling")
+    analysis_path = Path(__file__).resolve().parents[2] / "data/reports/pse-part-analysis.json"
+    partition = json.loads(analysis_path.read_text(encoding="utf-8"))["massing_partition_hypothesis"]
+    if partition["body_source_id"] != BODY or partition["frontpiece_source_id"] != FRONTPIECE:
+        raise ValueError("PSE part analysis source IDs do not match the builder")
 
     for source_id, height, family, component in (
         (PODIUM, 15.6, "light_neutral_panel", "podium"),
@@ -81,12 +62,14 @@ def build(context: dict) -> list:
             observation_ids = [f"obs:{entity}:footprint", f"obs:{entity}:height"]
             evidence_ids = ["source:osm"]
         else:
-            obj = sloped_volume(f"PSE_{component}", polygons[0], height,
-                                spec.get("landmark_parameters", {}).get("roof_slope_m", 0.0),
-                                materials[family])
+            if component == "body":
+                polygons = [[partition["body_residual_ring_m"]]]
+            obj = tools.create_extruded_polygons(
+                f"PSE_{component}", polygons, 0.0, height,
+                materials[family], "inferred body/frontpiece partition from mapped OSM overlap")
             status = "INFERRED"
             observation_ids = [f"obs:{entity}:footprint", f"obs:{entity}:height",
-                               f"obs:{entity}:roof-slope"]
+                               f"obs:{entity}:part-interpretation"]
             evidence_ids = ["source:osm", ARCHITECT_REF]
         tag(obj, f"{entity}:{component}", "massing", status,
             observation_ids, evidence_ids)
@@ -96,8 +79,11 @@ def build(context: dict) -> list:
 
     # A single spine receives vertical expression. Edge and count are an
     # explicit modeling hypothesis, not a measured architectural dimension.
+    edge_index = parameters.get("principal_facade_edge", {}).get("index")
+    if edge_index is None:
+        raise ValueError("PSE principal facade edge is unresolved; facade phase cannot proceed")
     ring = tools.geojson_polygons(geometry[FRONTPIECE]["geometry"])[0][0]
-    frame = PolygonEdgeFrame.from_ring(ring, 0, 131.0)
+    frame = PolygonEdgeFrame.from_ring(ring, edge_index, 131.0)
     for index in range(8):
         u = (index + 0.5) / 8
         placement = frame.region(max(0, u - .018), min(1, u + .018), .12, .95, .62)

@@ -263,7 +263,7 @@ def main() -> None:
                 item["confidence"] = 0.0
                 item["notes"] = "Superseded generic draft pattern; no architectural evidence claim."
         spec["readiness"] = "RECONSTRUCTION_READY_WITH_GAPS"  # schema 1.0 structural state only
-        spec["visual_reconstruction_status"] = "NOT_READY"
+        spec.pop("visual_reconstruction_status", None)  # evidence_gate.assess is authoritative
         spec["required_coverage_aspects"] = ["identity", "overall_massing", "major_facades"]
         # The original camera labels were inferred from footprint bounds, and
         # several falsely pointed at the same web page as distinct views.
@@ -318,12 +318,13 @@ def main() -> None:
                 "rating": coverage[new_key]["rating"],
                 "reference_ids": coverage[new_key]["reference_ids"],
                 "basis": coverage[new_key]["basis"]}
-        legacy_coverage["visual_reconstruction_status"] = result["status"]
+        legacy_coverage.pop("visual_reconstruction_status", None)
         legacy_coverage["readiness_reason"] = "; ".join(result["reasons"])
         put(legacy_coverage_path, legacy_coverage)
     selected["final_selected_target_ids"] = [item["entity_id"] for item in selected["targets"]
                                             if item["evidence_readiness"] == "READY_FOR_VISUAL_RECONSTRUCTION"]
     selected["evidence_gate"] = "PASS" if selected["final_selected_target_ids"] else "RECOVERY_IN_PROGRESS"
+    selected["generated_at"] = datetime.now(timezone.utc).isoformat()
     put(selected_path, selected)
     batch_path = ROOT / "data/batches/m17-batch.json"
     batch = read(batch_path)

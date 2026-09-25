@@ -1,11 +1,11 @@
-# M18 — Shared visual system prototype
+# M18A shared visual system
 
-Status: **PROTOTYPE, NOT GATED.** M17 has not passed, so M18 cannot be accepted. Earlier implementation work left an inspectable runtime prototype; this document does not claim finished city polish.
+Status: **LOW ACCEPTED; FULL REJECTED for v1**. LOW is the runtime default. LEGACY approximates the pre-M18 background, lighting, material response, exposure, and DPR for matched browser comparison. The normal selector disables FULL; `quality=FULL&benchmark=1` retains a diagnostic path.
 
-`web/components/runtime/visualSystem.ts` defines 11 shared MeshStandardMaterial families for glass, concrete, stone, metal, asphalt, sidewalk, grass and soil. Tile and landmark meshes are mapped by source material name, preserving multi-material arrays. The mapping is a coarse harmonization rule; it is not a source-verified material survey. No reusable bitmap textures, environment map, or KTX2 pipeline were added. This keeps texture transfer at zero for these changes, but glass reflections have not been evaluated.
+`visualSystem.ts` defines 11 shared MeshStandardMaterial families across buildings, ground, roads, and furniture. Original GLB materials are restored in LEGACY. The material mapping is **procedural presentation**, not a surveyed material claim. No environment map or reusable bitmap texture is used. The renderer reports zero textures in LOW; FULL allocates one shadow map.
 
-`VisualEnvironment.tsx` adds a restrained sky/background, distance fog, hemisphere fill and one directional sun. FULL quality has a camera-local 1,024² shadow map, limited to a 360 m square; it is **opt-in and unbenchmarked**. LOW is the default and disables shadows. The existing OFF fallback remains. `EnvironmentManager.tsx` retains mapped object positions and instancing, and deterministically assigns three simple tree forms by ID. These are procedural tree variants, not botanical observations. The 452 source-grounded environment instances remain governed by active tiles; actual active instance and draw-call counts require browser capture.
+LOW has sky color, distance fog, hemisphere fill, directional sun, and no shadows. FULL adds a camera-local 1,024² shadow map over a bounded region. Matched p1 results reject FULL for the v1 experience.
 
-No detailed crossings, lane paint, unique facade textures or surveyed road rules were invented. Runtime tile streaming and LOD switching were not replaced. Ground/road hierarchy is driven by broad material family assignment, but High Street pedestrian readability and whole-scene coherence have **not** passed visual walking QA.
+The 452 mapped environment instances retain source positions. Three deterministic procedural tree forms vary by tree ID. Trunk and crown use soil and grass material groups. Street lamps, benches, bollards, bins, and shelters retain fixed scale and source rotation; random furniture scale and yaw were removed. This corrects an actual merged-tree geometry failure and avoids arbitrary placement changes.
 
-The correct next gate is M17 visual signoff, followed by controlled M18 screenshots and identical M15/M18 foreground scenarios. Keep FULL shadows disabled by default until their measured cost is acceptable.
+High Street and South Street saved cameras were moved to estimated visualization positions on verified geographic path/road centerlines, giving clear street views. Their exact camera coordinates are **estimated**, not surveyed. Runtime streaming, LOD switching, and search remain unchanged.

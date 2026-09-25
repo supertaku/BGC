@@ -1,18 +1,15 @@
-# M17R reference QA
+# M17C reference QA
 
-Status: **PENDING VISUAL QA**. `data/reports/m17-reference-qa.json` is an independent review record. It tracks silhouette, height, major volume, setback, curvature, facade composition, roof, entrance, material, and ground relationship for each original candidate. Each discrepancy has severity and disposition. A missing view is `NOT_EVIDENCED`, not a pass.
+Status: **PSE DEFERRED_VISUAL_REFINEMENT**. [Machine-readable QA](../data/reports/m17-reference-qa.json) separates the one active target from nine deferred candidates. The original ten-draft audit remains historical context; the backlog does not count against the active batch.
 
-Confirmed open issues in the old draft GLBs:
+The active PSE has two approximate source-matched cameras for Handel images [044a and 008a](https://handelarchitects.com/project/philippine-stock-exchange). All six reference/render pairs over three rounds fail. This closure added round 3 only. Image 045 was reviewed, but its distant size did not yield an additional useful massing or facade match. Photographs are research-only remote metadata; rendered comparison images are ignored local files.
 
-| Candidate | Aspect | Severity | Evidence |
-| --- | --- | --- | --- |
-| One Bonifacio | Major volume / entity scope | Critical | OSM mall footprint includes 98.9% of The Suites and 99.5% of PSE tower footprints; the retail component boundary is unresolved. |
-| The Suites | Curvature | Major | Generic extrusion omits the architect-described gentle curve. |
-| PSE Tower | Facade composition | Major | Old all-edge horizontal bands omit the documented inflected frontpiece and vertical ribs. |
-| ACPT | Height | Major | Old GLB uses 114.7 m; SOM reconstruction decision is 136 m. |
+| Aspect | State | Current discrepancy |
+| --- | --- | --- |
+| Silhouette | Major open | Source shows two pointed, separated upper forms; draft has broad flat caps. |
+| Major volume | Major open | Partition removes duplicate OSM mass, but body/frontpiece proportions still disagree with source. |
+| Roof | Major open | A confident component-specific upper profile cannot be recovered from current matches. |
+| Facade composition | Major open | Inflected glazing and deep vertical ribs remain absent; principal edge is unresolved. |
+| Height, setback, entrance, material, ground relation | Not evidenced for visual signoff | No source-matched PASS is claimed. |
 
-PSE massing rounds 1 and 2 produced two generated views per round and a local research-only comparison page at `blender/renders/bgc_m17_0003/comparison.html`. Round 2 introduced an estimated 4 m upper slope, but the twin upper shapes and overlapping tower volumes still differ from the source views. Four source/render pairs are recorded in `m17-reference-qa.json` as `FAIL`. The comparison page references remote copyrighted images and is gitignored; it does not bundle them.
-
-No reference/render comparison has passed and no manual reviewer signoff exists. The old QA presets were not source matched; they are now labeled `DIAGNOSTIC_UNMATCHED`. A reviewer must resolve all evidence-covered critical and major discrepancies. Research-only source images remain remote; the committed record contains source links, render paths, and discrepancy metadata.
-
-`scripts/reconstruction/review_m17.py` reads reviewer records and grants `APPROVED` only when evidence, build, GLB, comparison, discrepancy, and independent-signoff gates all pass. A builder or structural validator cannot set visual approval.
+Structural build and GLB validation PASS. Reference comparison, zero-major-discrepancy, and independent signoff gates FAIL. The PSE asset stays unpublished; LOD transition is NOT_RUN. Evidence readiness uses two distinct camera-matchable **records**, both southeast, and does not establish diverse-side geometry.

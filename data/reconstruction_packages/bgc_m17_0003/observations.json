@@ -143,9 +143,9 @@
       "observation_id": "obs:bgc_m17_0003:roof-slope",
       "entity_id": "bgc_m17_0003",
       "property": "upper_silhouette",
-      "value": "sloped upper edges visible; 4 m draft slope is estimated",
+      "value": "4 m universal slope was an unsupported draft hypothesis and is removed; component upper forms remain unverified",
       "status": "INFERRED",
-      "confidence": 0.45,
+      "confidence": 0.2,
       "source_ids": [
         "source:m16r:architect-pse"
       ],
@@ -154,7 +154,20 @@
       ],
       "method": "architect_project_page",
       "affected_component": "roof-slope",
-      "notes": "Source fact; geometry interpretation still requires visual QA."
+      "notes": "Superseded by flat component caps pending independent upper silhouette evidence."
+    },
+    {
+      "observation_id": "obs:bgc_m17_0003:part-interpretation",
+      "entity_id": "bgc_m17_0003",
+      "property": "body_frontpiece_partition",
+      "value": "119.2 m body polygon minus wholly nested 131 m frontpiece polygon",
+      "status": "INFERRED",
+      "confidence": 0.5,
+      "source_ids": ["source:osm"],
+      "reference_ids": ["ref:m16r:architect-pse:044a", "ref:m16r:architect-pse:008a"],
+      "method": "mapped_polygon_difference_and_bounded_visual_hypothesis",
+      "affected_component": "body_frontpiece",
+      "notes": "Geographic overlap is measured; architectural assignment remains inferred. See data/reports/pse-part-analysis.json."
     }
   ],
   "conflicts": []

@@ -1,26 +1,85 @@
 {
   "schema_version": 1,
-  "milestone": "M18",
-  "generated_at": "2026-09-25T08:46:05.745782+00:00",
-  "status": "NOT_GATED",
+  "milestone": "M18A",
+  "generated_at": "2026-09-25T13:53:40.276220+00:00",
+  "status": "PASS",
   "default_quality": "LOW",
-  "full_shadows": "OPT_IN_UNBENCHMARKED",
-  "before": {
-    "source": "M15 foreground validation (not captured as a comparable machine-readable report)",
-    "initial_bytes": null,
-    "walk_mean_fps": null,
-    "walk_p1_fps": null,
-    "peak_draw_calls": null,
-    "textures": null
+  "legacy_mode": "PASS",
+  "low_mode": "PASS",
+  "full_mode": "REJECTED",
+  "full_shadows": "DIAGNOSTICS_ONLY",
+  "capture_source": "data/reports/m18-foreground-captures.json",
+  "capture_time": "2026-09-25T13:43:31Z",
+  "matched_scenarios": [
+    "AERIAL",
+    "HIGH_STREET_INSPECT",
+    "HIGH_STREET_WALK",
+    "TOUR",
+    "SOUTH_STREET"
+  ],
+  "comparison": {
+    "AERIAL": {
+      "legacy_median_fps": 163.93,
+      "low_median_fps": 163.93,
+      "full_median_fps": 163.93,
+      "low_median_delta_pct": 0.0,
+      "low_p1_delta_pct": 3.49,
+      "low_draw_call_delta_pct": 4.22,
+      "full_p1_vs_low_delta_pct": 11.69,
+      "transfer_and_lod1_matched": true
+    },
+    "HIGH_STREET_INSPECT": {
+      "legacy_median_fps": 163.93,
+      "low_median_fps": 163.93,
+      "full_median_fps": 163.93,
+      "low_median_delta_pct": 0.0,
+      "low_p1_delta_pct": 11.43,
+      "low_draw_call_delta_pct": 11.11,
+      "full_p1_vs_low_delta_pct": -23.91,
+      "transfer_and_lod1_matched": true
+    },
+    "HIGH_STREET_WALK": {
+      "legacy_median_fps": 163.93,
+      "low_median_fps": 163.93,
+      "full_median_fps": 163.93,
+      "low_median_delta_pct": 0.0,
+      "low_p1_delta_pct": -6.33,
+      "low_draw_call_delta_pct": 13.33,
+      "full_p1_vs_low_delta_pct": -21.0,
+      "transfer_and_lod1_matched": true
+    },
+    "TOUR": {
+      "legacy_median_fps": 163.93,
+      "low_median_fps": 163.93,
+      "full_median_fps": 163.93,
+      "low_median_delta_pct": 0.0,
+      "low_p1_delta_pct": 32.36,
+      "low_draw_call_delta_pct": 7.78,
+      "full_p1_vs_low_delta_pct": -16.05,
+      "transfer_and_lod1_matched": true
+    },
+    "SOUTH_STREET": {
+      "legacy_median_fps": 163.93,
+      "low_median_fps": 163.93,
+      "full_median_fps": 163.93,
+      "low_median_delta_pct": 0.0,
+      "low_p1_delta_pct": 0.0,
+      "low_draw_call_delta_pct": 18.18,
+      "full_p1_vs_low_delta_pct": -10.67,
+      "transfer_and_lod1_matched": true
+    }
   },
-  "after": {
-    "scenarios_measured": [],
-    "initial_bytes": null,
-    "walk_mean_fps": null,
-    "walk_p1_fps": null,
-    "peak_draw_calls": null,
-    "textures": null
-  },
-  "legacy_m11_all_loaded_reference": "data/reports/m11-browser-benchmark.json",
-  "note": "M11 Chrome results are a different runtime/scenario and must not be presented as M15-to-M18 deltas."
+  "full_p1_failures": [
+    "HIGH_STREET_INSPECT",
+    "HIGH_STREET_WALK",
+    "TOUR"
+  ],
+  "limits": [
+    "All median values are near the 165 Hz display refresh cap; these data cannot quantify unused GPU headroom.",
+    "Resource Timing transferSize is small because captures used warm browser cache. Decoded bytes are also recorded; neither is a cold-network transfer benchmark.",
+    "Runtime manifest_asset_bytes_loaded counts nominal asset sizes loaded, independently of measured HTTP transfer bytes.",
+    "LEGACY uses historical canvas DPR 1 while LOW and FULL use the current capped DPR; these are product-mode comparisons, not identical pixel workloads.",
+    "The benchmark-only scripted walking path travelled from (-164, 1.7, -17) to approximately (35.7, 1.7, 183), about 283 m, using normal collision and tile-loading logic. The in-app browser does not support pointer lock, so manual WASD behavior was not signed off there."
+  ],
+  "note": "M11 all-loaded measurements are not a comparable baseline. LEGACY here is the matched pre-M18 visual approximation on the current runtime."
 }

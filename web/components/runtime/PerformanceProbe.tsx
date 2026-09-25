@@ -2,12 +2,15 @@
 
 import { useFrame, useThree } from "@react-three/fiber";
 import { useRef } from "react";
-import type { BenchmarkReport, NavigationMode, RuntimeMetrics, RuntimeSummary, TileMode } from "./types";
+import type { BenchmarkReport, EnvironmentQuality, NavigationMode, RuntimeMetrics, RuntimeSummary, TileMode } from "./types";
 
-export function PerformanceProbe({ tileMode, navigation, runtime, onSample, onBenchmark }: {
+export function PerformanceProbe({ tileMode, navigation, quality, runtime, loadDurationMs, environmentGroups, onSample, onBenchmark }: {
   tileMode: TileMode;
   navigation: NavigationMode;
+  quality: EnvironmentQuality;
   runtime: RuntimeSummary;
+  loadDurationMs: number | null;
+  environmentGroups: number;
   onSample: (metrics: RuntimeMetrics) => void;
   onBenchmark: (report: BenchmarkReport) => void;
 }) {
@@ -26,14 +29,33 @@ export function PerformanceProbe({ tileMode, navigation, runtime, onSample, onBe
         const mean = fps.reduce((total, value) => total + value, 0) / fps.length;
         const context = gl.getContext();
         const debugInfo = context.getExtension("WEBGL_debug_renderer_info");
+        const resources = performance.getEntriesByType("resource") as PerformanceResourceTiming[];
+        const assets = resources.filter((entry) => {
+          const path = new URL(entry.name).pathname;
+          return path.startsWith("/models/") || path.startsWith("/world/");
+        });
+        const initial = loadDurationMs === null ? [] : assets.filter((entry) => entry.startTime <= loadDurationMs);
+        const streamed = loadDurationMs === null ? [] : assets.filter((entry) => entry.startTime > loadDurationMs);
+        const sum = (entries: PerformanceResourceTiming[], field: "transferSize" | "decodedBodySize") =>
+          entries.reduce((total, entry) => total + entry[field], 0);
         const report: BenchmarkReport = {
           status: "PASS",
           scene: new URLSearchParams(window.location.search).get("view") ?? "overview",
+          quality,
           mode: tileMode,
           navigation,
           sample_count: fps.length,
           warmup_ms: 5000,
           duration_ms: 15000,
+          load_duration_ms: loadDurationMs,
+          active_environment_groups: environmentGroups,
+          transfer: {
+            initial_bytes: loadDurationMs === null ? null : sum(initial, "transferSize"),
+            streamed_bytes: loadDurationMs === null ? null : sum(streamed, "transferSize"),
+            initial_decoded_bytes: loadDurationMs === null ? null : sum(initial, "decodedBodySize"),
+            streamed_decoded_bytes: loadDurationMs === null ? null : sum(streamed, "decodedBodySize"),
+            timing_supported: loadDurationMs !== null,
+          },
           mean_fps: Number(mean.toFixed(2)),
           median_fps: Number(fps[Math.floor(fps.length / 2)].toFixed(2)),
           p1_low_fps: Number(fps[Math.max(0, Math.floor(fps.length * 0.01))].toFixed(2)),

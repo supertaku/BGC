@@ -27,7 +27,7 @@ export function NavigationController({ mode, viewpoint, refs, focusRequest, tour
   const transition = useRef<{ fromPosition: THREE.Vector3; toPosition: THREE.Vector3; fromTarget: THREE.Vector3; toTarget: THREE.Vector3; elapsed: number; duration: number } | null>(null);
   const boundary = useMemo(() => refs.sidecars.current, [refs.sidecars]);
   const worldBoundary = useRef<[number, number][]>([]);
-  const previousMode = useRef<NavigationMode>(mode);
+  const previousMode = useRef<NavigationMode>("INSPECT");
   const direction = useMemo(() => new THREE.Vector3(), []);
   const candidate = useMemo(() => new THREE.Vector3(), []);
 
@@ -114,9 +114,10 @@ export function NavigationController({ mode, viewpoint, refs, focusRequest, tour
       if (orbit.current) refs.focus.current.copy(orbit.current.target);
       return;
     }
-    if (mode !== "WALK" || !pointer.current?.isLocked) return;
+    const scriptedWalk = new URLSearchParams(window.location.search).get("benchmark_walk") === "1";
+    if (mode !== "WALK" || (!pointer.current?.isLocked && !scriptedWalk)) return;
     direction.set(0, 0, 0);
-    if (keys.current.has("KeyW") || keys.current.has("ArrowUp")) direction.z += 1;
+    if (scriptedWalk || keys.current.has("KeyW") || keys.current.has("ArrowUp")) direction.z += 1;
     if (keys.current.has("KeyS") || keys.current.has("ArrowDown")) direction.z -= 1;
     if (keys.current.has("KeyA") || keys.current.has("ArrowLeft")) direction.x -= 1;
     if (keys.current.has("KeyD") || keys.current.has("ArrowRight")) direction.x += 1;
@@ -141,6 +142,6 @@ export function NavigationController({ mode, viewpoint, refs, focusRequest, tour
 
   return <>
     {mode === "INSPECT" ? <OrbitControls ref={orbit} makeDefault enableDamping dampingFactor={0.08} minDistance={8} maxDistance={5000} maxPolarAngle={Math.PI / 2.01} /> : null}
-    <PointerLockControls ref={pointer} makeDefault={mode === "WALK"} selector="#walk-lock-button" />
+    <PointerLockControls ref={pointer} makeDefault={mode === "WALK"} selector="canvas" />
   </>;
 }

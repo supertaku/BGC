@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "milestone": "M17",
-  "generated_at": "2026-09-25T08:46:05.745782+00:00",
+  "generated_at": "2026-09-25T12:06:09.368227+00:00",
   "scope": "Ten draft assets; not a simultaneous active-scene cost or browser measurement",
   "assets": [
     {
@@ -35,14 +35,14 @@
       "name": "Philippine Stock Exchange",
       "wave": "A",
       "asset": "exports/glb/buildings/bgc_m17_0003_lod1.glb",
-      "glb_bytes": 10292,
-      "triangles": 132,
+      "glb_bytes": 9960,
+      "triangles": 120,
       "meshes": 3,
       "materials": 2,
       "draw_calls_approximation": 3,
       "structural_validation": "PASS",
-      "visual_qa": "PENDING_VISUAL_QA",
-      "draft_phase": "MASSING_CALIBRATION_ROUND_2"
+      "visual_qa": "DEFERRED_VISUAL_REFINEMENT",
+      "draft_phase": "MASSING_ROUND_3"
     },
     {
       "entity_id": "bgc_m17_0004",
@@ -137,8 +137,8 @@
     }
   ],
   "totals": {
-    "glb_bytes": 755108,
-    "triangles": 12644,
+    "glb_bytes": 754776,
+    "triangles": 12632,
     "meshes": 30,
     "draw_calls_approximation": 30
   }

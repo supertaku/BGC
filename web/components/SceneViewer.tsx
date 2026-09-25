@@ -34,7 +34,7 @@ export default function SceneViewer() {
   const [viewpointIndex, setViewpointIndex] = useState(0);
   const [tileMode, setTileMode] = useState<TileMode>("DYNAMIC");
   const [navigation, setNavigation] = useState<NavigationMode>("INSPECT");
-  // FULL remains opt-in until identical foreground scenarios establish its shadow cost.
+  // FULL failed the matched foreground p1 gate; keep it available for diagnostics only.
   const [environmentQuality, setEnvironmentQuality] = useState<EnvironmentQuality>("LOW");
   const [runtime, setRuntime] = useState<RuntimeSummary>(EMPTY_RUNTIME);
   const [metrics, setMetrics] = useState<RuntimeMetrics | null>(null);
@@ -66,6 +66,10 @@ export default function SceneViewer() {
       const index = world.viewpoints.findIndex((candidate) => candidate.id === requested);
       if (index >= 0) setViewpointIndex(index);
       if (params.get("tiles") === "all") setTileMode("ALL_LOADED");
+      const requestedQuality = params.get("quality")?.toUpperCase();
+      if (requestedQuality === "LEGACY" || requestedQuality === "LOW" || (requestedQuality === "FULL" && params.get("benchmark") === "1")) setEnvironmentQuality(requestedQuality);
+      const requestedNavigation = params.get("navigation")?.toUpperCase();
+      if (requestedNavigation === "INSPECT" || requestedNavigation === "WALK" || requestedNavigation === "TOUR") setNavigation(requestedNavigation);
       if (params.get("debug") === "1") setDebug(true);
     }).catch((reason: Error) => setError(reason.message));
     return () => { if (noticeTimer.current) clearTimeout(noticeTimer.current); };
@@ -124,10 +128,10 @@ export default function SceneViewer() {
 
   return <section className="viewer" aria-label="Interactive real-data BGC viewer">
     <ViewerErrorBoundary>
-      <Canvas camera={{ position: viewpoint.position, fov: 48, near: 0.1, far: 6000 }} dpr={[1, 1.5]} shadows={environmentQuality === "FULL" ? "soft" : false} gl={{ antialias: true, powerPreference: "high-performance", toneMapping: THREE.ACESFilmicToneMapping }} onCreated={({ gl }) => { gl.toneMappingExposure = 1.08; gl.outputColorSpace = THREE.SRGBColorSpace; }}>
+      <Canvas key={environmentQuality} camera={{ position: viewpoint.position, fov: 48, near: 0.1, far: 6000 }} dpr={environmentQuality === "LEGACY" ? 1 : [1, 1.5]} shadows={environmentQuality === "FULL" ? "soft" : false} gl={{ antialias: true, powerPreference: "high-performance", toneMapping: THREE.ACESFilmicToneMapping }} onCreated={({ gl }) => { gl.toneMappingExposure = environmentQuality === "LEGACY" ? 1 : 1.08; gl.outputColorSpace = THREE.SRGBColorSpace; }}>
         <VisualEnvironment quality={environmentQuality} />
         <Suspense fallback={null}>
-          <WorldRuntime manifest={manifest} interactive={interactive} tileMode={tileMode} navigation={navigation} environmentQuality={environmentQuality} viewpoint={viewpoint} focusRequest={focusRequest} tourStop={currentTourStop} selected={selected} debug={debug} runtime={runtime} onRuntime={handleRuntime} onReady={handleReady} onLodChange={handleLod} onSelect={handleSelect} onMetrics={setMetrics} onBenchmark={setBenchmark} onEnvironmentGroups={setEnvironmentGroups} onBoundaryHit={() => flashNotice("Movement constrained by a building or the project boundary")} />
+          <WorldRuntime manifest={manifest} interactive={interactive} tileMode={tileMode} navigation={navigation} environmentQuality={environmentQuality} viewpoint={viewpoint} focusRequest={focusRequest} tourStop={currentTourStop} selected={selected} debug={debug} runtime={runtime} loadDurationMs={loadedAt} environmentGroups={environmentGroups} onRuntime={handleRuntime} onReady={handleReady} onLodChange={handleLod} onSelect={handleSelect} onMetrics={setMetrics} onBenchmark={setBenchmark} onEnvironmentGroups={setEnvironmentGroups} onBoundaryHit={() => flashNotice("Movement constrained by a building or the project boundary")} />
         </Suspense>
       </Canvas>
     </ViewerErrorBoundary>
@@ -150,7 +154,7 @@ export default function SceneViewer() {
     {navigation === "WALK" ? <aside className="walk-help"><strong>Walk mode</strong><span>Click the scene to capture the mouse</span><span>WASD to move, Shift to move faster, Esc to release</span></aside> : null}
     {navigation === "TOUR" && currentTourStop ? <aside className="tour-panel" aria-live="polite"><span>Stop {tourIndex + 1} of {tourStops.length}</span><strong>{currentTourStop.name}</strong><div><button type="button" disabled={tourIndex === 0} onClick={() => changeTourStop(tourIndex - 1)}>Previous</button><button type="button" disabled={tourIndex === tourStops.length - 1} onClick={() => changeTourStop(tourIndex + 1)}>Next</button><button type="button" onClick={() => setNavigation("INSPECT")}>Exit tour</button></div></aside> : null}
     {selectedEntity ? <aside className="selection-panel"><button className="panel-close" type="button" aria-label="Close building details" onClick={() => { setSelected(null); setSelectedEntity(null); }}>Close</button><span>{selectedEntity.detailed_asset_id ? "LOD1 available" : "LOD2 massing"}</span><h2>{selectedEntity.name ?? "Unnamed building"}</h2><dl><div><dt>Entity</dt><dd>{selectedEntity.entity_id}</dd></div><div><dt>Height</dt><dd>{selectedEntity.height_m === null ? "Unknown" : `${selectedEntity.height_m} m`}</dd></div><div><dt>Evidence</dt><dd>{selectedEntity.height_status.replaceAll("_", " ")}</dd></div><div><dt>Type</dt><dd>{selectedEntity.building_type}</dd></div></dl></aside> : null}
-    <div className="quality-controls"><label>Tiles<select value={tileMode} onChange={(event) => setTileMode(event.target.value as TileMode)}><option value="DYNAMIC">Dynamic</option><option value="ALL_LOADED">All loaded</option></select></label><label>Environment<select value={environmentQuality} onChange={(event) => setEnvironmentQuality(event.target.value as EnvironmentQuality)}><option value="OFF">Off</option><option value="LOW">Low</option><option value="FULL">Full</option></select></label></div>
+    <div className="quality-controls"><label>Tiles<select value={tileMode} onChange={(event) => setTileMode(event.target.value as TileMode)}><option value="DYNAMIC">Dynamic</option><option value="ALL_LOADED">All loaded</option></select></label><label>Environment<select value={environmentQuality} onChange={(event) => setEnvironmentQuality(event.target.value as EnvironmentQuality)}><option value="LEGACY">Legacy</option><option value="LOW">Low</option><option value="FULL" disabled>Full (diagnostics only)</option></select></label></div>
 
     {debug ? <aside className="metrics-panel" aria-live="polite"><strong>{metrics ? `${metrics.fps} FPS` : "Sampling"}</strong><span>{tileMode} - {runtime.active} active - {runtime.preloading} preloading - {runtime.cached} cached</span><span>{runtime.activeLod1.length} LOD1 - {environmentGroups} environment groups</span><span>{formatBytes(runtime.networkBytes)} - {runtime.networkRequests} requests - {runtime.repeatedRequests} repeats</span><span>{metrics ? `${metrics.calls} calls - ${metrics.triangles.toLocaleString()} triangles - ${metrics.geometries} geometries - ${metrics.textures} textures` : "Renderer metrics pending"}</span><span>Camera {runtime.camera.join(", ")}</span><span>Rings {ACTIVE_RADIUS_M} m - {PRELOAD_RADIUS_M} m - {RETENTION_RADIUS_M} m</span><span>{loadedAt === null ? "Loading initial tiles" : `Interactive in ${loadedAt.toFixed(0)} ms`}</span>{benchmark ? <span data-testid="benchmark-result" data-report={JSON.stringify(benchmark)}>Benchmark {benchmark.scene}: mean {benchmark.mean_fps}, median {benchmark.median_fps}, p1 {benchmark.p1_low_fps} FPS</span> : null}</aside> : null}
     {notice ? <div className="runtime-notice" role="status">{notice}</div> : null}

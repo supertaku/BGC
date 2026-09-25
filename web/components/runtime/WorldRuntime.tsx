@@ -12,7 +12,7 @@ import { TileManager } from "./TileManager";
 import type { BenchmarkReport, EntityRecord, EnvironmentQuality, Footprint, InteractiveManifest, NavigationMode, RuntimeMetrics, RuntimeRefs, RuntimeSummary, TileMode, Viewpoint, WorldManifest } from "./types";
 import { createBGCVisualMaterials, disposeBGCVisualMaterials } from "./visualSystem";
 
-export function WorldRuntime({ manifest, interactive, tileMode, navigation, environmentQuality, viewpoint, focusRequest, tourStop, selected, debug, runtime, onRuntime, onReady, onLodChange, onSelect, onMetrics, onBenchmark, onEnvironmentGroups, onBoundaryHit }: {
+export function WorldRuntime({ manifest, interactive, tileMode, navigation, environmentQuality, viewpoint, focusRequest, tourStop, selected, debug, runtime, loadDurationMs, environmentGroups, onRuntime, onReady, onLodChange, onSelect, onMetrics, onBenchmark, onEnvironmentGroups, onBoundaryHit }: {
   manifest: WorldManifest;
   interactive: InteractiveManifest;
   tileMode: TileMode;
@@ -24,6 +24,8 @@ export function WorldRuntime({ manifest, interactive, tileMode, navigation, envi
   selected: Footprint | null;
   debug: boolean;
   runtime: RuntimeSummary;
+  loadDurationMs: number | null;
+  environmentGroups: number;
   onRuntime: (summary: RuntimeSummary) => void;
   onReady: () => void;
   onLodChange: (ids: string[]) => void;
@@ -48,7 +50,7 @@ export function WorldRuntime({ manifest, interactive, tileMode, navigation, envi
     <EnvironmentManager activeIds={runtime.activeIds} quality={environmentQuality} refs={refs} materials={visualMaterials} onGroupCount={onEnvironmentGroups} />
     <NavigationController mode={navigation} viewpoint={viewpoint} refs={refs} focusRequest={focusRequest} tourStop={tourStop} onBoundaryHit={onBoundaryHit} />
     <InteractionManager mode={navigation} refs={refs} selected={selected} onSelect={onSelect} />
-    <PerformanceProbe tileMode={tileMode} navigation={navigation} runtime={runtime} onSample={onMetrics} onBenchmark={onBenchmark} />
+    <PerformanceProbe tileMode={tileMode} navigation={navigation} quality={environmentQuality} runtime={runtime} loadDurationMs={loadDurationMs} environmentGroups={environmentGroups} onSample={onMetrics} onBenchmark={onBenchmark} />
     {debug ? <Stats className="fps" /> : null}
   </>;
 }

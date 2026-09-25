@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "combined_milestone": "M16-M18 \u2014 Visual Fidelity Expansion",
-  "generated_at": "2026-09-25T08:46:05.745782+00:00",
-  "phase": "RECOVERY_IN_PROGRESS",
+  "combined_milestone": "M17C-M18A \u2014 Visual Fidelity Closure",
+  "generated_at": "2026-09-25T13:53:40.276220+00:00",
+  "phase": "PASS_WITH_DOCUMENTED_LANDMARK_DEFERMENT",
   "m16": "PASS",
-  "m17": "FAIL",
-  "m18": "NOT_GATED",
+  "m17": "CLOSED_WITH_DEFERMENT",
+  "m18": "PASS",
   "candidates_evaluated": 6982,
   "tier_counts": {
     "B": 37,
@@ -14,12 +14,14 @@
   },
   "targets_selected": 1,
   "evidence_ready_with_gaps": 0,
-  "not_ready": 10,
+  "not_ready": 0,
   "lod1_published": 7,
   "drafts_excluded_from_runtime": 10,
   "grounding_audit": "PARTIAL",
-  "visual_qa": "PENDING_VISUAL_QA",
+  "visual_qa": "DEFERRED_VISUAL_REFINEMENT",
   "lod_qa": "NOT_RUN_FOR_NEW_ASSETS",
-  "dominant_remaining_weakness": "Priority landmarks lack reference-matched massing and facade reconstruction.",
-  "candidates_in_review": 10
+  "dominant_remaining_weakness": "PSE pointed upper silhouette and body/frontpiece relationship remain unresolved.",
+  "candidates_in_review": 1,
+  "deferred_backlog_count": 9,
+  "visual_system": "LOW_ACCEPTED_FULL_REJECTED"
 }

@@ -1,12 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T09:39:36.986909+00:00",
+  "generated_at": "2026-09-25T13:52:26.974143+00:00",
   "policy": "An APPROVED target requires evidence readiness, reference/render comparisons, separate reviewer signoff, and zero open CRITICAL or MAJOR discrepancies.",
   "research_media_policy": "Research-only source images stay remote; comparison artifacts may contain render and metadata links only until rights permit redistribution.",
   "buildings": [
     {
       "entity_id": "bgc_m17_0001",
       "source_entity_id": "osm:way:1078392706",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_SCOPE_AND_EVIDENCE",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -88,6 +90,8 @@
     {
       "entity_id": "bgc_m17_0002",
       "source_entity_id": "osm:way:203910666",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_SECOND_VIEWPOINT_AND_GEOMETRY",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -169,6 +173,8 @@
     {
       "entity_id": "bgc_m17_0003",
       "source_entity_id": "osm:way:71598335",
+      "batch_scope": "ACTIVE_BATCH",
+      "disposition": "DEFERRED_VISUAL_REFINEMENT",
       "evidence_status": "READY_FOR_VISUAL_RECONSTRUCTION",
       "builder_status": "PASS",
       "glb_structural_status": "PASS",
@@ -212,6 +218,26 @@
           "result": "FAIL",
           "discrepancy_record": "data/reports/m17-reference-qa.json#bgc_m17_0003",
           "note": "Estimated 4 m roof slope improved the near roof edge but the source-visible twin upper shaping and volume articulation still differ."
+        },
+        {
+          "round": 3,
+          "reference_id": "ref:m16r:architect-pse:044a",
+          "source_url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.044a.jpg",
+          "render_path": "blender/renders/bgc_m17_0003/qa-source-044a-round3.png",
+          "camera_id": "qa:bgc_m17_0003:source:044a",
+          "result": "FAIL",
+          "discrepancy_record": "data/reports/m17-reference-qa.json#bgc_m17_0003",
+          "note": "Partitioned OSM masses remove coincident volume, but the flat twin upper silhouette and relative facade widths still differ materially from the architect view; cameras remain approximate."
+        },
+        {
+          "round": 3,
+          "reference_id": "ref:m16r:architect-pse:008a",
+          "source_url": "https://s3-us-west-2.amazonaws.com/handel-architects/images/_xSmall/00.864.11.008a.jpg",
+          "render_path": "blender/renders/bgc_m17_0003/qa-source-008a-round3.png",
+          "camera_id": "qa:bgc_m17_0003:source:008a",
+          "result": "FAIL",
+          "discrepancy_record": "data/reports/m17-reference-qa.json#bgc_m17_0003",
+          "note": "Partitioned OSM masses remove coincident volume, but the flat twin upper silhouette and relative facade widths still differ materially from the architect view; cameras remain approximate."
         }
       ],
       "discrepancies": [
@@ -219,7 +245,7 @@
           "aspect": "SILHOUETTE",
           "severity": "MAJOR",
           "disposition": "OPEN",
-          "description": "Second massing render adds a 4 m estimated slope, but both architect views still show more distinct twin upper shapes."
+          "description": "Architect street view shows two pointed, separated upper forms; round 3 flat caps still produce a broad stepped block."
         },
         {
           "aspect": "HEIGHT",
@@ -231,7 +257,7 @@
           "aspect": "MAJOR_VOLUME",
           "severity": "MAJOR",
           "disposition": "OPEN",
-          "description": "OSM overlapping tower parts render as a thick continuous block; frontpiece and body separation need refinement."
+          "description": "Polygon partition removes exact nested overlap, but the inferred body/frontpiece proportions remain visually inconsistent with the source views."
         },
         {
           "aspect": "SETBACK",
@@ -249,13 +275,13 @@
           "aspect": "FACADE_COMPOSITION",
           "severity": "MAJOR",
           "disposition": "OPEN",
-          "description": "Massing-only draft intentionally omits the architect-documented inflected glazing and vertical ribs."
+          "description": "Massing-only asset omits the source-described inflected glazing and deep vertical ribs; principal mapped edge is unresolved."
         },
         {
           "aspect": "ROOF",
           "severity": "MAJOR",
           "disposition": "OPEN",
-          "description": "Estimated roof slope does not yet match the upper silhouette in source photographs."
+          "description": "Upper geometry remains unsupported beyond the source-visible pointed silhouette; a confident component-specific profile cannot be recovered from current camera matches."
         },
         {
           "aspect": "ENTRANCE",
@@ -277,7 +303,7 @@
         }
       ],
       "manual_reviewer_signoff": null,
-      "visual_status": "PENDING_VISUAL_QA",
+      "visual_status": "DEFERRED_VISUAL_REFINEMENT",
       "approval_gates": {
         "evidence": true,
         "build": true,
@@ -291,6 +317,8 @@
     {
       "entity_id": "bgc_m17_0004",
       "source_entity_id": "osm:way:182331875",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_VIEWPOINT_MATCH_AND_FACADE",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -372,6 +400,8 @@
     {
       "entity_id": "bgc_m17_0005",
       "source_entity_id": "osm:way:469845356",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_ASPECT_REVIEW",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -453,6 +483,8 @@
     {
       "entity_id": "bgc_m17_0006",
       "source_entity_id": "osm:way:183463814",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_ASPECT_REVIEW",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -534,6 +566,8 @@
     {
       "entity_id": "bgc_m17_0007",
       "source_entity_id": "osm:way:25006899",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_ASPECT_REVIEW",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -615,6 +649,8 @@
     {
       "entity_id": "bgc_m17_0008",
       "source_entity_id": "osm:way:408450256",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_ASPECT_REVIEW",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -696,6 +732,8 @@
     {
       "entity_id": "bgc_m17_0009",
       "source_entity_id": "osm:way:1070584579",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_ASPECT_REVIEW",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -777,6 +815,8 @@
     {
       "entity_id": "bgc_m17_0010",
       "source_entity_id": "osm:way:1070584580",
+      "batch_scope": "DEFERRED_BACKLOG",
+      "disposition": "DEFER_ASPECT_REVIEW",
       "evidence_status": "NOT_READY",
       "builder_status": "DRAFT_ONLY",
       "glb_structural_status": "PASS_LEGACY_DRAFT",
@@ -856,5 +896,20 @@
       "approval_gate": "BLOCKED"
     }
   ],
+  "active_target_ids": [
+    "bgc_m17_0003"
+  ],
+  "deferred_target_ids": [
+    "bgc_m17_0001",
+    "bgc_m17_0002",
+    "bgc_m17_0004",
+    "bgc_m17_0005",
+    "bgc_m17_0006",
+    "bgc_m17_0007",
+    "bgc_m17_0008",
+    "bgc_m17_0009",
+    "bgc_m17_0010"
+  ],
+  "active_approved_count": 0,
   "approved_count": 0
 }

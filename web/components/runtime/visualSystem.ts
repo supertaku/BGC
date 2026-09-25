@@ -9,6 +9,7 @@ export const BGC_MATERIAL_NAMES = [
 
 export type BGCMaterialName = typeof BGC_MATERIAL_NAMES[number];
 export type BGCVisualMaterials = Record<BGCMaterialName, THREE.MeshStandardMaterial>;
+const originalMaterials = new WeakMap<THREE.Mesh, THREE.Material | THREE.Material[]>();
 
 function material(name: BGCMaterialName, color: string, roughness: number, metalness = 0) {
   const result = new THREE.MeshStandardMaterial({ name, color, roughness, metalness });
@@ -52,10 +53,18 @@ function familyFor(sourceName: string): BGCMaterialName {
 export function harmonizeScene(root: THREE.Object3D, materials: BGCVisualMaterials, quality: EnvironmentQuality, landmark = false) {
   root.traverse((object) => {
     if (!(object instanceof THREE.Mesh)) return;
+    if (!originalMaterials.has(object)) originalMaterials.set(object, object.material);
+    if (quality === "LEGACY") {
+      object.material = originalMaterials.get(object)!;
+      object.castShadow = false;
+      object.receiveShadow = false;
+      return;
+    }
+    const sourceMaterial = originalMaterials.get(object)!;
     const mapMaterial = (source: THREE.Material) => materials[familyFor(source.name)];
-    object.material = Array.isArray(object.material)
-      ? object.material.map(mapMaterial)
-      : mapMaterial(object.material);
+    object.material = Array.isArray(sourceMaterial)
+      ? sourceMaterial.map(mapMaterial)
+      : mapMaterial(sourceMaterial);
     object.castShadow = quality === "FULL" && landmark;
     object.receiveShadow = quality === "FULL";
     object.frustumCulled = true;

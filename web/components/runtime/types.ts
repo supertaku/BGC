@@ -2,7 +2,7 @@ import type * as THREE from "three";
 
 export type NavigationMode = "INSPECT" | "WALK" | "TOUR";
 export type TileMode = "DYNAMIC" | "ALL_LOADED";
-export type EnvironmentQuality = "OFF" | "LOW" | "FULL";
+export type EnvironmentQuality = "LEGACY" | "LOW" | "FULL";
 export type TileState = "UNREQUESTED" | "PRELOADING" | "READY" | "ACTIVE" | "CACHED" | "ERROR";
 
 export type Viewpoint = {
@@ -105,11 +105,21 @@ export type RuntimeMetrics = { fps: number; calls: number; triangles: number; ge
 export type BenchmarkReport = {
   status: "PASS";
   scene: string;
+  quality: EnvironmentQuality;
   mode: TileMode;
   navigation: NavigationMode;
   sample_count: number;
   warmup_ms: number;
   duration_ms: number;
+  load_duration_ms: number | null;
+  active_environment_groups: number;
+  transfer: {
+    initial_bytes: number | null;
+    streamed_bytes: number | null;
+    initial_decoded_bytes: number | null;
+    streamed_decoded_bytes: number | null;
+    timing_supported: boolean;
+  };
   mean_fps: number;
   median_fps: number;
   p1_low_fps: number;

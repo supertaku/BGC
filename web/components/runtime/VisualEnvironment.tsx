@@ -18,14 +18,14 @@ export function VisualEnvironment({ quality }: { quality: EnvironmentQuality }) 
     sun.current.target.updateMatrixWorld();
   });
   return <>
-    <color attach="background" args={[SKY]} />
-    <fog attach="fog" args={[SKY, 900, 3400]} />
-    <hemisphereLight args={["#e1f1f5", "#53604c", quality === "OFF" ? 1.05 : 1.38]} />
+    <color attach="background" args={[quality === "LEGACY" ? "#8196a2" : SKY]} />
+    {quality !== "LEGACY" ? <fog attach="fog" args={[SKY, 900, 3400]} /> : null}
+    <hemisphereLight args={quality === "LEGACY" ? ["#d9eeff", "#31412c", 1.5] : ["#e1f1f5", "#53604c", 1.38]} />
     <directionalLight
       ref={sun}
-      position={[105, 205, 75]}
-      intensity={quality === "OFF" ? 1.65 : 2.15}
-      color="#fff0d6"
+      position={quality === "LEGACY" ? [120, 220, 80] : [105, 205, 75]}
+      intensity={quality === "LEGACY" ? 2.4 : 2.15}
+      color={quality === "LEGACY" ? "#ffffff" : "#fff0d6"}
       castShadow={quality === "FULL"}
       shadow-mapSize-width={1024}
       shadow-mapSize-height={1024}

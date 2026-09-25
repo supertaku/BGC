@@ -54,6 +54,12 @@ def main() -> None:
     if args.stage in {"render", "full"}:
         command.append("--render")
     run(command, "BUILD")
+    if args.stage == "full":
+        run([blender, "--background", "--factory-startup", "--python",
+             str(ROOT / "blender/scripts/validate_glb.py"), "--",
+             "--path", str(ROOT / "exports/glb/buildings" / f"{entity_id}_lod1.glb"),
+             "--metrics", str(ROOT / "data/reports/buildings" / f"{entity_id}.json"),
+             "--entity-id", entity_id], "GLB")
 
 
 if __name__ == "__main__":

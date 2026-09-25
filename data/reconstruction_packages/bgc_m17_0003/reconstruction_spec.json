@@ -378,14 +378,14 @@
       }
     ]
   },
-  "visual_reconstruction_status": "NOT_READY",
   "builder_strategy": {
     "mode": "LANDMARK_OVERRIDE",
     "module": "bgc_m17_0003",
     "phase": "MASSING"
   },
   "landmark_parameters": {
-    "roof_slope_m": 4.0,
-    "roof_slope_state": "INFERRED_FROM_PHOTOGRAPHIC_SILHOUETTE"
+    "body_top": {"type": "FLAT", "evidence_state": "INFERRED", "reference_ids": ["ref:m16r:architect-pse:044a", "ref:m16r:architect-pse:008a"]},
+    "frontpiece_top": {"type": "FLAT", "evidence_state": "INFERRED", "reference_ids": ["ref:m16r:architect-pse:008a"]},
+    "principal_facade_edge": {"index": null, "evidence_state": "UNRESOLVED", "reason": "The two southeast views do not establish a unique footprint edge; rib geometry remains disabled in MASSING."}
   }
 }

@@ -67,10 +67,10 @@ def main() -> None:
         "tile_loading": manifest["tile_loading"],
         "viewpoints": [
             {"id": "bgc-aerial-full", "label": "BGC Aerial Full", "position": [center_x + extent * 0.72, extent * 0.88, -(center_y - extent * 0.72)], "target": [center_x, 24, -center_y]},
-            {"id": "bgc-high-street", "label": "BGC High Street", "position": [-90, 16, 170], "target": [-120, 12, 10]},
+            {"id": "bgc-high-street", "label": "BGC High Street", "position": [-164, 7, -17], "target": [-80, 7, 15]},
             {"id": "bgc-north", "label": "BGC North", "position": [center_x, extent * 0.48, -(bounds[3] + extent * 0.42)], "target": [center_x, 20, -center_y]},
             {"id": "bgc-south", "label": "BGC South", "position": [center_x, extent * 0.48, -(bounds[1] - extent * 0.42)], "target": [center_x, 20, -center_y]},
-            {"id": "bgc-south-street", "label": "South Street", "position": [300, 7, 800], "target": [180, 8, 650]},
+            {"id": "bgc-south-street", "label": "South Street", "position": [301.7, 7, 637.9], "target": [249.3, 8, 735.9]},
         ],
         "attribution": {"text": "© OpenStreetMap contributors", "url": "https://www.openstreetmap.org/copyright", "license": "ODbL 1.0", "license_url": "https://opendatacommons.org/licenses/odbl/1-0/"},
     }
