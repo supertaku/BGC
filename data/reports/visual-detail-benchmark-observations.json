@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-09-26",
+  "method": "Production Next.js localhost:3100; Codex in-app browser; displayed PerformanceProbe results read through accessibility tree; 5 s warmup / 15 s measurement. No machine-readable window export was available in the read-only browser scope.",
+  "status": "INCONCLUSIVE_WALKING_BASELINE_DRIFT",
+  "limits": [
+    "Means/medians/p1 values are captured from completed UI benchmark summaries.",
+    "Renderer counts are live observations after completion, not synchronized benchmark-end values for walking.",
+    "The scripted walk continues after the 20 s benchmark, so later camera/tile counts differ.",
+    "Baseline walking p1 changed from 140.85 to 69.44 FPS across repeated runs; no claim of a stable matched walking comparison is valid.",
+    "Manual pointer-lock WASD, complete search/tour UI regression, and full city visual QA remain unverified."
+  ],
+  "rows": [
+    {"scenario":"INSPECT","detail":"initial","mean_fps":163.07,"median_fps":163.93,"p1_fps":105.26,"calls_observed":70,"triangles_observed":60398,"geometries_observed":67,"textures_observed":0,"visible_tiles_observed":24,"lod1_observed":2},
+    {"scenario":"INSPECT","detail":"LEGACY","mean_fps":165.98,"median_fps":163.93,"p1_fps":140.85,"calls_observed":54,"triangles_observed":42920,"geometries_observed":54,"textures_observed":0,"visible_tiles_observed":24,"lod1_observed":2},
+    {"scenario":"INSPECT","detail":"off_LOW","mean_fps":166.2,"median_fps":163.93,"p1_fps":144.93,"calls_observed":60,"triangles_observed":56988,"geometries_observed":57,"textures_observed":0,"visible_tiles_observed":24,"lod1_observed":2},
+    {"scenario":"INSPECT","detail":"optimized","mean_fps":166.3,"median_fps":163.93,"p1_fps":135.14,"calls_observed":70,"triangles_observed":60398,"geometries_observed":66,"textures_observed":0,"visible_tiles_observed":24,"lod1_observed":2},
+    {"scenario":"WALK","detail":"off_LOW_first","mean_fps":165.47,"median_fps":163.93,"p1_fps":140.85},
+    {"scenario":"WALK","detail":"optimized_first","mean_fps":155.81,"median_fps":158.73,"p1_fps":93.46},
+    {"scenario":"WALK","detail":"optimized_repeat","mean_fps":152.6,"median_fps":158.73,"p1_fps":67.57},
+    {"scenario":"WALK","detail":"surfaces_only","mean_fps":144.83,"median_fps":147.06,"p1_fps":74.63},
+    {"scenario":"WALK","detail":"off_LOW_repeat","mean_fps":139.49,"median_fps":140.85,"p1_fps":69.44}
+  ]
+}

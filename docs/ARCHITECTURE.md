@@ -94,3 +94,7 @@ m10-batch.json -> package validation -> configured polygon builder -> per-target
 ```
 
 Batch execution isolates target failures and supports fail-fast, continue-on-error, and exact-target retries. Existing custom builders remain supported; configured M10 assets integrate from their already-optimized standalone GLBs. Canonical evidence remains outside Blender.
+
+## M20–M22 visual-detail preview
+
+`scripts/visual_detail/build_visual_detail.py` derives a compact, tile-clipped JSON package from the pinned path and park polygons. `PublicRealmManager` renders merged surfaces per tile/material and pooled furniture instances from visible owner tiles. Canonical evidence and review decisions remain in the M20 ledger. The preview is enabled only by `detail=1`; it allocates no geometry in the default LOW experience. Promotion requires stable walking benchmarks and completion of the remaining visual/navigation gates. The existing GLBs, approved LOD1 registry, collision and navigation data are unchanged.

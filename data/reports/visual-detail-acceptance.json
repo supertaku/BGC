@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "milestone": "M20-M23",
+  "status": "NOT_YET_ACCEPTED",
+  "release_policy": "PREVIEW_ONLY_detail=1; normal LOW unchanged",
+  "benchmark_observations": "data/reports/visual-detail-benchmark-observations.json",
+  "checks": {
+    "deterministic_tile_ownership": "PASS",
+    "production_build": "PASS",
+    "lint": "PASS",
+    "product_state_and_simulated_tile_lod": "PASS",
+    "street_controls": "PASS",
+    "existing_instancing_fixture": "PASS",
+    "high_street_visual_smoke": "PASS_LIMITED",
+    "complete_search_tour_walk_ui_regression": "UNVERIFIED",
+    "matched_inspect_fps": "PASS_LIMITED_SINGLE_PAIR",
+    "matched_walk_fps": "INCONCLUSIVE_BASELINE_DRIFT",
+    "new_landmark_facade_identity": "NOT_DONE",
+    "logo_art_rights": "DEFERRED"
+  },
+  "grounded": [
+    "OSM pedestrian and park polygons",
+    "official High Street boulevard and park identities",
+    "existing approved LOD1 registry"
+  ],
+  "inferred": [
+    "paving border width",
+    "park-edge strip width",
+    "tree/furniture placement and generic appearance"
+  ],
+  "deferred": [
+    "surveyed grades, stairs and ramps",
+    "water/amphitheater footprints",
+    "tenant logo positions",
+    "public art geometry"
+  ],
+  "rejected": [
+    "unverified exact storefronts",
+    "unlicensed mural reproduction"
+  ]
+}

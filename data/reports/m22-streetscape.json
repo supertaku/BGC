@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "milestone": "M22",
+  "status": "PARTIAL",
+  "instance_counts": {
+    "TREE_CLUSTER": 29,
+    "PLANTER_RECT": 38,
+    "BENCH_LINEAR": 29,
+    "LIGHT_POLE_STANDARD": 38
+  },
+  "tile_count": 6,
+  "rendering": "one instanced batch per type across visible detail tiles",
+  "grounded": [
+    "park polygon ownership",
+    "existing mapped environment retained"
+  ],
+  "inferred": [
+    "all new furniture positions",
+    "all new tree positions",
+    "generic forms"
+  ],
+  "deferred": [
+    "surveyed furniture",
+    "bike racks",
+    "shelters",
+    "night-light behavior"
+  ],
+  "rejected": [
+    "distinctive unverified bollard designs"
+  ],
+  "validation": "Production build and one foreground High Street inspect frame passed; matched performance study pending."
+}

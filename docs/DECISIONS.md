@@ -111,3 +111,7 @@ Keep merged tile GLBs for rendering. Generate compact per-tile footprint/environ
 ## 2026-09-15 — Source-grounded instanced environment
 
 Reuse the immutable normalized OSM POIs and add no procedural filler because 452 mapped objects provide a useful first layer. Assign every object to one M11 tile and instance by tile plus asset type. Generic geometry represents category and mapped position, not photographed appearance.
+
+## 2026-09-26 — Evidence-labelled visual-detail preview, promotion deferred
+
+Derive High Street paving borders and sparse generic park/furniture detail from the pinned OSM path/park polygons. Keep inferred widths and new object positions explicit in the package and M20 ledger. Use tile-clipped surface batches and instanced furniture without regenerating successful GLBs. Enable only through `detail=1` while walking baseline measurements are unstable. Preserve normal LOW and all approved landmark assets. Do not promote new facades, signs, art, or grade transitions without target-level evidence and validation.

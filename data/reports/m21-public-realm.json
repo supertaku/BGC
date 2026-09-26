@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "milestone": "M21",
+  "status": "PARTIAL",
+  "source_package": "web/components/runtime/visual-detail.json",
+  "tile_count": 6,
+  "surface_counts": {
+    "PAVING_BORDER": 33,
+    "PARK_EDGE": 3,
+    "ZEBRA_CROSSING": 2
+  },
+  "grounded": [
+    "mapped pedestrian polygons",
+    "two OSM zebra crossing polygons"
+  ],
+  "inferred": [
+    "0.55 m paving border",
+    "0.65 m park edge"
+  ],
+  "deferred": [
+    "curb ramps",
+    "stairs",
+    "slopes",
+    "medians",
+    "plaza and amphitheater feature geometry",
+    "water feature"
+  ],
+  "rejected": [
+    "fabricated grade changes"
+  ],
+  "validation": "Production build passed; full visual comparison pending."
+}

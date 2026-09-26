@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "milestone": "M23",
+  "status": "DEFERRED_NEW_WORK",
+  "existing_approved_lod1": [
+    {
+      "entity_id": "bgc_building_0014",
+      "name": "Central Square"
+    },
+    {
+      "entity_id": "bgc_building_0007",
+      "name": "W Global Center"
+    },
+    {
+      "entity_id": "bgc_building_0004",
+      "name": "One Maridien"
+    },
+    {
+      "entity_id": "bgc_building_0015",
+      "name": "JY Campos Centre"
+    },
+    {
+      "entity_id": "bgc_building_0005",
+      "name": "Verve Residences Tower 2"
+    },
+    {
+      "entity_id": "bgc_building_0027",
+      "name": "Uniqlo"
+    },
+    {
+      "entity_id": "bgc_building_0011",
+      "name": "C1"
+    }
+  ],
+  "new_facade_assets": 0,
+  "new_logo_assets": 0,
+  "new_art_assets": 0,
+  "grounded": [
+    "existing approved landmark LOD1 assets retained",
+    "official ACPT landscape description",
+    "official UNIQLO BGC art references"
+  ],
+  "inferred": [],
+  "deferred": [
+    "new Central Square/ACPT/UNIQLO facade packages",
+    "logos with verified placement and rights",
+    "art marker geometry"
+  ],
+  "rejected": [
+    "tenant logo placement without visibility evidence",
+    "copying murals without rights"
+  ]
+}
