@@ -23,8 +23,19 @@ exports/glb/*.glb
 blender/buildings/**/scenes/*.blend
 blender/buildings/**/renders/**/*.png
 exports/glb/buildings/*.glb
+# Track only the final GLBs referenced by browser runtime manifests.
 web/public/models/*.glb
 web/public/models/**/*.glb
+!web/public/models/bgc/tiles/*.glb
+!web/public/models/m23/tiles/*.glb
+!web/public/models/m23r/tiles/*.glb
+!web/public/models/buildings/bgc_building_0004_lod1.glb
+!web/public/models/buildings/bgc_building_0005_lod1.glb
+!web/public/models/buildings/bgc_building_0007_lod1.glb
+!web/public/models/buildings/bgc_building_0011_lod1.glb
+!web/public/models/buildings/bgc_building_0014_lod1.glb
+!web/public/models/buildings/bgc_building_0015_lod1.glb
+!web/public/models/buildings/bgc_building_0027_lod1.glb
 exports/bgc/tiles/*.glb
 blender/scenes/m23/**/*.blend
 blender/scenes/m23/*.blend

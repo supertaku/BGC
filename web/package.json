@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run verify:deploy",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "verify:deploy": "node scripts/verify-runtime-assets.mjs",
     "verify:metadata": "node scripts/verify-glb-metadata.mjs",
     "verify:instancing": "node scripts/verify-gpu-instancing.mjs",
     "verify:product": "node --experimental-strip-types scripts/verify-product-state.mjs",
