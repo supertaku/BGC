@@ -110,7 +110,9 @@ export type RuntimeSummary = {
 
 export type RuntimeMetrics = { fps: number; calls: number; triangles: number; geometries: number; textures: number };
 export type BenchmarkReport = {
-  status: "PASS";
+  status: "PASS" | "INVALID";
+  invalid_reasons: string[];
+  detail: {tiles:number;instances:number;requests:number};
   scene: string;
   quality: EnvironmentQuality;
   mode: TileMode;

@@ -115,3 +115,7 @@ Reuse the immutable normalized OSM POIs and add no procedural filler because 452
 ## 2026-09-26 — Evidence-labelled visual-detail preview, promotion deferred
 
 Derive High Street paving borders and sparse generic park/furniture detail from the pinned OSM path/park polygons. Keep inferred widths and new object positions explicit in the package and M20 ledger. Use tile-clipped surface batches and instanced furniture without regenerating successful GLBs. Enable only through `detail=1` while walking baseline measurements are unstable. Preserve normal LOW and all approved landmark assets. Do not promote new facades, signs, art, or grade transitions without target-level evidence and validation.
+
+## 2026-09-26 — M21R/M22R semantic support and constrained inference
+
+Keep the base snapshot and successful GLBs unchanged. Resolve crossings above PATH because the existing exporter includes crossing polygons in the 0.150 m path extrusion. Split park borders when higher paths overlap, using a 0.006 m epsilon. A road-only 0.066 m crossing would still be buried. Preserve individual source IDs and inference labels; do not claim surveyed furniture placement. Permit boundary furniture within the owning plaza's outer 3.2 m strip while excluding its core and other pedestrian geometries. Publish schema 2 as an opt-in lazy package; manual appearance and valid foreground performance remain acceptance gates.

@@ -102,10 +102,11 @@ def build_tile(input_path: Path, debug_heights: bool, representation: str = "mer
         "PROCEDURAL": create_material("BGC_Debug_Height_Procedural", (0.70, 0.14, 0.28, 1)),
     }
 
+    heights = json.loads((ROOT / "data/config/surface-heights.json").read_text())
     ground_polygons = polygons(tile["ground"])
     if ground_polygons:
-        create_extruded_polygons(f"{tile_id}_ground", ground_polygons, -0.16, 0.16, materials["ground"], "procedurally generated ground clipped to estimated working boundary")
-    context_specs = (("roads", "road", 0.00, 0.06), ("open_spaces", "open", 0.065, 0.04), ("paths", "path", 0.11, 0.04))
+        create_extruded_polygons(f"{tile_id}_ground", ground_polygons, heights["GROUND_TOP"] - 0.16, 0.16, materials["ground"], "procedurally generated ground clipped to estimated working boundary")
+    context_specs = tuple((source, material, heights[key + "_TOP"] - heights[key + "_THICKNESS"], heights[key + "_THICKNESS"]) for source, material, key in (("roads", "road", "ROAD"), ("open_spaces", "open", "OPEN_SPACE"), ("paths", "path", "PATH")))
     for key, material_key, base, height in context_specs:
         context_polygons = [polygon for feature in tile[key] for polygon in polygons(feature["geometry"])]
         if context_polygons:

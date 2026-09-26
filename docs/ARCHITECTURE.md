@@ -98,3 +98,9 @@ Batch execution isolates target failures and supports fail-fast, continue-on-err
 ## M20–M22 visual-detail preview
 
 `scripts/visual_detail/build_visual_detail.py` derives a compact, tile-clipped JSON package from the pinned path and park polygons. `PublicRealmManager` renders merged surfaces per tile/material and pooled furniture instances from visible owner tiles. Canonical evidence and review decisions remain in the M20 ledger. The preview is enabled only by `detail=1`; it allocates no geometry in the default LOW experience. Promotion requires stable walking benchmarks and completion of the remaining visual/navigation gates. The existing GLBs, approved LOD1 registry, collision and navigation data are unchanged.
+
+## M21R–M22R refinement
+
+`data/config/surface-heights.json` is the height contract. The tile Blender generator reads it directly; `build_visual_detail.py` produces the checked runtime copy. Version 2 detail data lives under `web/public/world/detail/` and is fetched once only for opt-in detail modes. `PublicRealmManager` selects active tile records; `SurfaceDetailLayer` merges per tile/material; `StreetscapeInstanceLayer` pools instances per category. Geometry is disposed by the owning layer. Generated inputs carry hashes; per-record source and grounding are mandatory.
+
+The generator resolves surface intersections against highest PATH, OPEN_SPACE, ROAD, then GROUND support. Mapped environment sidecars have priority over inferred candidates. All normalized paths, roads and building footprints enter exclusion checks; furniture may occupy only the owning plaza edge strip. Reports keep engineering results separate from user-owned appearance acceptance.

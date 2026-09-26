@@ -702,5 +702,53 @@
   "rejected": [
     "unverified exact storefronts",
     "unlicensed mural reproduction"
-  ]
+  ],
+  "public_realm_placement_rules": {
+    "grounding": "INFERRED",
+    "policy": {
+      "grounding": "INFERRED",
+      "inset": {
+        "BENCH_LINEAR": 1.2,
+        "PLANTER_RECT": 1.5,
+        "LIGHT_POLE_STANDARD": 0.7
+      },
+      "radius": {
+        "TREE_CLUSTER": 2.2,
+        "BENCH_LINEAR": 1.05,
+        "PLANTER_RECT": 1.52,
+        "LIGHT_POLE_STANDARD": 0.2
+      },
+      "spacing": {
+        "TREE_CLUSTER": 7,
+        "BENCH_LINEAR": 10,
+        "PLANTER_RECT": 5,
+        "LIGHT_POLE_STANDARD": 12
+      },
+      "mapped_radius": {
+        "TREE_GENERIC": 2.5,
+        "BENCH_GENERIC": 1.5,
+        "STREET_LAMP_GENERIC": 0.5,
+        "BOLLARD_GENERIC": 0.3,
+        "WASTE_BIN_GENERIC": 0.5,
+        "SHELTER_GENERIC": 2.1
+      },
+      "same_type_clearance": {
+        "TREE_CLUSTER": 4.5,
+        "BENCH_LINEAR": 3,
+        "LIGHT_POLE_STANDARD": 3.5
+      },
+      "building_buffer": 0.5,
+      "walkway_buffer": 0.3,
+      "tree_grid": 14,
+      "boundary_interval": 22,
+      "paving_width": 0.55,
+      "park_edge_width": 0.65,
+      "plaza_edge_strip": 3.2,
+      "tree_grid_jitter": 4,
+      "park_inset": 3.5
+    },
+    "plaza_edge_strip_m": 3.2,
+    "tree_grid_jitter_m": 4,
+    "warning": "Plausible procedural approximations, not surveyed positions."
+  }
 }

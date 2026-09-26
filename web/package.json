@@ -10,7 +10,8 @@
     "verify:metadata": "node scripts/verify-glb-metadata.mjs",
     "verify:instancing": "node scripts/verify-gpu-instancing.mjs",
     "verify:product": "node --experimental-strip-types scripts/verify-product-state.mjs",
-    "verify:street-controls": "node --experimental-strip-types scripts/verify-street-controls.mjs"
+    "verify:street-controls": "node --experimental-strip-types scripts/verify-street-controls.mjs",
+    "verify:public-realm": "node --experimental-strip-types scripts/verify-public-realm.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.20.2",

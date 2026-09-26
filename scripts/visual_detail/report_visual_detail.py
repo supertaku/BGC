@@ -43,7 +43,7 @@ def entry(entity, category, source, source_type, geometry, visual, notes, approv
 
 
 def main():
-    package = json.loads((ROOT / "web/components/runtime/visual-detail.json").read_text(encoding="utf-8"))
+    package = json.loads((ROOT / "web/public/world/detail/high-street-public-realm.json").read_text(encoding="utf-8"))
     paths = json.loads((ROOT / "data/processed/bgc-paths.geojson").read_text(encoding="utf-8"))["features"]
     parks = json.loads((ROOT / "data/processed/bgc-open-spaces.geojson").read_text(encoding="utf-8"))["features"]
     ids = {source["id"] for tile in package["tiles"].values() for source in tile["sources"]}
@@ -91,7 +91,7 @@ def main():
 
     by_type = {key: sum(len(t["surfaces"].get(key, [])) for t in package["tiles"].values()) for key in ("PAVING_BORDER", "PARK_EDGE", "ZEBRA_CROSSING")}
     by_instance = {key: sum(len(t["instances"].get(key, [])) for t in package["tiles"].values()) for key in ("TREE_CLUSTER", "PLANTER_RECT", "BENCH_LINEAR", "LIGHT_POLE_STANDARD")}
-    write("m21-public-realm.json", {"schema_version": 1, "milestone": "M21", "status": "PARTIAL", "source_package": "web/components/runtime/visual-detail.json", "tile_count": package["counts"]["tiles"], "surface_counts": by_type, "grounded": ["mapped pedestrian polygons", "two OSM zebra crossing polygons"], "inferred": ["0.55 m paving border", "0.65 m park edge"], "deferred": ["curb ramps", "stairs", "slopes", "medians", "plaza and amphitheater feature geometry", "water feature"], "rejected": ["fabricated grade changes"], "validation": "Production build passed; full visual comparison pending."})
+    write("m21-public-realm.json", {"schema_version": 1, "milestone": "M21", "status": "PARTIAL", "source_package": "web/public/world/detail/high-street-public-realm.json", "tile_count": package["counts"]["tiles"], "surface_counts": by_type, "grounded": ["mapped pedestrian polygons", "two OSM zebra crossing polygons"], "inferred": ["0.55 m paving border", "0.65 m park edge"], "deferred": ["curb ramps", "stairs", "slopes", "medians", "plaza and amphitheater feature geometry", "water feature"], "rejected": ["fabricated grade changes"], "validation": "Production build passed; full visual comparison pending."})
     write("m22-streetscape.json", {"schema_version": 1, "milestone": "M22", "status": "PARTIAL", "instance_counts": by_instance, "tile_count": package["counts"]["tiles"], "rendering": "one instanced batch per type across visible detail tiles", "grounded": ["park polygon ownership", "existing mapped environment retained"], "inferred": ["all new furniture positions", "all new tree positions", "generic forms"], "deferred": ["surveyed furniture", "bike racks", "shelters", "night-light behavior"], "rejected": ["distinctive unverified bollard designs"], "validation": "Production build and one foreground High Street inspect frame passed; matched performance study pending."})
     assets = json.loads((ROOT / "data/assets/buildings.json").read_text(encoding="utf-8"))["buildings"]
     approved = [{"entity_id": key, "name": val["name"]} for key, val in assets.items() if val.get("lifecycle", {}).get("lod1") == "APPROVED"]
@@ -140,7 +140,9 @@ Grounded: source polygons and existing approved assets. Inferred: visual border 
 
 Reproduce data: `.\\.venv\\Scripts\\python.exe scripts/visual_detail/build_visual_detail.py`, then `scripts/visual_detail/verify_visual_detail.py` and `scripts/visual_detail/report_visual_detail.py` with the same interpreter. Preview the production build at `/?view=bgc-high-street&mode=inspect&detail=1`. For benchmark URLs add `debug=1&benchmark=1&quality=LOW`; for scripted walking use `mode=walk&benchmark_walk=1`.
 """)
-    print("Wrote M20-M23 ledgers and acceptance reports")
+    from report_refinement import main as refinement_report
+    refinement_report()
+    print("Wrote M20-M23 ledgers and refinement reports")
 
 
 if __name__ == "__main__":

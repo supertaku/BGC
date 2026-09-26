@@ -57,7 +57,7 @@ export function WorldRuntime({ manifest, interactive, tileMode, navigation, envi
     <NavigationController mode={navigation} viewpoint={viewpoint} bounds={manifest.tiles ?? []} refs={refs} focusRequest={focusRequest} onBoundaryHit={onBoundaryHit} debug={debug} />
     <StreetLocator mode={navigation} refs={refs} onStreetChange={onStreetChange} />
     <InteractionManager mode={navigation} refs={refs} selected={selected} onSelect={onSelect} />
-    <PerformanceProbe tileMode={tileMode} navigation={navigation} quality={environmentQuality} runtime={runtime} loadDurationMs={loadDurationMs} environmentGroups={environmentGroups} onSample={onMetrics} onBenchmark={onBenchmark} />
+    <PerformanceProbe refs={refs} tileMode={tileMode} navigation={navigation} quality={environmentQuality} runtime={runtime} loadDurationMs={loadDurationMs} environmentGroups={environmentGroups} onSample={onMetrics} onBenchmark={onBenchmark} />
     {debug ? <Stats className="fps" /> : null}
   </>;
 }

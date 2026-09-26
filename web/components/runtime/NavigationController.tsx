@@ -217,7 +217,7 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
         refs.focus.current.copy(target);
       }
     } else if (mode === "WALK") {
-      const scriptedWalk = new URLSearchParams(window.location.search).get("benchmark_walk") === "1";
+      const scriptedWalk = new URLSearchParams(window.location.search).get("benchmark_walk") === "1" && !!window.__BGC_BENCHMARK_CLOCK__ && performance.now() < window.__BGC_BENCHMARK_CLOCK__.end && !window.__BGC_BENCHMARK__;
       if (pointer.current?.isLocked || scriptedWalk) {
         direction.set(0, 0, 0);
         if (scriptedWalk || keys.current.has("KeyW") || keys.current.has("ArrowUp")) direction.z += 1;

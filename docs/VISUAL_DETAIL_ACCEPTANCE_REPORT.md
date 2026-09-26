@@ -1,13 +1,31 @@
-# Visual detail acceptance
+# M21R–M22R acceptance
 
-**Gate: not yet accepted. Preview only.** M20 evidence and an M21/M22 first detail layer are implemented. M23 new facade identity and art/signage are still open. The normal LOW default is preserved; enable the experimental layer with `?detail=1`. Use `detail=0`, `detail=surfaces`, or `detail=instances` for diagnostics. No new geometry is allocated when the preview is off.
+**PARTIAL. Preview only.** Automated implementation gates pass; subjective appearance is AWAITING_USER_TEST. Performance acceptance is not established by throttled browser runs. M20 remains partial and M23 is deferred.
 
-Production build, lint, deterministic ownership/provenance checks, product-state/search/263 place-link checks, seven simulated LOD handoffs, street-control checks and the existing instancing fixture pass. The foreground High Street scene loads with the new layer and existing LOD1 assets. Full UI search/tour/manual walking regression remains open.
+Production preview: http://127.0.0.1:3001/?view=bgc-high-street&mode=inspect&detail=1
 
-One matched LOW inspect pair measured: detail off 166.20 mean / 163.93 median / 144.93 p1 FPS, 60 calls and 56,988 triangles; detail on 166.30 mean / 163.93 median / 135.14 p1 FPS, 70 calls and 60,398 triangles. Both showed 24 visible tiles, 2 LOD1 assets and zero textures. The optimized layer adds 10 calls and 3,410 triangles at that camera. Its JSON package is about 29 KB and adds no texture assets.
+The machine report is [visual-detail-acceptance.json](../data/reports/visual-detail-acceptance.json). Current observations are [m21r-browser-validation.json](../data/reports/m21r-browser-validation.json); historical M21 observations remain separate and are not reused for acceptance.
 
-Walking is inconclusive and prevents promotion. The first baseline had p1 140.85 FPS; detailed runs had 93.46 and 67.57 FPS. A later no-detail baseline also fell to 69.44 FPS. This drift prevents attribution to the new layer. Preserve every observation in [visual-detail-benchmark-observations.json](../data/reports/visual-detail-benchmark-observations.json), including failed runs. The scripted walk continues after measurement; renderer counts read later are not synchronized benchmark-end values.
+## Engineering
 
-Grounded: source polygons and existing approved assets. Inferred: visual border widths and sparse generic furniture. Deferred: stable walking measurements, complete visual and navigation regression, new landmark facade packages, requested generalized stair/ramp/median builders, rights-reviewed logos and art. Rejected: speculative grade changes and unevidenced logo/art placement. No acceptance claim is made until the open gates pass.
+Browser Search completed 8/8 targets and Tour 7/7 stops. Walk completed with no zero-visible events, repeated tile requests, runtime errors or LOD gaps and stopped at measurement end (camera comparison tolerance 0.051 m, matching the runtime display rounding). Seven LOD1 assets loaded. Detail OFF made zero package requests; ON made one.
 
-Reproduce data: `.\.venv\Scripts\python.exe scripts/visual_detail/build_visual_detail.py`, then `scripts/visual_detail/verify_visual_detail.py` and `scripts/visual_detail/report_visual_detail.py` with the same interpreter. Preview the production build at `/?view=bgc-high-street&mode=inspect&detail=1`. For benchmark URLs add `debug=1&benchmark=1&quality=LOW`; for scripted walking use `mode=walk&benchmark_walk=1`.
+Production build, lint, product-state checks, metadata, existing GLB instancing fixture, public-realm schema/lazy-cache checks, deterministic semantic verification, 63 Python tests, coordinate checks and processed-data checks pass. The instancing fixture checks the existing shared GLB; the detail renderer independently uses InstancedMesh batches by category. No texture assets or materials are added. Bench geometry uses 48 triangles.
+
+Reproduce with `.venv/Scripts/python.exe scripts/visual_detail/build_visual_detail.py`, `scripts/visual_detail/verify_visual_detail.py`, and `scripts/visual_detail/report_refinement.py`. Run `npm run build`, `npm run lint`, `npm run verify:product`, `npm run verify:metadata`, `npm run verify:instancing`, `npm run verify:street-controls`, `npm run verify:public-realm` from `web`. Python: `.venv/Scripts/python.exe -m pytest tests --basetemp=.pytest_tmp_m21r_new -q`.
+
+## Performance protocol
+
+Use the same foreground Chrome tab, viewport, DPR, LOW quality and fixed starting viewpoint. Reload between runs; alternate three OFF and three ON runs for Inspect and Walk. Parameters: `debug=1&benchmark=1&quality=LOW&detail=0` or `detail=1`; Walk adds `mode=walk&benchmark_walk=1`. Movement starts at benchmark warmup and stops at the measurement deadline. Counters are captured with the last completed render before subsequent movement. Reject background/unfocused, 900 ms frame contamination, changing viewport/DPR, incomplete Walk and runtime-error runs. Compare medians across valid runs; investigate >15% median/p1 degradation, likely fail >25%. The retained invalid 1 FPS runs provide no FPS acceptance evidence.
+
+## Manual inspection — all AWAITING_USER_TEST
+
+- High Street aerial: visible paving and park borders, no z-fighting.
+- Walking level: parallel benches and planters, believable lamp spacing, clear circulation.
+- Track 30th: trees off paths, no mapped-tree duplicates, clear planters.
+- Intersection: visible crossing above its actual PATH support, no floating appearance.
+- Tile boundary: continuous surfaces, no duplicated instances.
+
+Keep all four diagnostics: `detail=0`, `detail=1`, `detail=surfaces`, `detail=instances`. The default absent parameter is OFF. No whole-world Suspense was introduced.
+
+Ready for M23: **NO — pending user validation and remaining acceptance gates.** Next milestone after user PASS is M23 — Landmark Facade, Signage and Identity Expansion. Do not begin automatically.
