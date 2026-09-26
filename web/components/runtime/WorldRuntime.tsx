@@ -39,16 +39,18 @@ export function WorldRuntime({ manifest, interactive, tileMode, navigation, envi
   const tileRecords = useRef(new Map());
   const tileScenes = useRef(new Map());
   const activeTileIds = useRef(new Set<string>());
+  const visibleTileIds = useRef(new Set<string>());
+  const anchors = useRef([{ x: viewpoint.target[0], z: viewpoint.target[2], role: "PRIMARY" as const }]);
   const sidecars = useRef(new Map());
-  const refs = useMemo<RuntimeRefs>(() => ({ focus, tileRecords, tileScenes, activeTileIds, sidecars }), []);
+  const refs = useMemo<RuntimeRefs>(() => ({ focus, anchors, tileRecords, tileScenes, activeTileIds, visibleTileIds, sidecars }), []);
   const visualMaterials = useMemo(() => createBGCVisualMaterials(), []);
   useEffect(() => () => disposeBGCVisualMaterials(visualMaterials), [visualMaterials]);
 
   return <>
-    <TileManager tiles={manifest.tiles ?? []} mode={tileMode} refs={refs} materials={visualMaterials} quality={environmentQuality} onSummary={onRuntime} onInitialReady={onReady} />
-    <LandmarkLODManager assets={manifest.detailed_assets ?? []} entities={interactive.entities} refs={refs} materials={visualMaterials} quality={environmentQuality} onActiveChange={onLodChange} />
+    <TileManager tiles={manifest.tiles ?? []} mode={tileMode} refs={refs} materials={visualMaterials} quality={environmentQuality} priorityTileId={focusRequest?.entity.tile_id ?? (navigation === "TOUR" ? tourStop?.tile_id : null)} navigation={navigation} onSummary={onRuntime} onInitialReady={onReady} />
+    <LandmarkLODManager assets={manifest.detailed_assets ?? []} entities={interactive.entities} refs={refs} materials={visualMaterials} quality={environmentQuality} priorityAssetId={focusRequest?.entity.detailed_asset_id ?? (navigation === "TOUR" ? tourStop?.detailed_asset_id : null)} onActiveChange={onLodChange} />
     <EnvironmentManager activeIds={runtime.activeIds} quality={environmentQuality} refs={refs} materials={visualMaterials} onGroupCount={onEnvironmentGroups} />
-    <NavigationController mode={navigation} viewpoint={viewpoint} refs={refs} focusRequest={focusRequest} tourStop={tourStop} onBoundaryHit={onBoundaryHit} />
+    <NavigationController mode={navigation} viewpoint={viewpoint} bounds={manifest.tiles ?? []} refs={refs} focusRequest={focusRequest} onBoundaryHit={onBoundaryHit} />
     <InteractionManager mode={navigation} refs={refs} selected={selected} onSelect={onSelect} />
     <PerformanceProbe tileMode={tileMode} navigation={navigation} quality={environmentQuality} runtime={runtime} loadDurationMs={loadDurationMs} environmentGroups={environmentGroups} onSample={onMetrics} onBenchmark={onBenchmark} />
     {debug ? <Stats className="fps" /> : null}

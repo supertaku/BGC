@@ -1,46 +1,50 @@
 "use client";
-/* eslint-disable react-hooks/immutability -- camera transforms and input vectors are intentionally updated in useFrame. */
+/* eslint-disable react-hooks/immutability -- R3F camera, controls, and navigation refs update per frame. */
 
-import { OrbitControls, PointerLockControls } from "@react-three/drei";
+import { MapControls, PointerLockControls } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useEffect, useMemo, useRef } from "react";
-import type { OrbitControls as OrbitControlsImpl, PointerLockControls as PointerLockControlsImpl } from "three-stdlib";
+import type { MapControls as MapControlsImpl, PointerLockControls as PointerLockControlsImpl } from "three-stdlib";
 import * as THREE from "three";
 import { pointInFootprint, pointInRing } from "./spatial";
-import type { EntityRecord, NavigationMode, RuntimeRefs, Viewpoint } from "./types";
+import { acceptFocusSequence, clampMapTarget, fitCameraToBounds, fitCameraToEntity, resolveStreamAnchors, worldBounds } from "./stabilityLogic";
+import { stability } from "./stability";
+import type { EntityRecord, NavigationMode, RuntimeRefs, Viewpoint, WorldTile } from "./types";
 
 export type FocusRequest = { sequence: number; entity: EntityRecord } | null;
+type Transition = { fromPosition: THREE.Vector3; toPosition: THREE.Vector3; fromTarget: THREE.Vector3; toTarget: THREE.Vector3; elapsed: number; duration: number; sequence: number };
 
-export function NavigationController({ mode, viewpoint, refs, focusRequest, tourStop, onBoundaryHit }: {
+function WalkControls({ controlRef }: { controlRef: React.RefObject<PointerLockControlsImpl | null> }) {
+  useEffect(() => {
+    stability.pointer_lock_mounts += 1;
+    const control = controlRef.current;
+    return () => { control?.unlock(); stability.pointer_lock_unmounts += 1; };
+  }, [controlRef]);
+  return <PointerLockControls ref={controlRef} makeDefault selector="canvas" />;
+}
+
+export function NavigationController({ mode, viewpoint, bounds, refs, focusRequest, onBoundaryHit }: {
   mode: NavigationMode;
   viewpoint: Viewpoint;
+  bounds: WorldTile[];
   refs: RuntimeRefs;
   focusRequest: FocusRequest;
-  tourStop: EntityRecord | null;
   onBoundaryHit: () => void;
 }) {
-  const { camera } = useThree();
-  const orbit = useRef<OrbitControlsImpl>(null);
+  const { camera, size } = useThree();
+  const map = useRef<MapControlsImpl>(null);
   const pointer = useRef<PointerLockControlsImpl>(null);
   const keys = useRef(new Set<string>());
   const savedInspect = useRef({ position: new THREE.Vector3(...viewpoint.position), target: new THREE.Vector3(...viewpoint.target) });
-  const transition = useRef<{ fromPosition: THREE.Vector3; toPosition: THREE.Vector3; fromTarget: THREE.Vector3; toTarget: THREE.Vector3; elapsed: number; duration: number } | null>(null);
-  const boundary = useMemo(() => refs.sidecars.current, [refs.sidecars]);
-  const worldBoundary = useRef<[number, number][]>([]);
+  const transition = useRef<Transition | null>(null);
+  const pending = useRef<FocusRequest>(null);
+  const consumed = useRef<number | null>(null);
   const previousMode = useRef<NavigationMode>("INSPECT");
+  const lastViewpoint = useRef<string | null>(null);
+  const worldBoundary = useRef<[number, number][]>([]);
+  const extent = useMemo(() => worldBounds(bounds), [bounds]);
   const direction = useMemo(() => new THREE.Vector3(), []);
   const candidate = useMemo(() => new THREE.Vector3(), []);
-
-  useEffect(() => {
-    const onDown = (event: KeyboardEvent) => keys.current.add(event.code);
-    const onUp = (event: KeyboardEvent) => keys.current.delete(event.code);
-    window.addEventListener("keydown", onDown);
-    window.addEventListener("keyup", onUp);
-    return () => {
-      window.removeEventListener("keydown", onDown);
-      window.removeEventListener("keyup", onUp);
-    };
-  }, []);
 
   useEffect(() => {
     fetch("/world/bgc-interactive.json")
@@ -50,20 +54,38 @@ export function NavigationController({ mode, viewpoint, refs, focusRequest, tour
   }, []);
 
   useEffect(() => {
-    if (mode !== "INSPECT") return;
-    camera.position.set(...viewpoint.position);
-    const target = new THREE.Vector3(...viewpoint.target);
+    if (mode !== "WALK") return;
+    const pressedKeys = keys.current;
+    const onDown = (event: KeyboardEvent) => keys.current.add(event.code);
+    const onUp = (event: KeyboardEvent) => keys.current.delete(event.code);
+    window.addEventListener("keydown", onDown);
+    window.addEventListener("keyup", onUp);
+    return () => {
+      window.removeEventListener("keydown", onDown);
+      window.removeEventListener("keyup", onUp);
+      pressedKeys.clear();
+    };
+  }, [mode]);
+
+  useEffect(() => {
+    if (mode !== "INSPECT" || lastViewpoint.current === viewpoint.id) return;
+    lastViewpoint.current = viewpoint.id;
+    const fit = viewpoint.id === "bgc-aerial-full"
+      ? fitCameraToBounds(extent, (camera as THREE.PerspectiveCamera).fov, size.width / Math.max(1, size.height))
+      : { position: viewpoint.position, target: viewpoint.target };
+    camera.position.set(...fit.position);
+    const target = new THREE.Vector3(...fit.target);
     camera.lookAt(target);
-    orbit.current?.target.copy(target);
-    orbit.current?.update();
+    map.current?.target.copy(target);
+    map.current?.update();
     refs.focus.current.copy(target);
-  }, [camera, mode, refs.focus, viewpoint]);
+  }, [camera, extent, mode, refs.focus, size.height, size.width, viewpoint]);
 
   useEffect(() => {
     const previous = previousMode.current;
     if (mode === "WALK" && previous !== "WALK") {
       savedInspect.current.position.copy(camera.position);
-      savedInspect.current.target.copy(orbit.current?.target ?? refs.focus.current);
+      savedInspect.current.target.copy(map.current?.target ?? refs.focus.current);
       const start = camera.position.y < 100 && pointInRing(camera.position.x, camera.position.z, worldBoundary.current)
         ? new THREE.Vector3(camera.position.x, 1.7, camera.position.z)
         : new THREE.Vector3(-90, 1.7, 170);
@@ -71,37 +93,50 @@ export function NavigationController({ mode, viewpoint, refs, focusRequest, tour
       refs.focus.current.copy(start);
     } else if (previous === "WALK" && mode === "INSPECT") {
       camera.position.copy(savedInspect.current.position);
-      orbit.current?.target.copy(savedInspect.current.target);
-      orbit.current?.update();
+      map.current?.target.copy(savedInspect.current.target);
+      map.current?.update();
       refs.focus.current.copy(savedInspect.current.target);
+    } else if (previous === "TOUR" && mode === "INSPECT") {
+      map.current?.target.copy(refs.focus.current);
+      map.current?.update();
     }
+    if (mode !== previous && transition.current) { stability.focus_transition_cancels += 1; transition.current = null; }
+    if (mode === "WALK") pending.current = null;
+    if (mode !== "WALK") keys.current.clear();
     previousMode.current = mode;
   }, [camera, mode, refs.focus]);
 
   useEffect(() => {
-    if (mode !== "WALK") pointer.current?.unlock();
-    keys.current.clear();
-    transition.current = null;
-  }, [mode]);
-
-  useEffect(() => {
-    const entity = focusRequest?.entity ?? (mode === "TOUR" ? tourStop : null);
-    if (!entity) return;
-    const height = Math.max(20, entity.height_m ?? 20);
-    const target = new THREE.Vector3(entity.center[0], Math.min(height * 0.45, 45), entity.center[1]);
-    const position = new THREE.Vector3(entity.center[0] + Math.max(55, height * 0.55), Math.max(38, height * 0.72), entity.center[1] + Math.max(65, height * 0.62));
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    transition.current = {
-      fromPosition: camera.position.clone(),
-      toPosition: position,
-      fromTarget: (orbit.current?.target ?? refs.focus.current).clone(),
-      toTarget: target,
-      elapsed: 0,
-      duration: reduced ? 0.01 : mode === "TOUR" ? 2.8 : 1.2,
-    };
-  }, [camera, focusRequest, mode, refs.focus, tourStop]);
+    const accepted = acceptFocusSequence(consumed.current, focusRequest?.sequence ?? null);
+    if (!focusRequest || accepted === null) return;
+    consumed.current = accepted;
+    stability.focus_request_count += 1;
+    if (transition.current) { stability.focus_transition_cancels += 1; transition.current = null; }
+    pending.current = focusRequest;
+  }, [focusRequest]);
 
   useFrame((_, delta) => {
+    if (pending.current && !transition.current) {
+      const request = pending.current;
+      const targetRecord = refs.tileRecords.current.get(request.entity.tile_id);
+      if (targetRecord?.state === "ERROR") pending.current = null;
+      else if (targetRecord?.model_ready) {
+        const fit = fitCameraToEntity(request.entity.bounds, request.entity.height_m, (camera as THREE.PerspectiveCamera).fov, size.width / Math.max(1, size.height));
+        const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        transition.current = {
+          sequence: request.sequence,
+          fromPosition: camera.position.clone(),
+          toPosition: new THREE.Vector3(...fit.position),
+          fromTarget: (map.current?.target ?? refs.focus.current).clone(),
+          toTarget: new THREE.Vector3(...fit.target),
+          elapsed: 0,
+          duration: reduced ? 0.01 : mode === "TOUR" ? 2.8 : 1.2,
+        };
+        stability.focus_transition_starts += 1;
+        pending.current = null;
+      }
+    }
+
     if (transition.current) {
       const state = transition.current;
       state.elapsed += delta;
@@ -110,44 +145,49 @@ export function NavigationController({ mode, viewpoint, refs, focusRequest, tour
       camera.position.lerpVectors(state.fromPosition, state.toPosition, eased);
       const target = refs.focus.current.lerpVectors(state.fromTarget, state.toTarget, eased);
       camera.lookAt(target);
-      orbit.current?.target.copy(target);
-      orbit.current?.update();
-      if (raw >= 1) transition.current = null;
-      return;
+      map.current?.target.copy(target);
+      map.current?.update();
+      if (raw >= 1) { transition.current = null; stability.focus_transition_completes += 1; }
+    } else if (mode === "INSPECT") {
+      if (map.current) {
+        const target = map.current.target;
+        const [x, z] = clampMapTarget(target.x, target.z, extent);
+        camera.position.x += x - target.x;
+        camera.position.z += z - target.z;
+        target.set(x, target.y, z);
+        refs.focus.current.copy(target);
+      }
+    } else if (mode === "WALK") {
+      const scriptedWalk = new URLSearchParams(window.location.search).get("benchmark_walk") === "1";
+      if (pointer.current?.isLocked || scriptedWalk) {
+        direction.set(0, 0, 0);
+        if (scriptedWalk || keys.current.has("KeyW") || keys.current.has("ArrowUp")) direction.z += 1;
+        if (keys.current.has("KeyS") || keys.current.has("ArrowDown")) direction.z -= 1;
+        if (keys.current.has("KeyA") || keys.current.has("ArrowLeft")) direction.x -= 1;
+        if (keys.current.has("KeyD") || keys.current.has("ArrowRight")) direction.x += 1;
+        if (direction.lengthSq() > 0) {
+          direction.normalize();
+          const speed = keys.current.has("ShiftLeft") || keys.current.has("ShiftRight") ? 18 : 7;
+          candidate.copy(camera.position);
+          const flatForward = new THREE.Vector3(0, 0, -1).applyQuaternion(camera.quaternion).setY(0).normalize();
+          const flatRight = new THREE.Vector3(1, 0, 0).applyQuaternion(camera.quaternion).setY(0).normalize();
+          candidate.addScaledVector(flatForward, direction.z * speed * delta).addScaledVector(flatRight, direction.x * speed * delta);
+          const insideBoundary = !worldBoundary.current.length || pointInRing(candidate.x, candidate.z, worldBoundary.current);
+          const footprints = [...refs.activeTileIds.current].flatMap((id) => refs.sidecars.current.get(id)?.footprints ?? []);
+          const collides = footprints.some((footprint) => pointInFootprint(candidate.x, candidate.z, footprint, 0.65));
+          if (insideBoundary && !collides) camera.position.copy(candidate);
+          else onBoundaryHit();
+          camera.position.y = 1.7;
+          refs.focus.current.copy(camera.position);
+        }
+      }
     }
-
-    if (mode === "INSPECT") {
-      if (orbit.current) refs.focus.current.copy(orbit.current.target);
-      return;
-    }
-    const scriptedWalk = new URLSearchParams(window.location.search).get("benchmark_walk") === "1";
-    if (mode !== "WALK" || (!pointer.current?.isLocked && !scriptedWalk)) return;
-    direction.set(0, 0, 0);
-    if (scriptedWalk || keys.current.has("KeyW") || keys.current.has("ArrowUp")) direction.z += 1;
-    if (keys.current.has("KeyS") || keys.current.has("ArrowDown")) direction.z -= 1;
-    if (keys.current.has("KeyA") || keys.current.has("ArrowLeft")) direction.x -= 1;
-    if (keys.current.has("KeyD") || keys.current.has("ArrowRight")) direction.x += 1;
-    if (direction.lengthSq() === 0) return;
-    direction.normalize();
-    const speed = keys.current.has("ShiftLeft") || keys.current.has("ShiftRight") ? 18 : 7;
-    const forward = direction.z * speed * delta;
-    const right = direction.x * speed * delta;
-    candidate.copy(camera.position);
-    const quaternion = camera.quaternion.clone();
-    const flatForward = new THREE.Vector3(0, 0, -1).applyQuaternion(quaternion).setY(0).normalize();
-    const flatRight = new THREE.Vector3(1, 0, 0).applyQuaternion(quaternion).setY(0).normalize();
-    candidate.addScaledVector(flatForward, forward).addScaledVector(flatRight, right);
-    const insideBoundary = !worldBoundary.current.length || pointInRing(candidate.x, candidate.z, worldBoundary.current);
-    const footprints = [...refs.activeTileIds.current].flatMap((id) => boundary.get(id)?.footprints ?? []);
-    const collides = footprints.some((footprint) => pointInFootprint(candidate.x, candidate.z, footprint, 0.65));
-    if (insideBoundary && !collides) camera.position.copy(candidate);
-    else onBoundaryHit();
-    camera.position.y = 1.7;
-    refs.focus.current.copy(camera.position);
+    const priority = pending.current?.entity.center ?? (transition.current ? [transition.current.toTarget.x, transition.current.toTarget.z] as [number, number] : null);
+    refs.anchors.current = resolveStreamAnchors(mode, [refs.focus.current.x, refs.focus.current.z], [camera.position.x, camera.position.z], priority);
   });
 
   return <>
-    {mode === "INSPECT" ? <OrbitControls ref={orbit} makeDefault enableDamping dampingFactor={0.08} minDistance={8} maxDistance={5000} maxPolarAngle={Math.PI / 2.01} /> : null}
-    <PointerLockControls ref={pointer} makeDefault={mode === "WALK"} selector="canvas" />
+    {mode === "INSPECT" ? <MapControls ref={map} makeDefault enableDamping dampingFactor={0.08} minDistance={8} maxDistance={12000} maxPolarAngle={Math.PI / 2.01} onStart={() => { if (transition.current) { transition.current = null; stability.focus_transition_cancels += 1; } }} /> : null}
+    {mode === "WALK" ? <WalkControls controlRef={pointer} /> : null}
   </>;
 }

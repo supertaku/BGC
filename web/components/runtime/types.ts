@@ -89,6 +89,10 @@ export type TileRuntimeRecord = WorldTile & {
 
 export type RuntimeSummary = {
   active: number;
+  visible: number;
+  visibleIds: string[];
+  desired: number;
+  ready: number;
   preloading: number;
   cached: number;
   errors: number;
@@ -132,6 +136,8 @@ export type BenchmarkReport = {
 
 export type RuntimeRefs = {
   focus: React.MutableRefObject<THREE.Vector3>;
+  anchors: React.MutableRefObject<{ x: number; z: number; role: "PRIMARY" | "SECONDARY" }[]>;
+  visibleTileIds: React.MutableRefObject<Set<string>>;
   tileRecords: React.MutableRefObject<Map<string, TileRuntimeRecord>>;
   tileScenes: React.MutableRefObject<Map<string, THREE.Object3D>>;
   activeTileIds: React.MutableRefObject<Set<string>>;

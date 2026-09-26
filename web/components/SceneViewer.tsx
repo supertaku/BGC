@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { Component, type ReactNode, Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Component, type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 import { ProductShell } from "./product/ProductShell";
 import { placeSlugs, TOUR_SLUG } from "./product/placeState";
@@ -11,9 +11,10 @@ import type { FocusRequest } from "./runtime/NavigationController";
 import { ACTIVE_RADIUS_M, PRELOAD_RADIUS_M, RETENTION_RADIUS_M } from "./runtime/spatial";
 import type { BenchmarkReport, EntityRecord, EnvironmentQuality, Footprint, InteractiveManifest, NavigationMode, RuntimeMetrics, RuntimeSummary, TileMode, WorldManifest } from "./runtime/types";
 import { VisualEnvironment } from "./runtime/VisualEnvironment";
+import { stability } from "./runtime/stability";
 
 const EMPTY_RUNTIME: RuntimeSummary = {
-  active: 0, preloading: 0, cached: 0, errors: 0, activeIds: [], networkBytes: 0,
+  active: 0, visible: 0, visibleIds: [], desired: 0, ready: 0, preloading: 0, cached: 0, errors: 0, activeIds: [], networkBytes: 0,
   networkRequests: 0, repeatedRequests: 0, activeLod1: [], camera: [0, 0, 0], transitions: 0,
 };
 
@@ -50,10 +51,52 @@ export default function SceneViewer() {
   const [tourIndex, setTourIndex] = useState(0);
   const [environmentGroups, setEnvironmentGroups] = useState(0);
   const [notice, setNotice] = useState<string | null>(null);
+  const [stabilityRun, setStabilityRun] = useState<{ status: string; completed: number; total: number }>({ status: "IDLE", completed: 0, total: 0 });
   const startedAt = useRef(0);
+  const focusSequence = useRef(0);
   const lodIds = useRef<string[]>([]);
   const noticeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const slugs = useMemo(() => placeSlugs(interactive?.entities ?? []), [interactive]);
+  const issueFocus = useCallback((entity: EntityRecord) => {
+    focusSequence.current += 1;
+    setFocusRequest({ sequence: focusSequence.current, entity });
+  }, []);
+
+  useEffect(() => {
+    if (debug) window.__BGC_STABILITY__ = stability;
+    else delete window.__BGC_STABILITY__;
+    return () => { delete window.__BGC_STABILITY__; };
+  }, [debug]);
+
+  useEffect(() => {
+    if (!debug || loadedAt === null || !interactive || new URLSearchParams(window.location.search).get("stability_run") !== "1") return;
+    const candidates = interactive.entities.filter((entity) => entity.name).sort((a, b) => (a.center[0] + a.center[1] * 0.5) - (b.center[0] + b.center[1] * 0.5));
+    const targets = navigation === "TOUR"
+      ? interactive.lod1_entity_ids.map((id) => interactive.entities.find((entity) => entity.detailed_asset_id === id)!)
+      : Array.from({ length: 8 }, (_, index) => candidates[Math.round(index * (candidates.length - 1) / 7)]);
+    if (targets.some((target) => !target)) return;
+    const baseline = stability.focus_transition_completes;
+    const started = performance.now();
+    let issued = 1;
+    issueFocus(targets[0]);
+    const timer = window.setInterval(() => {
+      const completed = stability.focus_transition_completes - baseline;
+      setStabilityRun((current) => current.status === "IDLE" ? { status: "RUNNING", completed, total: targets.length } : current);
+      if (completed >= targets.length) {
+        setStabilityRun({ status: "COMPLETE", completed, total: targets.length });
+        window.clearInterval(timer);
+      } else if (performance.now() - started > 60000) {
+        setStabilityRun({ status: "TIMEOUT", completed, total: targets.length });
+        window.clearInterval(timer);
+      } else if (completed >= issued && issued < targets.length) {
+        if (navigation === "TOUR") setTourIndex(issued);
+        issueFocus(targets[issued]);
+        issued += 1;
+        setStabilityRun({ status: "RUNNING", completed, total: targets.length });
+      }
+    }, 250);
+    return () => window.clearInterval(timer);
+  }, [debug, interactive, issueFocus, loadedAt, navigation]);
 
   const updateUrl = useCallback((patch: Record<string, string | null>, push = false) => {
     const url = new URL(window.location.href);
@@ -75,11 +118,15 @@ export default function SceneViewer() {
     setSelectedEntity(state.selectedEntity);
     setNavigation(state.navigation);
     if (state.navigation === "TOUR") setTourIndex(0);
-    if (state.place && state.navigation !== "TOUR") setFocusRequest({ sequence: performance.now(), entity: state.place });
+    if (state.place && state.navigation !== "TOUR") issueFocus(state.place);
+    else if (state.navigation === "TOUR" && !(state.debug && params.get("stability_run") === "1")) {
+      const stop = data.entities.find((entity) => entity.detailed_asset_id === data.lod1_entity_ids[0]);
+      if (stop) issueFocus(stop);
+    }
     else setFocusRequest(null);
     if (state.invalidPlace) setNotice("That place link is unavailable in this dataset.");
     else if (state.invalidTour) setNotice("That tour link is unavailable.");
-  }, []);
+  }, [issueFocus]);
 
   useEffect(() => {
     startedAt.current = performance.now();
@@ -129,16 +176,17 @@ export default function SceneViewer() {
     setNavigation("INSPECT");
     setSelected(null);
     setSelectedEntity(entity);
-    setFocusRequest({ sequence: performance.now(), entity });
+    issueFocus(entity);
     updateUrl({ place: slugs.get(entity.entity_id) ?? null, mode: null, tour: null }, true);
-  }, [slugs, updateUrl]);
+  }, [issueFocus, slugs, updateUrl]);
   const startTour = useCallback(() => {
     if (!tourStops.length) return;
     setTourIndex(0);
     setSelectedEntity(tourStops[0]);
     setNavigation("TOUR");
+    issueFocus(tourStops[0]);
     updateUrl({ tour: TOUR_SLUG, place: null, mode: null }, true);
-  }, [tourStops, updateUrl]);
+  }, [issueFocus, tourStops, updateUrl]);
   const changeMode = useCallback((mode: NavigationMode) => {
     if (mode === "TOUR") startTour();
     else {
@@ -151,7 +199,8 @@ export default function SceneViewer() {
     const bounded = Math.max(0, Math.min(tourStops.length - 1, index));
     setTourIndex(bounded);
     setSelectedEntity(tourStops[bounded] ?? null);
-  }, [tourStops]);
+    if (tourStops[bounded]) issueFocus(tourStops[bounded]);
+  }, [issueFocus, tourStops]);
   const closePlace = useCallback(() => { setSelected(null); setSelectedEntity(null); updateUrl({ place: null }); }, [updateUrl]);
   const share = useCallback(async () => {
     const url = new URL(window.location.href);
@@ -173,16 +222,14 @@ export default function SceneViewer() {
 
   return <section className="viewer" aria-label="BGC 3D city experience">
     <ViewerErrorBoundary>
-      <Canvas key={environmentQuality} camera={{ position: viewpoint.position, fov: 48, near: 0.1, far: 6000 }} dpr={environmentQuality === "LEGACY" ? 1 : [1, 1.5]} shadows={environmentQuality === "FULL" ? "soft" : false} gl={{ antialias: true, powerPreference: "high-performance", toneMapping: THREE.ACESFilmicToneMapping }} onCreated={({ gl }) => { gl.toneMappingExposure = environmentQuality === "LEGACY" ? 1 : 1.08; gl.outputColorSpace = THREE.SRGBColorSpace; }}>
+      <Canvas key={environmentQuality} camera={{ position: viewpoint.position, fov: 48, near: 0.1, far: 20000 }} dpr={environmentQuality === "LEGACY" ? 1 : [1, 1.5]} shadows={environmentQuality === "FULL" ? "soft" : false} gl={{ antialias: true, powerPreference: "high-performance", toneMapping: THREE.ACESFilmicToneMapping }} onCreated={({ gl }) => { gl.toneMappingExposure = environmentQuality === "LEGACY" ? 1 : 1.08; gl.outputColorSpace = THREE.SRGBColorSpace; }}>
         <VisualEnvironment quality={environmentQuality} />
-        <Suspense fallback={null}>
           <WorldRuntime manifest={manifest} interactive={interactive} tileMode={tileMode} navigation={navigation} environmentQuality={environmentQuality} viewpoint={viewpoint} focusRequest={focusRequest} tourStop={currentTourStop} selected={selected} debug={debug} runtime={runtime} loadDurationMs={loadedAt} environmentGroups={environmentGroups} onRuntime={handleRuntime} onReady={handleReady} onLodChange={handleLod} onSelect={handleSelect} onMetrics={setMetrics} onBenchmark={setBenchmark} onEnvironmentGroups={setEnvironmentGroups} onBoundaryHit={() => flashNotice("Movement constrained by a building or the project boundary")} />
-        </Suspense>
       </Canvas>
     </ViewerErrorBoundary>
 
-    <ProductShell interactive={interactive} navigation={navigation} selectedEntity={navigation === "TOUR" ? null : selectedEntity} tourStops={tourStops} tourIndex={tourIndex} ready={loadedAt !== null} onMode={changeMode} onSelectPlace={focusEntity} onClosePlace={closePlace} onTourStop={changeTourStop} onShare={share} onFocusPlace={() => selectedEntity && setFocusRequest({ sequence: performance.now(), entity: selectedEntity })} />
-    {debug ? <><div className="quality-controls"><label>Tiles<select value={tileMode} onChange={(event) => setTileMode(event.target.value as TileMode)}><option value="DYNAMIC">Dynamic</option><option value="ALL_LOADED">All loaded</option></select></label><label>Environment<select value={environmentQuality} onChange={(event) => setEnvironmentQuality(event.target.value as EnvironmentQuality)}><option value="LEGACY">Legacy</option><option value="LOW">Low</option><option value="FULL">Full</option></select></label></div><nav className="viewpoint-controls" aria-label="Debug viewpoints">{manifest.viewpoints.map((candidate, index) => <button key={candidate.id} type="button" onClick={() => { setNavigation("INSPECT"); setViewpointIndex(index); setFocusRequest(null); }}>{candidate.label}</button>)}</nav></> : null}    {debug ? <aside className="metrics-panel" aria-live="polite"><strong>{metrics ? `${metrics.fps} FPS` : "Sampling"}</strong><span>{tileMode} - {runtime.active} active - {runtime.preloading} preloading - {runtime.cached} cached</span><span>{runtime.activeLod1.length} LOD1 - {environmentGroups} environment groups</span><span>{formatBytes(runtime.networkBytes)} - {runtime.networkRequests} requests - {runtime.repeatedRequests} repeats</span><span>{metrics ? `${metrics.calls} calls - ${metrics.triangles.toLocaleString()} triangles - ${metrics.geometries} geometries - ${metrics.textures} textures` : "Renderer metrics pending"}</span><span>Camera {runtime.camera.join(", ")}</span><span>Rings {ACTIVE_RADIUS_M} m - {PRELOAD_RADIUS_M} m - {RETENTION_RADIUS_M} m</span><span>{loadedAt === null ? "Loading initial tiles" : `Interactive in ${loadedAt.toFixed(0)} ms`}</span>{benchmark ? <span data-testid="benchmark-result" data-report={JSON.stringify(benchmark)}>Benchmark {benchmark.scene}: mean {benchmark.mean_fps}, median {benchmark.median_fps}, p1 {benchmark.p1_low_fps} FPS</span> : null}</aside> : null}
+    <ProductShell interactive={interactive} navigation={navigation} selectedEntity={navigation === "TOUR" ? null : selectedEntity} tourStops={tourStops} tourIndex={tourIndex} ready={loadedAt !== null} onMode={changeMode} onSelectPlace={focusEntity} onClosePlace={closePlace} onTourStop={changeTourStop} onShare={share} onFocusPlace={() => selectedEntity && issueFocus(selectedEntity)} />
+    {debug ? <><div className="quality-controls"><label>Tiles<select value={tileMode} onChange={(event) => setTileMode(event.target.value as TileMode)}><option value="DYNAMIC">Dynamic</option><option value="ALL_LOADED">All loaded</option></select></label><label>Environment<select value={environmentQuality} onChange={(event) => setEnvironmentQuality(event.target.value as EnvironmentQuality)}><option value="LEGACY">Legacy</option><option value="LOW">Low</option><option value="FULL">Full</option></select></label></div><nav className="viewpoint-controls" aria-label="Debug viewpoints">{manifest.viewpoints.map((candidate, index) => <button key={candidate.id} type="button" onClick={() => { setNavigation("INSPECT"); setViewpointIndex(index); setFocusRequest(null); }}>{candidate.label}</button>)}</nav></> : null}    {debug ? <aside className="metrics-panel" aria-live="polite" data-stability={JSON.stringify(stability)} data-runtime={JSON.stringify(runtime)} data-stability-run={JSON.stringify(stabilityRun)}><strong>{metrics ? `${metrics.fps} FPS` : "Sampling"}</strong><span>{tileMode} - {runtime.active} active - {runtime.visible} visible - {runtime.preloading} preloading - {runtime.cached} cached</span><span>{runtime.activeLod1.length} LOD1 - {environmentGroups} environment groups</span><span>{formatBytes(runtime.networkBytes)} - {runtime.networkRequests} requests - {runtime.repeatedRequests} repeats</span><span>{metrics ? `${metrics.calls} calls - ${metrics.triangles.toLocaleString()} triangles - ${metrics.geometries} geometries - ${metrics.textures} textures` : "Renderer metrics pending"}</span><span>Camera {runtime.camera.join(", ")}</span><span>Rings {ACTIVE_RADIUS_M} m - {PRELOAD_RADIUS_M} m - {RETENTION_RADIUS_M} m</span><span>{loadedAt === null ? "Loading initial tiles" : `Interactive in ${loadedAt.toFixed(0)} ms`}</span>{benchmark ? <span data-testid="benchmark-result" data-report={JSON.stringify(benchmark)}>Benchmark {benchmark.scene}: mean {benchmark.mean_fps}, median {benchmark.median_fps}, p1 {benchmark.p1_low_fps} FPS</span> : null}</aside> : null}
     {notice ? <div className="runtime-notice" role="status">{notice}</div> : null}
     <a className="attribution" href={manifest.attribution.url} target="_blank" rel="noreferrer">{manifest.attribution.text}</a>
   </section>;

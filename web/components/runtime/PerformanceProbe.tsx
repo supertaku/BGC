@@ -94,6 +94,7 @@ export function PerformanceProbe({ tileMode, navigation, quality, runtime, loadD
 
 declare global {
   interface Window {
+    __BGC_STABILITY__?: import("./stability").StabilityState;
     __BGC_VIEWER_METRICS__?: RuntimeMetrics;
     __BGC_BENCHMARK__?: BenchmarkReport;
   }

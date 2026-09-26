@@ -2,37 +2,74 @@
 
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { Component, Suspense, useCallback, useMemo, useRef, useState, type ReactNode } from "react";
 import { LOD1_ACTIVATE_RADIUS_M, LOD1_DEACTIVATE_RADIUS_M, LOD1_PRELOAD_RADIUS_M } from "./spatial";
 import { useEffect } from "react";
 import type { DetailedAsset, EntityRecord, EnvironmentQuality, RuntimeRefs } from "./types";
 import type { BGCVisualMaterials } from "./visualSystem";
 import { harmonizeScene } from "./visualSystem";
+import { shouldShowLOD1 } from "./stabilityLogic";
+import { stability } from "./stability";
 
-function LandmarkAsset({ asset, visible, materials, quality }: { asset: DetailedAsset; visible: boolean; materials: BGCVisualMaterials; quality: EnvironmentQuality }) {
+class LandmarkErrorBoundary extends Component<{ children: ReactNode; onError: () => void }, { failed: boolean }> {
+  state = { failed: false };
+  static getDerivedStateFromError() { return { failed: true }; }
+  componentDidCatch() { this.props.onError(); }
+  render() { return this.state.failed ? null : this.props.children; }
+}
+
+function LandmarkAsset({ asset, visible, materials, quality, onReady }: { asset: DetailedAsset; visible: boolean; materials: BGCVisualMaterials; quality: EnvironmentQuality; onReady: (id: string) => void }) {
   const gltf = useGLTF(asset.url);
-  useEffect(() => harmonizeScene(gltf.scene, materials, quality, true), [gltf.scene, materials, quality]);
+  useEffect(() => { harmonizeScene(gltf.scene, materials, quality, true); onReady(asset.entity_id); }, [gltf.scene, materials, quality, asset.entity_id, onReady]);
   return <primitive object={gltf.scene} visible={visible} />;
 }
 
-export function LandmarkLODManager({ assets, entities, refs, materials, quality, onActiveChange }: {
+export function LandmarkLODManager({ assets, entities, refs, materials, quality, priorityAssetId, onActiveChange }: {
   assets: DetailedAsset[];
   entities: EntityRecord[];
   refs: RuntimeRefs;
   onActiveChange: (ids: string[]) => void;
   materials: BGCVisualMaterials;
   quality: EnvironmentQuality;
+  priorityAssetId?: string | null;
 }) {
   const entityByLod = useMemo(() => new Map(entities.filter((entity) => entity.detailed_asset_id).map((entity) => [entity.detailed_asset_id!, entity])), [entities]);
   const [mounted, setMounted] = useState<Set<string>>(new Set());
   const [active, setActive] = useState<Set<string>>(new Set());
+  const [ready, setReady] = useState<Set<string>>(new Set());
+  const readyIds = useRef(new Set<string>());
+  const failed = useRef(new Set<string>());
+  const gapIds = useRef(new Set<string>());
   const lastEvaluation = useRef(0);
 
+  // eslint-disable-next-line react-hooks/preserve-manual-memoization -- tileScenes is a stable mutable scene registry.
   const setLod2Visible = useCallback((entityId: string, visible: boolean) => {
+    let seen = 0;
     refs.tileScenes.current.forEach((scene) => scene.traverse((object) => {
-      if (object.userData.detailed_asset_id === entityId) object.visible = visible;
+      if (object.userData.detailed_asset_id === entityId) { object.visible = visible; seen += 1; }
     }));
+    return seen;
   }, [refs.tileScenes]);
+
+  const markReady = useCallback((id: string) => {
+    if (readyIds.current.has(id)) return;
+    readyIds.current.add(id);
+    setReady(new Set(readyIds.current));
+    stability.lod1_ready_count += 1;
+  }, []);
+
+  useEffect(() => {
+    for (const asset of assets) setLod2Visible(asset.entity_id, !active.has(asset.entity_id));
+  }, [active, assets, refs.tileScenes, setLod2Visible]);
+
+  useEffect(() => {
+    if (!priorityAssetId) return;
+    const asset = assets.find((item) => item.entity_id === priorityAssetId);
+    if (!asset || mounted.has(asset.entity_id) || failed.current.has(asset.entity_id)) return;
+    useGLTF.preload(asset.url);
+    stability.lod1_requests += 1;
+    setMounted((current) => new Set([...current, asset.entity_id]));
+  }, [assets, mounted, priorityAssetId]);
 
   useFrame(() => {
     const now = performance.now();
@@ -44,17 +81,27 @@ export function LandmarkLODManager({ assets, entities, refs, materials, quality,
       const entity = entityByLod.get(asset.entity_id);
       if (!entity) continue;
       const distance = Math.hypot(refs.focus.current.x - entity.center[0], refs.focus.current.z - entity.center[1]);
-      if (distance <= LOD1_PRELOAD_RADIUS_M && !nextMounted.has(asset.entity_id)) {
+      if (distance <= LOD1_PRELOAD_RADIUS_M && !nextMounted.has(asset.entity_id) && !failed.current.has(asset.entity_id)) {
         useGLTF.preload(asset.url);
+        stability.lod1_requests += 1;
         nextMounted.add(asset.entity_id);
       }
-      if (distance <= LOD1_ACTIVATE_RADIUS_M) nextActive.add(asset.entity_id);
+      if (distance <= LOD1_ACTIVATE_RADIUS_M && shouldShowLOD1(true, ready.has(asset.entity_id))) nextActive.add(asset.entity_id);
       else if (distance > LOD1_DEACTIVATE_RADIUS_M) nextActive.delete(asset.entity_id);
+      else if (!ready.has(asset.entity_id)) nextActive.delete(asset.entity_id);
     }
     const mountedChanged = nextMounted.size !== mounted.size;
     const activeChanged = nextActive.size !== active.size || [...nextActive].some((id) => !active.has(id));
     if (mountedChanged) setMounted(nextMounted);
-    assets.forEach((asset) => setLod2Visible(asset.entity_id, !nextActive.has(asset.entity_id)));
+    // Reapply when a newly loaded tile contributes a generic mesh after the LOD activated.
+    assets.forEach((asset) => {
+      const genericVisible = !(active.has(asset.entity_id) && nextActive.has(asset.entity_id));
+      const seen = setLod2Visible(asset.entity_id, genericVisible);
+      const entity = entityByLod.get(asset.entity_id);
+      const gap = Boolean(entity && refs.visibleTileIds.current.has(entity.tile_id) && seen > 0 && !genericVisible && !(active.has(asset.entity_id) && ready.has(asset.entity_id)));
+      if (gap && !gapIds.current.has(asset.entity_id)) { gapIds.current.add(asset.entity_id); stability.lod_handoff_gap_events += 1; }
+      else if (!gap) gapIds.current.delete(asset.entity_id);
+    });
     if (activeChanged) {
       setActive(nextActive);
       onActiveChange([...nextActive].sort());
@@ -62,6 +109,6 @@ export function LandmarkLODManager({ assets, entities, refs, materials, quality,
   });
 
   return <>{assets.filter((asset) => mounted.has(asset.entity_id)).map((asset) => (
-    <LandmarkAsset key={asset.entity_id} asset={asset} visible={active.has(asset.entity_id)} materials={materials} quality={quality} />
+    <LandmarkErrorBoundary key={asset.entity_id} onError={() => { failed.current.add(asset.entity_id); setLod2Visible(asset.entity_id, true); }}><Suspense fallback={null}><LandmarkAsset asset={asset} visible={active.has(asset.entity_id)} materials={materials} quality={quality} onReady={markReady} /></Suspense></LandmarkErrorBoundary>
   ))}</>;
 }

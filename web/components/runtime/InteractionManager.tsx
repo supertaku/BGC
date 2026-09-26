@@ -4,6 +4,7 @@ import { useThree } from "@react-three/fiber";
 import { useEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import { findFootprintAt } from "./spatial";
+import { isPrimarySelection } from "./stabilityLogic";
 import type { Footprint, NavigationMode, RuntimeRefs } from "./types";
 
 function SelectionOutline({ footprint }: { footprint: Footprint }) {
@@ -31,9 +32,11 @@ export function InteractionManager({ mode, refs, selected, onSelect }: {
 
   useEffect(() => {
     const canvas = gl.domElement;
-    const onPointerDown = (event: PointerEvent) => { down.current = [event.clientX, event.clientY]; };
+    const onPointerDown = (event: PointerEvent) => { down.current = isPrimarySelection(event.button, 0) ? [event.clientX, event.clientY] : null; };
     const onPointerUp = (event: PointerEvent) => {
-      if (mode !== "INSPECT" || !down.current || Math.hypot(event.clientX - down.current[0], event.clientY - down.current[1]) > 5) return;
+      const start = down.current;
+      down.current = null;
+      if (mode !== "INSPECT" || !start || !isPrimarySelection(event.button, Math.hypot(event.clientX - start[0], event.clientY - start[1]))) return;
       const rect = canvas.getBoundingClientRect();
       pointer.set(((event.clientX - rect.left) / rect.width) * 2 - 1, -((event.clientY - rect.top) / rect.height) * 2 + 1);
       raycaster.setFromCamera(pointer, camera);
