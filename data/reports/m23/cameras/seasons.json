@@ -1,0 +1,94 @@
+{
+  "entity_id": "seasons",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        483.31243896484375,
+        547.2550048828125,
+        469.5455322265625
+      ],
+      "target": [
+        169.39950561523438,
+        861.16796875,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\seasons\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        169.39950561523438,
+        280.80047607421875,
+        139.27940368652344
+      ],
+      "target": [
+        169.39950561523438,
+        861.16796875,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\seasons\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        169.39950561523438,
+        1441.535400390625,
+        139.27940368652344
+      ],
+      "target": [
+        169.39950561523438,
+        861.16796875,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\seasons\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -204.67364501953125,
+        487.0948181152344,
+        335.99755859375
+      ],
+      "target": [
+        169.39950561523438,
+        861.16796875,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\seasons\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        543.47265625,
+        487.0948181152344,
+        335.99755859375
+      ],
+      "target": [
+        169.39950561523438,
+        861.16796875,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\seasons\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        259.11968994140625,
+        950.8881225585938,
+        661.0776977539062
+      ],
+      "target": [
+        169.39950561523438,
+        861.16796875,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\seasons\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "c64db8f607b91ef116565de238cc3fd938dc729f2369beda2d0257dcc2417af5"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "feature_id": "one_bonifacio_realm:SHARED_COURTS:00000",
+    "zone_id": "one_bonifacio_realm",
+    "source_ids": [
+      "osm",
+      "pse",
+      "shangri",
+      "user_photo_1"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "one_bonifacio_realm:ELEVATED_PLAZA_RAMP:00001",
+    "zone_id": "one_bonifacio_realm",
+    "source_ids": [
+      "osm",
+      "pse",
+      "shangri",
+      "user_photo_1"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Architect confirms multilevel public realm; this local transition is estimated, not surveyed.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "one_bonifacio_realm:ARRIVAL_FOUNTAIN:00002",
+    "zone_id": "one_bonifacio_realm",
+    "source_ids": [
+      "osm:way:781546116",
+      "pse",
+      "shangri",
+      "user_photo_1"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  }
+]

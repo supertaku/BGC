@@ -119,3 +119,7 @@ Derive High Street paving borders and sparse generic park/furniture detail from 
 ## 2026-09-26 — M21R/M22R semantic support and constrained inference
 
 Keep the base snapshot and successful GLBs unchanged. Resolve crossings above PATH because the existing exporter includes crossing polygons in the 0.150 m path extrusion. Split park borders when higher paths overlap, using a 0.006 m epsilon. A road-only 0.066 m crossing would still be buried. Preserve individual source IDs and inference labels; do not claim surveyed furniture placement. Permit boundary furniture within the owning plaza's outer 3.2 m strip while excluding its core and other pedestrian geometries. Publish schema 2 as an opt-in lazy package; manual appearance and valid foreground performance remain acceptance gates.
+
+## 2026-09-26 — M23 reference-grounded city preview
+
+Use a separate `detail=m23` preview for the expanded city, with canonical part ownership and preview tile variants to avoid overlapping old/new building shells. Preserve the seven approved assets and existing Tour. Keep authoring provenance outside the compact runtime payload. Share instanced geometry and materials across active spatial packages rather than allocate an independent scene per street tile. Local terrain uses a height sampler instead of changing the city's global datum. Estimated amphitheater grades and unseen façades remain labelled. No new landmark receives APPROVED status automatically; user visual acceptance and valid matched performance are required before promotion. M24 graphics controls are deferred.

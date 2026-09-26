@@ -113,6 +113,7 @@ export type BenchmarkReport = {
   status: "PASS" | "INVALID";
   invalid_reasons: string[];
   detail: {tiles:number;instances:number;requests:number};
+  m23?: {active:string[];requests:number;failures:string[];instances:number}|null;
   scene: string;
   quality: EnvironmentQuality;
   mode: TileMode;

@@ -1,0 +1,30 @@
+[
+  {
+    "feature_id": "burgos_circle:LAWN_SHORT:00000",
+    "zone_id": "burgos_circle",
+    "source_ids": [
+      "osm:way:32836617",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "burgos_circle:PARK_PATH:00001",
+    "zone_id": "burgos_circle",
+    "source_ids": [
+      "osm:way:32836617",
+      "faq",
+      "osm:way:106211922",
+      "osm:way:106211923",
+      "osm:way:106211926",
+      "osm:way:106211927"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  }
+]

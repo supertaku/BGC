@@ -7,6 +7,7 @@ import { ProductShell } from "./product/ProductShell";
 import { placeSlugs, TOUR_SLUG } from "./product/placeState";
 import { resolveUrlState } from "./product/urlState";
 import { WorldRuntime } from "./runtime/WorldRuntime";
+import { applyM23Preview } from "./runtime/m23Data";
 import type { FocusRequest } from "./runtime/NavigationController";
 import { ACTIVE_RADIUS_M, PRELOAD_RADIUS_M, RETENTION_RADIUS_M } from "./runtime/spatial";
 import type { BenchmarkReport, CurrentStreet, EntityRecord, EnvironmentQuality, Footprint, InteractiveManifest, NavigationMode, RuntimeMetrics, RuntimeSummary, TileMode, WorldManifest } from "./runtime/types";
@@ -134,7 +135,7 @@ export default function SceneViewer() {
     Promise.all([
       fetch("/world/bgc-world.json").then((response) => { if (!response.ok) throw new Error(`World manifest HTTP ${response.status}`); return response.json() as Promise<WorldManifest>; }),
       fetch("/world/bgc-interactive.json").then((response) => { if (!response.ok) throw new Error(`Interaction manifest HTTP ${response.status}`); return response.json() as Promise<InteractiveManifest>; }),
-    ]).then(([world, data]) => {
+    ]).then(([world, data]) => applyM23Preview(world,data)).then(([world, data]) => {
       setManifest(world);
       setInteractive(data);
       restoreUrl(world, data);

@@ -1,0 +1,94 @@
+{
+  "entity_id": "high_street_central",
+  "iteration": "final_verified",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -0.8050537109375,
+        -191.2759552001953,
+        294.3427429199219
+      ],
+      "target": [
+        -243.23651123046875,
+        51.15550231933594,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final_verified\\high_street_central\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -243.23651123046875,
+        -397.05584716796875,
+        4.0
+      ],
+      "target": [
+        -243.23651123046875,
+        51.15550231933594,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final_verified\\high_street_central\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -243.23651123046875,
+        499.3668212890625,
+        4.0
+      ],
+      "target": [
+        -243.23651123046875,
+        51.15550231933594,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final_verified\\high_street_central\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -532.1290283203125,
+        -237.7370147705078,
+        191.20513916015625
+      ],
+      "target": [
+        -243.23651123046875,
+        51.15550231933594,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final_verified\\high_street_central\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        45.656005859375,
+        -237.7370147705078,
+        191.20513916015625
+      ],
+      "target": [
+        -243.23651123046875,
+        51.15550231933594,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final_verified\\high_street_central\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -173.94662475585938,
+        120.44538879394531,
+        442.2608947753906
+      ],
+      "target": [
+        -243.23651123046875,
+        51.15550231933594,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final_verified\\high_street_central\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "92943f92d742e78ff764c569a2f485d25b0da130d82f984c8804b154383f5b34"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

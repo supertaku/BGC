@@ -1,0 +1,94 @@
+{
+  "entity_id": "kasalikasan",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -514.427001953125,
+        -446.98699951171875,
+        234.5054168701172
+      ],
+      "target": [
+        -706.9940185546875,
+        -254.4199981689453,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\kasalikasan\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -706.9940185546875,
+        -610.4411010742188,
+        4.0
+      ],
+      "target": [
+        -706.9940185546875,
+        -254.4199981689453,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\kasalikasan\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -706.9940185546875,
+        101.60111999511719,
+        4.0
+      ],
+      "target": [
+        -706.9940185546875,
+        -254.4199981689453,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\kasalikasan\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -936.4657592773438,
+        -483.8917236328125,
+        152.58163452148438
+      ],
+      "target": [
+        -706.9940185546875,
+        -254.4199981689453,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\kasalikasan\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        -477.52227783203125,
+        -483.8917236328125,
+        152.58163452148438
+      ],
+      "target": [
+        -706.9940185546875,
+        -254.4199981689453,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\kasalikasan\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -651.9559936523438,
+        -199.38198852539062,
+        351.9990539550781
+      ],
+      "target": [
+        -706.9940185546875,
+        -254.4199981689453,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\kasalikasan\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "0dff4f0f89bf25f58ff7aa87ff58592aa3a445098c449835f2141a5a05328dc4"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

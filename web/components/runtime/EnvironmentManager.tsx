@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useSyncExternalStore } from "react";
 import * as THREE from "three";
 import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import type { EnvironmentAssetType, EnvironmentInstance, EnvironmentQuality, RuntimeRefs } from "./types";
 import type { BGCVisualMaterials } from "./visualSystem";
+import { m23Enabled } from './m23Data';
+import { groundSampler } from './GroundSampler';
 
 type LibraryEntry = { geometry: THREE.BufferGeometry; material: THREE.Material | THREE.Material[]; elevation: number; scale: [number, number, number] };
 
@@ -18,7 +20,9 @@ function treeScale(id: string) { return .88 + (hash(id) % 25) / 100; }
 
 function treeGeometry(variant: number) {
   const trunk = new THREE.CylinderGeometry(.25, .38, 2.4, 6).translate(0, 1.2, 0);
-  const crown = variant === 0
+  const crown = m23Enabled()
+    ? new THREE.SphereGeometry(1,8,5).scale(variant===0?3.4:2.7,variant===1?2.1:1.5,variant===2?3.2:2.8).translate(0,4.2,0)
+    : variant === 0
     ? new THREE.ConeGeometry(2.15, 4.8, 7).translate(0, 4.4, 0)
     : variant === 1
       ? new THREE.DodecahedronGeometry(2.25, 0).scale(1, 1.25, 1).translate(0, 4.5, 0)
@@ -62,6 +66,7 @@ export function EnvironmentManager({ activeIds, quality, refs, materials, onGrou
   materials: BGCVisualMaterials;
   onGroupCount: (count: number) => void;
 }) {
+  const groundRevision=useSyncExternalStore(groundSampler.subscribe,groundSampler.snapshot,groundSampler.snapshot);
   const library = useMemo<Record<string, LibraryEntry>>(() => ({
     TREE_A: { geometry: treeGeometry(0), material: [materials.BGC_SOIL, materials.BGC_GRASS], elevation: 0, scale: [1, 1, 1] },
     TREE_B: { geometry: treeGeometry(1), material: [materials.BGC_SOIL, materials.BGC_GRASS], elevation: 0, scale: [.95, 1.05, .95] },
@@ -75,6 +80,7 @@ export function EnvironmentManager({ activeIds, quality, refs, materials, onGrou
   useEffect(() => () => Object.values(library).forEach((entry) => entry.geometry.dispose()), [library]);
 
   const groups = useMemo(() => {
+    void groundRevision; // Invalidate pooled props when terrain ownership changes.
     if (quality === "LEGACY") return [];
     const pooled = new Map<string, EnvironmentInstance[]>();
     const allowed = quality === "LOW" ? new Set<EnvironmentAssetType>(["TREE_GENERIC", "STREET_LAMP_GENERIC"]) : null;
@@ -83,6 +89,9 @@ export function EnvironmentManager({ activeIds, quality, refs, materials, onGrou
       for (const [type, items] of Object.entries(environment) as [EnvironmentAssetType, EnvironmentInstance[]][]) {
         if (allowed && !allowed.has(type)) continue;
         for (const item of items) {
+          // The estimated terrain patch owns its seating/water footprint. Retain
+          // mapped records, but suppress low-detail props intersecting that patch.
+          if(m23Enabled() && Number.isFinite(groundSampler.sample(item.position[0],item.position[1],Number.NaN)))continue;
           const key = type === "TREE_GENERIC" ? `TREE_${String.fromCharCode(65 + hash(item.id) % 3)}` : type;
           const group = pooled.get(key) ?? [];
           group.push(item);
@@ -91,7 +100,7 @@ export function EnvironmentManager({ activeIds, quality, refs, materials, onGrou
       }
     }
     return [...pooled.entries()].filter(([, items]) => items.length).map(([key, items]) => ({ key, items, entry: library[key] }));
-  }, [activeIds, library, quality, refs.sidecars]);
+  }, [activeIds, library, quality, refs.sidecars,groundRevision]);
   useEffect(() => onGroupCount(groups.length), [groups.length, onGroupCount]);
   return <>{groups.map((group) => <InstanceGroup key={group.key} items={group.items} entry={group.entry} isTree={group.key.startsWith("TREE_")} castShadow={quality === "FULL" && group.key.startsWith("TREE_")} />)}</>;
 }

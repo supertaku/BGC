@@ -1,0 +1,405 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_005_010",
+  "input_sha256": "16d71c0779ad1bb81a6906d825fb4fec192e7bc498caea9cd56d16cce33ed274",
+  "output_sha256": "957af31c06463abe5c65f84a4616174eab4b7ce985e4cdb19b129d23e6bd7e22",
+  "building_count": 30,
+  "render_volume_count": 39,
+  "mesh_count": 7,
+  "triangle_count": 3384,
+  "material_count": 5,
+  "bytes": 161320,
+  "entities": [
+    {
+      "entity_id": "osm:way:1123265838",
+      "source_feature_id": "osm:way:1123265838",
+      "name": "Mitsukoshi BGC",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:1123265838",
+      "source_feature_id": "osm:way:929418244",
+      "name": "Fuyu Tower",
+      "height_m": 184.9,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1123265838",
+      "source_feature_id": "osm:way:929418245",
+      "name": "Aki Tower",
+      "height_m": 177.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1123265838",
+      "source_feature_id": "osm:way:929418246",
+      "name": "Natsu Tower",
+      "height_m": 163.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:1123265838",
+      "source_feature_id": "osm:way:929418247",
+      "name": "Haru Tower",
+      "height_m": 155.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:321082419",
+      "source_feature_id": "osm:way:321082419",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321082428",
+      "source_feature_id": "osm:way:321082428",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321082451",
+      "source_feature_id": "osm:way:321082451",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321082474",
+      "source_feature_id": "osm:way:321082474",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321082492",
+      "source_feature_id": "osm:way:321082492",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321082518",
+      "source_feature_id": "osm:way:321082518",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321084212",
+      "source_feature_id": "osm:way:321084212",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321084214",
+      "source_feature_id": "osm:way:321084214",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321084216",
+      "source_feature_id": "osm:way:321084216",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321084220",
+      "source_feature_id": "osm:way:321084220",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321084226",
+      "source_feature_id": "osm:way:321084226",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321085013",
+      "source_feature_id": "osm:way:321085013",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321085022",
+      "source_feature_id": "osm:way:321085022",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321087592",
+      "source_feature_id": "osm:way:321087592",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321087596",
+      "source_feature_id": "osm:way:321087596",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321087604",
+      "source_feature_id": "osm:way:321087604",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321087609",
+      "source_feature_id": "osm:way:321087609",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321087614",
+      "source_feature_id": "osm:way:321087614",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088805",
+      "source_feature_id": "osm:way:321088805",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088812",
+      "source_feature_id": "osm:way:321088812",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088818",
+      "source_feature_id": "osm:way:321088818",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088827",
+      "source_feature_id": "osm:way:321088827",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088829",
+      "source_feature_id": "osm:way:321088829",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088836",
+      "source_feature_id": "osm:way:321088836",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088839",
+      "source_feature_id": "osm:way:321088839",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321088854",
+      "source_feature_id": "osm:way:321088854",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:533345975",
+      "source_feature_id": "osm:way:533345975",
+      "name": "The Big Apple",
+      "height_m": 19.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:533345975",
+      "source_feature_id": "osm:way:533345976",
+      "name": "Madison Parkwest",
+      "height_m": 160.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345975",
+      "source_feature_id": "osm:way:538341460",
+      "name": "Central Parkwest",
+      "height_m": 114.7,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345975",
+      "source_feature_id": "osm:way:917184697",
+      "name": "Time Square West",
+      "height_m": 164.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345975",
+      "source_feature_id": "osm:way:917184698",
+      "name": "Park Avenue",
+      "height_m": 137.3,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:533345978",
+      "source_feature_id": "osm:way:533345978",
+      "name": "Parkwest Tower",
+      "height_m": 31.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:533345978",
+      "source_feature_id": "osm:way:538341461",
+      "name": "Parkwest Tower",
+      "height_m": 137.6,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:713418274",
+      "source_feature_id": "osm:way:713418274",
+      "name": "The Seasons Residences",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "construction",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ],
+  "representation": "MERGED_BY_TILE_MATERIAL"
+}

@@ -1,0 +1,94 @@
+{
+  "entity_id": "suites",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -178.328369140625,
+        -227.56460571289062,
+        492.4955749511719
+      ],
+      "target": [
+        -494.1579895019531,
+        88.2650146484375,
+        113.5
+      ],
+      "image": "blender\\renders\\m23\\final\\suites\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -494.1579895019531,
+        -495.6461181640625,
+        160.212890625
+      ],
+      "target": [
+        -494.1579895019531,
+        88.2650146484375,
+        113.5
+      ],
+      "image": "blender\\renders\\m23\\final\\suites\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -494.1579895019531,
+        672.1761474609375,
+        160.212890625
+      ],
+      "target": [
+        -494.1579895019531,
+        88.2650146484375,
+        113.5
+      ],
+      "image": "blender\\renders\\m23\\final\\suites\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -870.51513671875,
+        -288.0921630859375,
+        358.13214111328125
+      ],
+      "target": [
+        -494.1579895019531,
+        88.2650146484375,
+        113.5
+      ],
+      "image": "blender\\renders\\m23\\final\\suites\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        -117.80081176757812,
+        -288.0921630859375,
+        358.13214111328125
+      ],
+      "target": [
+        -494.1579895019531,
+        88.2650146484375,
+        113.5
+      ],
+      "image": "blender\\renders\\m23\\final\\suites\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -403.8900146484375,
+        178.53298950195312,
+        685.1972045898438
+      ],
+      "target": [
+        -494.1579895019531,
+        88.2650146484375,
+        113.5
+      ],
+      "image": "blender\\renders\\m23\\final\\suites\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "f099464b7a6535f448a3c7f096e9fe506e84199a715f31a7c21eee9ead231a63"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

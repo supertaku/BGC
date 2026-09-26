@@ -1,0 +1,6643 @@
+{
+  "schema_version": 1,
+  "targets": [
+    {
+      "id": "pse",
+      "entity_id": "osm:way:71598335",
+      "name": "Philippine Stock Exchange",
+      "zone_id": "one_bonifacio",
+      "style": "pse",
+      "source_ids": [
+        "pse",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:1026303383",
+          "properties": {
+            "id": "osm:way:1026303383",
+            "source_ids": [
+              "osm:way:1026303383",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 12.0,
+            "min_height_m": 0.0,
+            "levels": null,
+            "height_status": "PROCEDURAL",
+            "height_method": "diagnostic_type_fallback",
+            "height_confidence": 0.15,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 362.8,
+            "tags": {
+              "building:part": "roof",
+              "layer": "1"
+            },
+            "canonical_entity_id": "osm:way:71598335",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:71598335"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -393.24,
+                  21.946
+                ],
+                [
+                  -387.496,
+                  38.175
+                ],
+                [
+                  -430.297,
+                  43.566
+                ],
+                [
+                  -393.24,
+                  21.946
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:1069827306",
+          "properties": {
+            "id": "osm:way:1069827306",
+            "source_ids": [
+              "osm:way:1069827306",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 131.0,
+            "min_height_m": 0.0,
+            "levels": 30.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 1160.83,
+            "tags": {
+              "building": "yes",
+              "building:levels": "30",
+              "building:material": "glass",
+              "building:part": "yes",
+              "height": "131"
+            },
+            "canonical_entity_id": "osm:way:71598335",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:71598335"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -437.516,
+                  71.593
+                ],
+                [
+                  -442.935,
+                  55.593
+                ],
+                [
+                  -430.297,
+                  43.566
+                ],
+                [
+                  -387.496,
+                  38.175
+                ],
+                [
+                  -386.647,
+                  55.476
+                ],
+                [
+                  -389.926,
+                  56.511
+                ],
+                [
+                  -417.306,
+                  65.19
+                ],
+                [
+                  -437.516,
+                  71.593
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:538701627",
+          "properties": {
+            "id": "osm:way:538701627",
+            "source_ids": [
+              "osm:way:538701627",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Philippine Stock Exchange",
+            "feature_kind": "building_part",
+            "height_m": 119.2,
+            "min_height_m": 0.0,
+            "levels": 27.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 2099.49,
+            "tags": {
+              "building:levels": "27",
+              "building:material": "glass",
+              "building:part": "yes",
+              "height": "119.2",
+              "name": "Philippine Stock Exchange"
+            },
+            "canonical_entity_id": "osm:way:71598335",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:71598335"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -437.516,
+                  71.593
+                ],
+                [
+                  -442.935,
+                  55.593
+                ],
+                [
+                  -430.297,
+                  43.566
+                ],
+                [
+                  -387.496,
+                  38.175
+                ],
+                [
+                  -386.647,
+                  55.476
+                ],
+                [
+                  -389.926,
+                  56.511
+                ],
+                [
+                  -383.14,
+                  76.063
+                ],
+                [
+                  -422.837,
+                  85.123
+                ],
+                [
+                  -431.687,
+                  88.851
+                ],
+                [
+                  -437.516,
+                  71.593
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:71598335",
+          "properties": {
+            "id": "osm:way:71598335",
+            "source_ids": [
+              "osm:way:71598335",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Philippine Stock Exchange",
+            "feature_kind": "building_outline",
+            "height_m": 15.6,
+            "min_height_m": 0.0,
+            "levels": 3.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 4555.32,
+            "tags": {
+              "building": "office",
+              "building:levels": "3",
+              "height": "15.6",
+              "layer": "1",
+              "name": "Philippine Stock Exchange"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:71598335"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -432.378,
+                  40.939
+                ],
+                [
+                  -434.47,
+                  38.312
+                ],
+                [
+                  -438.713,
+                  42.532
+                ],
+                [
+                  -443.295,
+                  37.436
+                ],
+                [
+                  -447.158,
+                  33.142
+                ],
+                [
+                  -463.966,
+                  40.313
+                ],
+                [
+                  -443.014,
+                  104.264
+                ],
+                [
+                  -397.678,
+                  88.98
+                ],
+                [
+                  -396.415,
+                  91.692
+                ],
+                [
+                  -372.844,
+                  83.854
+                ],
+                [
+                  -375.369,
+                  70.939
+                ],
+                [
+                  -387.496,
+                  38.175
+                ],
+                [
+                  -386.647,
+                  55.476
+                ],
+                [
+                  -389.926,
+                  56.511
+                ],
+                [
+                  -383.14,
+                  76.063
+                ],
+                [
+                  -422.837,
+                  85.123
+                ],
+                [
+                  -431.687,
+                  88.851
+                ],
+                [
+                  -437.516,
+                  71.593
+                ],
+                [
+                  -442.935,
+                  55.593
+                ],
+                [
+                  -430.297,
+                  43.566
+                ],
+                [
+                  -432.378,
+                  40.939
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "suites",
+      "entity_id": "osm:way:203910666",
+      "name": "The Suites at One Bonifacio High Street",
+      "zone_id": "one_bonifacio",
+      "style": "suites",
+      "source_ids": [
+        "suites",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:203910666",
+          "properties": {
+            "id": "osm:way:203910666",
+            "source_ids": [
+              "osm:way:203910666",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "The Suites at One Bonifacio High Street",
+            "feature_kind": "building_outline",
+            "height_m": 29.3,
+            "min_height_m": 0.0,
+            "levels": 4.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 5767.15,
+            "tags": {
+              "building": "apartments",
+              "building:levels": "4",
+              "height": "29.3",
+              "name": "The Suites at One Bonifacio High Street",
+              "operator": "Ayala Land Premiere"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:203910666"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -493.208,
+                  127.325
+                ],
+                [
+                  -493.812,
+                  124.741
+                ],
+                [
+                  -442.493,
+                  105.864
+                ],
+                [
+                  -464.748,
+                  39.712
+                ],
+                [
+                  -489.613,
+                  47.483
+                ],
+                [
+                  -488.792,
+                  55.278
+                ],
+                [
+                  -488.038,
+                  64.047
+                ],
+                [
+                  -507.987,
+                  69.453
+                ],
+                [
+                  -519.721,
+                  58.664
+                ],
+                [
+                  -545.82,
+                  65.892
+                ],
+                [
+                  -522.973,
+                  136.998
+                ],
+                [
+                  -493.208,
+                  127.325
+                ]
+              ],
+              [
+                [
+                  -537.576,
+                  73.148
+                ],
+                [
+                  -514.792,
+                  66.49
+                ],
+                [
+                  -508.936,
+                  75.625
+                ],
+                [
+                  -501.099,
+                  95.82
+                ],
+                [
+                  -500.567,
+                  107.602
+                ],
+                [
+                  -523.906,
+                  116.135
+                ],
+                [
+                  -529.778,
+                  105.118
+                ],
+                [
+                  -535.732,
+                  85.77
+                ],
+                [
+                  -537.576,
+                  73.148
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:538701626",
+          "properties": {
+            "id": "osm:way:538701626",
+            "source_ids": [
+              "osm:way:538701626",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 227.0,
+            "min_height_m": 0.0,
+            "levels": 63.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1242.51,
+            "tags": {
+              "building:levels": "63",
+              "building:part": "residential",
+              "height": "227"
+            },
+            "canonical_entity_id": "osm:way:203910666",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:203910666"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -535.732,
+                  85.77
+                ],
+                [
+                  -537.576,
+                  73.148
+                ],
+                [
+                  -514.792,
+                  66.49
+                ],
+                [
+                  -508.936,
+                  75.625
+                ],
+                [
+                  -501.099,
+                  95.82
+                ],
+                [
+                  -500.567,
+                  107.602
+                ],
+                [
+                  -523.906,
+                  116.135
+                ],
+                [
+                  -529.778,
+                  105.118
+                ],
+                [
+                  -535.732,
+                  85.77
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "shangri",
+      "entity_id": "osm:way:469845356",
+      "name": "Shangri-La at the Fort",
+      "zone_id": "one_bonifacio",
+      "style": "shangri",
+      "source_ids": [
+        "shangri",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:469845355",
+          "properties": {
+            "id": "osm:way:469845355",
+            "source_ids": [
+              "osm:way:469845355",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 250.0,
+            "min_height_m": 0.0,
+            "levels": 61.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 2037.82,
+            "tags": {
+              "building:levels": "61",
+              "building:material": "glass",
+              "building:part": "yes",
+              "height": "250"
+            },
+            "canonical_entity_id": "osm:way:469845356",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:469845356"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -487.07,
+                  236.101
+                ],
+                [
+                  -491.391,
+                  237.532
+                ],
+                [
+                  -508.127,
+                  187.6
+                ],
+                [
+                  -503.204,
+                  185.975
+                ],
+                [
+                  -505.705,
+                  178.493
+                ],
+                [
+                  -476.995,
+                  168.984
+                ],
+                [
+                  -473.008,
+                  167.656
+                ],
+                [
+                  -462.919,
+                  197.758
+                ],
+                [
+                  -456.669,
+                  216.385
+                ],
+                [
+                  -460.818,
+                  217.76
+                ],
+                [
+                  -489.979,
+                  227.427
+                ],
+                [
+                  -487.07,
+                  236.101
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:469845356",
+          "properties": {
+            "id": "osm:way:469845356",
+            "source_ids": [
+              "osm:way:469845356",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Shangri-La at the Fort",
+            "feature_kind": "building_outline",
+            "height_m": 25.9,
+            "min_height_m": 0.0,
+            "levels": 5.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 4985.63,
+            "tags": {
+              "building": "hotel",
+              "building:levels": "5",
+              "height": "25.9",
+              "name": "Shangri-La at the Fort"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:469845356"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -401.827,
+                  207.405
+                ],
+                [
+                  -406.883,
+                  200.975
+                ],
+                [
+                  -410.502,
+                  196.369
+                ],
+                [
+                  -412.071,
+                  194.368
+                ],
+                [
+                  -415.209,
+                  190.378
+                ],
+                [
+                  -416.779,
+                  188.377
+                ],
+                [
+                  -420.375,
+                  183.804
+                ],
+                [
+                  -423.208,
+                  180.199
+                ],
+                [
+                  -444.52,
+                  187.597
+                ],
+                [
+                  -449.1,
+                  185.201
+                ],
+                [
+                  -458.26,
+                  180.399
+                ],
+                [
+                  -462.84,
+                  178.004
+                ],
+                [
+                  -468.364,
+                  162.326
+                ],
+                [
+                  -471.027,
+                  154.79
+                ],
+                [
+                  -472.386,
+                  150.918
+                ],
+                [
+                  -507.55,
+                  163.093
+                ],
+                [
+                  -515.719,
+                  165.886
+                ],
+                [
+                  -508.127,
+                  187.6
+                ],
+                [
+                  -503.204,
+                  185.975
+                ],
+                [
+                  -505.705,
+                  178.493
+                ],
+                [
+                  -476.995,
+                  168.984
+                ],
+                [
+                  -473.008,
+                  167.656
+                ],
+                [
+                  -462.919,
+                  197.758
+                ],
+                [
+                  -421.912,
+                  184.282
+                ],
+                [
+                  -403.224,
+                  207.871
+                ],
+                [
+                  -401.827,
+                  207.405
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:469845357",
+          "properties": {
+            "id": "osm:way:469845357",
+            "source_ids": [
+              "osm:way:469845357",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 31.1,
+            "min_height_m": 0.0,
+            "levels": 6.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1417.47,
+            "tags": {
+              "building:levels": "6",
+              "building:part": "yes",
+              "height": "31.1"
+            },
+            "canonical_entity_id": "osm:way:469845356",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:469845356"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -403.224,
+                  207.871
+                ],
+                [
+                  -457.909,
+                  226.444
+                ],
+                [
+                  -460.818,
+                  217.76
+                ],
+                [
+                  -456.669,
+                  216.385
+                ],
+                [
+                  -462.919,
+                  197.758
+                ],
+                [
+                  -421.912,
+                  184.282
+                ],
+                [
+                  -403.224,
+                  207.871
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:469906738",
+          "properties": {
+            "id": "osm:way:469906738",
+            "source_ids": [
+              "osm:way:469906738",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 188.8,
+            "min_height_m": 19.2,
+            "levels": 59.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 234.54,
+            "tags": {
+              "building:levels": "59",
+              "building:min_level": "6",
+              "building:part": "yes"
+            },
+            "canonical_entity_id": "osm:way:469845356",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:469845356"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -474.508,
+                  176.167
+                ],
+                [
+                  -503.204,
+                  185.975
+                ],
+                [
+                  -505.705,
+                  178.493
+                ],
+                [
+                  -476.995,
+                  168.984
+                ],
+                [
+                  -474.508,
+                  176.167
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:469906739",
+          "properties": {
+            "id": "osm:way:469906739",
+            "source_ids": [
+              "osm:way:469906739",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 241.0,
+            "min_height_m": 0.0,
+            "levels": 59.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 281.19,
+            "tags": {
+              "building:levels": "59",
+              "building:material": "glass",
+              "building:part": "yes",
+              "height": "241"
+            },
+            "canonical_entity_id": "osm:way:469845356",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:469845356"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -457.909,
+                  226.444
+                ],
+                [
+                  -487.07,
+                  236.101
+                ],
+                [
+                  -489.979,
+                  227.427
+                ],
+                [
+                  -460.818,
+                  217.76
+                ],
+                [
+                  -457.909,
+                  226.444
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "one_bonifacio",
+      "entity_id": "osm:way:1078392706",
+      "name": "One Bonifacio High Street",
+      "zone_id": "one_bonifacio",
+      "style": "retail",
+      "source_ids": [
+        "pse",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:1078392706",
+          "properties": {
+            "id": "osm:way:1078392706",
+            "source_ids": [
+              "osm:way:1078392706",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "One Bonifacio High Street",
+            "feature_kind": "building_outline",
+            "height_m": 12.0,
+            "min_height_m": 0.0,
+            "levels": null,
+            "height_status": "PROCEDURAL",
+            "height_method": "diagnostic_type_fallback",
+            "height_confidence": 0.15,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 12248.33,
+            "tags": {
+              "building": "commercial",
+              "layer": "-1",
+              "name": "One Bonifacio High Street",
+              "operator": "Ayala Land, Inc.",
+              "shop": "mall"
+            },
+            "canonical_entity_id": "osm:way:1078392706",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -368.426,
+                  81.094
+                ],
+                [
+                  -526.481,
+                  136.408
+                ],
+                [
+                  -551.103,
+                  66.934
+                ],
+                [
+                  -392.586,
+                  12.689
+                ],
+                [
+                  -368.426,
+                  81.094
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "acpt",
+      "entity_id": "osm:way:182331875",
+      "name": "Arthaland Century Pacific Tower",
+      "zone_id": "acpt",
+      "style": "acpt",
+      "source_ids": [
+        "acpt",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:182331875",
+          "properties": {
+            "id": "osm:way:182331875",
+            "source_ids": [
+              "osm:way:182331875",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Arthaland Century Pacific Tower",
+            "feature_kind": "building_outline",
+            "height_m": 114.7,
+            "min_height_m": 0.0,
+            "levels": 30.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 2148.54,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:street": "Lane A",
+              "alt_name": "BGC Corporate Center Two",
+              "building": "office",
+              "building:levels": "30",
+              "height": "114.7",
+              "name": "Arthaland Century Pacific Tower",
+              "wikidata": "Q18209566"
+            },
+            "canonical_entity_id": "osm:way:182331875",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -227.637,
+                  218.773
+                ],
+                [
+                  -275.412,
+                  234.83
+                ],
+                [
+                  -289.156,
+                  194.477
+                ],
+                [
+                  -241.381,
+                  178.42
+                ],
+                [
+                  -227.637,
+                  218.773
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:538344761",
+          "properties": {
+            "id": "osm:way:538344761",
+            "source_ids": [
+              "osm:way:538344761",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "ArthaLand Century Pacific Tower",
+            "feature_kind": "building_part",
+            "height_m": 136.0,
+            "min_height_m": 0.0,
+            "levels": 32.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 1688.25,
+            "tags": {
+              "building:levels": "32",
+              "building:material": "glass",
+              "building:part": "yes",
+              "height": "136",
+              "name": "ArthaLand Century Pacific Tower",
+              "wikidata": "Q18209566",
+              "wikipedia": "en:ArthaLand Century Pacific Tower"
+            },
+            "canonical_entity_id": "osm:way:32487609",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:32487609"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -374.585,
+                  266.886
+                ],
+                [
+                  -388.508,
+                  227.023
+                ],
+                [
+                  -357.368,
+                  216.851
+                ],
+                [
+                  -329.603,
+                  251.949
+                ],
+                [
+                  -374.585,
+                  266.886
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "mind_museum",
+      "entity_id": "osm:way:183463814",
+      "name": "The Mind Museum",
+      "zone_id": "mind_museum",
+      "style": "museum",
+      "source_ids": [
+        "museum",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:183463814",
+          "properties": {
+            "id": "osm:way:183463814",
+            "source_ids": [
+              "osm:way:183463814",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "The Mind Museum",
+            "feature_kind": "building_outline",
+            "height_m": 10.0,
+            "min_height_m": 0.0,
+            "levels": 2.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 6407.38,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:street": "Rizal Drive",
+              "addr:street:corner": "30th Street",
+              "building": "yes",
+              "building:levels": "2",
+              "height": "10",
+              "layer": "1",
+              "name": "The Mind Museum",
+              "wikidata": "Q7751515",
+              "wikipedia": "en:The Mind Museum"
+            },
+            "canonical_entity_id": "osm:way:183463814",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -563.192,
+                  188.249
+                ],
+                [
+                  -595.383,
+                  209.042
+                ],
+                [
+                  -601.456,
+                  198.526
+                ],
+                [
+                  -607.954,
+                  181.118
+                ],
+                [
+                  -610.972,
+                  171.151
+                ],
+                [
+                  -616.547,
+                  153.249
+                ],
+                [
+                  -622.672,
+                  131.611
+                ],
+                [
+                  -625.449,
+                  115.655
+                ],
+                [
+                  -627.837,
+                  103.746
+                ],
+                [
+                  -625.513,
+                  101.966
+                ],
+                [
+                  -612.996,
+                  94.666
+                ],
+                [
+                  -595.6,
+                  84.49
+                ],
+                [
+                  -594.036,
+                  85.805
+                ],
+                [
+                  -590.931,
+                  84.705
+                ],
+                [
+                  -585.742,
+                  83.875
+                ],
+                [
+                  -580.325,
+                  83.319
+                ],
+                [
+                  -576.426,
+                  82.932
+                ],
+                [
+                  -574.748,
+                  83.78
+                ],
+                [
+                  -572.798,
+                  86.165
+                ],
+                [
+                  -571.071,
+                  88.961
+                ],
+                [
+                  -568.271,
+                  93.707
+                ],
+                [
+                  -550.961,
+                  138.876
+                ],
+                [
+                  -550.44,
+                  143.043
+                ],
+                [
+                  -550.777,
+                  146.499
+                ],
+                [
+                  -552.298,
+                  150.098
+                ],
+                [
+                  -554.67,
+                  153.814
+                ],
+                [
+                  -556.688,
+                  156.1
+                ],
+                [
+                  -559.083,
+                  157.072
+                ],
+                [
+                  -559.427,
+                  164.678
+                ],
+                [
+                  -559.544,
+                  173.765
+                ],
+                [
+                  -560.126,
+                  181.239
+                ],
+                [
+                  -563.192,
+                  188.249
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "sm_aura",
+      "entity_id": "osm:way:221590005",
+      "name": "SM Aura Premier",
+      "zone_id": "sm_aura",
+      "style": "aura",
+      "source_ids": [
+        "aura",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:221590005",
+          "properties": {
+            "id": "osm:way:221590005",
+            "source_ids": [
+              "osm:way:221590005",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_outline",
+            "height_m": 15.8,
+            "min_height_m": 0.0,
+            "levels": null,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 17000.31,
+            "tags": {
+              "building": "retail",
+              "height": "15.8",
+              "operator": "4"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:221590005"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  237.589,
+                  -561.04
+                ],
+                [
+                  253.859,
+                  -551.695
+                ],
+                [
+                  277.322,
+                  -537.022
+                ],
+                [
+                  303.459,
+                  -515.832
+                ],
+                [
+                  308.58,
+                  -509.446
+                ],
+                [
+                  316.305,
+                  -499.829
+                ],
+                [
+                  322.95,
+                  -487.911
+                ],
+                [
+                  336.457,
+                  -466.37
+                ],
+                [
+                  344.007,
+                  -451.882
+                ],
+                [
+                  353.801,
+                  -432.234
+                ],
+                [
+                  361.059,
+                  -416.626
+                ],
+                [
+                  373.6,
+                  -422.454
+                ],
+                [
+                  376.63,
+                  -415.962
+                ],
+                [
+                  382.698,
+                  -418.647
+                ],
+                [
+                  391.75,
+                  -422.642
+                ],
+                [
+                  397.442,
+                  -425.158
+                ],
+                [
+                  400.669,
+                  -419.642
+                ],
+                [
+                  429.559,
+                  -434.562
+                ],
+                [
+                  446.806,
+                  -443.463
+                ],
+                [
+                  427.099,
+                  -472.831
+                ],
+                [
+                  412.379,
+                  -491.198
+                ],
+                [
+                  401.126,
+                  -501.272
+                ],
+                [
+                  384.88,
+                  -512.819
+                ],
+                [
+                  379.483,
+                  -516.182
+                ],
+                [
+                  367.801,
+                  -523.441
+                ],
+                [
+                  348.999,
+                  -537.689
+                ],
+                [
+                  334.593,
+                  -549.651
+                ],
+                [
+                  320.317,
+                  -561.503
+                ],
+                [
+                  299.133,
+                  -581.961
+                ],
+                [
+                  289.08,
+                  -591.647
+                ],
+                [
+                  276.423,
+                  -608.282
+                ],
+                [
+                  263.327,
+                  -627.028
+                ],
+                [
+                  241.261,
+                  -599.361
+                ],
+                [
+                  220.826,
+                  -573.756
+                ],
+                [
+                  237.589,
+                  -561.04
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:531903361",
+          "properties": {
+            "id": "osm:way:531903361",
+            "source_ids": [
+              "osm:way:531903361",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 127.2,
+            "min_height_m": 0.0,
+            "levels": 32.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 2035.51,
+            "tags": {
+              "building:levels": "32",
+              "building:part": "yes",
+              "height": "127.2"
+            },
+            "canonical_entity_id": "osm:way:221590005",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:221590005"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  220.826,
+                  -573.756
+                ],
+                [
+                  199.421,
+                  -591.169
+                ],
+                [
+                  208.601,
+                  -602.923
+                ],
+                [
+                  234.192,
+                  -635.687
+                ],
+                [
+                  246.956,
+                  -652.02
+                ],
+                [
+                  259.261,
+                  -633.589
+                ],
+                [
+                  263.327,
+                  -627.028
+                ],
+                [
+                  241.261,
+                  -599.361
+                ],
+                [
+                  220.826,
+                  -573.756
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "mitsukoshi",
+      "entity_id": "osm:way:1123265838",
+      "name": "Mitsukoshi BGC",
+      "zone_id": "mitsukoshi",
+      "style": "hemp",
+      "source_ids": [
+        "mitsukoshi",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:1123265838",
+          "properties": {
+            "id": "osm:way:1123265838",
+            "source_ids": [
+              "osm:way:1123265838",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Mitsukoshi BGC",
+            "feature_kind": "building_outline",
+            "height_m": 12.0,
+            "min_height_m": 0.0,
+            "levels": null,
+            "height_status": "PROCEDURAL",
+            "height_method": "diagnostic_type_fallback",
+            "height_confidence": 0.15,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 11939.52,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:postcode": "1635",
+              "addr:street": "8th Avenue",
+              "building": "yes",
+              "name": "Mitsukoshi BGC",
+              "shop": "mall",
+              "wikidata": "Q121854593"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:1123265838"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  229.538,
+                  895.472
+                ],
+                [
+                  185.974,
+                  765.957
+                ],
+                [
+                  158.684,
+                  775.022
+                ],
+                [
+                  117.669,
+                  788.652
+                ],
+                [
+                  170.568,
+                  945.886
+                ],
+                [
+                  238.862,
+                  923.191
+                ],
+                [
+                  229.538,
+                  895.472
+                ]
+              ],
+              [
+                [
+                  154.031,
+                  779.222
+                ],
+                [
+                  162.323,
+                  803.542
+                ],
+                [
+                  127.705,
+                  815.203
+                ],
+                [
+                  119.412,
+                  790.872
+                ],
+                [
+                  154.031,
+                  779.222
+                ]
+              ],
+              [
+                [
+                  190.63,
+                  840.262
+                ],
+                [
+                  175.133,
+                  845.706
+                ],
+                [
+                  163.338,
+                  812.519
+                ],
+                [
+                  178.834,
+                  807.075
+                ],
+                [
+                  176.692,
+                  801.04
+                ],
+                [
+                  187.556,
+                  797.229
+                ],
+                [
+                  199.595,
+                  831.122
+                ],
+                [
+                  188.73,
+                  834.933
+                ],
+                [
+                  190.63,
+                  840.262
+                ]
+              ],
+              [
+                [
+                  211.561,
+                  894.364
+                ],
+                [
+                  210.054,
+                  889.607
+                ],
+                [
+                  193.037,
+                  894.921
+                ],
+                [
+                  182.213,
+                  860.652
+                ],
+                [
+                  199.22,
+                  855.338
+                ],
+                [
+                  201.192,
+                  861.574
+                ],
+                [
+                  209.018,
+                  859.128
+                ],
+                [
+                  219.387,
+                  891.918
+                ],
+                [
+                  211.561,
+                  894.364
+                ]
+              ],
+              [
+                [
+                  199.485,
+                  906.507
+                ],
+                [
+                  207.744,
+                  930.838
+                ],
+                [
+                  171.115,
+                  943.114
+                ],
+                [
+                  162.856,
+                  918.783
+                ],
+                [
+                  199.485,
+                  906.507
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "seasons",
+      "entity_id": "osm:way:713418274",
+      "name": "The Seasons Residences",
+      "zone_id": "mitsukoshi",
+      "style": "seasons",
+      "source_ids": [
+        "seasons",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:929418244",
+          "properties": {
+            "id": "osm:way:929418244",
+            "source_ids": [
+              "osm:way:929418244",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Fuyu Tower",
+            "feature_kind": "building_part",
+            "height_m": 184.9,
+            "min_height_m": 0.0,
+            "levels": 51.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 992.61,
+            "tags": {
+              "building:levels": "51",
+              "building:part": "yes",
+              "height": "184.9",
+              "name": "Fuyu Tower"
+            },
+            "canonical_entity_id": "osm:way:1123265838",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:1123265838"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  207.744,
+                  930.838
+                ],
+                [
+                  171.115,
+                  943.114
+                ],
+                [
+                  162.856,
+                  918.783
+                ],
+                [
+                  199.485,
+                  906.507
+                ],
+                [
+                  207.744,
+                  930.838
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:929418245",
+          "properties": {
+            "id": "osm:way:929418245",
+            "source_ids": [
+              "osm:way:929418245",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Aki Tower",
+            "feature_kind": "building_part",
+            "height_m": 177.0,
+            "min_height_m": 0.0,
+            "levels": 47.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 922.54,
+            "tags": {
+              "building:levels": "47",
+              "building:part": "yes",
+              "height": "177",
+              "name": "Aki Tower"
+            },
+            "canonical_entity_id": "osm:way:1123265838",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:1123265838"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  210.054,
+                  889.607
+                ],
+                [
+                  193.037,
+                  894.921
+                ],
+                [
+                  182.213,
+                  860.652
+                ],
+                [
+                  199.22,
+                  855.338
+                ],
+                [
+                  201.192,
+                  861.574
+                ],
+                [
+                  209.018,
+                  859.128
+                ],
+                [
+                  219.387,
+                  891.918
+                ],
+                [
+                  211.561,
+                  894.364
+                ],
+                [
+                  210.054,
+                  889.607
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:929418246",
+          "properties": {
+            "id": "osm:way:929418246",
+            "source_ids": [
+              "osm:way:929418246",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Natsu Tower",
+            "feature_kind": "building_part",
+            "height_m": 163.8,
+            "min_height_m": 0.0,
+            "levels": 46.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 992.55,
+            "tags": {
+              "building:levels": "46",
+              "building:part": "yes",
+              "height": "163.8",
+              "name": "Natsu Tower"
+            },
+            "canonical_entity_id": "osm:way:1123265838",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:1123265838"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  175.133,
+                  845.706
+                ],
+                [
+                  163.338,
+                  812.519
+                ],
+                [
+                  178.834,
+                  807.075
+                ],
+                [
+                  176.692,
+                  801.04
+                ],
+                [
+                  187.556,
+                  797.229
+                ],
+                [
+                  199.595,
+                  831.122
+                ],
+                [
+                  188.73,
+                  834.933
+                ],
+                [
+                  190.63,
+                  840.262
+                ],
+                [
+                  175.133,
+                  845.706
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:929418247",
+          "properties": {
+            "id": "osm:way:929418247",
+            "source_ids": [
+              "osm:way:929418247",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Haru Tower",
+            "feature_kind": "building_part",
+            "height_m": 155.0,
+            "min_height_m": 0.0,
+            "levels": 41.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 938.76,
+            "tags": {
+              "building:levels": "41",
+              "building:part": "yes",
+              "height": "155",
+              "name": "Haru Tower"
+            },
+            "canonical_entity_id": "osm:way:1123265838",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:1123265838"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  162.323,
+                  803.542
+                ],
+                [
+                  127.705,
+                  815.203
+                ],
+                [
+                  119.412,
+                  790.872
+                ],
+                [
+                  154.031,
+                  779.222
+                ],
+                [
+                  162.323,
+                  803.542
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "uniqlo",
+      "entity_id": "osm:way:443761696",
+      "name": "Uniqlo",
+      "zone_id": "high_street",
+      "style": "retail",
+      "source_ids": [
+        "user_photo_1",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:443761696",
+          "properties": {
+            "id": "osm:way:443761696",
+            "source_ids": [
+              "osm:way:443761696",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uniqlo",
+            "feature_kind": "building_outline",
+            "height_m": 12.8,
+            "min_height_m": 0.0,
+            "levels": 4.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 781.09,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:housenumber": "C3 Annex",
+              "addr:postcode": "1634",
+              "addr:province": "Metro Manila",
+              "addr:street": "30th Street",
+              "addr:street:corner": "7th Avenue",
+              "building": "yes",
+              "building:levels": "4",
+              "name": "Uniqlo",
+              "shop": "clothes"
+            },
+            "canonical_entity_id": "osm:way:443761696",
+            "render_role": "building_outline",
+            "detailed_asset_id": "bgc_building_0027"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -157.316,
+                  122.877
+                ],
+                [
+                  -161.522,
+                  109.944
+                ],
+                [
+                  -140.772,
+                  103.702
+                ],
+                [
+                  -129.362,
+                  138.364
+                ],
+                [
+                  -149.792,
+                  145.566
+                ],
+                [
+                  -154.411,
+                  131.053
+                ],
+                [
+                  -153.326,
+                  130.656
+                ],
+                [
+                  -152.434,
+                  130.328
+                ],
+                [
+                  -155.166,
+                  122.118
+                ],
+                [
+                  -157.316,
+                  122.877
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "uptown_mall",
+      "entity_id": "osm:way:533345980",
+      "name": "Uptown Mall",
+      "zone_id": "uptown",
+      "style": "retail",
+      "source_ids": [
+        "uptown",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:533345980",
+          "properties": {
+            "id": "osm:way:533345980",
+            "source_ids": [
+              "osm:way:533345980",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Mall",
+            "feature_kind": "building_outline",
+            "height_m": 12.8,
+            "min_height_m": 0.0,
+            "levels": 4.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 17076.83,
+            "tags": {
+              "alt_name": "Uptown Place",
+              "building": "retail",
+              "building:levels": "4",
+              "name": "Uptown Mall",
+              "wikidata": "Q30638525"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    463.547,
+                    636.876
+                  ],
+                  [
+                    460.655,
+                    627.704
+                  ],
+                  [
+                    427.542,
+                    639.009
+                  ],
+                  [
+                    430.458,
+                    648.535
+                  ],
+                  [
+                    463.547,
+                    636.876
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    315.558,
+                    653.809
+                  ],
+                  [
+                    322.007,
+                    656.753
+                  ],
+                  [
+                    325.047,
+                    658.078
+                  ],
+                  [
+                    327.22,
+                    658.778
+                  ],
+                  [
+                    328.306,
+                    659.765
+                  ],
+                  [
+                    329.122,
+                    661.916
+                  ],
+                  [
+                    330.292,
+                    663.776
+                  ],
+                  [
+                    331.828,
+                    665.777
+                  ],
+                  [
+                    334.303,
+                    667.759
+                  ],
+                  [
+                    336.265,
+                    669.037
+                  ],
+                  [
+                    336.936,
+                    670.614
+                  ],
+                  [
+                    337.524,
+                    672.623
+                  ],
+                  [
+                    338.984,
+                    674.403
+                  ],
+                  [
+                    341.822,
+                    676.105
+                  ],
+                  [
+                    344.132,
+                    676.44
+                  ],
+                  [
+                    345.507,
+                    675.93
+                  ],
+                  [
+                    346.358,
+                    674.551
+                  ],
+                  [
+                    347.035,
+                    674.39
+                  ],
+                  [
+                    360.137,
+                    671.201
+                  ],
+                  [
+                    362.771,
+                    675.495
+                  ],
+                  [
+                    381.057,
+                    672.251
+                  ],
+                  [
+                    388.776,
+                    662.303
+                  ],
+                  [
+                    387.303,
+                    652.655
+                  ],
+                  [
+                    384.471,
+                    650.532
+                  ],
+                  [
+                    381.193,
+                    647.826
+                  ],
+                  [
+                    377.778,
+                    645.554
+                  ],
+                  [
+                    376.161,
+                    642.989
+                  ],
+                  [
+                    375.607,
+                    637.461
+                  ],
+                  [
+                    377.018,
+                    633.564
+                  ],
+                  [
+                    378.52,
+                    631.405
+                  ],
+                  [
+                    382.273,
+                    630.365
+                  ],
+                  [
+                    389.634,
+                    629.008
+                  ],
+                  [
+                    396.121,
+                    627.591
+                  ],
+                  [
+                    401.239,
+                    626.031
+                  ],
+                  [
+                    417.516,
+                    618.567
+                  ],
+                  [
+                    419.881,
+                    617.816
+                  ],
+                  [
+                    418.037,
+                    612.73
+                  ],
+                  [
+                    428.375,
+                    609.034
+                  ],
+                  [
+                    425.262,
+                    600.429
+                  ],
+                  [
+                    416.826,
+                    603.445
+                  ],
+                  [
+                    415.568,
+                    599.958
+                  ],
+                  [
+                    409.787,
+                    602.121
+                  ],
+                  [
+                    395.508,
+                    615.025
+                  ],
+                  [
+                    387.115,
+                    621.847
+                  ],
+                  [
+                    379.192,
+                    625.511
+                  ],
+                  [
+                    375.501,
+                    625.034
+                  ],
+                  [
+                    372.6,
+                    623.554
+                  ],
+                  [
+                    369.181,
+                    620.783
+                  ],
+                  [
+                    367.044,
+                    616.707
+                  ],
+                  [
+                    364.861,
+                    612.177
+                  ],
+                  [
+                    394.093,
+                    586.95
+                  ],
+                  [
+                    411.605,
+                    589.014
+                  ],
+                  [
+                    444.782,
+                    577.665
+                  ],
+                  [
+                    435.139,
+                    547.812
+                  ],
+                  [
+                    401.519,
+                    576.717
+                  ],
+                  [
+                    372.399,
+                    543.246
+                  ],
+                  [
+                    360.578,
+                    552.455
+                  ],
+                  [
+                    390.169,
+                    585.678
+                  ],
+                  [
+                    353.431,
+                    617.996
+                  ],
+                  [
+                    323.829,
+                    584.773
+                  ],
+                  [
+                    316.806,
+                    590.454
+                  ],
+                  [
+                    345.494,
+                    623.851
+                  ],
+                  [
+                    306.113,
+                    657.254
+                  ],
+                  [
+                    315.558,
+                    653.809
+                  ]
+                ],
+                [
+                  [
+                    365.549,
+                    651.18
+                  ],
+                  [
+                    366.09,
+                    655.193
+                  ],
+                  [
+                    365.681,
+                    657.786
+                  ],
+                  [
+                    363.412,
+                    662.188
+                  ],
+                  [
+                    359.114,
+                    658.705
+                  ],
+                  [
+                    357.278,
+                    655.777
+                  ],
+                  [
+                    356.1,
+                    652.844
+                  ],
+                  [
+                    355.561,
+                    649.108
+                  ],
+                  [
+                    355.607,
+                    645.588
+                  ],
+                  [
+                    357.012,
+                    641.05
+                  ],
+                  [
+                    361.224,
+                    643.238
+                  ],
+                  [
+                    363.631,
+                    646.173
+                  ],
+                  [
+                    365.549,
+                    651.18
+                  ]
+                ],
+                [
+                  [
+                    349.272,
+                    651.043
+                  ],
+                  [
+                    353.076,
+                    655.968
+                  ],
+                  [
+                    356.827,
+                    663.55
+                  ],
+                  [
+                    348.257,
+                    667.208
+                  ],
+                  [
+                    335.412,
+                    652.456
+                  ],
+                  [
+                    341.483,
+                    643.927
+                  ],
+                  [
+                    349.272,
+                    651.043
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    423.606,
+                    516.272
+                  ],
+                  [
+                    419.253,
+                    503.892
+                  ],
+                  [
+                    410.421,
+                    510.94
+                  ],
+                  [
+                    428.774,
+                    532.019
+                  ],
+                  [
+                    423.606,
+                    516.272
+                  ]
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:533345981",
+          "properties": {
+            "id": "osm:way:533345981",
+            "source_ids": [
+              "osm:way:533345981",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Place Tower 1",
+            "feature_kind": "building_part",
+            "height_m": 64.0,
+            "min_height_m": 0.0,
+            "levels": 20.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 2273.44,
+            "tags": {
+              "building:levels": "20",
+              "building:part": "office",
+              "name": "Uptown Place Tower 1"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  306.113,
+                  657.254
+                ],
+                [
+                  277.425,
+                  623.857
+                ],
+                [
+                  316.806,
+                  590.454
+                ],
+                [
+                  345.494,
+                  623.851
+                ],
+                [
+                  306.113,
+                  657.254
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:533345982",
+          "properties": {
+            "id": "osm:way:533345982",
+            "source_ids": [
+              "osm:way:533345982",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Place Tower 2",
+            "feature_kind": "building_part",
+            "height_m": 64.0,
+            "min_height_m": 0.0,
+            "levels": 20.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 2177.26,
+            "tags": {
+              "building:levels": "20",
+              "building:part": "office",
+              "name": "Uptown Place Tower 2"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  353.431,
+                  617.996
+                ],
+                [
+                  323.829,
+                  584.773
+                ],
+                [
+                  360.578,
+                  552.455
+                ],
+                [
+                  390.169,
+                  585.678
+                ],
+                [
+                  353.431,
+                  617.996
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:533345983",
+          "properties": {
+            "id": "osm:way:533345983",
+            "source_ids": [
+              "osm:way:533345983",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Place Tower 3",
+            "feature_kind": "building_part",
+            "height_m": 80.0,
+            "min_height_m": 0.0,
+            "levels": 25.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 2206.52,
+            "tags": {
+              "building:levels": "25",
+              "building:part": "office",
+              "name": "Uptown Place Tower 3"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  401.519,
+                  576.717
+                ],
+                [
+                  372.399,
+                  543.246
+                ],
+                [
+                  410.421,
+                  510.94
+                ],
+                [
+                  428.774,
+                  532.019
+                ],
+                [
+                  439.366,
+                  544.18
+                ],
+                [
+                  435.139,
+                  547.812
+                ],
+                [
+                  401.519,
+                  576.717
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:538347443",
+          "properties": {
+            "id": "osm:way:538347443",
+            "source_ids": [
+              "osm:way:538347443",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Place Tower 4",
+            "feature_kind": "building_part",
+            "height_m": 89.6,
+            "min_height_m": 0.0,
+            "levels": 28.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1759.39,
+            "tags": {
+              "building:levels": "28",
+              "building:part": "office",
+              "name": "Uptown Place Tower 4"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  415.568,
+                  599.958
+                ],
+                [
+                  411.605,
+                  589.014
+                ],
+                [
+                  444.782,
+                  577.665
+                ],
+                [
+                  460.655,
+                  627.704
+                ],
+                [
+                  427.542,
+                  639.009
+                ],
+                [
+                  419.881,
+                  617.816
+                ],
+                [
+                  418.037,
+                  612.73
+                ],
+                [
+                  428.375,
+                  609.034
+                ],
+                [
+                  425.262,
+                  600.429
+                ],
+                [
+                  416.826,
+                  603.445
+                ],
+                [
+                  415.568,
+                  599.958
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:613886957",
+          "properties": {
+            "id": "osm:way:613886957",
+            "source_ids": [
+              "osm:way:613886957",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Starbucks",
+            "feature_kind": "building_part",
+            "height_m": 16.0,
+            "min_height_m": 12.8,
+            "levels": 5.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 238.73,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:district": "Bonifacio Global City",
+              "addr:floor": "4/F",
+              "addr:housename": "Uptown Mall, Uptown Place",
+              "addr:postcode": "1634",
+              "addr:street": "9th Avenue",
+              "addr:street:corner": "36th Street",
+              "amenity": "cafe",
+              "building:levels": "5",
+              "building:min_level": "4",
+              "building:part": "yes",
+              "name": "Starbucks"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  356.827,
+                  663.55
+                ],
+                [
+                  348.257,
+                  667.208
+                ],
+                [
+                  335.412,
+                  652.456
+                ],
+                [
+                  341.483,
+                  643.927
+                ],
+                [
+                  349.272,
+                  651.043
+                ],
+                [
+                  353.076,
+                  655.968
+                ],
+                [
+                  356.827,
+                  663.55
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:613886958",
+          "properties": {
+            "id": "osm:way:613886958",
+            "source_ids": [
+              "osm:way:613886958",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 16.0,
+            "min_height_m": 12.8,
+            "levels": 5.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1026.96,
+            "tags": {
+              "building:levels": "5",
+              "building:min_level": "4",
+              "building:part": "yes"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  367.044,
+                  616.707
+                ],
+                [
+                  364.861,
+                  612.177
+                ],
+                [
+                  394.093,
+                  586.95
+                ],
+                [
+                  411.605,
+                  589.014
+                ],
+                [
+                  415.568,
+                  599.958
+                ],
+                [
+                  409.787,
+                  602.121
+                ],
+                [
+                  395.508,
+                  615.025
+                ],
+                [
+                  387.115,
+                  621.847
+                ],
+                [
+                  379.192,
+                  625.511
+                ],
+                [
+                  375.501,
+                  625.034
+                ],
+                [
+                  372.6,
+                  623.554
+                ],
+                [
+                  369.181,
+                  620.783
+                ],
+                [
+                  367.044,
+                  616.707
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:613886959",
+          "properties": {
+            "id": "osm:way:613886959",
+            "source_ids": [
+              "osm:way:613886959",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 16.0,
+            "min_height_m": 0.0,
+            "levels": 5.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1449.85,
+            "tags": {
+              "building:levels": "5",
+              "building:part": "yes"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  430.458,
+                  648.535
+                ],
+                [
+                  388.776,
+                  662.303
+                ],
+                [
+                  387.303,
+                  652.655
+                ],
+                [
+                  384.471,
+                  650.532
+                ],
+                [
+                  381.193,
+                  647.826
+                ],
+                [
+                  377.778,
+                  645.554
+                ],
+                [
+                  376.161,
+                  642.989
+                ],
+                [
+                  375.607,
+                  637.461
+                ],
+                [
+                  377.018,
+                  633.564
+                ],
+                [
+                  378.52,
+                  631.405
+                ],
+                [
+                  382.273,
+                  630.365
+                ],
+                [
+                  389.634,
+                  629.008
+                ],
+                [
+                  396.121,
+                  627.591
+                ],
+                [
+                  401.239,
+                  626.031
+                ],
+                [
+                  417.516,
+                  618.567
+                ],
+                [
+                  419.881,
+                  617.816
+                ],
+                [
+                  427.542,
+                  639.009
+                ],
+                [
+                  430.458,
+                  648.535
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:613886960",
+          "properties": {
+            "id": "osm:way:613886960",
+            "source_ids": [
+              "osm:way:613886960",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "St. Gabriel the Archangel Chapel",
+            "feature_kind": "building_part",
+            "height_m": 16.0,
+            "min_height_m": 12.8,
+            "levels": 5.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 145.27,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:district": "Bonifacio Global City",
+              "addr:floor": "4/F",
+              "addr:housename": "Uptown Mall, Uptown Place",
+              "addr:postcode": "1634",
+              "addr:street": "9th Avenue",
+              "addr:street:corner": "36th Street",
+              "amenity": "place_of_worship",
+              "building:levels": "5",
+              "building:min_level": "4",
+              "building:part": "chapel",
+              "name": "St. Gabriel the Archangel Chapel"
+            },
+            "canonical_entity_id": "osm:way:533345980",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:533345980"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  365.681,
+                  657.786
+                ],
+                [
+                  363.412,
+                  662.188
+                ],
+                [
+                  359.114,
+                  658.705
+                ],
+                [
+                  357.278,
+                  655.777
+                ],
+                [
+                  356.1,
+                  652.844
+                ],
+                [
+                  355.561,
+                  649.108
+                ],
+                [
+                  355.607,
+                  645.588
+                ],
+                [
+                  357.012,
+                  641.05
+                ],
+                [
+                  361.224,
+                  643.238
+                ],
+                [
+                  363.631,
+                  646.173
+                ],
+                [
+                  365.549,
+                  651.18
+                ],
+                [
+                  366.09,
+                  655.193
+                ],
+                [
+                  365.681,
+                  657.786
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "one_uptown",
+      "entity_id": "osm:way:713418275",
+      "name": "One Uptown Residence",
+      "zone_id": "uptown",
+      "style": "sky_garden",
+      "source_ids": [
+        "one_uptown",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:713418275",
+          "properties": {
+            "id": "osm:way:713418275",
+            "source_ids": [
+              "osm:way:713418275",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "One Uptown Residence",
+            "feature_kind": "building_outline",
+            "height_m": 163.0,
+            "min_height_m": 0.0,
+            "levels": 45.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 2475.14,
+            "tags": {
+              "building": "apartments",
+              "building:levels": "45",
+              "height": "163",
+              "name": "One Uptown Residence"
+            },
+            "canonical_entity_id": "osm:way:713418275",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  254.796,
+                  675.089
+                ],
+                [
+                  236.253,
+                  680.958
+                ],
+                [
+                  246.707,
+                  713.603
+                ],
+                [
+                  227.959,
+                  719.529
+                ],
+                [
+                  217.827,
+                  687.899
+                ],
+                [
+                  203.938,
+                  692.289
+                ],
+                [
+                  190.494,
+                  650.319
+                ],
+                [
+                  198.277,
+                  647.851
+                ],
+                [
+                  200.004,
+                  653.225
+                ],
+                [
+                  209.711,
+                  650.154
+                ],
+                [
+                  216.688,
+                  671.929
+                ],
+                [
+                  230.974,
+                  667.413
+                ],
+                [
+                  223.422,
+                  643.829
+                ],
+                [
+                  233.215,
+                  640.735
+                ],
+                [
+                  231.576,
+                  635.614
+                ],
+                [
+                  241.175,
+                  632.578
+                ],
+                [
+                  248.262,
+                  657.129
+                ],
+                [
+                  254.796,
+                  675.089
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "parksuites",
+      "entity_id": "osm:way:538697027",
+      "name": "Uptown Parksuites",
+      "zone_id": "uptown",
+      "style": "balcony",
+      "source_ids": [
+        "parksuites",
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:538697027",
+          "properties": {
+            "id": "osm:way:538697027",
+            "source_ids": [
+              "osm:way:538697027",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Parksuites",
+            "feature_kind": "building_outline",
+            "height_m": 25.6,
+            "min_height_m": 0.0,
+            "levels": 4.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": "white",
+            "footprint_area_m2": 6820.06,
+            "tags": {
+              "building": "apartments",
+              "building:colour": "white",
+              "building:levels": "4",
+              "height": "25.6",
+              "name": "Uptown Parksuites"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:538697027"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  290.981,
+                  905.991
+                ],
+                [
+                  323.903,
+                  895.153
+                ],
+                [
+                  328.787,
+                  882.683
+                ],
+                [
+                  293.359,
+                  770.518
+                ],
+                [
+                  241.006,
+                  783.105
+                ],
+                [
+                  279.324,
+                  900.414
+                ],
+                [
+                  290.981,
+                  905.991
+                ]
+              ],
+              [
+                [
+                  263.055,
+                  841.867
+                ],
+                [
+                  258.772,
+                  830.107
+                ],
+                [
+                  254.892,
+                  816.208
+                ],
+                [
+                  253.024,
+                  800.708
+                ],
+                [
+                  251.985,
+                  790.149
+                ],
+                [
+                  260.046,
+                  789.892
+                ],
+                [
+                  260.02,
+                  786.948
+                ],
+                [
+                  269.891,
+                  786.676
+                ],
+                [
+                  269.138,
+                  791.828
+                ],
+                [
+                  271.158,
+                  808.765
+                ],
+                [
+                  273.753,
+                  817.253
+                ],
+                [
+                  286.31,
+                  812.154
+                ],
+                [
+                  292.018,
+                  809.162
+                ],
+                [
+                  299.781,
+                  804.315
+                ],
+                [
+                  304.653,
+                  811.942
+                ],
+                [
+                  301.524,
+                  814.028
+                ],
+                [
+                  307.735,
+                  821.898
+                ],
+                [
+                  298.396,
+                  827.677
+                ],
+                [
+                  290.549,
+                  831.451
+                ],
+                [
+                  272.133,
+                  838.348
+                ],
+                [
+                  263.055,
+                  841.867
+                ]
+              ],
+              [
+                [
+                  276.48,
+                  890.445
+                ],
+                [
+                  286.559,
+                  869.078
+                ],
+                [
+                  280.772,
+                  850.27
+                ],
+                [
+                  299.37,
+                  844.589
+                ],
+                [
+                  306.671,
+                  865.221
+                ],
+                [
+                  325.752,
+                  873.115
+                ],
+                [
+                  328.356,
+                  882.598
+                ],
+                [
+                  324.067,
+                  894.155
+                ],
+                [
+                  306.096,
+                  884.969
+                ],
+                [
+                  298.972,
+                  887.553
+                ],
+                [
+                  291.172,
+                  905.724
+                ],
+                [
+                  279.601,
+                  900.035
+                ],
+                [
+                  276.48,
+                  890.445
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:538751521",
+          "properties": {
+            "id": "osm:way:538751521",
+            "source_ids": [
+              "osm:way:538751521",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Parksuites Tower 2",
+            "feature_kind": "building_part",
+            "height_m": 160.0,
+            "min_height_m": 0.0,
+            "levels": 46.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 1580.47,
+            "tags": {
+              "building:levels": "46",
+              "building:material": "glass",
+              "building:part": "yes",
+              "height": "160",
+              "name": "Uptown Parksuites Tower 2"
+            },
+            "canonical_entity_id": "osm:way:538697027",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:538697027"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  286.559,
+                  869.078
+                ],
+                [
+                  280.772,
+                  850.27
+                ],
+                [
+                  299.37,
+                  844.589
+                ],
+                [
+                  306.671,
+                  865.221
+                ],
+                [
+                  325.752,
+                  873.115
+                ],
+                [
+                  328.356,
+                  882.598
+                ],
+                [
+                  324.067,
+                  894.155
+                ],
+                [
+                  306.096,
+                  884.969
+                ],
+                [
+                  298.972,
+                  887.553
+                ],
+                [
+                  291.172,
+                  905.724
+                ],
+                [
+                  279.601,
+                  900.035
+                ],
+                [
+                  276.48,
+                  890.445
+                ],
+                [
+                  286.559,
+                  869.078
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:783113264",
+          "properties": {
+            "id": "osm:way:783113264",
+            "source_ids": [
+              "osm:way:783113264",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 175.5,
+            "min_height_m": 0.0,
+            "levels": 48.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 861.0,
+            "tags": {
+              "building:levels": "48",
+              "building:material": "glass",
+              "building:part": "yes",
+              "height": "175.5"
+            },
+            "canonical_entity_id": "osm:way:538697027",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:538697027"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  272.133,
+                  838.348
+                ],
+                [
+                  263.055,
+                  841.867
+                ],
+                [
+                  258.772,
+                  830.107
+                ],
+                [
+                  254.892,
+                  816.208
+                ],
+                [
+                  253.024,
+                  800.708
+                ],
+                [
+                  251.985,
+                  790.149
+                ],
+                [
+                  260.046,
+                  789.892
+                ],
+                [
+                  260.02,
+                  786.948
+                ],
+                [
+                  269.891,
+                  786.676
+                ],
+                [
+                  269.138,
+                  791.828
+                ],
+                [
+                  271.158,
+                  808.765
+                ],
+                [
+                  273.753,
+                  817.253
+                ],
+                [
+                  274.884,
+                  820.939
+                ],
+                [
+                  277.851,
+                  830.11
+                ],
+                [
+                  270.496,
+                  832.176
+                ],
+                [
+                  272.133,
+                  838.348
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:783113265",
+          "properties": {
+            "id": "osm:way:783113265",
+            "source_ids": [
+              "osm:way:783113265",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 106.2,
+            "min_height_m": 0.0,
+            "levels": 36.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1484.87,
+            "tags": {
+              "building:levels": "36",
+              "building:part": "yes",
+              "height": "106.2"
+            },
+            "canonical_entity_id": "osm:way:538697027",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:538697027"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  271.158,
+                  808.765
+                ],
+                [
+                  273.753,
+                  817.253
+                ],
+                [
+                  286.31,
+                  812.154
+                ],
+                [
+                  292.018,
+                  809.162
+                ],
+                [
+                  299.781,
+                  804.315
+                ],
+                [
+                  304.653,
+                  811.942
+                ],
+                [
+                  301.524,
+                  814.028
+                ],
+                [
+                  307.735,
+                  821.898
+                ],
+                [
+                  298.396,
+                  827.677
+                ],
+                [
+                  290.549,
+                  831.451
+                ],
+                [
+                  272.133,
+                  838.348
+                ],
+                [
+                  263.055,
+                  841.867
+                ],
+                [
+                  258.772,
+                  830.107
+                ],
+                [
+                  254.892,
+                  816.208
+                ],
+                [
+                  253.024,
+                  800.708
+                ],
+                [
+                  251.985,
+                  790.149
+                ],
+                [
+                  260.046,
+                  789.892
+                ],
+                [
+                  260.02,
+                  786.948
+                ],
+                [
+                  269.891,
+                  786.676
+                ],
+                [
+                  269.138,
+                  791.828
+                ],
+                [
+                  271.158,
+                  808.765
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.65,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "market_market",
+      "entity_id": "osm:way:25006407",
+      "name": "Market! Market!",
+      "zone_id": "market_market",
+      "style": "retail",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:25006407",
+          "properties": {
+            "id": "osm:way:25006407",
+            "source_ids": [
+              "osm:way:25006407",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_outline",
+            "height_m": 16.0,
+            "min_height_m": 0.0,
+            "levels": 5.0,
+            "height_status": "ESTIMATED",
+            "height_method": "building_levels_x_3.2m",
+            "height_confidence": 0.55,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 31758.74,
+            "tags": {
+              "addr:street": "Carlos P. Garcia Avenue",
+              "building": "retail",
+              "building:levels": "5",
+              "layer": "1"
+            },
+            "canonical_entity_id": "osm:way:25006407",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  543.265,
+                  -183.638
+                ],
+                [
+                  545.394,
+                  -189.245
+                ],
+                [
+                  580.573,
+                  -201.153
+                ],
+                [
+                  587.571,
+                  -181.935
+                ],
+                [
+                  592.697,
+                  -183.75
+                ],
+                [
+                  596.684,
+                  -185.167
+                ],
+                [
+                  639.212,
+                  -56.882
+                ],
+                [
+                  663.818,
+                  17.352
+                ],
+                [
+                  630.251,
+                  28.594
+                ],
+                [
+                  619.233,
+                  32.284
+                ],
+                [
+                  568.05,
+                  49.442
+                ],
+                [
+                  557.967,
+                  22.415
+                ],
+                [
+                  553.687,
+                  10.953
+                ],
+                [
+                  540.501,
+                  4.282
+                ],
+                [
+                  519.219,
+                  11.369
+                ],
+                [
+                  516.702,
+                  4.419
+                ],
+                [
+                  499.089,
+                  10.656
+                ],
+                [
+                  477.286,
+                  -55.933
+                ],
+                [
+                  455.826,
+                  -121.507
+                ],
+                [
+                  462.231,
+                  -126.254
+                ],
+                [
+                  466.531,
+                  -131.414
+                ],
+                [
+                  469.554,
+                  -137.228
+                ],
+                [
+                  473.451,
+                  -146.667
+                ],
+                [
+                  476.496,
+                  -156.111
+                ],
+                [
+                  477.062,
+                  -165.6
+                ],
+                [
+                  503.846,
+                  -174.626
+                ],
+                [
+                  509.785,
+                  -170.958
+                ],
+                [
+                  514.326,
+                  -169.304
+                ],
+                [
+                  519.904,
+                  -168.709
+                ],
+                [
+                  525.913,
+                  -169.403
+                ],
+                [
+                  531.139,
+                  -170.908
+                ],
+                [
+                  534.795,
+                  -173.219
+                ],
+                [
+                  538.294,
+                  -176.259
+                ],
+                [
+                  541.419,
+                  -180.136
+                ],
+                [
+                  543.265,
+                  -183.638
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "serendra_palm",
+      "entity_id": "osm:way:27671928",
+      "name": "Palm",
+      "zone_id": "serendra",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:27671928",
+          "properties": {
+            "id": "osm:way:27671928",
+            "source_ids": [
+              "osm:way:27671928",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Palm",
+            "feature_kind": "building_outline",
+            "height_m": 24.4,
+            "min_height_m": 0.0,
+            "levels": 8.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 8398.06,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:postcode": "1634",
+              "building": "apartments",
+              "building:levels": "8",
+              "height": "24.4",
+              "layer": "1",
+              "name": "Palm",
+              "roof:height": "3",
+              "roof:shape": "hipped"
+            },
+            "canonical_entity_id": "osm:way:27671928",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  375.801,
+                  -139.217
+                ],
+                [
+                  383.271,
+                  -141.704
+                ],
+                [
+                  386.314,
+                  -137.525
+                ],
+                [
+                  390.689,
+                  -132.693
+                ],
+                [
+                  395.059,
+                  -129.598
+                ],
+                [
+                  399.581,
+                  -126.461
+                ],
+                [
+                  405.231,
+                  -123.753
+                ],
+                [
+                  411.247,
+                  -122.255
+                ],
+                [
+                  417.538,
+                  -121.479
+                ],
+                [
+                  418.475,
+                  -119.064
+                ],
+                [
+                  421.666,
+                  -118.991
+                ],
+                [
+                  422.818,
+                  -115.449
+                ],
+                [
+                  424.932,
+                  -108.993
+                ],
+                [
+                  422.18,
+                  -108.073
+                ],
+                [
+                  438.139,
+                  -59.417
+                ],
+                [
+                  419.653,
+                  -52.974
+                ],
+                [
+                  403.913,
+                  -97.559
+                ],
+                [
+                  398.03,
+                  -98.549
+                ],
+                [
+                  391.823,
+                  -100.776
+                ],
+                [
+                  385.363,
+                  -103.764
+                ],
+                [
+                  380.677,
+                  -107.166
+                ],
+                [
+                  378.818,
+                  -102.701
+                ],
+                [
+                  375.744,
+                  -97.927
+                ],
+                [
+                  371.803,
+                  -93.666
+                ],
+                [
+                  378.642,
+                  -86.742
+                ],
+                [
+                  373.871,
+                  -82.374
+                ],
+                [
+                  367.73,
+                  -78.315
+                ],
+                [
+                  364.008,
+                  -77.354
+                ],
+                [
+                  354.829,
+                  -74.332
+                ],
+                [
+                  346.92,
+                  -73.911
+                ],
+                [
+                  340.214,
+                  -74.152
+                ],
+                [
+                  340.507,
+                  -76.379
+                ],
+                [
+                  341.399,
+                  -83.015
+                ],
+                [
+                  336.714,
+                  -83.883
+                ],
+                [
+                  330.689,
+                  -86.266
+                ],
+                [
+                  325.038,
+                  -90.467
+                ],
+                [
+                  319.365,
+                  -95.808
+                ],
+                [
+                  295.795,
+                  -87.827
+                ],
+                [
+                  299.071,
+                  -74.0
+                ],
+                [
+                  301.422,
+                  -61.205
+                ],
+                [
+                  303.21,
+                  -49.988
+                ],
+                [
+                  300.498,
+                  -49.478
+                ],
+                [
+                  300.923,
+                  -45.188
+                ],
+                [
+                  305.717,
+                  -45.461
+                ],
+                [
+                  306.847,
+                  -33.121
+                ],
+                [
+                  307.505,
+                  -20.466
+                ],
+                [
+                  304.799,
+                  -20.443
+                ],
+                [
+                  305.015,
+                  -17.867
+                ],
+                [
+                  309.184,
+                  -18.212
+                ],
+                [
+                  309.785,
+                  -2.115
+                ],
+                [
+                  309.588,
+                  11.398
+                ],
+                [
+                  308.838,
+                  24.662
+                ],
+                [
+                  304.904,
+                  24.674
+                ],
+                [
+                  304.918,
+                  28.813
+                ],
+                [
+                  295.4,
+                  28.838
+                ],
+                [
+                  295.386,
+                  24.7
+                ],
+                [
+                  287.875,
+                  24.863
+                ],
+                [
+                  288.42,
+                  12.996
+                ],
+                [
+                  288.579,
+                  0.091
+                ],
+                [
+                  288.199,
+                  -16.705
+                ],
+                [
+                  285.752,
+                  -16.695
+                ],
+                [
+                  285.407,
+                  -30.592
+                ],
+                [
+                  283.93,
+                  -44.5
+                ],
+                [
+                  282.379,
+                  -44.399
+                ],
+                [
+                  280.533,
+                  -57.297
+                ],
+                [
+                  277.989,
+                  -69.991
+                ],
+                [
+                  274.201,
+                  -86.913
+                ],
+                [
+                  276.158,
+                  -87.471
+                ],
+                [
+                  271.887,
+                  -100.416
+                ],
+                [
+                  270.78,
+                  -103.771
+                ],
+                [
+                  283.796,
+                  -108.253
+                ],
+                [
+                  282.91,
+                  -111.001
+                ],
+                [
+                  285.134,
+                  -111.784
+                ],
+                [
+                  287.961,
+                  -112.782
+                ],
+                [
+                  316.569,
+                  -122.853
+                ],
+                [
+                  318.632,
+                  -123.568
+                ],
+                [
+                  320.825,
+                  -124.35
+                ],
+                [
+                  320.152,
+                  -126.17
+                ],
+                [
+                  320.926,
+                  -126.431
+                ],
+                [
+                  333.404,
+                  -130.71
+                ],
+                [
+                  337.671,
+                  -118.164
+                ],
+                [
+                  336.339,
+                  -117.699
+                ],
+                [
+                  338.807,
+                  -113.968
+                ],
+                [
+                  341.932,
+                  -111.571
+                ],
+                [
+                  345.363,
+                  -109.896
+                ],
+                [
+                  348.321,
+                  -109.313
+                ],
+                [
+                  350.991,
+                  -109.767
+                ],
+                [
+                  353.078,
+                  -111.489
+                ],
+                [
+                  354.613,
+                  -114.723
+                ],
+                [
+                  355.467,
+                  -118.238
+                ],
+                [
+                  355.431,
+                  -122.532
+                ],
+                [
+                  352.187,
+                  -132.53
+                ],
+                [
+                  363.051,
+                  -136.43
+                ],
+                [
+                  363.625,
+                  -134.93
+                ],
+                [
+                  375.801,
+                  -139.217
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "serendra_mahogany",
+      "entity_id": "osm:way:27671996",
+      "name": "Mahogany",
+      "zone_id": "serendra",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:27671996",
+          "properties": {
+            "id": "osm:way:27671996",
+            "source_ids": [
+              "osm:way:27671996",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Mahogany",
+            "feature_kind": "building_outline",
+            "height_m": 65.0,
+            "min_height_m": 0.0,
+            "levels": 17.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": "lightgreen",
+            "footprint_area_m2": 2032.54,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:postcode": "1634",
+              "building": "apartments",
+              "building:colour": "lightgreen",
+              "building:levels": "17",
+              "height": "65",
+              "name": "Mahogany",
+              "roof:shape": "hipped"
+            },
+            "canonical_entity_id": "osm:way:27671996",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  471.897,
+                  37.701
+                ],
+                [
+                  478.118,
+                  56.804
+                ],
+                [
+                  427.933,
+                  73.478
+                ],
+                [
+                  421.414,
+                  53.57
+                ],
+                [
+                  421.476,
+                  43.145
+                ],
+                [
+                  419.359,
+                  32.484
+                ],
+                [
+                  416.496,
+                  24.186
+                ],
+                [
+                  410.967,
+                  12.868
+                ],
+                [
+                  429.417,
+                  2.397
+                ],
+                [
+                  434.911,
+                  12.11
+                ],
+                [
+                  438.921,
+                  23.464
+                ],
+                [
+                  441.799,
+                  36.077
+                ],
+                [
+                  443.017,
+                  47.399
+                ],
+                [
+                  471.897,
+                  37.701
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "serendra_bamboo",
+      "entity_id": "osm:way:27672006",
+      "name": "Bamboo",
+      "zone_id": "serendra",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:27672006",
+          "properties": {
+            "id": "osm:way:27672006",
+            "source_ids": [
+              "osm:way:27672006",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Bamboo",
+            "feature_kind": "building_outline",
+            "height_m": 53.5,
+            "min_height_m": 0.0,
+            "levels": 14.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": "lightgreen",
+            "footprint_area_m2": 2176.36,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:postcode": "1634",
+              "building": "apartments",
+              "building:colour": "lightgreen",
+              "building:levels": "14",
+              "height": "53.5",
+              "name": "Bamboo",
+              "roof:shape": "hipped"
+            },
+            "canonical_entity_id": "osm:way:27672006",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  450.261,
+                  -29.52
+                ],
+                [
+                  455.813,
+                  -11.772
+                ],
+                [
+                  410.051,
+                  5.34
+                ],
+                [
+                  403.891,
+                  -2.863
+                ],
+                [
+                  396.862,
+                  -11.822
+                ],
+                [
+                  390.348,
+                  -22.335
+                ],
+                [
+                  386.273,
+                  -32.515
+                ],
+                [
+                  382.294,
+                  -42.695
+                ],
+                [
+                  379.816,
+                  -53.951
+                ],
+                [
+                  378.626,
+                  -64.598
+                ],
+                [
+                  399.028,
+                  -67.483
+                ],
+                [
+                  400.066,
+                  -58.196
+                ],
+                [
+                  402.356,
+                  -48.798
+                ],
+                [
+                  405.416,
+                  -41.354
+                ],
+                [
+                  407.133,
+                  -37.186
+                ],
+                [
+                  411.347,
+                  -28.49
+                ],
+                [
+                  418.393,
+                  -18.823
+                ],
+                [
+                  450.261,
+                  -29.52
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Mapped footprint and part heights; facade dimensions estimated from supplied references or category where only OSM is available.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_27442841",
+      "entity_id": "osm:way:27442841",
+      "name": "Pacific Plaza North Tower",
+      "zone_id": "high_street_south",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:27442841",
+          "properties": {
+            "id": "osm:way:27442841",
+            "source_ids": [
+              "osm:way:27442841",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Pacific Plaza North Tower",
+            "feature_kind": "building_outline",
+            "height_m": 179.0,
+            "min_height_m": 0.0,
+            "levels": 52.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1459.37,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:housename": "Pacific Plaza Towers",
+              "addr:street": "4th Avenue",
+              "addr:street:corner": "25th Street",
+              "building": "apartments",
+              "building:levels": "52",
+              "height": "179",
+              "name": "Pacific Plaza North Tower"
+            },
+            "canonical_entity_id": "osm:way:27442841",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -642.821,
+                  -244.532
+                ],
+                [
+                  -658.578,
+                  -250.539
+                ],
+                [
+                  -655.388,
+                  -258.191
+                ],
+                [
+                  -652.744,
+                  -264.112
+                ],
+                [
+                  -649.518,
+                  -271.366
+                ],
+                [
+                  -648.039,
+                  -278.616
+                ],
+                [
+                  -647.085,
+                  -284.257
+                ],
+                [
+                  -645.223,
+                  -290.902
+                ],
+                [
+                  -643.534,
+                  -296.339
+                ],
+                [
+                  -640.313,
+                  -301.623
+                ],
+                [
+                  -637.502,
+                  -308.166
+                ],
+                [
+                  -634.82,
+                  -314.685
+                ],
+                [
+                  -633.837,
+                  -321.964
+                ],
+                [
+                  -631.779,
+                  -329.65
+                ],
+                [
+                  -614.623,
+                  -323.91
+                ],
+                [
+                  -616.314,
+                  -316.138
+                ],
+                [
+                  -618.2,
+                  -307.28
+                ],
+                [
+                  -619.925,
+                  -302.329
+                ],
+                [
+                  -622.254,
+                  -298.624
+                ],
+                [
+                  -626.255,
+                  -291.297
+                ],
+                [
+                  -628.432,
+                  -287.449
+                ],
+                [
+                  -630.059,
+                  -283.573
+                ],
+                [
+                  -631.321,
+                  -278.671
+                ],
+                [
+                  -631.68,
+                  -274.098
+                ],
+                [
+                  -632.184,
+                  -269.988
+                ],
+                [
+                  -634.104,
+                  -263.807
+                ],
+                [
+                  -637.439,
+                  -258.013
+                ],
+                [
+                  -640.284,
+                  -251.681
+                ],
+                [
+                  -642.821,
+                  -244.532
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_72861481",
+      "entity_id": "osm:way:72861481",
+      "name": "West Tower",
+      "zone_id": "office_grid",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:72861481",
+          "properties": {
+            "id": "osm:way:72861481",
+            "source_ids": [
+              "osm:way:72861481",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "West Tower",
+            "feature_kind": "building_outline",
+            "height_m": 191.1,
+            "min_height_m": 0.0,
+            "levels": 50.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1514.73,
+            "tags": {
+              "building": "apartments",
+              "building:levels": "50",
+              "height": "191.1",
+              "name": "West Tower"
+            },
+            "canonical_entity_id": "osm:way:72861481",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  334.75,
+                  163.436
+                ],
+                [
+                  325.649,
+                  136.489
+                ],
+                [
+                  376.167,
+                  119.602
+                ],
+                [
+                  385.268,
+                  146.538
+                ],
+                [
+                  334.75,
+                  163.436
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_1071370324",
+      "entity_id": "osm:way:1071370324",
+      "name": "Park Triangle Residences",
+      "zone_id": "office_grid",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:1071370324",
+          "properties": {
+            "id": "osm:way:1071370324",
+            "source_ids": [
+              "osm:way:1071370324",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Park Triangle Residences",
+            "feature_kind": "building_outline",
+            "height_m": 162.7,
+            "min_height_m": 0.0,
+            "levels": 49.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1590.27,
+            "tags": {
+              "building": "apartments",
+              "building:levels": "49",
+              "height": "162.7",
+              "name": "Park Triangle Residences"
+            },
+            "canonical_entity_id": "osm:way:1071370324",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  352.979,
+                  222.917
+                ],
+                [
+                  394.422,
+                  208.797
+                ],
+                [
+                  405.441,
+                  240.718
+                ],
+                [
+                  403.517,
+                  241.376
+                ],
+                [
+                  404.656,
+                  244.686
+                ],
+                [
+                  366.953,
+                  257.535
+                ],
+                [
+                  364.411,
+                  250.165
+                ],
+                [
+                  362.917,
+                  250.675
+                ],
+                [
+                  359.822,
+                  241.716
+                ],
+                [
+                  362.66,
+                  240.751
+                ],
+                [
+                  361.046,
+                  236.084
+                ],
+                [
+                  357.897,
+                  237.162
+                ],
+                [
+                  354.161,
+                  226.337
+                ],
+                [
+                  352.979,
+                  222.917
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_538341464",
+      "entity_id": "osm:way:538341464",
+      "name": "East Gallery Place",
+      "zone_id": "high_street_south",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:538341464",
+          "properties": {
+            "id": "osm:way:538341464",
+            "source_ids": [
+              "osm:way:538341464",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "East Gallery Place",
+            "feature_kind": "building_outline",
+            "height_m": 168.7,
+            "min_height_m": 0.0,
+            "levels": 51.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": "gray",
+            "footprint_area_m2": 1941.72,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:district": "Bonifacio Global City",
+              "addr:postcode": "1634",
+              "addr:province": "Metro Manila",
+              "addr:street": "East Gallery Place Lobby Road",
+              "building": "apartments",
+              "building:colour": "gray",
+              "building:levels": "51",
+              "building:material": "glass",
+              "height": "168.7",
+              "name": "East Gallery Place"
+            },
+            "canonical_entity_id": "osm:way:538341464",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  117.956,
+                  -263.726
+                ],
+                [
+                  117.969,
+                  -272.192
+                ],
+                [
+                  119.692,
+                  -279.986
+                ],
+                [
+                  140.059,
+                  -285.793
+                ],
+                [
+                  144.897,
+                  -277.07
+                ],
+                [
+                  150.038,
+                  -268.349
+                ],
+                [
+                  152.836,
+                  -261.346
+                ],
+                [
+                  155.663,
+                  -252.173
+                ],
+                [
+                  156.594,
+                  -245.42
+                ],
+                [
+                  157.838,
+                  -234.807
+                ],
+                [
+                  158.088,
+                  -221.883
+                ],
+                [
+                  142.187,
+                  -217.044
+                ],
+                [
+                  137.81,
+                  -219.718
+                ],
+                [
+                  134.808,
+                  -222.824
+                ],
+                [
+                  126.465,
+                  -235.402
+                ],
+                [
+                  124.705,
+                  -238.264
+                ],
+                [
+                  120.411,
+                  -250.146
+                ],
+                [
+                  119.657,
+                  -253.869
+                ],
+                [
+                  117.956,
+                  -263.726
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_1070584575",
+      "entity_id": "osm:way:1070584575",
+      "name": "West Gallery Place",
+      "zone_id": "high_street_south",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:1070584574",
+          "properties": {
+            "id": "osm:way:1070584574",
+            "source_ids": [
+              "osm:way:1070584574",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": null,
+            "feature_kind": "building_part",
+            "height_m": 169.1,
+            "min_height_m": 0.0,
+            "levels": 50.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1046.87,
+            "tags": {
+              "building:levels": "50",
+              "building:part": "yes",
+              "height": "169.1"
+            },
+            "canonical_entity_id": "osm:way:1070584575",
+            "render_role": "building_part",
+            "parent_outline_id": "osm:way:1070584575"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  27.52,
+                  -185.255
+                ],
+                [
+                  11.015,
+                  -179.238
+                ],
+                [
+                  -7.921,
+                  -230.524
+                ],
+                [
+                  1.331,
+                  -233.901
+                ],
+                [
+                  -2.52,
+                  -244.326
+                ],
+                [
+                  4.744,
+                  -246.977
+                ],
+                [
+                  17.622,
+                  -212.095
+                ],
+                [
+                  27.52,
+                  -185.255
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "osm:way:1070584575",
+          "properties": {
+            "id": "osm:way:1070584575",
+            "source_ids": [
+              "osm:way:1070584575",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "West Gallery Place",
+            "feature_kind": "building_outline",
+            "height_m": 150.8,
+            "min_height_m": 0.0,
+            "levels": 45.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": "gray",
+            "footprint_area_m2": 1362.87,
+            "tags": {
+              "building": "apartments",
+              "building:colour": "gray",
+              "building:levels": "45",
+              "building:material": "glass",
+              "height": "150.8",
+              "name": "West Gallery Place"
+            },
+            "render_role": "outline_residual",
+            "canonical_entity_id": "osm:way:1070584575"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  25.606,
+                  -215.008
+                ],
+                [
+                  12.728,
+                  -249.89
+                ],
+                [
+                  4.744,
+                  -246.977
+                ],
+                [
+                  17.622,
+                  -212.095
+                ],
+                [
+                  25.606,
+                  -215.008
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_27442849",
+      "entity_id": "osm:way:27442849",
+      "name": "Pacific Plaza South Tower",
+      "zone_id": "high_street_south",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:27442849",
+          "properties": {
+            "id": "osm:way:27442849",
+            "source_ids": [
+              "osm:way:27442849",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Pacific Plaza South Tower",
+            "feature_kind": "building_outline",
+            "height_m": 179.0,
+            "min_height_m": 0.0,
+            "levels": 52.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1434.28,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:housename": "Pacific Plaza Towers",
+              "addr:street": "5th Avenue",
+              "addr:street:corner": "25th Street",
+              "building": "apartments",
+              "building:levels": "52",
+              "height": "179",
+              "name": "Pacific Plaza South Tower"
+            },
+            "canonical_entity_id": "osm:way:27442849",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -620.608,
+                  -349.268
+                ],
+                [
+                  -632.891,
+                  -336.115
+                ],
+                [
+                  -642.276,
+                  -344.401
+                ],
+                [
+                  -652.154,
+                  -356.246
+                ],
+                [
+                  -660.043,
+                  -371.151
+                ],
+                [
+                  -664.343,
+                  -386.187
+                ],
+                [
+                  -665.328,
+                  -401.727
+                ],
+                [
+                  -665.581,
+                  -416.122
+                ],
+                [
+                  -649.106,
+                  -415.655
+                ],
+                [
+                  -649.406,
+                  -402.881
+                ],
+                [
+                  -648.602,
+                  -389.509
+                ],
+                [
+                  -643.629,
+                  -377.755
+                ],
+                [
+                  -637.554,
+                  -366.995
+                ],
+                [
+                  -627.536,
+                  -356.512
+                ],
+                [
+                  -620.608,
+                  -349.268
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_37075972",
+      "entity_id": "osm:way:37075972",
+      "name": "One McKinley Place",
+      "zone_id": "high_street_south",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:37075972",
+          "properties": {
+            "id": "osm:way:37075972",
+            "source_ids": [
+              "osm:way:37075972",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "One McKinley Place",
+            "feature_kind": "building_outline",
+            "height_m": 149.0,
+            "min_height_m": 0.0,
+            "levels": 43.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1160.84,
+            "tags": {
+              "building": "residential",
+              "building:levels": "43",
+              "height": "149",
+              "name": "One McKinley Place",
+              "wikidata": "Q7092890"
+            },
+            "canonical_entity_id": "osm:way:37075972",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -579.427,
+                  -204.251
+                ],
+                [
+                  -607.122,
+                  -149.268
+                ],
+                [
+                  -610.607,
+                  -148.331
+                ],
+                [
+                  -614.089,
+                  -148.433
+                ],
+                [
+                  -617.668,
+                  -149.709
+                ],
+                [
+                  -620.622,
+                  -152.24
+                ],
+                [
+                  -622.503,
+                  -155.466
+                ],
+                [
+                  -623.424,
+                  -158.524
+                ],
+                [
+                  -623.058,
+                  -162.356
+                ],
+                [
+                  -621.249,
+                  -166.377
+                ],
+                [
+                  -618.556,
+                  -169.101
+                ],
+                [
+                  -614.418,
+                  -172.976
+                ],
+                [
+                  -610.165,
+                  -177.351
+                ],
+                [
+                  -606.903,
+                  -181.54
+                ],
+                [
+                  -604.366,
+                  -186.076
+                ],
+                [
+                  -602.791,
+                  -191.026
+                ],
+                [
+                  -601.974,
+                  -196.245
+                ],
+                [
+                  -601.687,
+                  -201.825
+                ],
+                [
+                  -600.709,
+                  -205.884
+                ],
+                [
+                  -598.292,
+                  -209.424
+                ],
+                [
+                  -594.78,
+                  -212.132
+                ],
+                [
+                  -591.219,
+                  -212.926
+                ],
+                [
+                  -586.923,
+                  -212.299
+                ],
+                [
+                  -583.5,
+                  -210.314
+                ],
+                [
+                  -581.332,
+                  -207.665
+                ],
+                [
+                  -579.427,
+                  -204.251
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_66405543",
+      "entity_id": "osm:way:66405543",
+      "name": "Six/NEO",
+      "zone_id": "high_street_south",
+      "style": "office",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:66405543",
+          "properties": {
+            "id": "osm:way:66405543",
+            "source_ids": [
+              "osm:way:66405543",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Six/NEO",
+            "feature_kind": "building_outline",
+            "height_m": 127.0,
+            "min_height_m": 0.0,
+            "levels": 28.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 2808.99,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:district": "Bonifacio Global City",
+              "addr:street": "5th Avenue",
+              "addr:street:corner": "26th Street",
+              "building": "office",
+              "building:levels": "28",
+              "building:material": "glass",
+              "height": "127",
+              "name": "Six/NEO"
+            },
+            "canonical_entity_id": "osm:way:66405543",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -505.418,
+                  -121.411
+                ],
+                [
+                  -517.879,
+                  -159.118
+                ],
+                [
+                  -451.651,
+                  -181.73
+                ],
+                [
+                  -438.498,
+                  -143.686
+                ],
+                [
+                  -505.418,
+                  -121.411
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_72861479",
+      "entity_id": "osm:way:72861479",
+      "name": "East Tower",
+      "zone_id": "office_grid",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:72861479",
+          "properties": {
+            "id": "osm:way:72861479",
+            "source_ids": [
+              "osm:way:72861479",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "East Tower",
+            "feature_kind": "building_outline",
+            "height_m": 150.0,
+            "min_height_m": 0.0,
+            "levels": 41.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1616.79,
+            "tags": {
+              "building": "apartments",
+              "building:levels": "41",
+              "height": "150",
+              "name": "East Tower"
+            },
+            "canonical_entity_id": "osm:way:72861479",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  433.244,
+                  126.164
+                ],
+                [
+                  425.393,
+                  101.73
+                ],
+                [
+                  482.121,
+                  83.739
+                ],
+                [
+                  489.905,
+                  107.963
+                ],
+                [
+                  473.006,
+                  113.32
+                ],
+                [
+                  474.191,
+                  117.039
+                ],
+                [
+                  449.982,
+                  124.705
+                ],
+                [
+                  448.863,
+                  121.217
+                ],
+                [
+                  433.244,
+                  126.164
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_783121691",
+      "entity_id": "osm:way:783121691",
+      "name": "Park Triangle Corporate Plaza, North Tower",
+      "zone_id": "office_grid",
+      "style": "office",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:783121691",
+          "properties": {
+            "id": "osm:way:783121691",
+            "source_ids": [
+              "osm:way:783121691",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Park Triangle Corporate Plaza, North Tower",
+            "feature_kind": "building_outline",
+            "height_m": 127.8,
+            "min_height_m": 0.0,
+            "levels": 30.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": "blue",
+            "footprint_area_m2": 2203.61,
+            "tags": {
+              "building": "office",
+              "building:colour": "blue",
+              "building:levels": "30",
+              "building:material": "glass",
+              "height": "127.8",
+              "name": "Park Triangle Corporate Plaza, North Tower"
+            },
+            "canonical_entity_id": "osm:way:783121691",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  283.208,
+                  258.516
+                ],
+                [
+                  271.802,
+                  259.465
+                ],
+                [
+                  261.859,
+                  229.959
+                ],
+                [
+                  274.521,
+                  223.244
+                ],
+                [
+                  279.856,
+                  220.62
+                ],
+                [
+                  290.801,
+                  216.067
+                ],
+                [
+                  305.947,
+                  212.496
+                ],
+                [
+                  313.598,
+                  210.992
+                ],
+                [
+                  319.955,
+                  210.65
+                ],
+                [
+                  329.024,
+                  240.164
+                ],
+                [
+                  320.258,
+                  246.126
+                ],
+                [
+                  308.154,
+                  251.253
+                ],
+                [
+                  294.032,
+                  256.122
+                ],
+                [
+                  283.208,
+                  258.516
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_846365706",
+      "entity_id": "osm:way:846365706",
+      "name": "The Sequoia",
+      "zone_id": "high_street_south",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:846365706",
+          "properties": {
+            "id": "osm:way:846365706",
+            "source_ids": [
+              "osm:way:846365706",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "The Sequoia",
+            "feature_kind": "building_outline",
+            "height_m": 202.5,
+            "min_height_m": 0.0,
+            "levels": 53.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 1563.83,
+            "tags": {
+              "building": "apartments",
+              "building:levels": "53",
+              "height": "202.5",
+              "name": "The Sequoia"
+            },
+            "canonical_entity_id": "osm:way:846365706",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  177.828,
+                  -526.932
+                ],
+                [
+                  152.055,
+                  -494.133
+                ],
+                [
+                  143.121,
+                  -501.438
+                ],
+                [
+                  147.93,
+                  -506.348
+                ],
+                [
+                  146.146,
+                  -508.269
+                ],
+                [
+                  141.286,
+                  -502.982
+                ],
+                [
+                  131.968,
+                  -511.158
+                ],
+                [
+                  135.827,
+                  -516.127
+                ],
+                [
+                  134.179,
+                  -517.297
+                ],
+                [
+                  129.747,
+                  -512.39
+                ],
+                [
+                  121.571,
+                  -519.38
+                ],
+                [
+                  147.663,
+                  -551.497
+                ],
+                [
+                  155.903,
+                  -544.684
+                ],
+                [
+                  151.925,
+                  -539.648
+                ],
+                [
+                  153.629,
+                  -538.224
+                ],
+                [
+                  157.491,
+                  -543.015
+                ],
+                [
+                  167.38,
+                  -534.91
+                ],
+                [
+                  163.516,
+                  -530.429
+                ],
+                [
+                  165.286,
+                  -528.95
+                ],
+                [
+                  169.21,
+                  -533.919
+                ],
+                [
+                  177.828,
+                  -526.932
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_131229047",
+      "entity_id": "osm:way:131229047",
+      "name": "Cork  Elite",
+      "zone_id": "office_grid",
+      "style": "office",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:131229047",
+          "properties": {
+            "id": "osm:way:131229047",
+            "source_ids": [
+              "osm:way:131229047",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Cork  Elite",
+            "feature_kind": "building_outline",
+            "height_m": 114.0,
+            "min_height_m": 0.0,
+            "levels": 30.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "tiles",
+            "colour": "white",
+            "footprint_area_m2": 1788.66,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:district": "NCR",
+              "addr:neighbourhood": "Bonifacio Global City",
+              "addr:postcode": "1635",
+              "addr:street": "5th Avenue",
+              "addr:unit": "Roofdeck",
+              "amenity": "restaurant",
+              "building": "office",
+              "building:colour": "white",
+              "building:levels": "30",
+              "building:material": "tiles",
+              "height": "114",
+              "name": "Cork  Elite"
+            },
+            "canonical_entity_id": "osm:way:131229047",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -248.762,
+                  313.461
+                ],
+                [
+                  -260.308,
+                  279.243
+                ],
+                [
+                  -213.327,
+                  263.58
+                ],
+                [
+                  -201.78,
+                  297.809
+                ],
+                [
+                  -248.762,
+                  313.461
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_469658015",
+      "entity_id": "osm:way:469658015",
+      "name": "One World Place",
+      "zone_id": "office_grid",
+      "style": "office",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:469658015",
+          "properties": {
+            "id": "osm:way:469658015",
+            "source_ids": [
+              "osm:way:469658015",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "One World Place",
+            "feature_kind": "building_outline",
+            "height_m": 122.0,
+            "min_height_m": 0.0,
+            "levels": 31.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": null,
+            "colour": null,
+            "footprint_area_m2": 21.15,
+            "tags": {
+              "addr:street": "32nd Street",
+              "building": "yes",
+              "building:levels": "31",
+              "height": "122",
+              "name": "One World Place"
+            },
+            "canonical_entity_id": "osm:way:469658015",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  228.613,
+                  234.614
+                ],
+                [
+                  228.546,
+                  234.238
+                ],
+                [
+                  244.978,
+                  228.598
+                ],
+                [
+                  245.334,
+                  229.845
+                ],
+                [
+                  228.824,
+                  235.342
+                ],
+                [
+                  228.613,
+                  234.614
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    },
+    {
+      "id": "lite_538347432",
+      "entity_id": "osm:way:538347432",
+      "name": "Uptown Ritz Residences",
+      "zone_id": "uptown",
+      "style": "balcony",
+      "source_ids": [
+        "osm"
+      ],
+      "volumes": [
+        {
+          "type": "Feature",
+          "id": "osm:way:538347432",
+          "properties": {
+            "id": "osm:way:538347432",
+            "source_ids": [
+              "osm:way:538347432",
+              "source:osm"
+            ],
+            "parent_ids": [],
+            "name": "Uptown Ritz Residences",
+            "feature_kind": "building_outline",
+            "height_m": 170.0,
+            "min_height_m": 0.0,
+            "levels": 45.0,
+            "height_status": "VERIFIED_GEOGRAPHIC",
+            "height_method": "osm_height",
+            "height_confidence": 0.75,
+            "footprint_status": "VERIFIED_GEOGRAPHIC",
+            "footprint_confidence": 0.8,
+            "material": "glass",
+            "colour": null,
+            "footprint_area_m2": 1144.92,
+            "tags": {
+              "addr:city": "Taguig",
+              "addr:district": "Bonifacio Global City",
+              "addr:street": "8th Avenue",
+              "addr:street:corner": "36th Street",
+              "building": "apartments",
+              "building:levels": "45",
+              "building:material": "glass",
+              "height": "170",
+              "name": "Uptown Ritz Residences"
+            },
+            "canonical_entity_id": "osm:way:538347432",
+            "render_role": "building_outline"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  239.698,
+                  773.875
+                ],
+                [
+                  233.632,
+                  755.214
+                ],
+                [
+                  239.888,
+                  753.202
+                ],
+                [
+                  237.896,
+                  747.055
+                ],
+                [
+                  265.715,
+                  738.119
+                ],
+                [
+                  267.785,
+                  744.475
+                ],
+                [
+                  273.826,
+                  742.543
+                ],
+                [
+                  279.56,
+                  760.178
+                ],
+                [
+                  272.863,
+                  762.326
+                ],
+                [
+                  274.7,
+                  767.944
+                ],
+                [
+                  249.01,
+                  776.197
+                ],
+                [
+                  247.438,
+                  771.386
+                ],
+                [
+                  239.698,
+                  773.875
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "grounding": "INFERRED",
+      "confidence": 0.3,
+      "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY",
+      "modeling_notes": "Type-based facade rhythm only; unverified facade detail.",
+      "lifecycle": "READY_WITH_GAPS"
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import * as THREE from "three";
 import { pointInFootprint, pointInRing } from "./spatial";
 import { acceptFocusSequence, clampMapTarget, fitCameraToBounds, fitCameraToEntity, resolveStreamAnchors, worldBounds } from "./stabilityLogic";
 import { stability } from "./stability";
+import { groundSampler } from "./GroundSampler";
 import type { EntityRecord, NavigationMode, RuntimeRefs, Viewpoint, WorldTile } from "./types";
 
 export type FocusRequest = { sequence: number; entity: EntityRecord } | null;
@@ -236,11 +237,12 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
           const collides = footprints.some((footprint) => pointInFootprint(candidate.x, candidate.z, footprint, 0.65));
           if (insideBoundary && !collides) camera.position.copy(candidate);
           else onBoundaryHit();
-          camera.position.y = 1.7;
+          camera.position.y = groundSampler.sample(camera.position.x,camera.position.z) + 1.7;
           refs.focus.current.copy(camera.position);
         }
       }
     }
+    if(mode === "WALK") camera.position.y = groundSampler.sample(camera.position.x,camera.position.z) + 1.7;
     const priority = pending.current?.entity.center ?? (transition.current ? [transition.current.toTarget.x, transition.current.toTarget.z] as [number, number] : null);
     refs.anchors.current = resolveStreamAnchors(mode, [refs.focus.current.x, refs.focus.current.z], [camera.position.x, camera.position.z], priority);
   });

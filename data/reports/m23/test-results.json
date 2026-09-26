@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "command": "pytest tests/test_m23.py tests/test_public_realm.py tests/test_m12_m14_interactive.py -q",
+      "result": "15 passed"
+    },
+    {
+      "command": "npm run build",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run lint",
+      "result": "PASS, zero warnings"
+    },
+    {
+      "command": "npm run verify:product",
+      "result": "263 place links, seven Tour stops, seven LOD handoffs PASS"
+    },
+    {
+      "command": "npm run verify:street-controls",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run verify:public-realm",
+      "result": "PASS"
+    },
+    {
+      "command": "node --experimental-strip-types scripts/verify-m23.mjs",
+      "result": "Ground interpolation, precedence, unload and fetch deduplication PASS"
+    }
+  ],
+  "browser_checks": [
+    "Mitsukoshi search selected correct place and focused its mapped podium",
+    "Tour retained seven curated stops",
+    "Walk terrain entry raised camera from 1.7m to 2.7m at sampled slope",
+    "No console errors observed during Search/Tour/Walk check"
+  ]
+}

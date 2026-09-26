@@ -1,0 +1,94 @@
+{
+  "entity_id": "shangri",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -119.41323852539062,
+        -146.10052490234375,
+        533.3645629882812
+      ],
+      "target": [
+        -459.3836669921875,
+        193.86990356445312,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\shangri\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -459.3836669921875,
+        -434.6731872558594,
+        175.68344116210938
+      ],
+      "target": [
+        -459.3836669921875,
+        193.86990356445312,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\shangri\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -459.3836669921875,
+        822.4129638671875,
+        175.68344116210938
+      ],
+      "target": [
+        -459.3836669921875,
+        193.86990356445312,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\shangri\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -864.5081787109375,
+        -211.25457763671875,
+        388.73089599609375
+      ],
+      "target": [
+        -459.3836669921875,
+        193.86990356445312,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\shangri\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        -54.259185791015625,
+        -211.25457763671875,
+        388.73089599609375
+      ],
+      "target": [
+        -459.3836669921875,
+        193.86990356445312,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\shangri\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -362.2159423828125,
+        291.0376281738281,
+        740.7955932617188
+      ],
+      "target": [
+        -459.3836669921875,
+        193.86990356445312,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\shangri\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "c8a63d80d7bc17caa7881f8b3aa5602801835b335d6684e0e6fa87ecb81287ac"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

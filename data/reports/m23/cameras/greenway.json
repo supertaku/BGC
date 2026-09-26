@@ -1,0 +1,94 @@
+{
+  "entity_id": "greenway",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        506.7955322265625,
+        -1365.9835205078125,
+        1516.75537109375
+      ],
+      "target": [
+        -754.31298828125,
+        -104.875,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\greenway\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -754.31298828125,
+        -2436.43359375,
+        4.0
+      ],
+      "target": [
+        -754.31298828125,
+        -104.875,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\greenway\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -754.31298828125,
+        2226.68359375,
+        4.0
+      ],
+      "target": [
+        -754.31298828125,
+        -104.875,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\greenway\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -2257.108154296875,
+        -1607.670166015625,
+        980.2418823242188
+      ],
+      "target": [
+        -754.31298828125,
+        -104.875,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\greenway\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        748.482177734375,
+        -1607.670166015625,
+        980.2418823242188
+      ],
+      "target": [
+        -754.31298828125,
+        -104.875,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\greenway\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -393.8726806640625,
+        255.5653076171875,
+        2286.21337890625
+      ],
+      "target": [
+        -754.31298828125,
+        -104.875,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\greenway\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "768d15a947a8700c891eb5eb8f6b595938b8dd98ed7ba5a56ac3475176061d55"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

@@ -1,0 +1,94 @@
+{
+  "entity_id": "terra_28th",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        133.2315673828125,
+        -396.7455749511719,
+        292.3874816894531
+      ],
+      "target": [
+        -107.57050323486328,
+        -155.94349670410156,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\terra_28th\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -107.57050323486328,
+        -601.1424560546875,
+        4.0
+      ],
+      "target": [
+        -107.57050323486328,
+        -155.94349670410156,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\terra_28th\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -107.57050323486328,
+        289.25543212890625,
+        4.0
+      ],
+      "target": [
+        -107.57050323486328,
+        -155.94349670410156,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\terra_28th\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -394.5213623046875,
+        -442.89434814453125,
+        189.9430694580078
+      ],
+      "target": [
+        -107.57050323486328,
+        -155.94349670410156,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\terra_28th\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        179.38037109375,
+        -442.89434814453125,
+        189.9430694580078
+      ],
+      "target": [
+        -107.57050323486328,
+        -155.94349670410156,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\terra_28th\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -38.746315002441406,
+        -87.11930847167969,
+        439.3114929199219
+      ],
+      "target": [
+        -107.57050323486328,
+        -155.94349670410156,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\terra_28th\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "ea125789c8300dcf750234ccaadc3914b240b51e2722454c3ce21e1c5db859d8"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

@@ -1,0 +1,475 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_005_009",
+  "input_sha256": "befe998c5354d9429595990d39d97bc78345bf11bef33def7d7b4d9b8394f8f6",
+  "output_sha256": "4156776df69c577aaee41efbb9eb2196f3e49d0248444952f63440a55f205448",
+  "building_count": 32,
+  "render_volume_count": 46,
+  "mesh_count": 7,
+  "triangle_count": 4592,
+  "material_count": 6,
+  "bytes": 223284,
+  "entities": [
+    {
+      "entity_id": "osm:way:302944456",
+      "source_feature_id": "osm:way:302944456",
+      "name": "The Montane",
+      "height_m": 28.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:302944456",
+      "source_feature_id": "osm:way:917184699",
+      "name": null,
+      "height_m": 149.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:321083384",
+      "source_feature_id": "osm:way:321083384",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083390",
+      "source_feature_id": "osm:way:321083390",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083391",
+      "source_feature_id": "osm:way:321083391",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083395",
+      "source_feature_id": "osm:way:321083395",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083400",
+      "source_feature_id": "osm:way:321083400",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083401",
+      "source_feature_id": "osm:way:321083401",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083403",
+      "source_feature_id": "osm:way:321083403",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083409",
+      "source_feature_id": "osm:way:321083409",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:321083411",
+      "source_feature_id": "osm:way:321083411",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32488096",
+      "source_feature_id": "osm:way:32488096",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340064939",
+      "source_feature_id": "osm:way:340064939",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340064940",
+      "source_feature_id": "osm:way:340064940",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340064955",
+      "source_feature_id": "osm:way:340064955",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340064956",
+      "source_feature_id": "osm:way:340064956",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340064970",
+      "source_feature_id": "osm:way:340064970",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140426",
+      "source_feature_id": "osm:way:401140426",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140427",
+      "source_feature_id": "osm:way:401140427",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140446",
+      "source_feature_id": "osm:way:401140446",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140450",
+      "source_feature_id": "osm:way:401140450",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140454",
+      "source_feature_id": "osm:way:401140454",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140460",
+      "source_feature_id": "osm:way:401140460",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140464",
+      "source_feature_id": "osm:way:401140464",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140482",
+      "source_feature_id": "osm:way:401140482",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140493",
+      "source_feature_id": "osm:way:401140493",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140496",
+      "source_feature_id": "osm:way:401140496",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:401140502",
+      "source_feature_id": "osm:way:401140502",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:440001487",
+      "source_feature_id": "osm:way:440001487",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:1454569538",
+      "name": null,
+      "height_m": 40.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:1454569540",
+      "name": null,
+      "height_m": 40.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:538341462",
+      "name": null,
+      "height_m": 191.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:538341463",
+      "name": "Federal Land Tower",
+      "height_m": 235.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:541979893",
+      "name": null,
+      "height_m": 176.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:541979894",
+      "name": null,
+      "height_m": 161.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:541979895",
+      "name": null,
+      "height_m": 147.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:580263352",
+      "name": null,
+      "height_m": 240.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:580263353",
+      "name": null,
+      "height_m": 258.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:580263354",
+      "name": "Grand Hyatt Manila",
+      "height_m": 37.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "hotel",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:580263354",
+      "source_feature_id": "osm:way:582087456",
+      "name": null,
+      "height_m": 246.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:713418275",
+      "source_feature_id": "osm:way:713418275",
+      "name": "One Uptown Residence",
+      "height_m": 163.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:746423902",
+      "source_feature_id": "osm:way:1069903887",
+      "name": null,
+      "height_m": 172.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:746423902",
+      "source_feature_id": "osm:way:1069903888",
+      "name": null,
+      "height_m": 124.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:746423902",
+      "source_feature_id": "osm:way:1069903889",
+      "name": null,
+      "height_m": 84.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:746423902",
+      "source_feature_id": "osm:way:746423902",
+      "name": "Grand Hyatt Manila Residences South",
+      "height_m": 29.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "hotel",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:781539167",
+      "source_feature_id": "osm:way:781539167",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ],
+  "representation": "MERGED_BY_TILE_MATERIAL"
+}

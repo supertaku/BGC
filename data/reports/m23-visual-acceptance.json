@@ -1,0 +1,1631 @@
+{
+  "status": "AWAITING_USER_TEST",
+  "engineering_validation": "PASS",
+  "approved_assets_preserved": 7,
+  "default_enabled": false,
+  "m24_started": false,
+  "cameras": [
+    {
+      "entity_id": "acpt",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -39.68621826171875,
+            -45.73284912109375,
+            390.0631408691406
+          ],
+          "target": [
+            -308.0721435546875,
+            222.653076171875,
+            68.0
+          ],
+          "image": "blender\\renders\\m23\\final\\acpt\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -308.0721435546875,
+            -273.5433654785156,
+            107.69570922851562
+          ],
+          "target": [
+            -308.0721435546875,
+            222.653076171875,
+            68.0
+          ],
+          "image": "blender\\renders\\m23\\final\\acpt\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -308.0721435546875,
+            718.8494873046875,
+            107.69570922851562
+          ],
+          "target": [
+            -308.0721435546875,
+            222.653076171875,
+            68.0
+          ],
+          "image": "blender\\renders\\m23\\final\\acpt\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -627.8931884765625,
+            -97.16799926757812,
+            275.8836975097656
+          ],
+          "target": [
+            -308.0721435546875,
+            222.653076171875,
+            68.0
+          ],
+          "image": "blender\\renders\\m23\\final\\acpt\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            11.748931884765625,
+            -97.16799926757812,
+            275.8836975097656
+          ],
+          "target": [
+            -308.0721435546875,
+            222.653076171875,
+            68.0
+          ],
+          "image": "blender\\renders\\m23\\final\\acpt\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -231.36415100097656,
+            299.361083984375,
+            553.8172607421875
+          ],
+          "target": [
+            -308.0721435546875,
+            222.653076171875,
+            68.0
+          ],
+          "image": "blender\\renders\\m23\\final\\acpt\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "10fb4b0a2bb27ffe0c1d89a9e99b9fbd6da8c4a17c08abf0fcf888aa58543e50"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "burgos_circle",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -613.6290283203125,
+            121.16356658935547,
+            117.44621276855469
+          ],
+          "target": [
+            -711.4329833984375,
+            218.96749877929688,
+            0.08150000125169754
+          ],
+          "image": "blender\\renders\\m23\\final\\burgos_circle\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -711.4329833984375,
+            38.14595031738281,
+            4.0
+          ],
+          "target": [
+            -711.4329833984375,
+            218.96749877929688,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\burgos_circle\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -711.4329833984375,
+            399.7890625,
+            4.0
+          ],
+          "target": [
+            -711.4329833984375,
+            218.96749877929688,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\burgos_circle\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -827.9806518554688,
+            102.41981506347656,
+            75.83748626708984
+          ],
+          "target": [
+            -711.4329833984375,
+            218.96749877929688,
+            0.08150000125169754
+          ],
+          "image": "blender\\renders\\m23\\final\\burgos_circle\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            -594.8853149414062,
+            102.41981506347656,
+            75.83748626708984
+          ],
+          "target": [
+            -711.4329833984375,
+            218.96749877929688,
+            0.08150000125169754
+          ],
+          "image": "blender\\renders\\m23\\final\\burgos_circle\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -683.4794311523438,
+            246.9210662841797,
+            177.1207275390625
+          ],
+          "target": [
+            -711.4329833984375,
+            218.96749877929688,
+            0.08150000125169754
+          ],
+          "image": "blender\\renders\\m23\\final\\burgos_circle\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "71b1dad5502c9ea442a0f8339bbdf2c53769355b482ab069ffe17be20271682d"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "greenway",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            506.7955322265625,
+            -1365.9835205078125,
+            1516.75537109375
+          ],
+          "target": [
+            -754.31298828125,
+            -104.875,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\greenway\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -754.31298828125,
+            -2436.43359375,
+            4.0
+          ],
+          "target": [
+            -754.31298828125,
+            -104.875,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\greenway\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -754.31298828125,
+            2226.68359375,
+            4.0
+          ],
+          "target": [
+            -754.31298828125,
+            -104.875,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\greenway\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -2257.108154296875,
+            -1607.670166015625,
+            980.2418823242188
+          ],
+          "target": [
+            -754.31298828125,
+            -104.875,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\greenway\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            748.482177734375,
+            -1607.670166015625,
+            980.2418823242188
+          ],
+          "target": [
+            -754.31298828125,
+            -104.875,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\greenway\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -393.8726806640625,
+            255.5653076171875,
+            2286.21337890625
+          ],
+          "target": [
+            -754.31298828125,
+            -104.875,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\greenway\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "768d15a947a8700c891eb5eb8f6b595938b8dd98ed7ba5a56ac3475176061d55"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "high_street",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            816.334228515625,
+            -954.2308959960938,
+            1163.3638916015625
+          ],
+          "target": [
+            -148.38571166992188,
+            10.489028930664062,
+            5.699999809265137
+          ],
+          "image": "blender\\renders\\m23\\final\\high_street\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -148.38571166992188,
+            -1773.1014404296875,
+            4.0
+          ],
+          "target": [
+            -148.38571166992188,
+            10.489028930664062,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\high_street\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -148.38571166992188,
+            1794.0794677734375,
+            4.0
+          ],
+          "target": [
+            -148.38571166992188,
+            10.489028930664062,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\high_street\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -1297.9906005859375,
+            -1139.1158447265625,
+            752.943115234375
+          ],
+          "target": [
+            -148.38571166992188,
+            10.489028930664062,
+            5.699999809265137
+          ],
+          "image": "blender\\renders\\m23\\final\\high_street\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            1001.2191162109375,
+            -1139.1158447265625,
+            752.943115234375
+          ],
+          "target": [
+            -148.38571166992188,
+            10.489028930664062,
+            5.699999809265137
+          ],
+          "image": "blender\\renders\\m23\\final\\high_street\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            127.34307861328125,
+            286.21783447265625,
+            1751.982177734375
+          ],
+          "target": [
+            -148.38571166992188,
+            10.489028930664062,
+            5.699999809265137
+          ],
+          "image": "blender\\renders\\m23\\final\\high_street\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "9d08c5bc671672608e2e206b680536612058e17caa019f285da04639ca6f58fe"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "high_street_central",
+      "iteration": "final_verified",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -0.8050537109375,
+            -191.2759552001953,
+            294.3427429199219
+          ],
+          "target": [
+            -243.23651123046875,
+            51.15550231933594,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\high_street_central\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -243.23651123046875,
+            -397.05584716796875,
+            4.0
+          ],
+          "target": [
+            -243.23651123046875,
+            51.15550231933594,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\high_street_central\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -243.23651123046875,
+            499.3668212890625,
+            4.0
+          ],
+          "target": [
+            -243.23651123046875,
+            51.15550231933594,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\high_street_central\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -532.1290283203125,
+            -237.7370147705078,
+            191.20513916015625
+          ],
+          "target": [
+            -243.23651123046875,
+            51.15550231933594,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\high_street_central\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            45.656005859375,
+            -237.7370147705078,
+            191.20513916015625
+          ],
+          "target": [
+            -243.23651123046875,
+            51.15550231933594,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\high_street_central\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -173.94662475585938,
+            120.44538879394531,
+            442.2608947753906
+          ],
+          "target": [
+            -243.23651123046875,
+            51.15550231933594,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\high_street_central\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "92943f92d742e78ff764c569a2f485d25b0da130d82f984c8804b154383f5b34"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "kasalikasan",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -514.427001953125,
+            -446.98699951171875,
+            234.5054168701172
+          ],
+          "target": [
+            -706.9940185546875,
+            -254.4199981689453,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\kasalikasan\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -706.9940185546875,
+            -610.4411010742188,
+            4.0
+          ],
+          "target": [
+            -706.9940185546875,
+            -254.4199981689453,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\kasalikasan\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -706.9940185546875,
+            101.60111999511719,
+            4.0
+          ],
+          "target": [
+            -706.9940185546875,
+            -254.4199981689453,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\kasalikasan\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -936.4657592773438,
+            -483.8917236328125,
+            152.58163452148438
+          ],
+          "target": [
+            -706.9940185546875,
+            -254.4199981689453,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\kasalikasan\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            -477.52227783203125,
+            -483.8917236328125,
+            152.58163452148438
+          ],
+          "target": [
+            -706.9940185546875,
+            -254.4199981689453,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\kasalikasan\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -651.9559936523438,
+            -199.38198852539062,
+            351.9990539550781
+          ],
+          "target": [
+            -706.9940185546875,
+            -254.4199981689453,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\kasalikasan\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "0dff4f0f89bf25f58ff7aa87ff58592aa3a445098c449835f2141a5a05328dc4"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "mind_museum",
+      "iteration": "repaired",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -414.6290283203125,
+            -28.522476196289062,
+            217.83787536621094
+          ],
+          "target": [
+            -589.1384887695312,
+            145.98699951171875,
+            8.42650032043457
+          ],
+          "image": "blender\\renders\\m23\\repaired\\mind_museum\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -589.1384887695312,
+            -176.6490478515625,
+            4.0
+          ],
+          "target": [
+            -589.1384887695312,
+            145.98699951171875,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\repaired\\mind_museum\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -589.1384887695312,
+            468.623046875,
+            4.0
+          ],
+          "target": [
+            -589.1384887695312,
+            145.98699951171875,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\repaired\\mind_museum\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -797.092041015625,
+            -61.966552734375,
+            143.59629821777344
+          ],
+          "target": [
+            -589.1384887695312,
+            145.98699951171875,
+            8.42650032043457
+          ],
+          "image": "blender\\renders\\m23\\repaired\\mind_museum\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            -381.1849365234375,
+            -61.966552734375,
+            143.59629821777344
+          ],
+          "target": [
+            -589.1384887695312,
+            145.98699951171875,
+            8.42650032043457
+          ],
+          "image": "blender\\renders\\m23\\repaired\\mind_museum\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -539.2615356445312,
+            195.86395263671875,
+            324.3138427734375
+          ],
+          "target": [
+            -589.1384887695312,
+            145.98699951171875,
+            8.42650032043457
+          ],
+          "image": "blender\\renders\\m23\\repaired\\mind_museum\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "525046e3353f6dbf955e3957ce8367e60f8e7f1272e6a5d96dae3c73d36eccbb"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "mitsukoshi",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            436.30865478515625,
+            597.8783569335938,
+            315.65179443359375
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            6.0
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            178.2655029296875,
+            378.8469543457031,
+            4.0
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            178.2655029296875,
+            1332.99609375,
+            4.0
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -129.23065185546875,
+            548.4253540039062,
+            205.87249755859375
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            6.0
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            485.76165771484375,
+            548.4253540039062,
+            205.87249755859375
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            6.0
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            252.0174102783203,
+            929.6734008789062,
+            473.0953674316406
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            6.0
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "789d6891e96b5a033de9f15c5b542683230f07acacd2c667afac29cf1deff85d"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "mitsukoshi_ensemble",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            515.5198974609375,
+            518.6671142578125,
+            497.5552978515625
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            178.2655029296875,
+            232.39990234375,
+            142.73171997070312
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            178.2655029296875,
+            1479.443115234375,
+            142.73171997070312
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -223.6224365234375,
+            454.0335693359375,
+            354.0771789550781
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            580.1534423828125,
+            454.0335693359375,
+            354.0771789550781
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            274.6569519042969,
+            952.31298828125,
+            703.3291015625
+          ],
+          "target": [
+            178.2655029296875,
+            855.9215087890625,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "789d6891e96b5a033de9f15c5b542683230f07acacd2c667afac29cf1deff85d",
+        "c64db8f607b91ef116565de238cc3fd938dc729f2369beda2d0257dcc2417af5"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "one_bonifacio_ensemble",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            1.85546875,
+            -337.35546875,
+            680.2266235351562
+          ],
+          "target": [
+            -460.5,
+            125.0,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -460.5,
+            -729.8106079101562,
+            193.78485107421875
+          ],
+          "target": [
+            -460.5,
+            125.0,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -460.5,
+            979.8106079101562,
+            193.78485107421875
+          ],
+          "target": [
+            -460.5,
+            125.0,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -1011.4641723632812,
+            -425.96417236328125,
+            483.52667236328125
+          ],
+          "target": [
+            -460.5,
+            125.0,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            90.46417236328125,
+            -425.96417236328125,
+            483.52667236328125
+          ],
+          "target": [
+            -460.5,
+            125.0,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -328.3531494140625,
+            257.1468505859375,
+            962.3301391601562
+          ],
+          "target": [
+            -460.5,
+            125.0,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "590e2d26bfe5e9b8479793001fc821ee61bb45e4791e2cb5677007cacc269008",
+        "f099464b7a6535f448a3c7f096e9fe506e84199a715f31a7c21eee9ead231a63",
+        "c8a63d80d7bc17caa7881f8b3aa5602801835b335d6684e0e6fa87ecb81287ac",
+        "cdb062aa9d2f4bf9c9ff44ec26534d60cc5b77890d2618415afb2368f20b348b",
+        "0613a3148065cd6a0d40d70bc1ffce17706c0c5bcee265eaf7ecfedc21b80df2"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "pse",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -203.95802307128906,
+            -150.077880859375,
+            322.19268798828125
+          ],
+          "target": [
+            -417.5352783203125,
+            63.499366760253906,
+            65.9000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\pse\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -417.5352783203125,
+            -331.3658447265625,
+            97.48921966552734
+          ],
+          "target": [
+            -417.5352783203125,
+            63.499366760253906,
+            65.9000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\pse\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -417.5352783203125,
+            458.36456298828125,
+            97.48921966552734
+          ],
+          "target": [
+            -417.5352783203125,
+            63.499366760253906,
+            65.9000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\pse\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -672.0438232421875,
+            -191.0091552734375,
+            231.33053588867188
+          ],
+          "target": [
+            -417.5352783203125,
+            63.499366760253906,
+            65.9000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\pse\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            -163.02676391601562,
+            -191.0091552734375,
+            231.33053588867188
+          ],
+          "target": [
+            -417.5352783203125,
+            63.499366760253906,
+            65.9000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\pse\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -356.4922790527344,
+            124.54236602783203,
+            452.505615234375
+          ],
+          "target": [
+            -417.5352783203125,
+            63.499366760253906,
+            65.9000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\pse\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "590e2d26bfe5e9b8479793001fc821ee61bb45e4791e2cb5677007cacc269008"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "seasons",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            483.31243896484375,
+            547.2550048828125,
+            469.5455322265625
+          ],
+          "target": [
+            169.39950561523438,
+            861.16796875,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\seasons\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            169.39950561523438,
+            280.80047607421875,
+            139.27940368652344
+          ],
+          "target": [
+            169.39950561523438,
+            861.16796875,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\seasons\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            169.39950561523438,
+            1441.535400390625,
+            139.27940368652344
+          ],
+          "target": [
+            169.39950561523438,
+            861.16796875,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\seasons\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -204.67364501953125,
+            487.0948181152344,
+            335.99755859375
+          ],
+          "target": [
+            169.39950561523438,
+            861.16796875,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\seasons\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            543.47265625,
+            487.0948181152344,
+            335.99755859375
+          ],
+          "target": [
+            169.39950561523438,
+            861.16796875,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\seasons\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            259.11968994140625,
+            950.8881225585938,
+            661.0776977539062
+          ],
+          "target": [
+            169.39950561523438,
+            861.16796875,
+            92.8499984741211
+          ],
+          "image": "blender\\renders\\m23\\final\\seasons\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "c64db8f607b91ef116565de238cc3fd938dc729f2369beda2d0257dcc2417af5"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "shangri",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -119.41323852539062,
+            -146.10052490234375,
+            533.3645629882812
+          ],
+          "target": [
+            -459.3836669921875,
+            193.86990356445312,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\shangri\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -459.3836669921875,
+            -434.6731872558594,
+            175.68344116210938
+          ],
+          "target": [
+            -459.3836669921875,
+            193.86990356445312,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\shangri\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -459.3836669921875,
+            822.4129638671875,
+            175.68344116210938
+          ],
+          "target": [
+            -459.3836669921875,
+            193.86990356445312,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\shangri\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -864.5081787109375,
+            -211.25457763671875,
+            388.73089599609375
+          ],
+          "target": [
+            -459.3836669921875,
+            193.86990356445312,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\shangri\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            -54.259185791015625,
+            -211.25457763671875,
+            388.73089599609375
+          ],
+          "target": [
+            -459.3836669921875,
+            193.86990356445312,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\shangri\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -362.2159423828125,
+            291.0376281738281,
+            740.7955932617188
+          ],
+          "target": [
+            -459.3836669921875,
+            193.86990356445312,
+            125.4000015258789
+          ],
+          "image": "blender\\renders\\m23\\final\\shangri\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "c8a63d80d7bc17caa7881f8b3aa5602801835b335d6684e0e6fa87ecb81287ac"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "sm_aura",
+      "iteration": "final_verified",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            752.49267578125,
+            -962.5914306640625,
+            578.75146484375
+          ],
+          "target": [
+            323.19976806640625,
+            -533.2984619140625,
+            63.599998474121094
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\sm_aura\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            323.19976806640625,
+            -1326.982421875,
+            127.09471130371094
+          ],
+          "target": [
+            323.19976806640625,
+            -533.2984619140625,
+            63.599998474121094
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\sm_aura\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            323.19976806640625,
+            260.385498046875,
+            127.09471130371094
+          ],
+          "target": [
+            323.19976806640625,
+            -533.2984619140625,
+            63.599998474121094
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\sm_aura\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -188.36550903320312,
+            -1044.86376953125,
+            396.117431640625
+          ],
+          "target": [
+            323.19976806640625,
+            -533.2984619140625,
+            63.599998474121094
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\sm_aura\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            834.7650146484375,
+            -1044.86376953125,
+            396.117431640625
+          ],
+          "target": [
+            323.19976806640625,
+            -533.2984619140625,
+            63.599998474121094
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\sm_aura\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            445.89697265625,
+            -410.60125732421875,
+            840.68212890625
+          ],
+          "target": [
+            323.19976806640625,
+            -533.2984619140625,
+            63.599998474121094
+          ],
+          "image": "blender\\renders\\m23\\final_verified\\sm_aura\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "c54475da8c90222dbab12e8cf7eb5774a0a61f07bd34a39ac3fe19f4a7c21a1d"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "suites",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            -178.328369140625,
+            -227.56460571289062,
+            492.4955749511719
+          ],
+          "target": [
+            -494.1579895019531,
+            88.2650146484375,
+            113.5
+          ],
+          "image": "blender\\renders\\m23\\final\\suites\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -494.1579895019531,
+            -495.6461181640625,
+            160.212890625
+          ],
+          "target": [
+            -494.1579895019531,
+            88.2650146484375,
+            113.5
+          ],
+          "image": "blender\\renders\\m23\\final\\suites\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -494.1579895019531,
+            672.1761474609375,
+            160.212890625
+          ],
+          "target": [
+            -494.1579895019531,
+            88.2650146484375,
+            113.5
+          ],
+          "image": "blender\\renders\\m23\\final\\suites\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -870.51513671875,
+            -288.0921630859375,
+            358.13214111328125
+          ],
+          "target": [
+            -494.1579895019531,
+            88.2650146484375,
+            113.5
+          ],
+          "image": "blender\\renders\\m23\\final\\suites\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            -117.80081176757812,
+            -288.0921630859375,
+            358.13214111328125
+          ],
+          "target": [
+            -494.1579895019531,
+            88.2650146484375,
+            113.5
+          ],
+          "image": "blender\\renders\\m23\\final\\suites\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -403.8900146484375,
+            178.53298950195312,
+            685.1972045898438
+          ],
+          "target": [
+            -494.1579895019531,
+            88.2650146484375,
+            113.5
+          ],
+          "image": "blender\\renders\\m23\\final\\suites\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "f099464b7a6535f448a3c7f096e9fe506e84199a715f31a7c21eee9ead231a63"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "terra_28th",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            133.2315673828125,
+            -396.7455749511719,
+            292.3874816894531
+          ],
+          "target": [
+            -107.57050323486328,
+            -155.94349670410156,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\terra_28th\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -107.57050323486328,
+            -601.1424560546875,
+            4.0
+          ],
+          "target": [
+            -107.57050323486328,
+            -155.94349670410156,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\terra_28th\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -107.57050323486328,
+            289.25543212890625,
+            4.0
+          ],
+          "target": [
+            -107.57050323486328,
+            -155.94349670410156,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\terra_28th\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -394.5213623046875,
+            -442.89434814453125,
+            189.9430694580078
+          ],
+          "target": [
+            -107.57050323486328,
+            -155.94349670410156,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\terra_28th\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            179.38037109375,
+            -442.89434814453125,
+            189.9430694580078
+          ],
+          "target": [
+            -107.57050323486328,
+            -155.94349670410156,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\terra_28th\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            -38.746315002441406,
+            -87.11930847167969,
+            439.3114929199219
+          ],
+          "target": [
+            -107.57050323486328,
+            -155.94349670410156,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\terra_28th\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "ea125789c8300dcf750234ccaadc3914b240b51e2722454c3ce21e1c5db859d8"
+      ],
+      "status": "AWAITING_USER_TEST"
+    },
+    {
+      "entity_id": "track_30th",
+      "iteration": "final",
+      "cameras": [
+        {
+          "camera_id": "AERIAL",
+          "position": [
+            236.4170379638672,
+            -92.54804992675781,
+            293.3222351074219
+          ],
+          "target": [
+            -5.163997650146484,
+            149.03298950195312,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\track_30th\\AERIAL.png"
+        },
+        {
+          "camera_id": "STREET_FRONT",
+          "position": [
+            -5.163997650146484,
+            -297.6061096191406,
+            4.0
+          ],
+          "target": [
+            -5.163997650146484,
+            149.03298950195312,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\track_30th\\STREET_FRONT.png"
+        },
+        {
+          "camera_id": "STREET_REAR",
+          "position": [
+            -5.163997650146484,
+            595.672119140625,
+            4.0
+          ],
+          "target": [
+            -5.163997650146484,
+            149.03298950195312,
+            3.0
+          ],
+          "image": "blender\\renders\\m23\\final\\track_30th\\STREET_REAR.png"
+        },
+        {
+          "camera_id": "LEFT_OBLIQUE",
+          "position": [
+            -293.0431213378906,
+            -138.84613037109375,
+            190.5464324951172
+          ],
+          "target": [
+            -5.163997650146484,
+            149.03298950195312,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\track_30th\\LEFT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "RIGHT_OBLIQUE",
+          "position": [
+            282.7151184082031,
+            -138.84613037109375,
+            190.5464324951172
+          ],
+          "target": [
+            -5.163997650146484,
+            149.03298950195312,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\track_30th\\RIGHT_OBLIQUE.png"
+        },
+        {
+          "camera_id": "ROOF_OBLIQUE",
+          "position": [
+            63.88283157348633,
+            218.07981872558594,
+            440.7215270996094
+          ],
+          "target": [
+            -5.163997650146484,
+            149.03298950195312,
+            3.424999952316284
+          ],
+          "image": "blender\\renders\\m23\\final\\track_30th\\ROOF_OBLIQUE.png"
+        }
+      ],
+      "source_sha256": [
+        "0474582ebc3f6981f0e0b74bcd539a13f2c311b12355647d8ada0d2d01219d05"
+      ],
+      "status": "AWAITING_USER_TEST"
+    }
+  ],
+  "known_gaps": [
+    "Precise High Street Central elevations are estimated, not surveyed.",
+    "Artwork anchors are recorded; protected murals/sculptures are not reproduced and uncertain positions remain unset.",
+    "Unseen landmark elevations and exact tenant/brand graphics remain inferred.",
+    "Shangri-La bridges and elevated arrival arrangement need stronger placement evidence; current shared court/terrace is an approximation.",
+    "User appearance acceptance remains a promotion gate."
+  ],
+  "route": [
+    "High Street",
+    "High Street Central",
+    "Track 30th",
+    "Terra 28th",
+    "Kasalikasan",
+    "One Bonifacio ensemble",
+    "Mind Museum",
+    "SM Aura",
+    "Mitsukoshi / Seasons",
+    "Uptown / Burgos Circle"
+  ]
+}

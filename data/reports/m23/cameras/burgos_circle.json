@@ -1,0 +1,94 @@
+{
+  "entity_id": "burgos_circle",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -613.6290283203125,
+        121.16356658935547,
+        117.44621276855469
+      ],
+      "target": [
+        -711.4329833984375,
+        218.96749877929688,
+        0.08150000125169754
+      ],
+      "image": "blender\\renders\\m23\\final\\burgos_circle\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -711.4329833984375,
+        38.14595031738281,
+        4.0
+      ],
+      "target": [
+        -711.4329833984375,
+        218.96749877929688,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\burgos_circle\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -711.4329833984375,
+        399.7890625,
+        4.0
+      ],
+      "target": [
+        -711.4329833984375,
+        218.96749877929688,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\burgos_circle\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -827.9806518554688,
+        102.41981506347656,
+        75.83748626708984
+      ],
+      "target": [
+        -711.4329833984375,
+        218.96749877929688,
+        0.08150000125169754
+      ],
+      "image": "blender\\renders\\m23\\final\\burgos_circle\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        -594.8853149414062,
+        102.41981506347656,
+        75.83748626708984
+      ],
+      "target": [
+        -711.4329833984375,
+        218.96749877929688,
+        0.08150000125169754
+      ],
+      "image": "blender\\renders\\m23\\final\\burgos_circle\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -683.4794311523438,
+        246.9210662841797,
+        177.1207275390625
+      ],
+      "target": [
+        -711.4329833984375,
+        218.96749877929688,
+        0.08150000125169754
+      ],
+      "image": "blender\\renders\\m23\\final\\burgos_circle\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "71b1dad5502c9ea442a0f8339bbdf2c53769355b482ab069ffe17be20271682d"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_006_006",
+  "input_sha256": "8a13dbcb5af5cb313e8fd9d8f59d117325cfe1fcc498872656392857164793f4",
+  "output_sha256": "aa2414ff6c4c1d81892e9d01e33458cfd864eaa8dc636e11d84ab89a78451550",
+  "building_count": 13,
+  "render_volume_count": 13,
+  "mesh_count": 8,
+  "triangle_count": 6776,
+  "material_count": 6,
+  "bytes": 305800,
+  "entities": [
+    {
+      "entity_id": "osm:way:183504080",
+      "source_feature_id": "osm:way:183504080",
+      "name": null,
+      "height_m": 5.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:205968611",
+      "source_feature_id": "osm:way:205968611",
+      "name": "Fiesta Market!",
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27671928",
+      "source_feature_id": "osm:way:27671928",
+      "name": "Palm",
+      "height_m": 24.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27671952",
+      "source_feature_id": "osm:way:27671952",
+      "name": "One Serendra Spa",
+      "height_m": 4.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27672006",
+      "source_feature_id": "osm:way:27672006",
+      "name": "Bamboo",
+      "height_m": 53.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27672132",
+      "source_feature_id": "osm:way:27672132",
+      "name": "The Almond: Section B",
+      "height_m": 24.4,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:27672293",
+      "source_feature_id": "osm:way:27672293",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:318485813",
+      "source_feature_id": "osm:way:318485813",
+      "name": null,
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:846377976",
+      "source_feature_id": "osm:way:846377976",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:846377977",
+      "source_feature_id": "osm:way:846377977",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:846377978",
+      "source_feature_id": "osm:way:846377978",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:846377981",
+      "source_feature_id": "osm:way:846377981",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:846377982",
+      "source_feature_id": "osm:way:846377982",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    }
+  ],
+  "representation": "MERGED_BY_TILE_MATERIAL"
+}

@@ -1,0 +1,32 @@
+{
+  "conflicts": [
+    {
+      "entity_id": "osm:way:182331875",
+      "type": "HEIGHT_CONFLICT",
+      "height_claims": [
+        {
+          "value": 114.7,
+          "source": "osm:way:182331875",
+          "date": "PINNED_SNAPSHOT",
+          "confidence": 0.75,
+          "survey_status": "UNSURVEYED"
+        },
+        {
+          "value": 136,
+          "source": "osm:way:538344761",
+          "date": "PINNED_SNAPSHOT",
+          "confidence": 0.75,
+          "survey_status": "UNSURVEYED"
+        },
+        {
+          "value": 136,
+          "source": "acpt",
+          "date": "2026-09-26",
+          "confidence": 0.95,
+          "survey_status": "ARCHITECT_PUBLISHED"
+        }
+      ],
+      "resolution": "Retain canonical claims. Preview uses mapped 136 m part; no silent source overwrite. Search preview uses maximum part height."
+    }
+  ]
+}

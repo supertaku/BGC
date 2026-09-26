@@ -1,0 +1,98 @@
+{
+  "entity_id": "one_bonifacio_ensemble",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        1.85546875,
+        -337.35546875,
+        680.2266235351562
+      ],
+      "target": [
+        -460.5,
+        125.0,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -460.5,
+        -729.8106079101562,
+        193.78485107421875
+      ],
+      "target": [
+        -460.5,
+        125.0,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -460.5,
+        979.8106079101562,
+        193.78485107421875
+      ],
+      "target": [
+        -460.5,
+        125.0,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -1011.4641723632812,
+        -425.96417236328125,
+        483.52667236328125
+      ],
+      "target": [
+        -460.5,
+        125.0,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        90.46417236328125,
+        -425.96417236328125,
+        483.52667236328125
+      ],
+      "target": [
+        -460.5,
+        125.0,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -328.3531494140625,
+        257.1468505859375,
+        962.3301391601562
+      ],
+      "target": [
+        -460.5,
+        125.0,
+        125.4000015258789
+      ],
+      "image": "blender\\renders\\m23\\final\\one_bonifacio_ensemble\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "590e2d26bfe5e9b8479793001fc821ee61bb45e4791e2cb5677007cacc269008",
+    "f099464b7a6535f448a3c7f096e9fe506e84199a715f31a7c21eee9ead231a63",
+    "c8a63d80d7bc17caa7881f8b3aa5602801835b335d6684e0e6fa87ecb81287ac",
+    "cdb062aa9d2f4bf9c9ff44ec26534d60cc5b77890d2618415afb2368f20b348b",
+    "0613a3148065cd6a0d40d70bc1ffce17706c0c5bcee265eaf7ecfedc21b80df2"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

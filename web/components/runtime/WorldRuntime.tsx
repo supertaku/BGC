@@ -9,6 +9,7 @@ import { LandmarkLODManager } from "./LandmarkLODManager";
 import { NavigationController, type FocusRequest } from "./NavigationController";
 import { PerformanceProbe } from "./PerformanceProbe";
 import { PublicRealmManager } from "./PublicRealmManager";
+import { M23Manager } from "./M23Manager";
 import { StreetLocator } from "./StreetLocator";
 import { TileManager } from "./TileManager";
 import type { BenchmarkReport, CurrentStreet, EntityRecord, EnvironmentQuality, Footprint, InteractiveManifest, NavigationMode, RuntimeMetrics, RuntimeRefs, RuntimeSummary, TileMode, Viewpoint, WorldManifest } from "./types";
@@ -54,6 +55,7 @@ export function WorldRuntime({ manifest, interactive, tileMode, navigation, envi
     <LandmarkLODManager assets={manifest.detailed_assets ?? []} entities={interactive.entities} refs={refs} materials={visualMaterials} quality={environmentQuality} priorityAssetId={focusRequest?.entity.detailed_asset_id ?? (navigation === "TOUR" ? tourStop?.detailed_asset_id : null)} onActiveChange={onLodChange} />
     <EnvironmentManager activeIds={runtime.activeIds} quality={environmentQuality} refs={refs} materials={visualMaterials} onGroupCount={onEnvironmentGroups} />
     <PublicRealmManager activeIds={runtime.visibleIds} quality={environmentQuality} materials={visualMaterials} />
+    <M23Manager refs={refs} quality={environmentQuality} />
     <NavigationController mode={navigation} viewpoint={viewpoint} bounds={manifest.tiles ?? []} refs={refs} focusRequest={focusRequest} onBoundaryHit={onBoundaryHit} debug={debug} />
     <StreetLocator mode={navigation} refs={refs} onStreetChange={onStreetChange} />
     <InteractionManager mode={navigation} refs={refs} selected={selected} onSelect={onSelect} />

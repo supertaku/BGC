@@ -1,0 +1,705 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_007_006",
+  "input_sha256": "f2091062ccee6594cbdf90c8217f48c9798cabde81836c452ca1ab8159d95807",
+  "output_sha256": "0e49523be653b5b38f45c270e7fa4ae0c72c0b22dfee98a4103f4bc471319543",
+  "building_count": 69,
+  "render_volume_count": 69,
+  "mesh_count": 6,
+  "triangle_count": 3012,
+  "material_count": 6,
+  "bytes": 148856,
+  "entities": [
+    {
+      "entity_id": "osm:way:25006407",
+      "source_feature_id": "osm:way:25006407",
+      "name": null,
+      "height_m": 16.0,
+      "height_status": "ESTIMATED",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:291211310",
+      "source_feature_id": "osm:way:291211310",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:291211311",
+      "source_feature_id": "osm:way:291211311",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:291211314",
+      "source_feature_id": "osm:way:291211314",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:291211317",
+      "source_feature_id": "osm:way:291211317",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:291211319",
+      "source_feature_id": "osm:way:291211319",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:317613132",
+      "source_feature_id": "osm:way:317613132",
+      "name": null,
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:317613135",
+      "source_feature_id": "osm:way:317613135",
+      "name": null,
+      "height_m": 0.6,
+      "height_status": "PROCEDURAL",
+      "building_type": "roof",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231585",
+      "source_feature_id": "osm:way:340231585",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231587",
+      "source_feature_id": "osm:way:340231587",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231588",
+      "source_feature_id": "osm:way:340231588",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231589",
+      "source_feature_id": "osm:way:340231589",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231592",
+      "source_feature_id": "osm:way:340231592",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231596",
+      "source_feature_id": "osm:way:340231596",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231597",
+      "source_feature_id": "osm:way:340231597",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231598",
+      "source_feature_id": "osm:way:340231598",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231599",
+      "source_feature_id": "osm:way:340231599",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231601",
+      "source_feature_id": "osm:way:340231601",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231603",
+      "source_feature_id": "osm:way:340231603",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231604",
+      "source_feature_id": "osm:way:340231604",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231605",
+      "source_feature_id": "osm:way:340231605",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231606",
+      "source_feature_id": "osm:way:340231606",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231608",
+      "source_feature_id": "osm:way:340231608",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231610",
+      "source_feature_id": "osm:way:340231610",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231613",
+      "source_feature_id": "osm:way:340231613",
+      "name": "Giba and Agustin Residence",
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231614",
+      "source_feature_id": "osm:way:340231614",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231618",
+      "source_feature_id": "osm:way:340231618",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231619",
+      "source_feature_id": "osm:way:340231619",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231622",
+      "source_feature_id": "osm:way:340231622",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231623",
+      "source_feature_id": "osm:way:340231623",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231624",
+      "source_feature_id": "osm:way:340231624",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231626",
+      "source_feature_id": "osm:way:340231626",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231628",
+      "source_feature_id": "osm:way:340231628",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231630",
+      "source_feature_id": "osm:way:340231630",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231631",
+      "source_feature_id": "osm:way:340231631",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231635",
+      "source_feature_id": "osm:way:340231635",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231636",
+      "source_feature_id": "osm:way:340231636",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231637",
+      "source_feature_id": "osm:way:340231637",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231638",
+      "source_feature_id": "osm:way:340231638",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231639",
+      "source_feature_id": "osm:way:340231639",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231641",
+      "source_feature_id": "osm:way:340231641",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231644",
+      "source_feature_id": "osm:way:340231644",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231646",
+      "source_feature_id": "osm:way:340231646",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231647",
+      "source_feature_id": "osm:way:340231647",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231651",
+      "source_feature_id": "osm:way:340231651",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231652",
+      "source_feature_id": "osm:way:340231652",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231654",
+      "source_feature_id": "osm:way:340231654",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231657",
+      "source_feature_id": "osm:way:340231657",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231660",
+      "source_feature_id": "osm:way:340231660",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231661",
+      "source_feature_id": "osm:way:340231661",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231662",
+      "source_feature_id": "osm:way:340231662",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231665",
+      "source_feature_id": "osm:way:340231665",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231666",
+      "source_feature_id": "osm:way:340231666",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231668",
+      "source_feature_id": "osm:way:340231668",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340231669",
+      "source_feature_id": "osm:way:340231669",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234274",
+      "source_feature_id": "osm:way:340234274",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234275",
+      "source_feature_id": "osm:way:340234275",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234276",
+      "source_feature_id": "osm:way:340234276",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234282",
+      "source_feature_id": "osm:way:340234282",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234287",
+      "source_feature_id": "osm:way:340234287",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234290",
+      "source_feature_id": "osm:way:340234290",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234295",
+      "source_feature_id": "osm:way:340234295",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234298",
+      "source_feature_id": "osm:way:340234298",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234308",
+      "source_feature_id": "osm:way:340234308",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234309",
+      "source_feature_id": "osm:way:340234309",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:340234312",
+      "source_feature_id": "osm:way:340234312",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:35979062",
+      "source_feature_id": "osm:way:35979062",
+      "name": "Market! Market! Car Park",
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "garages",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:443899857",
+      "source_feature_id": "osm:way:443899857",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:443899859",
+      "source_feature_id": "osm:way:443899859",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ],
+  "representation": "MERGED_BY_TILE_MATERIAL"
+}

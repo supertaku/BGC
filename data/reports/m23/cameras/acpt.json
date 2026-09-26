@@ -1,0 +1,94 @@
+{
+  "entity_id": "acpt",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -39.68621826171875,
+        -45.73284912109375,
+        390.0631408691406
+      ],
+      "target": [
+        -308.0721435546875,
+        222.653076171875,
+        68.0
+      ],
+      "image": "blender\\renders\\m23\\final\\acpt\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -308.0721435546875,
+        -273.5433654785156,
+        107.69570922851562
+      ],
+      "target": [
+        -308.0721435546875,
+        222.653076171875,
+        68.0
+      ],
+      "image": "blender\\renders\\m23\\final\\acpt\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -308.0721435546875,
+        718.8494873046875,
+        107.69570922851562
+      ],
+      "target": [
+        -308.0721435546875,
+        222.653076171875,
+        68.0
+      ],
+      "image": "blender\\renders\\m23\\final\\acpt\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -627.8931884765625,
+        -97.16799926757812,
+        275.8836975097656
+      ],
+      "target": [
+        -308.0721435546875,
+        222.653076171875,
+        68.0
+      ],
+      "image": "blender\\renders\\m23\\final\\acpt\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        11.748931884765625,
+        -97.16799926757812,
+        275.8836975097656
+      ],
+      "target": [
+        -308.0721435546875,
+        222.653076171875,
+        68.0
+      ],
+      "image": "blender\\renders\\m23\\final\\acpt\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -231.36415100097656,
+        299.361083984375,
+        553.8172607421875
+      ],
+      "target": [
+        -308.0721435546875,
+        222.653076171875,
+        68.0
+      ],
+      "image": "blender\\renders\\m23\\final\\acpt\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "10fb4b0a2bb27ffe0c1d89a9e99b9fbd6da8c4a17c08abf0fcf888aa58543e50"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

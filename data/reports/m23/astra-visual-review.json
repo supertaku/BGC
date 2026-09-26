@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "milestone": "M23",
+  "reviewer": "Astra visual reviewer",
+  "review_date": "2026-09-26",
+  "review_type": "second_final_structured_visual_comparison",
+  "acceptance": "NOT_ASSERTED",
+  "scope": "Read-only visual comparison; this report is the only edited file. No implementation, survey, runtime collision or performance validation.",
+  "comparison_roots": [
+    "blender/renders/m23/v1",
+    "blender/renders/m23/v2",
+    "blender/renders/m23/final"
+  ],
+  "reviewed_final_sets": [
+    {
+      "entity": "high_street_central",
+      "views": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "ROOF_OBLIQUE",
+        "STREET_FRONT",
+        "STREET_REAR"
+      ]
+    },
+    {
+      "entity": "mind_museum",
+      "views": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "ROOF_OBLIQUE",
+        "STREET_FRONT",
+        "STREET_REAR"
+      ]
+    },
+    {
+      "entity": "mitsukoshi_ensemble",
+      "views": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "ROOF_OBLIQUE",
+        "STREET_FRONT",
+        "STREET_REAR"
+      ]
+    },
+    {
+      "entity": "one_bonifacio_ensemble",
+      "views": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "ROOF_OBLIQUE",
+        "STREET_FRONT",
+        "STREET_REAR"
+      ]
+    },
+    {
+      "entity": "sm_aura",
+      "views": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "ROOF_OBLIQUE",
+        "STREET_FRONT",
+        "STREET_REAR"
+      ]
+    }
+  ],
+  "not_reviewed_final_sets": [],
+  "reviewed_v2_views": [
+    "high_street_central/AERIAL",
+    "mind_museum/STREET_FRONT",
+    "mitsukoshi/STREET_FRONT",
+    "sm_aura/AERIAL"
+  ],
+  "source_uncertainty": [
+    "User photographs 5-8 were inspected in the first review; camera orientation, capture dates and measured dimensions remain unknown.",
+    "The Shangri-La, SM Aura and High Street Central comparisons rely on supplied brief and manifest observations, not newly retrieved photographs.",
+    "Final images are isolated asset/ensemble renders and do not establish full city integration, landscaping completeness, collision correctness or subjective visual acceptance.",
+    "A resolution status is limited to the named discrepancy; it is not acceptance of an entire entity."
+  ],
+  "findings": [
+    {
+      "finding_id": "M23-ASTRA-001",
+      "entity_id": "high_street_central",
+      "camera_id": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "ROOF_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/high_street_central/AERIAL.png",
+        "blender/renders/m23/final/high_street_central/LEFT_OBLIQUE.png",
+        "blender/renders/m23/final/high_street_central/ROOF_OBLIQUE.png"
+      ],
+      "severity": "MEDIUM",
+      "category": "terrain_geometry",
+      "original_discrepancy": "v1 black path cracks, jagged radial triangles and central wedge; v2 retained radial triangles.",
+      "final_status": "PARTIALLY_RESOLVED",
+      "observation": "Final removes the black cracks and radial triangles. A sharply triangular ramp-like object still crosses the seating rings toward the center; its functional connection and photographic basis remain unverified.",
+      "reference_evidence": [
+        "M23_BRIEF W-AB",
+        "manifest:central"
+      ],
+      "recommended_change": "Keep seam repair. Inspect the ramp junction at closer range and compare its placement with the existing central-zone reference before changing its geometry.",
+      "confidence": "MEDIUM",
+      "requires_research": false,
+      "source_uncertainty": "The brief establishes amphitheater/terraces, not an exact circular plan or radial ramp position. The remaining shape is a concern, not proof of geographical error."
+    },
+    {
+      "finding_id": "M23-ASTRA-002",
+      "entity_id": "mind_museum",
+      "camera_id": [
+        "STREET_FRONT",
+        "STREET_REAR",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/mind_museum/STREET_FRONT.png",
+        "blender/renders/m23/final/mind_museum/STREET_REAR.png",
+        "blender/renders/m23/final/mind_museum/LEFT_OBLIQUE.png",
+        "blender/renders/m23/final/mind_museum/RIGHT_OBLIQUE.png"
+      ],
+      "severity": "HIGH",
+      "category": "roof_silhouette",
+      "original_discrepancy": "v1 roof was a thin nearly flat slab.",
+      "final_status": "PARTIALLY_RESOLVED",
+      "observation": "The roof now has visible curvature and a curled edge, but still reads as a thin floating sheet rather than the deep sweeping fascia and downturned end visible in the supplied photo.",
+      "reference_evidence": [
+        "manifest:user_photo_6",
+        "M23_BRIEF AS"
+      ],
+      "recommended_change": "Give the evidenced roof edge a substantial connected fascia and deeper downturned return, using estimated cross-sections rather than invented precise dimensions.",
+      "confidence": "HIGH",
+      "requires_research": false,
+      "source_uncertainty": "Dimensions and cardinal orientation are not verified."
+    },
+    {
+      "finding_id": "M23-ASTRA-003",
+      "entity_id": "mind_museum",
+      "camera_id": [
+        "STREET_FRONT",
+        "STREET_REAR",
+        "LEFT_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/mind_museum/STREET_FRONT.png",
+        "blender/renders/m23/final/mind_museum/STREET_REAR.png",
+        "blender/renders/m23/final/mind_museum/LEFT_OBLIQUE.png"
+      ],
+      "severity": "HIGH",
+      "category": "structure_and_mass",
+      "original_discrepancy": "v1 small upright posts and continuous enclosed mass obscured the substantial inclined entrance supports.",
+      "final_status": "PARTIALLY_RESOLVED",
+      "observation": "Supports are now inclined and the occupied volume is recessed. Several supports visibly terminate below the roof, leaving gaps; from LEFT_OBLIQUE the right pair reads as detached stubs.",
+      "reference_evidence": [
+        "manifest:user_photo_6",
+        "final render geometry"
+      ],
+      "recommended_change": "Extend or reposition support tops to contact the roof underside at their actual local positions; preserve the entrance void. Verify with a close entrance oblique.",
+      "confidence": "HIGH",
+      "requires_research": false,
+      "source_uncertainty": "Dimensions and cardinal orientation are not verified."
+    },
+    {
+      "finding_id": "M23-ASTRA-004",
+      "entity_id": "mitsukoshi",
+      "camera_id": [
+        "STREET_FRONT",
+        "STREET_REAR",
+        "RIGHT_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/mitsukoshi_ensemble/STREET_FRONT.png",
+        "blender/renders/m23/final/mitsukoshi_ensemble/STREET_REAR.png",
+        "blender/renders/m23/final/mitsukoshi_ensemble/RIGHT_OBLIQUE.png"
+      ],
+      "severity": "MEDIUM",
+      "category": "facade_pattern",
+      "original_discrepancy": "v1 screen consisted of sparse disconnected diagonal marks.",
+      "final_status": "IMPROVED_NOT_FULLY_VERIFIED",
+      "observation": "v2 podium view shows a much denser connected repeating screen. Final ensemble views retain the light screen band, but the podium is too small in frame to verify the leaf-cell structure or continuity at corners.",
+      "reference_evidence": [
+        "manifest:user_photo_7",
+        "manifest:user_photo_8",
+        "blender/renders/m23/v2/mitsukoshi/STREET_FRONT.png"
+      ],
+      "recommended_change": "Retain the denser screen and add one close podium oblique for final pattern verification.",
+      "confidence": "MEDIUM",
+      "requires_research": false,
+      "source_uncertainty": "Dimensions and cardinal orientation are not verified."
+    },
+    {
+      "finding_id": "M23-ASTRA-005",
+      "entity_id": "mitsukoshi",
+      "camera_id": [
+        "STREET_FRONT",
+        "STREET_REAR",
+        "RIGHT_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/mitsukoshi_ensemble/STREET_FRONT.png",
+        "blender/renders/m23/final/mitsukoshi_ensemble/STREET_REAR.png",
+        "blender/renders/m23/final/mitsukoshi_ensemble/RIGHT_OBLIQUE.png"
+      ],
+      "severity": "MEDIUM",
+      "category": "facade_hierarchy",
+      "original_discrepancy": "v1 lacked substantial screen bays, solid vertical divisions and a differentiated glazed base.",
+      "final_status": "IMPROVED_NOT_FULLY_VERIFIED",
+      "observation": "v2 shows solid piers separating screen fields and a darker glazed base. In the final ensemble the entire podium remains visually shallow; perspective-matched evidence is insufficient to establish whether its height is wrong.",
+      "reference_evidence": [
+        "manifest:user_photo_7",
+        "manifest:user_photo_8",
+        "blender/renders/m23/v2/mitsukoshi/STREET_FRONT.png"
+      ],
+      "recommended_change": "Verify the podium/tower proportion in a closer street oblique before changing authoritative heights. Do not treat perspective distortion in the photos as a measurement.",
+      "confidence": "MEDIUM",
+      "requires_research": false,
+      "source_uncertainty": "Dimensions and cardinal orientation are not verified."
+    },
+    {
+      "finding_id": "M23-ASTRA-006",
+      "entity_id": "mitsukoshi",
+      "camera_id": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "ROOF_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/mitsukoshi_ensemble/AERIAL.png",
+        "blender/renders/m23/final/mitsukoshi_ensemble/LEFT_OBLIQUE.png",
+        "blender/renders/m23/final/mitsukoshi_ensemble/RIGHT_OBLIQUE.png",
+        "blender/renders/m23/final/mitsukoshi_ensemble/ROOF_OBLIQUE.png"
+      ],
+      "severity": "LOW",
+      "category": "ensemble_validation",
+      "original_discrepancy": "v1 isolated podium omitted the Seasons towers.",
+      "final_status": "RESOLVED_FOR_RENDER_COVERAGE",
+      "observation": "Final renders show all four towers seated over the continuous podium; previous empty roof apertures are no longer the ensemble's dominant appearance.",
+      "reference_evidence": [
+        "manifest:seasons",
+        "manifest:user_photo_7",
+        "manifest:user_photo_8"
+      ],
+      "recommended_change": "No further change required for ensemble render coverage. Architectural dimensions and four-tower height relationships are not validated by this finding.",
+      "confidence": "HIGH",
+      "requires_research": false,
+      "source_uncertainty": "Only composition visibility is resolved; actual dimensions and hidden connections are not surveyed."
+    },
+    {
+      "finding_id": "M23-ASTRA-007",
+      "entity_id": "pse",
+      "camera_id": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "STREET_FRONT"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/one_bonifacio_ensemble/AERIAL.png",
+        "blender/renders/m23/final/one_bonifacio_ensemble/LEFT_OBLIQUE.png",
+        "blender/renders/m23/final/one_bonifacio_ensemble/RIGHT_OBLIQUE.png",
+        "blender/renders/m23/final/one_bonifacio_ensemble/STREET_FRONT.png"
+      ],
+      "severity": "LOW",
+      "category": "camera_framing",
+      "original_discrepancy": "v1 tower crown was cropped.",
+      "final_status": "RESOLVED_FOR_RENDER_COVERAGE",
+      "observation": "The complete PSE tower and crown fit in final ensemble views.",
+      "reference_evidence": [
+        "manifest:user_photo_5",
+        "final one_bonifacio_ensemble views"
+      ],
+      "recommended_change": "Retain ensemble coverage; add a closer PSE view only for facade/lobby verification.",
+      "confidence": "HIGH",
+      "requires_research": false,
+      "source_uncertainty": "Framing resolution does not establish that crown geometry matches the supplied photograph."
+    },
+    {
+      "finding_id": "M23-ASTRA-008",
+      "entity_id": "pse",
+      "camera_id": [
+        "STREET_FRONT",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/one_bonifacio_ensemble/STREET_FRONT.png",
+        "blender/renders/m23/final/one_bonifacio_ensemble/LEFT_OBLIQUE.png",
+        "blender/renders/m23/final/one_bonifacio_ensemble/RIGHT_OBLIQUE.png"
+      ],
+      "severity": "MEDIUM",
+      "category": "podium_identity",
+      "original_discrepancy": "v1 generic blue podium did not express the identity band and glazed lobby.",
+      "final_status": "NOT_VERIFIABLE_AT_RENDER_SCALE",
+      "observation": "The final ensemble shows a low podium and horizontal edge, but the supplied photo's strong identity band and glass lobby are not clearly legible at this scale.",
+      "reference_evidence": [
+        "manifest:user_photo_5",
+        "M23_BRIEF AL"
+      ],
+      "recommended_change": "Render a closer evidenced frontage view and confirm distinct configurable band and recessed lobby treatment.",
+      "confidence": "MEDIUM",
+      "requires_research": false,
+      "source_uncertainty": "Current signage content and date of supplied photo remain unverified."
+    },
+    {
+      "finding_id": "M23-ASTRA-009",
+      "entity_id": "shangri",
+      "camera_id": [
+        "AERIAL",
+        "RIGHT_OBLIQUE",
+        "STREET_REAR"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/one_bonifacio_ensemble/AERIAL.png",
+        "blender/renders/m23/final/one_bonifacio_ensemble/RIGHT_OBLIQUE.png",
+        "blender/renders/m23/final/one_bonifacio_ensemble/STREET_REAR.png"
+      ],
+      "severity": "LOW",
+      "category": "podium_materials",
+      "original_discrepancy": "v1 podium used the same blue glazing as the tower.",
+      "final_status": "RESOLVED_FOR_MATERIAL_DISTINCTION",
+      "observation": "Final views show a pale stone-like podium over a darker base, clearly differentiated from the blue tower.",
+      "reference_evidence": [
+        "M23_BRIEF AN",
+        "manifest:shangri"
+      ],
+      "recommended_change": "Retain material separation. Elevated arrival, bridges and exact material boundaries require closer ensemble evidence before being marked verified.",
+      "confidence": "MEDIUM",
+      "requires_research": false,
+      "source_uncertainty": "Comparison is to supplied architectural text, not a new photographic reconstruction of individual cladding boundaries."
+    },
+    {
+      "finding_id": "M23-ASTRA-010",
+      "entity_id": "sm_aura",
+      "camera_id": [
+        "AERIAL",
+        "LEFT_OBLIQUE",
+        "RIGHT_OBLIQUE",
+        "STREET_FRONT"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/sm_aura/AERIAL.png",
+        "blender/renders/m23/final/sm_aura/LEFT_OBLIQUE.png",
+        "blender/renders/m23/final/sm_aura/RIGHT_OBLIQUE.png",
+        "blender/renders/m23/final/sm_aura/STREET_FRONT.png"
+      ],
+      "severity": "HIGH",
+      "category": "massing_continuity",
+      "original_discrepancy": "v1 mall edge lines terminated at a plain tower without an upward ribbon transition.",
+      "final_status": "UNRESOLVED",
+      "observation": "Three white vertical strips have been added, but they read as detached rods outside the tower with hooked lower ends. The mall-to-tower surface remains visually disconnected.",
+      "reference_evidence": [
+        "M23_BRIEF AU",
+        "manifest:aura"
+      ],
+      "recommended_change": "Replace detached strips with broad connected ribbon surfaces following the mall edge into the tower; render the connection from both sides.",
+      "confidence": "HIGH",
+      "requires_research": false,
+      "source_uncertainty": "The source text establishes continuous ribbons; exact transition section and facade side were not photographically re-verified in this review."
+    },
+    {
+      "finding_id": "M23-ASTRA-011",
+      "entity_id": "sm_aura",
+      "camera_id": [
+        "AERIAL",
+        "RIGHT_OBLIQUE",
+        "STREET_FRONT",
+        "STREET_REAR"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/sm_aura/AERIAL.png",
+        "blender/renders/m23/final/sm_aura/RIGHT_OBLIQUE.png",
+        "blender/renders/m23/final/sm_aura/STREET_FRONT.png",
+        "blender/renders/m23/final/sm_aura/STREET_REAR.png"
+      ],
+      "severity": "LOW",
+      "category": "roof_landmark",
+      "original_discrepancy": "v1 chapel read as a faceted pebble.",
+      "final_status": "RESOLVED_FOR_FORM_CLASS",
+      "observation": "The smaller roof landmark now reads as an elongated arched shell with a dark/open end, distinct from the neighboring dome.",
+      "reference_evidence": [
+        "M23_BRIEF AW",
+        "manifest:aura_park"
+      ],
+      "recommended_change": "Retain the arched form. Exact dimensions, placement and end-facade detail remain estimated.",
+      "confidence": "MEDIUM",
+      "requires_research": false,
+      "source_uncertainty": "This resolves recognizable form class only; no detailed chapel photograph was compared."
+    },
+    {
+      "finding_id": "M23-ASTRA-012",
+      "entity_id": "sm_aura",
+      "camera_id": [
+        "LEFT_OBLIQUE"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/sm_aura/LEFT_OBLIQUE.png"
+      ],
+      "severity": "MEDIUM",
+      "category": "camera_framing",
+      "original_discrepancy": "v1 LEFT_OBLIQUE cropped the tower and omitted the mall.",
+      "final_status": "PARTIALLY_RESOLVED",
+      "observation": "The tower is no longer clipped, but LEFT_OBLIQUE still shows almost only the tower because it occludes the mall; the ribbon junction cannot be assessed from this designated oblique.",
+      "reference_evidence": [
+        "M23_BRIEF AU-AX",
+        "final AERIAL and RIGHT_OBLIQUE provide alternative ensemble coverage"
+      ],
+      "recommended_change": "Rotate LEFT_OBLIQUE enough to reveal the mall-to-tower transition, retaining the complete silhouette.",
+      "confidence": "HIGH",
+      "requires_research": false,
+      "source_uncertainty": "Dimensions and cardinal orientation are not verified."
+    },
+    {
+      "finding_id": "M23-ASTRA-013",
+      "entity_id": "high_street_central",
+      "camera_id": [
+        "STREET_FRONT",
+        "STREET_REAR"
+      ],
+      "affected_views": [
+        "blender/renders/m23/final/high_street_central/STREET_FRONT.png",
+        "blender/renders/m23/final/high_street_central/STREET_REAR.png"
+      ],
+      "severity": "MEDIUM",
+      "category": "camera_framing",
+      "original_discrepancy": "Street views were too distant and edge-on to verify local levels.",
+      "final_status": "UNRESOLVED",
+      "observation": "Both final street views reduce the zone to a thin line near the horizon. Terrace/ramp junctions and the lower plaza are not inspectable.",
+      "reference_evidence": [
+        "M23_BRIEF X-AB",
+        "final street views"
+      ],
+      "recommended_change": "Add close human-eye-height views from within the zone looking across the terrace and ramp connections. Retain the aerial coverage.",
+      "confidence": "HIGH",
+      "requires_research": false,
+      "source_uncertainty": "Dimensions and cardinal orientation are not verified."
+    }
+  ],
+  "reviewed_render_snapshots": [
+    {
+      "path": "blender/renders/m23/final/high_street_central/AERIAL.png",
+      "sha256": "4b4497b652c15719672a02dace9348dbe870d01c3c292377f1144a9077889de1",
+      "last_write_utc": "2026-09-26T05:34:03.9231935Z"
+    },
+    {
+      "path": "blender/renders/m23/final/high_street_central/LEFT_OBLIQUE.png",
+      "sha256": "ad7334c9df84df3d4464636da6f5e3a0ad30337cea3942c32c9d7e7a309532b6",
+      "last_write_utc": "2026-09-26T05:34:18.4719976Z"
+    },
+    {
+      "path": "blender/renders/m23/final/high_street_central/RIGHT_OBLIQUE.png",
+      "sha256": "ad206384919f74ba4862852747bf38539879734a8128a194a8ff5250245bcf18",
+      "last_write_utc": "2026-09-26T05:34:24.4733253Z"
+    },
+    {
+      "path": "blender/renders/m23/final/high_street_central/ROOF_OBLIQUE.png",
+      "sha256": "26ad53246d44adadc6e87895200dff518f5bf56a00f8f231f804a5722657f287",
+      "last_write_utc": "2026-09-26T05:34:30.7307235Z"
+    },
+    {
+      "path": "blender/renders/m23/final/high_street_central/STREET_FRONT.png",
+      "sha256": "e721b9f6057cac180bcad01b68b9c71afe2410eb381e060b0ebed51f83098ad6",
+      "last_write_utc": "2026-09-26T05:34:08.3901005Z"
+    },
+    {
+      "path": "blender/renders/m23/final/high_street_central/STREET_REAR.png",
+      "sha256": "cbc2683fd20596f6312c37d782a6bd12485060d8ed952d1c4982b63703f44131",
+      "last_write_utc": "2026-09-26T05:34:12.7402699Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mind_museum/AERIAL.png",
+      "sha256": "1675e495b24eca39742740f583cc2c8d9e90ab996736f04593c15902d5a015f8",
+      "last_write_utc": "2026-09-26T05:34:37.4817079Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mind_museum/LEFT_OBLIQUE.png",
+      "sha256": "d40a11825f5b8ef7c314a242e62c4d574e3bdf3f10add9d2bff251d2922fd179",
+      "last_write_utc": "2026-09-26T05:34:53.9343897Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mind_museum/RIGHT_OBLIQUE.png",
+      "sha256": "af254ad92b95f279ca7fefb2b397f8d9ccf03986ba894746fdc0a6c79bf15e3c",
+      "last_write_utc": "2026-09-26T05:35:00.1550088Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mind_museum/ROOF_OBLIQUE.png",
+      "sha256": "85530f459611cd71e3ec66740b1a9b38a9d1c8c7d1735714a6dd1bc0d5b10779",
+      "last_write_utc": "2026-09-26T05:35:06.8864856Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mind_museum/STREET_FRONT.png",
+      "sha256": "e3fb5a59524a74e6c59422cc820a1061a89491faa7cbf683f2593e9c52f4cdea",
+      "last_write_utc": "2026-09-26T05:34:42.377461Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mind_museum/STREET_REAR.png",
+      "sha256": "1983ef86f7d098b2037da840a18ce0dd2e874cd1dadfc523d72935206ac8f897",
+      "last_write_utc": "2026-09-26T05:34:47.3224333Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mitsukoshi_ensemble/AERIAL.png",
+      "sha256": "fb95a72b8a91cc3f86af842b414aad2fdab40bf3adc8344fc02537e7cd4aeac9",
+      "last_write_utc": "2026-09-26T05:35:13.4563445Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mitsukoshi_ensemble/LEFT_OBLIQUE.png",
+      "sha256": "dec86bfd8d20e47e9ae62ce9159a4cb4a4bc577909c36fd9084f127920b6a52b",
+      "last_write_utc": "2026-09-26T05:35:31.1609056Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mitsukoshi_ensemble/RIGHT_OBLIQUE.png",
+      "sha256": "8e77faadc1dbc1a2146204512870c2092b1a8def2c55c0189da1a960e7ceaace",
+      "last_write_utc": "2026-09-26T05:35:37.387608Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mitsukoshi_ensemble/ROOF_OBLIQUE.png",
+      "sha256": "198732fafc05074d242c6764c5de57d46b5d211c885faae9e85893e366c480b5",
+      "last_write_utc": "2026-09-26T05:35:44.2167491Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mitsukoshi_ensemble/STREET_FRONT.png",
+      "sha256": "ce40d82822a4ac100bf06abd3601882d758eea52096a827dac3da8545a80f932",
+      "last_write_utc": "2026-09-26T05:35:19.0965547Z"
+    },
+    {
+      "path": "blender/renders/m23/final/mitsukoshi_ensemble/STREET_REAR.png",
+      "sha256": "b7c5ad7da9dae470777a5b7f68703532597cb0aa28957efe98c52f43ee58c11f",
+      "last_write_utc": "2026-09-26T05:35:24.7471462Z"
+    },
+    {
+      "path": "blender/renders/m23/final/one_bonifacio_ensemble/AERIAL.png",
+      "sha256": "2d25b01901310ade63fa7c38927003a30d222b948b918d765aa837922858ad3a",
+      "last_write_utc": "2026-09-26T05:35:51.2365099Z"
+    },
+    {
+      "path": "blender/renders/m23/final/one_bonifacio_ensemble/LEFT_OBLIQUE.png",
+      "sha256": "42746c3e0098c026ab67210d6adf8f386977fa0fd430aa85354cba4f49b69a64",
+      "last_write_utc": "2026-09-26T05:36:08.4389589Z"
+    },
+    {
+      "path": "blender/renders/m23/final/one_bonifacio_ensemble/RIGHT_OBLIQUE.png",
+      "sha256": "f0897fb585b50ee52fd2bc6cc2d2cf10b685586ef16847015c802a9197fc00f9",
+      "last_write_utc": "2026-09-26T05:36:14.5041498Z"
+    },
+    {
+      "path": "blender/renders/m23/final/one_bonifacio_ensemble/ROOF_OBLIQUE.png",
+      "sha256": "edce083817abb6bc40b9503003384c038f34687ee9396bfb5d6f6cab8729094b",
+      "last_write_utc": "2026-09-26T05:36:20.8285884Z"
+    },
+    {
+      "path": "blender/renders/m23/final/one_bonifacio_ensemble/STREET_FRONT.png",
+      "sha256": "cdbbe57b4ccfa06cbdbc3d2bcd2f72530bd979c7ae8df37cbc1d4f8366d7b698",
+      "last_write_utc": "2026-09-26T05:35:56.9000326Z"
+    },
+    {
+      "path": "blender/renders/m23/final/one_bonifacio_ensemble/STREET_REAR.png",
+      "sha256": "2b847e0b25ebb1a18442d4a13186c7138a54c7b99ebb414ad9d630957c8240cb",
+      "last_write_utc": "2026-09-26T05:36:02.2997343Z"
+    },
+    {
+      "path": "blender/renders/m23/final/sm_aura/AERIAL.png",
+      "sha256": "d94219cabfbf043d3a0c106eb247f7edd8d37207af88858d79cff1b7e0babafc",
+      "last_write_utc": "2026-09-26T05:36:27.1991693Z"
+    },
+    {
+      "path": "blender/renders/m23/final/sm_aura/LEFT_OBLIQUE.png",
+      "sha256": "004e300f796d2827a292367d3e747dc6e6ab3fa6a5592b5933b27915c5268029",
+      "last_write_utc": "2026-09-26T05:36:43.1639895Z"
+    },
+    {
+      "path": "blender/renders/m23/final/sm_aura/RIGHT_OBLIQUE.png",
+      "sha256": "6ba0da1aef84758e78f4acb60b8d6951394ad347f5bb765b59d35b01343824c5",
+      "last_write_utc": "2026-09-26T05:36:48.6536777Z"
+    },
+    {
+      "path": "blender/renders/m23/final/sm_aura/ROOF_OBLIQUE.png",
+      "sha256": "91baebb48a56964781d5fb1cae34514f690a9020d9ab6ce7fe6586311c4e6df3",
+      "last_write_utc": "2026-09-26T05:36:54.8929077Z"
+    },
+    {
+      "path": "blender/renders/m23/final/sm_aura/STREET_FRONT.png",
+      "sha256": "d51eb81859097b6f2c7a5525602600bfd9a3cf19eada1b63c149175afdaf99d8",
+      "last_write_utc": "2026-09-26T05:36:32.629267Z"
+    },
+    {
+      "path": "blender/renders/m23/final/sm_aura/STREET_REAR.png",
+      "sha256": "27c57f483c99a7960030ff03e49b3363dd8c86b02f32c49b7a663179ae212d1f",
+      "last_write_utc": "2026-09-26T05:36:37.6641777Z"
+    }
+  ],
+  "repair_verifications": [
+    {
+      "review_type": "targeted_repair_recheck",
+      "review_date": "2026-09-26",
+      "iteration": "repaired",
+      "acceptance": "NOT_ASSERTED",
+      "prior_findings_preserved": true,
+      "reviewed_sets": [
+        {
+          "entity": "high_street_central",
+          "views": [
+            "AERIAL",
+            "LEFT_OBLIQUE",
+            "RIGHT_OBLIQUE",
+            "ROOF_OBLIQUE",
+            "STREET_FRONT",
+            "STREET_REAR"
+          ]
+        },
+        {
+          "entity": "mind_museum",
+          "views": [
+            "AERIAL",
+            "LEFT_OBLIQUE",
+            "RIGHT_OBLIQUE",
+            "ROOF_OBLIQUE",
+            "STREET_FRONT",
+            "STREET_REAR"
+          ]
+        },
+        {
+          "entity": "sm_aura",
+          "views": [
+            "AERIAL",
+            "LEFT_OBLIQUE",
+            "RIGHT_OBLIQUE",
+            "ROOF_OBLIQUE",
+            "STREET_FRONT",
+            "STREET_REAR"
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "M23-ASTRA-001",
+          "entity_id": "high_street_central",
+          "affected_views": [
+            "blender/renders/m23/repaired/high_street_central/AERIAL.png",
+            "blender/renders/m23/repaired/high_street_central/LEFT_OBLIQUE.png",
+            "blender/renders/m23/repaired/high_street_central/RIGHT_OBLIQUE.png",
+            "blender/renders/m23/repaired/high_street_central/ROOF_OBLIQUE.png"
+          ],
+          "repair_status": "UNRESOLVED_IN_REPAIRED_RENDER",
+          "observation": "A pronounced triangular wedge still extends from the amphitheater rim toward its center. The black cracks and outer radial spikes remain absent, but the central wedge is visually present after the reported repair.",
+          "remaining_limitations": "This review cannot infer whether the wedge comes from remaining geometry, cap triangulation, or a different source; the current source implementation was not inspected. Final and repaired AERIAL PNG hashes differ, so no byte-identical stale-image claim is made.",
+          "recommended_change": "Identify the visible triangular surface in the generated asset and correct it; re-render an overhead and close amphitheater view."
+        },
+        {
+          "finding_id": "M23-ASTRA-003",
+          "entity_id": "mind_museum",
+          "affected_views": [
+            "blender/renders/m23/repaired/mind_museum/LEFT_OBLIQUE.png",
+            "blender/renders/m23/repaired/mind_museum/STREET_FRONT.png",
+            "blender/renders/m23/repaired/mind_museum/STREET_REAR.png",
+            "blender/renders/m23/repaired/mind_museum/RIGHT_OBLIQUE.png"
+          ],
+          "repair_status": "RESOLVED_FOR_VISIBLE_SUPPORT_CONTACT",
+          "observation": "Previously detached support tops now reach the roof underside. The right pair in LEFT_OBLIQUE no longer reads as isolated ground stubs, and front/rear views show a supported shell.",
+          "remaining_limitations": "Contact is visually verified at provided resolution; watertightness, hidden joints, structural realism and exact photographed support dimensions are not validated.",
+          "recommended_change": "Retain contact repair; no further geometry correction needed for the specific visible-gap defect."
+        },
+        {
+          "finding_id": "M23-ASTRA-002",
+          "entity_id": "mind_museum",
+          "affected_views": [
+            "blender/renders/m23/repaired/mind_museum/LEFT_OBLIQUE.png",
+            "blender/renders/m23/repaired/mind_museum/STREET_FRONT.png",
+            "blender/renders/m23/repaired/mind_museum/STREET_REAR.png"
+          ],
+          "repair_status": "IMPROVED_WITH_RESIDUAL_SILHOUETTE_LIMIT",
+          "observation": "The roof edge reads more substantial and the floating-roof impression is reduced by the connected supports. It remains a simplified thin swept roof compared with the deep curled fascia in user_photo_6.",
+          "remaining_limitations": "The repair does not establish photographic fidelity of the whole shell. Distant street cameras limit fascia and entrance comparison; exact dimensions remain estimated.",
+          "recommended_change": "If further museum refinement is undertaken, prioritize the deep downturned entrance-side shell and a closer photo-comparable oblique."
+        },
+        {
+          "finding_id": "M23-ASTRA-010",
+          "entity_id": "sm_aura",
+          "affected_views": [
+            "blender/renders/m23/repaired/sm_aura/AERIAL.png",
+            "blender/renders/m23/repaired/sm_aura/LEFT_OBLIQUE.png",
+            "blender/renders/m23/repaired/sm_aura/RIGHT_OBLIQUE.png",
+            "blender/renders/m23/repaired/sm_aura/STREET_FRONT.png"
+          ],
+          "repair_status": "PARTIALLY_RESOLVED_DETACHMENT_FIXED",
+          "observation": "The external rods and hooked feet are gone. Broad white stripes now sit on the tower facade. They still terminate as applied vertical panels; the defining continuous curved transition from mall ribbons into the tower is not visibly established.",
+          "remaining_limitations": "This is a visual continuity observation based on the supplied brief/manifest, not a new photographically measured facade reconstruction. LEFT_OBLIQUE still hides the mall behind the tower.",
+          "recommended_change": "Retain removal of detached rods. A future refinement should connect the broad ribbon surfaces through the mall-to-tower bend and expose that junction in a dedicated oblique."
+        }
+      ],
+      "unaffected_limits": [
+        "High Street Central street views remain too distant and edge-on to inspect terrace junctions.",
+        "No new close Mitsukoshi or PSE facade views were reviewed in this targeted recheck.",
+        "Prior source uncertainty and no-overall-acceptance statement remain in force."
+      ],
+      "reviewed_render_snapshots": [
+        {
+          "path": "blender/renders/m23/repaired/high_street_central/AERIAL.png",
+          "sha256": "8d47fe8e3aac3c79e628f4b54ee380ea809d82f397b850d1dea24f9e1f012456",
+          "last_write_utc": "2026-09-26T05:44:11.8598291Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/high_street_central/LEFT_OBLIQUE.png",
+          "sha256": "f3cdd03c0b0bca66daab662aa97aac1efebfb3b72e7a4727167764b4655f4917",
+          "last_write_utc": "2026-09-26T05:44:26.03327Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/high_street_central/RIGHT_OBLIQUE.png",
+          "sha256": "1334919cf8956d359ffc4b1ce4d90bb3a212360434d710ebf6d4a4ca1c5f8a37",
+          "last_write_utc": "2026-09-26T05:44:31.6505487Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/high_street_central/ROOF_OBLIQUE.png",
+          "sha256": "529faf7461c5e874c783f10029fda09b7d0634e4bb45c8bac98d1ed90663ae40",
+          "last_write_utc": "2026-09-26T05:44:37.9163997Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/high_street_central/STREET_FRONT.png",
+          "sha256": "6dcc76e6171e719d2ce49e70f30dafad74a243a9d586e41da3c46fb1a7451367",
+          "last_write_utc": "2026-09-26T05:44:16.0537913Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/high_street_central/STREET_REAR.png",
+          "sha256": "7814dc173ebacc89c11f714f0ad44e2e98192fc2a0e19a2b9fb1cf75704e14b6",
+          "last_write_utc": "2026-09-26T05:44:20.5203246Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/mind_museum/AERIAL.png",
+          "sha256": "5ce94481902e60b689d19e42853039a406fd52cbcc009eb9cb2a765a85b2f9b9",
+          "last_write_utc": "2026-09-26T05:44:44.331656Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/mind_museum/LEFT_OBLIQUE.png",
+          "sha256": "c8c1d4df3fd7b0fd19affc44fae51f45b6d4e0c3981dcef7a264846ef2fe8ce6",
+          "last_write_utc": "2026-09-26T05:45:00.2453769Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/mind_museum/RIGHT_OBLIQUE.png",
+          "sha256": "13148f2fac13653d9fd5529cba9427fc1ab812ae8a6d86e31f54efe1afc5cf61",
+          "last_write_utc": "2026-09-26T05:45:06.9971354Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/mind_museum/ROOF_OBLIQUE.png",
+          "sha256": "df73faa511c8c3d7f4d24c3b5d5f9c838d30b0404c3f3cf96d2c8e9e7e8646d5",
+          "last_write_utc": "2026-09-26T05:45:14.5303057Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/mind_museum/STREET_FRONT.png",
+          "sha256": "8df960b0e19e900488195de47b99f5f265c8306107e6d22646257ee13e37e021",
+          "last_write_utc": "2026-09-26T05:44:48.8779839Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/mind_museum/STREET_REAR.png",
+          "sha256": "bfb6924a78e4850b6684509331cd429e31bea4efd2427d01350e42cafbf3fd78",
+          "last_write_utc": "2026-09-26T05:44:53.8260285Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/sm_aura/AERIAL.png",
+          "sha256": "328d44659361d5fce889801904168bde1c3a8dea8a988c03897a5b2d5fdac7ea",
+          "last_write_utc": "2026-09-26T05:45:21.3263792Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/sm_aura/LEFT_OBLIQUE.png",
+          "sha256": "ceec32b7601328880ff232527ed0e54e98c74f1dcdb3c2b0d1bdc43b9006a1f0",
+          "last_write_utc": "2026-09-26T05:45:37.9510922Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/sm_aura/RIGHT_OBLIQUE.png",
+          "sha256": "c812aacfe23bcb5dc35b9c8d48baab5ac60a0099a5337fe3f60952f098a50ef4",
+          "last_write_utc": "2026-09-26T05:45:43.416408Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/sm_aura/ROOF_OBLIQUE.png",
+          "sha256": "53f5bd1cfeeb4490de3a70f8cc84b71e2a71597a6e0c14de5a884554ecce4e3a",
+          "last_write_utc": "2026-09-26T05:45:49.9604539Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/sm_aura/STREET_FRONT.png",
+          "sha256": "976cbf1d355f90937a8f9ad3fcc186f2abd3a5dc1d702153875c5d320aca185c",
+          "last_write_utc": "2026-09-26T05:45:26.964251Z"
+        },
+        {
+          "path": "blender/renders/m23/repaired/sm_aura/STREET_REAR.png",
+          "sha256": "35f8380e73288be455a0aea9856a94efbc2ed680a8149c3e66193063906e06be",
+          "last_write_utc": "2026-09-26T05:45:32.2670957Z"
+        }
+      ]
+    },
+    {
+      "review_type": "final_targeted_repair_recheck",
+      "review_date": "2026-09-26",
+      "iteration": "final_verified",
+      "acceptance": "NOT_ASSERTED",
+      "prior_findings_preserved": true,
+      "reviewed_sets": [
+        {
+          "entity": "high_street_central",
+          "views": [
+            "AERIAL",
+            "LEFT_OBLIQUE",
+            "RIGHT_OBLIQUE",
+            "ROOF_OBLIQUE",
+            "STREET_FRONT",
+            "STREET_REAR"
+          ]
+        },
+        {
+          "entity": "sm_aura",
+          "views": [
+            "AERIAL",
+            "LEFT_OBLIQUE",
+            "RIGHT_OBLIQUE",
+            "ROOF_OBLIQUE",
+            "STREET_FRONT",
+            "STREET_REAR"
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "finding_id": "M23-ASTRA-001",
+          "entity_id": "high_street_central",
+          "affected_views": [
+            "blender/renders/m23/final_verified/high_street_central/AERIAL.png",
+            "blender/renders/m23/final_verified/high_street_central/LEFT_OBLIQUE.png",
+            "blender/renders/m23/final_verified/high_street_central/RIGHT_OBLIQUE.png",
+            "blender/renders/m23/final_verified/high_street_central/ROOF_OBLIQUE.png"
+          ],
+          "repair_status": "RESOLVED_FOR_VISIBLE_BOWL_INTERRUPTION",
+          "confidence": "HIGH",
+          "observation": "The amphitheater now appears as uninterrupted concentric terraces around the center. The triangular slice that previously crossed the bowl is absent, and the earlier black cracks and outer radial spikes remain absent. A separate triangular exclusion/open area remains outside the relocated bowl and does not cut the seating rings.",
+          "remaining_limitations": "This verifies removal of the visible bowl defect, not the real-world correctness of the new bowl center, radius or circular design. The reported largest-building-free-circle placement is a procedural fit and should remain labeled estimated/procedural unless reference evidence establishes the location. Distant street views still cannot establish ramp accessibility or human-eye-level terrain continuity.",
+          "recommended_change": "Retain the geometric repair and its provenance limits. Close street-level and reference-aligned terrain review remains a separate fidelity task."
+        },
+        {
+          "finding_id": "M23-ASTRA-010",
+          "entity_id": "sm_aura",
+          "affected_views": [
+            "blender/renders/m23/final_verified/sm_aura/AERIAL.png",
+            "blender/renders/m23/final_verified/sm_aura/RIGHT_OBLIQUE.png",
+            "blender/renders/m23/final_verified/sm_aura/ROOF_OBLIQUE.png",
+            "blender/renders/m23/final_verified/sm_aura/STREET_REAR.png"
+          ],
+          "repair_status": "RESOLVED_FOR_VISIBLE_DETACHMENT_AND_BEND",
+          "confidence": "HIGH",
+          "observation": "The three broad ribbons now occupy the mall-facing tower surface and visibly curve outward into the mall roof area. STREET_REAR clearly shows the vertical-to-horizontal bend. No detached external rods or hooked free-standing feet remain in the inspected views.",
+          "remaining_limitations": "This resolves the specific detachment and missing-bend cues at low-to-mid fidelity. It does not validate exact ribbon widths, curvatures, facade side orientation or full horizontal continuity along the sculptural mall against architectural photographs. LEFT_OBLIQUE still looks at the opposite tower side and hides the mall junction.",
+          "recommended_change": "Retain the connected bend. Any further ribbon refinement should use a source-matched oblique rather than extending inferred precision."
+        }
+      ],
+      "runtime_claims_not_verified": [
+        {
+          "claim": "Old mapped props and streetscape instances are suppressed throughout active local-terrain patches to avoid trees/dining inside the bowl.",
+          "source": "Parent implementation update",
+          "status": "NOT_VERIFIED_BY_THIS_RENDER_REVIEW",
+          "reason": "The provided standalone renders do not show the runtime city instance layer; no runtime scene inspection was part of this task."
+        }
+      ],
+      "unaffected_limits": [
+        "Museum retains its preceding repaired-iteration result; it was not re-reviewed in this final targeted pass.",
+        "Earlier Mitsukoshi/PSE close-facade verification limits remain.",
+        "High Street Central STREET_FRONT and STREET_REAR remain too distant/edge-on for detailed terrain evaluation.",
+        "No overall milestone or subjective visual acceptance is asserted."
+      ],
+      "reviewed_render_snapshots": [
+        {
+          "path": "blender/renders/m23/final_verified/high_street_central/AERIAL.png",
+          "sha256": "cf4e2598555d056774754f9f940dd9db346453a5844cddd4bf7f134841eb931a",
+          "last_write_utc": "2026-09-26T05:59:13.0206375Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/high_street_central/LEFT_OBLIQUE.png",
+          "sha256": "846532f92ff15d043a25458a3c5d1851dd0443aba081d726a448fd6abf24cb5b",
+          "last_write_utc": "2026-09-26T05:59:26.7844724Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/high_street_central/RIGHT_OBLIQUE.png",
+          "sha256": "f7bb97ebe8b77e52352aa07a9c31af740e4ee5a5b724f3f896841ced38437cb4",
+          "last_write_utc": "2026-09-26T05:59:32.2387961Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/high_street_central/ROOF_OBLIQUE.png",
+          "sha256": "a22d18ffab66b6d86d55051a20a7c2adbf69055a0212276497ff32371f7e6a70",
+          "last_write_utc": "2026-09-26T05:59:37.8944475Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/high_street_central/STREET_FRONT.png",
+          "sha256": "89c6cf45ead0d2e8fbc78f5e4ec6042d7ae824d37b9943afc233b273a2a45d43",
+          "last_write_utc": "2026-09-26T05:59:17.3131181Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/high_street_central/STREET_REAR.png",
+          "sha256": "3be364ad712d3ce696abd776e1ac4586d59aced429c2cddbf79bfb575affa80c",
+          "last_write_utc": "2026-09-26T05:59:21.4453138Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/sm_aura/AERIAL.png",
+          "sha256": "c57262887069ba7bf4ceabe1ccec0792838f720f2ff71eb4db24961b32cd1f5b",
+          "last_write_utc": "2026-09-26T05:59:43.6783490Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/sm_aura/LEFT_OBLIQUE.png",
+          "sha256": "8100918a2258b4e6d760586b2e473a806b1848feacc30357c7af6d5e4becaddf",
+          "last_write_utc": "2026-09-26T05:59:58.2533806Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/sm_aura/RIGHT_OBLIQUE.png",
+          "sha256": "ca71054fec99b2267a5abb1d60ae2c348db6b30b281df8655e4e10eee7a0db69",
+          "last_write_utc": "2026-09-26T06:00:03.4422161Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/sm_aura/ROOF_OBLIQUE.png",
+          "sha256": "65dbed9faef6457abc131bc8662200c9d2361e6a35ff60d8560d521ca254821a",
+          "last_write_utc": "2026-09-26T06:00:09.1115315Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/sm_aura/STREET_FRONT.png",
+          "sha256": "cb297929749478e7e70b74524897485d5d4e7494eb6cbb0904e3d627368bb913",
+          "last_write_utc": "2026-09-26T05:59:48.3991657Z"
+        },
+        {
+          "path": "blender/renders/m23/final_verified/sm_aura/STREET_REAR.png",
+          "sha256": "c58affc84f4f1e0a9a5feeba159752d6451eaec41f8bbc70a27f13bcfbc201f1",
+          "last_write_utc": "2026-09-26T05:59:53.1295444Z"
+        }
+      ]
+    }
+  ]
+}

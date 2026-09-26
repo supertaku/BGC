@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_002_007",
+  "input_sha256": "abdcedc7622366ab4b520f09c971b0016cba1286b6b297b261f05c7102563070",
+  "output_sha256": "2f4bd258e9bafe3fe63a8021bc7bc848c373495bd0c3c1c8f311a4c109299902",
+  "building_count": 10,
+  "render_volume_count": 17,
+  "mesh_count": 9,
+  "triangle_count": 8316,
+  "material_count": 8,
+  "bytes": 379444,
+  "entities": [
+    {
+      "entity_id": "osm:way:183463814",
+      "source_feature_id": "osm:way:183463814",
+      "name": "The Mind Museum",
+      "height_m": 10.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:223938947",
+      "source_feature_id": "osm:way:223938947",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:223938948",
+      "source_feature_id": "osm:way:223938948",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32487789",
+      "source_feature_id": "osm:way:32487789",
+      "name": "The Luxe Residences",
+      "height_m": 23.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:32487789",
+      "source_feature_id": "osm:way:538701631",
+      "name": null,
+      "height_m": 84.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:32487852",
+      "source_feature_id": "osm:way:32487852",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "retail",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:32487901",
+      "source_feature_id": "osm:way:32487901",
+      "name": "Two/Neo",
+      "height_m": 23.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "office",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:32487901",
+      "source_feature_id": "osm:way:538701630",
+      "name": null,
+      "height_m": 84.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:379949592",
+      "source_feature_id": "osm:way:379949592",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "orphan_part"
+    },
+    {
+      "entity_id": "osm:way:80323769",
+      "source_feature_id": "osm:way:37225912",
+      "name": "Evergreen Tower",
+      "height_m": 61.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:80323769",
+      "source_feature_id": "osm:way:80323769",
+      "name": null,
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:80323769",
+      "source_feature_id": "osm:way:80323772",
+      "name": "Florida Tower",
+      "height_m": 84.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:80323778",
+      "source_feature_id": "osm:way:80323778",
+      "name": "Bauhinia Tower",
+      "height_m": 68.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:80323780",
+      "source_feature_id": "osm:way:80323773",
+      "name": "Agoho Tower",
+      "height_m": 61.1,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:80323780",
+      "source_feature_id": "osm:way:80323777",
+      "name": "Dorchester Tower",
+      "height_m": 68.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:80323780",
+      "source_feature_id": "osm:way:80323780",
+      "name": null,
+      "height_m": 10.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:80323780",
+      "source_feature_id": "osm:way:80323781",
+      "name": "Cambridge Tower",
+      "height_m": 68.8,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    }
+  ],
+  "representation": "MERGED_BY_TILE_MATERIAL"
+}

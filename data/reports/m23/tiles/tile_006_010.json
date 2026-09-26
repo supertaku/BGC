@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "tile_id": "tile_006_010",
+  "input_sha256": "d4422e44f65ea27b979f2b4060cea2fd17ee25b4854ea364051f6843a5247ef4",
+  "output_sha256": "db944e41b7e9ef00aed67564d053548c680896703c8ed949e9d13c48b1f1ea15",
+  "building_count": 5,
+  "render_volume_count": 8,
+  "mesh_count": 8,
+  "triangle_count": 4152,
+  "material_count": 7,
+  "bytes": 195904,
+  "entities": [
+    {
+      "entity_id": "osm:way:491893700",
+      "source_feature_id": "osm:way:491893700",
+      "name": null,
+      "height_m": 12.0,
+      "height_status": "PROCEDURAL",
+      "building_type": "parking",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:538347432",
+      "source_feature_id": "osm:way:538347432",
+      "name": "Uptown Ritz Residences",
+      "height_m": 170.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:538347436",
+      "source_feature_id": "osm:way:538347436",
+      "name": null,
+      "height_m": 8.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "commercial",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    },
+    {
+      "entity_id": "osm:way:538697027",
+      "source_feature_id": "osm:way:538697027",
+      "name": "Uptown Parksuites",
+      "height_m": 25.6,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": "apartments",
+      "lod": "LOD2",
+      "render_role": "outline_residual"
+    },
+    {
+      "entity_id": "osm:way:538697027",
+      "source_feature_id": "osm:way:538751521",
+      "name": "Uptown Parksuites Tower 2",
+      "height_m": 160.0,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:538697027",
+      "source_feature_id": "osm:way:783113264",
+      "name": null,
+      "height_m": 175.5,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:538697027",
+      "source_feature_id": "osm:way:783113265",
+      "name": null,
+      "height_m": 106.2,
+      "height_status": "VERIFIED_GEOGRAPHIC",
+      "building_type": null,
+      "lod": "LOD2",
+      "render_role": "building_part"
+    },
+    {
+      "entity_id": "osm:way:783121680",
+      "source_feature_id": "osm:way:783121680",
+      "name": null,
+      "height_m": 6.4,
+      "height_status": "ESTIMATED",
+      "building_type": "yes",
+      "lod": "LOD2",
+      "render_role": "building_outline"
+    }
+  ],
+  "representation": "MERGED_BY_TILE_MATERIAL"
+}

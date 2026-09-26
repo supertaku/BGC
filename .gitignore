@@ -26,6 +26,10 @@ exports/glb/buildings/*.glb
 web/public/models/*.glb
 web/public/models/**/*.glb
 exports/bgc/tiles/*.glb
+blender/scenes/m23/**/*.blend
+blender/scenes/m23/*.blend
+exports/glb/m23/*.glb
+data/visual_reference/compiled_tiles/
 
 # Keep otherwise-empty project directories.
 !.gitkeep

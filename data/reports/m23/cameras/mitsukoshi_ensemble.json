@@ -1,0 +1,95 @@
+{
+  "entity_id": "mitsukoshi_ensemble",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        515.5198974609375,
+        518.6671142578125,
+        497.5552978515625
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        178.2655029296875,
+        232.39990234375,
+        142.73171997070312
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        178.2655029296875,
+        1479.443115234375,
+        142.73171997070312
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -223.6224365234375,
+        454.0335693359375,
+        354.0771789550781
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        580.1534423828125,
+        454.0335693359375,
+        354.0771789550781
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        274.6569519042969,
+        952.31298828125,
+        703.3291015625
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        92.8499984741211
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi_ensemble\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "789d6891e96b5a033de9f15c5b542683230f07acacd2c667afac29cf1deff85d",
+    "c64db8f607b91ef116565de238cc3fd938dc729f2369beda2d0257dcc2417af5"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

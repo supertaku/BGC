@@ -1,0 +1,94 @@
+{
+  "entity_id": "track_30th",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        236.4170379638672,
+        -92.54804992675781,
+        293.3222351074219
+      ],
+      "target": [
+        -5.163997650146484,
+        149.03298950195312,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\track_30th\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -5.163997650146484,
+        -297.6061096191406,
+        4.0
+      ],
+      "target": [
+        -5.163997650146484,
+        149.03298950195312,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\track_30th\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -5.163997650146484,
+        595.672119140625,
+        4.0
+      ],
+      "target": [
+        -5.163997650146484,
+        149.03298950195312,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\track_30th\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -293.0431213378906,
+        -138.84613037109375,
+        190.5464324951172
+      ],
+      "target": [
+        -5.163997650146484,
+        149.03298950195312,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\track_30th\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        282.7151184082031,
+        -138.84613037109375,
+        190.5464324951172
+      ],
+      "target": [
+        -5.163997650146484,
+        149.03298950195312,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\track_30th\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        63.88283157348633,
+        218.07981872558594,
+        440.7215270996094
+      ],
+      "target": [
+        -5.163997650146484,
+        149.03298950195312,
+        3.424999952316284
+      ],
+      "image": "blender\\renders\\m23\\final\\track_30th\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "0474582ebc3f6981f0e0b74bcd539a13f2c311b12355647d8ada0d2d01219d05"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

@@ -1,0 +1,94 @@
+{
+  "entity_id": "mitsukoshi",
+  "iteration": "final",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        436.30865478515625,
+        597.8783569335938,
+        315.65179443359375
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        178.2655029296875,
+        378.8469543457031,
+        4.0
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        178.2655029296875,
+        1332.99609375,
+        4.0
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -129.23065185546875,
+        548.4253540039062,
+        205.87249755859375
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        485.76165771484375,
+        548.4253540039062,
+        205.87249755859375
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        252.0174102783203,
+        929.6734008789062,
+        473.0953674316406
+      ],
+      "target": [
+        178.2655029296875,
+        855.9215087890625,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\final\\mitsukoshi\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "789d6891e96b5a033de9f15c5b542683230f07acacd2c667afac29cf1deff85d"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

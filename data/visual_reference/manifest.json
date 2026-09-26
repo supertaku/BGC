@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "grounding_aliases": {
+    "VERIFIED_PHOTOGRAPHIC": "VERIFIED_VISUAL"
+  },
+  "sources": [
+    {
+      "source_id": "bgc",
+      "entity_id": null,
+      "zone": "bgc_citywide",
+      "title": "Bgc",
+      "url": "https://bgc.com.ph/about-us/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "bgc.com.ph",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Walkable mixed-use district and landscaped public spaces."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "faq",
+      "entity_id": null,
+      "zone": "bgc_citywide",
+      "title": "Faq",
+      "url": "https://bgc.com.ph/faqs/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "bgc.com.ph",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Internal bus service, dedicated cycling infrastructure and named parks; no exact placements."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "art",
+      "entity_id": null,
+      "zone": "bgc_citywide",
+      "title": "Art",
+      "url": "https://bgc.com.ph/go/see/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "bgc.com.ph",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Current directory snapshot; art is metadata and neutral anchors, not licensed reproductions."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "track",
+      "entity_id": null,
+      "zone": "track_30th",
+      "title": "Track",
+      "url": "https://bgc.com.ph/directory/track-30th/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "bgc.com.ph",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Jogging paths, yoga lawn, meditation gardens, art and designated bicycle parking."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "central",
+      "entity_id": null,
+      "zone": "high_street_central",
+      "title": "Central",
+      "url": "https://www.crearis.com.ph/bonifacio-high-street-central/",
+      "source_type": "OFFICIAL_ARCHITECT",
+      "source_domain": "www.crearis.com.ph",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Amphitheater, interactive water, plaza and gardens; elevations estimated."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "kasalikasan",
+      "entity_id": null,
+      "zone": "kasalikasan",
+      "title": "Kasalikasan",
+      "url": "https://www.bgcartscenter.org/installations/kasalikasan",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "www.bgcartscenter.org",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Living sculpture by Jerusalino V. Araos, circular elevated grass stage, mandala, sandbox, pebble paths."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "pse",
+      "entity_id": null,
+      "zone": "one_bonifacio",
+      "title": "Pse",
+      "url": "https://www.handelarchitects.com/project/philippine-stock-exchange?pagi=residential",
+      "source_type": "OFFICIAL_ARCHITECT",
+      "source_domain": "www.handelarchitects.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Inflected glass front and deep vertical spine ribs; shared courts."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "shangri",
+      "entity_id": null,
+      "zone": "one_bonifacio",
+      "title": "Shangri",
+      "url": "https://www.handelarchitects.com/project/shangri-la-at-the-fort",
+      "source_type": "OFFICIAL_ARCHITECT",
+      "source_domain": "www.handelarchitects.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Sliding facade volumes, louvers, stone podium, elevated arrival, ramped passage and three bridges."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "suites",
+      "entity_id": null,
+      "zone": "one_bonifacio",
+      "title": "Suites",
+      "url": "https://www.handelarchitects.com/project/the-suites-at-one-bonifacio-high-street?pagi=residential",
+      "source_type": "OFFICIAL_ARCHITECT",
+      "source_domain": "www.handelarchitects.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Supplied brief: horizontal residential facade expression; page unavailable during retrieval."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "MEDIUM",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "UNAVAILABLE_SUPPLIED_BRIEF_ONLY",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "acpt",
+      "entity_id": null,
+      "zone": "acpt",
+      "title": "Acpt",
+      "url": "https://www.som.com/projects/arthaland-century-pacific-tower/",
+      "source_type": "OFFICIAL_ARCHITECT",
+      "source_domain": "www.som.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "136 m / 32 stories; overlapping glass, clear lobby and roof garden. Verified via indexed official page."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "museum",
+      "entity_id": null,
+      "zone": "mind_museum",
+      "title": "Museum",
+      "url": "https://www.themindmuseum.org/about-us/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "www.themindmuseum.org",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Museum identity. Roof geometry supported by supplied photograph 6."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "aura_park",
+      "entity_id": null,
+      "zone": "sm_aura",
+      "title": "Aura Park",
+      "url": "https://www.smprime.com/latest_news/sm-auras-sky-park-an-oasis-in-the-heart-of-bustling-global-city/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "www.smprime.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Roof garden, water, arched chapel and egg-shaped hall."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "aura",
+      "entity_id": null,
+      "zone": "sm_aura",
+      "title": "Aura",
+      "url": "https://www.smprime.com/company_releases/sm-prime-creates-new-landmark-with-sm-aura-sets-new-standard-in-green-development/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "www.smprime.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Three curving ribbons turn upward into tower; staggered northern openings."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "mitsukoshi",
+      "entity_id": null,
+      "zone": "mitsukoshi",
+      "title": "Mitsukoshi",
+      "url": "https://federalland.ph/news-and-events/in-photos-what-shoppers-can-expect-inside-mitsukoshi-bgc/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "federalland.ph",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Hemp-leaf-inspired geometric screen above glazed retail base."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "seasons",
+      "entity_id": null,
+      "zone": "mitsukoshi",
+      "title": "Seasons",
+      "url": "https://federalland.ph/residential/taguig/the-seasons-residences/",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "federalland.ph",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Four-tower composition over Mitsukoshi podium."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "HIGH",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "VERIFIED_TEXT",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "uptown",
+      "entity_id": null,
+      "zone": "uptown",
+      "title": "Uptown",
+      "url": "https://www.megaworldcorp.com/malls/uptown-mall",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "www.megaworldcorp.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Supplied brief: retail podium connecting towers; direct page retrieval unavailable."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "MEDIUM",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "UNAVAILABLE_SUPPLIED_BRIEF_ONLY",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "one_uptown",
+      "entity_id": null,
+      "zone": "uptown",
+      "title": "One Uptown",
+      "url": "https://www.megaworldcorp.com/residences/one-uptown-residence",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "www.megaworldcorp.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Supplied brief: glass/aluminum, landscaped sky gardens and water cascade; retrieval unavailable."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "MEDIUM",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "UNAVAILABLE_SUPPLIED_BRIEF_ONLY",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "parksuites",
+      "entity_id": null,
+      "zone": "uptown",
+      "title": "Parksuites",
+      "url": "https://www.megaworldcorp.com/residences/uptown-parksuites",
+      "source_type": "OFFICIAL_OWNER",
+      "source_domain": "www.megaworldcorp.com",
+      "viewpoint": "Mixed; cardinal orientations not established",
+      "use_for": [
+        "Supplied brief: two residential towers, glass/steel and sky lounges; retrieval unavailable."
+      ],
+      "do_not_infer": [
+        "Surveyed dimensions",
+        "Unseen facades",
+        "Current tenant inventory",
+        "Image reuse rights"
+      ],
+      "confidence": "MEDIUM",
+      "retrieved_as_of": "2026-09-26",
+      "retrieval_status": "UNAVAILABLE_SUPPLIED_BRIEF_ONLY",
+      "rights_status": "RESEARCH_ONLY"
+    },
+    {
+      "source_id": "user_photo_1",
+      "zone": "high_street",
+      "title": "User supplied photo 1",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-52feef8f-fa82-4b54-ac0a-4cc23cb3bcea.png",
+      "sha256": "9bba9c93b3ba45682a229ba0d622597174fbc921b20753ef51a4506083f07b92",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "VERIFIED_VISUAL",
+      "use_for": [
+        "Tree rhythm, layered beds, dark planter edges, pale pavers and glazed retail."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "user_photo_2",
+      "zone": "terra_28th",
+      "title": "User supplied photo 2",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-d69b9698-45ea-49c5-974d-82f422d93968.png",
+      "sha256": "54126ac94c5d44ed9a3b591fc8093df29a05c84ce42ab68aa48c2d76572913d5",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "INFERRED",
+      "use_for": [
+        "Lawns, dark paths and play-oriented open space; exact identity inferred."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "user_photo_3",
+      "zone": "track_30th",
+      "title": "User supplied photo 3",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-2bef6629-b28c-4b8a-9f6c-583954f9ca67.png",
+      "sha256": "b070d4d69a8855038a89a29363f481dddd26ceaa4b056804b439208ae0c47850",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "VERIFIED_VISUAL",
+      "use_for": [
+        "Yellow and plum park sign; paths and benches."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "user_photo_4",
+      "zone": "kasalikasan",
+      "title": "User supplied photo 4",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-b8af1e9d-cb26-4eb2-92b4-77956e3f37e8.png",
+      "sha256": "438125bbc90f13ec217b365473a627f5a75c712889256f29b76f31fcffcf5acf",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "INFERRED",
+      "use_for": [
+        "Circular paved clearing, grass terraces and mature canopy; identity inferred."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "user_photo_5",
+      "zone": "one_bonifacio",
+      "title": "User supplied photo 5",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-0d1db387-bd8d-4389-8fdc-7b977a78c48e.png",
+      "sha256": "30a6f912dd3b87d0cf137e6468c7bfa35c00e33383f9902183b25242029af1c1",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "VERIFIED_VISUAL",
+      "use_for": [
+        "PSE glazed tower, recessed roof, grid and luminous podium band."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "user_photo_6",
+      "zone": "mind_museum",
+      "title": "User supplied photo 6",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-46dc944f-7c8d-44c8-a8ae-939f070fc339.png",
+      "sha256": "bb9e690d0ab76bc74ec1c794021d05111dc7ed73b40b7b336fb7b34b58d61ff7",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "VERIFIED_VISUAL",
+      "use_for": [
+        "Swept roof, dark slanting supports, low glazed mass and forecourt."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "user_photo_7",
+      "zone": "mitsukoshi",
+      "title": "User supplied photo 7",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-c8f10be8-4dfb-449c-8aab-a95a29af5ba0.png",
+      "sha256": "c28a23ff4acac2b4bb070b89cc2740235e22e52135461095c6164b670ccaa7af",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "VERIFIED_VISUAL",
+      "use_for": [
+        "Repeated geometric screen and tall vertical tower frames."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "user_photo_8",
+      "zone": "mitsukoshi",
+      "title": "User supplied photo 8",
+      "source_type": "USER_PHOTOGRAPH",
+      "source_filename": "codex-clipboard-b0dafd6f-0577-4738-a569-0604b0095505.png",
+      "sha256": "d541f2571c27d02850dc1f0d0e83230cd3fe604473735855e639724f66c4ec3c",
+      "grounding": "VERIFIED_VISUAL",
+      "identity_grounding": "VERIFIED_VISUAL",
+      "use_for": [
+        "Hemp-leaf screen, glazed base, red signage accents; historic construction view."
+      ],
+      "do_not_infer": [
+        "Capture date",
+        "Unseen views",
+        "Measured dimensions"
+      ],
+      "confidence": "MEDIUM",
+      "rights_status": "RESEARCH_ONLY",
+      "retained_image": false
+    },
+    {
+      "source_id": "osm",
+      "title": "Pinned normalized OpenStreetMap",
+      "source_type": "GEOGRAPHIC",
+      "url": "https://www.openstreetmap.org/copyright",
+      "rights_status": "ODbL-1.0",
+      "grounding": "VERIFIED_GEOGRAPHIC"
+    }
+  ],
+  "policy": "Research images are not copied to the repository or distributed in runtime assets. Geometry is an estimated interpretation, not a survey."
+}

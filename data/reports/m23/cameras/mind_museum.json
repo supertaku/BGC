@@ -1,0 +1,94 @@
+{
+  "entity_id": "mind_museum",
+  "iteration": "repaired",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -414.6290283203125,
+        -28.522476196289062,
+        217.83787536621094
+      ],
+      "target": [
+        -589.1384887695312,
+        145.98699951171875,
+        8.42650032043457
+      ],
+      "image": "blender\\renders\\m23\\repaired\\mind_museum\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -589.1384887695312,
+        -176.6490478515625,
+        4.0
+      ],
+      "target": [
+        -589.1384887695312,
+        145.98699951171875,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\repaired\\mind_museum\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -589.1384887695312,
+        468.623046875,
+        4.0
+      ],
+      "target": [
+        -589.1384887695312,
+        145.98699951171875,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\repaired\\mind_museum\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT_OBLIQUE",
+      "position": [
+        -797.092041015625,
+        -61.966552734375,
+        143.59629821777344
+      ],
+      "target": [
+        -589.1384887695312,
+        145.98699951171875,
+        8.42650032043457
+      ],
+      "image": "blender\\renders\\m23\\repaired\\mind_museum\\LEFT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "RIGHT_OBLIQUE",
+      "position": [
+        -381.1849365234375,
+        -61.966552734375,
+        143.59629821777344
+      ],
+      "target": [
+        -589.1384887695312,
+        145.98699951171875,
+        8.42650032043457
+      ],
+      "image": "blender\\renders\\m23\\repaired\\mind_museum\\RIGHT_OBLIQUE.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -539.2615356445312,
+        195.86395263671875,
+        324.3138427734375
+      ],
+      "target": [
+        -589.1384887695312,
+        145.98699951171875,
+        8.42650032043457
+      ],
+      "image": "blender\\renders\\m23\\repaired\\mind_museum\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "525046e3353f6dbf955e3957ce8367e60f8e7f1272e6a5d96dae3c73d36eccbb"
+  ],
+  "status": "AWAITING_USER_TEST"
+}
