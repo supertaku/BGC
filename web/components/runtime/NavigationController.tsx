@@ -3,7 +3,7 @@
 
 import { MapControls, PointerLockControls } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
-import { useEffect, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import type { MapControls as MapControlsImpl, PointerLockControls as PointerLockControlsImpl } from "three-stdlib";
 import * as THREE from "three";
 import { pointInFootprint, pointInRing } from "./spatial";
@@ -23,15 +23,16 @@ function WalkControls({ controlRef }: { controlRef: React.RefObject<PointerLockC
   return <PointerLockControls ref={controlRef} makeDefault selector="canvas" />;
 }
 
-export function NavigationController({ mode, viewpoint, bounds, refs, focusRequest, onBoundaryHit }: {
+export function NavigationController({ mode, viewpoint, bounds, refs, focusRequest, onBoundaryHit, debug }: {
   mode: NavigationMode;
   viewpoint: Viewpoint;
   bounds: WorldTile[];
   refs: RuntimeRefs;
   focusRequest: FocusRequest;
   onBoundaryHit: () => void;
+  debug: boolean;
 }) {
-  const { camera, size } = useThree();
+  const { camera, size, gl, events } = useThree();
   const map = useRef<MapControlsImpl>(null);
   const pointer = useRef<PointerLockControlsImpl>(null);
   const keys = useRef(new Set<string>());
@@ -45,6 +46,61 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
   const extent = useMemo(() => worldBounds(bounds), [bounds]);
   const direction = useMemo(() => new THREE.Vector3(), []);
   const candidate = useMemo(() => new THREE.Vector3(), []);
+  const mapInteractionActive = useRef(false);
+  const mapStart = useRef<{ camera: THREE.Vector3; target: THREE.Vector3 } | null>(null);
+  const onMapStart = useCallback(() => {
+    mapInteractionActive.current = true;
+    stability.map_control_starts++;
+    mapStart.current = map.current ? { camera: camera.position.clone(), target: map.current.target.clone() } : null;
+    if (transition.current) { transition.current = null; stability.focus_transition_cancels += 1; }
+    pending.current = null;
+  }, [camera]);
+  const onMapChange = useCallback(() => {
+    stability.map_control_changes++;
+    const initial = mapStart.current;
+    if (!initial || !map.current) return;
+    const cameraDelta = camera.position.clone().sub(initial.camera);
+    const targetDelta = map.current.target.clone().sub(initial.target);
+    if (targetDelta.lengthSq() > 0.0001 && cameraDelta.clone().sub(targetDelta).lengthSq() < 0.01) stability.map_pan_changes++;
+    else if (cameraDelta.lengthSq() > 0.0001) stability.map_rotate_changes++;
+  }, [camera]);
+  const onMapEnd = useCallback(() => {
+    mapInteractionActive.current = false;
+    mapStart.current = null;
+    stability.map_control_ends++;
+  }, []);
+
+  useEffect(() => {
+    if (mode !== "INSPECT" || !debug) return;
+    const canvas = gl.domElement;
+    stability.map_dom_element = map.current?.domElement === canvas ? "CANVAS" : "OTHER";
+    stability.map_events_connected = events.connected === canvas ? "CANVAS" : events.connected ? "OTHER" : "NONE";
+    const start = { x: 0, y: 0 };
+    const down = (event: PointerEvent) => {
+      if (event.button === 0) stability.map_pointer_down_left++;
+      if (event.button === 1) stability.map_pointer_down_middle++;
+      if (event.button === 2) stability.map_pointer_down_right++;
+      start.x = event.clientX; start.y = event.clientY;
+      stability.map_pointer_type = event.pointerType;
+      stability.map_pointer_start = [start.x, start.y];
+    };
+    const move = (event: PointerEvent) => {
+      stability.map_pointer_moves++;
+      stability.map_pointer_distance_px = Math.hypot(event.clientX - start.x, event.clientY - start.y);
+    };
+    const up = () => { stability.map_pointer_ups++; };
+    const context = () => { stability.map_contextmenus++; };
+    canvas.addEventListener("pointerdown", down);
+    canvas.addEventListener("pointermove", move);
+    canvas.addEventListener("pointerup", up);
+    canvas.addEventListener("contextmenu", context);
+    return () => {
+      canvas.removeEventListener("pointerdown", down);
+      canvas.removeEventListener("pointermove", move);
+      canvas.removeEventListener("pointerup", up);
+      canvas.removeEventListener("contextmenu", context);
+    };
+  }, [debug, events.connected, gl.domElement, mode]);
 
   useEffect(() => {
     fetch("/world/bgc-interactive.json")
@@ -116,7 +172,7 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
   }, [focusRequest]);
 
   useFrame((_, delta) => {
-    if (pending.current && !transition.current) {
+    if (!mapInteractionActive.current && pending.current && !transition.current) {
       const request = pending.current;
       const targetRecord = refs.tileRecords.current.get(request.entity.tile_id);
       if (targetRecord?.state === "ERROR") pending.current = null;
@@ -137,7 +193,7 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
       }
     }
 
-    if (transition.current) {
+    if (transition.current && !mapInteractionActive.current) {
       const state = transition.current;
       state.elapsed += delta;
       const raw = Math.min(1, state.elapsed / state.duration);
@@ -152,9 +208,12 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
       if (map.current) {
         const target = map.current.target;
         const [x, z] = clampMapTarget(target.x, target.z, extent);
-        camera.position.x += x - target.x;
-        camera.position.z += z - target.z;
-        target.set(x, target.y, z);
+        if (x !== target.x || z !== target.z) {
+          camera.position.x += x - target.x;
+          camera.position.z += z - target.z;
+          target.set(x, target.y, z);
+          stability.map_target_clamp_events++;
+        }
         refs.focus.current.copy(target);
       }
     } else if (mode === "WALK") {
@@ -187,7 +246,7 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
   });
 
   return <>
-    {mode === "INSPECT" ? <MapControls ref={map} makeDefault enableDamping dampingFactor={0.08} minDistance={8} maxDistance={12000} maxPolarAngle={Math.PI / 2.01} onStart={() => { if (transition.current) { transition.current = null; stability.focus_transition_cancels += 1; } }} /> : null}
+    {mode === "INSPECT" ? <MapControls ref={map} makeDefault domElement={gl.domElement} mouseButtons={{ LEFT: THREE.MOUSE.PAN, MIDDLE: THREE.MOUSE.DOLLY, RIGHT: THREE.MOUSE.ROTATE }} enablePan={true} enableRotate={true} enableZoom={true} screenSpacePanning={false} enableDamping dampingFactor={0.08} minDistance={8} maxDistance={12000} maxPolarAngle={Math.PI / 2.01} onStart={onMapStart} onChange={onMapChange} onEnd={onMapEnd} /> : null}
     {mode === "WALK" ? <WalkControls controlRef={pointer} /> : null}
   </>;
 }

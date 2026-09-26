@@ -51,6 +51,8 @@ export type EntityRecord = {
 
 export type Footprint = EntityRecord & { rings: [number, number][][] };
 export type EnvironmentInstance = { id: string; position: [number, number]; grounding: "VERIFIED_GEOGRAPHIC" | "PROCEDURAL" };
+export type NamedWaySegment = { id: string; name: string; aliases: string[]; kind: "ROAD" | "PATH"; class: string | null; width_m: number | null; points: [number, number][] };
+export type CurrentStreet = Pick<NamedWaySegment, "id" | "name" | "kind">;
 export type EnvironmentAssetType =
   | "TREE_GENERIC"
   | "STREET_LAMP_GENERIC"
@@ -62,6 +64,7 @@ export type TileSidecar = {
   tile_id: string;
   footprints: Footprint[];
   environment: Partial<Record<EnvironmentAssetType, EnvironmentInstance[]>>;
+  namedWays?: NamedWaySegment[];
 };
 
 export type InteractiveManifest = {

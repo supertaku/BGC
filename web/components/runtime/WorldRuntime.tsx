@@ -8,11 +8,12 @@ import { InteractionManager } from "./InteractionManager";
 import { LandmarkLODManager } from "./LandmarkLODManager";
 import { NavigationController, type FocusRequest } from "./NavigationController";
 import { PerformanceProbe } from "./PerformanceProbe";
+import { StreetLocator } from "./StreetLocator";
 import { TileManager } from "./TileManager";
-import type { BenchmarkReport, EntityRecord, EnvironmentQuality, Footprint, InteractiveManifest, NavigationMode, RuntimeMetrics, RuntimeRefs, RuntimeSummary, TileMode, Viewpoint, WorldManifest } from "./types";
+import type { BenchmarkReport, CurrentStreet, EntityRecord, EnvironmentQuality, Footprint, InteractiveManifest, NavigationMode, RuntimeMetrics, RuntimeRefs, RuntimeSummary, TileMode, Viewpoint, WorldManifest } from "./types";
 import { createBGCVisualMaterials, disposeBGCVisualMaterials } from "./visualSystem";
 
-export function WorldRuntime({ manifest, interactive, tileMode, navigation, environmentQuality, viewpoint, focusRequest, tourStop, selected, debug, runtime, loadDurationMs, environmentGroups, onRuntime, onReady, onLodChange, onSelect, onMetrics, onBenchmark, onEnvironmentGroups, onBoundaryHit }: {
+export function WorldRuntime({ manifest, interactive, tileMode, navigation, environmentQuality, viewpoint, focusRequest, tourStop, selected, debug, runtime, loadDurationMs, environmentGroups, onRuntime, onReady, onLodChange, onSelect, onMetrics, onBenchmark, onEnvironmentGroups, onBoundaryHit, onStreetChange }: {
   manifest: WorldManifest;
   interactive: InteractiveManifest;
   tileMode: TileMode;
@@ -34,6 +35,7 @@ export function WorldRuntime({ manifest, interactive, tileMode, navigation, envi
   onBenchmark: (report: BenchmarkReport) => void;
   onEnvironmentGroups: (count: number) => void;
   onBoundaryHit: () => void;
+  onStreetChange: (street: CurrentStreet | null) => void;
 }) {
   const focus = useRef(new THREE.Vector3(...viewpoint.target));
   const tileRecords = useRef(new Map());
@@ -50,7 +52,8 @@ export function WorldRuntime({ manifest, interactive, tileMode, navigation, envi
     <TileManager tiles={manifest.tiles ?? []} mode={tileMode} refs={refs} materials={visualMaterials} quality={environmentQuality} priorityTileId={focusRequest?.entity.tile_id ?? (navigation === "TOUR" ? tourStop?.tile_id : null)} navigation={navigation} onSummary={onRuntime} onInitialReady={onReady} />
     <LandmarkLODManager assets={manifest.detailed_assets ?? []} entities={interactive.entities} refs={refs} materials={visualMaterials} quality={environmentQuality} priorityAssetId={focusRequest?.entity.detailed_asset_id ?? (navigation === "TOUR" ? tourStop?.detailed_asset_id : null)} onActiveChange={onLodChange} />
     <EnvironmentManager activeIds={runtime.activeIds} quality={environmentQuality} refs={refs} materials={visualMaterials} onGroupCount={onEnvironmentGroups} />
-    <NavigationController mode={navigation} viewpoint={viewpoint} bounds={manifest.tiles ?? []} refs={refs} focusRequest={focusRequest} onBoundaryHit={onBoundaryHit} />
+    <NavigationController mode={navigation} viewpoint={viewpoint} bounds={manifest.tiles ?? []} refs={refs} focusRequest={focusRequest} onBoundaryHit={onBoundaryHit} debug={debug} />
+    <StreetLocator mode={navigation} refs={refs} onStreetChange={onStreetChange} />
     <InteractionManager mode={navigation} refs={refs} selected={selected} onSelect={onSelect} />
     <PerformanceProbe tileMode={tileMode} navigation={navigation} quality={environmentQuality} runtime={runtime} loadDurationMs={loadDurationMs} environmentGroups={environmentGroups} onSample={onMetrics} onBenchmark={onBenchmark} />
     {debug ? <Stats className="fps" /> : null}

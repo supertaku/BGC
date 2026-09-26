@@ -159,6 +159,7 @@ main { min-height: 100dvh; }
 .control-hint span { color: var(--accent); padding: 0 6px; }
 .loading-pill { bottom: 86px; }
 .walk-help, .tour-panel { z-index: 3; bottom: 62px; width: min(430px, calc(100vw - 32px)); padding: 13px 16px; }
+.walk-street { position: fixed; z-index: 3; left: 50%; bottom: 145px; transform: translateX(-50%); max-width: calc(100vw - 32px); padding: 8px 14px; border: 1px solid var(--line); border-radius: 99px; background: var(--panel-solid); color: var(--text); font-weight: 700; text-align: center; pointer-events: none; }
 .tour-panel { gap: 9px; }
 .tour-panel > strong { font-size: 1.12rem; }
 .tour-panel button { min-height: 40px; }
@@ -177,6 +178,7 @@ main { min-height: 100dvh; }
   .intro-card { padding: 24px; }
   .control-hint { display: none; }
   .walk-help, .tour-panel { bottom: 105px; }
+  .walk-street { bottom: 190px; }
   .attribution { bottom: 8px; left: 8px; font-size: 10px; }
   .loading-pill { bottom: 170px; }
   .quality-controls { bottom: 170px; }
@@ -187,5 +189,6 @@ main { min-height: 100dvh; }
   .product-panel { top: 58px; bottom: 8px; max-height: none; }
   .intro-card { max-height: calc(100dvh - 16px); overflow-y: auto; }
   .walk-help, .tour-panel { bottom: 8px; }
+  .walk-street { bottom: 93px; }
 }
 @media (max-width: 380px) { .header-actions button { padding: 0 6px; font-size: .7rem; } }

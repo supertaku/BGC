@@ -6,6 +6,8 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+from shapely.geometry import box, shape
+
 
 ROOT = Path(__file__).resolve().parents[2]
 TILES_DIR = ROOT / "data" / "processed" / "bgc-tiles"
@@ -63,6 +65,40 @@ def find_tile(point: list[float], tiles: list[dict]) -> str | None:
     return None
 
 
+def line_parts(geometry):
+    if geometry.geom_type == "LineString":
+        if len(geometry.coords) >= 2 and geometry.length > 0:
+            yield geometry
+    elif geometry.geom_type in {"MultiLineString", "GeometryCollection"}:
+        for part in geometry.geoms:
+            yield from line_parts(part)
+
+
+def named_ways(tile_data: dict) -> list[dict]:
+    cell = box(*tile_data["bounds"])
+    result = []
+    for category, kind in (("roads", "ROAD"), ("paths", "PATH")):
+        for feature in tile_data.get(category, []):
+            props = feature["properties"]
+            name = props.get("name")
+            if not isinstance(name, str) or not name.strip():
+                continue
+            centerline = props.get("centerline_local")
+            if not centerline:
+                continue
+            clipped = shape(centerline).intersection(cell)
+            aliases = sorted({value.strip() for key in ("alt_name", "short_name")
+                              if isinstance(value := props.get("tags", {}).get(key), str) and value.strip()})
+            for part in line_parts(clipped):
+                points = round_ring(list(part.coords))
+                if len(set(map(tuple, points))) < 2:
+                    continue
+                result.append({"id": props["id"], "name": name.strip(), "aliases": aliases,
+                               "kind": kind, "class": props.get("class"), "width_m": props.get("width_m"),
+                               "points": points})
+    return sorted(result, key=lambda item: (item["id"], item["points"]))
+
+
 def main() -> None:
     world = json.loads(WORLD_PATH.read_text(encoding="utf-8"))
     registry = {
@@ -115,7 +151,7 @@ def main() -> None:
             current = entities.get(entity_id)
             if current is None or (record["name"] and not current.get("name")):
                 entities[entity_id] = {key: value for key, value in record.items() if key != "rings"}
-        tile_sidecars[tile_id] = {"footprints": footprints, "environment": defaultdict(list)}
+        tile_sidecars[tile_id] = {"footprints": footprints, "environment": defaultdict(list), "namedWays": named_ways(tile_data)}
 
     pois = json.loads(POIS_PATH.read_text(encoding="utf-8"))["features"]
     counts: dict[str, int] = defaultdict(int)
@@ -144,6 +180,7 @@ def main() -> None:
         tile_payload = {
             "tile_id": tile_id,
             "footprints": data["footprints"],
+            "namedWays": data["namedWays"],
             "environment": {
                 asset_type: sorted(items, key=lambda item: item["id"])
                 for asset_type, items in sorted(data["environment"].items())

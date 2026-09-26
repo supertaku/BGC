@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { EntityRecord, InteractiveManifest, NavigationMode } from "../runtime/types";
+import type { CurrentStreet, EntityRecord, InteractiveManifest, NavigationMode } from "../runtime/types";
 import { heightLabel, searchPlaces, typeLabel } from "./placeState";
 
 type Panel = "search" | "place" | "help" | "about" | null;
 
-export function ProductShell({ interactive, navigation, selectedEntity, tourStops, tourIndex, ready, onMode, onSelectPlace, onClosePlace, onTourStop, onShare, onFocusPlace }: {
-  interactive: InteractiveManifest; navigation: NavigationMode; selectedEntity: EntityRecord | null; tourStops: EntityRecord[]; tourIndex: number; ready: boolean;
+export function ProductShell({ interactive, navigation, currentStreet, selectedEntity, tourStops, tourIndex, ready, onMode, onSelectPlace, onClosePlace, onTourStop, onShare, onFocusPlace }: {
+  interactive: InteractiveManifest; navigation: NavigationMode; currentStreet: CurrentStreet | null; selectedEntity: EntityRecord | null; tourStops: EntityRecord[]; tourIndex: number; ready: boolean;
   onMode: (mode: NavigationMode) => void; onSelectPlace: (entity: EntityRecord) => void; onClosePlace: () => void; onTourStop: (index: number) => void; onShare: () => void; onFocusPlace: () => void;
 }) {
   const [panel, setPanel] = useState<Panel>(null);
@@ -82,7 +82,8 @@ export function ProductShell({ interactive, navigation, selectedEntity, tourStop
     </header>
 
     {intro ? <aside className="intro-card" aria-label="Welcome to BGC 3D"><span className="eyebrow">Explore the city</span><h1>BGC in three dimensions.</h1><p>Search places, walk the streets, or follow a guided tour.</p><button type="button" onClick={dismissIntro}>Explore BGC</button></aside> : null}
-    {navigation === "INSPECT" && !intro && !panel ? <div className="control-hint">Drag to rotate <span>·</span> Scroll to zoom <span>·</span> Select a building</div> : null}
+    {navigation === "INSPECT" && !intro && !panel ? <div className="control-hint">Left drag to move <span>·</span> Right drag to rotate <span>·</span> Scroll to zoom</div> : null}
+    {navigation === "WALK" && currentStreet ? <div className="walk-street" aria-live="polite" aria-atomic="true">{currentStreet.name}</div> : null}
     {navigation === "WALK" ? <aside className="walk-help" aria-live="polite"><strong>{locked ? "Walking" : "Ready to walk"}</strong><span className="walk-desktop-instructions">{locked ? "WASD move · Shift faster · Esc release" : "Click the city to control the camera. WASD move, Shift faster, Esc release."}</span><span className="walk-touch-instructions">Desktop Walk controls are not yet available on touch devices.</span></aside> : null}
     {navigation === "TOUR" && tourStops[tourIndex] ? <aside className="tour-panel" aria-label="Guided tour"><span className="eyebrow">BGC landmarks · Stop {tourIndex + 1} of {tourStops.length}</span><strong>{tourStops[tourIndex].name}</strong><div><button type="button" disabled={tourIndex === 0} onClick={() => onTourStop(tourIndex - 1)}>Previous</button><button type="button" disabled={tourIndex === tourStops.length - 1} onClick={() => onTourStop(tourIndex + 1)}>Next</button><button type="button" onClick={() => changeMode("INSPECT")}>Exit</button></div></aside> : null}
 
