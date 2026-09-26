@@ -55,7 +55,7 @@ def load_package(key):
   mesh=bpy.data.meshes.new(key+'_'+mat);mesh.from_pydata(vs,[],fs);mesh.validate();mesh.update();ob=bpy.data.objects.new(key+'_'+mat,mesh);bpy.context.collection.objects.link(ob);ob.data.materials.append(m);ob['grounding']='INFERRED';ob['source_package']=f'/world/detail/m23/{key}.json'
  return d
 
-def render(key,iteration):
+def render(key,iteration,engine='CYCLES'):
  clear_scene();configure_scene()
  ensembles={'mitsukoshi_ensemble':['mitsukoshi','seasons'],'one_bonifacio_ensemble':['pse','suites','shangri','one_bonifacio','one_bonifacio_realm']}
  members=[load_package(k) for k in ensembles.get(key,[key])];d=members[0];scene=bpy.context.scene
@@ -66,9 +66,10 @@ def render(key,iteration):
  bpy.ops.object.light_add(type='SUN',location=(cx-100,cy-200,300));bpy.context.object.rotation_euler=(.45,-.5,-.5);bpy.context.object.data.energy=2
  scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.65,.72,.8,1);scene.world.node_tree.nodes['Background'].inputs[1].default_value=.5
  scene.render.resolution_x=900;scene.render.resolution_y=700;scene.render.resolution_percentage=100
- scene.render.engine='CYCLES';scene.cycles.samples=12;scene.cycles.use_denoising=True
+ scene.render.engine=engine;scene.cycles.samples=12;scene.cycles.use_denoising=True
+ if engine=='BLENDER_EEVEE':scene.render.resolution_x=640;scene.render.resolution_y=480
  bpy.ops.object.camera_add();camera=bpy.context.object;scene.camera=camera;camera.data.lens=45;camera.data.clip_end=10000
- views={'AERIAL':(1,-1,1.2),'STREET_FRONT':(0,-1.5,.12),'STREET_REAR':(0,1.5,.12),'LEFT_OBLIQUE':(-1,-1,.65),'RIGHT_OBLIQUE':(1,-1,.65),'ROOF_OBLIQUE':(.3,.3,1.9)}
+ views={'AERIAL':(1,-1,1.2),'STREET_FRONT':(0,-1.5,.12),'STREET_REAR':(0,1.5,.12),'LEFT':(-1,0,.3),'RIGHT':(1,0,.3),'ROOF_OBLIQUE':(.3,.3,1.9)}
  qa=[]
  for name,offset in views.items():
   target=Vector((cx,cy,h*.5));radius=math.sqrt((xmax-xmin)**2+(ymax-ymin)**2+h*h)/2;distance=radius/math.sin(camera.data.angle_y/2)*1.12
@@ -78,7 +79,7 @@ def render(key,iteration):
  scene_path=ROOT/f'blender/scenes/m23/{key}.blend';scene_path.parent.mkdir(parents=True,exist_ok=True);bpy.ops.wm.save_as_mainfile(filepath=str(scene_path));write(f'data/reports/m23/cameras/{key}.json',dict(entity_id=key,iteration=iteration,cameras=qa,source_sha256=[m['content_sha256'] for m in members],status='AWAITING_USER_TEST'))
 
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--tiles',action='store_true');parser.add_argument('--render',nargs='*');parser.add_argument('--iteration',default='v1');a=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+ parser=argparse.ArgumentParser();parser.add_argument('--tiles',action='store_true');parser.add_argument('--render',nargs='*');parser.add_argument('--iteration',default='v1');parser.add_argument('--engine',default='CYCLES',choices=['CYCLES','BLENDER_EEVEE']);a=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
  if a.tiles:tiles()
- for key in a.render or []:render(key,a.iteration)
+ for key in a.render or []:render(key,a.iteration,a.engine)
 if __name__=='__main__':main()

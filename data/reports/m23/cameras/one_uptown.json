@@ -1,0 +1,94 @@
+{
+  "entity_id": "one_uptown",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        453.0738525390625,
+        445.6202087402344,
+        358.0199279785156
+      ],
+      "target": [
+        222.64060974121094,
+        676.053466796875,
+        81.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_uptown\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        222.64060974121094,
+        250.02456665039062,
+        115.58230590820312
+      ],
+      "target": [
+        222.64060974121094,
+        676.053466796875,
+        81.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_uptown\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        222.64060974121094,
+        1102.0823974609375,
+        115.58230590820312
+      ],
+      "target": [
+        222.64060974121094,
+        676.053466796875,
+        81.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_uptown\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        -186.7247772216797,
+        676.053466796875,
+        204.3096160888672
+      ],
+      "target": [
+        222.64060974121094,
+        676.053466796875,
+        81.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_uptown\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        632.0059814453125,
+        676.053466796875,
+        204.3096160888672
+      ],
+      "target": [
+        222.64060974121094,
+        676.053466796875,
+        81.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_uptown\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        288.50128173828125,
+        741.9141235351562,
+        498.6174621582031
+      ],
+      "target": [
+        222.64060974121094,
+        676.053466796875,
+        81.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_uptown\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "2ead7bb7b9ffbba4b906d60421fc3c954a255b0cf9b2611c1dca9be56c99c8aa"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

@@ -1,0 +1,13 @@
+........................................................................ [ 94%]
+....                                                                     [100%]
+============================== warnings summary ===============================
+tests/test_m23r_arrival.py::test_arrival_court_does_not_intersect_retained_towers
+tests/test_m23r_arrival.py::test_arrival_court_does_not_intersect_retained_towers
+tests/test_m23r_arrival.py::test_arrival_court_does_not_intersect_retained_towers
+tests/test_m23r_roads.py::test_explicit_left_cycleway_is_on_left_of_source_direction
+tests/test_m23r_roads.py::test_explicit_left_cycleway_is_on_left_of_source_direction
+  C:\Users\joshu\Documents\BGC\.venv\Lib\site-packages\shapely\decorators.py:173: DeprecationWarning: The 'resolution' argument is deprecated. Use 'quad_segs' instead
+    result = func(*args, **kwargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+76 passed, 5 warnings in 17.55s

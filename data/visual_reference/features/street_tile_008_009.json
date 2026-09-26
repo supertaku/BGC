@@ -1,6 +1,42 @@
 [
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00000",
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00000",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:745055617",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00001",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:745055617",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:GUTTER:00002",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:745055617",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00003",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:747217018",
@@ -12,7 +48,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00001",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00004",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:747217018",
@@ -24,7 +60,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00002",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00005",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:747217018",
@@ -36,7 +72,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00003",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00006",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:747217018",
@@ -48,7 +84,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:CURB_STANDARD:00004",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00007",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:747217018",
@@ -60,10 +96,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00005",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00008",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -72,10 +108,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00006",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00009",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -84,10 +120,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00007",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00010",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -96,10 +132,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00008",
+    "feature_id": "street_tile_008_009:TURN_ARROW:00011",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -108,10 +144,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00009",
+    "feature_id": "street_tile_008_009:TURN_ARROW:00012",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -120,10 +156,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00010",
+    "feature_id": "street_tile_008_009:TURN_ARROW:00013",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -132,10 +168,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00011",
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00014",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -144,10 +180,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:CURB_STANDARD:00012",
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00015",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508463",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -156,10 +192,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00013",
+    "feature_id": "street_tile_008_009:BIKE_LANE_PAINTED:00016",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508466",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -168,10 +204,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00014",
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00017",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508466",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -180,10 +216,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00015",
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00018",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508466",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -192,10 +228,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00016",
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00019",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508466",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -204,10 +240,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00017",
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00020",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508466",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -216,10 +252,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00018",
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00021",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508466",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -228,10 +264,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:CURB_STANDARD:00019",
+    "feature_id": "street_tile_008_009:GUTTER:00022",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749508466",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -240,46 +276,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00020",
+    "feature_id": "street_tile_008_009:STORM_INLET:00023",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749513999",
-      "faq"
-    ],
-    "grounding": "INFERRED",
-    "confidence": 0.45,
-    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
-    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
-  },
-  {
-    "feature_id": "street_tile_008_009:LANE_LINE:00021",
-    "zone_id": "street_tile_008_009",
-    "source_ids": [
-      "osm:way:749513999",
-      "faq"
-    ],
-    "grounding": "INFERRED",
-    "confidence": 0.45,
-    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
-    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
-  },
-  {
-    "feature_id": "street_tile_008_009:LANE_LINE:00022",
-    "zone_id": "street_tile_008_009",
-    "source_ids": [
-      "osm:way:749513999",
-      "faq"
-    ],
-    "grounding": "INFERRED",
-    "confidence": 0.45,
-    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
-    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
-  },
-  {
-    "feature_id": "street_tile_008_009:LANE_LINE:00023",
-    "zone_id": "street_tile_008_009",
-    "source_ids": [
-      "osm:way:749513999",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -291,7 +291,7 @@
     "feature_id": "street_tile_008_009:LANE_LINE:00024",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749513999",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -300,10 +300,10 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:CURB_STANDARD:00025",
+    "feature_id": "street_tile_008_009:LANE_LINE:00025",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749513999",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -315,7 +315,7 @@
     "feature_id": "street_tile_008_009:LANE_LINE:00026",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749514003",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -327,7 +327,7 @@
     "feature_id": "street_tile_008_009:LANE_LINE:00027",
     "zone_id": "street_tile_008_009",
     "source_ids": [
-      "osm:way:749514003",
+      "osm:way:747217018",
       "faq"
     ],
     "grounding": "INFERRED",
@@ -336,7 +336,859 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00028",
+    "feature_id": "street_tile_008_009:CURB_STANDARD:00028",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:747217018",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00029",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00030",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00031",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00032",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00033",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00034",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00035",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00036",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00037",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00038",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00039",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00040",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00041",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00042",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:TURN_ARROW:00043",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:TURN_ARROW:00044",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00045",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00046",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:GUTTER:00047",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:STORM_INLET:00048",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00049",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00050",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00051",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00052",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00053",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00054",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00055",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:CURB_STANDARD:00056",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508463",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00057",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00058",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00059",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00060",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00061",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00062",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00063",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00064",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00065",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00066",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00067",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00068",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00069",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00070",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:GUTTER:00071",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00072",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00073",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00074",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00075",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00076",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00077",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:CURB_STANDARD:00078",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749508466",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00079",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00080",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00081",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00082",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00083",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00084",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00085",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00086",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00087",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00088",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00089",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00090",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:GUTTER:00091",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:STORM_INLET:00092",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00093",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00094",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00095",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00096",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00097",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:CURB_STANDARD:00098",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749513999",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00099",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -348,7 +1200,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00029",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00100",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -360,7 +1212,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00030",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00101",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -372,7 +1224,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00031",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00102",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -384,7 +1236,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00032",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00103",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -396,7 +1248,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00033",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00104",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -408,7 +1260,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00034",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00105",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -420,7 +1272,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00035",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00106",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -432,7 +1284,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:LANE_LINE:00036",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00107",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -444,7 +1296,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:CURB_STANDARD:00037",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00108",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:way:749514003",
@@ -456,7 +1308,511 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_008_009:FIRE_HYDRANT:00038",
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00109",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00110",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00111",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00112",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00113",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00114",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00115",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00116",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00117",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00118",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00119",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_DIVIDER:00120",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00121",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:ROAD_EDGE_LINE:00122",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_LANE_PAINTED:00123",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00124",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00125",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00126",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00127",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00128",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_SYMBOL:00129",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00130",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00131",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00132",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00133",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00134",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:BIKE_BOLLARD:00135",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:GUTTER:00136",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:STORM_INLET:00137",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:STORM_INLET:00138",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00139",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00140",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00141",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00142",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00143",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00144",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00145",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00146",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00147",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00148",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:LANE_LINE:00149",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:CURB_STANDARD:00150",
+    "zone_id": "street_tile_008_009",
+    "source_ids": [
+      "osm:way:749514003",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_008_009:FIRE_HYDRANT:00151",
     "zone_id": "street_tile_008_009",
     "source_ids": [
       "osm:node:6991734243",

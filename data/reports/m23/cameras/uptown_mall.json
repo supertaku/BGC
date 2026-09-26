@@ -1,0 +1,94 @@
+{
+  "entity_id": "uptown_mall",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        688.3272094726562,
+        272.7816162109375,
+        426.1270751953125
+      ],
+      "target": [
+        370.55462646484375,
+        590.55419921875,
+        44.79999923706055
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uptown_mall\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        370.55462646484375,
+        3.0509033203125,
+        91.80026245117188
+      ],
+      "target": [
+        370.55462646484375,
+        590.55419921875,
+        44.79999923706055
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uptown_mall\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        370.55462646484375,
+        1178.0574951171875,
+        91.80026245117188
+      ],
+      "target": [
+        370.55462646484375,
+        590.55419921875,
+        44.79999923706055
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uptown_mall\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        -193.96929931640625,
+        590.55419921875,
+        214.1571807861328
+      ],
+      "target": [
+        370.55462646484375,
+        590.55419921875,
+        44.79999923706055
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uptown_mall\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        935.0785522460938,
+        590.55419921875,
+        214.1571807861328
+      ],
+      "target": [
+        370.55462646484375,
+        590.55419921875,
+        44.79999923706055
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uptown_mall\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        461.3779296875,
+        681.3775024414062,
+        620.0142211914062
+      ],
+      "target": [
+        370.55462646484375,
+        590.55419921875,
+        44.79999923706055
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uptown_mall\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "6815074a2f2e92f13e6f68bb841fc34c00ebcfdddb504eafed7b74d373ba6efc"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

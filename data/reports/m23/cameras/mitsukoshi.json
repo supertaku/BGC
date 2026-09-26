@@ -1,6 +1,6 @@
 {
   "entity_id": "mitsukoshi",
-  "iteration": "final",
+  "iteration": "m23r",
   "cameras": [
     {
       "camera_id": "AERIAL",
@@ -14,7 +14,7 @@
         855.9215087890625,
         6.0
       ],
-      "image": "blender\\renders\\m23\\final\\mitsukoshi\\AERIAL.png"
+      "image": "blender\\renders\\m23\\m23r\\mitsukoshi\\AERIAL.png"
     },
     {
       "camera_id": "STREET_FRONT",
@@ -28,7 +28,7 @@
         855.9215087890625,
         3.0
       ],
-      "image": "blender\\renders\\m23\\final\\mitsukoshi\\STREET_FRONT.png"
+      "image": "blender\\renders\\m23\\m23r\\mitsukoshi\\STREET_FRONT.png"
     },
     {
       "camera_id": "STREET_REAR",
@@ -42,35 +42,35 @@
         855.9215087890625,
         3.0
       ],
-      "image": "blender\\renders\\m23\\final\\mitsukoshi\\STREET_REAR.png"
+      "image": "blender\\renders\\m23\\m23r\\mitsukoshi\\STREET_REAR.png"
     },
     {
-      "camera_id": "LEFT_OBLIQUE",
+      "camera_id": "LEFT",
       "position": [
-        -129.23065185546875,
-        548.4253540039062,
-        205.87249755859375
+        -280.1489562988281,
+        855.9215087890625,
+        143.5243377685547
       ],
       "target": [
         178.2655029296875,
         855.9215087890625,
         6.0
       ],
-      "image": "blender\\renders\\m23\\final\\mitsukoshi\\LEFT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\mitsukoshi\\LEFT.png"
     },
     {
-      "camera_id": "RIGHT_OBLIQUE",
+      "camera_id": "RIGHT",
       "position": [
-        485.76165771484375,
-        548.4253540039062,
-        205.87249755859375
+        636.679931640625,
+        855.9215087890625,
+        143.5243377685547
       ],
       "target": [
         178.2655029296875,
         855.9215087890625,
         6.0
       ],
-      "image": "blender\\renders\\m23\\final\\mitsukoshi\\RIGHT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\mitsukoshi\\RIGHT.png"
     },
     {
       "camera_id": "ROOF_OBLIQUE",
@@ -84,11 +84,11 @@
         855.9215087890625,
         6.0
       ],
-      "image": "blender\\renders\\m23\\final\\mitsukoshi\\ROOF_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\mitsukoshi\\ROOF_OBLIQUE.png"
     }
   ],
   "source_sha256": [
-    "789d6891e96b5a033de9f15c5b542683230f07acacd2c667afac29cf1deff85d"
+    "b2354d20cb253ce766e98d7384c606120e44ce055506e96dd9a10c0ce197ac3e"
   ],
   "status": "AWAITING_USER_TEST"
 }

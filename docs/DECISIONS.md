@@ -123,3 +123,11 @@ Keep the base snapshot and successful GLBs unchanged. Resolve crossings above PA
 ## 2026-09-26 — M23 reference-grounded city preview
 
 Use a separate `detail=m23` preview for the expanded city, with canonical part ownership and preview tile variants to avoid overlapping old/new building shells. Preserve the seven approved assets and existing Tour. Keep authoring provenance outside the compact runtime payload. Share instanced geometry and materials across active spatial packages rather than allocate an independent scene per street tile. Local terrain uses a height sampler instead of changing the city's global datum. Estimated amphitheater grades and unseen façades remain labelled. No new landmark receives APPROVED status automatically; user visual acceptance and valid matched performance are required before promotion. M24 graphics controls are deferred.
+
+## 2026-09-26 — M23R/M24 persistent identity and public graphics controls
+
+Supersede the former distance-based identity policy: all M23 landmarks and seven approved assets retain identity while their owning tile is visible. Cached per-package geometry separates identity from nearby furniture. Tile fallbacks remain until replacements are committed. Every canonical background building receives seeded procedural facade attributes; source metadata is preserved and inferred appearance is labelled.
+
+Compile duplicate facade fronts structurally, with opaque FrontSide materials and physical spacing. Prefer reversed depth where supported and capture actual GPU support in benchmarks. Keep the original M23 assets reproducible through the compiler and retained references.
+
+Expose Performance, Balanced and Quality publicly; they vary DPR, shadows and small-detail cost while keeping building identity, major signs and terrain. Replace Explore MapControls with canvas-bound look/pan/fly/zoom controls. Enable this requested completion by default; detail=0 remains a diagnostic baseline. This does not confer APPROVED status: manual visual acceptance remains pending.

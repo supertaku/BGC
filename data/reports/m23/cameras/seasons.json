@@ -1,94 +1,94 @@
 {
   "entity_id": "seasons",
-  "iteration": "final",
+  "iteration": "m23r",
   "cameras": [
     {
       "camera_id": "AERIAL",
       "position": [
-        483.31243896484375,
-        547.2550048828125,
-        469.5455322265625
+        483.9284973144531,
+        546.6414794921875,
+        470.2817687988281
       ],
       "target": [
-        169.39950561523438,
+        169.40203857421875,
         861.16796875,
         92.8499984741211
       ],
-      "image": "blender\\renders\\m23\\final\\seasons\\AERIAL.png"
+      "image": "blender\\renders\\m23\\m23r\\seasons\\AERIAL.png"
     },
     {
       "camera_id": "STREET_FRONT",
       "position": [
-        169.39950561523438,
-        280.80047607421875,
-        139.27940368652344
+        169.40203857421875,
+        279.6661376953125,
+        139.37014770507812
       ],
       "target": [
-        169.39950561523438,
+        169.40203857421875,
         861.16796875,
         92.8499984741211
       ],
-      "image": "blender\\renders\\m23\\final\\seasons\\STREET_FRONT.png"
+      "image": "blender\\renders\\m23\\m23r\\seasons\\STREET_FRONT.png"
     },
     {
       "camera_id": "STREET_REAR",
       "position": [
-        169.39950561523438,
-        1441.535400390625,
-        139.27940368652344
+        169.40203857421875,
+        1442.6697998046875,
+        139.37014770507812
       ],
       "target": [
-        169.39950561523438,
+        169.40203857421875,
         861.16796875,
         92.8499984741211
       ],
-      "image": "blender\\renders\\m23\\final\\seasons\\STREET_REAR.png"
+      "image": "blender\\renders\\m23\\m23r\\seasons\\STREET_REAR.png"
     },
     {
-      "camera_id": "LEFT_OBLIQUE",
+      "camera_id": "LEFT",
       "position": [
-        -204.67364501953125,
-        487.0948181152344,
-        335.99755859375
+        -389.35516357421875,
+        861.16796875,
+        260.4771728515625
       ],
       "target": [
-        169.39950561523438,
+        169.40203857421875,
         861.16796875,
         92.8499984741211
       ],
-      "image": "blender\\renders\\m23\\final\\seasons\\LEFT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\seasons\\LEFT.png"
     },
     {
-      "camera_id": "RIGHT_OBLIQUE",
+      "camera_id": "RIGHT",
       "position": [
-        543.47265625,
-        487.0948181152344,
-        335.99755859375
+        728.1592407226562,
+        861.16796875,
+        260.4771728515625
       ],
       "target": [
-        169.39950561523438,
+        169.40203857421875,
         861.16796875,
         92.8499984741211
       ],
-      "image": "blender\\renders\\m23\\final\\seasons\\RIGHT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\seasons\\RIGHT.png"
     },
     {
       "camera_id": "ROOF_OBLIQUE",
       "position": [
-        259.11968994140625,
-        950.8881225585938,
-        661.0776977539062
+        259.2975769042969,
+        951.0634765625,
+        662.1882934570312
       ],
       "target": [
-        169.39950561523438,
+        169.40203857421875,
         861.16796875,
         92.8499984741211
       ],
-      "image": "blender\\renders\\m23\\final\\seasons\\ROOF_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\seasons\\ROOF_OBLIQUE.png"
     }
   ],
   "source_sha256": [
-    "c64db8f607b91ef116565de238cc3fd938dc729f2369beda2d0257dcc2417af5"
+    "9a31d2bf40eee18b441829cc6bf2a8dd78fc1e6b47b8e2528053d668369a0cf0"
   ],
   "status": "AWAITING_USER_TEST"
 }

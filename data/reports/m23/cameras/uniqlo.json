@@ -1,0 +1,94 @@
+{
+  "entity_id": "uniqlo",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -76.27313995361328,
+        55.07782745361328,
+        89.79322052001953
+      ],
+      "target": [
+        -145.76748657226562,
+        124.57217407226562,
+        6.400000095367432
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uniqlo\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -145.76748657226562,
+        -3.9101409912109375,
+        4.0
+      ],
+      "target": [
+        -145.76748657226562,
+        124.57217407226562,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uniqlo\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -145.76748657226562,
+        253.0544891357422,
+        4.0
+      ],
+      "target": [
+        -145.76748657226562,
+        124.57217407226562,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uniqlo\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        -269.2243957519531,
+        124.57217407226562,
+        43.437076568603516
+      ],
+      "target": [
+        -145.76748657226562,
+        124.57217407226562,
+        6.400000095367432
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uniqlo\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        -22.310569763183594,
+        124.57217407226562,
+        43.437076568603516
+      ],
+      "target": [
+        -145.76748657226562,
+        124.57217407226562,
+        6.400000095367432
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uniqlo\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -125.9051513671875,
+        144.43450927734375,
+        132.19479370117188
+      ],
+      "target": [
+        -145.76748657226562,
+        124.57217407226562,
+        6.400000095367432
+      ],
+      "image": "blender\\renders\\m23\\m23r\\uniqlo\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "2fc6184565598659e2d5b6d8a45746c08c493a572406a2ad68d9c1f500b4c9aa"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

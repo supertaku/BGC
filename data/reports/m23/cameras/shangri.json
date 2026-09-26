@@ -1,94 +1,94 @@
 {
   "entity_id": "shangri",
-  "iteration": "final",
+  "iteration": "m23r",
   "cameras": [
     {
       "camera_id": "AERIAL",
       "position": [
-        -119.41323852539062,
-        -146.10052490234375,
-        533.3645629882812
+        -114.85195922851562,
+        -156.43304443359375,
+        538.8377685546875
       ],
       "target": [
-        -459.3836669921875,
-        193.86990356445312,
+        -459.3834533691406,
+        188.09844970703125,
         125.4000015258789
       ],
-      "image": "blender\\renders\\m23\\final\\shangri\\AERIAL.png"
+      "image": "blender\\renders\\m23\\m23r\\shangri\\AERIAL.png"
     },
     {
       "camera_id": "STREET_FRONT",
       "position": [
-        -459.3836669921875,
-        -434.6731872558594,
-        175.68344116210938
+        -459.3834533691406,
+        -448.87713623046875,
+        176.35804748535156
       ],
       "target": [
-        -459.3836669921875,
-        193.86990356445312,
+        -459.3834533691406,
+        188.09844970703125,
         125.4000015258789
       ],
-      "image": "blender\\renders\\m23\\final\\shangri\\STREET_FRONT.png"
+      "image": "blender\\renders\\m23\\m23r\\shangri\\STREET_FRONT.png"
     },
     {
       "camera_id": "STREET_REAR",
       "position": [
-        -459.3836669921875,
-        822.4129638671875,
-        175.68344116210938
+        -459.3834533691406,
+        825.0740356445312,
+        176.35804748535156
       ],
       "target": [
-        -459.3836669921875,
-        193.86990356445312,
+        -459.3834533691406,
+        188.09844970703125,
         125.4000015258789
       ],
-      "image": "blender\\renders\\m23\\final\\shangri\\STREET_REAR.png"
+      "image": "blender\\renders\\m23\\m23r\\shangri\\STREET_REAR.png"
     },
     {
-      "camera_id": "LEFT_OBLIQUE",
+      "camera_id": "LEFT",
       "position": [
-        -864.5081787109375,
-        -211.25457763671875,
-        388.73089599609375
+        -1071.4447021484375,
+        188.09844970703125,
+        309.01837158203125
       ],
       "target": [
-        -459.3836669921875,
-        193.86990356445312,
+        -459.3834533691406,
+        188.09844970703125,
         125.4000015258789
       ],
-      "image": "blender\\renders\\m23\\final\\shangri\\LEFT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\shangri\\LEFT.png"
     },
     {
-      "camera_id": "RIGHT_OBLIQUE",
+      "camera_id": "RIGHT",
       "position": [
-        -54.259185791015625,
-        -211.25457763671875,
-        388.73089599609375
+        152.67776489257812,
+        188.09844970703125,
+        309.01837158203125
       ],
       "target": [
-        -459.3836669921875,
-        193.86990356445312,
+        -459.3834533691406,
+        188.09844970703125,
         125.4000015258789
       ],
-      "image": "blender\\renders\\m23\\final\\shangri\\RIGHT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\shangri\\RIGHT.png"
     },
     {
       "camera_id": "ROOF_OBLIQUE",
       "position": [
-        -362.2159423828125,
-        291.0376281738281,
-        740.7955932617188
+        -360.912109375,
+        286.56976318359375,
+        749.0516967773438
       ],
       "target": [
-        -459.3836669921875,
-        193.86990356445312,
+        -459.3834533691406,
+        188.09844970703125,
         125.4000015258789
       ],
-      "image": "blender\\renders\\m23\\final\\shangri\\ROOF_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\shangri\\ROOF_OBLIQUE.png"
     }
   ],
   "source_sha256": [
-    "c8a63d80d7bc17caa7881f8b3aa5602801835b335d6684e0e6fa87ecb81287ac"
+    "8cb128351d2d0d65e1075172f515100120b749c84b24779019c4a81c7fd89c58"
   ],
   "status": "AWAITING_USER_TEST"
 }

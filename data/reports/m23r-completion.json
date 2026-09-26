@@ -1,0 +1,102 @@
+{
+  "phase": "READY_FOR_USER_VALIDATION",
+  "milestone": "M23R\u2013M24",
+  "automated_implementation": "PARTIAL",
+  "engineering": "PASS",
+  "performance": "PASS",
+  "manual_validation": "AWAITING_USER_TEST",
+  "remaining_verification": [
+    "Exhaustive live 250m/500m/1km visual sweep of all 31 landmarks",
+    "Physical held-right-drag/WASD interaction and camera feel",
+    "39 physical sign placements remain explicitly unverified"
+  ],
+  "branch": "main",
+  "starting_head": "380ed7ccd2d3cfdfe2e51a2787b6bfaaae37416b",
+  "final_head": "380ed7ccd2d3cfdfe2e51a2787b6bfaaae37416b",
+  "working_tree": "DIRTY",
+  "coverage": 6982,
+  "families": 18,
+  "performance_profiles": {
+    "performance": {
+      "runs": 5,
+      "mean_fps_range": [
+        165.57,
+        168.14
+      ],
+      "p1_low_fps_range": [
+        97.09,
+        144.93
+      ]
+    },
+    "balanced": {
+      "runs": 5,
+      "mean_fps_range": [
+        165.47,
+        167.47
+      ],
+      "p1_low_fps_range": [
+        108.7,
+        147.06
+      ]
+    },
+    "quality": {
+      "runs": 5,
+      "mean_fps_range": [
+        143.49,
+        167.26
+      ],
+      "p1_low_fps_range": [
+        56.5,
+        112.36
+      ]
+    }
+  },
+  "runtime_stability": {
+    "zero_visible_events": [],
+    "longest_zero_visible_ms": 0,
+    "tile_requests": 71,
+    "repeated_tile_requests": 0,
+    "tile_state_transitions": 142,
+    "focus_request_count": 7,
+    "focus_transition_starts": 7,
+    "focus_transition_completes": 7,
+    "focus_transition_cancels": 0,
+    "lod1_requests": 7,
+    "lod1_ready_count": 7,
+    "lod_handoff_gap_events": 0,
+    "pointer_lock_mounts": 0,
+    "pointer_lock_unmounts": 0,
+    "map_dom_element": "UNKNOWN",
+    "map_events_connected": "UNKNOWN",
+    "map_pointer_down_left": 0,
+    "map_pointer_down_middle": 0,
+    "map_pointer_down_right": 0,
+    "map_pointer_moves": 0,
+    "map_pointer_ups": 0,
+    "map_contextmenus": 0,
+    "map_pointer_type": "",
+    "map_pointer_start": [
+      0,
+      0
+    ],
+    "map_pointer_distance_px": 0,
+    "map_control_starts": 0,
+    "map_control_changes": 0,
+    "map_control_ends": 0,
+    "map_pan_changes": 0,
+    "map_rotate_changes": 0,
+    "map_target_clamp_events": 0,
+    "street_queries": 0,
+    "street_changes": 0,
+    "street_candidate_segments": 0,
+    "current_street_id": null,
+    "current_street_name": null,
+    "current_street_distance_m": null
+  },
+  "sign_types": {
+    "BUILDING_NAME": 32,
+    "PARK_SIGN": 8,
+    "PUBLIC_REALM_BRAND": 1
+  },
+  "no_subsequent_milestone": true
+}

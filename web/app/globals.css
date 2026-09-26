@@ -192,3 +192,10 @@ main { min-height: 100dvh; }
   .walk-street { bottom: 93px; }
 }
 @media (max-width: 380px) { .header-actions button { padding: 0 6px; font-size: .7rem; } }
+.graphics-panel fieldset { border: 0; padding: 0; margin: 0; }
+.graphics-panel legend { color: #bcc9c5; margin-bottom: 16px; }
+.graphics-option { display: flex; align-items: flex-start; gap: 12px; padding: 15px 12px; border: 1px solid #50605b; margin-bottom: 10px; border-radius: 8px; cursor: pointer; }
+.graphics-option:has(input:checked) { border-color: #e8bd69; background: #233a36; }
+.graphics-option input { width: auto; margin: 4px 0 0; accent-color: #e8bd69; }
+.graphics-option strong,.graphics-option small { display: block; }
+.graphics-option small { margin-top: 7px; line-height: 1.45; color: #bac8c2; }

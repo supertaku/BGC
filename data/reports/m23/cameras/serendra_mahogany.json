@@ -1,0 +1,94 @@
+{
+  "entity_id": "serendra_mahogany",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        585.3433227539062,
+        -102.78115844726562,
+        201.4218292236328
+      ],
+      "target": [
+        444.57513427734375,
+        37.98703384399414,
+        32.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_mahogany\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        444.57513427734375,
+        -222.267578125,
+        53.32036590576172
+      ],
+      "target": [
+        444.57513427734375,
+        37.98703384399414,
+        32.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_mahogany\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        444.57513427734375,
+        298.24163818359375,
+        53.32036590576172
+      ],
+      "target": [
+        444.57513427734375,
+        37.98703384399414,
+        32.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_mahogany\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        194.50001525878906,
+        37.98703384399414,
+        107.52253723144531
+      ],
+      "target": [
+        444.57513427734375,
+        37.98703384399414,
+        32.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_mahogany\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        694.6502685546875,
+        37.98703384399414,
+        107.52253723144531
+      ],
+      "target": [
+        444.57513427734375,
+        37.98703384399414,
+        32.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_mahogany\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        484.80841064453125,
+        78.22030639648438,
+        287.31072998046875
+      ],
+      "target": [
+        444.57513427734375,
+        37.98703384399414,
+        32.5
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_mahogany\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "9ac77c622b7fb6270d764e568229ca3284b9a431acb6ab08f0f80d5567dd1302"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

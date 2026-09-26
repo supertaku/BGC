@@ -17,11 +17,12 @@ export function PerformanceProbe({ refs, tileMode, navigation, quality, runtime,
 }) {
   const { gl, camera } = useThree();
   const sample = useRef({ started: null as number | null, frames: 0 });
-  const benchmark = useRef({ started: null as number | null, previous: null as number | null, frameTimes: [] as number[], finished: false, invalid: new Set<string>(), viewport:"", dpr:0, camera:null as number[]|null });
+  const benchmark = useRef({ started: null as number | null, previous: null as number | null, frameTimes: [] as number[], finished: false, invalid: new Set<string>(), viewport:"", dpr:0, camera:null as number[]|null,path:0 });
   useFrame(() => {
     const now = performance.now();
     if (loadDurationMs !== null && runtime.visible > 0 && new URLSearchParams(window.location.search).get("benchmark") === "1" && !benchmark.current.finished) {
       const state = benchmark.current;
+      if(state.camera){const step=Math.hypot(camera.position.x-state.camera[0],camera.position.z-state.camera[2]);if(step<5)state.path+=step;state.camera=[camera.position.x,camera.position.y,camera.position.z];}
       if(document.hidden || !document.hasFocus()) state.invalid.add("BACKGROUND_OR_UNFOCUSED");
       if(state.previous !== null && now-state.previous >= 900) state.invalid.add("THROTTLED_FRAME");
       if (state.started === null) { state.started = now; state.viewport=`${window.innerWidth}x${window.innerHeight}`; state.dpr=window.devicePixelRatio; state.camera=[camera.position.x,camera.position.y,camera.position.z]; window.__BGC_BENCHMARK_CLOCK__ = {start: now, end: now + 20000}; }
@@ -30,7 +31,7 @@ export function PerformanceProbe({ refs, tileMode, navigation, quality, runtime,
       if (now - state.started >= 20000 && state.frameTimes.length) {
         if(state.viewport!==`${window.innerWidth}x${window.innerHeight}` || state.dpr!==window.devicePixelRatio)state.invalid.add("VIEWPORT_OR_DPR_CHANGED");
         if(runtime.errors)state.invalid.add("RUNTIME_ERROR");
-        if(navigation==="WALK" && state.camera && Math.hypot(camera.position.x-state.camera[0],camera.position.z-state.camera[2])<100)state.invalid.add("WALK_PATH_INCOMPLETE");
+        if(navigation==="WALK" && state.path<100)state.invalid.add("WALK_PATH_INCOMPLETE");
         const fps = state.frameTimes.map((delta) => 1000 / delta).sort((a, b) => a - b);
         const mean = fps.reduce((total, value) => total + value, 0) / fps.length;
         const context = gl.getContext();
@@ -47,10 +48,12 @@ export function PerformanceProbe({ refs, tileMode, navigation, quality, runtime,
         const report: BenchmarkReport = {
           status: state.invalid.size ? "INVALID" : "PASS",
           invalid_reasons: [...state.invalid],
+          path_distance_m:Number(state.path.toFixed(2)),
           detail: {...(window.__BGC_DETAIL__ ?? {tiles:0,instances:0}), requests: resources.filter(r=>new URL(r.name).pathname === "/world/detail/high-street-public-realm.json").length},
           m23: window.__BGC_M23__ ?? null,
           scene: new URLSearchParams(window.location.search).get("view") ?? "overview",
           quality,
+          graphics:window.__BGC_GRAPHICS__,
           mode: tileMode,
           navigation,
           sample_count: fps.length,

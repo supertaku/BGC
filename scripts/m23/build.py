@@ -13,6 +13,11 @@ from shapely.geometry.polygon import orient
 from shapely.strtree import STRtree
 from shapely import constrained_delaunay_triangles, maximum_inscribed_circle
 from prepare import ROOT, read, write
+from facade_shell import compile_shell
+from public_realm_completion import complete_high_street,central_handrails
+from road_completion import road_detail,crossing_detail
+from road_evidence import enrich_road_evidence
+from shangri_completion import complete_shangri,passage_void,arrival_void
 
 MATERIALS={
  'GLASS_BLUE':['#42606e',.3,.15], 'GLASS_NEUTRAL':['#67716f',.36,.12],
@@ -44,7 +49,7 @@ class Package:
         return fid
     def tri(self,mat,points):
         m=self.meshes[mat];n=len(m['vertices'])//3
-        m['vertices'].extend(round(v,3) for p in points for v in p);m['indices'].extend([n,n+1,n+2])
+        m['vertices'].extend(round(v,6) for p in points for v in p);m['indices'].extend([n,n+1,n+2])
     def quad(self,mat,a,b,c,d): self.tri(mat,[a,b,c]);self.tri(mat,[a,c,d])
     def surface(self,g,h,mat,category,base=None,walk=False):
         fid=self.feature(category)
@@ -127,6 +132,7 @@ class Package:
     def sign(self,text,x,y,h,width=5,typ='BUILDING_NAME',rotation=0):
         self.signs.append(dict(id=f'{self.id}:sign:{len(self.signs)}',building_id=self.id,facade='ESTIMATED_PRIMARY',position=xyz(x,y,h),rotation=[0,rotation,0],width_m=width,height_m=min(1.8,width*.19),sign_type=typ,text=text,asset=None,source_id=self.ref[0] if self.ref else self.source,grounding='ESTIMATED',current_as_of=None,rights_status='TEXT_ONLY_NO_LOGO',visibility_priority=1 if typ=='BUILDING_NAME' else 3))
     def save(self):
+        if self.kind=='landmark':compile_shell(self)
         # Compact indexed geometry. Canonical evidence is retained separately from payloads.
         for m in self.meshes.values():
             vertices=m['vertices'];lookup={};out=[];remap={}
@@ -159,11 +165,12 @@ def facade(pkg,g,base,top,style):
     for a,b,length,yaw,(nx,ny) in edges(g.simplify(.45)):
         cx,cy=(a[0]+b[0])/2,(a[1]+b[1])/2
         fid=pkg.feature('CURTAIN_WALL' if top>40 else 'PODIUM_GLAZING')
-        pkg.block(cx+nx*.1,cy+ny*.1,base+.6,length,.2,top-base-1.2,glass,yaw,fid)
+        # Glazing is a separate physical skin, clear of the mapped structural shell.
+        pkg.block(cx+nx*.25,cy+ny*.25,base+.6,length,.2,top-base-1.2,glass,yaw,fid)
         interval=3.6 if style in ['balcony','suites'] else 5.8
         for h in range(math.ceil((base+4)/interval),math.floor(top/interval)):
             depth=.85 if style in ['balcony','suites'] else .3
-            pkg.block(cx+nx*depth*.4,cy+ny*depth*.4,h*interval,length,depth,.22 if depth<.8 else .32,'STONE_LIGHT' if style in ['balcony','suites'] else 'ALUMINUM_DARK',yaw,fid)
+            pkg.block(cx+nx*(.4+depth/2),cy+ny*(.4+depth/2),h*interval,length,depth,.22 if depth<.8 else .32,'STONE_LIGHT' if style in ['balcony','suites'] else 'ALUMINUM_DARK',yaw,fid)
         spacing=5.5 if style in ['pse','shangri','seasons'] else 9
         for k in range(1,int(length/spacing)):
             t=k/max(1,int(length/spacing)); x=a[0]+(b[0]-a[0])*t;y=a[1]+(b[1]-a[1])*t
@@ -195,6 +202,8 @@ def landmark(t):
     for f in t['volumes']:
         props=f['properties'];p.source=props['id'];g=shape(f['geometry']);base=props.get('min_height_m',0);top=props['height_m']
         if top<=base:continue
+        if style=='shangri' and top<35:
+            g=g.difference(passage_void()).difference(arrival_void())
         if style=='museum':
             xmin,ymin,xmax,ymax=g.bounds
             body=g.buffer(-3).intersection(box(xmin,ymin+24,xmax-15,ymax))
@@ -271,6 +280,7 @@ def landmark(t):
         if style in ['pse','seasons','shangri'] and top>100:
             p.surface(g.buffer(.4).difference(g.buffer(-.6)),top+.8,'ALUMINUM_DARK','CROWN',base=top)
     g=unary_union([shape(v['geometry']) for v in t['volumes']]);x,y=g.centroid.coords[0]
+    if style=='shangri':complete_shangri(p,t)
     edges_front=list(edges(g));a,b,l,yaw,n=max(edges_front,key=lambda e:e[2]);cx,cy=(a[0]+b[0])/2+n[0],(a[1]+b[1])/2+n[1]
     p.sign(t['name'],cx,cy,5.2,min(15,l*.65),rotation=math.atan2(n[0],-n[1]))
     if style=='pse':p.block(cx,cy,6.6,min(l,32),.3,1.4,'PAINT_WHITE',yaw);p.sign('PSE',cx+n[0]*.2,cy+n[1]*.2,7.3,5,rotation=math.atan2(n[0],-n[1]))
@@ -278,11 +288,79 @@ def landmark(t):
 
 PARKS={'Track 30th':'track_30th','Terra 28th':'terra_28th','Kasalikasan':'kasalikasan','De Jesus Oval':'de_jesus_oval','BGC Greenway Park':'greenway','Burgos Circle Park':'burgos_circle','J.Y. Campos Park':'mind_museum_park','BHS Central':'high_street_central'}
 
+def street_packages(paths,roads,buildings,pois,bu,ru):
+    tilepkgs={};world=read('web/public/world/bgc-world.json')
+    def tilepkg(x,y):
+        t=next((t for t in world['tiles'] if box(*t['bounds']).covers(Point(x,y))),None)
+        if not t:return None
+        key='street_'+t['tile_id'];return tilepkgs.setdefault(key,Package(key))
+    path_geoms=[shape(f['geometry']) for f in paths];building_geoms=[shape(f['geometry']) for f in buildings]
+    path_tree=STRtree(path_geoms);building_tree=STRtree(building_geoms)
+    for road_index,f in enumerate(roads):
+        props=f['properties'];tags=props.get('tags',{});g=shape(f['geometry']);line=props.get('centerline_local');width=props.get('width_m',0)
+        if not line or not g.intersects(box(-950,-750,850,1150)):continue
+        line=shape(line);q=line.interpolate(.5,normalized=True);p=tilepkg(q.x,q.y)
+        if not p:continue
+        near_path=unary_union([path_geoms[int(i)] for i in path_tree.query(g.buffer(2))])
+        near_build=unary_union([building_geoms[int(i)] for i in building_tree.query(g.buffer(2))])
+        p.source=props['id'];p.ref=['faq']
+        road_detail(p,props,g,line,width,near_path,near_build)
+        if tags.get('lanes') and str(tags['lanes']).isdigit() and int(tags['lanes'])>=2:
+            for s in range(6,int(line.length)-6,9):
+                a=line.interpolate(s);b=line.interpolate(min(s+3,line.length));stripe=LineString([a,b]).buffer(.06,cap_style=2).intersection(g).difference(near_path)
+                p.surface(stripe,.068,'PAINT_WHITE','LANE_LINE')
+        # Curbs stop at mapped pedestrian crossings to preserve traversable entries.
+        if props.get('class') in ['primary','secondary','tertiary','residential'] and line.length>20:
+            edge=g.boundary.buffer(.10).difference(near_path.buffer(1.5)).difference(near_build.buffer(.2))
+            p.surface(edge,.18,'CONCRETE_LIGHT','CURB_STANDARD',base=.06)
+    for f in pois:
+        props=f['properties'];category=props['category'];g=shape(f['geometry']);x,y=g.x,g.y
+        if not box(-950,-750,850,1150).covers(g):continue
+        kind={'bicycle_parking':'BIKE_RACK','outdoor_seating':'OUTDOOR_DINING','bus_station':'BGC_BUS_STOP_STANDARD','bicycle_repair_station':'UTILITY_CABINET'}.get(category)
+        if not kind or bu.buffer(.3).covers(g) or ru.covers(g):continue
+        p=tilepkg(x,y)
+        if p:p.source=props['id'];p.furniture(kind,x,y)
+    # Raw mapped transport/utility nodes omitted by the older environment sidecar.
+    from pyproj import Transformer
+    transform=Transformer.from_crs(4326,32651,always_xy=True);ox,oy=transform.transform(121.050972,14.550806)
+    raw=read('data/raw/osm/bgc-2026-09-14T162150Z.json')
+    building_clearance=bu.buffer(.4);road_boundary=ru.boundary
+    for node in raw.get('elements',[]):
+        if node['type']!='node' or 'lat' not in node:continue
+        tags=node.get('tags',{});kind=None
+        if tags.get('highway')=='traffic_signals':kind='TRAFFIC_SIGNAL'
+        elif tags.get('highway')=='bus_stop':kind='BGC_BUS_STOP_COMPACT'
+        elif tags.get('emergency')=='fire_hydrant':kind='FIRE_HYDRANT'
+        elif tags.get('man_made')=='street_cabinet':kind='UTILITY_CABINET'
+        elif tags.get('man_made')=='manhole':kind='MANHOLE'
+        elif tags.get('man_made')=='surveillance':kind='CCTV_POLE'
+        if not kind:continue
+        gx,gy=transform.transform(node['lon'],node['lat']);x,y=gx-ox,gy-oy
+        if not box(-950,-750,850,1150).covers(Point(x,y)):continue
+        # Signal nodes describe an intersection, not a pole survey. Move the inferred
+        # pole to the nearest clear edge; never install a post in the traffic lane.
+        if kind in ['TRAFFIC_SIGNAL','BGC_BUS_STOP_COMPACT'] and ru.covers(Point(x,y)):
+            edge=nearest_points(Point(x,y),road_boundary)[1];dx,dy=edge.x-x,edge.y-y;length=math.hypot(dx,dy)
+            if length<.01:continue
+            x,y=edge.x+dx/length*.55,edge.y+dy/length*.55
+        if building_clearance.covers(Point(x,y)):continue
+        p=tilepkg(x,y)
+        if p:p.source=f"osm:node:{node['id']}";p.ref=['faq'];p.furniture(kind,x,y)
+    # Mapped crossing surfaces have priority over roads.
+    for f in paths:
+        if f['properties'].get('tags',{}).get('crossing')!='zebra':continue
+        g=shape(f['geometry']);c=g.centroid;p=tilepkg(c.x,c.y)
+        if not p:continue
+        p.source=f['properties']['id'];xmin,ymin,xmax,ymax=g.bounds
+        crossing_detail(p,g,[road for road in roads if shape(road['geometry']).intersects(g)])
+    return [p.save() for p in tilepkgs.values() if p.features]
+
 def main():
     targets=read('data/visual_reference/targets.json')['targets']; entries=[]
     for t in targets:
-        p=landmark(t); entry=p.save();entry.update(entity_id=t['entity_id'],name=t['name'],replaces=[v['properties']['id'] for v in t['volumes']],height_m=max(v['properties']['height_m'] for v in t['volumes']),activation_m=260 if not t['id'].startswith('lite_') else 200);entries.append(entry)
+        p=landmark(t); entry=p.save();entry.update(entity_id=t['entity_id'],name=t['name'],replaces=[v['properties']['id'] for v in t['volumes']],replacement_entity_ids=sorted({v['properties']['canonical_entity_id'] for v in t['volumes']}),identity_visibility='OWNER_TILE',height_m=max(v['properties']['height_m'] for v in t['volumes']),activation_m=260 if not t['id'].startswith('lite_') else 200);entries.append(entry)
     paths=read('data/processed/bgc-paths.geojson')['features'];roads=read('data/processed/bgc-roads.geojson')['features'];buildings=read('data/processed/bgc-buildings.geojson')['features'];parks=read('data/processed/bgc-open-spaces.geojson')['features'];pois=read('data/processed/bgc-pois.geojson')['features']
+    roads=enrich_road_evidence(roads)
     bu=unary_union([shape(f['geometry']) for f in buildings]);ru=unary_union([shape(f['geometry']) for f in roads]);pu=unary_union([shape(f['geometry']) for f in paths]); mapped=[shape(f['geometry']) for f in pois if f['properties']['category'] in ['tree','bench','bollard','waste_basket','street_lamp','shelter']]
     obstacles=bu.buffer(.7).union(ru.buffer(.3)).union(pu.buffer(.4)); mapped_union=unary_union(mapped).buffer(3)
     for f in parks:
@@ -305,7 +383,9 @@ def main():
             for step in range(6):
                 inner=r*.38+step*r*.095;outer=inner+r*.095
                 ring=Point(cx,cy).buffer(outer,quad_segs=16).difference(Point(cx,cy).buffer(inner,quad_segs=16)).intersection(terrain_extent)
-                p.surface(ring,.18+(step+1)*.25,'STONE_LIGHT','STAIR_PLAZA_WIDE',base=.16)
+                lawn=ring.intersection(box(cx-r,cy+2,cx+r,cy+r)) if step>1 else Polygon()
+                p.surface(ring.difference(lawn),.18+(step+1)*.25,'STONE_LIGHT','STAIR_PLAZA_WIDE',base=.16)
+                if not lawn.is_empty:p.surface(lawn,.18+(step+1)*.25,'GRASS','GRASS_TERRACE',base=.16)
             # Exact smooth walk support uses matching vertices, including boundary descent.
             rings=[(0,.163),(r*.38,.18),(r*.95,1.68),(r+5,.163)]
             for (ra,ha),(rb,hb) in zip(rings,rings[1:]):
@@ -321,6 +401,7 @@ def main():
                         # The continuous outer apron provides the grade transition;
                         # no diagonal plane cuts across the concentric seating.
             water=Point(cx,cy).buffer(r*.2,quad_segs=12);p.surface(water,.178,'WATER','WATER_PLAZA')
+            central_handrails(p,cx,cy,r)
             for i in range(8):p.inst('cylinder','ALUMINUM_DARK',xyz(cx+math.cos(i*math.tau/8)*r*.23,cy+math.sin(i*math.tau/8)*r*.23,.185),[.08,.03,.08])
             safe=safe.difference(terrain_extent.buffer(2))
         elif key=='kasalikasan':
@@ -386,6 +467,7 @@ def main():
         if props.get('name') not in ['B:1','B:2','B:3','B:4','B:5','B:6','B:7','B:8','C1','C2','C3']:continue
         p.source=props['id'];facade(p,g,0,min(props['height_m'],16),'retail')
     for title,artist in [('Bearable Lightness','Reg Yuson and Ronald Achacoso'),('Hearsay','Reg Yuson')]:p.art.append(dict(id='high-street:'+title,title=title,artist=artist,location='Bonifacio High Street portal',position=None,rotation=[0,0,0],category='LOCATION_ANCHOR',source='art',rights_status='RESEARCH_ONLY',current_status='DIRECTORY_LISTED_2026_09_26',geometry_asset=None,texture_asset=None,grounding='UNKNOWN'))
+    complete_high_street(p,paths,parks,bu,ru,mapped_union)
     entries.append(p.save())
     # Shared One Bonifacio public-realm package from mapped paths between its volumes.
     p=Package('one_bonifacio_realm');p.ref=['pse','shangri','user_photo_1'];extent=box(-558,8,-363,242)
@@ -429,72 +511,7 @@ def main():
     for i,kind in enumerate(['TREE_SMALL_ROUND','TREE_MEDIUM_ROUND','TREE_LARGE_SPREAD','TREE_COLUMNAR','TREE_FLOWERING','PALM_ROYAL','TREE_MULTI_TRUNK']):kit.tree(i*12,-15,kind)
     for f in kit.features:f['grounding']='PROCEDURAL';f['modeling_notes']='Reusable category fixture; no claim of site placement or exact visual design.'
     kit.save();write('data/visual_reference/city-kit.json',dict(categories=kit_types,facade_primitives=['WINDOW_GRID','CURTAIN_WALL','HORIZONTAL_BAND','VERTICAL_FIN','LOUVER_SCREEN','BALCONY_STACK','STONE_PANEL','METAL_PANEL','PODIUM_GLAZING','CANOPY','ROOF_SCREEN','SKY_GARDEN_VOID'],placement_policy='Instantiate only with local mapped or photographic evidence; unplaced fixtures are not city features.'))
-    tilepkgs={};world=read('web/public/world/bgc-world.json')
-    def tilepkg(x,y):
-        t=next((t for t in world['tiles'] if box(*t['bounds']).covers(Point(x,y))),None)
-        if not t:return None
-        key='street_'+t['tile_id'];return tilepkgs.setdefault(key,Package(key))
-    path_geoms=[shape(f['geometry']) for f in paths];building_geoms=[shape(f['geometry']) for f in buildings]
-    path_tree=STRtree(path_geoms);building_tree=STRtree(building_geoms)
-    for road_index,f in enumerate(roads):
-        props=f['properties'];tags=props.get('tags',{});g=shape(f['geometry']);line=props.get('centerline_local');width=props.get('width_m',0)
-        if not line or not g.intersects(box(-950,-750,850,1150)):continue
-        line=shape(line);q=line.interpolate(.5,normalized=True);p=tilepkg(q.x,q.y)
-        if not p:continue
-        near_path=unary_union([path_geoms[int(i)] for i in path_tree.query(g.buffer(2))])
-        near_build=unary_union([building_geoms[int(i)] for i in building_tree.query(g.buffer(2))])
-        p.source=props['id'];p.ref=['faq']
-        if tags.get('lanes') and str(tags['lanes']).isdigit() and int(tags['lanes'])>=2:
-            for s in range(6,int(line.length)-6,9):
-                a=line.interpolate(s);b=line.interpolate(min(s+3,line.length));stripe=LineString([a,b]).buffer(.06,cap_style=2).intersection(g).difference(near_path)
-                p.surface(stripe,.068,'PAINT_WHITE','LANE_LINE')
-        if any('cycleway' in k and v in ['lane','track','opposite_lane','designated'] for k,v in tags.items()):
-            lane=line.parallel_offset(max(0,width/2-1),'right').buffer(.6).intersection(g).difference(near_path);p.surface(lane,.069,'GLASS_GREEN','BIKE_LANE_PAINTED')
-        # Curbs stop at mapped pedestrian crossings to preserve traversable entries.
-        if props.get('class') in ['primary','secondary','tertiary','residential'] and line.length>20:
-            edge=g.boundary.buffer(.10).difference(near_path.buffer(1.5)).difference(near_build.buffer(.2))
-            p.surface(edge,.18,'CONCRETE_LIGHT','CURB_STANDARD',base=.06)
-    for f in pois:
-        props=f['properties'];category=props['category'];g=shape(f['geometry']);x,y=g.x,g.y
-        if not box(-950,-750,850,1150).covers(g):continue
-        kind={'bicycle_parking':'BIKE_RACK','outdoor_seating':'OUTDOOR_DINING','bus_station':'BGC_BUS_STOP_STANDARD','bicycle_repair_station':'UTILITY_CABINET'}.get(category)
-        if not kind or bu.buffer(.3).covers(g) or ru.covers(g):continue
-        p=tilepkg(x,y)
-        if p:p.source=props['id'];p.furniture(kind,x,y)
-    # Raw mapped transport/utility nodes omitted by the older environment sidecar.
-    from pyproj import Transformer
-    transform=Transformer.from_crs(4326,32651,always_xy=True);ox,oy=transform.transform(121.050972,14.550806)
-    raw=read('data/raw/osm/bgc-2026-09-14T162150Z.json')
-    building_clearance=bu.buffer(.4);road_boundary=ru.boundary
-    for node in raw.get('elements',[]):
-        if node['type']!='node' or 'lat' not in node:continue
-        tags=node.get('tags',{});kind=None
-        if tags.get('highway')=='traffic_signals':kind='TRAFFIC_SIGNAL'
-        elif tags.get('highway')=='bus_stop':kind='BGC_BUS_STOP_COMPACT'
-        elif tags.get('emergency')=='fire_hydrant':kind='FIRE_HYDRANT'
-        elif tags.get('man_made')=='street_cabinet':kind='UTILITY_CABINET'
-        elif tags.get('man_made')=='manhole':kind='MANHOLE'
-        elif tags.get('man_made')=='surveillance':kind='CCTV_POLE'
-        if not kind:continue
-        gx,gy=transform.transform(node['lon'],node['lat']);x,y=gx-ox,gy-oy
-        if not box(-950,-750,850,1150).covers(Point(x,y)):continue
-        # Signal nodes describe an intersection, not a pole survey. Move the inferred
-        # pole to the nearest clear edge; never install a post in the traffic lane.
-        if kind in ['TRAFFIC_SIGNAL','BGC_BUS_STOP_COMPACT'] and ru.covers(Point(x,y)):
-            edge=nearest_points(Point(x,y),road_boundary)[1];dx,dy=edge.x-x,edge.y-y;length=math.hypot(dx,dy)
-            if length<.01:continue
-            x,y=edge.x+dx/length*.55,edge.y+dy/length*.55
-        if building_clearance.covers(Point(x,y)):continue
-        p=tilepkg(x,y)
-        if p:p.source=f"osm:node:{node['id']}";p.ref=['faq'];p.furniture(kind,x,y)
-    # Mapped crossing surfaces have priority over roads.
-    for f in paths:
-        if f['properties'].get('tags',{}).get('crossing')!='zebra':continue
-        g=shape(f['geometry']);c=g.centroid;p=tilepkg(c.x,c.y)
-        if not p:continue
-        p.source=f['properties']['id'];xmin,ymin,xmax,ymax=g.bounds
-        for x in range(math.floor(xmin),math.ceil(xmax),2):p.surface(box(x,ymin,x+.8,ymax).intersection(g),.17,'PAINT_WHITE','ZEBRA_CROSSING')
-    entries.extend(p.save() for p in tilepkgs.values() if p.features)
+    entries.extend(street_packages(paths,roads,buildings,pois,bu,ru))
     entries.sort(key=lambda e:e['id'])
     write('web/public/world/detail/m23/catalog.json',dict(schema_version=1,status='AWAITING_USER_TEST',default_enabled=False,coordinate_frame='metres; east/up/-north',packages=entries,materials=MATERIALS,source_manifest='data/visual_reference/manifest.json'))
     write('data/reports/m23-zone-status.json',dict(status='READY_FOR_VISUAL_QA',zones=entries))

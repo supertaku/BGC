@@ -1,0 +1,94 @@
+{
+  "entity_id": "parksuites",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        568.2628173828125,
+        555.509033203125,
+        427.31365966796875
+      ],
+      "target": [
+        285.2930603027344,
+        838.478759765625,
+        87.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\parksuites\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        285.2930603027344,
+        315.319580078125,
+        129.6027374267578
+      ],
+      "target": [
+        285.2930603027344,
+        838.478759765625,
+        87.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\parksuites\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        285.2930603027344,
+        1361.637939453125,
+        129.6027374267578
+      ],
+      "target": [
+        285.2930603027344,
+        838.478759765625,
+        87.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\parksuites\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        -217.40350341796875,
+        838.478759765625,
+        238.55897521972656
+      ],
+      "target": [
+        285.2930603027344,
+        838.478759765625,
+        87.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\parksuites\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        787.9896240234375,
+        838.478759765625,
+        238.55897521972656
+      ],
+      "target": [
+        285.2930603027344,
+        838.478759765625,
+        87.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\parksuites\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        366.1692810058594,
+        919.35498046875,
+        599.9660034179688
+      ],
+      "target": [
+        285.2930603027344,
+        838.478759765625,
+        87.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\parksuites\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "98a8b6db83f25fd2769e56fe2d416224f7b4c1ce58dc8e6b19cce602f4957b15"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

@@ -1,2287 +1,2094 @@
 {
-  "status": "AWAITING_USER_TEST",
+  "status": "READY_FOR_VISUAL_QA",
   "zones": [
     {
-      "zone_id": "acpt",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "acpt",
-        "osm",
+      "id": "acpt",
+      "kind": "landmark",
+      "bounds": [
+        -389.169157,
+        -267.549893,
+        -226.974163,
+        -177.756227
+      ],
+      "url": "/world/detail/m23/acpt.json",
+      "feature_count": 13,
+      "instances": 0,
+      "mesh_triangles": 2372,
+      "signs": 1,
+      "content_sha256": "b17ac10d922d56f15231878d2e86dcd486680725773e050178476155e74cc96c",
+      "entity_id": "osm:way:182331875",
+      "name": "Arthaland Century Pacific Tower",
+      "replaces": [
         "osm:way:182331875",
         "osm:way:538344761"
       ],
-      "feature_count": 13,
-      "package_url": "/world/detail/m23/acpt.json"
+      "replacement_entity_ids": [
+        "osm:way:182331875",
+        "osm:way:32487609"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 136.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "burgos_circle",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:106211922",
-        "osm:way:106211923",
-        "osm:way:106211926",
-        "osm:way:106211927",
-        "osm:way:32836617"
+      "id": "burgos_circle",
+      "kind": "zone",
+      "bounds": [
+        -741.04,
+        -248.378,
+        -681.826,
+        -189.557
       ],
+      "url": "/world/detail/m23/burgos_circle.json",
       "feature_count": 2,
-      "package_url": "/world/detail/m23/burgos_circle.json"
+      "instances": 0,
+      "mesh_triangles": 75,
+      "signs": 1,
+      "content_sha256": "71b1dad5502c9ea442a0f8339bbdf2c53769355b482ab069ffe17be20271682d"
     },
     {
-      "zone_id": "de_jesus_oval",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:37125369"
+      "id": "de_jesus_oval",
+      "kind": "zone",
+      "bounds": [
+        -703.266,
+        184.469,
+        -624.855,
+        240.686
       ],
+      "url": "/world/detail/m23/de_jesus_oval.json",
       "feature_count": 23,
-      "package_url": "/world/detail/m23/de_jesus_oval.json"
+      "instances": 61,
+      "mesh_triangles": 28,
+      "signs": 1,
+      "content_sha256": "c9fd3aafdb9b7cb4f40a551305ac34f3203885c971aaf598211d5c040bf4f8e7"
     },
     {
-      "zone_id": "forbes_town",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:183477188",
-        "osm:way:32836617",
-        "osm:way:451508508",
-        "osm:way:72861685"
+      "id": "forbes_town",
+      "kind": "zone",
+      "bounds": [
+        -742.6,
+        -197.831,
+        -694.297,
+        114.752
       ],
+      "url": "/world/detail/m23/forbes_town.json",
       "feature_count": 4,
-      "package_url": "/world/detail/m23/forbes_town.json"
+      "instances": 0,
+      "mesh_triangles": 157,
+      "signs": 0,
+      "content_sha256": "f8b6d1b57ef3feb83aedd159f452ac1ff398c45e1acb49605a6d687f072e0ffe"
     },
     {
-      "zone_id": "greenway",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1267893184",
-        "osm:way:1267893187",
-        "osm:way:451508508",
-        "osm:way:456736834",
-        "osm:way:469671003",
-        "osm:way:469671004"
+      "id": "greenway",
+      "kind": "zone",
+      "bounds": [
+        -908.844,
+        -410.55,
+        -599.782,
+        620.3
       ],
+      "url": "/world/detail/m23/greenway.json",
       "feature_count": 26,
-      "package_url": "/world/detail/m23/greenway.json"
+      "instances": 72,
+      "mesh_triangles": 290,
+      "signs": 1,
+      "content_sha256": "768d15a947a8700c891eb5eb8f6b595938b8dd98ed7ba5a56ac3475176061d55"
     },
     {
-      "zone_id": "high_street",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "bgc",
-        "osm:way:110262539",
-        "osm:way:1222045871",
-        "osm:way:1222045872",
-        "osm:way:178125949",
-        "osm:way:178125950",
-        "osm:way:178125951",
-        "osm:way:178125955",
-        "osm:way:178125957",
-        "osm:way:178125958",
-        "osm:way:178125959",
-        "osm:way:203893574",
-        "osm:way:203893598",
-        "osm:way:203893623",
-        "osm:way:23240437",
-        "osm:way:24957243",
-        "osm:way:27442528",
-        "osm:way:27442546",
-        "osm:way:27442590",
-        "osm:way:27442879",
-        "osm:way:27442969",
-        "osm:way:27442995",
-        "osm:way:27664814",
-        "osm:way:27664877",
-        "osm:way:469859755",
-        "osm:way:744617675",
-        "osm:way:744617676",
-        "osm:way:744617677",
-        "osm:way:744617678",
-        "osm:way:745365882",
-        "osm:way:745365883",
-        "osm:way:745365884",
-        "osm:way:745365885",
-        "osm:way:846184117",
-        "osm:way:846184127",
-        "osm:way:846184128",
-        "osm:way:846184134",
-        "osm:way:846184148",
-        "osm:way:846184149",
-        "osm:way:846184152",
-        "osm:way:846184155",
-        "osm:way:846184161",
-        "osm:way:846184166",
-        "osm:way:846184167",
-        "osm:way:929418258",
-        "user_photo_1"
+      "id": "high_street",
+      "kind": "zone",
+      "bounds": [
+        -550.0,
+        -190.849,
+        244.762,
+        143.219
       ],
-      "feature_count": 542,
-      "package_url": "/world/detail/m23/high_street.json"
+      "url": "/world/detail/m23/high_street.json",
+      "feature_count": 567,
+      "instances": 973,
+      "mesh_triangles": 5108,
+      "signs": 0,
+      "content_sha256": "f70a76d5c11cc79111702b1bfecb914ce861f84c402b3829355b21a42dd02640"
     },
     {
-      "zone_id": "high_street_central",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "central",
-        "osm:way:1064089140",
-        "osm:way:1222045871",
-        "osm:way:1222045872",
-        "osm:way:203893569",
-        "osm:way:203893576",
-        "osm:way:203893584",
-        "osm:way:203893586",
-        "osm:way:203893587",
-        "osm:way:203893588",
-        "osm:way:203893591",
-        "osm:way:203893592",
-        "osm:way:203893595",
-        "osm:way:203893598",
-        "osm:way:203893600",
-        "osm:way:203893602",
-        "osm:way:203893603",
-        "osm:way:203893606",
-        "osm:way:203893607",
-        "osm:way:203893611",
-        "osm:way:203893623",
-        "osm:way:205899879",
-        "osm:way:205899882",
-        "osm:way:324237835",
-        "osm:way:330610458",
-        "osm:way:330610459",
-        "osm:way:369205331",
-        "osm:way:658726045",
-        "osm:way:745365883",
-        "osm:way:846184122",
-        "osm:way:846184123",
-        "osm:way:846184148",
-        "osm:way:846184149",
-        "osm:way:846184150",
-        "osm:way:846184151",
-        "osm:way:846184152",
-        "osm:way:846184153",
-        "osm:way:846184154",
-        "osm:way:846184157",
-        "osm:way:846184158",
-        "osm:way:846184159",
-        "osm:way:846184164",
-        "osm:way:846184168",
-        "osm:way:929418257",
-        "osm:way:929418258",
-        "osm:way:929418260",
-        "osm:way:929418261"
+      "id": "high_street_central",
+      "kind": "zone",
+      "bounds": [
+        -332.854,
+        -102.706,
+        -153.619,
+        0.395
       ],
-      "feature_count": 21,
-      "package_url": "/world/detail/m23/high_street_central.json"
+      "url": "/world/detail/m23/high_street_central.json",
+      "feature_count": 26,
+      "instances": 34,
+      "mesh_triangles": 3226,
+      "signs": 1,
+      "content_sha256": "af274ca406172e271687084f30306f342d328828c0fdf3350496e8e80070830d",
+      "focus": [
+        -194.783,
+        1,
+        -33.558
+      ],
+      "walk_position": [
+        -177.283,
+        2,
+        -33.558
+      ]
     },
     {
-      "zone_id": "kasalikasan",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "kasalikasan",
-        "osm:way:1267893184",
-        "osm:way:37125398"
+      "id": "kasalikasan",
+      "kind": "zone",
+      "bounds": [
+        -749.308,
+        184.07,
+        -664.68,
+        324.77
       ],
+      "url": "/world/detail/m23/kasalikasan.json",
       "feature_count": 17,
-      "package_url": "/world/detail/m23/kasalikasan.json"
+      "instances": 46,
+      "mesh_triangles": 974,
+      "signs": 1,
+      "content_sha256": "0dff4f0f89bf25f58ff7aa87ff58592aa3a445098c449835f2141a5a05328dc4"
     },
     {
-      "zone_id": "lite_1070584575",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_1070584575",
+      "kind": "landmark",
+      "bounds": [
+        -9.093585,
+        178.063135,
+        28.692622,
+        251.064801
+      ],
+      "url": "/world/detail/m23/lite_1070584575.json",
+      "feature_count": 12,
+      "instances": 0,
+      "mesh_triangles": 6480,
+      "signs": 1,
+      "content_sha256": "5c1a07ae2423fa9bf101c5c5dc0f135cc379a3b870e2d86ce5d6656beae4d368",
+      "entity_id": "osm:way:1070584575",
+      "name": "West Gallery Place",
+      "replaces": [
         "osm:way:1070584574",
         "osm:way:1070584575"
       ],
-      "feature_count": 12,
-      "package_url": "/world/detail/m23/lite_1070584575.json"
+      "replacement_entity_ids": [
+        "osm:way:1070584575"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 169.1,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_1071370324",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_1071370324",
+      "kind": "landmark",
+      "bounds": [
+        351.797263,
+        -258.71776,
+        406.622145,
+        -207.613849
+      ],
+      "url": "/world/detail/m23/lite_1071370324.json",
+      "feature_count": 12,
+      "instances": 0,
+      "mesh_triangles": 7525,
+      "signs": 1,
+      "content_sha256": "198f77b0705d899744de8ebddba2c060a8e121e6c5162bc52aaa79a54c972d83",
+      "entity_id": "osm:way:1071370324",
+      "name": "Park Triangle Residences",
+      "replaces": [
         "osm:way:1071370324"
       ],
-      "feature_count": 12,
-      "package_url": "/world/detail/m23/lite_1071370324.json"
+      "replacement_entity_ids": [
+        "osm:way:1071370324"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 162.7,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_131229047",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_131229047",
+      "kind": "landmark",
+      "bounds": [
+        -260.970975,
+        -314.125324,
+        -201.116415,
+        -262.916265
+      ],
+      "url": "/world/detail/m23/lite_131229047.json",
+      "feature_count": 5,
+      "instances": 0,
+      "mesh_triangles": 1090,
+      "signs": 1,
+      "content_sha256": "4bc08a0926343cf18479078ea0702b90947d04d5c68c7e4b4a3c5834afd976b4",
+      "entity_id": "osm:way:131229047",
+      "name": "Cork  Elite",
+      "replaces": [
         "osm:way:131229047"
       ],
-      "feature_count": 5,
-      "package_url": "/world/detail/m23/lite_131229047.json"
+      "replacement_entity_ids": [
+        "osm:way:131229047"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 114.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_27442841",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_27442841",
+      "kind": "landmark",
+      "bounds": [
+        -659.724625,
+        243.364385,
+        -613.401052,
+        330.835082
+      ],
+      "url": "/world/detail/m23/lite_27442841.json",
+      "feature_count": 18,
+      "instances": 0,
+      "mesh_triangles": 12214,
+      "signs": 1,
+      "content_sha256": "81d6444c22a64a05783786bc628d0d2155c296693eb3cc673dd89a905444a829",
+      "entity_id": "osm:way:27442841",
+      "name": "Pacific Plaza North Tower",
+      "replaces": [
         "osm:way:27442841"
       ],
-      "feature_count": 18,
-      "package_url": "/world/detail/m23/lite_27442841.json"
+      "replacement_entity_ids": [
+        "osm:way:27442841"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 179.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_27442849",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_27442849",
+      "kind": "landmark",
+      "bounds": [
+        -666.82966,
+        335.17856,
+        -619.695075,
+        417.371348
+      ],
+      "url": "/world/detail/m23/lite_27442849.json",
+      "feature_count": 13,
+      "instances": 0,
+      "mesh_triangles": 8524,
+      "signs": 1,
+      "content_sha256": "e8ec24818e4b42787112ed13853ee1f6bc8ad245556f0b20c44be1fe70499c9d",
+      "entity_id": "osm:way:27442849",
+      "name": "Pacific Plaza South Tower",
+      "replaces": [
         "osm:way:27442849"
       ],
-      "feature_count": 13,
-      "package_url": "/world/detail/m23/lite_27442849.json"
+      "replacement_entity_ids": [
+        "osm:way:27442849"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 179.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_37075972",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_37075972",
+      "kind": "landmark",
+      "bounds": [
+        -624.668061,
+        147.081194,
+        -578.310976,
+        214.163087
+      ],
+      "url": "/world/detail/m23/lite_37075972.json",
+      "feature_count": 20,
+      "instances": 0,
+      "mesh_triangles": 10213,
+      "signs": 1,
+      "content_sha256": "8502c23117dbdd502d1ee9a89846d3f6e4c85a5d30e9e2181fda684cb9902bcd",
+      "entity_id": "osm:way:37075972",
+      "name": "One McKinley Place",
+      "replaces": [
         "osm:way:37075972"
       ],
-      "feature_count": 20,
-      "package_url": "/world/detail/m23/lite_37075972.json"
+      "replacement_entity_ids": [
+        "osm:way:37075972"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 149.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_469658015",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_469658015",
+      "kind": "landmark",
+      "bounds": [
+        228.318282,
+        -236.005787,
+        245.55536,
+        -227.936148
+      ],
+      "url": "/world/detail/m23/lite_469658015.json",
+      "feature_count": 3,
+      "instances": 0,
+      "mesh_triangles": 517,
+      "signs": 1,
+      "content_sha256": "ea755460dc0160f00f8a060728e9367263a810080424a2e6919f724fd5aa09a9",
+      "entity_id": "osm:way:469658015",
+      "name": "One World Place",
+      "replaces": [
         "osm:way:469658015"
       ],
-      "feature_count": 3,
-      "package_url": "/world/detail/m23/lite_469658015.json"
+      "replacement_entity_ids": [
+        "osm:way:469658015"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 122.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_538341464",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_538341464",
+      "kind": "landmark",
+      "bounds": [
+        116.706497,
+        215.847936,
+        159.337948,
+        286.995274
+      ],
+      "url": "/world/detail/m23/lite_538341464.json",
+      "feature_count": 14,
+      "instances": 0,
+      "mesh_triangles": 7108,
+      "signs": 1,
+      "content_sha256": "8607c3e40ac7c7821818fd2acb4e3349f36e092b1f5bf70cd0c02ca56eabf33c",
+      "entity_id": "osm:way:538341464",
+      "name": "East Gallery Place",
+      "replaces": [
         "osm:way:538341464"
       ],
-      "feature_count": 14,
-      "package_url": "/world/detail/m23/lite_538341464.json"
+      "replacement_entity_ids": [
+        "osm:way:538341464"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 168.7,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_538347432",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_538347432",
+      "kind": "landmark",
+      "bounds": [
+        232.442799,
+        -777.387156,
+        280.749203,
+        -736.929341
+      ],
+      "url": "/world/detail/m23/lite_538347432.json",
+      "feature_count": 13,
+      "instances": 0,
+      "mesh_triangles": 8926,
+      "signs": 1,
+      "content_sha256": "8d85678b73bdd1a23835c52d4aef4d557f4f5b83c2fd68e5fc835a34cc9ac5ce",
+      "entity_id": "osm:way:538347432",
+      "name": "Uptown Ritz Residences",
+      "replaces": [
         "osm:way:538347432"
       ],
-      "feature_count": 13,
-      "package_url": "/world/detail/m23/lite_538347432.json"
+      "replacement_entity_ids": [
+        "osm:way:538347432"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 170.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_66405543",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_66405543",
+      "kind": "landmark",
+      "bounds": [
+        -518.544038,
+        120.747222,
+        -437.836669,
+        182.392097
+      ],
+      "url": "/world/detail/m23/lite_66405543.json",
+      "feature_count": 5,
+      "instances": 0,
+      "mesh_triangles": 1234,
+      "signs": 1,
+      "content_sha256": "2377a14210092217434fd097542f2aeade12b352a9925cdd51d6fafd4c392db3",
+      "entity_id": "osm:way:66405543",
+      "name": "Six/NEO",
+      "replaces": [
         "osm:way:66405543"
       ],
-      "feature_count": 5,
-      "package_url": "/world/detail/m23/lite_66405543.json"
+      "replacement_entity_ids": [
+        "osm:way:66405543"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 127.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_72861479",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_72861479",
+      "kind": "landmark",
+      "bounds": [
+        424.202942,
+        -127.3557,
+        491.094679,
+        -82.547343
+      ],
+      "url": "/world/detail/m23/lite_72861479.json",
+      "feature_count": 9,
+      "instances": 0,
+      "mesh_triangles": 4918,
+      "signs": 1,
+      "content_sha256": "ca18d5986cc0e275439e6c8086c8cc5868e4a78e02bd0dba42e41dea2ad37697",
+      "entity_id": "osm:way:72861479",
+      "name": "East Tower",
+      "replaces": [
         "osm:way:72861479"
       ],
-      "feature_count": 9,
-      "package_url": "/world/detail/m23/lite_72861479.json"
+      "replacement_entity_ids": [
+        "osm:way:72861479"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 150.0,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_72861481",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_72861481",
+      "kind": "landmark",
+      "bounds": [
+        324.464972,
+        -164.620945,
+        386.452197,
+        -118.416371
+      ],
+      "url": "/world/detail/m23/lite_72861481.json",
+      "feature_count": 5,
+      "instances": 0,
+      "mesh_triangles": 2650,
+      "signs": 1,
+      "content_sha256": "83351af96c2f886a67e75c34b8d4ff1700c89c19a6f0ed4e09655c86dc8176ba",
+      "entity_id": "osm:way:72861481",
+      "name": "West Tower",
+      "replaces": [
         "osm:way:72861481"
       ],
-      "feature_count": 5,
-      "package_url": "/world/detail/m23/lite_72861481.json"
+      "replacement_entity_ids": [
+        "osm:way:72861481"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 191.1,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_783121691",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_783121691",
+      "kind": "landmark",
+      "bounds": [
+        261.195358,
+        -260.162978,
+        329.692835,
+        -209.951213
+      ],
+      "url": "/world/detail/m23/lite_783121691.json",
+      "feature_count": 12,
+      "instances": 0,
+      "mesh_triangles": 3013,
+      "signs": 1,
+      "content_sha256": "a511dd37d32ad339365a5fa341cef840663ed52a11755798a3d69d01dc59b45e",
+      "entity_id": "osm:way:783121691",
+      "name": "Park Triangle Corporate Plaza, North Tower",
+      "replaces": [
         "osm:way:783121691"
       ],
-      "feature_count": 12,
-      "package_url": "/world/detail/m23/lite_783121691.json"
+      "replacement_entity_ids": [
+        "osm:way:783121691"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 127.8,
+      "activation_m": 200
     },
     {
-      "zone_id": "lite_846365706",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "lite_846365706",
+      "kind": "landmark",
+      "bounds": [
+        120.601141,
+        493.165574,
+        178.810806,
+        552.460096
+      ],
+      "url": "/world/detail/m23/lite_846365706.json",
+      "feature_count": 21,
+      "instances": 0,
+      "mesh_triangles": 17638,
+      "signs": 1,
+      "content_sha256": "3490de36fd3cf463bc9a61ba1f76863545e6585a31e47212828738f30cac504a",
+      "entity_id": "osm:way:846365706",
+      "name": "The Sequoia",
+      "replaces": [
         "osm:way:846365706"
       ],
-      "feature_count": 21,
-      "package_url": "/world/detail/m23/lite_846365706.json"
+      "replacement_entity_ids": [
+        "osm:way:846365706"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 202.5,
+      "activation_m": 200
     },
     {
-      "zone_id": "market_market",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "market_market",
+      "kind": "landmark",
+      "bounds": [
+        455.160812,
+        -50.106186,
+        664.482466,
+        202.544416
+      ],
+      "url": "/world/detail/m23/market_market.json",
+      "feature_count": 27,
+      "instances": 0,
+      "mesh_triangles": 2752,
+      "signs": 1,
+      "content_sha256": "b7d692dbb6f602b03411eafcafcae603faca44b7680cf1312419a837a9ad5993",
+      "entity_id": "osm:way:25006407",
+      "name": "Market! Market!",
+      "replaces": [
         "osm:way:25006407"
       ],
-      "feature_count": 27,
-      "package_url": "/world/detail/m23/market_market.json"
-    },
-    {
-      "zone_id": "mckinley_parkway",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1071797939",
-        "osm:way:1222053648",
-        "osm:way:1519691866",
-        "osm:way:1519691867",
-        "osm:way:183504094",
-        "osm:way:183504096",
-        "osm:way:205968623",
-        "osm:way:24957291",
-        "osm:way:29127560",
-        "osm:way:323731647",
-        "osm:way:323731648",
-        "osm:way:381408303",
-        "osm:way:71493465",
-        "osm:way:71493466",
-        "osm:way:846377974",
-        "osm:way:846377984",
-        "osm:way:846377985"
+      "replacement_entity_ids": [
+        "osm:way:25006407"
       ],
-      "feature_count": 17,
-      "package_url": "/world/detail/m23/mckinley_parkway.json"
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 16.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "mind_museum",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "museum",
-        "osm",
+      "id": "mckinley_parkway",
+      "kind": "zone",
+      "bounds": [
+        -586.799,
+        -112.785,
+        566.661,
+        645.182
+      ],
+      "url": "/world/detail/m23/mckinley_parkway.json",
+      "feature_count": 17,
+      "instances": 0,
+      "mesh_triangles": 1219,
+      "signs": 0,
+      "content_sha256": "2b85df504350d73c552039e0018953ecf2cfea593996ab1e7e4b0123883e6852"
+    },
+    {
+      "id": "mind_museum",
+      "kind": "landmark",
+      "bounds": [
+        -627.837,
+        -209.042,
+        -550.44,
+        -82.932
+      ],
+      "url": "/world/detail/m23/mind_museum.json",
+      "feature_count": 4,
+      "instances": 0,
+      "mesh_triangles": 1373,
+      "signs": 1,
+      "content_sha256": "ebd28fc14a3a0d121337af52daa6971f3f3819aaa54e939f2c8baf9bb9adeeee",
+      "entity_id": "osm:way:183463814",
+      "name": "The Mind Museum",
+      "replaces": [
         "osm:way:183463814"
       ],
-      "feature_count": 4,
-      "package_url": "/world/detail/m23/mind_museum.json"
-    },
-    {
-      "zone_id": "mind_museum_park",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:183463816",
-        "osm:way:317143743",
-        "osm:way:317143744",
-        "osm:way:317143745",
-        "osm:way:781733898"
+      "replacement_entity_ids": [
+        "osm:way:183463814"
       ],
-      "feature_count": 7,
-      "package_url": "/world/detail/m23/mind_museum_park.json"
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 10.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "mitsukoshi",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "mitsukoshi",
-        "osm",
+      "id": "mind_museum_park",
+      "kind": "zone",
+      "bounds": [
+        -598.443,
+        -266.318,
+        -511.123,
+        -166.627
+      ],
+      "url": "/world/detail/m23/mind_museum_park.json",
+      "feature_count": 7,
+      "instances": 17,
+      "mesh_triangles": 552,
+      "signs": 1,
+      "content_sha256": "bd89b44d79ab9e3d6df5d514f913442faa07adb8c54cfe28c3a1e5326e92a0a0"
+    },
+    {
+      "id": "mitsukoshi",
+      "kind": "landmark",
+      "bounds": [
+        116.60992,
+        -946.946731,
+        239.921089,
+        -764.89628
+      ],
+      "url": "/world/detail/m23/mitsukoshi.json",
+      "feature_count": 33,
+      "instances": 0,
+      "mesh_triangles": 9394,
+      "signs": 1,
+      "content_sha256": "196f0d61f20bb47cdc71f3ffd62d0e3d447fbb134885af01f643ac378528f54c",
+      "entity_id": "osm:way:1123265838",
+      "name": "Mitsukoshi BGC",
+      "replaces": [
         "osm:way:1123265838"
       ],
-      "feature_count": 33,
-      "package_url": "/world/detail/m23/mitsukoshi.json"
+      "replacement_entity_ids": [
+        "osm:way:1123265838"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 12.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "one_bonifacio",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
-        "osm:way:1078392706",
-        "pse"
+      "id": "one_bonifacio",
+      "kind": "landmark",
+      "bounds": [
+        -551.762341,
+        -137.068454,
+        -367.765527,
+        -12.026655
       ],
+      "url": "/world/detail/m23/one_bonifacio.json",
       "feature_count": 5,
-      "package_url": "/world/detail/m23/one_bonifacio.json"
-    },
-    {
-      "zone_id": "one_bonifacio_realm",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
-        "osm:way:781546116",
-        "pse",
-        "shangri",
-        "user_photo_1"
+      "instances": 0,
+      "mesh_triangles": 1474,
+      "signs": 1,
+      "content_sha256": "f13a3f04b3cca87545bd41a3c5bcb56c35c983e82f0b546e6ddd7b9e385d9f6e",
+      "entity_id": "osm:way:1078392706",
+      "name": "One Bonifacio High Street",
+      "replaces": [
+        "osm:way:1078392706"
       ],
-      "feature_count": 3,
-      "package_url": "/world/detail/m23/one_bonifacio_realm.json"
+      "replacement_entity_ids": [
+        "osm:way:1078392706"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 12.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "one_uptown",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "one_uptown",
-        "osm",
+      "id": "one_bonifacio_realm",
+      "kind": "zone",
+      "bounds": [
+        -558.0,
+        -242.0,
+        -363.0,
+        -8.0
+      ],
+      "url": "/world/detail/m23/one_bonifacio_realm.json",
+      "feature_count": 3,
+      "instances": 0,
+      "mesh_triangles": 3024,
+      "signs": 0,
+      "content_sha256": "0613a3148065cd6a0d40d70bc1ffce17706c0c5bcee265eaf7ecfedc21b80df2"
+    },
+    {
+      "id": "one_uptown",
+      "kind": "landmark",
+      "bounds": [
+        189.827163,
+        -720.196014,
+        255.454053,
+        -631.910922
+      ],
+      "url": "/world/detail/m23/one_uptown.json",
+      "feature_count": 21,
+      "instances": 0,
+      "mesh_triangles": 9024,
+      "signs": 1,
+      "content_sha256": "1352d19112df6d89b12415b1b5d3aae0f0cd4f8902d8ad5ffbe1c464c4d8ed4e",
+      "entity_id": "osm:way:713418275",
+      "name": "One Uptown Residence",
+      "replaces": [
         "osm:way:713418275"
       ],
-      "feature_count": 21,
-      "package_url": "/world/detail/m23/one_uptown.json"
+      "replacement_entity_ids": [
+        "osm:way:713418275"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 163.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "parksuites",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "parksuites",
+      "kind": "landmark",
+      "bounds": [
+        239.81807,
+        -907.834412,
+        330.768065,
+        -769.123038
+      ],
+      "url": "/world/detail/m23/parksuites.json",
+      "feature_count": 51,
+      "instances": 0,
+      "mesh_triangles": 22535,
+      "signs": 1,
+      "content_sha256": "e3d847fa94a16a730b4fd110c80a37566bb4dec8904b9db67a90d660e192a5a4",
+      "entity_id": "osm:way:538697027",
+      "name": "Uptown Parksuites",
+      "replaces": [
         "osm:way:538697027",
         "osm:way:538751521",
         "osm:way:783113264",
-        "osm:way:783113265",
-        "parksuites"
+        "osm:way:783113265"
       ],
-      "feature_count": 51,
-      "package_url": "/world/detail/m23/parksuites.json"
+      "replacement_entity_ids": [
+        "osm:way:538697027"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 175.5,
+      "activation_m": 260
     },
     {
-      "zone_id": "pse",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "pse",
+      "kind": "landmark",
+      "bounds": [
+        -464.631541,
+        -105.352063,
+        -370.519731,
+        -21.341434
+      ],
+      "url": "/world/detail/m23/pse.json",
+      "feature_count": 40,
+      "instances": 0,
+      "mesh_triangles": 6613,
+      "signs": 2,
+      "content_sha256": "79a9944e483777f97132b9d051ea53d8368875804e3f56368fa9a741b89d8365",
+      "entity_id": "osm:way:71598335",
+      "name": "Philippine Stock Exchange",
+      "replaces": [
         "osm:way:1026303383",
         "osm:way:1069827306",
         "osm:way:538701627",
-        "osm:way:71598335",
-        "pse"
+        "osm:way:71598335"
       ],
-      "feature_count": 40,
-      "package_url": "/world/detail/m23/pse.json"
+      "replacement_entity_ids": [
+        "osm:way:71598335"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 131.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "seasons",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "seasons",
+      "kind": "landmark",
+      "bounds": [
+        118.749578,
+        -943.777221,
+        220.05449,
+        -778.558715
+      ],
+      "url": "/world/detail/m23/seasons.json",
+      "feature_count": 32,
+      "instances": 0,
+      "mesh_triangles": 11800,
+      "signs": 1,
+      "content_sha256": "d55b23b19b2d761651b41cbcc87d917456df329573ceb1399cf5737fbac70648",
+      "entity_id": "osm:way:713418274",
+      "name": "The Seasons Residences",
+      "replaces": [
         "osm:way:929418244",
         "osm:way:929418245",
         "osm:way:929418246",
-        "osm:way:929418247",
-        "seasons"
+        "osm:way:929418247"
       ],
-      "feature_count": 32,
-      "package_url": "/world/detail/m23/seasons.json"
+      "replacement_entity_ids": [
+        "osm:way:1123265838"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 184.9,
+      "activation_m": 260
     },
     {
-      "zone_id": "serendra_bamboo",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "serendra_bamboo",
+      "kind": "landmark",
+      "bounds": [
+        377.383662,
+        -6.51104,
+        457.005564,
+        68.720353
+      ],
+      "url": "/world/detail/m23/serendra_bamboo.json",
+      "feature_count": 14,
+      "instances": 0,
+      "mesh_triangles": 2677,
+      "signs": 1,
+      "content_sha256": "1bdbb4776129b0a23b2d9f10bd9e09c87452c3643a9fd1201cf73cef6543105e",
+      "entity_id": "osm:way:27672006",
+      "name": "Bamboo",
+      "replaces": [
         "osm:way:27672006"
       ],
-      "feature_count": 14,
-      "package_url": "/world/detail/m23/serendra_bamboo.json"
+      "replacement_entity_ids": [
+        "osm:way:27672006"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 53.5,
+      "activation_m": 260
     },
     {
-      "zone_id": "serendra_mahogany",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "serendra_mahogany",
+      "kind": "landmark",
+      "bounds": [
+        409.843713,
+        -74.664166,
+        479.306559,
+        -1.309896
+      ],
+      "url": "/world/detail/m23/serendra_mahogany.json",
+      "feature_count": 14,
+      "instances": 0,
+      "mesh_triangles": 3409,
+      "signs": 1,
+      "content_sha256": "01ab11acfb1124a0a99e0273dea320453c4b4c6c39f5ccc00097da0fbb12712a",
+      "entity_id": "osm:way:27671996",
+      "name": "Mahogany",
+      "replaces": [
         "osm:way:27671996"
       ],
-      "feature_count": 14,
-      "package_url": "/world/detail/m23/serendra_mahogany.json"
+      "replacement_entity_ids": [
+        "osm:way:27671996"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 65.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "serendra_palm",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "serendra_palm",
+      "kind": "landmark",
+      "bounds": [
+        268.794463,
+        -30.08748,
+        439.326185,
+        143.551815
+      ],
+      "url": "/world/detail/m23/serendra_palm.json",
+      "feature_count": 69,
+      "instances": 0,
+      "mesh_triangles": 6816,
+      "signs": 1,
+      "content_sha256": "9bba39b799d024f49ecfd5edaf0224f20957284607445701473d0aa26404ea2a",
+      "entity_id": "osm:way:27671928",
+      "name": "Palm",
+      "replaces": [
         "osm:way:27671928"
       ],
-      "feature_count": 69,
-      "package_url": "/world/detail/m23/serendra_palm.json"
+      "replacement_entity_ids": [
+        "osm:way:27671928"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 24.4,
+      "activation_m": 260
     },
     {
-      "zone_id": "shangri",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "shangri",
+      "kind": "landmark",
+      "bounds": [
+        -517.490226,
+        -238.196922,
+        -401.276675,
+        -140.0
+      ],
+      "url": "/world/detail/m23/shangri.json",
+      "feature_count": 130,
+      "instances": 24,
+      "mesh_triangles": 16971,
+      "signs": 1,
+      "content_sha256": "6414cc5332e1ccc8fee34fd013ffc05b7011f7274d971d91a514e0ec8a197657",
+      "entity_id": "osm:way:469845356",
+      "name": "Shangri-La at the Fort",
+      "replaces": [
         "osm:way:469845355",
         "osm:way:469845356",
         "osm:way:469845357",
         "osm:way:469906738",
-        "osm:way:469906739",
-        "shangri"
+        "osm:way:469906739"
       ],
-      "feature_count": 102,
-      "package_url": "/world/detail/m23/shangri.json"
+      "replacement_entity_ids": [
+        "osm:way:469845356"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 250.0,
+      "activation_m": 260
     },
     {
-      "zone_id": "sm_aura",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "aura",
-        "osm",
+      "id": "sm_aura",
+      "kind": "landmark",
+      "bounds": [
+        198.869119,
+        414.411009,
+        447.387041,
+        652.450889
+      ],
+      "url": "/world/detail/m23/sm_aura.json",
+      "feature_count": 39,
+      "instances": 4,
+      "mesh_triangles": 4810,
+      "signs": 1,
+      "content_sha256": "43f55071603272450e7c44dbc9450935eca48f3973197c994243e2a9e60f0400",
+      "entity_id": "osm:way:221590005",
+      "name": "SM Aura Premier",
+      "replaces": [
         "osm:way:221590005",
         "osm:way:531903361"
       ],
-      "feature_count": 39,
-      "package_url": "/world/detail/m23/sm_aura.json"
-    },
-    {
-      "zone_id": "street_tile_000_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:28536626"
-      ],
-      "feature_count": 18,
-      "package_url": "/world/detail/m23/street_tile_000_010.json"
-    },
-    {
-      "zone_id": "street_tile_000_011",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:688542901"
-      ],
-      "feature_count": 22,
-      "package_url": "/world/detail/m23/street_tile_000_011.json"
-    },
-    {
-      "zone_id": "street_tile_001_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:27663287"
-      ],
-      "feature_count": 59,
-      "package_url": "/world/detail/m23/street_tile_001_004.json"
-    },
-    {
-      "zone_id": "street_tile_001_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:6448798600",
-        "osm:way:223938950"
-      ],
-      "feature_count": 7,
-      "package_url": "/world/detail/m23/street_tile_001_007.json"
-    },
-    {
-      "zone_id": "street_tile_001_008",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:2560871039",
-        "osm:way:814837419"
-      ],
-      "feature_count": 14,
-      "package_url": "/world/detail/m23/street_tile_001_008.json"
-    },
-    {
-      "zone_id": "street_tile_001_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11892940837",
-        "osm:way:1065042209",
-        "osm:way:1065042211",
-        "osm:way:1065042212",
-        "osm:way:1065044247",
-        "osm:way:1076873694",
-        "osm:way:1207361759",
-        "osm:way:1212433689",
-        "osm:way:1212433690",
-        "osm:way:1281362209",
-        "osm:way:1281362210",
-        "osm:way:1283806413",
-        "osm:way:1312097648",
-        "osm:way:206611044",
-        "osm:way:20955310",
-        "osm:way:28537080",
-        "osm:way:28539010",
-        "osm:way:28539012",
-        "osm:way:28539043",
-        "osm:way:28539471",
-        "osm:way:29353931",
-        "osm:way:4940287",
-        "osm:way:683039567"
-      ],
-      "feature_count": 196,
-      "package_url": "/world/detail/m23/street_tile_001_009.json"
-    },
-    {
-      "zone_id": "street_tile_001_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:9128682268",
-        "osm:way:1289152443",
-        "osm:way:130573036",
-        "osm:way:272735309",
-        "osm:way:272735310",
-        "osm:way:27274178",
-        "osm:way:27274180",
-        "osm:way:28536636",
-        "osm:way:28536641",
-        "osm:way:28536757",
-        "osm:way:794597817",
-        "osm:way:794597824",
-        "osm:way:794597825",
-        "osm:way:894454053",
-        "osm:way:987602053"
-      ],
-      "feature_count": 198,
-      "package_url": "/world/detail/m23/street_tile_001_010.json"
-    },
-    {
-      "zone_id": "street_tile_001_011",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:188163090",
-        "osm:way:27274173",
-        "osm:way:28536507",
-        "osm:way:792480048"
-      ],
-      "feature_count": 35,
-      "package_url": "/world/detail/m23/street_tile_001_011.json"
-    },
-    {
-      "zone_id": "street_tile_002_003",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:743811527",
-        "osm:way:743811529"
-      ],
-      "feature_count": 36,
-      "package_url": "/world/detail/m23/street_tile_002_003.json"
-    },
-    {
-      "zone_id": "street_tile_002_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10110249800",
-        "osm:node:11865598275",
-        "osm:node:12072804",
-        "osm:node:148846566",
-        "osm:node:301301822",
-        "osm:node:32542694",
-        "osm:node:7611149066",
-        "osm:way:1089002387",
-        "osm:way:1089002388",
-        "osm:way:208149433",
-        "osm:way:208149442",
-        "osm:way:27442668",
-        "osm:way:313318795",
-        "osm:way:32488340",
-        "osm:way:32488344",
-        "osm:way:425382118",
-        "osm:way:425382124",
-        "osm:way:48890838",
-        "osm:way:48890866",
-        "osm:way:700982489",
-        "osm:way:743811528",
-        "osm:way:745492922"
-      ],
-      "feature_count": 105,
-      "package_url": "/world/detail/m23/street_tile_002_004.json"
-    },
-    {
-      "zone_id": "street_tile_002_005",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:148846631",
-        "osm:node:148846632",
-        "osm:node:32542234",
-        "osm:node:846904640",
-        "osm:node:8713665360",
-        "osm:node:8713709932",
-        "osm:way:1294600791",
-        "osm:way:1294600842",
-        "osm:way:23240436",
-        "osm:way:313318798",
-        "osm:way:425382119",
-        "osm:way:461823737",
-        "osm:way:461823738",
-        "osm:way:4940135",
-        "osm:way:4940255",
-        "osm:way:740592678"
-      ],
-      "feature_count": 58,
-      "package_url": "/world/detail/m23/street_tile_002_005.json"
-    },
-    {
-      "zone_id": "street_tile_002_006",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:251456661",
-        "osm:node:3233871011",
-        "osm:node:32542716",
-        "osm:node:4255742894",
-        "osm:node:4255742895",
-        "osm:node:846904644",
-        "osm:node:8713664893",
-        "osm:node:8713704773",
-        "osm:node:8713727431",
-        "osm:way:1314651742",
-        "osm:way:1314651743",
-        "osm:way:23240425",
-        "osm:way:23370380",
-        "osm:way:32488152",
-        "osm:way:459476438",
-        "osm:way:461823736",
-        "osm:way:4940199",
-        "osm:way:4940257",
-        "osm:way:59474782",
-        "osm:way:688263925",
-        "osm:way:814837406",
-        "osm:way:814837407",
-        "osm:way:814837408",
-        "osm:way:814837411"
-      ],
-      "feature_count": 113,
-      "package_url": "/world/detail/m23/street_tile_002_006.json"
-    },
-    {
-      "zone_id": "street_tile_002_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11877811936",
-        "osm:node:6986715346",
-        "osm:node:6991241174",
-        "osm:node:7046074968",
-        "osm:node:8687864086",
-        "osm:way:1057756285",
-        "osm:way:1212444022",
-        "osm:way:15089971",
-        "osm:way:15089973",
-        "osm:way:223938946",
-        "osm:way:32906139",
-        "osm:way:37125444",
-        "osm:way:446611373",
-        "osm:way:446611374",
-        "osm:way:459476437",
-        "osm:way:4940259",
-        "osm:way:745542361",
-        "osm:way:746584499",
-        "osm:way:746584500",
-        "osm:way:747167897",
-        "osm:way:814837404",
-        "osm:way:846184132"
-      ],
-      "feature_count": 160,
-      "package_url": "/world/detail/m23/street_tile_002_007.json"
-    },
-    {
-      "zone_id": "street_tile_002_008",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11878357680",
-        "osm:node:1307002542",
-        "osm:node:32543441",
-        "osm:node:4402588643",
-        "osm:node:4402621817",
-        "osm:node:476260829",
-        "osm:node:4973333621",
-        "osm:node:6601716687",
-        "osm:node:6735725686",
-        "osm:way:1078301743",
-        "osm:way:114095807",
-        "osm:way:1279570051",
-        "osm:way:15089975",
-        "osm:way:23240434",
-        "osm:way:4940269",
-        "osm:way:4940273",
-        "osm:way:745542371",
-        "osm:way:814837420"
-      ],
-      "feature_count": 129,
-      "package_url": "/world/detail/m23/street_tile_002_008.json"
-    },
-    {
-      "zone_id": "street_tile_002_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1279593466",
-        "osm:way:1289152444",
-        "osm:way:1289152447",
-        "osm:way:1289152448",
-        "osm:way:1289152449",
-        "osm:way:1289152450",
-        "osm:way:23240433",
-        "osm:way:28538073",
-        "osm:way:28538193",
-        "osm:way:28539175",
-        "osm:way:28539207",
-        "osm:way:28539223",
-        "osm:way:28539263",
-        "osm:way:28539555",
-        "osm:way:33512569",
-        "osm:way:33567826",
-        "osm:way:354718298",
-        "osm:way:354718301",
-        "osm:way:45568781",
-        "osm:way:671962732",
-        "osm:way:671962733",
-        "osm:way:744999969"
-      ],
-      "feature_count": 198,
-      "package_url": "/world/detail/m23/street_tile_002_009.json"
-    },
-    {
-      "zone_id": "street_tile_002_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:32544096",
-        "osm:way:1077803509",
-        "osm:way:1226153897",
-        "osm:way:126310262",
-        "osm:way:126310263",
-        "osm:way:1291554831",
-        "osm:way:135048804",
-        "osm:way:204841599",
-        "osm:way:204841605",
-        "osm:way:27274181",
-        "osm:way:28536534",
-        "osm:way:28536590",
-        "osm:way:28539493",
-        "osm:way:28539575",
-        "osm:way:835208043",
-        "osm:way:948928079"
-      ],
-      "feature_count": 143,
-      "package_url": "/world/detail/m23/street_tile_002_010.json"
-    },
-    {
-      "zone_id": "street_tile_002_011",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:27274177",
-        "osm:way:27274183",
-        "osm:way:27274188",
-        "osm:way:27274189",
-        "osm:way:28536471",
-        "osm:way:28536485",
-        "osm:way:902677636"
-      ],
-      "feature_count": 124,
-      "package_url": "/world/detail/m23/street_tile_002_011.json"
-    },
-    {
-      "zone_id": "street_tile_003_003",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1088414395"
-      ],
-      "feature_count": 1,
-      "package_url": "/world/detail/m23/street_tile_003_003.json"
-    },
-    {
-      "zone_id": "street_tile_003_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:32542493",
-        "osm:way:1088414394",
-        "osm:way:1338912466",
-        "osm:way:156578061",
-        "osm:way:25007175",
-        "osm:way:35062147",
-        "osm:way:4940188",
-        "osm:way:743748241",
-        "osm:way:744358470",
-        "osm:way:744358487",
-        "osm:way:744358488"
-      ],
-      "feature_count": 112,
-      "package_url": "/world/detail/m23/street_tile_003_004.json"
-    },
-    {
-      "zone_id": "street_tile_003_005",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10699316107",
-        "osm:node:11865696769",
-        "osm:node:11873241478",
-        "osm:node:32542700",
-        "osm:node:32543195",
-        "osm:node:6630249781",
-        "osm:node:6976286558",
-        "osm:node:7611149045",
-        "osm:way:1212440752",
-        "osm:way:1278083839",
-        "osm:way:1341806867",
-        "osm:way:15089966",
-        "osm:way:248903709",
-        "osm:way:248903714",
-        "osm:way:32906491",
-        "osm:way:35062137",
-        "osm:way:35062152",
-        "osm:way:38414022",
-        "osm:way:4940249",
-        "osm:way:4940251",
-        "osm:way:4940254",
-        "osm:way:568221031",
-        "osm:way:705638349",
-        "osm:way:740592679",
-        "osm:way:744375104",
-        "osm:way:744375105",
-        "osm:way:744375106",
-        "osm:way:744375110",
-        "osm:way:744375114",
-        "osm:way:744375115",
-        "osm:way:744375117",
-        "osm:way:744384964",
-        "osm:way:745379682",
-        "osm:way:835208031"
-      ],
-      "feature_count": 175,
-      "package_url": "/world/detail/m23/street_tile_003_005.json"
-    },
-    {
-      "zone_id": "street_tile_003_006",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10701208733",
-        "osm:node:2462250737",
-        "osm:node:2462250738",
-        "osm:node:2462250741",
-        "osm:node:253303213",
-        "osm:node:6630249780",
-        "osm:node:8754925640",
-        "osm:node:8754925641",
-        "osm:way:1057384165",
-        "osm:way:1314651749",
-        "osm:way:1337669118",
-        "osm:way:208149441",
-        "osm:way:35826308",
-        "osm:way:461823734",
-        "osm:way:744348352",
-        "osm:way:745377153",
-        "osm:way:814837399",
-        "osm:way:814837405",
-        "osm:way:814837410",
-        "osm:way:945694571"
-      ],
-      "feature_count": 129,
-      "package_url": "/world/detail/m23/street_tile_003_006.json"
-    },
-    {
-      "zone_id": "street_tile_003_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:2139051450",
-        "osm:node:2462250742",
-        "osm:node:2462250743",
-        "osm:node:3543040448",
-        "osm:node:418844899",
-        "osm:node:4613841221",
-        "osm:node:4613844057",
-        "osm:node:655323910",
-        "osm:node:6986715328",
-        "osm:way:1210922639",
-        "osm:way:1314651751",
-        "osm:way:1554497168",
-        "osm:way:23395714",
-        "osm:way:32488019",
-        "osm:way:746584498",
-        "osm:way:747175703",
-        "osm:way:747175704",
-        "osm:way:747175705",
-        "osm:way:814837413",
-        "osm:way:814837414",
-        "osm:way:814837416",
-        "osm:way:940882674",
-        "osm:way:940882676",
-        "osm:way:945694568",
-        "osm:way:945694569",
-        "osm:way:945694570"
-      ],
-      "feature_count": 103,
-      "package_url": "/world/detail/m23/street_tile_003_007.json"
-    },
-    {
-      "zone_id": "street_tile_003_008",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10732022736",
-        "osm:node:11878482254",
-        "osm:node:1259676860",
-        "osm:node:32542975",
-        "osm:node:3659300464",
-        "osm:node:3659300466",
-        "osm:node:5286881278",
-        "osm:node:5286887107",
-        "osm:node:6596890186",
-        "osm:node:6600847705",
-        "osm:node:6978607547",
-        "osm:node:6991250012",
-        "osm:node:7611149067",
-        "osm:way:110280206",
-        "osm:way:1279570745",
-        "osm:way:154462816",
-        "osm:way:216598266",
-        "osm:way:216598267",
-        "osm:way:32906138",
-        "osm:way:4940264",
-        "osm:way:547165589",
-        "osm:way:714621280",
-        "osm:way:714621281",
-        "osm:way:745542370",
-        "osm:way:747175706",
-        "osm:way:747175707",
-        "osm:way:750570767",
-        "osm:way:750575818",
-        "osm:way:750575819",
-        "osm:way:750575823",
-        "osm:way:750578281",
-        "osm:way:940882677"
-      ],
-      "feature_count": 148,
-      "package_url": "/world/detail/m23/street_tile_003_008.json"
-    },
-    {
-      "zone_id": "street_tile_003_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1288397370",
-        "osm:way:1289152446",
-        "osm:way:174398017",
-        "osm:way:267646774",
-        "osm:way:272735305",
-        "osm:way:272735306",
-        "osm:way:32487759",
-        "osm:way:354718282",
-        "osm:way:354718299",
-        "osm:way:586371499",
-        "osm:way:902574738",
-        "osm:way:987614114"
-      ],
-      "feature_count": 83,
-      "package_url": "/world/detail/m23/street_tile_003_009.json"
-    },
-    {
-      "zone_id": "street_tile_003_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:301843165",
-        "osm:node:7611149070",
-        "osm:node:7611149071",
-        "osm:way:1057272192",
-        "osm:way:1057272193",
-        "osm:way:28539454",
-        "osm:way:28539838",
-        "osm:way:28539862",
-        "osm:way:28539867",
-        "osm:way:354490548",
-        "osm:way:354718302",
-        "osm:way:586371497"
-      ],
-      "feature_count": 64,
-      "package_url": "/world/detail/m23/street_tile_003_010.json"
-    },
-    {
-      "zone_id": "street_tile_003_011",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11888739382",
-        "osm:node:13256996535",
-        "osm:way:27274182",
-        "osm:way:27274191",
-        "osm:way:28535728",
-        "osm:way:28536354",
-        "osm:way:568142851",
-        "osm:way:711231847"
-      ],
-      "feature_count": 206,
-      "package_url": "/world/detail/m23/street_tile_003_011.json"
-    },
-    {
-      "zone_id": "street_tile_004_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:6593100987",
-        "osm:way:1338912464",
-        "osm:way:1338912465",
-        "osm:way:248903712",
-        "osm:way:27664971",
-        "osm:way:35062148",
-        "osm:way:744358479",
-        "osm:way:744358486",
-        "osm:way:744384951",
-        "osm:way:744384952"
-      ],
-      "feature_count": 75,
-      "package_url": "/world/detail/m23/street_tile_004_004.json"
-    },
-    {
-      "zone_id": "street_tile_004_005",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10110249799",
-        "osm:node:148846556",
-        "osm:node:2462250734",
-        "osm:node:32542706",
-        "osm:node:32542707",
-        "osm:node:32542775",
-        "osm:node:6630249777",
-        "osm:node:7611149044",
-        "osm:way:1057384166",
-        "osm:way:1278960384",
-        "osm:way:22694559",
-        "osm:way:22694598",
-        "osm:way:22694603",
-        "osm:way:238383717",
-        "osm:way:319061576",
-        "osm:way:4940248",
-        "osm:way:705638793",
-        "osm:way:705638794",
-        "osm:way:705640585",
-        "osm:way:744358480",
-        "osm:way:744358481",
-        "osm:way:744358482",
-        "osm:way:744358484",
-        "osm:way:744358485",
-        "osm:way:744384953",
-        "osm:way:744384954",
-        "osm:way:744384955",
-        "osm:way:744384956",
-        "osm:way:744384965",
-        "osm:way:745377154",
-        "osm:way:745379681",
-        "osm:way:745379683",
-        "osm:way:745722762",
-        "osm:way:746549788"
-      ],
-      "feature_count": 164,
-      "package_url": "/world/detail/m23/street_tile_004_005.json"
-    },
-    {
-      "zone_id": "street_tile_004_006",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11876406257",
-        "osm:node:253050736",
-        "osm:node:4255742896",
-        "osm:node:6630249778",
-        "osm:node:8754925642",
-        "osm:node:8754925643",
-        "osm:way:208454139",
-        "osm:way:23370659",
-        "osm:way:744614382",
-        "osm:way:744615657",
-        "osm:way:744620963",
-        "osm:way:744620964",
-        "osm:way:745365888",
-        "osm:way:745377155",
-        "osm:way:745377156",
-        "osm:way:745377162",
-        "osm:way:745377165",
-        "osm:way:745377166",
-        "osm:way:745377167"
-      ],
-      "feature_count": 112,
-      "package_url": "/world/detail/m23/street_tile_004_006.json"
-    },
-    {
-      "zone_id": "street_tile_004_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11875846580",
-        "osm:node:11876248543",
-        "osm:node:253050773",
-        "osm:node:3233845578",
-        "osm:node:4570480306",
-        "osm:node:4613842064",
-        "osm:node:4817320824",
-        "osm:way:272521440",
-        "osm:way:307308395",
-        "osm:way:35826312",
-        "osm:way:744620965",
-        "osm:way:744634701",
-        "osm:way:745365881",
-        "osm:way:745377163",
-        "osm:way:745377171",
-        "osm:way:745377172",
-        "osm:way:745377173",
-        "osm:way:745377174",
-        "osm:way:747175713",
-        "osm:way:846184160",
-        "osm:way:846184162",
-        "osm:way:846184163",
-        "osm:way:846184165",
-        "osm:way:945694565"
-      ],
-      "feature_count": 116,
-      "package_url": "/world/detail/m23/street_tile_004_007.json"
-    },
-    {
-      "zone_id": "street_tile_004_008",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10732022758",
-        "osm:node:10925713302",
-        "osm:node:2462250744",
-        "osm:node:32543881",
-        "osm:node:3256144960",
-        "osm:node:3256145661",
-        "osm:node:6735712485",
-        "osm:way:1431235336",
-        "osm:way:147796328",
-        "osm:way:32906172",
-        "osm:way:35826311",
-        "osm:way:51355539",
-        "osm:way:572782867",
-        "osm:way:744632144",
-        "osm:way:744632145",
-        "osm:way:744632160",
-        "osm:way:744926195",
-        "osm:way:744999973",
-        "osm:way:745356310",
-        "osm:way:745542368",
-        "osm:way:745542369",
-        "osm:way:749858672",
-        "osm:way:750563077",
-        "osm:way:750563078",
-        "osm:way:750563080",
-        "osm:way:750563083",
-        "osm:way:750570768",
-        "osm:way:750570769",
-        "osm:way:81548613"
-      ],
-      "feature_count": 126,
-      "package_url": "/world/detail/m23/street_tile_004_008.json"
-    },
-    {
-      "zone_id": "street_tile_004_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1279681436",
-        "osm:way:1288397371",
-        "osm:way:1543291227",
-        "osm:way:1543291228",
-        "osm:way:174398011",
-        "osm:way:174398023",
-        "osm:way:272735308",
-        "osm:way:28539647",
-        "osm:way:28539665",
-        "osm:way:744999974",
-        "osm:way:744999975",
-        "osm:way:746423901"
-      ],
-      "feature_count": 87,
-      "package_url": "/world/detail/m23/street_tile_004_009.json"
-    },
-    {
-      "zone_id": "street_tile_004_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1288410664",
-        "osm:way:1355223931",
-        "osm:way:1465366961",
-        "osm:way:1465366962",
-        "osm:way:28539702",
-        "osm:way:28539739",
-        "osm:way:28539895",
-        "osm:way:28539915",
-        "osm:way:28539942",
-        "osm:way:28539946",
-        "osm:way:28539954"
-      ],
-      "feature_count": 103,
-      "package_url": "/world/detail/m23/street_tile_004_010.json"
-    },
-    {
-      "zone_id": "street_tile_004_011",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:13256996536",
-        "osm:node:7257236153",
-        "osm:way:241489940",
-        "osm:way:28539957",
-        "osm:way:354718285",
-        "osm:way:800671112",
-        "osm:way:822062850"
-      ],
-      "feature_count": 37,
-      "package_url": "/world/detail/m23/street_tile_004_011.json"
-    },
-    {
-      "zone_id": "street_tile_005_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:251456708",
-        "osm:way:156578059",
-        "osm:way:27443032",
-        "osm:way:366853083",
-        "osm:way:425382116",
-        "osm:way:510633196",
-        "osm:way:705076648",
-        "osm:way:744358476",
-        "osm:way:744358477",
-        "osm:way:744358478",
-        "osm:way:744397363",
-        "osm:way:744397364",
-        "osm:way:744401173"
-      ],
-      "feature_count": 92,
-      "package_url": "/world/detail/m23/street_tile_005_004.json"
-    },
-    {
-      "zone_id": "street_tile_005_005",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:3543041676",
-        "osm:node:3543041677",
-        "osm:node:365271033",
-        "osm:node:4247126695",
-        "osm:node:6630278062",
-        "osm:node:6630278063",
-        "osm:way:1212474709",
-        "osm:way:1212474710",
-        "osm:way:1212474711",
-        "osm:way:1212493854",
-        "osm:way:23395712",
-        "osm:way:425382113",
-        "osm:way:425382114",
-        "osm:way:459476433",
-        "osm:way:745722763",
-        "osm:way:746549789",
-        "osm:way:746584486",
-        "osm:way:897494051"
-      ],
-      "feature_count": 102,
-      "package_url": "/world/detail/m23/street_tile_005_005.json"
-    },
-    {
-      "zone_id": "street_tile_005_006",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11873107463",
-        "osm:node:11875840895",
-        "osm:node:253050737",
-        "osm:node:3257602670",
-        "osm:node:433733048",
-        "osm:node:4567123790",
-        "osm:node:4583971641",
-        "osm:node:4613842155",
-        "osm:node:6168132070",
-        "osm:node:6838750186",
-        "osm:node:864688177",
-        "osm:node:9311708395",
-        "osm:node:9311708405",
-        "osm:node:9311708406",
-        "osm:way:1212493852",
-        "osm:way:1212493853",
-        "osm:way:1278949921",
-        "osm:way:184852740",
-        "osm:way:23370709",
-        "osm:way:23370715",
-        "osm:way:27443031",
-        "osm:way:30446164",
-        "osm:way:690148299",
-        "osm:way:744615658",
-        "osm:way:744620958",
-        "osm:way:744620962",
-        "osm:way:746584487",
-        "osm:way:894168378"
-      ],
-      "feature_count": 127,
-      "package_url": "/world/detail/m23/street_tile_005_006.json"
-    },
-    {
-      "zone_id": "street_tile_005_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:253051040",
-        "osm:node:3055284933",
-        "osm:node:4570480499",
-        "osm:node:6600833695",
-        "osm:way:1212499372",
-        "osm:way:1212499373",
-        "osm:way:1212501347",
-        "osm:way:23370670",
-        "osm:way:31764601",
-        "osm:way:319060501",
-        "osm:way:32836569",
-        "osm:way:32836570",
-        "osm:way:32836575",
-        "osm:way:32836580",
-        "osm:way:625010522",
-        "osm:way:690148298",
-        "osm:way:744620959",
-        "osm:way:744620960",
-        "osm:way:744620961",
-        "osm:way:744632158",
-        "osm:way:744632159",
-        "osm:way:744632163",
-        "osm:way:744632164",
-        "osm:way:744632165",
-        "osm:way:744640943",
-        "osm:way:744645398",
-        "osm:way:744645399",
-        "osm:way:744645401",
-        "osm:way:744677543",
-        "osm:way:747936755",
-        "osm:way:894168380"
-      ],
-      "feature_count": 182,
-      "package_url": "/world/detail/m23/street_tile_005_007.json"
-    },
-    {
-      "zone_id": "street_tile_005_008",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10826186169",
-        "osm:node:10830880285",
-        "osm:node:11871530077",
-        "osm:node:355576854",
-        "osm:node:6969312733",
-        "osm:node:6969312736",
-        "osm:node:6991898410",
-        "osm:node:7104700913",
-        "osm:node:8713660495",
-        "osm:way:101376495",
-        "osm:way:1212501346",
-        "osm:way:184852733",
-        "osm:way:27788646",
-        "osm:way:51355540",
-        "osm:way:744645397",
-        "osm:way:744645403",
-        "osm:way:744645404",
-        "osm:way:744649710",
-        "osm:way:744944958",
-        "osm:way:744944959",
-        "osm:way:744944960",
-        "osm:way:744944961",
-        "osm:way:744944962",
-        "osm:way:744944963",
-        "osm:way:744944964",
-        "osm:way:744944967",
-        "osm:way:744944972",
-        "osm:way:744949906",
-        "osm:way:744949907",
-        "osm:way:744954673",
-        "osm:way:744954674",
-        "osm:way:747228971",
-        "osm:way:750563079",
-        "osm:way:750563081",
-        "osm:way:750563082",
-        "osm:way:96487803",
-        "osm:way:96487804"
-      ],
-      "feature_count": 184,
-      "package_url": "/world/detail/m23/street_tile_005_008.json"
-    },
-    {
-      "zone_id": "street_tile_005_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11870882175",
-        "osm:node:6974642112",
-        "osm:node:6974642126",
-        "osm:node:6991898405",
-        "osm:node:6991898407",
-        "osm:node:6991898408",
-        "osm:node:6991898416",
-        "osm:node:6991898417",
-        "osm:way:1279816417",
-        "osm:way:1328707416",
-        "osm:way:1543291229",
-        "osm:way:1543291231",
-        "osm:way:1543291232",
-        "osm:way:174398024",
-        "osm:way:323726178",
-        "osm:way:745055614",
-        "osm:way:746423905",
-        "osm:way:746649485",
-        "osm:way:747228972",
-        "osm:way:747228973",
-        "osm:way:747228974",
-        "osm:way:747228980",
-        "osm:way:747228981",
-        "osm:way:747228982",
-        "osm:way:96489258"
-      ],
-      "feature_count": 129,
-      "package_url": "/world/detail/m23/street_tile_005_009.json"
-    },
-    {
-      "zone_id": "street_tile_005_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1279816416",
-        "osm:way:428836644",
-        "osm:way:617111195",
-        "osm:way:617111196",
-        "osm:way:647552854",
-        "osm:way:747228978",
-        "osm:way:747333142",
-        "osm:way:96489257",
-        "osm:way:96489259",
-        "osm:way:96489260"
-      ],
-      "feature_count": 128,
-      "package_url": "/world/detail/m23/street_tile_005_010.json"
-    },
-    {
-      "zone_id": "street_tile_005_011",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1302514929",
-        "osm:way:28539974",
-        "osm:way:28540005"
-      ],
-      "feature_count": 3,
-      "package_url": "/world/detail/m23/street_tile_005_011.json"
-    },
-    {
-      "zone_id": "street_tile_006_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:12700686460",
-        "osm:way:1072149528",
-        "osm:way:1072149529",
-        "osm:way:1072155402",
-        "osm:way:1149864133",
-        "osm:way:23370552",
-        "osm:way:238981586",
-        "osm:way:29082301",
-        "osm:way:29082316",
-        "osm:way:29082425",
-        "osm:way:29082433",
-        "osm:way:29127552",
-        "osm:way:318485816",
-        "osm:way:35491535",
-        "osm:way:911413467",
-        "osm:way:918505400",
-        "osm:way:97665004",
-        "osm:way:984799393"
-      ],
-      "feature_count": 319,
-      "package_url": "/world/detail/m23/street_tile_006_004.json"
-    },
-    {
-      "zone_id": "street_tile_006_005",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:1169222444",
-        "osm:node:14139719122",
-        "osm:node:6978549437",
-        "osm:node:6978549438",
-        "osm:node:6978549439",
-        "osm:node:6978549440",
-        "osm:way:1212986029",
-        "osm:way:1212987337",
-        "osm:way:1212987725",
-        "osm:way:1212988287",
-        "osm:way:1298657084",
-        "osm:way:223089274",
-        "osm:way:23370476",
-        "osm:way:25006622",
-        "osm:way:318485814",
-        "osm:way:32488144",
-        "osm:way:35491534",
-        "osm:way:425382125",
-        "osm:way:55065363",
-        "osm:way:568874018",
-        "osm:way:705076639",
-        "osm:way:705076640",
-        "osm:way:705076643",
-        "osm:way:705076644",
-        "osm:way:705076645",
-        "osm:way:705641167",
-        "osm:way:744401172",
-        "osm:way:814837428",
-        "osm:way:814837429"
-      ],
-      "feature_count": 147,
-      "package_url": "/world/detail/m23/street_tile_006_005.json"
-    },
-    {
-      "zone_id": "street_tile_006_006",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:1117194828",
-        "osm:node:6622208707",
-        "osm:way:1071797939",
-        "osm:way:24957126",
-        "osm:way:24957185",
-        "osm:way:29127361",
-        "osm:way:29127362",
-        "osm:way:510635008",
-        "osm:way:568873737",
-        "osm:way:705074764",
-        "osm:way:705074765",
-        "osm:way:705074768",
-        "osm:way:705074769",
-        "osm:way:705074770",
-        "osm:way:705076646",
-        "osm:way:744677540",
-        "osm:way:746559634",
-        "osm:way:746559635",
-        "osm:way:746559636",
-        "osm:way:749853681",
-        "osm:way:894168377"
-      ],
-      "feature_count": 106,
-      "package_url": "/world/detail/m23/street_tile_006_006.json"
-    },
-    {
-      "zone_id": "street_tile_006_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:1953960735",
-        "osm:node:1953960736",
-        "osm:node:251456669",
-        "osm:node:253051041",
-        "osm:node:253051042",
-        "osm:node:3257602671",
-        "osm:node:3257602672",
-        "osm:node:6622060282",
-        "osm:way:1554501834",
-        "osm:way:174398016",
-        "osm:way:184852743",
-        "osm:way:184852744",
-        "osm:way:184852745",
-        "osm:way:459476432",
-        "osm:way:744645402",
-        "osm:way:744677541",
-        "osm:way:744926194",
-        "osm:way:747447012",
-        "osm:way:747937844",
-        "osm:way:747939432",
-        "osm:way:747939435",
-        "osm:way:747951000",
-        "osm:way:747951001",
-        "osm:way:747951002",
-        "osm:way:747951013",
-        "osm:way:747951014",
-        "osm:way:747951018",
-        "osm:way:747951019",
-        "osm:way:749858671",
-        "osm:way:894168379"
-      ],
-      "feature_count": 127,
-      "package_url": "/world/detail/m23/street_tile_006_007.json"
-    },
-    {
-      "zone_id": "street_tile_006_008",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11867765601",
-        "osm:way:1212504575",
-        "osm:way:182331870",
-        "osm:way:184852741",
-        "osm:way:23370756",
-        "osm:way:744949908",
-        "osm:way:745062638",
-        "osm:way:747217017",
-        "osm:way:747447020",
-        "osm:way:747853026",
-        "osm:way:747853027",
-        "osm:way:747853028",
-        "osm:way:747853030",
-        "osm:way:747936760",
-        "osm:way:747939433",
-        "osm:way:748795306",
-        "osm:way:749519991",
-        "osm:way:749520368",
-        "osm:way:96487801"
-      ],
-      "feature_count": 104,
-      "package_url": "/world/detail/m23/street_tile_006_008.json"
-    },
-    {
-      "zone_id": "street_tile_006_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11882473560",
-        "osm:node:1850957575",
-        "osm:node:5807613121",
-        "osm:node:6641041086",
-        "osm:node:6641095491",
-        "osm:node:6991734266",
-        "osm:node:6991734267",
-        "osm:node:7104717701",
-        "osm:node:7611149048",
-        "osm:way:1212506817",
-        "osm:way:1212508463",
-        "osm:way:1279817666",
-        "osm:way:1280054791",
-        "osm:way:1543291222",
-        "osm:way:1543291233",
-        "osm:way:1543291234",
-        "osm:way:1543291235",
-        "osm:way:1543291236",
-        "osm:way:174398008",
-        "osm:way:174398025",
-        "osm:way:32836239",
-        "osm:way:745055610",
-        "osm:way:745055616",
-        "osm:way:746653783",
-        "osm:way:746653786",
-        "osm:way:746660481",
-        "osm:way:746785988",
-        "osm:way:747447018",
-        "osm:way:749508470",
-        "osm:way:749508471"
-      ],
-      "feature_count": 110,
-      "package_url": "/world/detail/m23/street_tile_006_009.json"
-    },
-    {
-      "zone_id": "street_tile_006_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:10830880286",
-        "osm:node:1850957595",
-        "osm:node:1926870861",
-        "osm:node:253052215",
-        "osm:node:370593287",
-        "osm:node:6600833694",
-        "osm:node:6991898413",
-        "osm:node:7611149050",
-        "osm:way:1300421898",
-        "osm:way:182331872",
-        "osm:way:323726177",
-        "osm:way:613886955",
-        "osm:way:744944971",
-        "osm:way:746785983",
-        "osm:way:746785984",
-        "osm:way:746785986",
-        "osm:way:746785987",
-        "osm:way:747005522",
-        "osm:way:747005524",
-        "osm:way:747009418",
-        "osm:way:747228976",
-        "osm:way:747228977",
-        "osm:way:747232921",
-        "osm:way:747232923",
-        "osm:way:928477279",
-        "osm:way:940883142"
-      ],
-      "feature_count": 122,
-      "package_url": "/world/detail/m23/street_tile_006_010.json"
-    },
-    {
-      "zone_id": "street_tile_006_011",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:4579719691",
-        "osm:node:8713635384"
-      ],
-      "feature_count": 2,
-      "package_url": "/world/detail/m23/street_tile_006_011.json"
-    },
-    {
-      "zone_id": "street_tile_007_003",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:29082125",
-        "osm:way:29082487"
-      ],
-      "feature_count": 2,
-      "package_url": "/world/detail/m23/street_tile_007_003.json"
-    },
-    {
-      "zone_id": "street_tile_007_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:253048275",
-        "osm:way:1064367385",
-        "osm:way:1065726171",
-        "osm:way:1065726174",
-        "osm:way:1272650818",
-        "osm:way:184852736",
-        "osm:way:222123744",
-        "osm:way:226831899",
-        "osm:way:23296750",
-        "osm:way:29001191",
-        "osm:way:29001195",
-        "osm:way:29082076",
-        "osm:way:29082476",
-        "osm:way:35491532",
-        "osm:way:797810631",
-        "osm:way:902648103"
-      ],
-      "feature_count": 92,
-      "package_url": "/world/detail/m23/street_tile_007_004.json"
-    },
-    {
-      "zone_id": "street_tile_007_005",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11047559014",
-        "osm:way:1072138522",
-        "osm:way:1131073206",
-        "osm:way:1131073207",
-        "osm:way:205976575",
-        "osm:way:205976577",
-        "osm:way:205976578",
-        "osm:way:25006605",
-        "osm:way:35491533",
-        "osm:way:35491536",
-        "osm:way:628567770"
-      ],
-      "feature_count": 124,
-      "package_url": "/world/detail/m23/street_tile_007_005.json"
-    },
-    {
-      "zone_id": "street_tile_007_006",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1081630025",
-        "osm:way:205976574",
-        "osm:way:205976576",
-        "osm:way:222123743",
-        "osm:way:238981588",
-        "osm:way:27494472",
-        "osm:way:38343071",
-        "osm:way:748795288",
-        "osm:way:814073109",
-        "osm:way:814837403"
-      ],
-      "feature_count": 239,
-      "package_url": "/world/detail/m23/street_tile_007_006.json"
-    },
-    {
-      "zone_id": "street_tile_007_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:1953960733",
-        "osm:node:251456739",
-        "osm:node:6601707387",
-        "osm:node:6986505974",
-        "osm:node:6997715051",
-        "osm:node:6997747086",
-        "osm:node:7012077613",
-        "osm:node:7611149049",
-        "osm:node:7611149057",
-        "osm:way:101376486",
-        "osm:way:101376490",
-        "osm:way:1278351019",
-        "osm:way:1341838017",
-        "osm:way:1341838018",
-        "osm:way:1341838019",
-        "osm:way:1341838020",
-        "osm:way:1341838021",
-        "osm:way:1341838022",
-        "osm:way:1341838023",
-        "osm:way:139045450",
-        "osm:way:29353862",
-        "osm:way:32906161",
-        "osm:way:32906168",
-        "osm:way:32906177",
-        "osm:way:456173425",
-        "osm:way:569219184",
-        "osm:way:569219185",
-        "osm:way:744645400",
-        "osm:way:746559627",
-        "osm:way:746559628",
-        "osm:way:746559629",
-        "osm:way:746559630",
-        "osm:way:747937849",
-        "osm:way:747951003",
-        "osm:way:747951005",
-        "osm:way:747951009",
-        "osm:way:747951010",
-        "osm:way:747951011",
-        "osm:way:747953561",
-        "osm:way:748795293",
-        "osm:way:748795295",
-        "osm:way:748795299",
-        "osm:way:749640563",
-        "osm:way:940882682"
-      ],
-      "feature_count": 166,
-      "package_url": "/world/detail/m23/street_tile_007_007.json"
-    },
-    {
-      "zone_id": "street_tile_007_008",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:174398010",
-        "osm:way:747217019",
-        "osm:way:749508464",
-        "osm:way:749508465"
-      ],
-      "feature_count": 86,
-      "package_url": "/world/detail/m23/street_tile_007_008.json"
-    },
-    {
-      "zone_id": "street_tile_007_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:27260010",
-        "osm:way:747853023",
-        "osm:way:749518015",
-        "osm:way:749518016"
-      ],
-      "feature_count": 29,
-      "package_url": "/world/detail/m23/street_tile_007_009.json"
-    },
-    {
-      "zone_id": "street_tile_007_010",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:11882775257",
-        "osm:node:370593368",
-        "osm:node:6601723985",
-        "osm:node:6992005126",
-        "osm:way:1280079388",
-        "osm:way:1280079391",
-        "osm:way:1280079392",
-        "osm:way:23370776",
-        "osm:way:54039517",
-        "osm:way:747447017"
-      ],
-      "feature_count": 33,
-      "package_url": "/world/detail/m23/street_tile_007_010.json"
-    },
-    {
-      "zone_id": "street_tile_008_003",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:894809251"
-      ],
-      "feature_count": 1,
-      "package_url": "/world/detail/m23/street_tile_008_003.json"
-    },
-    {
-      "zone_id": "street_tile_008_004",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1064374314",
-        "osm:way:1072977675",
-        "osm:way:1300286267",
-        "osm:way:23296749",
-        "osm:way:23296754",
-        "osm:way:29001330",
-        "osm:way:800662538",
-        "osm:way:894808670"
-      ],
-      "feature_count": 71,
-      "package_url": "/world/detail/m23/street_tile_008_004.json"
-    },
-    {
-      "zone_id": "street_tile_008_005",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1008051258",
-        "osm:way:23296748",
-        "osm:way:23296751",
-        "osm:way:23296773",
-        "osm:way:23296774",
-        "osm:way:23296780",
-        "osm:way:29000484",
-        "osm:way:559359882",
-        "osm:way:894172555"
-      ],
-      "feature_count": 62,
-      "package_url": "/world/detail/m23/street_tile_008_005.json"
-    },
-    {
-      "zone_id": "street_tile_008_006",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1081630026",
-        "osm:way:139045457",
-        "osm:way:154878304",
-        "osm:way:23296744",
-        "osm:way:23370447",
-        "osm:way:28996500"
-      ],
-      "feature_count": 114,
-      "package_url": "/world/detail/m23/street_tile_008_006.json"
-    },
-    {
-      "zone_id": "street_tile_008_007",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1081630027",
-        "osm:way:1278683561",
-        "osm:way:174398013",
-        "osm:way:24537257",
-        "osm:way:32906099",
-        "osm:way:748795285",
-        "osm:way:748795286"
-      ],
-      "feature_count": 50,
-      "package_url": "/world/detail/m23/street_tile_008_007.json"
-    },
-    {
-      "zone_id": "street_tile_008_009",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:node:6991734243",
-        "osm:way:747217018",
-        "osm:way:749508463",
-        "osm:way:749508466",
-        "osm:way:749513999",
-        "osm:way:749514003"
-      ],
-      "feature_count": 39,
-      "package_url": "/world/detail/m23/street_tile_008_009.json"
-    },
-    {
-      "zone_id": "suites",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
-        "osm:way:203910666",
-        "osm:way:538701626",
-        "suites"
-      ],
+      "replacement_entity_ids": [
+        "osm:way:221590005"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 127.2,
+      "activation_m": 260
+    },
+    {
+      "id": "street_tile_000_010",
+      "kind": "zone",
+      "bounds": [
+        -1101.176,
+        -977.937,
+        -943.032,
+        -914.442
+      ],
+      "url": "/world/detail/m23/street_tile_000_010.json",
       "feature_count": 20,
-      "package_url": "/world/detail/m23/suites.json"
+      "instances": 0,
+      "mesh_triangles": 482,
+      "signs": 0,
+      "content_sha256": "b304411f0e8773bbae1c4295de222db0602d4b0ff211b7c34744a99702c8e6e4"
     },
     {
-      "zone_id": "terra_28th",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:145147836",
-        "osm:way:182107196",
-        "osm:way:182107197",
-        "osm:way:182107199",
-        "osm:way:182107201",
-        "osm:way:183499081",
-        "osm:way:183499083",
-        "osm:way:183499085",
-        "osm:way:222122972",
-        "osm:way:222122973"
+      "id": "street_tile_000_011",
+      "kind": "zone",
+      "bounds": [
+        -1097.773,
+        -1165.861,
+        -933.326,
+        -1024.722
       ],
-      "feature_count": 17,
-      "package_url": "/world/detail/m23/terra_28th.json"
+      "url": "/world/detail/m23/street_tile_000_011.json",
+      "feature_count": 68,
+      "instances": 0,
+      "mesh_triangles": 144,
+      "signs": 0,
+      "content_sha256": "b4ca771400f360813c93903800557f4fb2d57334697f64a438cf7c7be8d47537"
     },
     {
-      "zone_id": "track_30th",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm:way:174398019",
-        "osm:way:183499078",
-        "osm:way:183499080",
-        "osm:way:183499082",
-        "osm:way:183499084",
-        "osm:way:183499086",
-        "osm:way:183499087",
-        "osm:way:183499088",
-        "osm:way:183499089",
-        "osm:way:183499090",
-        "osm:way:203893596",
-        "osm:way:203893605",
-        "osm:way:203893614",
-        "osm:way:205968616",
-        "osm:way:744637586",
-        "osm:way:744640945",
-        "osm:way:744640946",
-        "osm:way:745362500",
-        "osm:way:747937846",
-        "osm:way:779598835",
-        "track"
+      "id": "street_tile_001_004",
+      "kind": "zone",
+      "bounds": [
+        -1085.573,
+        367.571,
+        -671.167,
+        663.148
       ],
-      "feature_count": 16,
-      "package_url": "/world/detail/m23/track_30th.json"
+      "url": "/world/detail/m23/street_tile_001_004.json",
+      "feature_count": 185,
+      "instances": 16,
+      "mesh_triangles": 1346,
+      "signs": 0,
+      "content_sha256": "7a505ea8b9b8634c58f352eb22b57d5e4af640f4d9404261783b137bc4f42e4d"
     },
     {
-      "zone_id": "uniqlo",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
-        "osm:way:443761696",
-        "user_photo_1"
+      "id": "street_tile_001_007",
+      "kind": "zone",
+      "bounds": [
+        -804.723,
+        -260.069,
+        -743.906,
+        -223.329
       ],
-      "feature_count": 9,
-      "package_url": "/world/detail/m23/uniqlo.json"
+      "url": "/world/detail/m23/street_tile_001_007.json",
+      "feature_count": 21,
+      "instances": 2,
+      "mesh_triangles": 108,
+      "signs": 0,
+      "content_sha256": "d2f1b2566af4f7b6103c2a44a69bab4b13490dd9618c2e41ea660efe868def06"
     },
     {
-      "zone_id": "university_parkway",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "faq",
-        "osm:way:1278351019",
-        "osm:way:1491168264",
-        "osm:way:205968623"
+      "id": "street_tile_001_008",
+      "kind": "zone",
+      "bounds": [
+        -867.538,
+        -485.679,
+        -753.585,
+        -407.816
       ],
+      "url": "/world/detail/m23/street_tile_001_008.json",
+      "feature_count": 42,
+      "instances": 6,
+      "mesh_triangles": 84,
+      "signs": 0,
+      "content_sha256": "7668a844b1e77f955f4cacecc2b836ec04d6db870a109410bc301bff99fcb952"
+    },
+    {
+      "id": "street_tile_001_009",
+      "kind": "zone",
+      "bounds": [
+        -1123.557,
+        -758.634,
+        -769.723,
+        -523.074
+      ],
+      "url": "/world/detail/m23/street_tile_001_009.json",
+      "feature_count": 255,
+      "instances": 50,
+      "mesh_triangles": 8556,
+      "signs": 0,
+      "content_sha256": "7e767be49d89052a8af24ec7895a28473b122716d2de2f34540823485a3ccd05"
+    },
+    {
+      "id": "street_tile_001_010",
+      "kind": "zone",
+      "bounds": [
+        -1063.483,
+        -1084.319,
+        -559.374,
+        -719.7
+      ],
+      "url": "/world/detail/m23/street_tile_001_010.json",
+      "feature_count": 231,
+      "instances": 14,
+      "mesh_triangles": 6539,
+      "signs": 0,
+      "content_sha256": "9250eb18e3cae653715b73781ac82558f0e188b5854e033f7d721803e69cf09c"
+    },
+    {
+      "id": "street_tile_001_011",
+      "kind": "zone",
+      "bounds": [
+        -1102.474,
+        -1186.082,
+        -741.625,
+        -984.312
+      ],
+      "url": "/world/detail/m23/street_tile_001_011.json",
+      "feature_count": 101,
+      "instances": 0,
+      "mesh_triangles": 1388,
+      "signs": 0,
+      "content_sha256": "97f7f52195454459698034371ed3077dfb305cf2e99926925edb2c93e944b89a"
+    },
+    {
+      "id": "street_tile_002_003",
+      "kind": "zone",
+      "bounds": [
+        -578.106,
+        657.414,
+        -499.325,
+        856.049
+      ],
+      "url": "/world/detail/m23/street_tile_002_003.json",
+      "feature_count": 115,
+      "instances": 10,
+      "mesh_triangles": 766,
+      "signs": 0,
+      "content_sha256": "62a848c74a5b2a665f47577cc55cc4909aa4233743d2502976fc8237d65c4435"
+    },
+    {
+      "id": "street_tile_002_004",
+      "kind": "zone",
+      "bounds": [
+        -677.816,
+        467.045,
+        -458.0,
+        784.302
+      ],
+      "url": "/world/detail/m23/street_tile_002_004.json",
+      "feature_count": 302,
+      "instances": 62,
+      "mesh_triangles": 4813,
+      "signs": 0,
+      "content_sha256": "db8114daf42e5d4d2ef9ae479c38b97ede7ae5c32dfc05a4885b2970398671e9"
+    },
+    {
+      "id": "street_tile_002_005",
+      "kind": "zone",
+      "bounds": [
+        -646.515,
+        251.373,
+        -496.114,
+        472.67
+      ],
+      "url": "/world/detail/m23/street_tile_002_005.json",
+      "feature_count": 180,
+      "instances": 29,
+      "mesh_triangles": 3120,
+      "signs": 0,
+      "content_sha256": "82db0b682a80464e8466e3dde72113300c0157e2ca96bb1e531ad7c4d9b94586"
+    },
+    {
+      "id": "street_tile_002_006",
+      "kind": "zone",
+      "bounds": [
+        -773.098,
+        -39.643,
+        -493.66,
+        259.422
+      ],
+      "url": "/world/detail/m23/street_tile_002_006.json",
+      "feature_count": 342,
+      "instances": 32,
+      "mesh_triangles": 2710,
+      "signs": 0,
+      "content_sha256": "a27b60f11320d3419337490e475e0f1c1fe84a66aa6dee877cb61d9b9ffaa051"
+    },
+    {
+      "id": "street_tile_002_007",
+      "kind": "zone",
+      "bounds": [
+        -750.806,
+        -348.537,
+        -460.488,
+        -12.392
+      ],
+      "url": "/world/detail/m23/street_tile_002_007.json",
+      "feature_count": 415,
+      "instances": 28,
+      "mesh_triangles": 2650,
+      "signs": 0,
+      "content_sha256": "9cfc3c47f07b0ea8e324963d953bddfc22795d9915b9780855ae8367d0516874"
+    },
+    {
+      "id": "street_tile_002_008",
+      "kind": "zone",
+      "bounds": [
+        -740.509,
+        -512.97,
+        -423.652,
+        -222.777
+      ],
+      "url": "/world/detail/m23/street_tile_002_008.json",
+      "feature_count": 386,
+      "instances": 46,
+      "mesh_triangles": 2417,
+      "signs": 0,
+      "content_sha256": "a76d7d3e4c3cfebc9564d2cb3d7546e7b5dbaee74597941884762c2aeb685e73"
+    },
+    {
+      "id": "street_tile_002_009",
+      "kind": "zone",
+      "bounds": [
+        -874.345,
+        -765.63,
+        -468.219,
+        -488.283
+      ],
+      "url": "/world/detail/m23/street_tile_002_009.json",
+      "feature_count": 254,
+      "instances": 28,
+      "mesh_triangles": 9914,
+      "signs": 0,
+      "content_sha256": "8377e581278adac92c766e4c27c4f4d991bbc3fdade655220e972ab6f8c1e71c"
+    },
+    {
+      "id": "street_tile_002_010",
+      "kind": "zone",
+      "bounds": [
+        -814.265,
+        -1025.52,
+        -457.971,
+        -728.282
+      ],
+      "url": "/world/detail/m23/street_tile_002_010.json",
+      "feature_count": 248,
+      "instances": 15,
+      "mesh_triangles": 5452,
+      "signs": 0,
+      "content_sha256": "5cb16a9114a1924c0e351b91a9f284008b6fe753cb622f5661f83e5aa74b67da"
+    },
+    {
+      "id": "street_tile_002_011",
+      "kind": "zone",
+      "bounds": [
+        -766.952,
+        -1283.694,
+        -427.462,
+        -917.141
+      ],
+      "url": "/world/detail/m23/street_tile_002_011.json",
+      "feature_count": 132,
+      "instances": 0,
+      "mesh_triangles": 3159,
+      "signs": 0,
+      "content_sha256": "48bf3de4b21d620255a534c8b4e7c9544e5b78997713106d0bcfe051c42beb28"
+    },
+    {
+      "id": "street_tile_003_003",
+      "kind": "zone",
+      "bounds": [
+        -454.764,
+        743.288,
+        -435.968,
+        781.326
+      ],
+      "url": "/world/detail/m23/street_tile_003_003.json",
+      "feature_count": 1,
+      "instances": 0,
+      "mesh_triangles": 145,
+      "signs": 0,
+      "content_sha256": "7578eaca62b5d05892eb3238edf36283d6a1998b07899d32b0fe0054d50e5bc0"
+    },
+    {
+      "id": "street_tile_003_004",
+      "kind": "zone",
+      "bounds": [
+        -525.724,
+        492.801,
+        -226.005,
+        825.921
+      ],
+      "url": "/world/detail/m23/street_tile_003_004.json",
+      "feature_count": 226,
+      "instances": 15,
+      "mesh_triangles": 5402,
+      "signs": 0,
+      "content_sha256": "eeffd862ec7b6902d2de2b473495ca669bd53e59cbb8189f2539eb31991cca6e"
+    },
+    {
+      "id": "street_tile_003_005",
+      "kind": "zone",
+      "bounds": [
+        -508.637,
+        192.047,
+        -244.791,
+        507.76
+      ],
+      "url": "/world/detail/m23/street_tile_003_005.json",
+      "feature_count": 544,
+      "instances": 55,
+      "mesh_triangles": 6138,
+      "signs": 0,
+      "content_sha256": "58fb564bf8dd15c638b7ac7028990fe7ca05985acf988a660e316c78daedc860"
+    },
+    {
+      "id": "street_tile_003_006",
+      "kind": "zone",
+      "bounds": [
+        -535.399,
+        -5.786,
+        -240.734,
+        287.515
+      ],
+      "url": "/world/detail/m23/street_tile_003_006.json",
+      "feature_count": 409,
+      "instances": 63,
+      "mesh_triangles": 3353,
+      "signs": 0,
+      "content_sha256": "fe4ca11fce35a99ab59cf8779bf8a9c6d2539be390c5f244f5443ce87448e3a9"
+    },
+    {
+      "id": "street_tile_003_007",
+      "kind": "zone",
+      "bounds": [
+        -497.88,
+        -258.51,
+        -239.491,
+        25.697
+      ],
+      "url": "/world/detail/m23/street_tile_003_007.json",
+      "feature_count": 317,
+      "instances": 53,
+      "mesh_triangles": 3791,
+      "signs": 0,
+      "content_sha256": "faf514340b13db62ae4c26540177a1c3cd1522f0887efef68f9240a212b8c18e"
+    },
+    {
+      "id": "street_tile_003_008",
+      "kind": "zone",
+      "bounds": [
+        -496.968,
+        -494.124,
+        -240.065,
+        -231.709
+      ],
+      "url": "/world/detail/m23/street_tile_003_008.json",
+      "feature_count": 430,
+      "instances": 76,
+      "mesh_triangles": 3941,
+      "signs": 0,
+      "content_sha256": "1e059e1c3e4770a01cadfa452dcddfadb5b9062baa8ddaf8d01c38b2ac162f31"
+    },
+    {
+      "id": "street_tile_003_009",
+      "kind": "zone",
+      "bounds": [
+        -510.649,
+        -762.707,
+        -193.959,
+        -486.716
+      ],
+      "url": "/world/detail/m23/street_tile_003_009.json",
+      "feature_count": 145,
+      "instances": 0,
+      "mesh_triangles": 4347,
+      "signs": 0,
+      "content_sha256": "8b5a79e5ee893205a6ae903e7dc621bfd582ce0478fb3ebee6c47075b3633938"
+    },
+    {
+      "id": "street_tile_003_010",
+      "kind": "zone",
+      "bounds": [
+        -502.044,
+        -1077.519,
+        -219.289,
+        -738.866
+      ],
+      "url": "/world/detail/m23/street_tile_003_010.json",
+      "feature_count": 148,
+      "instances": 23,
+      "mesh_triangles": 6107,
+      "signs": 0,
+      "content_sha256": "2455c8b6bb7e14bd4afb06f0cdecd7115265e8ba7339241323c748e75b341f15"
+    },
+    {
+      "id": "street_tile_003_011",
+      "kind": "zone",
+      "bounds": [
+        -507.436,
+        -1317.544,
+        -165.298,
+        -898.323
+      ],
+      "url": "/world/detail/m23/street_tile_003_011.json",
+      "feature_count": 231,
+      "instances": 28,
+      "mesh_triangles": 3652,
+      "signs": 0,
+      "content_sha256": "829c278f8a660351ec5260eec8fc7ae22e9b1b70165ad1f2acc7abfb042c3211"
+    },
+    {
+      "id": "street_tile_004_004",
+      "kind": "zone",
+      "bounds": [
+        -257.559,
+        443.698,
+        32.601,
+        611.6
+      ],
+      "url": "/world/detail/m23/street_tile_004_004.json",
+      "feature_count": 192,
+      "instances": 10,
+      "mesh_triangles": 1574,
+      "signs": 0,
+      "content_sha256": "04a83cb5acfb669d6692f5cf94c470459864cdaa5bf08f0ada384d877dbde399"
+    },
+    {
+      "id": "street_tile_004_005",
+      "kind": "zone",
+      "bounds": [
+        -270.667,
+        214.008,
+        53.917,
+        505.407
+      ],
+      "url": "/world/detail/m23/street_tile_004_005.json",
+      "feature_count": 546,
+      "instances": 68,
+      "mesh_triangles": 4480,
+      "signs": 0,
+      "content_sha256": "185932ee9e2d1a3471777198cb664e7fca8210a39c5ce15d24dc697a47888d03"
+    },
+    {
+      "id": "street_tile_004_006",
+      "kind": "zone",
+      "bounds": [
+        -251.136,
+        -14.067,
+        20.393,
+        253.056
+      ],
+      "url": "/world/detail/m23/street_tile_004_006.json",
+      "feature_count": 263,
+      "instances": 36,
+      "mesh_triangles": 2888,
+      "signs": 0,
+      "content_sha256": "43ab44883ca9e9bdf3a8f2efe02559037e25cd0ac9a5ba78ff9787a13a9e9d26"
+    },
+    {
+      "id": "street_tile_004_007",
+      "kind": "zone",
+      "bounds": [
+        -243.822,
+        -278.16,
+        17.24,
+        -12.697
+      ],
+      "url": "/world/detail/m23/street_tile_004_007.json",
+      "feature_count": 236,
+      "instances": 77,
+      "mesh_triangles": 2988,
+      "signs": 0,
+      "content_sha256": "8a0a1e8dbe2b63dfc92f7d6eacc47ed68f175426ee46fd8c05f1762a88f710a6"
+    },
+    {
+      "id": "street_tile_004_008",
+      "kind": "zone",
+      "bounds": [
+        -255.288,
+        -508.577,
+        11.791,
+        -221.115
+      ],
+      "url": "/world/detail/m23/street_tile_004_008.json",
+      "feature_count": 349,
+      "instances": 46,
+      "mesh_triangles": 5402,
+      "signs": 0,
+      "content_sha256": "75c16772527f0435fcf1e65070e6f3046cd2fbaaeb045686c2438e0344c7a2b2"
+    },
+    {
+      "id": "street_tile_004_009",
+      "kind": "zone",
+      "bounds": [
+        -248.27,
+        -749.188,
+        34.797,
+        -497.711
+      ],
+      "url": "/world/detail/m23/street_tile_004_009.json",
+      "feature_count": 167,
+      "instances": 0,
+      "mesh_triangles": 2838,
+      "signs": 0,
+      "content_sha256": "d7e0b7dc005ed54d583e606e9c5cbf2b73d435543c7ff0daccf518e55d02dcc8"
+    },
+    {
+      "id": "street_tile_004_010",
+      "kind": "zone",
+      "bounds": [
+        -327.394,
+        -1148.836,
+        137.717,
+        -621.698
+      ],
+      "url": "/world/detail/m23/street_tile_004_010.json",
+      "feature_count": 107,
+      "instances": 0,
+      "mesh_triangles": 7586,
+      "signs": 0,
+      "content_sha256": "82d10cfdc376e7ff689e5e05e4eaf2d25fb8e2ac713956a25b0d86ec730362d5"
+    },
+    {
+      "id": "street_tile_004_011",
+      "kind": "zone",
+      "bounds": [
+        -248.382,
+        -1190.315,
+        35.967,
+        -958.072
+      ],
+      "url": "/world/detail/m23/street_tile_004_011.json",
+      "feature_count": 46,
+      "instances": 13,
+      "mesh_triangles": 2111,
+      "signs": 0,
+      "content_sha256": "a0c115ae5d205343a95fb014ce7e01806fbb1d5377afc8b9c6612d8dac6f0bc2"
+    },
+    {
+      "id": "street_tile_005_004",
+      "kind": "zone",
+      "bounds": [
+        -33.016,
+        474.893,
+        283.541,
+        759.008
+      ],
+      "url": "/world/detail/m23/street_tile_005_004.json",
+      "feature_count": 274,
+      "instances": 21,
+      "mesh_triangles": 2439,
+      "signs": 0,
+      "content_sha256": "4d31e8de59d10530307ffd4b0605ce49de328e6af971fe8c05afbd2138cad9ab"
+    },
+    {
+      "id": "street_tile_005_005",
+      "kind": "zone",
+      "bounds": [
+        4.494,
+        214.407,
+        298.959,
+        483.227
+      ],
+      "url": "/world/detail/m23/street_tile_005_005.json",
+      "feature_count": 327,
+      "instances": 36,
+      "mesh_triangles": 3097,
+      "signs": 0,
+      "content_sha256": "ddf59a6c36c281716792d4f2c01138e942ddcc76e5656851b9a15029f55b42d2"
+    },
+    {
+      "id": "street_tile_005_006",
+      "kind": "zone",
+      "bounds": [
+        -7.395,
+        -7.099,
+        262.598,
+        231.123
+      ],
+      "url": "/world/detail/m23/street_tile_005_006.json",
+      "feature_count": 265,
+      "instances": 70,
+      "mesh_triangles": 2276,
+      "signs": 0,
+      "content_sha256": "42cf9c2f5c08019831cac91b452085f8608572bd3603056a25715513c6cf590d"
+    },
+    {
+      "id": "street_tile_005_007",
+      "kind": "zone",
+      "bounds": [
+        -62.138,
+        -260.377,
+        267.793,
+        15.705
+      ],
+      "url": "/world/detail/m23/street_tile_005_007.json",
+      "feature_count": 431,
+      "instances": 33,
+      "mesh_triangles": 5560,
+      "signs": 0,
+      "content_sha256": "f31146f6a35ec0d976e60a900de5223e9bd6301923fa3a5bf8e47e24efd03464"
+    },
+    {
+      "id": "street_tile_005_008",
+      "kind": "zone",
+      "bounds": [
+        -40.651,
+        -523.172,
+        307.506,
+        -243.524
+      ],
+      "url": "/world/detail/m23/street_tile_005_008.json",
+      "feature_count": 459,
+      "instances": 66,
+      "mesh_triangles": 5540,
+      "signs": 0,
+      "content_sha256": "d17131dc065fc3949027437be39b3c5f1838981c3bc0b2acfda18e50ed61377c"
+    },
+    {
+      "id": "street_tile_005_009",
+      "kind": "zone",
+      "bounds": [
+        1.736,
+        -779.942,
+        251.873,
+        -479.809
+      ],
+      "url": "/world/detail/m23/street_tile_005_009.json",
+      "feature_count": 328,
+      "instances": 55,
+      "mesh_triangles": 3927,
+      "signs": 0,
+      "content_sha256": "09b3e0d57d06861dd364e8a174c15dcde678a19a164641a9c7ff5310d195c294"
+    },
+    {
+      "id": "street_tile_005_010",
+      "kind": "zone",
+      "bounds": [
+        -23.526,
+        -1010.987,
+        272.755,
+        -743.128
+      ],
+      "url": "/world/detail/m23/street_tile_005_010.json",
+      "feature_count": 336,
+      "instances": 10,
+      "mesh_triangles": 3208,
+      "signs": 0,
+      "content_sha256": "8851e96e81984879c9133855a3c08f82cd9b422ef8c72be094bba853558e9805"
+    },
+    {
+      "id": "street_tile_005_011",
+      "kind": "zone",
+      "bounds": [
+        4.605,
+        -1123.442,
+        122.019,
+        -1034.111
+      ],
+      "url": "/world/detail/m23/street_tile_005_011.json",
       "feature_count": 3,
-      "package_url": "/world/detail/m23/university_parkway.json"
+      "instances": 0,
+      "mesh_triangles": 956,
+      "signs": 0,
+      "content_sha256": "d5af26f19a9b11fd24413bf1aa5241fca060cdb3694e5f44a67716bb323691f1"
     },
     {
-      "zone_id": "uptown_mall",
-      "state": "READY_FOR_VISUAL_QA",
-      "acceptance": "AWAITING_USER_TEST",
-      "source_ids": [
-        "osm",
+      "id": "street_tile_006_004",
+      "kind": "zone",
+      "bounds": [
+        218.246,
+        458.709,
+        541.004,
+        901.956
+      ],
+      "url": "/world/detail/m23/street_tile_006_004.json",
+      "feature_count": 780,
+      "instances": 62,
+      "mesh_triangles": 9142,
+      "signs": 0,
+      "content_sha256": "380574399e0e32c340bdad762780d6beddf1b92eaafd03aac85dde59771a8ffc"
+    },
+    {
+      "id": "street_tile_006_005",
+      "kind": "zone",
+      "bounds": [
+        201.125,
+        256.742,
+        577.644,
+        526.342
+      ],
+      "url": "/world/detail/m23/street_tile_006_005.json",
+      "feature_count": 425,
+      "instances": 64,
+      "mesh_triangles": 6602,
+      "signs": 0,
+      "content_sha256": "21bfc7000b3b6df0aa6e79aea369dd3a0692b7e0e8a521a1caa35136edb7b106"
+    },
+    {
+      "id": "street_tile_006_006",
+      "kind": "zone",
+      "bounds": [
+        240.851,
+        -18.584,
+        491.297,
+        262.487
+      ],
+      "url": "/world/detail/m23/street_tile_006_006.json",
+      "feature_count": 280,
+      "instances": 24,
+      "mesh_triangles": 4647,
+      "signs": 0,
+      "content_sha256": "7272d7b75f1f72ec571509a3c5c2b66fea41ebb8537ca27650f199c7542fbd49"
+    },
+    {
+      "id": "street_tile_006_007",
+      "kind": "zone",
+      "bounds": [
+        252.63,
+        -269.192,
+        512.923,
+        -10.837
+      ],
+      "url": "/world/detail/m23/street_tile_006_007.json",
+      "feature_count": 363,
+      "instances": 50,
+      "mesh_triangles": 4416,
+      "signs": 0,
+      "content_sha256": "420e65f1cb3a1992e5cd0a3683e1267ee740794cde10d926cd1eb3d33959bc80"
+    },
+    {
+      "id": "street_tile_006_008",
+      "kind": "zone",
+      "bounds": [
+        248.899,
+        -517.925,
+        499.931,
+        -248.576
+      ],
+      "url": "/world/detail/m23/street_tile_006_008.json",
+      "feature_count": 242,
+      "instances": 6,
+      "mesh_triangles": 3034,
+      "signs": 0,
+      "content_sha256": "49ac457ef7e0db0e47d9c69cddadf69c9609362830da1f39cbc98c310a3f4216"
+    },
+    {
+      "id": "street_tile_006_009",
+      "kind": "zone",
+      "bounds": [
+        238.158,
+        -752.945,
+        510.845,
+        -480.309
+      ],
+      "url": "/world/detail/m23/street_tile_006_009.json",
+      "feature_count": 316,
+      "instances": 61,
+      "mesh_triangles": 3844,
+      "signs": 0,
+      "content_sha256": "9fb2a13820cd5270b017ecc7373fa0f366a181ab0d3ca644c6fd49fbb948f960"
+    },
+    {
+      "id": "street_tile_006_010",
+      "kind": "zone",
+      "bounds": [
+        235.135,
+        -1004.915,
+        502.567,
+        -738.997
+      ],
+      "url": "/world/detail/m23/street_tile_006_010.json",
+      "feature_count": 290,
+      "instances": 65,
+      "mesh_triangles": 4262,
+      "signs": 0,
+      "content_sha256": "103f83ecf692ace16a5758a63e7954360592591b46f1bec8e2cabbaa148c2ce3"
+    },
+    {
+      "id": "street_tile_006_011",
+      "kind": "zone",
+      "bounds": [
+        273.512,
+        -1108.157,
+        494.176,
+        -1010.256
+      ],
+      "url": "/world/detail/m23/street_tile_006_011.json",
+      "feature_count": 5,
+      "instances": 8,
+      "mesh_triangles": 4,
+      "signs": 0,
+      "content_sha256": "1df7af0cbeae4a8c64a31fbc92effd42c16a24d029133d3d29c2941c68c6313b"
+    },
+    {
+      "id": "street_tile_007_003",
+      "kind": "zone",
+      "bounds": [
+        528.202,
+        738.98,
+        654.841,
+        854.353
+      ],
+      "url": "/world/detail/m23/street_tile_007_003.json",
+      "feature_count": 2,
+      "instances": 0,
+      "mesh_triangles": 810,
+      "signs": 0,
+      "content_sha256": "2e9ff2f1d629670a5293058dbf0c58bc2117fbc0423a8c02670a110204f2b498"
+    },
+    {
+      "id": "street_tile_007_004",
+      "kind": "zone",
+      "bounds": [
+        486.278,
+        467.73,
+        772.332,
+        860.256
+      ],
+      "url": "/world/detail/m23/street_tile_007_004.json",
+      "feature_count": 158,
+      "instances": 21,
+      "mesh_triangles": 7281,
+      "signs": 0,
+      "content_sha256": "7f682a685ebedeae9436cc64777916459506ec64d9355cb115f57599e015ed44"
+    },
+    {
+      "id": "street_tile_007_005",
+      "kind": "zone",
+      "bounds": [
+        477.356,
+        180.574,
+        724.161,
+        528.841
+      ],
+      "url": "/world/detail/m23/street_tile_007_005.json",
+      "feature_count": 248,
+      "instances": 22,
+      "mesh_triangles": 3249,
+      "signs": 0,
+      "content_sha256": "935ea94c1be7d0844df26fa464ce47b98d80b49f2a74566f76fe42c88c9a6399"
+    },
+    {
+      "id": "street_tile_007_006",
+      "kind": "zone",
+      "bounds": [
+        522.375,
+        -94.475,
+        930.945,
+        491.926
+      ],
+      "url": "/world/detail/m23/street_tile_007_006.json",
+      "feature_count": 634,
+      "instances": 46,
+      "mesh_triangles": 5747,
+      "signs": 0,
+      "content_sha256": "8194caf4645bac50b4026588986bc1930604e6b7da2ddfb33dc8af2555a45c1a"
+    },
+    {
+      "id": "street_tile_007_007",
+      "kind": "zone",
+      "bounds": [
+        491.449,
+        -251.424,
+        805.251,
+        5.051
+      ],
+      "url": "/world/detail/m23/street_tile_007_007.json",
+      "feature_count": 502,
+      "instances": 71,
+      "mesh_triangles": 5597,
+      "signs": 0,
+      "content_sha256": "099b8f7405828bcd1337226ed151f7f7944de56cdcd51f94f49565d0d3c6d1ab"
+    },
+    {
+      "id": "street_tile_007_008",
+      "kind": "zone",
+      "bounds": [
+        497.421,
+        -547.912,
+        791.827,
+        -203.652
+      ],
+      "url": "/world/detail/m23/street_tile_007_008.json",
+      "feature_count": 247,
+      "instances": 20,
+      "mesh_triangles": 1719,
+      "signs": 0,
+      "content_sha256": "ef3aa9a4f7197d2442d9886d6178b49f70deaeaebfcba18525066a498ddb2410"
+    },
+    {
+      "id": "street_tile_007_009",
+      "kind": "zone",
+      "bounds": [
+        483.095,
+        -653.726,
+        731.575,
+        -560.864
+      ],
+      "url": "/world/detail/m23/street_tile_007_009.json",
+      "feature_count": 91,
+      "instances": 0,
+      "mesh_triangles": 665,
+      "signs": 0,
+      "content_sha256": "2b046ffd3443026e9b2cee682927c320f738634aa062a8497157b0c8f662941d"
+    },
+    {
+      "id": "street_tile_007_010",
+      "kind": "zone",
+      "bounds": [
+        498.342,
+        -936.938,
+        614.812,
+        -705.826
+      ],
+      "url": "/world/detail/m23/street_tile_007_010.json",
+      "feature_count": 106,
+      "instances": 15,
+      "mesh_triangles": 580,
+      "signs": 0,
+      "content_sha256": "6f9ddb0069108a5026ebe020ed8be8664662b1188a8114a2e0db12799221834f"
+    },
+    {
+      "id": "street_tile_008_003",
+      "kind": "zone",
+      "bounds": [
+        797.547,
+        744.156,
+        802.746,
+        787.164
+      ],
+      "url": "/world/detail/m23/street_tile_008_003.json",
+      "feature_count": 1,
+      "instances": 0,
+      "mesh_triangles": 582,
+      "signs": 0,
+      "content_sha256": "63cd5c4cd94d30972262eae7890c2b5d39faa39f01336c34e9b59badf9a914fb"
+    },
+    {
+      "id": "street_tile_008_004",
+      "kind": "zone",
+      "bounds": [
+        732.403,
+        521.782,
+        892.798,
+        748.573
+      ],
+      "url": "/world/detail/m23/street_tile_008_004.json",
+      "feature_count": 83,
+      "instances": 0,
+      "mesh_triangles": 3117,
+      "signs": 0,
+      "content_sha256": "009d3f4c7aeb769c5c9cbce60047280862f5e1b327ce69b9e3bd46a3f481f690"
+    },
+    {
+      "id": "street_tile_008_005",
+      "kind": "zone",
+      "bounds": [
+        651.027,
+        232.95,
+        919.285,
+        533.528
+      ],
+      "url": "/world/detail/m23/street_tile_008_005.json",
+      "feature_count": 66,
+      "instances": 0,
+      "mesh_triangles": 4046,
+      "signs": 0,
+      "content_sha256": "c5bce73b8d97f821d154d84dfd190d38ac0a9131937278b799ab65fdaee01d8d"
+    },
+    {
+      "id": "street_tile_008_006",
+      "kind": "zone",
+      "bounds": [
+        687.121,
+        -91.448,
+        982.905,
+        271.896
+      ],
+      "url": "/world/detail/m23/street_tile_008_006.json",
+      "feature_count": 161,
+      "instances": 4,
+      "mesh_triangles": 2141,
+      "signs": 0,
+      "content_sha256": "215408fbc6e9e12caaf33c816938a6dfbcec02a64cf2eabbbba112c65e894a9b"
+    },
+    {
+      "id": "street_tile_008_007",
+      "kind": "zone",
+      "bounds": [
+        687.801,
+        -161.975,
+        939.944,
+        58.731
+      ],
+      "url": "/world/detail/m23/street_tile_008_007.json",
+      "feature_count": 134,
+      "instances": 4,
+      "mesh_triangles": 667,
+      "signs": 0,
+      "content_sha256": "e3420e3e446608b877a711932316fa624e5940b5930c3bb8e44830f2de73116b"
+    },
+    {
+      "id": "street_tile_008_009",
+      "kind": "zone",
+      "bounds": [
+        727.982,
+        -646.354,
+        861.261,
+        -498.328
+      ],
+      "url": "/world/detail/m23/street_tile_008_009.json",
+      "feature_count": 128,
+      "instances": 12,
+      "mesh_triangles": 1404,
+      "signs": 0,
+      "content_sha256": "26b31cea22ae2fc2892b643a061535b8a69b110a82e8ec6f0c7aa44ab2d50244"
+    },
+    {
+      "id": "suites",
+      "kind": "landmark",
+      "bounds": [
+        -547.010208,
+        -138.600414,
+        -441.308772,
+        -37.929607
+      ],
+      "url": "/world/detail/m23/suites.json",
+      "feature_count": 20,
+      "instances": 0,
+      "mesh_triangles": 7939,
+      "signs": 1,
+      "content_sha256": "a01ab463826c6bbfe4bb48bd8ccb8c185bc333e1d6eb3fd134578c3752253ffd",
+      "entity_id": "osm:way:203910666",
+      "name": "The Suites at One Bonifacio High Street",
+      "replaces": [
+        "osm:way:203910666",
+        "osm:way:538701626"
+      ],
+      "replacement_entity_ids": [
+        "osm:way:203910666"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 227.0,
+      "activation_m": 260
+    },
+    {
+      "id": "terra_28th",
+      "kind": "zone",
+      "bounds": [
+        -197.524,
+        106.408,
+        -17.617,
+        205.479
+      ],
+      "url": "/world/detail/m23/terra_28th.json",
+      "feature_count": 17,
+      "instances": 36,
+      "mesh_triangles": 900,
+      "signs": 1,
+      "content_sha256": "ea125789c8300dcf750234ccaadc3914b240b51e2722454c3ce21e1c5db859d8"
+    },
+    {
+      "id": "track_30th",
+      "kind": "zone",
+      "bounds": [
+        -94.99,
+        -199.482,
+        84.662,
+        -98.584
+      ],
+      "url": "/world/detail/m23/track_30th.json",
+      "feature_count": 16,
+      "instances": 44,
+      "mesh_triangles": 969,
+      "signs": 1,
+      "content_sha256": "0474582ebc3f6981f0e0b74bcd539a13f2c311b12355647d8ada0d2d01219d05"
+    },
+    {
+      "id": "uniqlo",
+      "kind": "landmark",
+      "bounds": [
+        -163.615846,
+        -147.370202,
+        -127.919131,
+        -101.774139
+      ],
+      "url": "/world/detail/m23/uniqlo.json",
+      "feature_count": 9,
+      "instances": 0,
+      "mesh_triangles": 493,
+      "signs": 1,
+      "content_sha256": "10a5c826025693099b4305ebec0f568b7de716f8f9ad9450a954808b0c83c622",
+      "entity_id": "osm:way:443761696",
+      "name": "Uniqlo",
+      "replaces": [
+        "osm:way:443761696"
+      ],
+      "replacement_entity_ids": [
+        "osm:way:443761696"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 12.8,
+      "activation_m": 260
+    },
+    {
+      "id": "university_parkway",
+      "kind": "zone",
+      "bounds": [
+        529.352,
+        -656.319,
+        859.354,
+        -91.307
+      ],
+      "url": "/world/detail/m23/university_parkway.json",
+      "feature_count": 3,
+      "instances": 0,
+      "mesh_triangles": 325,
+      "signs": 0,
+      "content_sha256": "150c819705a892eff7e7ee7b5648c00002c8ca3cc6985a1e253d4283d6e0816a"
+    },
+    {
+      "id": "uptown_mall",
+      "kind": "landmark",
+      "bounds": [
+        276.894188,
+        -677.763517,
+        464.215018,
+        -503.34493
+      ],
+      "url": "/world/detail/m23/uptown_mall.json",
+      "feature_count": 88,
+      "instances": 0,
+      "mesh_triangles": 8466,
+      "signs": 1,
+      "content_sha256": "b6942d0ee370b84c49cfaca167ce8be12ba16cc87c4e294bf3e56fa13801dfce",
+      "entity_id": "osm:way:533345980",
+      "name": "Uptown Mall",
+      "replaces": [
         "osm:way:533345980",
         "osm:way:533345981",
         "osm:way:533345982",
@@ -2290,11 +2097,14 @@
         "osm:way:613886957",
         "osm:way:613886958",
         "osm:way:613886959",
-        "osm:way:613886960",
-        "uptown"
+        "osm:way:613886960"
       ],
-      "feature_count": 88,
-      "package_url": "/world/detail/m23/uptown_mall.json"
+      "replacement_entity_ids": [
+        "osm:way:533345980"
+      ],
+      "identity_visibility": "OWNER_TILE",
+      "height_m": 89.6,
+      "activation_m": 260
     }
   ]
 }

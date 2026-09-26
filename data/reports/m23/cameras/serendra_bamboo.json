@@ -1,0 +1,94 @@
+{
+  "entity_id": "serendra_bamboo",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        560.048095703125,
+        -173.9581756591797,
+        198.17422485351562
+      ],
+      "target": [
+        417.1946105957031,
+        -31.104656219482422,
+        26.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_bamboo\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        417.1946105957031,
+        -295.2146301269531,
+        47.87879943847656
+      ],
+      "target": [
+        417.1946105957031,
+        -31.104656219482422,
+        26.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_bamboo\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        417.1946105957031,
+        233.0053253173828,
+        47.87879943847656
+      ],
+      "target": [
+        417.1946105957031,
+        -31.104656219482422,
+        26.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_bamboo\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        163.41490173339844,
+        -31.104656219482422,
+        102.8839111328125
+      ],
+      "target": [
+        417.1946105957031,
+        -31.104656219482422,
+        26.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_bamboo\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        670.9743041992188,
+        -31.104656219482422,
+        102.8839111328125
+      ],
+      "target": [
+        417.1946105957031,
+        -31.104656219482422,
+        26.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_bamboo\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        458.0238952636719,
+        9.724632263183594,
+        285.3354797363281
+      ],
+      "target": [
+        417.1946105957031,
+        -31.104656219482422,
+        26.75
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_bamboo\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "fc3b1c8676b65a2c33381d2a2a550c59e45fdcf01830086d3ac82085afdc6c68"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

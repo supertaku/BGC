@@ -1,6 +1,42 @@
 [
   {
-    "feature_id": "street_tile_006_011:BGC_BUS_STOP_COMPACT:00000",
+    "feature_id": "street_tile_006_011:ROAD_EDGE_LINE:00000",
+    "zone_id": "street_tile_006_011",
+    "source_ids": [
+      "osm:way:747333145",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_006_011:ROAD_EDGE_LINE:00001",
+    "zone_id": "street_tile_006_011",
+    "source_ids": [
+      "osm:way:747333145",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_006_011:GUTTER:00002",
+    "zone_id": "street_tile_006_011",
+    "source_ids": [
+      "osm:way:747333145",
+      "faq"
+    ],
+    "grounding": "INFERRED",
+    "confidence": 0.45,
+    "modeling_notes": "Dimensions and positions estimated; no survey claim.",
+    "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
+  },
+  {
+    "feature_id": "street_tile_006_011:BGC_BUS_STOP_COMPACT:00003",
     "zone_id": "street_tile_006_011",
     "source_ids": [
       "osm:node:4579719691",
@@ -12,7 +48,7 @@
     "rights_status": "ORIGINAL_PROCEDURAL_GEOMETRY"
   },
   {
-    "feature_id": "street_tile_006_011:FIRE_HYDRANT:00001",
+    "feature_id": "street_tile_006_011:FIRE_HYDRANT:00004",
     "zone_id": "street_tile_006_011",
     "source_ids": [
       "osm:node:8713635384",

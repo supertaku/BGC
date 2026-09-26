@@ -1,94 +1,94 @@
 {
   "entity_id": "sm_aura",
-  "iteration": "final_verified",
+  "iteration": "m23r",
   "cameras": [
     {
       "camera_id": "AERIAL",
       "position": [
-        752.49267578125,
-        -962.5914306640625,
-        578.75146484375
+        753.0467529296875,
+        -963.3495483398438,
+        579.5023193359375
       ],
       "target": [
-        323.19976806640625,
-        -533.2984619140625,
+        323.1280822753906,
+        -533.430908203125,
         63.599998474121094
       ],
-      "image": "blender\\renders\\m23\\final_verified\\sm_aura\\AERIAL.png"
+      "image": "blender\\renders\\m23\\m23r\\sm_aura\\AERIAL.png"
     },
     {
       "camera_id": "STREET_FRONT",
       "position": [
-        323.19976806640625,
-        -1326.982421875,
-        127.09471130371094
+        323.1280822753906,
+        -1328.271728515625,
+        127.187255859375
       ],
       "target": [
-        323.19976806640625,
-        -533.2984619140625,
+        323.1280822753906,
+        -533.430908203125,
         63.599998474121094
       ],
-      "image": "blender\\renders\\m23\\final_verified\\sm_aura\\STREET_FRONT.png"
+      "image": "blender\\renders\\m23\\m23r\\sm_aura\\STREET_FRONT.png"
     },
     {
       "camera_id": "STREET_REAR",
       "position": [
-        323.19976806640625,
-        260.385498046875,
-        127.09471130371094
+        323.1280822753906,
+        261.409912109375,
+        127.187255859375
       ],
       "target": [
-        323.19976806640625,
-        -533.2984619140625,
+        323.1280822753906,
+        -533.430908203125,
         63.599998474121094
       ],
-      "image": "blender\\renders\\m23\\final_verified\\sm_aura\\STREET_REAR.png"
+      "image": "blender\\renders\\m23\\m23r\\sm_aura\\STREET_REAR.png"
     },
     {
-      "camera_id": "LEFT_OBLIQUE",
+      "camera_id": "LEFT",
       "position": [
-        -188.36550903320312,
-        -1044.86376953125,
-        396.117431640625
+        -440.6236267089844,
+        -533.430908203125,
+        292.72552490234375
       ],
       "target": [
-        323.19976806640625,
-        -533.2984619140625,
+        323.1280822753906,
+        -533.430908203125,
         63.599998474121094
       ],
-      "image": "blender\\renders\\m23\\final_verified\\sm_aura\\LEFT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\sm_aura\\LEFT.png"
     },
     {
-      "camera_id": "RIGHT_OBLIQUE",
+      "camera_id": "RIGHT",
       "position": [
-        834.7650146484375,
-        -1044.86376953125,
-        396.117431640625
+        1086.8797607421875,
+        -533.430908203125,
+        292.72552490234375
       ],
       "target": [
-        323.19976806640625,
-        -533.2984619140625,
+        323.1280822753906,
+        -533.430908203125,
         63.599998474121094
       ],
-      "image": "blender\\renders\\m23\\final_verified\\sm_aura\\RIGHT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\sm_aura\\RIGHT.png"
     },
     {
       "camera_id": "ROOF_OBLIQUE",
       "position": [
-        445.89697265625,
-        -410.60125732421875,
-        840.68212890625
+        446.00408935546875,
+        -410.55487060546875,
+        841.8147583007812
       ],
       "target": [
-        323.19976806640625,
-        -533.2984619140625,
+        323.1280822753906,
+        -533.430908203125,
         63.599998474121094
       ],
-      "image": "blender\\renders\\m23\\final_verified\\sm_aura\\ROOF_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\sm_aura\\ROOF_OBLIQUE.png"
     }
   ],
   "source_sha256": [
-    "c54475da8c90222dbab12e8cf7eb5774a0a61f07bd34a39ac3fe19f4a7c21a1d"
+    "16c0fa47bb195f34b784da8be545e0d375154ba4387027906e050695ca5b59bb"
   ],
   "status": "AWAITING_USER_TEST"
 }

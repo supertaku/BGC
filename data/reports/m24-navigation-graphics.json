@@ -1,0 +1,33 @@
+{
+  "status": "READY_FOR_USER_VALIDATION",
+  "implemented": [
+    "fixed-position right-drag look",
+    "right-held WASD horizontal flight",
+    "left-drag pan",
+    "view-direction wheel zoom",
+    "pitch +/-85 degrees",
+    "maximum altitude 2800m",
+    "GroundSampler clearance",
+    "pointer capture/cancel/blur cleanup",
+    "Search transition interruption",
+    "three radio graphics presets",
+    "localStorage bgc.graphics.v1; URL override",
+    "no Canvas remount",
+    "exact Explore instructions in public Help"
+  ],
+  "automated_tests": "web/scripts/verify-m24.mjs and verify-street-controls.mjs PASS",
+  "browser_verified": [
+    "Graphics dialog keyboard selection updates URL",
+    "Quality switch preserves camera position",
+    "Escape closes Graphics",
+    "Help displays all four exact Explore instructions",
+    "Left pan and view-direction wheel zoom",
+    "Search focus interrupted by canvas pan: one cancellation, no restart",
+    "Graphics focus trap and restoration",
+    "Full seven-stop Tour: seven transitions complete, no visibility gaps or repeated requests"
+  ],
+  "manual_remaining": [
+    "Right-button held flight and camera feel",
+    "Profile visual difference at representative locations"
+  ]
+}

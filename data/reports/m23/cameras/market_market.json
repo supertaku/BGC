@@ -1,0 +1,94 @@
+{
+  "entity_id": "market_market",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        944.7464599609375,
+        -461.1438903808594,
+        469.90972900390625
+      ],
+      "target": [
+        559.8216552734375,
+        -76.2191162109375,
+        8.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\market_market\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        559.8216552734375,
+        -787.87451171875,
+        4.0
+      ],
+      "target": [
+        559.8216552734375,
+        -76.2191162109375,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\market_market\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        559.8216552734375,
+        635.436279296875,
+        4.0
+      ],
+      "target": [
+        559.8216552734375,
+        -76.2191162109375,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\market_market\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        -123.99835205078125,
+        -76.2191162109375,
+        213.14601135253906
+      ],
+      "target": [
+        559.8216552734375,
+        -76.2191162109375,
+        8.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\market_market\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        1243.6416015625,
+        -76.2191162109375,
+        213.14601135253906
+      ],
+      "target": [
+        559.8216552734375,
+        -76.2191162109375,
+        8.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\market_market\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        669.837890625,
+        33.79711151123047,
+        704.7694091796875
+      ],
+      "target": [
+        559.8216552734375,
+        -76.2191162109375,
+        8.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\market_market\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "f5a63d762b1501f6172077e7a003b6bf51a1f13e98421bcb76c952d36caa2de7"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

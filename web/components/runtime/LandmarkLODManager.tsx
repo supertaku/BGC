@@ -3,12 +3,10 @@
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { Component, Suspense, useCallback, useMemo, useRef, useState, type ReactNode } from "react";
-import { LOD1_ACTIVATE_RADIUS_M, LOD1_DEACTIVATE_RADIUS_M, LOD1_PRELOAD_RADIUS_M } from "./spatial";
 import { useEffect } from "react";
 import type { DetailedAsset, EntityRecord, EnvironmentQuality, RuntimeRefs } from "./types";
 import type { BGCVisualMaterials } from "./visualSystem";
 import { harmonizeScene } from "./visualSystem";
-import { shouldShowLOD1 } from "./stabilityLogic";
 import { stability } from "./stability";
 
 class LandmarkErrorBoundary extends Component<{ children: ReactNode; onError: () => void }, { failed: boolean }> {
@@ -80,15 +78,14 @@ export function LandmarkLODManager({ assets, entities, refs, materials, quality,
     for (const asset of assets) {
       const entity = entityByLod.get(asset.entity_id);
       if (!entity) continue;
-      const distance = Math.hypot(refs.focus.current.x - entity.center[0], refs.focus.current.z - entity.center[1]);
-      if (distance <= LOD1_PRELOAD_RADIUS_M && !nextMounted.has(asset.entity_id) && !failed.current.has(asset.entity_id)) {
+      const ownerVisible = refs.visibleTileIds.current.has(entity.tile_id);
+      if (ownerVisible && !nextMounted.has(asset.entity_id) && !failed.current.has(asset.entity_id)) {
         useGLTF.preload(asset.url);
         stability.lod1_requests += 1;
         nextMounted.add(asset.entity_id);
       }
-      if (distance <= LOD1_ACTIVATE_RADIUS_M && shouldShowLOD1(true, ready.has(asset.entity_id))) nextActive.add(asset.entity_id);
-      else if (distance > LOD1_DEACTIVATE_RADIUS_M) nextActive.delete(asset.entity_id);
-      else if (!ready.has(asset.entity_id)) nextActive.delete(asset.entity_id);
+      if (ownerVisible && ready.has(asset.entity_id) && !failed.current.has(asset.entity_id)) nextActive.add(asset.entity_id);
+      else nextActive.delete(asset.entity_id);
     }
     const mountedChanged = nextMounted.size !== mounted.size;
     const activeChanged = nextActive.size !== active.size || [...nextActive].some((id) => !active.has(id));

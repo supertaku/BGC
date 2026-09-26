@@ -1,0 +1,94 @@
+{
+  "entity_id": "serendra_palm",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        640.6800537109375,
+        -343.3518981933594,
+        356.1436767578125
+      ],
+      "target": [
+        354.060302734375,
+        -56.73217010498047,
+        12.199999809265137
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_palm\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        354.060302734375,
+        -586.6395263671875,
+        54.592586517333984
+      ],
+      "target": [
+        354.060302734375,
+        -56.73217010498047,
+        12.199999809265137
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_palm\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        354.060302734375,
+        473.1751708984375,
+        54.592586517333984
+      ],
+      "target": [
+        354.060302734375,
+        -56.73217010498047,
+        12.199999809265137
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_palm\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        -155.12045288085938,
+        -56.73217010498047,
+        164.9542236328125
+      ],
+      "target": [
+        354.060302734375,
+        -56.73217010498047,
+        12.199999809265137
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_palm\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        863.2410888671875,
+        -56.73217010498047,
+        164.9542236328125
+      ],
+      "target": [
+        354.060302734375,
+        -56.73217010498047,
+        12.199999809265137
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_palm\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        435.979736328125,
+        25.18726348876953,
+        531.0230102539062
+      ],
+      "target": [
+        354.060302734375,
+        -56.73217010498047,
+        12.199999809265137
+      ],
+      "image": "blender\\renders\\m23\\m23r\\serendra_palm\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "1156c444b042b5ea81d9403b1309380dc55a626ad852786b2055e858f6a8657a"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

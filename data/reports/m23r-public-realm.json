@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "method": "Exact polygon partition, all non-building area within a mapped-path-derived 18m hero envelope",
+  "area_m2": 39330.194361456764,
+  "covered_percent": 100,
+  "unknown_percent": 0.0,
+  "holes_over_4m2": [],
+  "overlap_percent": 0.0,
+  "classes_m2": {
+    "ROAD": 4725.183054909004,
+    "WATER": 56.738870147246594,
+    "LAWN": 13704.606885366868,
+    "STAIRS": 487.52791647100935,
+    "RAMP": 624.9770911118843,
+    "PLAZA": 7894.245070495774,
+    "PEDESTRIAN_PAVING": 11836.91547295499
+  },
+  "added_connecting_paving_m2": 7775.476000119382,
+  "added_environment": {
+    "BHS_BENCH": 4,
+    "BHS_BIN": 4,
+    "LIGHT_HIGH_STREET": 4,
+    "BHS_PLANTER": 4,
+    "PALM_ROYAL": 4,
+    "TREE_GRATE": 4
+  },
+  "terrain_note": "Elevated grass, flat stair treads and sloping apron are classified from rendered triangle projections. Walk support retains the separate smoothed GroundSampler mesh. Category coverage is not a survey or an accessibility certification."
+}

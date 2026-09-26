@@ -1,94 +1,94 @@
 {
   "entity_id": "suites",
-  "iteration": "final",
+  "iteration": "m23r",
   "cameras": [
     {
       "camera_id": "AERIAL",
       "position": [
-        -178.328369140625,
-        -227.56460571289062,
-        492.4955749511719
+        -177.90872192382812,
+        -227.98574829101562,
+        493.00091552734375
       ],
       "target": [
-        -494.1579895019531,
+        -494.15948486328125,
         88.2650146484375,
         113.5
       ],
-      "image": "blender\\renders\\m23\\final\\suites\\AERIAL.png"
+      "image": "blender\\renders\\m23\\m23r\\suites\\AERIAL.png"
     },
     {
       "camera_id": "STREET_FRONT",
       "position": [
-        -494.1579895019531,
-        -495.6461181640625,
-        160.212890625
+        -494.15948486328125,
+        -496.4246826171875,
+        160.27517700195312
       ],
       "target": [
-        -494.1579895019531,
+        -494.15948486328125,
         88.2650146484375,
         113.5
       ],
-      "image": "blender\\renders\\m23\\final\\suites\\STREET_FRONT.png"
+      "image": "blender\\renders\\m23\\m23r\\suites\\STREET_FRONT.png"
     },
     {
       "camera_id": "STREET_REAR",
       "position": [
-        -494.1579895019531,
-        672.1761474609375,
-        160.212890625
+        -494.15948486328125,
+        672.9547119140625,
+        160.27517700195312
       ],
       "target": [
-        -494.1579895019531,
+        -494.15948486328125,
         88.2650146484375,
         113.5
       ],
-      "image": "blender\\renders\\m23\\final\\suites\\STREET_REAR.png"
+      "image": "blender\\renders\\m23\\m23r\\suites\\STREET_REAR.png"
     },
     {
-      "camera_id": "LEFT_OBLIQUE",
+      "camera_id": "LEFT",
       "position": [
-        -870.51513671875,
-        -288.0921630859375,
-        358.13214111328125
+        -1055.9798583984375,
+        88.2650146484375,
+        282.046142578125
       ],
       "target": [
-        -494.1579895019531,
+        -494.15948486328125,
         88.2650146484375,
         113.5
       ],
-      "image": "blender\\renders\\m23\\final\\suites\\LEFT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\suites\\LEFT.png"
     },
     {
-      "camera_id": "RIGHT_OBLIQUE",
+      "camera_id": "RIGHT",
       "position": [
-        -117.80081176757812,
-        -288.0921630859375,
-        358.13214111328125
+        67.660888671875,
+        88.2650146484375,
+        282.046142578125
       ],
       "target": [
-        -494.1579895019531,
+        -494.15948486328125,
         88.2650146484375,
         113.5
       ],
-      "image": "blender\\renders\\m23\\final\\suites\\RIGHT_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\suites\\RIGHT.png"
     },
     {
       "camera_id": "ROOF_OBLIQUE",
       "position": [
-        -403.8900146484375,
-        178.53298950195312,
-        685.1972045898438
+        -403.7711486816406,
+        178.65335083007812,
+        685.95947265625
       ],
       "target": [
-        -494.1579895019531,
+        -494.15948486328125,
         88.2650146484375,
         113.5
       ],
-      "image": "blender\\renders\\m23\\final\\suites\\ROOF_OBLIQUE.png"
+      "image": "blender\\renders\\m23\\m23r\\suites\\ROOF_OBLIQUE.png"
     }
   ],
   "source_sha256": [
-    "f099464b7a6535f448a3c7f096e9fe506e84199a715f31a7c21eee9ead231a63"
+    "6c79c0401bed9e3ee69712da60bb318420995e2db4da05c96b57ea91202b73ca"
   ],
   "status": "AWAITING_USER_TEST"
 }

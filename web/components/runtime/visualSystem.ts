@@ -1,10 +1,12 @@
 import * as THREE from "three";
 import type { EnvironmentQuality } from "./types";
+import {createUniversalFacadeMaterial} from './universalFacades';
 
 export const BGC_MATERIAL_NAMES = [
   "BGC_GLASS_DARK", "BGC_GLASS_LIGHT", "BGC_CONCRETE_LIGHT", "BGC_CONCRETE_DARK",
   "BGC_STONE_WARM", "BGC_METAL_DARK", "BGC_METAL_LIGHT", "BGC_ASPHALT",
   "BGC_SIDEWALK", "BGC_GRASS", "BGC_SOIL",
+  "BGC_UNIVERSAL_FACADE",
 ] as const;
 
 export type BGCMaterialName = typeof BGC_MATERIAL_NAMES[number];
@@ -19,6 +21,7 @@ function material(name: BGCMaterialName, color: string, roughness: number, metal
 
 export function createBGCVisualMaterials(): BGCVisualMaterials {
   return {
+    BGC_UNIVERSAL_FACADE:createUniversalFacadeMaterial(),
     BGC_GLASS_DARK: material("BGC_GLASS_DARK", "#17333d", .24, .08),
     BGC_GLASS_LIGHT: material("BGC_GLASS_LIGHT", "#507683", .31, .04),
     BGC_CONCRETE_LIGHT: material("BGC_CONCRETE_LIGHT", "#b8b7ae", .78),
@@ -61,7 +64,7 @@ export function harmonizeScene(root: THREE.Object3D, materials: BGCVisualMateria
       return;
     }
     const sourceMaterial = originalMaterials.get(object)!;
-    const mapMaterial = (source: THREE.Material) => materials[familyFor(source.name)];
+    const mapMaterial = (source: THREE.Material) => source.name==='BGC_UNIVERSAL_FACADE'?materials.BGC_UNIVERSAL_FACADE:materials[familyFor(source.name)];
     object.material = Array.isArray(sourceMaterial)
       ? sourceMaterial.map(mapMaterial)
       : mapMaterial(sourceMaterial);

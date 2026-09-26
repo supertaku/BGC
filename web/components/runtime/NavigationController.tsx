@@ -1,13 +1,16 @@
 "use client";
 /* eslint-disable react-hooks/immutability -- R3F camera, controls, and navigation refs update per frame. */
 
-import { MapControls, PointerLockControls } from "@react-three/drei";
+import { PointerLockControls } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useCallback, useEffect, useMemo, useRef } from "react";
-import type { MapControls as MapControlsImpl, PointerLockControls as PointerLockControlsImpl } from "three-stdlib";
+import type { PointerLockControls as PointerLockControlsImpl } from "three-stdlib";
 import * as THREE from "three";
 import { pointInFootprint, pointInRing } from "./spatial";
-import { acceptFocusSequence, clampMapTarget, fitCameraToBounds, fitCameraToEntity, resolveStreamAnchors, worldBounds } from "./stabilityLogic";
+import { acceptFocusSequence, fitCameraToBounds, fitCameraToEntity, resolveStreamAnchors, worldBounds } from "./stabilityLogic";
+import {ExploreControls,type ExploreControlsHandle} from './ExploreControls';
+import {EXPLORE_MAX_ALTITUDE} from './exploreLogic';
+import {benchmarkMotion,type BenchmarkMotionState} from './benchmarkMotion';
 import { stability } from "./stability";
 import { groundSampler } from "./GroundSampler";
 import type { EntityRecord, NavigationMode, RuntimeRefs, Viewpoint, WorldTile } from "./types";
@@ -34,7 +37,8 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
   debug: boolean;
 }) {
   const { camera, size, gl, events } = useThree();
-  const map = useRef<MapControlsImpl>(null);
+  useEffect(()=>{const perspective=camera as THREE.PerspectiveCamera;perspective.near=mode==='WALK'?.08:.4;perspective.far=8000;perspective.updateProjectionMatrix();},[camera,mode]);
+  const map = useRef<ExploreControlsHandle>(null);
   const pointer = useRef<PointerLockControlsImpl>(null);
   const keys = useRef(new Set<string>());
   const savedInspect = useRef({ position: new THREE.Vector3(...viewpoint.position), target: new THREE.Vector3(...viewpoint.target) });
@@ -46,13 +50,15 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
   const worldBoundary = useRef<[number, number][]>([]);
   const extent = useMemo(() => worldBounds(bounds), [bounds]);
   const direction = useMemo(() => new THREE.Vector3(), []);
+  const benchmarkState=useRef<BenchmarkMotionState>({origin:null,target:null,routes:{}});
+  useEffect(()=>{if(new URLSearchParams(window.location.search).get('benchmark_route')?.startsWith('walk-'))fetch('/world/detail/m23r/benchmark-routes.json').then(r=>r.json()).then(routes=>{benchmarkState.current.routes=routes;}).catch(()=>{});},[]);
   const candidate = useMemo(() => new THREE.Vector3(), []);
   const mapInteractionActive = useRef(false);
-  const mapStart = useRef<{ camera: THREE.Vector3; target: THREE.Vector3 } | null>(null);
+  const mapStart = useRef<{ camera: THREE.Vector3; target: THREE.Vector3; rotation:THREE.Quaternion } | null>(null);
   const onMapStart = useCallback(() => {
     mapInteractionActive.current = true;
     stability.map_control_starts++;
-    mapStart.current = map.current ? { camera: camera.position.clone(), target: map.current.target.clone() } : null;
+    mapStart.current = map.current ? { camera: camera.position.clone(), target: map.current.target.clone(),rotation:camera.quaternion.clone() } : null;
     if (transition.current) { transition.current = null; stability.focus_transition_cancels += 1; }
     pending.current = null;
   }, [camera]);
@@ -61,9 +67,8 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
     const initial = mapStart.current;
     if (!initial || !map.current) return;
     const cameraDelta = camera.position.clone().sub(initial.camera);
-    const targetDelta = map.current.target.clone().sub(initial.target);
-    if (targetDelta.lengthSq() > 0.0001 && cameraDelta.clone().sub(targetDelta).lengthSq() < 0.01) stability.map_pan_changes++;
-    else if (cameraDelta.lengthSq() > 0.0001) stability.map_rotate_changes++;
+    if (cameraDelta.lengthSq() > 0.0001 && Math.abs(cameraDelta.y)<.001 && camera.quaternion.angleTo(initial.rotation)<.0001) stability.map_pan_changes++;
+    else if (camera.quaternion.angleTo(initial.rotation)>0.0001) stability.map_rotate_changes++;
   }, [camera]);
   const onMapEnd = useCallback(() => {
     mapInteractionActive.current = false;
@@ -131,6 +136,7 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
       ? fitCameraToBounds(extent, (camera as THREE.PerspectiveCamera).fov, size.width / Math.max(1, size.height))
       : { position: viewpoint.position, target: viewpoint.target };
     camera.position.set(...fit.position);
+    camera.position.y=Math.min(EXPLORE_MAX_ALTITUDE,camera.position.y);
     const target = new THREE.Vector3(...fit.target);
     camera.lookAt(target);
     map.current?.target.copy(target);
@@ -150,6 +156,7 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
       refs.focus.current.copy(start);
     } else if (previous === "WALK" && mode === "INSPECT") {
       camera.position.copy(savedInspect.current.position);
+      camera.lookAt(savedInspect.current.target);
       map.current?.target.copy(savedInspect.current.target);
       map.current?.update();
       refs.focus.current.copy(savedInspect.current.target);
@@ -173,6 +180,8 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
   }, [focusRequest]);
 
   useFrame((_, delta) => {
+    const benchmarkQuery=new URLSearchParams(window.location.search);
+    if(benchmarkQuery.get('benchmark')==='1'&&benchmarkQuery.get('benchmark_route')==='tour'&&window.__BGC_BENCHMARK_CLOCK__&&performance.now()>=window.__BGC_BENCHMARK_CLOCK__.end){transition.current=null;pending.current=null;return;}
     if (!mapInteractionActive.current && pending.current && !transition.current) {
       const request = pending.current;
       const targetRecord = refs.tileRecords.current.get(request.entity.tile_id);
@@ -183,7 +192,7 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
         transition.current = {
           sequence: request.sequence,
           fromPosition: camera.position.clone(),
-          toPosition: new THREE.Vector3(...fit.position),
+          toPosition: new THREE.Vector3(fit.position[0],Math.min(EXPLORE_MAX_ALTITUDE,fit.position[1]),fit.position[2]),
           fromTarget: (map.current?.target ?? refs.focus.current).clone(),
           toTarget: new THREE.Vector3(...fit.target),
           elapsed: 0,
@@ -208,13 +217,6 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
     } else if (mode === "INSPECT") {
       if (map.current) {
         const target = map.current.target;
-        const [x, z] = clampMapTarget(target.x, target.z, extent);
-        if (x !== target.x || z !== target.z) {
-          camera.position.x += x - target.x;
-          camera.position.z += z - target.z;
-          target.set(x, target.y, z);
-          stability.map_target_clamp_events++;
-        }
         refs.focus.current.copy(target);
       }
     } else if (mode === "WALK") {
@@ -243,12 +245,13 @@ export function NavigationController({ mode, viewpoint, bounds, refs, focusReque
       }
     }
     if(mode === "WALK") camera.position.y = groundSampler.sample(camera.position.x,camera.position.z) + 1.7;
+    if(benchmarkMotion(camera,refs.focus.current,benchmarkState.current))map.current?.target.copy(refs.focus.current);
     const priority = pending.current?.entity.center ?? (transition.current ? [transition.current.toTarget.x, transition.current.toTarget.z] as [number, number] : null);
     refs.anchors.current = resolveStreamAnchors(mode, [refs.focus.current.x, refs.focus.current.z], [camera.position.x, camera.position.z], priority);
   });
 
   return <>
-    {mode === "INSPECT" ? <MapControls ref={map} makeDefault domElement={gl.domElement} mouseButtons={{ LEFT: THREE.MOUSE.PAN, MIDDLE: THREE.MOUSE.DOLLY, RIGHT: THREE.MOUSE.ROTATE }} enablePan={true} enableRotate={true} enableZoom={true} screenSpacePanning={false} enableDamping dampingFactor={0.08} minDistance={8} maxDistance={12000} maxPolarAngle={Math.PI / 2.01} onStart={onMapStart} onChange={onMapChange} onEnd={onMapEnd} /> : null}
+    {mode === "INSPECT" ? <ExploreControls controlRef={map} bounds={extent} onStart={onMapStart} onChange={onMapChange} onEnd={onMapEnd}/> : null}
     {mode === "WALK" ? <WalkControls controlRef={pointer} /> : null}
   </>;
 }

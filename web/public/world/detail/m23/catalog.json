@@ -8,25 +8,31 @@
       "id": "acpt",
       "kind": "landmark",
       "bounds": [
-        -388.508,
-        -266.886,
-        -227.637,
-        -178.42
+        -389.169157,
+        -267.549893,
+        -226.974163,
+        -177.756227
       ],
       "url": "/world/detail/m23/acpt.json",
       "feature_count": 13,
-      "instances": 194,
-      "mesh_triangles": 44,
+      "instances": 0,
+      "mesh_triangles": 2372,
       "signs": 1,
-      "content_sha256": "10fb4b0a2bb27ffe0c1d89a9e99b9fbd6da8c4a17c08abf0fcf888aa58543e50",
+      "content_sha256": "7ebdcf8f7d225934d5c7d5e28d5c3511ee2eddd4c14de65a08cbae40ecd99b57",
       "entity_id": "osm:way:182331875",
       "name": "Arthaland Century Pacific Tower",
       "replaces": [
         "osm:way:182331875",
         "osm:way:538344761"
       ],
+      "replacement_entity_ids": [
+        "osm:way:182331875",
+        "osm:way:32487609"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 136.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "burgos_circle",
@@ -42,7 +48,8 @@
       "instances": 0,
       "mesh_triangles": 75,
       "signs": 1,
-      "content_sha256": "71b1dad5502c9ea442a0f8339bbdf2c53769355b482ab069ffe17be20271682d"
+      "content_sha256": "b7f47a5bd4abca0050cf1e21f624b86d2c576f60c124d66a63f33c3ab9e51eef",
+      "art": 1
     },
     {
       "id": "de_jesus_oval",
@@ -58,7 +65,8 @@
       "instances": 61,
       "mesh_triangles": 28,
       "signs": 1,
-      "content_sha256": "c9fd3aafdb9b7cb4f40a551305ac34f3203885c971aaf598211d5c040bf4f8e7"
+      "content_sha256": "45a4b3e5dd4cde608632519ff70dd38ea722465cc7579cc74f9f6a5ddd23e7f4",
+      "art": 0
     },
     {
       "id": "forbes_town",
@@ -74,7 +82,8 @@
       "instances": 0,
       "mesh_triangles": 157,
       "signs": 0,
-      "content_sha256": "f8b6d1b57ef3feb83aedd159f452ac1ff398c45e1acb49605a6d687f072e0ffe"
+      "content_sha256": "f8b6d1b57ef3feb83aedd159f452ac1ff398c45e1acb49605a6d687f072e0ffe",
+      "art": 0
     },
     {
       "id": "greenway",
@@ -90,23 +99,25 @@
       "instances": 72,
       "mesh_triangles": 290,
       "signs": 1,
-      "content_sha256": "768d15a947a8700c891eb5eb8f6b595938b8dd98ed7ba5a56ac3475176061d55"
+      "content_sha256": "9e16257573849898c93549c83801ad35c119efc7e3b2cdd06940da9e5309ee61",
+      "art": 0
     },
     {
       "id": "high_street",
       "kind": "zone",
       "bounds": [
-        -528.657,
-        -167.988,
-        227.988,
+        -550.0,
+        -190.849,
+        244.762,
         143.219
       ],
       "url": "/world/detail/m23/high_street.json",
-      "feature_count": 542,
-      "instances": 889,
-      "mesh_triangles": 4587,
-      "signs": 0,
-      "content_sha256": "9d08c5bc671672608e2e206b680536612058e17caa019f285da04639ca6f58fe"
+      "feature_count": 567,
+      "instances": 973,
+      "mesh_triangles": 5108,
+      "signs": 1,
+      "content_sha256": "f5e7924a66d0ce9a56e1747c21575c6684e836bb5acd4a6ffe9aca530e06b453",
+      "art": 4
     },
     {
       "id": "high_street_central",
@@ -118,11 +129,11 @@
         0.395
       ],
       "url": "/world/detail/m23/high_street_central.json",
-      "feature_count": 21,
-      "instances": 20,
-      "mesh_triangles": 2984,
+      "feature_count": 26,
+      "instances": 34,
+      "mesh_triangles": 3226,
       "signs": 1,
-      "content_sha256": "92943f92d742e78ff764c569a2f485d25b0da130d82f984c8804b154383f5b34",
+      "content_sha256": "69ed0cab188f598c4cbc899f58244c5bb188ef81343541fb1b9305274ccb7bcb",
       "focus": [
         -194.783,
         1,
@@ -132,7 +143,8 @@
         -177.283,
         2,
         -33.558
-      ]
+      ],
+      "art": 0
     },
     {
       "id": "kasalikasan",
@@ -148,353 +160,429 @@
       "instances": 46,
       "mesh_triangles": 974,
       "signs": 1,
-      "content_sha256": "0dff4f0f89bf25f58ff7aa87ff58592aa3a445098c449835f2141a5a05328dc4"
+      "content_sha256": "353edb9df677608fd4f1bc77bb3683534432b413fb56b4174e46772637c9f979",
+      "art": 1
     },
     {
       "id": "lite_1070584575",
       "kind": "landmark",
       "bounds": [
-        -7.921,
-        179.238,
-        27.52,
-        249.89
+        -9.093585,
+        178.063135,
+        28.692622,
+        251.064801
       ],
       "url": "/world/detail/m23/lite_1070584575.json",
       "feature_count": 12,
-      "instances": 447,
-      "mesh_triangles": 29,
+      "instances": 0,
+      "mesh_triangles": 6480,
       "signs": 1,
-      "content_sha256": "18f074932a94b7995398fee09a082066cf318aa073586aeaa95d4c007a39221d",
+      "content_sha256": "94ac022654c9360a33dbe7c43c1466d49f46e8dd808afab0f5f5c9ae4814ac2b",
       "entity_id": "osm:way:1070584575",
       "name": "West Gallery Place",
       "replaces": [
         "osm:way:1070584574",
         "osm:way:1070584575"
       ],
+      "replacement_entity_ids": [
+        "osm:way:1070584575"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 169.1,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_1071370324",
       "kind": "landmark",
       "bounds": [
-        352.979,
-        -257.535,
-        405.441,
-        -208.797
+        351.797263,
+        -258.71776,
+        406.622145,
+        -207.613849
       ],
       "url": "/world/detail/m23/lite_1071370324.json",
       "feature_count": 12,
-      "instances": 492,
-      "mesh_triangles": 37,
+      "instances": 0,
+      "mesh_triangles": 7525,
       "signs": 1,
-      "content_sha256": "4a7bf65a9bd9cd88ed4ae38ec6f09f90938502084d330bb29df18d9fc614aea6",
+      "content_sha256": "5ec7491fc0e72572f14e6a477a5ab9fcfd125fb6dcd72a87b13dfc76bd68aeab",
       "entity_id": "osm:way:1071370324",
       "name": "Park Triangle Residences",
       "replaces": [
         "osm:way:1071370324"
       ],
+      "replacement_entity_ids": [
+        "osm:way:1071370324"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 162.7,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_131229047",
       "kind": "landmark",
       "bounds": [
-        -260.308,
-        -313.461,
-        -201.78,
-        -263.58
+        -260.970975,
+        -314.125324,
+        -201.116415,
+        -262.916265
       ],
       "url": "/world/detail/m23/lite_131229047.json",
       "feature_count": 5,
-      "instances": 90,
-      "mesh_triangles": 10,
+      "instances": 0,
+      "mesh_triangles": 1090,
       "signs": 1,
-      "content_sha256": "5928d2ee55cbbedc04edbfc60128281d8e54ebdc6b6051adb87e27c352fb156f",
+      "content_sha256": "1f60a542b5cd93530fe1c36ccefaf3a1a172e3485894ae6789d2a69a58b6d3ca",
       "entity_id": "osm:way:131229047",
       "name": "Cork  Elite",
       "replaces": [
         "osm:way:131229047"
       ],
+      "replacement_entity_ids": [
+        "osm:way:131229047"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 114.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_27442841",
       "kind": "landmark",
       "bounds": [
-        -658.578,
-        244.532,
-        -614.623,
-        329.65
+        -659.724625,
+        243.364385,
+        -613.401052,
+        330.835082
       ],
       "url": "/world/detail/m23/lite_27442841.json",
       "feature_count": 18,
-      "instances": 819,
-      "mesh_triangles": 82,
+      "instances": 0,
+      "mesh_triangles": 12214,
       "signs": 1,
-      "content_sha256": "29cc4c50b7f817b25687de2a3dc2700f5654fde0c147881dd067b4df9062d3c1",
+      "content_sha256": "874c212a40a38918ef65cc85ff50f6eb73ad288d1a1ca1e988ce452ddeec3ed1",
       "entity_id": "osm:way:27442841",
       "name": "Pacific Plaza North Tower",
       "replaces": [
         "osm:way:27442841"
       ],
+      "replacement_entity_ids": [
+        "osm:way:27442841"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 179.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_27442849",
       "kind": "landmark",
       "bounds": [
-        -665.581,
-        336.115,
-        -620.608,
-        416.228
+        -666.82966,
+        335.17856,
+        -619.695075,
+        417.371348
       ],
       "url": "/world/detail/m23/lite_27442849.json",
       "feature_count": 13,
-      "instances": 579,
-      "mesh_triangles": 40,
+      "instances": 0,
+      "mesh_triangles": 8524,
       "signs": 1,
-      "content_sha256": "8eefaea6971e8e95544ac169ad9caa3978ad4fc74def1aba805f048c60699360",
+      "content_sha256": "ddd6d73ba69170717439444dddef31f3b93bc659c760be68dbe8cebbec77c7e9",
       "entity_id": "osm:way:27442849",
       "name": "Pacific Plaza South Tower",
       "replaces": [
         "osm:way:27442849"
       ],
+      "replacement_entity_ids": [
+        "osm:way:27442849"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 179.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 1
     },
     {
       "id": "lite_37075972",
       "kind": "landmark",
       "bounds": [
-        -623.579,
-        148.042,
-        -579.427,
-        212.949
+        -624.668061,
+        147.081194,
+        -578.310976,
+        214.163087
       ],
       "url": "/world/detail/m23/lite_37075972.json",
       "feature_count": 20,
-      "instances": 765,
-      "mesh_triangles": 73,
+      "instances": 0,
+      "mesh_triangles": 10213,
       "signs": 1,
-      "content_sha256": "06073b1dfa63c373418b6fb4bda7d9533ca352bb0525499564e7ada7091aa27a",
+      "content_sha256": "04bb570542c92d4d87dd2bd238f170e619a6660078899c6da914cf03cb332910",
       "entity_id": "osm:way:37075972",
       "name": "One McKinley Place",
       "replaces": [
         "osm:way:37075972"
       ],
+      "replacement_entity_ids": [
+        "osm:way:37075972"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 149.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_469658015",
       "kind": "landmark",
       "bounds": [
-        228.546,
-        -235.342,
-        245.334,
-        -228.598
+        228.318282,
+        -236.005787,
+        245.55536,
+        -227.936148
       ],
       "url": "/world/detail/m23/lite_469658015.json",
       "feature_count": 3,
-      "instances": 42,
-      "mesh_triangles": 13,
+      "instances": 0,
+      "mesh_triangles": 517,
       "signs": 1,
-      "content_sha256": "83c757d8940bc2d2203b4f15913f5e2bd489ef11b20a5ba8d9cf803e1fd09af1",
+      "content_sha256": "ff46ea9eb1e576d12bd05d010a702577a20944b6353bf21ece639e0ce26b2296",
       "entity_id": "osm:way:469658015",
       "name": "One World Place",
       "replaces": [
         "osm:way:469658015"
       ],
+      "replacement_entity_ids": [
+        "osm:way:469658015"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 122.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_538341464",
       "kind": "landmark",
       "bounds": [
-        117.623,
-        217.044,
-        158.303,
-        285.793
+        116.706497,
+        215.847936,
+        159.337948,
+        286.995274
       ],
       "url": "/world/detail/m23/lite_538341464.json",
       "feature_count": 14,
-      "instances": 588,
-      "mesh_triangles": 52,
+      "instances": 0,
+      "mesh_triangles": 7108,
       "signs": 1,
-      "content_sha256": "47648dc0e1a3e02a6872fc55040f50bdf6b18145288260e00e7617635f6fb676",
+      "content_sha256": "980159d9164b0d9c14873ff34abbc404b477514125cc6d907d611dc4279d06d1",
       "entity_id": "osm:way:538341464",
       "name": "East Gallery Place",
       "replaces": [
         "osm:way:538341464"
       ],
+      "replacement_entity_ids": [
+        "osm:way:538341464"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 168.7,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_538347432",
       "kind": "landmark",
       "bounds": [
-        233.632,
-        -776.197,
-        279.56,
-        -738.119
+        232.442799,
+        -777.387156,
+        280.749203,
+        -736.929341
       ],
       "url": "/world/detail/m23/lite_538347432.json",
       "feature_count": 13,
-      "instances": 557,
-      "mesh_triangles": 34,
+      "instances": 0,
+      "mesh_triangles": 8926,
       "signs": 1,
-      "content_sha256": "6b9412bf55e393e3ae57c2d5802a453bf9b3d5bfd5a516e515877541202616d6",
+      "content_sha256": "4d3d5cc31edf51eade8a313557fe7a4f96462f4a5c83debb7027eed6d38afea3",
       "entity_id": "osm:way:538347432",
       "name": "Uptown Ritz Residences",
       "replaces": [
         "osm:way:538347432"
       ],
+      "replacement_entity_ids": [
+        "osm:way:538347432"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 170.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_66405543",
       "kind": "landmark",
       "bounds": [
-        -517.879,
-        121.411,
-        -438.498,
-        181.73
+        -518.544038,
+        120.747222,
+        -437.836669,
+        182.392097
       ],
       "url": "/world/detail/m23/lite_66405543.json",
       "feature_count": 5,
-      "instances": 102,
-      "mesh_triangles": 10,
+      "instances": 0,
+      "mesh_triangles": 1234,
       "signs": 1,
-      "content_sha256": "8253b6b877a1fd0249b247ede05e042235dd7640b031e4ea70fdb58e14d8be33",
+      "content_sha256": "561097c77f5958efad602fa2c646a58c5e5d9fd308369279f2f70e9502404af1",
       "entity_id": "osm:way:66405543",
       "name": "Six/NEO",
       "replaces": [
         "osm:way:66405543"
       ],
+      "replacement_entity_ids": [
+        "osm:way:66405543"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 127.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_72861479",
       "kind": "landmark",
       "bounds": [
-        425.393,
-        -126.164,
-        489.905,
-        -83.739
+        424.202942,
+        -127.3557,
+        491.094679,
+        -82.547343
       ],
       "url": "/world/detail/m23/lite_72861479.json",
       "feature_count": 9,
-      "instances": 328,
-      "mesh_triangles": 22,
+      "instances": 0,
+      "mesh_triangles": 4918,
       "signs": 1,
-      "content_sha256": "0c817668c6936ccc8114bb3e3ae93ad4b4c3a049d9cb9737476b5b3831b9bb9a",
+      "content_sha256": "49fe38da0f5abcfcc472bece964db93f46cf4e6ac34f0af269e1079ca5e822c2",
       "entity_id": "osm:way:72861479",
       "name": "East Tower",
       "replaces": [
         "osm:way:72861479"
       ],
+      "replacement_entity_ids": [
+        "osm:way:72861479"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 150.0,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_72861481",
       "kind": "landmark",
       "bounds": [
-        325.649,
-        -163.436,
-        385.268,
-        -119.602
+        324.464972,
+        -164.620945,
+        386.452197,
+        -118.416371
       ],
       "url": "/world/detail/m23/lite_72861481.json",
       "feature_count": 5,
-      "instances": 220,
-      "mesh_triangles": 10,
+      "instances": 0,
+      "mesh_triangles": 2650,
       "signs": 1,
-      "content_sha256": "888574e92187f98b077f5fcc67e17ccbc69ee8ceaba909a1886d3913fb477736",
+      "content_sha256": "31c7b7436aa06933e29766dcced661a9a6f1c68a95c080d5356919b0f0b184e3",
       "entity_id": "osm:way:72861481",
       "name": "West Tower",
       "replaces": [
         "osm:way:72861481"
       ],
+      "replacement_entity_ids": [
+        "osm:way:72861481"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 191.1,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_783121691",
       "kind": "landmark",
       "bounds": [
-        261.859,
-        -259.465,
-        329.024,
-        -210.65
+        261.195358,
+        -260.162978,
+        329.692835,
+        -209.951213
       ],
       "url": "/world/detail/m23/lite_783121691.json",
       "feature_count": 12,
-      "instances": 248,
-      "mesh_triangles": 37,
+      "instances": 0,
+      "mesh_triangles": 3013,
       "signs": 1,
-      "content_sha256": "c44e40732078bd5bc529875d0d9ef0f4784077bb3ac99711a93eec33ea94ebf0",
+      "content_sha256": "4e1b85c65670fcb647627ad11f9a797cc830a2ea8519b514c2b41d72c941db1b",
       "entity_id": "osm:way:783121691",
       "name": "Park Triangle Corporate Plaza, North Tower",
       "replaces": [
         "osm:way:783121691"
       ],
+      "replacement_entity_ids": [
+        "osm:way:783121691"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 127.8,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "lite_846365706",
       "kind": "landmark",
       "bounds": [
-        121.571,
-        494.133,
-        177.828,
-        551.497
+        120.601141,
+        493.165574,
+        178.810806,
+        552.460096
       ],
       "url": "/world/detail/m23/lite_846365706.json",
       "feature_count": 21,
-      "instances": 1106,
-      "mesh_triangles": 58,
+      "instances": 0,
+      "mesh_triangles": 17638,
       "signs": 1,
-      "content_sha256": "fff50ef64e760035273219fcf461c73ad5ba82ad2e9696c906fc15db624fc56a",
+      "content_sha256": "422ab2c771c471bc1c0593af3ba52bacf1dc043d0e0b397b957544c88c461e73",
       "entity_id": "osm:way:846365706",
       "name": "The Sequoia",
       "replaces": [
         "osm:way:846365706"
       ],
+      "replacement_entity_ids": [
+        "osm:way:846365706"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 202.5,
-      "activation_m": 200
+      "activation_m": 200,
+      "art": 0
     },
     {
       "id": "market_market",
       "kind": "landmark",
       "bounds": [
-        455.826,
-        -49.442,
-        663.818,
-        201.153
+        455.160812,
+        -50.106186,
+        664.482466,
+        202.544416
       ],
       "url": "/world/detail/m23/market_market.json",
       "feature_count": 27,
-      "instances": 198,
-      "mesh_triangles": 100,
+      "instances": 0,
+      "mesh_triangles": 2752,
       "signs": 1,
-      "content_sha256": "b7e2b044a3e17ac6797fadf17e84a2b0cb1eb9ec7fadb1de2878ed4b33011569",
+      "content_sha256": "f5a63d762b1501f6172077e7a003b6bf51a1f13e98421bcb76c952d36caa2de7",
       "entity_id": "osm:way:25006407",
       "name": "Market! Market!",
       "replaces": [
         "osm:way:25006407"
       ],
+      "replacement_entity_ids": [
+        "osm:way:25006407"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 16.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "mckinley_parkway",
@@ -510,7 +598,8 @@
       "instances": 0,
       "mesh_triangles": 1219,
       "signs": 0,
-      "content_sha256": "2b85df504350d73c552039e0018953ecf2cfea593996ab1e7e4b0123883e6852"
+      "content_sha256": "2b85df504350d73c552039e0018953ecf2cfea593996ab1e7e4b0123883e6852",
+      "art": 0
     },
     {
       "id": "mind_museum",
@@ -526,14 +615,19 @@
       "instances": 0,
       "mesh_triangles": 1373,
       "signs": 1,
-      "content_sha256": "525046e3353f6dbf955e3957ce8367e60f8e7f1272e6a5d96dae3c73d36eccbb",
+      "content_sha256": "de22fbfa3f8a97467a52db0247e8cdd23ffc38a71c7dbe1b5e49b3d6db391507",
       "entity_id": "osm:way:183463814",
       "name": "The Mind Museum",
       "replaces": [
         "osm:way:183463814"
       ],
+      "replacement_entity_ids": [
+        "osm:way:183463814"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 10.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "mind_museum_park",
@@ -549,53 +643,64 @@
       "instances": 17,
       "mesh_triangles": 552,
       "signs": 1,
-      "content_sha256": "bd89b44d79ab9e3d6df5d514f913442faa07adb8c54cfe28c3a1e5326e92a0a0"
+      "content_sha256": "ccff62981802c22596a228453c86cf63ab83cfc682de20d50797c3485b960b0c",
+      "art": 2
     },
     {
       "id": "mitsukoshi",
       "kind": "landmark",
       "bounds": [
-        117.178,
-        -946.251,
-        239.354,
-        -765.592
+        116.60992,
+        -946.946731,
+        239.921089,
+        -764.89628
       ],
       "url": "/world/detail/m23/mitsukoshi.json",
       "feature_count": 33,
-      "instances": 144,
-      "mesh_triangles": 3624,
+      "instances": 0,
+      "mesh_triangles": 9394,
       "signs": 1,
-      "content_sha256": "789d6891e96b5a033de9f15c5b542683230f07acacd2c667afac29cf1deff85d",
+      "content_sha256": "b2354d20cb253ce766e98d7384c606120e44ce055506e96dd9a10c0ce197ac3e",
       "entity_id": "osm:way:1123265838",
       "name": "Mitsukoshi BGC",
       "replaces": [
         "osm:way:1123265838"
       ],
+      "replacement_entity_ids": [
+        "osm:way:1123265838"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 12.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "one_bonifacio",
       "kind": "landmark",
       "bounds": [
-        -551.103,
-        -136.408,
-        -368.426,
-        -12.689
+        -551.762341,
+        -137.068454,
+        -367.765527,
+        -12.026655
       ],
       "url": "/world/detail/m23/one_bonifacio.json",
       "feature_count": 5,
-      "instances": 122,
-      "mesh_triangles": 10,
+      "instances": 0,
+      "mesh_triangles": 1474,
       "signs": 1,
-      "content_sha256": "cdb062aa9d2f4bf9c9ff44ec26534d60cc5b77890d2618415afb2368f20b348b",
+      "content_sha256": "005def33ba7754594269a214cd5f471553307ae29933648869231f2b3797809d",
       "entity_id": "osm:way:1078392706",
       "name": "One Bonifacio High Street",
       "replaces": [
         "osm:way:1078392706"
       ],
+      "replacement_entity_ids": [
+        "osm:way:1078392706"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 12.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "one_bonifacio_realm",
@@ -611,46 +716,52 @@
       "instances": 0,
       "mesh_triangles": 3024,
       "signs": 0,
-      "content_sha256": "0613a3148065cd6a0d40d70bc1ffce17706c0c5bcee265eaf7ecfedc21b80df2"
+      "content_sha256": "0613a3148065cd6a0d40d70bc1ffce17706c0c5bcee265eaf7ecfedc21b80df2",
+      "art": 0
     },
     {
       "id": "one_uptown",
       "kind": "landmark",
       "bounds": [
-        190.194,
-        -719.829,
-        255.096,
-        -632.278
+        189.827163,
+        -720.196014,
+        255.454053,
+        -631.910922
       ],
       "url": "/world/detail/m23/one_uptown.json",
       "feature_count": 21,
-      "instances": 489,
-      "mesh_triangles": 922,
+      "instances": 0,
+      "mesh_triangles": 9024,
       "signs": 1,
-      "content_sha256": "ba3c2ec38932b7b9b1b78dddc2dd44d7235aa30100aee24182cc840cffd881a0",
+      "content_sha256": "2ead7bb7b9ffbba4b906d60421fc3c954a255b0cf9b2611c1dca9be56c99c8aa",
       "entity_id": "osm:way:713418275",
       "name": "One Uptown Residence",
       "replaces": [
         "osm:way:713418275"
       ],
+      "replacement_entity_ids": [
+        "osm:way:713418275"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 163.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "parksuites",
       "kind": "landmark",
       "bounds": [
-        241.006,
-        -905.991,
-        328.787,
-        -770.518
+        239.81807,
+        -907.834412,
+        330.768065,
+        -769.123038
       ],
       "url": "/world/detail/m23/parksuites.json",
       "feature_count": 51,
-      "instances": 1680,
-      "mesh_triangles": 251,
+      "instances": 0,
+      "mesh_triangles": 22535,
       "signs": 1,
-      "content_sha256": "ac0e906f41f5a80d7ec0190a0e0fd9032f2391fad7d7a611c093c50283a8113e",
+      "content_sha256": "98a8b6db83f25fd2769e56fe2d416224f7b4c1ce58dc8e6b19cce602f4957b15",
       "entity_id": "osm:way:538697027",
       "name": "Uptown Parksuites",
       "replaces": [
@@ -659,24 +770,29 @@
         "osm:way:783113264",
         "osm:way:783113265"
       ],
+      "replacement_entity_ids": [
+        "osm:way:538697027"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 175.5,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "pse",
       "kind": "landmark",
       "bounds": [
-        -463.966,
-        -104.264,
-        -372.844,
-        -21.946
+        -464.631541,
+        -105.352063,
+        -370.519731,
+        -21.341434
       ],
       "url": "/world/detail/m23/pse.json",
       "feature_count": 40,
-      "instances": 471,
-      "mesh_triangles": 700,
+      "instances": 0,
+      "mesh_triangles": 6613,
       "signs": 2,
-      "content_sha256": "590e2d26bfe5e9b8479793001fc821ee61bb45e4791e2cb5677007cacc269008",
+      "content_sha256": "d9631febd4d77eca1bb04bd08701bd82033687880451a1992f29212f7357ebd5",
       "entity_id": "osm:way:71598335",
       "name": "Philippine Stock Exchange",
       "replaces": [
@@ -685,24 +801,29 @@
         "osm:way:538701627",
         "osm:way:71598335"
       ],
+      "replacement_entity_ids": [
+        "osm:way:71598335"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 131.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "seasons",
       "kind": "landmark",
       "bounds": [
-        119.012,
-        -943.514,
-        219.787,
-        -778.822
+        118.749578,
+        -943.777221,
+        220.05449,
+        -778.558715
       ],
       "url": "/world/detail/m23/seasons.json",
       "feature_count": 32,
-      "instances": 754,
-      "mesh_triangles": 1360,
+      "instances": 0,
+      "mesh_triangles": 11800,
       "signs": 1,
-      "content_sha256": "c64db8f607b91ef116565de238cc3fd938dc729f2369beda2d0257dcc2417af5",
+      "content_sha256": "9a31d2bf40eee18b441829cc6bf2a8dd78fc1e6b47b8e2528053d668369a0cf0",
       "entity_id": "osm:way:713418274",
       "name": "The Seasons Residences",
       "replaces": [
@@ -711,93 +832,113 @@
         "osm:way:929418246",
         "osm:way:929418247"
       ],
+      "replacement_entity_ids": [
+        "osm:way:1123265838"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 184.9,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "serendra_bamboo",
       "kind": "landmark",
       "bounds": [
-        378.626,
-        -5.34,
-        455.813,
-        67.483
+        377.383662,
+        -6.51104,
+        457.005564,
+        68.720353
       ],
       "url": "/world/detail/m23/serendra_bamboo.json",
       "feature_count": 14,
-      "instances": 180,
-      "mesh_triangles": 49,
+      "instances": 0,
+      "mesh_triangles": 2677,
       "signs": 1,
-      "content_sha256": "30ddf2af2f0ed6146d03797ea64bda9561a5ed03abccd8500d0edc01a81add70",
+      "content_sha256": "fc3b1c8676b65a2c33381d2a2a550c59e45fdcf01830086d3ac82085afdc6c68",
       "entity_id": "osm:way:27672006",
       "name": "Bamboo",
       "replaces": [
         "osm:way:27672006"
       ],
+      "replacement_entity_ids": [
+        "osm:way:27672006"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 53.5,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "serendra_mahogany",
       "kind": "landmark",
       "bounds": [
-        410.967,
-        -73.478,
-        478.118,
-        -2.397
+        409.843713,
+        -74.664166,
+        479.306559,
+        -1.309896
       ],
       "url": "/world/detail/m23/serendra_mahogany.json",
       "feature_count": 14,
-      "instances": 230,
-      "mesh_triangles": 37,
+      "instances": 0,
+      "mesh_triangles": 3409,
       "signs": 1,
-      "content_sha256": "07c41a3d727ba98a355ece748908f914afe3e987069421e2219a019bb4ca1bcb",
+      "content_sha256": "9ac77c622b7fb6270d764e568229ca3284b9a431acb6ab08f0f80d5567dd1302",
       "entity_id": "osm:way:27671996",
       "name": "Mahogany",
       "replaces": [
         "osm:way:27671996"
       ],
+      "replacement_entity_ids": [
+        "osm:way:27671996"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 65.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "serendra_palm",
       "kind": "landmark",
       "bounds": [
-        270.78,
-        -29.165,
-        438.139,
-        141.704
+        268.794463,
+        -30.08748,
+        439.326185,
+        143.551815
       ],
       "url": "/world/detail/m23/serendra_palm.json",
       "feature_count": 69,
-      "instances": 422,
-      "mesh_triangles": 280,
+      "instances": 0,
+      "mesh_triangles": 6816,
       "signs": 1,
-      "content_sha256": "b809348ac7ed58a8dde0cf74d247db5cb7b00399860d531972118bb05d1f0e09",
+      "content_sha256": "1156c444b042b5ea81d9403b1309380dc55a626ad852786b2055e858f6a8657a",
       "entity_id": "osm:way:27671928",
       "name": "Palm",
       "replaces": [
         "osm:way:27671928"
       ],
+      "replacement_entity_ids": [
+        "osm:way:27671928"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 24.4,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "shangri",
       "kind": "landmark",
       "bounds": [
-        -515.719,
-        -237.932,
-        -401.827,
-        -150.918
+        -517.490226,
+        -238.196922,
+        -401.276675,
+        -138.0
       ],
       "url": "/world/detail/m23/shangri.json",
-      "feature_count": 102,
-      "instances": 928,
-      "mesh_triangles": 1025,
+      "feature_count": 130,
+      "instances": 24,
+      "mesh_triangles": 17232,
       "signs": 1,
-      "content_sha256": "c8a63d80d7bc17caa7881f8b3aa5602801835b335d6684e0e6fa87ecb81287ac",
+      "content_sha256": "8cb128351d2d0d65e1075172f515100120b749c84b24779019c4a81c7fd89c58",
       "entity_id": "osm:way:469845356",
       "name": "Shangri-La at the Fort",
       "replaces": [
@@ -807,32 +948,42 @@
         "osm:way:469906738",
         "osm:way:469906739"
       ],
+      "replacement_entity_ids": [
+        "osm:way:469845356"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 250.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "sm_aura",
       "kind": "landmark",
       "bounds": [
-        199.421,
-        415.962,
-        446.806,
-        652.02
+        198.869119,
+        414.411009,
+        447.387041,
+        652.450889
       ],
       "url": "/world/detail/m23/sm_aura.json",
       "feature_count": 39,
-      "instances": 272,
-      "mesh_triangles": 1598,
+      "instances": 4,
+      "mesh_triangles": 4810,
       "signs": 1,
-      "content_sha256": "c54475da8c90222dbab12e8cf7eb5774a0a61f07bd34a39ac3fe19f4a7c21a1d",
+      "content_sha256": "16c0fa47bb195f34b784da8be545e0d375154ba4387027906e050695ca5b59bb",
       "entity_id": "osm:way:221590005",
       "name": "SM Aura Premier",
       "replaces": [
         "osm:way:221590005",
         "osm:way:531903361"
       ],
+      "replacement_entity_ids": [
+        "osm:way:221590005"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 127.2,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "street_tile_000_010",
@@ -844,27 +995,29 @@
         -914.442
       ],
       "url": "/world/detail/m23/street_tile_000_010.json",
-      "feature_count": 18,
+      "feature_count": 20,
       "instances": 0,
-      "mesh_triangles": 425,
+      "mesh_triangles": 482,
       "signs": 0,
-      "content_sha256": "ea4917dd01afb74defb48ca4147dc56ef7c27922743339e140c22b53a5772f2b"
+      "content_sha256": "b304411f0e8773bbae1c4295de222db0602d4b0ff211b7c34744a99702c8e6e4",
+      "art": 0
     },
     {
       "id": "street_tile_000_011",
       "kind": "zone",
       "bounds": [
-        -1087.313,
-        -1158.676,
-        -940.706,
-        -1034.515
+        -1097.776,
+        -1165.865,
+        -933.326,
+        -1024.722
       ],
       "url": "/world/detail/m23/street_tile_000_011.json",
-      "feature_count": 22,
+      "feature_count": 81,
       "instances": 0,
-      "mesh_triangles": 44,
+      "mesh_triangles": 970,
       "signs": 0,
-      "content_sha256": "094d312bd4dfd957d8346790877870876316eb56cbfc16e1b7bf925b33ba617b"
+      "content_sha256": "c8c14e26caa8c266fe833f9afddcabded57e9d51008ee596a2ad745e47d0c1f8",
+      "art": 0
     },
     {
       "id": "street_tile_001_004",
@@ -876,43 +1029,46 @@
         663.148
       ],
       "url": "/world/detail/m23/street_tile_001_004.json",
-      "feature_count": 59,
-      "instances": 0,
-      "mesh_triangles": 858,
+      "feature_count": 185,
+      "instances": 16,
+      "mesh_triangles": 1346,
       "signs": 0,
-      "content_sha256": "a6237591d87ec1e1be92073574debb5649c22d0fe556a8481fe0d2bf3a7152dc"
+      "content_sha256": "7a505ea8b9b8634c58f352eb22b57d5e4af640f4d9404261783b137bc4f42e4d",
+      "art": 0
     },
     {
       "id": "street_tile_001_007",
       "kind": "zone",
       "bounds": [
-        -796.516,
-        -252.082,
-        -753.663,
-        -228.599
+        -804.727,
+        -260.069,
+        -743.906,
+        -223.325
       ],
       "url": "/world/detail/m23/street_tile_001_007.json",
-      "feature_count": 7,
-      "instances": 2,
-      "mesh_triangles": 13,
+      "feature_count": 29,
+      "instances": 6,
+      "mesh_triangles": 355,
       "signs": 0,
-      "content_sha256": "195235f9d6ad6c9c991a6586c8bba228b63c638f1265c14721235c11cb76be4e"
+      "content_sha256": "0627f5540380257f6e3b2ad0398110ec1e9557ddd5cc5fdd214ea9667c220761",
+      "art": 0
     },
     {
       "id": "street_tile_001_008",
       "kind": "zone",
       "bounds": [
-        -859.953,
-        -478.134,
-        -754.609,
+        -867.538,
+        -485.679,
+        -753.585,
         -407.816
       ],
       "url": "/world/detail/m23/street_tile_001_008.json",
-      "feature_count": 14,
+      "feature_count": 42,
       "instances": 6,
-      "mesh_triangles": 28,
+      "mesh_triangles": 84,
       "signs": 0,
-      "content_sha256": "c914869b8b4023bac8699099186d2aeaf691f664c929711675a55a7264c18448"
+      "content_sha256": "7668a844b1e77f955f4cacecc2b836ec04d6db870a109410bc301bff99fcb952",
+      "art": 0
     },
     {
       "id": "street_tile_001_009",
@@ -924,11 +1080,12 @@
         -523.074
       ],
       "url": "/world/detail/m23/street_tile_001_009.json",
-      "feature_count": 196,
-      "instances": 2,
-      "mesh_triangles": 7614,
+      "feature_count": 299,
+      "instances": 50,
+      "mesh_triangles": 10431,
       "signs": 0,
-      "content_sha256": "d79fa04ff1dc61fcab043c9507484c7d7a488276727cc9532bec398b02336c71"
+      "content_sha256": "6057eb2c499453bf2530067d3a7e0bd99bc292e74003fc8753972da62f7d3a54",
+      "art": 0
     },
     {
       "id": "street_tile_001_010",
@@ -940,27 +1097,29 @@
         -719.7
       ],
       "url": "/world/detail/m23/street_tile_001_010.json",
-      "feature_count": 198,
-      "instances": 2,
-      "mesh_triangles": 5929,
+      "feature_count": 253,
+      "instances": 14,
+      "mesh_triangles": 7610,
       "signs": 0,
-      "content_sha256": "bc9863536d77f37b93dcda21827f14a797c12a50ded0e3721cdb2aee462c081e"
+      "content_sha256": "a6487ac1c058f9d9af0a8a5a62547fceb7209da3ccde780455209cb8dcfa1fe0",
+      "art": 0
     },
     {
       "id": "street_tile_001_011",
       "kind": "zone",
       "bounds": [
-        -1094.054,
-        -1176.757,
+        -1102.474,
+        -1186.082,
         -741.625,
-        -992.448
+        -984.308
       ],
       "url": "/world/detail/m23/street_tile_001_011.json",
-      "feature_count": 35,
+      "feature_count": 117,
       "instances": 0,
-      "mesh_triangles": 1197,
+      "mesh_triangles": 2440,
       "signs": 0,
-      "content_sha256": "1ab3042ee1f7e543628406a91550d54cacfa5e74fc14d069ead2caf9c2e53781"
+      "content_sha256": "902006cb969f1e5c1d9fff9eae8e9a984763f43d56f83001c7bf4b28e46e55dc",
+      "art": 0
     },
     {
       "id": "street_tile_002_003",
@@ -972,11 +1131,12 @@
         856.049
       ],
       "url": "/world/detail/m23/street_tile_002_003.json",
-      "feature_count": 36,
-      "instances": 0,
-      "mesh_triangles": 572,
+      "feature_count": 135,
+      "instances": 10,
+      "mesh_triangles": 2014,
       "signs": 0,
-      "content_sha256": "2323eed1a9a79093ffded221d81cf424b81304f4ec68b4c3afa725f72079b213"
+      "content_sha256": "2556e7bd33dfd8184f6d0ced39f4f983509205dd6a6d8514ce30b31d130943ca",
+      "art": 0
     },
     {
       "id": "street_tile_002_004",
@@ -984,15 +1144,16 @@
       "bounds": [
         -677.816,
         467.045,
-        -458.0,
+        -457.588,
         784.302
       ],
       "url": "/world/detail/m23/street_tile_002_004.json",
-      "feature_count": 105,
-      "instances": 38,
-      "mesh_triangles": 3951,
+      "feature_count": 362,
+      "instances": 62,
+      "mesh_triangles": 7563,
       "signs": 0,
-      "content_sha256": "88e0c44488bb595f9767a9c1729975c4b5dd7f120067785b43d22be585806048"
+      "content_sha256": "6626d980ac650b69025e5b022185b37443cfd272cf3670395a99f62d6d1a6704",
+      "art": 0
     },
     {
       "id": "street_tile_002_005",
@@ -1000,63 +1161,67 @@
       "bounds": [
         -646.515,
         251.373,
-        -502.961,
-        472.67
+        -496.109,
+        472.79
       ],
       "url": "/world/detail/m23/street_tile_002_005.json",
-      "feature_count": 58,
-      "instances": 25,
-      "mesh_triangles": 2725,
+      "feature_count": 193,
+      "instances": 29,
+      "mesh_triangles": 3560,
       "signs": 0,
-      "content_sha256": "64d33f43e43c2c5146f597d339d4a8aabccdb08d85c569cedfc50577bc6e57f3"
+      "content_sha256": "1bdab0bda20f779ac32f1dbc5678ce992e0bb0380bcde69cf670034ec5307624",
+      "art": 0
     },
     {
       "id": "street_tile_002_006",
       "kind": "zone",
       "bounds": [
-        -764.588,
+        -773.098,
         -39.643,
-        -500.789,
-        255.805
+        -493.66,
+        259.422
       ],
       "url": "/world/detail/m23/street_tile_002_006.json",
-      "feature_count": 113,
+      "feature_count": 352,
       "instances": 32,
-      "mesh_triangles": 1989,
+      "mesh_triangles": 2880,
       "signs": 0,
-      "content_sha256": "1f25d6be0d4cd6aa6cd760ad58bb05ad4e04824c61d856523fdef199824329c7"
+      "content_sha256": "72638a874d24cf5ef540cb06dd4d38d39d27dcfa78d7d0723f827748a1cba9f7",
+      "art": 0
     },
     {
       "id": "street_tile_002_007",
       "kind": "zone",
       "bounds": [
-        -747.974,
+        -750.81,
         -348.537,
         -460.488,
         -12.392
       ],
       "url": "/world/detail/m23/street_tile_002_007.json",
-      "feature_count": 160,
-      "instances": 28,
-      "mesh_triangles": 1433,
+      "feature_count": 449,
+      "instances": 35,
+      "mesh_triangles": 4046,
       "signs": 0,
-      "content_sha256": "934511c5551701a69b2a2d365dbf1a1c8650d7d418c1dc09b0e13ed9c90a9acd"
+      "content_sha256": "9fa8300fc238aba34c99a9fc3390dcc967301fbc384a0d46e4f4c7ce2ad71d16",
+      "art": 0
     },
     {
       "id": "street_tile_002_008",
       "kind": "zone",
       "bounds": [
-        -739.347,
+        -740.509,
         -512.97,
         -423.652,
         -222.777
       ],
       "url": "/world/detail/m23/street_tile_002_008.json",
-      "feature_count": 129,
-      "instances": 36,
-      "mesh_triangles": 1637,
+      "feature_count": 436,
+      "instances": 53,
+      "mesh_triangles": 4393,
       "signs": 0,
-      "content_sha256": "3dd490d8a45d9681617983ed63ec39e6541ad42484b6eb49d557bac8a5516d92"
+      "content_sha256": "5fffafb61249a5dedd33424dd15dab1c3a2d779f4c23ac62f6b8b6ed65b3c286",
+      "art": 0
     },
     {
       "id": "street_tile_002_009",
@@ -1068,11 +1233,12 @@
         -488.283
       ],
       "url": "/world/detail/m23/street_tile_002_009.json",
-      "feature_count": 198,
-      "instances": 0,
-      "mesh_triangles": 9273,
+      "feature_count": 282,
+      "instances": 28,
+      "mesh_triangles": 11628,
       "signs": 0,
-      "content_sha256": "f36703fa287199fdeb47740c980647c5cf83e6214ee572f1715f914f9bb31de9"
+      "content_sha256": "114bbcd5fe221bd23aea06aeb6d7dc8f1e9ecf737d0e5f3aeb2a2698da92f34c",
+      "art": 0
     },
     {
       "id": "street_tile_002_010",
@@ -1084,11 +1250,12 @@
         -728.282
       ],
       "url": "/world/detail/m23/street_tile_002_010.json",
-      "feature_count": 143,
-      "instances": 5,
-      "mesh_triangles": 4831,
+      "feature_count": 285,
+      "instances": 15,
+      "mesh_triangles": 7075,
       "signs": 0,
-      "content_sha256": "2087d536c2a99cd029289d9e49394d1b69413c427339ad2baeda3ef65021ff41"
+      "content_sha256": "4e8eff1ad57de94f9d5abde53360e82e604312306cf85d0d193ed58f0feafb7d",
+      "art": 0
     },
     {
       "id": "street_tile_002_011",
@@ -1100,11 +1267,12 @@
         -917.141
       ],
       "url": "/world/detail/m23/street_tile_002_011.json",
-      "feature_count": 124,
+      "feature_count": 132,
       "instances": 0,
-      "mesh_triangles": 3001,
+      "mesh_triangles": 3159,
       "signs": 0,
-      "content_sha256": "6f68a43765e26b954cbec554ad5e76e8e24012d3375f3e6eff826b0f740c68f6"
+      "content_sha256": "48bf3de4b21d620255a534c8b4e7c9544e5b78997713106d0bcfe051c42beb28",
+      "art": 0
     },
     {
       "id": "street_tile_003_003",
@@ -1120,7 +1288,8 @@
       "instances": 0,
       "mesh_triangles": 145,
       "signs": 0,
-      "content_sha256": "7578eaca62b5d05892eb3238edf36283d6a1998b07899d32b0fe0054d50e5bc0"
+      "content_sha256": "7578eaca62b5d05892eb3238edf36283d6a1998b07899d32b0fe0054d50e5bc0",
+      "art": 0
     },
     {
       "id": "street_tile_003_004",
@@ -1132,43 +1301,46 @@
         825.921
       ],
       "url": "/world/detail/m23/street_tile_003_004.json",
-      "feature_count": 112,
-      "instances": 5,
-      "mesh_triangles": 4467,
+      "feature_count": 247,
+      "instances": 15,
+      "mesh_triangles": 6507,
       "signs": 0,
-      "content_sha256": "7bc1b6a57490a82544c32493d3ceab3eab990aff2c10222e4e7a5b4611d2a758"
+      "content_sha256": "9985364631dff60c267de1fdb13a7a475d7dc8d1515ecb0ef34a1f61cd50cc94",
+      "art": 0
     },
     {
       "id": "street_tile_003_005",
       "kind": "zone",
       "bounds": [
-        -508.637,
+        -508.705,
         192.047,
         -244.791,
-        506.179
+        507.76
       ],
       "url": "/world/detail/m23/street_tile_003_005.json",
-      "feature_count": 175,
-      "instances": 33,
-      "mesh_triangles": 4909,
+      "feature_count": 635,
+      "instances": 60,
+      "mesh_triangles": 9402,
       "signs": 0,
-      "content_sha256": "7e0991e7b680c7d81408b0ea26bb1df02bea7701a32524d4e11266e96a159142"
+      "content_sha256": "45d839b9f81307d8ff156e50e7d2ca9fc04e5617d2ff4527fdd753b56d42e374",
+      "art": 0
     },
     {
       "id": "street_tile_003_006",
       "kind": "zone",
       "bounds": [
-        -535.399,
-        -3.47,
+        -535.626,
+        -5.786,
         -240.734,
         287.515
       ],
       "url": "/world/detail/m23/street_tile_003_006.json",
-      "feature_count": 129,
-      "instances": 39,
-      "mesh_triangles": 2502,
+      "feature_count": 463,
+      "instances": 63,
+      "mesh_triangles": 6213,
       "signs": 0,
-      "content_sha256": "7fef319698129cc80671561f3cefc00bbdf7118c9f1c60c006e9dd713133db3c"
+      "content_sha256": "715c98cc029160fb6a6be39e7b1e6c66260f9d7c772475054719dbf917b50531",
+      "art": 1
     },
     {
       "id": "street_tile_003_007",
@@ -1177,30 +1349,32 @@
         -497.88,
         -258.51,
         -239.491,
-        18.137
+        25.697
       ],
       "url": "/world/detail/m23/street_tile_003_007.json",
-      "feature_count": 103,
-      "instances": 41,
-      "mesh_triangles": 3178,
+      "feature_count": 390,
+      "instances": 53,
+      "mesh_triangles": 6723,
       "signs": 0,
-      "content_sha256": "81e531be75a222bb3a6eab511cec34814a9260afaf06e5063628243622923034"
+      "content_sha256": "55bc913abccb0a6f0a5c57154aaaf7227be468c2c53e37ee3e693e681ce13be4",
+      "art": 0
     },
     {
       "id": "street_tile_003_008",
       "kind": "zone",
       "bounds": [
         -496.968,
-        -494.124,
+        -495.216,
         -240.065,
-        -233.706
+        -231.709
       ],
       "url": "/world/detail/m23/street_tile_003_008.json",
-      "feature_count": 148,
-      "instances": 54,
-      "mesh_triangles": 3048,
+      "feature_count": 511,
+      "instances": 76,
+      "mesh_triangles": 6761,
       "signs": 0,
-      "content_sha256": "a4d5b25ddc096192009c23b9e5ada9611c2d4209537f727446e709a557812b2d"
+      "content_sha256": "734a08c31aabc938a0b255fc6e28d59904c6ce25937b359e658035b8ec9abcca",
+      "art": 0
     },
     {
       "id": "street_tile_003_009",
@@ -1212,11 +1386,12 @@
         -486.716
       ],
       "url": "/world/detail/m23/street_tile_003_009.json",
-      "feature_count": 83,
+      "feature_count": 158,
       "instances": 0,
-      "mesh_triangles": 3877,
+      "mesh_triangles": 4807,
       "signs": 0,
-      "content_sha256": "d8e4677547e28506985600e4c5919591aa6b9dcec2ed46210c4e28c777c4662a"
+      "content_sha256": "56b899b470be64943300e56df75da489961f532bd080250a284e6b4f24d750fb",
+      "art": 0
     },
     {
       "id": "street_tile_003_010",
@@ -1228,11 +1403,12 @@
         -738.866
       ],
       "url": "/world/detail/m23/street_tile_003_010.json",
-      "feature_count": 64,
-      "instances": 17,
-      "mesh_triangles": 5782,
+      "feature_count": 168,
+      "instances": 23,
+      "mesh_triangles": 7192,
       "signs": 0,
-      "content_sha256": "c8b3bd1ae48ef7ac3d636ced58bea9cb588348ddb91566c68b30e37678e12dad"
+      "content_sha256": "a587200e780b9c86b17bc9da519051af5977aca78b11a49ca991558f7eccb97c",
+      "art": 0
     },
     {
       "id": "street_tile_003_011",
@@ -1244,59 +1420,63 @@
         -898.323
       ],
       "url": "/world/detail/m23/street_tile_003_011.json",
-      "feature_count": 206,
-      "instances": 8,
-      "mesh_triangles": 3144,
+      "feature_count": 260,
+      "instances": 28,
+      "mesh_triangles": 5188,
       "signs": 0,
-      "content_sha256": "498ce34eda9694c5805a3ad77ba73e2716b79250d912a94b86a0b894819f32df"
+      "content_sha256": "9b8f9aa2dd0a26f233cbd0ae37e24227981095b31c425956ed3a062ec384203c",
+      "art": 0
     },
     {
       "id": "street_tile_004_004",
       "kind": "zone",
       "bounds": [
         -257.559,
-        451.257,
+        443.698,
         32.601,
         611.6
       ],
       "url": "/world/detail/m23/street_tile_004_004.json",
-      "feature_count": 75,
-      "instances": 2,
-      "mesh_triangles": 1154,
+      "feature_count": 195,
+      "instances": 10,
+      "mesh_triangles": 1586,
       "signs": 0,
-      "content_sha256": "b3cdb319a14272be56aebe645f766a4050b5e6e56b859314673ab715d1818e2d"
+      "content_sha256": "014a67ac57289f0c2d528a8b8b772606f2fe58bc2d7ebfd261391ef298302096",
+      "art": 0
     },
     {
       "id": "street_tile_004_005",
       "kind": "zone",
       "bounds": [
-        -263.294,
+        -270.667,
         214.008,
         53.917,
-        497.465
+        505.407
       ],
       "url": "/world/detail/m23/street_tile_004_005.json",
-      "feature_count": 164,
-      "instances": 42,
-      "mesh_triangles": 3293,
+      "feature_count": 668,
+      "instances": 88,
+      "mesh_triangles": 7759,
       "signs": 0,
-      "content_sha256": "95bfc1e9123319020750a8ba9c9650e68c7ec4dae9b5f5dbe3fe66d07249f0f9"
+      "content_sha256": "d50dbb3394f6dcac4fb260ecd6a8735a20e1de891578f833bd9b57dd78b7109b",
+      "art": 2
     },
     {
       "id": "street_tile_004_006",
       "kind": "zone",
       "bounds": [
         -251.136,
-        -13.772,
-        8.848,
+        -14.067,
+        20.393,
         253.056
       ],
       "url": "/world/detail/m23/street_tile_004_006.json",
-      "feature_count": 112,
-      "instances": 26,
-      "mesh_triangles": 2389,
+      "feature_count": 299,
+      "instances": 36,
+      "mesh_triangles": 4033,
       "signs": 0,
-      "content_sha256": "67e674f1def0b111866e0be3520532e1502f3728b39d71df0046761140c9aa0f"
+      "content_sha256": "ac748c0d9e191f4504c0d837f69a7521cbe9fcaaaddbdfb807cb61379cce0fba",
+      "art": 0
     },
     {
       "id": "street_tile_004_007",
@@ -1304,47 +1484,50 @@
       "bounds": [
         -243.822,
         -278.16,
-        16.928,
+        17.24,
         -12.697
       ],
       "url": "/world/detail/m23/street_tile_004_007.json",
-      "feature_count": 116,
-      "instances": 69,
-      "mesh_triangles": 2528,
+      "feature_count": 259,
+      "instances": 77,
+      "mesh_triangles": 3182,
       "signs": 0,
-      "content_sha256": "07b58a97927a3d8f131ace98fab3664f23e47c45983c4d974c9bccc72040f015"
+      "content_sha256": "81af12e78bc1091ed81d99fcb9e8ec3b12c7a6a71e307b846b3fa731b9c3a11f",
+      "art": 1
     },
     {
       "id": "street_tile_004_008",
       "kind": "zone",
       "bounds": [
-        -250.992,
+        -255.292,
         -508.577,
         11.791,
         -221.115
       ],
       "url": "/world/detail/m23/street_tile_004_008.json",
-      "feature_count": 126,
-      "instances": 24,
-      "mesh_triangles": 4720,
+      "feature_count": 439,
+      "instances": 48,
+      "mesh_triangles": 8521,
       "signs": 0,
-      "content_sha256": "50dda4e1560db74c2db9008c331e9e57066cdc647b9544ae90ff5a09feceb529"
+      "content_sha256": "a6c7fe292c71c2a4f473488a60b389394b19b65133cf184f3916e6a783b564e1",
+      "art": 0
     },
     {
       "id": "street_tile_004_009",
       "kind": "zone",
       "bounds": [
-        -242.319,
+        -248.27,
         -749.188,
         34.797,
         -497.711
       ],
       "url": "/world/detail/m23/street_tile_004_009.json",
-      "feature_count": 87,
+      "feature_count": 191,
       "instances": 0,
-      "mesh_triangles": 2341,
+      "mesh_triangles": 3987,
       "signs": 0,
-      "content_sha256": "b433437f452b41955166a15ed6398ef5808b51c99305ba88b3df5b9eb031a779"
+      "content_sha256": "fa2fc25148cb96b62292e2bdf87edafd90908e25030cb130ca85170d6b31b384",
+      "art": 0
     },
     {
       "id": "street_tile_004_010",
@@ -1356,11 +1539,12 @@
         -621.698
       ],
       "url": "/world/detail/m23/street_tile_004_010.json",
-      "feature_count": 103,
+      "feature_count": 107,
       "instances": 0,
-      "mesh_triangles": 7427,
+      "mesh_triangles": 7586,
       "signs": 0,
-      "content_sha256": "d2dc3a162032df10701034f08183ee557aab6fbc3e0642b797f2f86c28e53bd4"
+      "content_sha256": "82d10cfdc376e7ff689e5e05e4eaf2d25fb8e2ac713956a25b0d86ec730362d5",
+      "art": 0
     },
     {
       "id": "street_tile_004_011",
@@ -1372,11 +1556,12 @@
         -958.072
       ],
       "url": "/world/detail/m23/street_tile_004_011.json",
-      "feature_count": 37,
-      "instances": 11,
-      "mesh_triangles": 1995,
+      "feature_count": 50,
+      "instances": 13,
+      "mesh_triangles": 2325,
       "signs": 0,
-      "content_sha256": "03f5fb6298bdb38b9f9b80f8646bd6d4871e74f23de3876ec3161ccacd6d0a3f"
+      "content_sha256": "7977bffd4418fee3bda3bfa64a36d33f45ae65f73776abef7b6f049b3a676ae3",
+      "art": 0
     },
     {
       "id": "street_tile_005_004",
@@ -1385,46 +1570,49 @@
         -33.016,
         474.893,
         283.541,
-        752.455
+        759.008
       ],
       "url": "/world/detail/m23/street_tile_005_004.json",
-      "feature_count": 92,
-      "instances": 5,
-      "mesh_triangles": 1759,
+      "feature_count": 283,
+      "instances": 21,
+      "mesh_triangles": 2502,
       "signs": 0,
-      "content_sha256": "64f36f1ebf475ab3b1bc2c9fc65d36286f674ef504750cfa6acdb2923c7447d6"
+      "content_sha256": "5a8ae61724284d23c6645015993850405f69074243de198e322a9c1091c0b571",
+      "art": 0
     },
     {
       "id": "street_tile_005_005",
       "kind": "zone",
       "bounds": [
-        12.054,
+        4.494,
         214.407,
         298.959,
-        480.664
+        483.227
       ],
       "url": "/world/detail/m23/street_tile_005_005.json",
-      "feature_count": 102,
-      "instances": 24,
-      "mesh_triangles": 2436,
+      "feature_count": 375,
+      "instances": 49,
+      "mesh_triangles": 4061,
       "signs": 0,
-      "content_sha256": "ae1c88b0df6dc5ca5d68c1cc41affb7bd345196e0cf8b6735309e980afc2b5c0"
+      "content_sha256": "4aa0706f1511c6dc0fa147d6b28ba6adaa4d6ea6d48e4bf62f97b9ccabee6550",
+      "art": 0
     },
     {
       "id": "street_tile_005_006",
       "kind": "zone",
       "bounds": [
         -7.395,
-        -1.894,
+        -7.099,
         262.598,
-        230.004
+        231.123
       ],
       "url": "/world/detail/m23/street_tile_005_006.json",
-      "feature_count": 127,
-      "instances": 64,
-      "mesh_triangles": 1793,
+      "feature_count": 314,
+      "instances": 74,
+      "mesh_triangles": 4157,
       "signs": 0,
-      "content_sha256": "a1624a170d13972fb682881e908d1534a57dd9322c2340d3eadbf007e53b1769"
+      "content_sha256": "2ed46264d56e3a6fec43a0534cea3d9d48f1c90d081abd00c96223b69a222dfb",
+      "art": 1
     },
     {
       "id": "street_tile_005_007",
@@ -1433,14 +1621,15 @@
         -62.138,
         -260.377,
         267.793,
-        15.402
+        15.705
       ],
       "url": "/world/detail/m23/street_tile_005_007.json",
-      "feature_count": 182,
-      "instances": 15,
-      "mesh_triangles": 4789,
+      "feature_count": 487,
+      "instances": 33,
+      "mesh_triangles": 6393,
       "signs": 0,
-      "content_sha256": "ff625ea3afb395be4f18782a89f6ab7ef84cfb15036bab9452d17165d0f1a612"
+      "content_sha256": "54f4cb062a5842765af6a753f8b62b2b9986eead53811d13ecdf9a9d0155e0c7",
+      "art": 0
     },
     {
       "id": "street_tile_005_008",
@@ -1448,15 +1637,16 @@
       "bounds": [
         -40.651,
         -523.172,
-        301.003,
-        -249.887
+        307.506,
+        -243.524
       ],
       "url": "/world/detail/m23/street_tile_005_008.json",
-      "feature_count": 184,
-      "instances": 46,
-      "mesh_triangles": 4541,
+      "feature_count": 528,
+      "instances": 66,
+      "mesh_triangles": 8073,
       "signs": 0,
-      "content_sha256": "e38e7bf39f26da49564658a0cea0c05b8d3597e2cb8f5d21389d265aa697e8bf"
+      "content_sha256": "c926358e662fb92a7503c1ad03b4c34d94dfae216cb2123846eaefcb54039dbd",
+      "art": 0
     },
     {
       "id": "street_tile_005_009",
@@ -1465,14 +1655,15 @@
         1.736,
         -779.942,
         251.873,
-        -480.244
+        -479.809
       ],
       "url": "/world/detail/m23/street_tile_005_009.json",
-      "feature_count": 129,
-      "instances": 41,
-      "mesh_triangles": 3312,
+      "feature_count": 341,
+      "instances": 55,
+      "mesh_triangles": 4576,
       "signs": 0,
-      "content_sha256": "026c9e8ef30e91050b2d77d9ee7561681ba40d1ec89a83257010d90daec98d0a"
+      "content_sha256": "deb6acfb35d2f78ceacad6ae7b032c8142319a7856adfb2f0709b3d1821bc26a",
+      "art": 0
     },
     {
       "id": "street_tile_005_010",
@@ -1481,14 +1672,15 @@
         -23.526,
         -1010.987,
         272.755,
-        -750.082
+        -743.128
       ],
       "url": "/world/detail/m23/street_tile_005_010.json",
-      "feature_count": 128,
-      "instances": 0,
-      "mesh_triangles": 2626,
+      "feature_count": 336,
+      "instances": 10,
+      "mesh_triangles": 3208,
       "signs": 0,
-      "content_sha256": "01f1a44c27d79ac13568a034a8690feee46298cdf0e038a9b18e9217b7cc945b"
+      "content_sha256": "8851e96e81984879c9133855a3c08f82cd9b422ef8c72be094bba853558e9805",
+      "art": 0
     },
     {
       "id": "street_tile_005_011",
@@ -1504,7 +1696,8 @@
       "instances": 0,
       "mesh_triangles": 956,
       "signs": 0,
-      "content_sha256": "d5af26f19a9b11fd24413bf1aa5241fca060cdb3694e5f44a67716bb323691f1"
+      "content_sha256": "d5af26f19a9b11fd24413bf1aa5241fca060cdb3694e5f44a67716bb323691f1",
+      "art": 0
     },
     {
       "id": "street_tile_006_004",
@@ -1516,11 +1709,12 @@
         901.956
       ],
       "url": "/world/detail/m23/street_tile_006_004.json",
-      "feature_count": 319,
-      "instances": 6,
-      "mesh_triangles": 6979,
+      "feature_count": 841,
+      "instances": 62,
+      "mesh_triangles": 13236,
       "signs": 0,
-      "content_sha256": "ed5a427c67587d73d175754e51ee1eae5b28084b7c7af967b6194ee3ff4bd011"
+      "content_sha256": "fe0b773524eae6ea5cdda0c192f2d4ac0c14c681a5dcc21f7648dff99e36fc14",
+      "art": 0
     },
     {
       "id": "street_tile_006_005",
@@ -1532,11 +1726,12 @@
         526.342
       ],
       "url": "/world/detail/m23/street_tile_006_005.json",
-      "feature_count": 147,
-      "instances": 32,
-      "mesh_triangles": 5241,
+      "feature_count": 451,
+      "instances": 72,
+      "mesh_triangles": 7113,
       "signs": 0,
-      "content_sha256": "d34ea681672e3c255ae1180dbc69856908d50be1a5af6a852bd71b301bf71b65"
+      "content_sha256": "3308ad038c5e4ed1b01daa56524f13fdcca73f495e985e0f4c1c0d55e8a32ef4",
+      "art": 0
     },
     {
       "id": "street_tile_006_006",
@@ -1544,31 +1739,33 @@
       "bounds": [
         240.851,
         -18.584,
-        491.149,
+        491.297,
         262.487
       ],
       "url": "/world/detail/m23/street_tile_006_006.json",
-      "feature_count": 106,
-      "instances": 10,
-      "mesh_triangles": 3405,
+      "feature_count": 295,
+      "instances": 24,
+      "mesh_triangles": 5140,
       "signs": 0,
-      "content_sha256": "5a9c35f56d7f875ebdba2cd28dd515f1aa8e1d07d302d6e351727c4d231b4705"
+      "content_sha256": "8b62a40ca14f71eeed77f9e01e96b6baf50a98f7e9b079977cb08c5f99826aa7",
+      "art": 0
     },
     {
       "id": "street_tile_006_007",
       "kind": "zone",
       "bounds": [
         252.63,
-        -269.058,
+        -269.226,
         512.923,
-        -12.209
+        -10.639
       ],
       "url": "/world/detail/m23/street_tile_006_007.json",
-      "feature_count": 127,
-      "instances": 34,
-      "mesh_triangles": 3696,
+      "feature_count": 419,
+      "instances": 50,
+      "mesh_triangles": 6510,
       "signs": 0,
-      "content_sha256": "a0fd66c2e6111eb5ee95c7faf030415440bb0fc10fd106fea50db1423fb19b75"
+      "content_sha256": "16e82f05b2e3b3d7e41d23a2ef46304186f2a007264961b011803ce565433e68",
+      "art": 0
     },
     {
       "id": "street_tile_006_008",
@@ -1576,31 +1773,33 @@
       "bounds": [
         248.899,
         -517.925,
-        483.927,
-        -249.03
+        499.931,
+        -248.576
       ],
       "url": "/world/detail/m23/street_tile_006_008.json",
-      "feature_count": 104,
+      "feature_count": 268,
       "instances": 6,
-      "mesh_triangles": 2520,
+      "mesh_triangles": 4118,
       "signs": 0,
-      "content_sha256": "e479bf6200559c9340bada94c161a12a2d13eebebabf47a265423aecfd24b5cc"
+      "content_sha256": "cc4134081d931c252417e8fed3dde5fe8293db4d750d81109a3e0cdea4ac3815",
+      "art": 0
     },
     {
       "id": "street_tile_006_009",
       "kind": "zone",
       "bounds": [
-        238.435,
+        238.158,
         -752.945,
         510.845,
         -480.309
       ],
       "url": "/world/detail/m23/street_tile_006_009.json",
-      "feature_count": 110,
-      "instances": 51,
-      "mesh_triangles": 3240,
+      "feature_count": 316,
+      "instances": 61,
+      "mesh_triangles": 3844,
       "signs": 0,
-      "content_sha256": "3c81580ce25f0d8165c5105209e185317ed4bc12d9a4a9e50684305652d90f54"
+      "content_sha256": "9fb2a13820cd5270b017ecc7373fa0f366a181ab0d3ca644c6fd49fbb948f960",
+      "art": 0
     },
     {
       "id": "street_tile_006_010",
@@ -1609,30 +1808,32 @@
         235.135,
         -1004.915,
         502.567,
-        -745.548
+        -738.997
       ],
       "url": "/world/detail/m23/street_tile_006_010.json",
-      "feature_count": 122,
-      "instances": 39,
-      "mesh_triangles": 3606,
+      "feature_count": 298,
+      "instances": 65,
+      "mesh_triangles": 4356,
       "signs": 0,
-      "content_sha256": "bf74ab6c5d454f0220fafbc6dffabf09daf2e266ab45d6da4d93aa91e28550a4"
+      "content_sha256": "d1455fbe45eb57da8f889c07c4133231477d7707a784fe398d29161327a5a89a",
+      "art": 0
     },
     {
       "id": "street_tile_006_011",
       "kind": "zone",
       "bounds": [
-        337.202,
+        273.512,
         -1108.157,
         494.176,
-        -1018.635
+        -1010.256
       ],
       "url": "/world/detail/m23/street_tile_006_011.json",
-      "feature_count": 2,
+      "feature_count": 5,
       "instances": 8,
-      "mesh_triangles": 0,
+      "mesh_triangles": 4,
       "signs": 0,
-      "content_sha256": "a93100532f528e01207d56fb23a3f2455c0884021b030e5414537ddd92cf77d3"
+      "content_sha256": "1df7af0cbeae4a8c64a31fbc92effd42c16a24d029133d3d29c2941c68c6313b",
+      "art": 0
     },
     {
       "id": "street_tile_007_003",
@@ -1648,7 +1849,8 @@
       "instances": 0,
       "mesh_triangles": 810,
       "signs": 0,
-      "content_sha256": "2e9ff2f1d629670a5293058dbf0c58bc2117fbc0423a8c02670a110204f2b498"
+      "content_sha256": "2e9ff2f1d629670a5293058dbf0c58bc2117fbc0423a8c02670a110204f2b498",
+      "art": 0
     },
     {
       "id": "street_tile_007_004",
@@ -1660,11 +1862,12 @@
         860.256
       ],
       "url": "/world/detail/m23/street_tile_007_004.json",
-      "feature_count": 92,
-      "instances": 5,
-      "mesh_triangles": 6560,
+      "feature_count": 158,
+      "instances": 21,
+      "mesh_triangles": 7281,
       "signs": 0,
-      "content_sha256": "4b57d36db2a17d0f56b82480f68c00b1022be4bac0042a1c505e56cc1d5685f6"
+      "content_sha256": "7f682a685ebedeae9436cc64777916459506ec64d9355cb115f57599e015ed44",
+      "art": 0
     },
     {
       "id": "street_tile_007_005",
@@ -1676,11 +1879,12 @@
         528.841
       ],
       "url": "/world/detail/m23/street_tile_007_005.json",
-      "feature_count": 124,
-      "instances": 6,
-      "mesh_triangles": 2557,
+      "feature_count": 271,
+      "instances": 22,
+      "mesh_triangles": 4729,
       "signs": 0,
-      "content_sha256": "e69b493a8458db7d5085399f3b4c02222839a8ca8b1c2406908161fd70934a99"
+      "content_sha256": "76c016a022031a7f0f2fe72a4735b726d125c5acb7cb2917231d4beff990350a",
+      "art": 0
     },
     {
       "id": "street_tile_007_006",
@@ -1692,11 +1896,12 @@
         491.926
       ],
       "url": "/world/detail/m23/street_tile_007_006.json",
-      "feature_count": 239,
-      "instances": 0,
-      "mesh_triangles": 3842,
+      "feature_count": 672,
+      "instances": 46,
+      "mesh_triangles": 8318,
       "signs": 0,
-      "content_sha256": "9c76347e4e2a8dc7348106561baabf1ec7121ffc081e61117348f9ed4da31f78"
+      "content_sha256": "46a00e015e7cad9de85a4f0b140d9af757d0e2f3c8b2a424f888b4f040aec536",
+      "art": 0
     },
     {
       "id": "street_tile_007_007",
@@ -1704,31 +1909,33 @@
       "bounds": [
         491.449,
         -251.424,
-        798.456,
+        805.251,
         5.051
       ],
       "url": "/world/detail/m23/street_tile_007_007.json",
-      "feature_count": 166,
-      "instances": 47,
-      "mesh_triangles": 4202,
+      "feature_count": 591,
+      "instances": 76,
+      "mesh_triangles": 8396,
       "signs": 0,
-      "content_sha256": "655c6e8c53a1cc235e09a21c67bcefdf7e2ae9594d3a9cb24aa0ef1ed15ce7fd"
+      "content_sha256": "98e3145a4125428f63d5e9b5d3416c523007dce4d157e9c72e423d74b7b11248",
+      "art": 0
     },
     {
       "id": "street_tile_007_008",
       "kind": "zone",
       "bounds": [
-        504.01,
+        497.421,
         -547.912,
         791.827,
         -203.652
       ],
       "url": "/world/detail/m23/street_tile_007_008.json",
-      "feature_count": 86,
-      "instances": 0,
-      "mesh_triangles": 1105,
+      "feature_count": 285,
+      "instances": 39,
+      "mesh_triangles": 2995,
       "signs": 0,
-      "content_sha256": "80fece7a338b216571050f2a7136e8822e38b3bdba9355c99fed2a5dd9b42098"
+      "content_sha256": "81a4b5f73a6a64634a1371960237c20bc95174dc5b6a18ed6d11bcc32d6956d5",
+      "art": 0
     },
     {
       "id": "street_tile_007_009",
@@ -1740,11 +1947,12 @@
         -560.864
       ],
       "url": "/world/detail/m23/street_tile_007_009.json",
-      "feature_count": 29,
+      "feature_count": 91,
       "instances": 0,
-      "mesh_triangles": 515,
+      "mesh_triangles": 665,
       "signs": 0,
-      "content_sha256": "1486f9adbb439db5af15fb8605bb80ca9e39d3047d2aec02e34e64a042124fda"
+      "content_sha256": "2b046ffd3443026e9b2cee682927c320f738634aa062a8497157b0c8f662941d",
+      "art": 0
     },
     {
       "id": "street_tile_007_010",
@@ -1756,11 +1964,12 @@
         -705.826
       ],
       "url": "/world/detail/m23/street_tile_007_010.json",
-      "feature_count": 33,
-      "instances": 11,
-      "mesh_triangles": 376,
+      "feature_count": 106,
+      "instances": 15,
+      "mesh_triangles": 580,
       "signs": 0,
-      "content_sha256": "6f44a108adf12a1affb08047eff7006309e5ac9c55c0d5d6e3dd0175edb07675"
+      "content_sha256": "6f9ddb0069108a5026ebe020ed8be8664662b1188a8114a2e0db12799221834f",
+      "art": 0
     },
     {
       "id": "street_tile_008_003",
@@ -1776,7 +1985,8 @@
       "instances": 0,
       "mesh_triangles": 582,
       "signs": 0,
-      "content_sha256": "63cd5c4cd94d30972262eae7890c2b5d39faa39f01336c34e9b59badf9a914fb"
+      "content_sha256": "63cd5c4cd94d30972262eae7890c2b5d39faa39f01336c34e9b59badf9a914fb",
+      "art": 0
     },
     {
       "id": "street_tile_008_004",
@@ -1788,11 +1998,12 @@
         748.573
       ],
       "url": "/world/detail/m23/street_tile_008_004.json",
-      "feature_count": 71,
+      "feature_count": 83,
       "instances": 0,
-      "mesh_triangles": 2857,
+      "mesh_triangles": 3117,
       "signs": 0,
-      "content_sha256": "5ddab02ac71e2a612b726d7caf0d1bf589063f9e5ea50e09d1ff198c6e9fcc3d"
+      "content_sha256": "009d3f4c7aeb769c5c9cbce60047280862f5e1b327ce69b9e3bd46a3f481f690",
+      "art": 0
     },
     {
       "id": "street_tile_008_005",
@@ -1804,43 +2015,46 @@
         533.528
       ],
       "url": "/world/detail/m23/street_tile_008_005.json",
-      "feature_count": 62,
+      "feature_count": 66,
       "instances": 0,
-      "mesh_triangles": 3933,
+      "mesh_triangles": 4046,
       "signs": 0,
-      "content_sha256": "b967e3ca0dcbac60570f053c13c310b99bc822e30463dd7e9cf9c8190c255783"
+      "content_sha256": "c5bce73b8d97f821d154d84dfd190d38ac0a9131937278b799ab65fdaee01d8d",
+      "art": 0
     },
     {
       "id": "street_tile_008_006",
       "kind": "zone",
       "bounds": [
-        692.249,
-        -85.111,
+        687.121,
+        -91.448,
         982.905,
         271.896
       ],
       "url": "/world/detail/m23/street_tile_008_006.json",
-      "feature_count": 114,
-      "instances": 0,
-      "mesh_triangles": 1680,
+      "feature_count": 171,
+      "instances": 4,
+      "mesh_triangles": 2778,
       "signs": 0,
-      "content_sha256": "897fa35af1c5ddeb1deb2f5b0900b0ea18e9ba7618d976b5681a195e3170d7d2"
+      "content_sha256": "4a20a3d74a58be8af99c15585c34f45654546470d56435eb37d2ba146fd0d32a",
+      "art": 0
     },
     {
       "id": "street_tile_008_007",
       "kind": "zone",
       "bounds": [
-        694.375,
-        -154.109,
+        687.801,
+        -161.975,
         939.944,
         58.731
       ],
       "url": "/world/detail/m23/street_tile_008_007.json",
-      "feature_count": 50,
-      "instances": 0,
-      "mesh_triangles": 316,
+      "feature_count": 153,
+      "instances": 4,
+      "mesh_triangles": 1376,
       "signs": 0,
-      "content_sha256": "76490cff735b6ab0d6f99bc457c2b5028cce5018a3c20e9ba0e3584a89cff759"
+      "content_sha256": "5d6c5c2970b26405b7cecf7512d6063c1fd1edffb27efc56d55cd54f51127255",
+      "art": 0
     },
     {
       "id": "street_tile_008_009",
@@ -1852,35 +2066,41 @@
         -498.328
       ],
       "url": "/world/detail/m23/street_tile_008_009.json",
-      "feature_count": 39,
-      "instances": 2,
-      "mesh_triangles": 1136,
+      "feature_count": 152,
+      "instances": 20,
+      "mesh_triangles": 2064,
       "signs": 0,
-      "content_sha256": "2ef8014edc5773149f9699aeee58affaa3f1a9a33019524b731b5abbc8adf484"
+      "content_sha256": "34588d9a1704124433fa99460b8dc6d7ac684cabf4c4d3e6fb793856b24ad82e",
+      "art": 0
     },
     {
       "id": "suites",
       "kind": "landmark",
       "bounds": [
-        -545.82,
-        -136.998,
-        -442.493,
-        -39.712
+        -547.010208,
+        -138.600414,
+        -441.308772,
+        -37.929607
       ],
       "url": "/world/detail/m23/suites.json",
       "feature_count": 20,
-      "instances": 636,
-      "mesh_triangles": 79,
+      "instances": 0,
+      "mesh_triangles": 7939,
       "signs": 1,
-      "content_sha256": "f099464b7a6535f448a3c7f096e9fe506e84199a715f31a7c21eee9ead231a63",
+      "content_sha256": "6c79c0401bed9e3ee69712da60bb318420995e2db4da05c96b57ea91202b73ca",
       "entity_id": "osm:way:203910666",
       "name": "The Suites at One Bonifacio High Street",
       "replaces": [
         "osm:way:203910666",
         "osm:way:538701626"
       ],
+      "replacement_entity_ids": [
+        "osm:way:203910666"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 227.0,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "terra_28th",
@@ -1896,7 +2116,8 @@
       "instances": 36,
       "mesh_triangles": 900,
       "signs": 1,
-      "content_sha256": "ea125789c8300dcf750234ccaadc3914b240b51e2722454c3ce21e1c5db859d8"
+      "content_sha256": "3d586c870ef7dbaf1120242ec2c495b28af726e8298684a76abaf968344bff6f",
+      "art": 1
     },
     {
       "id": "track_30th",
@@ -1912,30 +2133,36 @@
       "instances": 44,
       "mesh_triangles": 969,
       "signs": 1,
-      "content_sha256": "0474582ebc3f6981f0e0b74bcd539a13f2c311b12355647d8ada0d2d01219d05"
+      "content_sha256": "9a7757514db01a63cacd4e9c8c5ece6b0682f00048c058fa2b9ce68721deb654",
+      "art": 4
     },
     {
       "id": "uniqlo",
       "kind": "landmark",
       "bounds": [
-        -161.522,
-        -145.566,
-        -129.362,
-        -103.702
+        -163.615846,
+        -147.370202,
+        -127.919131,
+        -101.774139
       ],
       "url": "/world/detail/m23/uniqlo.json",
       "feature_count": 9,
-      "instances": 35,
-      "mesh_triangles": 25,
+      "instances": 0,
+      "mesh_triangles": 493,
       "signs": 1,
-      "content_sha256": "fd6031ddf51364accf6b22d4c088f5ec5d489eb4d37e16a1386463bf17b4a628",
+      "content_sha256": "2fc6184565598659e2d5b6d8a45746c08c493a572406a2ad68d9c1f500b4c9aa",
       "entity_id": "osm:way:443761696",
       "name": "Uniqlo",
       "replaces": [
         "osm:way:443761696"
       ],
+      "replacement_entity_ids": [
+        "osm:way:443761696"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 12.8,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     },
     {
       "id": "university_parkway",
@@ -1951,23 +2178,24 @@
       "instances": 0,
       "mesh_triangles": 325,
       "signs": 0,
-      "content_sha256": "150c819705a892eff7e7ee7b5648c00002c8ca3cc6985a1e253d4283d6e0816a"
+      "content_sha256": "150c819705a892eff7e7ee7b5648c00002c8ca3cc6985a1e253d4283d6e0816a",
+      "art": 0
     },
     {
       "id": "uptown_mall",
       "kind": "landmark",
       "bounds": [
-        277.425,
-        -676.44,
-        463.547,
-        -503.892
+        276.894188,
+        -677.763517,
+        464.215018,
+        -503.34493
       ],
       "url": "/world/detail/m23/uptown_mall.json",
       "feature_count": 88,
-      "instances": 587,
-      "mesh_triangles": 462,
+      "instances": 0,
+      "mesh_triangles": 8466,
       "signs": 1,
-      "content_sha256": "854771b9894e65146dcff64385ad45c2255372eb54cd7601e19f7e2307f0436c",
+      "content_sha256": "6815074a2f2e92f13e6f68bb841fc34c00ebcfdddb504eafed7b74d373ba6efc",
       "entity_id": "osm:way:533345980",
       "name": "Uptown Mall",
       "replaces": [
@@ -1981,8 +2209,13 @@
         "osm:way:613886959",
         "osm:way:613886960"
       ],
+      "replacement_entity_ids": [
+        "osm:way:533345980"
+      ],
+      "identity_visibility": "OWNER_TILE",
       "height_m": 89.6,
-      "activation_m": 260
+      "activation_m": 260,
+      "art": 0
     }
   ],
   "materials": {

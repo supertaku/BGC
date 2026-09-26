@@ -1,0 +1,94 @@
+{
+  "entity_id": "one_bonifacio",
+  "iteration": "m23r",
+  "cameras": [
+    {
+      "camera_id": "AERIAL",
+      "position": [
+        -198.69921875,
+        -186.51715087890625,
+        319.27764892578125
+      ],
+      "target": [
+        -459.763916015625,
+        74.54755401611328,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_bonifacio\\AERIAL.png"
+    },
+    {
+      "camera_id": "STREET_FRONT",
+      "position": [
+        -459.763916015625,
+        -408.1132507324219,
+        4.0
+      ],
+      "target": [
+        -459.763916015625,
+        74.54755401611328,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_bonifacio\\STREET_FRONT.png"
+    },
+    {
+      "camera_id": "STREET_REAR",
+      "position": [
+        -459.763916015625,
+        557.2083740234375,
+        4.0
+      ],
+      "target": [
+        -459.763916015625,
+        74.54755401611328,
+        3.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_bonifacio\\STREET_REAR.png"
+    },
+    {
+      "camera_id": "LEFT",
+      "position": [
+        -923.546142578125,
+        74.54755401611328,
+        145.13465881347656
+      ],
+      "target": [
+        -459.763916015625,
+        74.54755401611328,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_bonifacio\\LEFT.png"
+    },
+    {
+      "camera_id": "RIGHT",
+      "position": [
+        4.018280029296875,
+        74.54755401611328,
+        145.13465881347656
+      ],
+      "target": [
+        -459.763916015625,
+        74.54755401611328,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_bonifacio\\RIGHT.png"
+    },
+    {
+      "camera_id": "ROOF_OBLIQUE",
+      "position": [
+        -385.1484375,
+        149.16305541992188,
+        478.56475830078125
+      ],
+      "target": [
+        -459.763916015625,
+        74.54755401611328,
+        6.0
+      ],
+      "image": "blender\\renders\\m23\\m23r\\one_bonifacio\\ROOF_OBLIQUE.png"
+    }
+  ],
+  "source_sha256": [
+    "005def33ba7754594269a214cd5f471553307ae29933648869231f2b3797809d"
+  ],
+  "status": "AWAITING_USER_TEST"
+}

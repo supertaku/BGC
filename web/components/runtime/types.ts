@@ -110,6 +110,8 @@ export type RuntimeSummary = {
 
 export type RuntimeMetrics = { fps: number; calls: number; triangles: number; geometries: number; textures: number };
 export type BenchmarkReport = {
+  path_distance_m:number;
+  graphics?:import('./graphicsConfig').GraphicsConfig&{rendererDpr:number;reversedDepthBuffer:boolean};
   status: "PASS" | "INVALID";
   invalid_reasons: string[];
   detail: {tiles:number;instances:number;requests:number};
